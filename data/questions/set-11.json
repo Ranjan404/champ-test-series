@@ -1,0 +1,681 @@
+{
+  "setId": 11,
+  "title": "Set 11",
+  "questions": [
+    {
+      "id": "S11-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Commands",
+      "concept": "Tracert route display and 30-hop limit",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which networking command displays the possible routes taken by packets, measures their transit delays and allows a maximum of 30 hops?",
+      "options": {
+        "A": "ping",
+        "B": "tracert",
+        "C": "netstat",
+        "D": "nslookup",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Tracert (traceroute) displays possible routes/paths and measures transit delays of packets, up to 30 hops, using ICMP. Ping only tests reachability.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "lambda keyword for anonymous functions",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which Python keyword is used to create an anonymous function?",
+      "options": {
+        "A": "def",
+        "B": "yield",
+        "C": "pass",
+        "D": "lambda",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The lambda keyword creates an anonymous function. def defines a named function, yield returns values from a generator and pass executes nothing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S11-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Page Replacement",
+      "concept": "Belady's Anomaly and FIFO",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Increasing the number of page frames sometimes increases the number of page faults. This is always seen in which page replacement algorithm?",
+      "options": {
+        "A": "FIFO",
+        "B": "Optimal",
+        "C": "LRU",
+        "D": "Best Fit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "This situation is Belady's Anomaly, which is always seen in the FIFO page replacement algorithm.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S11-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Types and GPU",
+      "concept": "Origin of the term GPU",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "The term GPU (Graphics Processing Unit), also called a graphic card, was coined by which company?",
+      "options": {
+        "A": "Intel",
+        "B": "AMD",
+        "C": "Sony",
+        "D": "IBM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The term GPU was coined by Sony. A GPU processes in parallel and is used for gaming. Intel and AMD are known for CPU development.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S11-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Types",
+      "concept": "Input-restricted dequeue behaviour",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In an input-restricted dequeue, how are insertion and deletion allowed?",
+      "options": {
+        "A": "Insertion at both ends, deletion at only one end",
+        "B": "Insertion at only one end, deletion from both ends",
+        "C": "Insertion and deletion only at the rear end",
+        "D": "Insertion at the rear and deletion at the front only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An input-restricted dequeue allows insertion at only one end but deletion from both ends. The reverse describes an output-restricted dequeue.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Types of Hackers",
+      "concept": "Grey hat hacker",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A hacker who may break into a system without permission but does not steal money or damage the system is called a:",
+      "options": {
+        "A": "Black hat hacker",
+        "B": "White hat hacker",
+        "C": "Script kiddie",
+        "D": "Grey hat hacker",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A grey hat hacker may hack without permission but does not steal money or damage the system. A white hat hacker has permission, and a black hat hacker gains illegal access.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S11-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Payment Systems",
+      "concept": "MMID used for IMPS transfers",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "MMID (Mobile Money Identifier) is a unique 7-digit number used to initiate transfers through which payment service?",
+      "options": {
+        "A": "IMPS",
+        "B": "RTGS",
+        "C": "NEFT",
+        "D": "ECS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MMID is a unique 7-digit number used to initiate IMPS (Immediate Payment Service) transfers.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Architecture",
+      "concept": "Two-tier DBMS architecture",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In which DBMS architecture is the database kept on a server machine while clients access it using ODBC or JDBC?",
+      "options": {
+        "A": "Single-tier architecture",
+        "B": "Three-tier architecture",
+        "C": "Two-tier architecture",
+        "D": "Peer-to-peer architecture",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In two-tier architecture the database is on the server and clients access it through query languages using ODBC and JDBC. Single-tier is a local database needing no network, and three-tier has external, conceptual and internal levels.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S11-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Branches of TOC",
+      "concept": "Computational complexity theory scope",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which branch of Theory of Computation studies what makes some problems computationally hard and others easy?",
+      "options": {
+        "A": "Automata theory",
+        "B": "Complexity theory",
+        "C": "Computability theory",
+        "D": "Formal language theory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "TOC has three types: computability theory (what can or cannot be computed), computational complexity theory (why some problems are hard and others easy) and automata theory (abstract machines).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S11-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Number System Complements",
+      "concept": "2's complement of a binary number",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "What is the 2's complement of the binary number (1010100)₂?",
+      "options": {
+        "A": "0101011",
+        "B": "0101101",
+        "C": "1010101",
+        "D": "0101100",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The 1's complement of 1010100 is 0101011 (flip all bits). Adding 1 gives the 2's complement 0101100.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S11-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Order of machine learning steps",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the seven steps of Machine Learning, which step comes immediately after Evaluation?",
+      "options": {
+        "A": "Training",
+        "B": "Prediction on new data",
+        "C": "Hyperparameter Tuning",
+        "D": "Choosing a Model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The steps are Gathering Data, Preparing Data, Choosing a Model, Training, Evaluation, Hyperparameter Tuning and Prediction.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S11-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Re-engineering and Reverse Engineering",
+      "concept": "Purpose of reverse engineering",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which process is used mainly to understand and document existing software?",
+      "options": {
+        "A": "Reverse engineering",
+        "B": "Regression testing",
+        "C": "Prototyping",
+        "D": "Feasibility study",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Reverse engineering is used mainly to understand and document existing software. Regression testing reruns previous test cases, and a feasibility study is a cost/benefit analysis.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked List Applications",
+      "concept": "Circular linked list for Round Robin CPU allocation",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which type of linked list is used for allocating the CPU to resources in Round Robin scheduling?",
+      "options": {
+        "A": "Singly Linked List",
+        "B": "Doubly Linked List",
+        "C": "Circular Linked List",
+        "D": "Linked Stack Structure",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A circular linked list is used for allocating CPU in Round Robin scheduling. A doubly linked list is used for Undo and Redo.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S11-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Modifying a variable through a pointer dereference",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What is the output of this C++ code?\nint x = 5;\nint *p = &x;\n*p = 10;\ncout << x;",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "Address of x",
+        "D": "Compile-time error",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "& gives the address of x, so p points to x. Using the dereference operator *, *p = 10 changes x itself, so 10 is printed.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S11-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Private IP Addresses",
+      "concept": "IANA private IP range identification",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following IP addresses falls inside a private IP address range reserved by IANA?",
+      "options": {
+        "A": "172.32.10.1",
+        "B": "192.169.0.1",
+        "C": "11.0.0.1",
+        "D": "172.20.5.1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Private ranges include 10.0.0.0-10.255.255.255, 172.16.0.0-172.31.255.255 and 192.168.0.0-192.168.255.255. Only 172.20.5.1 lies inside one of them.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S11-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Steganography",
+      "concept": "Steganography hides data in images",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Hiding secret information inside a picture is known as:",
+      "options": {
+        "A": "Steganography",
+        "B": "Cryptanalysis",
+        "C": "Decryption",
+        "D": "Authentication",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Steganography hides information inside an image. Unlike encryption, the data is embedded rather than transformed into an obscure format.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S11-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Threads",
+      "concept": "Thread as a lightweight process",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "The smallest unit of a program, such as the spell checker running inside MS Word, is a thread. A thread is also called a:",
+      "options": {
+        "A": "Heavyweight process",
+        "B": "Daemon process",
+        "C": "Lightweight process",
+        "D": "Child process",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A thread is the smallest unit of a program and is also called a lightweight process. In MS Word, spell checking, file saving and text styling can run as separate threads.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "PostgreSQL",
+      "concept": "PostgreSQL origin from Ingres",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "PostgreSQL, the free and open-source object-relational database, is described as an advanced version of which database system?",
+      "options": {
+        "A": "MongoDB",
+        "B": "Ingres",
+        "C": "SQLite",
+        "D": "Cassandra",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "PostgreSQL (Postgres) is an advanced version of Ingres. It is written in C and uses the client/server model.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Formats",
+      "concept": "GIF best suited for animation",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which image format is described as the best choice for animation?",
+      "options": {
+        "A": "JPEG",
+        "B": "TIFF",
+        "C": "PNG",
+        "D": "GIF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "GIF is the animation-friendly format. PNG is best for web images and JPEG is best for photos.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "bool as a subtype of int",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which statement about the Boolean data type in Python is correct?",
+      "options": {
+        "A": "bool is a subtype of int, and False is the value zero",
+        "B": "bool is a subtype of float with values 1.0 and 0.0",
+        "C": "bool is a subtype of str with values 'True' and 'False'",
+        "D": "bool is a separate type unrelated to numbers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In Python, bool is a subtype of integer with two constants, True and False. False is the value zero, while True is non-zero.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S11-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Key Figures",
+      "concept": "Alonzo Church and lambda calculus",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which contribution to Theory of Computation is associated with Alonzo Church?",
+      "options": {
+        "A": "Invention of the Turing machine",
+        "B": "Proof of the pumping lemma",
+        "C": "Development of lambda calculus",
+        "D": "Design of the Chomsky hierarchy",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Alonzo Church developed lambda calculus and co-formulated the Church-Turing thesis. Alan Turing invented the Turing machine.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Shortest Path Algorithms",
+      "concept": "Dijkstra's algorithm properties",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which statement about Dijkstra's algorithm is correct?",
+      "options": {
+        "A": "It uses dynamic programming to find shortest paths",
+        "B": "It is a weighted version of BFS that uses a priority queue",
+        "C": "It gives correct results for negative weight edge cycles",
+        "D": "It works only for directed graphs",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Dijkstra's algorithm is a weighted version of breadth-first search that uses a priority queue and a greedy approach. It fails for negative weight edge cycles and works for both directed and undirected graphs.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S11-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "Z-Wave as a low-power short-range protocol",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following is a low-power short-range IoT network protocol rather than an LPWAN technology?",
+      "options": {
+        "A": "LoRaWAN",
+        "B": "Sigfox",
+        "C": "NB-IoT",
+        "D": "Z-Wave",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Low-power short-range networks are Bluetooth, NFC, Wi-Fi, Z-Wave and Zigbee. LoRaWAN, Sigfox and NB-IoT are LPWAN technologies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S11-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC",
+      "concept": "SWOT analysis in requirement analysis stage",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "In the SDLC stages, SWOT analysis is associated with which stage?",
+      "options": {
+        "A": "Requirement Analysis",
+        "B": "System Design",
+        "C": "Deployment and Release",
+        "D": "Maintenance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The SDLC stages are Planning, Requirement Analysis (SWOT analysis), Design (algorithm and flowchart), Development, Deployment and Maintenance.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S11-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ROM Types",
+      "concept": "EPROM erased using UV rays",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which type of ROM can be erased and edited using UV rays?",
+      "options": {
+        "A": "PROM",
+        "B": "EEPROM",
+        "C": "EPROM",
+        "D": "Mask ROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "EPROM (Erasable Programmable ROM) is edited using UV rays. EEPROM is erased electrically and PROM cannot be edited.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

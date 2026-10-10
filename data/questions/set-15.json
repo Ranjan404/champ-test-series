@@ -1,0 +1,681 @@
+{
+  "setId": 15,
+  "title": "Set 15",
+  "questions": [
+    {
+      "id": "S15-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Canonical Forms",
+      "concept": "Maxterm formation for an input combination",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "In canonical POS form, which maxterm corresponds to the input combination A = 1, B = 0, C = 1?",
+      "options": {
+        "A": "A' + B + C'",
+        "B": "A + B' + C",
+        "C": "A·B'·C",
+        "D": "A'·B·C'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A maxterm is an OR term for a row where the output is 0. In a maxterm a variable equal to 0 is written uncomplemented and a variable equal to 1 is complemented, giving A' + B + C'.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S15-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Halting Problem",
+      "concept": "Undecidability of the halting problem",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which statement about the halting problem is correct?",
+      "options": {
+        "A": "A sufficiently powerful Turing machine can always decide it",
+        "B": "Alonzo Church proved it decidable using lambda calculus",
+        "C": "Linear bounded automata can decide it but pushdown automata cannot",
+        "D": "Turing proved in 1936 that it is undecidable for Turing machines",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The halting problem asks whether a program will finish or run forever. In 1936 Alan Turing proved it undecidable: no Turing machine can decide it correctly for all program/input pairs.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Tuple Built-in Functions",
+      "concept": "sorted() on a tuple returns a new list",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What does sorted((\"Rama\", \"Heena\", \"Raj\")) return in Python?",
+      "options": {
+        "A": "('Heena', 'Raj', 'Rama')",
+        "B": "('Rama', 'Raj', 'Heena')",
+        "C": "['Rama', 'Heena', 'Raj']",
+        "D": "['Heena', 'Raj', 'Rama']",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "sorted() takes the elements of a sequence and returns a new sorted list, even when the input is a tuple. The strings are arranged alphabetically, so the result is a list.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S15-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Weak entity symbol",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In an ER diagram, a weak entity is represented by which symbol?",
+      "options": {
+        "A": "Dashed oval",
+        "B": "Double rectangle",
+        "C": "Double ellipses",
+        "D": "Dashed rectangle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A weak entity cannot be uniquely identified by its own attributes and is drawn as a double rectangle. A dashed oval marks a derived attribute and double ellipses a multivalued attribute.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Mesh topology cable count",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "How many cables are required to connect 6 computers in a fully connected mesh topology?",
+      "options": {
+        "A": "30",
+        "B": "12",
+        "C": "15",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A fully connected mesh with n nodes needs n(n-1)/2 wires: 6 x 5 / 2 = 15.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S15-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Verification and Validation",
+      "concept": "Validation checks that the right product is built",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which activity checks whether the right product has been built for the user's needs and is the responsibility of all stakeholders?",
+      "options": {
+        "A": "Verification",
+        "B": "Validation",
+        "C": "Regression testing",
+        "D": "Smoke testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Validation checks whether the right product was built for user needs and involves all stakeholders. Verification checks whether the product was built correctly.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S15-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Attack Methods",
+      "concept": "Skimming",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Card data is secretly copied by a device while a customer makes a legitimate debit card transaction. This attack is called:",
+      "options": {
+        "A": "Smishing",
+        "B": "Sniffing",
+        "C": "Spoofing",
+        "D": "Skimming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Skimming copies credit or debit card data during legitimate transactions. Smishing uses SMS, sniffing captures network packets and spoofing fakes IP or DNS identity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Encoder and Decoder",
+      "concept": "Encoder made up of OR gates",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "An encoder, a device that converts analog signals into digital signals, is made up of which logic gates?",
+      "options": {
+        "A": "AND gates",
+        "B": "NAND gates",
+        "C": "OR gates",
+        "D": "XOR gates",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "As per the syllabus, an encoder is made up of OR gates. XOR gates are associated with the half adder instead.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Short-Range Networks",
+      "concept": "Zigbee based on IEEE 802.15.4",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which open, global, packet-based IoT protocol, based on IEEE 802.15.4, is used by smart bulbs, smart locks and door sensors?",
+      "options": {
+        "A": "Z-Wave",
+        "B": "Zigbee",
+        "C": "LoRaWAN",
+        "D": "NFC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Zigbee (IEEE 802.15.4) is an open, global, packet-based protocol for low-cost, low-power communication in a PAN. Smart bulbs, plugs, locks and sensors use it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S15-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process State Transitions",
+      "concept": "Running to Ready transition",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In process state transitions, a process moves from the Running state back to the Ready state because of:",
+      "options": {
+        "A": "An interrupt",
+        "B": "An I/O or event wait",
+        "C": "A scheduler dispatch",
+        "D": "An exit after completion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Running to Ready happens on an interrupt. An I/O or event wait moves Running to Wait/Block, dispatch moves Ready to Running and exit moves Running to Terminated.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Protocols",
+      "concept": "RTSP media session control",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which protocol controls media sessions between client and server, enabling play, pause and fast-forward as on Netflix?",
+      "options": {
+        "A": "RTP",
+        "B": "SMTP",
+        "C": "RTSP",
+        "D": "MIME",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RTSP (Real-Time Streaming Protocol) controls media sessions such as play, pause and fast forward. RTP is used for video conferencing and live streaming.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Prim's Algorithm",
+      "concept": "Prim's algorithm starts from any vertex",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which minimum spanning tree algorithm starts with any vertex and repeatedly chooses the minimum weight edge from the already connected vertices?",
+      "options": {
+        "A": "Kruskal's algorithm",
+        "B": "Dijkstra's algorithm",
+        "C": "Prim's algorithm",
+        "D": "Floyd-Warshall algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Prim's algorithm is greedy, starts with any vertex and picks the minimum weight edge from connected vertices. Kruskal's algorithm instead starts with the least weighted edge in the whole graph.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S15-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Arrays and Operators",
+      "concept": "Array index with operator precedence",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "What is the output of this C++ code?\nint a[] = {5, 6, 7, 8, 9};\ncout << a[3] + 3 * 2;",
+      "options": {
+        "A": "22",
+        "B": "13",
+        "C": "14",
+        "D": "20",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Array indexing starts at 0, so a[3] is 8. Multiplication has higher precedence than addition, so 8 + 6 = 14.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S15-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Language class of Linear Bounded Automata",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the Chomsky hierarchy, which language class is exactly characterized by Linear Bounded Automata?",
+      "options": {
+        "A": "Context-free (Type 2)",
+        "B": "Context-sensitive (Type 1)",
+        "C": "Regular (Type 3)",
+        "D": "Recursively enumerable (Type 0)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Type 1 context-sensitive languages are accepted by Linear Bounded Automata. Type 0 maps to Turing machines, Type 2 to pushdown automata and Type 3 to finite automata.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus",
+      "concept": "Virus signature identifies a virus",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "The pattern used to identify a particular computer virus is called a:",
+      "options": {
+        "A": "Virus payload",
+        "B": "Virus vector",
+        "C": "Virus host",
+        "D": "Virus signature",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A virus signature is the pattern used to identify a virus, and antivirus software matches files against such signatures.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S15-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Python Version History",
+      "concept": "Keyword count in Python 3.0",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "According to the Python version history, how many keywords did Python 3.0 (2008) have?",
+      "options": {
+        "A": "33",
+        "B": "30",
+        "C": "35",
+        "D": "31",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Python 2.0 (2000) had 30 keywords, Python 3.0 (2008) had 33 and Python 3.8 (2019) has 35.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S15-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Attribute Types",
+      "concept": "Composite attribute",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "An attribute 'Address' that is made up of pin code, state and country is an example of which attribute type?",
+      "options": {
+        "A": "Multivalued attribute",
+        "B": "Derived attribute",
+        "C": "Composite attribute",
+        "D": "Key attribute",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A composite attribute is a combination of other attributes, such as an address composed of pin code, state and country.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S15-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Schedulers",
+      "concept": "Medium-term scheduler and suspend state",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "When the waiting queue is full and RAM is limited, a process is swapped out to secondary memory and enters the Suspend state. Which scheduler handles this swap?",
+      "options": {
+        "A": "Medium-term scheduler",
+        "B": "Long-term scheduler",
+        "C": "Short-term scheduler",
+        "D": "Short-term CPU dispatcher",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The medium-term scheduler performs swap-in and swap-out between RAM and secondary memory, which is how processes enter the Suspend state.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Immersive Experiences",
+      "concept": "Augmented Reality",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which technology superimposes computer-generated information over the existing physical surroundings instead of creating a completely new environment?",
+      "options": {
+        "A": "Virtual Reality",
+        "B": "Natural Language Processing",
+        "C": "Augmented Reality",
+        "D": "Web of Things",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Augmented Reality overlays digital information on the real world. Unlike Virtual Reality, it does not create a new simulated environment.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "De Morgan's Theorem",
+      "concept": "NOR gate as bubbled AND",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Based on De Morgan's theorem (A + B)' = A'.B', a NOR gate is equivalent to which gate?",
+      "options": {
+        "A": "Bubbled OR gate",
+        "B": "Bubbled AND gate",
+        "C": "Bubbled XOR gate",
+        "D": "Bubbled NAND gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "(A + B)' = A'.B' means a NOR gate equals an AND gate with inverted (bubbled) inputs. By the other law (A.B)' = A' + B', a NAND gate is a bubbled OR.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S15-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Backward compatibility testing",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which type of testing checks that a new version of software still works with files and environments of its older version?",
+      "options": {
+        "A": "Boundary value testing",
+        "B": "Browser compatibility testing",
+        "C": "Sanity testing",
+        "D": "Backward compatibility testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Backward compatibility testing checks that a new version works with older version files and environments. Browser compatibility testing instead checks different browser and OS combinations.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S15-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Evolution of Networking",
+      "concept": "Networking evolution timeline",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Which year-event pairing from the evolution of networking timeline is correct?",
+      "options": {
+        "A": "1969: E-mail developed by Roy Tomlinson",
+        "B": "1986: TCP/IP made standard on ARPANET",
+        "C": "1974: NSFNET expanded connectivity",
+        "D": "1983: Domain Name System introduced",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DNS was introduced in 1983. ARPANET became functional in 1969, e-mail came in 1971, TCP/IP became the ARPANET standard in 1982 and NSFNET expanded in 1986.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S15-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Video Compression",
+      "concept": "Lossless compression examples",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is an example of lossless compression?",
+      "options": {
+        "A": "FLAC",
+        "B": "MP3",
+        "C": "JPEG",
+        "D": "MPEG",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Lossless compression keeps all original quality; examples include ZIP, PNG, BMP, WAV, FLAC, GIF and PDF. JPEG, MP3 and MPEG are lossy.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Storage Classes",
+      "concept": "Storage class with global visibility",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which C++ storage class has global visibility?",
+      "options": {
+        "A": "auto",
+        "B": "extern",
+        "C": "register",
+        "D": "static",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The extern storage class gives a variable global visibility across files; auto and register are local to their block.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S15-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Types of Binary Tree",
+      "concept": "Full binary tree definition",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A binary tree in which every node has either 0 or 2 children is called a:",
+      "options": {
+        "A": "Full binary tree",
+        "B": "Complete binary tree",
+        "C": "Perfect binary tree",
+        "D": "Skewed binary tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A full, proper or strict binary tree has every node with 0 or 2 children. A complete tree fills all levels except possibly the last; a perfect tree fills all levels.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

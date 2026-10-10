@@ -1,0 +1,681 @@
+{
+  "setId": 24,
+  "title": "Set 24",
+  "questions": [
+    {
+      "id": "S24-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Identifying a switch from its forwarding behaviour",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "A LAN device reads the destination address of each incoming packet, forwards it only to the selected device, can forward several packets at once, and drops noisy or corrupted signals asking the sender to resend. Which device is it?",
+      "options": {
+        "A": "Modem",
+        "B": "Hub",
+        "C": "Switch",
+        "D": "Repeater",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "These are the defining behaviours of a switch; a hub broadcasts to all ports and a repeater only regenerates signals.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S24-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Segmentation",
+      "concept": "Segmentation compared with paging",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which statement correctly compares segmentation with paging?",
+      "options": {
+        "A": "Segmentation uses variable-sized logical units and suffers from external fragmentation",
+        "B": "Segmentation divides physical memory into equal frames",
+        "C": "Segmentation removes external fragmentation completely",
+        "D": "Segmentation uses fixed-size blocks and is faster than paging",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Segmentation divides a process into variable-sized segments from the user's point of view; it is slower than paging and suffers from external fragmentation.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Three-Level Schema Architecture",
+      "concept": "External level closest to user",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which level of the three-level schema architecture is closest to the user, so the user does not need to know schema details?",
+      "options": {
+        "A": "Internal or physical level",
+        "B": "External or view level",
+        "C": "Conceptual or logical level",
+        "D": "Storage or file level",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The external (view) level is closest to the user; the internal level is the lowest and deals with physical storage.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S24-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 3 grammar name",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the Chomsky hierarchy, a Type 3 grammar is also called:",
+      "options": {
+        "A": "Unrestricted grammar",
+        "B": "Regular grammar",
+        "C": "Context-sensitive grammar",
+        "D": "Context-free grammar",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Type 3 is regular grammar, accepted by finite automata.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Paradigms",
+      "concept": "Programming paradigms supported by Python",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which programming paradigms does Python support?",
+      "options": {
+        "A": "Object-oriented, structured and functional programming",
+        "B": "Only procedural programming",
+        "C": "Only object-oriented programming",
+        "D": "Only logic programming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Python is a general-purpose language that supports object-oriented, structured and functional programming.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Session Layer",
+      "concept": "Dialogue control and token management",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Dialogue control and token management are responsibilities of which OSI layer?",
+      "options": {
+        "A": "Session layer",
+        "B": "Data Link layer",
+        "C": "Transport layer",
+        "D": "Presentation layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Session layer acts as the dialog controller and manages synchronization and tokens.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Components of DBMS",
+      "concept": "Data Manager component role",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which component of a DBMS manages the operations of the DBMS?",
+      "options": {
+        "A": "Data",
+        "B": "Hardware",
+        "C": "Data Manager",
+        "D": "Data Languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Data Manager manages DBMS operations; data languages are used to define and manipulate data, and data is the stored information.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "CASE Tools",
+      "concept": "Drawback of CASE tools is tool cost",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which of the following is a drawback, rather than a benefit, of adopting CASE tools?",
+      "options": {
+        "A": "The cost of acquiring the tools",
+        "B": "Standardisation of project notation",
+        "C": "A shared repository of project information",
+        "D": "Better communication among team members",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "CASE tools provide standardisation, communication support and a central repository, but they can involve significant tool costs.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S24-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Antivirus",
+      "concept": "Full form of VDF",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In antivirus software, VDF stands for:",
+      "options": {
+        "A": "Virus Detection Filter",
+        "B": "Virtual Defense Firewall",
+        "C": "Virus Definition File",
+        "D": "Verified Data File",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "VDF is the Virus Definition File, which must be regularly updated for the antivirus to detect new malware.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S24-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Immersive Experiences",
+      "concept": "Key contrast between VR and AR",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which statement correctly distinguishes Augmented Reality (AR) from Virtual Reality (VR)?",
+      "options": {
+        "A": "AR augments the existing physical world, while VR creates a new simulated environment",
+        "B": "AR always requires a VR headset, while VR works only on smartphones",
+        "C": "AR creates a new simulated world, while VR overlays data on real surroundings",
+        "D": "AR and VR both replace the physical world entirely with a 3D scene",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Unlike VR, AR does not create something new; it superimposes computer-generated information over the underlying physical world. VR builds a computer-generated 3D environment.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S24-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Error Detection",
+      "concept": "Checking a received even parity word",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In an even parity system, the 8-bit word 11010110 (parity bit included) is received. What does the receiver conclude?",
+      "options": {
+        "A": "The error is corrected by flipping the parity bit",
+        "B": "No error, since parity covers only the first seven bits",
+        "C": "An error is detected, since the word has an odd number of 1s",
+        "D": "No error, since the word has an even number of 1s",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The word contains five 1s, which is odd, so even parity is violated and an error is detected. Parity can detect but not correct errors.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S24-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Moore Machine",
+      "concept": "Final state not necessary in Moore machine",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following is NOT necessary in a Moore machine?",
+      "options": {
+        "A": "An output alphabet",
+        "B": "A final state",
+        "C": "An initial state",
+        "D": "A transition function",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "For a Moore machine, the final state is not necessary because it produces output with each state.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S24-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Resource usage system model order",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In the system model for resource usage, what is the correct order of steps a process follows?",
+      "options": {
+        "A": "Use, request, release",
+        "B": "Request, use, release",
+        "C": "Hold, wait, release",
+        "D": "Request, release, use",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A process first requests a resource, uses it if the request is granted, and must release it after use.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S24-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "ERP",
+      "concept": "ERP full form",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "ERP, the software used to manage key parts of a business, stands for:",
+      "options": {
+        "A": "Electronic Retail Processing",
+        "B": "Enterprise Revenue Programming",
+        "C": "External Resource Payment",
+        "D": "Enterprise Resource Planning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ERP stands for Enterprise Resource Planning.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S24-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Writing to a Text File",
+      "concept": "Numeric data must be converted to string before writing",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "To write the integer stored in marks = 58 to a text file with write(), which statement is correct?",
+      "options": {
+        "A": "myobject.writelines(marks)",
+        "B": "myobject.write(marks)",
+        "C": "myobject.write(int(marks))",
+        "D": "myobject.write(str(marks))",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "write() accepts only a string, so numeric data must first be converted using str().",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S24-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Number System Complements",
+      "concept": "1's complement of decimal 77 in 8 bits",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "What is the 8-bit 1's complement of the decimal number 77?",
+      "options": {
+        "A": "10110100",
+        "B": "10110010",
+        "C": "10110011",
+        "D": "01001101",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "77 = 01001101 in 8 bits; flipping every bit gives 10110010. Adding 1 (10110011) would give the 2's complement.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Keywords",
+      "concept": "Keyword present in C++ but not in C",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following is a C++ keyword that is NOT one of the 32 keywords present in C?",
+      "options": {
+        "A": "register",
+        "B": "volatile",
+        "C": "virtual",
+        "D": "extern",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "register, volatile and extern are original C keywords. virtual is one of the 63 keywords added in C++ for object-oriented features.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S24-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Requirements Engineering",
+      "concept": "Identifying a functional requirement",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which of the following statements is a functional requirement of a library system?",
+      "options": {
+        "A": "The system must use a 64-bit operating system",
+        "B": "The server must be housed in an air-conditioned room",
+        "C": "The system must allow a member to issue a book",
+        "D": "The system must run on a server with 16 GB RAM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A functional requirement describes a task the program must complete, such as issuing a book. The others are system or physical requirements, which are non-functional.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Postfix Evaluation",
+      "concept": "Postfix evaluation with variable substitution",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "With A = 3, B = 5, C = 1 and D = 4, what is the value of the postfix expression A B * C D + / ?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "16",
+        "D": "15",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A B * gives 15, C D + gives 5, and the final '/' computes 15 / 5 = 3.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S24-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Loops in C++",
+      "concept": "for loop with decrement by 3 sum",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the output of this C++ code?\n\nint s = 0;\nfor (int i = 10; i > 0; i -= 3)\n    s += i;\ncout << s;",
+      "options": {
+        "A": "21",
+        "B": "55",
+        "C": "22",
+        "D": "12",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "i takes the values 10, 7, 4 and 1 (the next value -2 fails i > 0), so s = 10 + 7 + 4 + 1 = 22.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Question Misread",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S24-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Ransomware",
+      "concept": "Locky as a ransomware example",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is an example of ransomware?",
+      "options": {
+        "A": "Creeper",
+        "B": "Brain",
+        "C": "Kaspersky",
+        "D": "Locky",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Locky, along with WannaCry, CryptoLocker, CryptoWall and TeslaCrypt, is a ransomware example; Kaspersky is antivirus, Brain and Creeper are early viruses.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Data Analytics",
+      "concept": "Pandas library for data analysis",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which Python library is given as an example of a tool used to simplify data analysis?",
+      "options": {
+        "A": "Turtle",
+        "B": "Tkinter",
+        "C": "Pygame",
+        "D": "Pandas",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Pandas is a Python library used to simplify data analysis.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S24-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Formats",
+      "concept": "TIFF full form",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In multimedia file formats, TIFF stands for:",
+      "options": {
+        "A": "Tag Image File Format",
+        "B": "Text Image File Format",
+        "C": "Transfer Image File Format",
+        "D": "Tiled Image Frame Format",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "TIFF expands to Tag (Tagged) Image File Format, a raster image format; the other expansions are invented.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S24-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Search by Hashing",
+      "concept": "Remainder method with table size 11",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "A hash table has 11 positions and uses the remainder method h(element) = element % size(hash table). At which index is the element 46 stored?",
+      "options": {
+        "A": "1",
+        "B": "6",
+        "C": "4",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "46 % 11 = 2 (11 x 4 = 44), so 46 is placed at index 2. Index 6 would come from wrongly using a table size of 10.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S24-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Encoding Schemes",
+      "concept": "Unicode hex 0917 to 16-bit binary",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "In Unicode, the Devanagari letter \"ग\" has hexadecimal value 0917. What is its 16-bit binary equivalent?",
+      "options": {
+        "A": "0000100000010111",
+        "B": "0000100101110001",
+        "C": "0000100100010110",
+        "D": "0000100100010111",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Each hex digit maps to 4 bits: 0 = 0000, 9 = 1001, 1 = 0001, 7 = 0111, giving 0000 1001 0001 0111.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Careless Error"
+      }
+    }
+  ]
+}

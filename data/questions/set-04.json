@@ -1,0 +1,681 @@
+{
+  "setId": 4,
+  "title": "Set 4",
+  "questions": [
+    {
+      "id": "S04-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Schedulers",
+      "concept": "Medium-term scheduler swapping",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which scheduler performs swap-in and swap-out of processes between RAM and secondary memory?",
+      "options": {
+        "A": "Long-term scheduler",
+        "B": "Medium-term scheduler",
+        "C": "Short-term scheduler",
+        "D": "Dispatcher",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The medium-term scheduler swaps processes in and out between RAM and secondary memory. The long-term scheduler brings processes from disk to RAM.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Editors",
+      "concept": "WYSIWYG HTML editor example",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is a WYSIWYG HTML editor that does not require deep HTML knowledge?",
+      "options": {
+        "A": "Notepad++",
+        "B": "VSCode",
+        "C": "Sublime Text",
+        "D": "Adobe Dreamweaver",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "WYSIWYG editors such as Adobe Dreamweaver, Amaya and BlueGriffon do not require hardcore HTML knowledge. Notepad++, VSCode and Sublime Text are textual editors.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Error Detection",
+      "concept": "Even parity bit determination",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In an even parity transmission system, which data word needs a parity bit of 1?",
+      "options": {
+        "A": "0110010",
+        "B": "1011010",
+        "C": "1100110",
+        "D": "1111000",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Even parity needs a parity bit of 1 when the data has an odd number of 1s. 0110010 has three 1s, while the others each have four.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S04-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "File Handling",
+      "concept": "write() vs writelines() return value",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which statement about Python's write() and writelines() file methods is correct?",
+      "options": {
+        "A": "writelines() returns the number of characters written; write() does not",
+        "B": "Both write() and writelines() return the number of lines written",
+        "C": "write() returns the number of characters written; writelines() does not",
+        "D": "write() accepts a list of strings; writelines() accepts only one string",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "write() writes a single string and returns the number of characters written. writelines() accepts an iterable of strings and does not return a count.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Pushdown Automata",
+      "concept": "PDA extra memory structure",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "A pushdown automaton is a finite automaton with extra memory in the form of a:",
+      "options": {
+        "A": "Queue",
+        "B": "Tape",
+        "C": "Stack",
+        "D": "Register",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A PDA is a finite automaton with an extra stack that uses Last-In-First-Out memory management. It recognizes context-free (Type 2) languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S04-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Subnetting",
+      "concept": "Usable hosts for /28 mask",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "How many hosts can be configured using the subnet mask 255.255.255.240?",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "30",
+        "D": "126",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "255.255.255.240 leaves 4 host bits, giving 2^4 = 16 addresses, minus 2 reserved addresses, so 14 usable hosts.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Structures and Classes",
+      "concept": "Default access of struct vs class",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In C++, what is the default access of members of a struct and of a class?",
+      "options": {
+        "A": "struct: private, class: public",
+        "B": "Both are private by default",
+        "C": "Both are public by default",
+        "D": "struct: public, class: private",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Structure members are public by default, while class members are private by default.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S04-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS History",
+      "concept": "First DBMS creator",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "The first DBMS, known as Integrated Data Store (IDS), was created by:",
+      "options": {
+        "A": "E. F. Codd",
+        "B": "Charles Bachman",
+        "C": "James Gosling",
+        "D": "Ray Tomlinson",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Charles Bachman created the first DBMS, Integrated Data Store (IDS). E. F. Codd is known as the father of the relational database.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S04-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Attack Methods",
+      "concept": "Card skimming",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Copying credit or debit card data during an otherwise legitimate transaction is called:",
+      "options": {
+        "A": "Skimming",
+        "B": "Smishing",
+        "C": "Spoofing",
+        "D": "Sniffing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Skimming copies card data during legitimate transactions. Smishing is phishing via SMS, and sniffing captures packets on a network.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Postfix Expressions",
+      "concept": "Postfix form evaluation with stack",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "The postfix form of A*B+C/D is AB*CD/+. Using a stack to evaluate it with A = 2, B = 3, C = 8 and D = 4, what is the result?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "4",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Postfix evaluation uses a stack: A B * gives 6, C D / gives 2, and + gives 6 + 2 = 8.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S04-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning Types",
+      "concept": "Supervised learning example",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Classifying Netflix reviews as positive, negative or neutral using labelled training data is an example of:",
+      "options": {
+        "A": "Unsupervised learning",
+        "B": "Supervised learning",
+        "C": "Reinforcement learning",
+        "D": "Fuzzy logic",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Supervised learning uses labelled training data, and classifying Netflix reviews is the source's example. Reinforcement learning relies on rewards and penalties.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S04-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Process Model Selection",
+      "concept": "Spiral model chosen when team has less experience; includes risk analysis",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which software process model is selected when the team has less experience on similar projects, and also includes risk analysis?",
+      "options": {
+        "A": "Waterfall model",
+        "B": "Build & Fix model",
+        "C": "Spiral model",
+        "D": "Prototyping model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The spiral model is selected when the team has less experience on similar projects and it includes risk analysis. Prototyping is chosen when users are involved in all phases of SDLC.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q13",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "File Modes",
+      "concept": "File modes with offset at end of file",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which Python file access modes place the file offset at the end of the file when it is opened? (Select all that apply)",
+      "options": {
+        "A": "'r+' (read and write)",
+        "B": "'a' (append)",
+        "C": "'w' (write)",
+        "D": "'a+' (append and read)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "Append modes 'a' and 'a+' open the file with the offset at the end and create the file if absent. 'r+' and 'w' start at the beginning, and 'w' overwrites existing contents.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S04-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Flip-Flops",
+      "concept": "T flip-flop frequency division",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A T flip-flop used as a toggle switch receives a 10 kHz clock input. What is its output frequency?",
+      "options": {
+        "A": "5 kHz",
+        "B": "10 kHz",
+        "C": "20 kHz",
+        "D": "2.5 kHz",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The output frequency of a T flip-flop is half of its input frequency, so 10 kHz becomes 5 kHz.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S04-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Process State Transitions",
+      "concept": "Running to Ready transition cause",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which event moves a process from the Running state back to the Ready state?",
+      "options": {
+        "A": "An I/O request",
+        "B": "Process exit",
+        "C": "Scheduler dispatch",
+        "D": "An interrupt",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Running to Ready happens on an interrupt. An I/O request moves it to Wait/Block, exit moves it to Terminated, and dispatch moves Ready to Running.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S04-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Concepts",
+      "concept": "Metadata is data about data stored in catalog/dictionary",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In a DBMS, the data about the data, such as schema and constraints, is called metadata. Where is it stored?",
+      "options": {
+        "A": "In the transaction log",
+        "B": "In a catalog or dictionary",
+        "C": "In the primary key index",
+        "D": "In the query buffer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Metadata is data about the data and is stored in a catalog or dictionary. The DBMS stores schema and constraints as metadata.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Loops in C++",
+      "concept": "do-while executes at least once",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "How many times is \"Good morning\" printed by this C++ code?\nint i = 2;\ndo {\n    cout << \"Good morning\\n\";\n    i++;\n} while (i < 1);",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "1",
+        "D": "Infinitely",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "do-while is exit-controlled, so the body runs once before the condition is checked. After i becomes 3, i < 1 is false and the loop ends.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S04-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Protocols",
+      "concept": "RARP purpose",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which protocol is used to find an IP address when only the MAC address is known?",
+      "options": {
+        "A": "ARP",
+        "B": "DNS",
+        "C": "RARP",
+        "D": "DHCP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RARP finds the IP address when only the MAC address is known. ARP does the reverse, finding a MAC address from a known IP address.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "LBA and context-sensitive grammar",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Linear Bounded Automata accept languages generated by which grammar type in the Chomsky hierarchy?",
+      "options": {
+        "A": "Type 1 (context-sensitive)",
+        "B": "Type 2 (context-free)",
+        "C": "Type 3 (regular)",
+        "D": "Type 0 (unrestricted grammar)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Type 1 context-sensitive languages are accepted by Linear Bounded Automata. Type 0 goes with Turing machines, Type 2 with PDA and Type 3 with finite automata.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development Tools",
+      "concept": "DHTML for dynamic webpages",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is used to create dynamic webpages?",
+      "options": {
+        "A": "HTML",
+        "B": "CSS",
+        "C": "XML",
+        "D": "DHTML",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DHTML (Dynamic Hypertext Markup Language) is used to create dynamic webpages, while HTML is used to create static webpages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S04-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware Types",
+      "concept": "Polymorphic virus",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A virus that keeps changing its type and signature is called a:",
+      "options": {
+        "A": "Resident virus",
+        "B": "Polymorphic virus",
+        "C": "Boot sector virus",
+        "D": "Macro virus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Polymorphic viruses keep changing their type and signature. Resident viruses stay in RAM, and boot sector viruses infect boot sectors.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Element count of a 3-D array",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "How many elements are stored in the array declared as int arr[4][5][8]?",
+      "options": {
+        "A": "17",
+        "B": "40",
+        "C": "160",
+        "D": "32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The number of elements is the product of the dimensions: 4 x 5 x 8 = 160.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S04-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI History",
+      "concept": "First AI chatbot ELIZA",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which was the first AI chatbot, introduced in 1961?",
+      "options": {
+        "A": "ELIZA",
+        "B": "ChatGPT",
+        "C": "Alexa",
+        "D": "Siri",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ELIZA was the first AI chatbot, introduced in 1961. ChatGPT was released by OpenAI in 2022.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S04-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "White box testing alternate name",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "White box testing, where the internal structure and code are visible to the tester, is also known as:",
+      "options": {
+        "A": "Closed box testing",
+        "B": "Functional testing",
+        "C": "Boundary value testing",
+        "D": "Glass box testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "White box testing is also called Open, Glass or Transparent Box Testing because the code is visible. Black box testing is based on requirements with code hidden.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S04-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Exception Handling",
+      "concept": "finally with unhandled exception",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What happens when this code runs?\ntry:\n    print(1/0)\nexcept ValueError:\n    print(\"V\")\nfinally:\n    print(\"F\")",
+      "options": {
+        "A": "V is printed, then F is printed",
+        "B": "F is printed, then ZeroDivisionError is re-raised",
+        "C": "Only V is printed and the program ends normally",
+        "D": "ZeroDivisionError stops the program before F prints",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "1/0 raises ZeroDivisionError, which the ValueError handler does not match. The finally block always runs, and the unhandled exception is re-raised after it finishes.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "setId": 46,
+  "title": "Set 46",
+  "questions": [
+    {
+      "id": "S46-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Customer Behaviour",
+      "concept": "Items customers are least comfortable buying online",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Customers are generally LEAST comfortable buying which of the following items online?",
+      "options": {
+        "A": "Personal computers",
+        "B": "Digital items such as music",
+        "C": "Books and software",
+        "D": "Automobiles and furniture",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Customers are most comfortable buying books, software, PCs and digital items online, and less comfortable with large physical items like automobiles and furniture.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S46-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked List Complexity",
+      "concept": "Insertion time complexity in linked list",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "As per the linked list time complexity table, what is the average and worst case time complexity of insertion in a linked list?",
+      "options": {
+        "A": "O(1) and O(n)",
+        "B": "O(n) and O(n)",
+        "C": "O(log n) and O(n)",
+        "D": "O(1) and O(1)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Insertion and deletion in a linked list are O(1) in both average and worst cases, while search is O(n).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S46-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Programming Languages",
+      "concept": "First AI programming language LISP",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which was the first AI programming language?",
+      "options": {
+        "A": "Prolog",
+        "B": "LISP",
+        "C": "FORTRAN",
+        "D": "Python",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "LISP, created by John McCarthy, was the first AI programming language. Prolog came later; Python is preferred today.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S46-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Formal Definition",
+      "concept": "Meaning of B in the TM 7-tuple",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the formal 7-tuple definition of a Turing machine, what does B denote?",
+      "options": {
+        "A": "Blank symbol",
+        "B": "Transition function",
+        "C": "Initial state",
+        "D": "Set of final states",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In the 7-tuple, B is the blank symbol, q0 the initial state, F the set of final states and delta the transition function.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S46-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Wired Transmission Media",
+      "concept": "Coaxial cable vs twisted pair",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Compared with twisted pair cable, coaxial cable:",
+      "options": {
+        "A": "Has more bandwidth and is better shielded",
+        "B": "Carries data as light through a glass core",
+        "C": "Consists of two insulated copper wires twisted together",
+        "D": "Is cheaper and more common in telephone lines",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Coaxial cable has more bandwidth than twisted pair and is better shielded; the other options describe twisted pair or fiber.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S46-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cyber Laws",
+      "concept": "IT Act notification and amendment years",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "India's Information Technology (IT) Act was notified in ____ and amended in ____.",
+      "options": {
+        "A": "1998; 2004",
+        "B": "2008; 2000",
+        "C": "2000; 2013",
+        "D": "2000; 2008",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The IT Act was notified in 2000 and amended in 2008.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Careless Error",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S46-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ History",
+      "concept": "C++ invention year and first release year",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "C++ was invented in ____ and its first version was released in ____.",
+      "options": {
+        "A": "1983, 1979",
+        "B": "1979, 1995",
+        "C": "1972, 1979",
+        "D": "1979, 1983",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Bjarne Stroustrup began C++ in 1979 and the first version was released in 1983. 1972 relates to C and 1995 to Java.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S46-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Error Correction",
+      "concept": "Hamming codes used for correction",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which technique is used for error correction rather than only error detection?",
+      "options": {
+        "A": "Checksum",
+        "B": "Cyclic redundancy check",
+        "C": "Hamming code",
+        "D": "Single parity check",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Hamming codes, invented by Richard Hamming, can correct errors; parity, checksum and CRC are detection techniques.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S46-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Concepts",
+      "concept": "Encryption achieves confidentiality",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "A company must ensure that data intercepted on its network cannot be understood by outsiders. Which mechanism directly provides this confidentiality?",
+      "options": {
+        "A": "Compression of the data",
+        "B": "Authorization of users",
+        "C": "Routing over a faster network",
+        "D": "Encryption of the data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Confidentiality is achieved using encryption, not networking or compression; authorization only controls access rights, not readability of intercepted data.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S46-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Beta testing performed by group of customers",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Testing in which a version of the software is given to a group of customers to use in their own real environment before market release is:",
+      "options": {
+        "A": "Unit testing",
+        "B": "Beta testing",
+        "C": "Integration testing",
+        "D": "Alpha testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Beta testing is carried out by a group of customers at the client end in a real environment before release; alpha testing happens at the developer's end.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S46-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Organization",
+      "concept": "Four parts of computer organization",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following is NOT one of the four main parts of computer organization?",
+      "options": {
+        "A": "Compiler",
+        "B": "Input devices",
+        "C": "Memory",
+        "D": "CPU",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The four main parts are CPU, memory, input devices and output devices. A compiler is software.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S46-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "MySQL Data Types",
+      "concept": "VARCHAR length range 0 to 65535",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In MySQL, what is the permitted range of the length n in the data type VARCHAR(n)?",
+      "options": {
+        "A": "0 to 32767",
+        "B": "0 to 65535",
+        "C": "0 to 255",
+        "D": "1 to 4000",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "VARCHAR(n) is a variable-length type with n from 0 to 65535; the 0 to 255 range belongs to CHAR(n).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S46-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "SRTF is the preemptive form of SJF",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which CPU scheduling algorithm is the preemptive version of Shortest Job First?",
+      "options": {
+        "A": "Non-preemptive Priority",
+        "B": "First-Come, First-Served",
+        "C": "Shortest Remaining Time First",
+        "D": "Round Robin",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SRTF preempts the running job when a new job with a shorter remaining time arrives; SJF itself is non-preemptive.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S46-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Types of Networks",
+      "concept": "USB phone-to-laptop link as PAN",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Connecting a mobile phone to a laptop with a USB cable to transfer photos forms which type of network?",
+      "options": {
+        "A": "LAN",
+        "B": "PAN",
+        "C": "MAN",
+        "D": "CAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A PAN connects a few personal devices within about 10 m and may be wired (USB) or wireless.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S46-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Pickle Module",
+      "concept": "Unpickling is deserialization",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "The process of converting a byte stream back into a Python object is called:",
+      "options": {
+        "A": "Deserialization (unpickling)",
+        "B": "Encoding",
+        "C": "Pickling",
+        "D": "Serialization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Pickling (serialization) turns an object into a byte stream, and unpickling (deserialization) turns the byte stream back into an object.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S46-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Page Structure",
+      "concept": "Elements not allowed in the head section",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following does NOT belong in the head section of an HTML document?",
+      "options": {
+        "A": "Script declarations",
+        "B": "Meta tags",
+        "C": "A table",
+        "D": "The title tag",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The head holds title, meta and script declarations; tables are visible content and belong in the body.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S46-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL History",
+      "concept": "SQL Server owned by Microsoft",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "SQL Server is owned and developed by which company?",
+      "options": {
+        "A": "Google",
+        "B": "Oracle Corporation",
+        "C": "IBM",
+        "D": "Microsoft Corporation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SQL Server is a Microsoft product; Oracle was the first to commercially distribute SQL.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S46-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Closure Properties",
+      "concept": "Intersection of two regular languages",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "L1 and L2 are both regular languages. Using the closure properties of regular languages, L1 intersection L2 is:",
+      "options": {
+        "A": "Always a regular language",
+        "B": "Possibly outside every Chomsky class",
+        "C": "Only recursively enumerable",
+        "D": "Always context-free but never regular",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Intersection is listed among the operations under which regular languages are closed, so the result stays regular.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S46-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Big Data",
+      "concept": "Reason value discovery matters in big data",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Why is discovering 'Value' considered especially important when dealing with Big Data?",
+      "options": {
+        "A": "Because big data is always fully structured",
+        "B": "Because processing big data requires investment of resources",
+        "C": "Because traditional DBMS tools easily process it",
+        "D": "Because big data is generated at a slow, steady rate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Big data may contain hidden patterns of business value, and value discovery matters because processing it requires investing resources. The other statements contradict the nature of big data.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S46-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Concepts",
+      "concept": "Platform independence is not an OOP concept",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which of the following does NOT come under the concepts of OOP?",
+      "options": {
+        "A": "Data binding",
+        "B": "Message passing",
+        "C": "Platform independence",
+        "D": "Data hiding",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Data hiding, message passing and data binding are OOP concepts. Platform independence is a property of a language's execution model (such as Java's JVM), not an OOP concept.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S46-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Adders",
+      "concept": "Gate count in full adder from half adders",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A full adder is built from 2 half adders and 1 OR gate, where each half adder uses one XOR gate and one AND gate. How many XOR and AND gates does the full adder contain in total?",
+      "options": {
+        "A": "1 XOR and 2 AND",
+        "B": "2 XOR and 1 AND",
+        "C": "2 XOR and 2 AND",
+        "D": "3 XOR and 2 AND",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Each of the two half adders contributes one XOR and one AND, giving 2 XOR and 2 AND gates, plus the single OR gate for the carry.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S46-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Process State Transitions",
+      "concept": "Valid state sequence for a process that performs I/O",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "A new process is created, runs, issues one I/O request, resumes after the I/O and then finishes. Which sequence of states is valid?",
+      "options": {
+        "A": "New, Running, Wait, Ready, Running, Terminated",
+        "B": "New, Ready, Running, Wait, Ready, Running, Terminated",
+        "C": "New, Ready, Running, Wait, Running, Terminated",
+        "D": "New, Ready, Running, Ready, Wait, Running, Terminated",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A process is admitted to Ready, dispatched to Running, moves to Wait on I/O, returns to Ready on completion (never directly to Running), is dispatched again and then exits.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S46-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "String Slicing",
+      "concept": "Reversed string then sliced",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "Given str1 = 'Hello World!', what does str1[::-1][:5] return?",
+      "options": {
+        "A": "'!dlro'",
+        "B": "'dlroW'",
+        "C": "'Hello'",
+        "D": "'olleH'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "str1[::-1] gives '!dlroW olleH', and taking its first five characters gives '!dlro'.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S46-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Bubble Sort",
+      "concept": "Bubble sort passes for 10 elements",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "According to the bubble sort rule, how many passes are made to sort a list of 10 elements?",
+      "options": {
+        "A": "9",
+        "B": "5",
+        "C": "11",
+        "D": "10",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bubble sort makes n-1 passes for n elements, so 10 elements need 9 passes.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S46-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "Preemptive scheduling suits real-time OS",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which type of scheduling scheme is considered most suitable for a real-time operating system?",
+      "options": {
+        "A": "Batch-oriented scheduling",
+        "B": "First-come, first-served scheduling",
+        "C": "Preemptive scheduling",
+        "D": "Non-preemptive scheduling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A real-time OS must respond immediately to urgent tasks, so a running process must be interruptible; hence a preemptive scheme is most suitable.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

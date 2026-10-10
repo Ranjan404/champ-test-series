@@ -1,0 +1,681 @@
+{
+  "setId": 13,
+  "title": "Set 13",
+  "questions": [
+    {
+      "id": "S13-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Parity Check",
+      "concept": "Even parity bit for odd count of 1s",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In an even parity transmission system, which 7-bit data word needs a parity bit of 1?",
+      "options": {
+        "A": "1100110",
+        "B": "1010101",
+        "C": "0110010",
+        "D": "0001111",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Even parity makes the total number of 1s even, so the parity bit is 1 only when the data has an odd count of 1s. 0110010 has three 1s; the others have four.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S13-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Errors in Programming",
+      "concept": "Logic errors are also called semantic errors",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Among the four types of programming errors listed for C++, logic errors are also known as:",
+      "options": {
+        "A": "Compile-time errors",
+        "B": "Run-time errors",
+        "C": "Semantic errors",
+        "D": "Interface errors",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The four error types are syntax (compile-time) errors, logic (semantic) errors, run-time errors (exceptions) and interface errors. Logic errors are therefore also called semantic errors.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S13-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Evolution",
+      "concept": "Order of AI evolution stages",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which sequence correctly shows the evolution of AI as given in the syllabus?",
+      "options": {
+        "A": "Birth of AI, Machine Learning, Neural Network, Deep Learning",
+        "B": "Neural Network, Birth of AI, Machine Learning, Deep Learning",
+        "C": "Birth of AI, Neural Network, Deep Learning, Machine Learning",
+        "D": "Birth of AI, Neural Network, Machine Learning, Deep Learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The AI evolution sequence is Birth of AI, then Neural Network, then Machine Learning, and finally Deep Learning.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S13-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Commands",
+      "concept": "Tracert route and hop limit",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which command displays the possible routes of packets and measures their transit delays, up to a maximum of 30 hops?",
+      "options": {
+        "A": "tracert",
+        "B": "ping",
+        "C": "netstat",
+        "D": "nslookup",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Tracert (traceroute) shows the path and transit delays of packets, with a maximum of 30 hops, and uses ICMP. Ping only tests reachability of a destination.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S13-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Types of AI",
+      "concept": "Types of AI vs branches of AI",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following is one of the four types of AI (rather than a branch of AI)?",
+      "options": {
+        "A": "Natural Language Processing",
+        "B": "Expert Systems",
+        "C": "Robotics",
+        "D": "Theory of Mind AI",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The four types of AI are Reactive Machines, Limited Memory, Theory of Mind and Self-aware AI. NLP, Expert Systems and Robotics are branches of AI.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S13-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Teamwork",
+      "concept": "Share with others component",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In teamwork, exchanging ideas, images and tools among members belongs to which component?",
+      "options": {
+        "A": "Communicate with others",
+        "B": "Respect for others",
+        "C": "Participate",
+        "D": "Share with others",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'Share with others' means exchanging ideas, images and tools. Communicating refers to email, phone or meetings, and participating means taking an active part.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S13-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 1 grammar language class",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In the Chomsky hierarchy, a Type 1 grammar generates which class of languages?",
+      "options": {
+        "A": "Regular languages",
+        "B": "Context-free languages",
+        "C": "Recursively enumerable languages",
+        "D": "Context-sensitive languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Type 0 is recursively enumerable, Type 1 is context-sensitive, Type 2 is context-free and Type 3 is regular.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S13-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "File Handling",
+      "concept": "seek() reference_point value 2",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "In Python's file_object.seek(offset, reference_point), what does reference_point = 2 denote?",
+      "options": {
+        "A": "Beginning of the file",
+        "B": "End of the file",
+        "C": "Current position of the file object",
+        "D": "An offset counted in steps of 2 bytes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "For seek(), reference_point 0 means the beginning (the default), 1 means the current position and 2 means the end of the file.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S13-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Flip-Flops",
+      "concept": "T flip-flop as toggle switch",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which flip-flop is used as a toggle switch and gives an output frequency equal to half of the input frequency?",
+      "options": {
+        "A": "T flip-flop",
+        "B": "D flip-flop",
+        "C": "S-R flip-flop",
+        "D": "J-K flip-flop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The T flip-flop is used as a toggle switch, and its output frequency is one half of the input frequency. The D flip-flop is used as a delay switch.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S13-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Exception Handling",
+      "concept": "try-except-else-finally execution flow",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What is the output of the following Python code?\n\ntry:\n    x = 10 / 0\nexcept ZeroDivisionError:\n    print(\"A\", end=\"\")\nelse:\n    print(\"B\", end=\"\")\nfinally:\n    print(\"C\", end=\"\")",
+      "options": {
+        "A": "ABC",
+        "B": "AC",
+        "C": "BC",
+        "D": "A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Division by zero raises ZeroDivisionError, so the matching except block prints A. The else block runs only when no exception occurs, and finally always runs, printing C.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S13-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DDL Commands",
+      "concept": "TRUNCATE keeps table structure",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which SQL command removes all rows of a table without using a WHERE clause, while keeping the table structure?",
+      "options": {
+        "A": "DELETE",
+        "B": "DROP",
+        "C": "ALTER",
+        "D": "TRUNCATE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "TRUNCATE deletes all rows faster and does not use a WHERE clause, but the table structure remains. DELETE removes selected rows with WHERE, and DROP removes the whole table.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S13-Q12",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware",
+      "concept": "Characteristics of malware types",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which of the following statements about malware are correct? (Select all that apply)",
+      "options": {
+        "A": "A worm is standalone malware that does not need a host program.",
+        "B": "A Trojan spreads by replicating itself into other files.",
+        "C": "The term computer virus was coined by Fred Cohen in 1985.",
+        "D": "Adware is mainly designed to record the user's keystrokes.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "Worms are standalone and replicate on their own, and Fred Cohen coined the term computer virus in 1985. A Trojan does not self-replicate, and recording keystrokes is the job of a keylogger, not adware.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S13-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "De Morgan's Theorem",
+      "concept": "Complement of A'B + CD'",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Using De Morgan's theorem, what is the complement of (NOT A)·B + C·(NOT D)?",
+      "options": {
+        "A": "(NOT A + B)·(C + NOT D)",
+        "B": "(A + B)·(C + D)",
+        "C": "(A + NOT B)·(NOT C + D)",
+        "D": "(NOT A)·(NOT B) + C·D",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Complementing a sum gives the product of complements, and complementing each product term gives a sum of complemented literals: (A'B)' = A + B' and (CD')' = C' + D, so the result is (A + B')(C' + D).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S13-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Floyd-Warshall Algorithm",
+      "concept": "Floyd-Warshall time complexity",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "What is the time complexity of the Floyd-Warshall shortest path algorithm, where V is the number of vertices and E the number of edges?",
+      "options": {
+        "A": "O(V³)",
+        "B": "O(V × E)",
+        "C": "O(E log V)",
+        "D": "O(V²)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Floyd-Warshall uses dynamic programming and runs in O(V³). O(V × E) is Bellman-Ford and O(E log V) is Dijkstra.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S13-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Starvation and Aging",
+      "concept": "Aging prevents starvation",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "What is the purpose of aging in priority scheduling?",
+      "options": {
+        "A": "To gradually raise the priority of long-waiting jobs",
+        "B": "To lower the priority of jobs that have used the CPU for long",
+        "C": "To free the memory held by processes after they terminate",
+        "D": "To shorten the round robin time quantum of waiting jobs",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Aging increases the priority of jobs over time so that low-priority jobs are not blocked indefinitely, which solves starvation in priority scheduling.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S13-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML History",
+      "concept": "HTML is based on SGML",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "HTML is based on which markup language?",
+      "options": {
+        "A": "XML",
+        "B": "XHTML",
+        "C": "SGML",
+        "D": "DHTML",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HTML is based on SGML (Standard Generalized Markup Language) and is described as a subset of SGML.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S13-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Definition",
+      "concept": "Turing machine n-tuple value",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "A Turing machine is formally defined as an n-tuple. According to the syllabus, what is the value of n?",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "6",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The syllabus gives the Turing machine as a 7-tuple, made of finite sets of states and tape symbols plus the transition function and related components.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S13-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IANA private IPv4 ranges",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following IPv4 addresses lies within a private IP range reserved by IANA?",
+      "options": {
+        "A": "172.32.1.1",
+        "B": "192.169.0.5",
+        "C": "11.0.0.1",
+        "D": "172.20.15.4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The private ranges are 10.0.0.0-10.255.255.255, 172.16.0.0-172.31.255.255 and 192.168.0.0-192.168.255.255 (plus 100.64.0.0-100.127.255.255). 172.20.15.4 lies in the 172.16-172.31 block.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S13-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "PostgreSQL",
+      "concept": "PostgreSQL implementation language",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "PostgreSQL, the free and open-source RDBMS, is written in which programming language?",
+      "options": {
+        "A": "Java",
+        "B": "C++",
+        "C": "C",
+        "D": "Python",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "PostgreSQL (also called Postgres) is written in the C language.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S13-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Spoofing, Sniffing and Spooling",
+      "concept": "Full form of spooling",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Spooling, the technique commonly used with printers, stands for:",
+      "options": {
+        "A": "Shared Peripheral Output Online",
+        "B": "Sequential Process Operations Offline",
+        "C": "Simultaneous Peripheral Operations Online",
+        "D": "Simultaneous Printer Output Offline",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Spooling stands for Simultaneous Peripheral Operations Online and is used in printers. It differs from spoofing (faking identity) and sniffing (capturing packets).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S13-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Dynamic memory allocation operator",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which C++ operator is used for dynamic memory allocation?",
+      "options": {
+        "A": "& (address-of operator)",
+        "B": "new",
+        "C": "* (dereference operator)",
+        "D": "-> (member access operator)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "new is the dynamic memory allocation operator in C++. & returns a variable's address and * declares or dereferences a pointer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S13-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Sequence of project steps",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In project based learning, which step comes immediately after 'defining a plan'?",
+      "options": {
+        "A": "Identification of a project",
+        "B": "Fixing time frame and processing",
+        "C": "Providing guidance and monitoring",
+        "D": "Outcome of the project",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The project steps are identification of a project, defining a plan, fixing time frame and processing, providing guidance and monitoring, and outcome of the project.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S13-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Conditions",
+      "concept": "Front = Rear = 0 means one element",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In the array implementation of a queue, what does the condition Front = Rear = 0 indicate?",
+      "options": {
+        "A": "The queue is empty",
+        "B": "The queue has exactly one element",
+        "C": "The queue is full",
+        "D": "The queue has overflowed",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Front = Rear = 0 is the condition for one element in the queue. An empty queue is indicated by Front > Rear, Front < 0 or Front = Null.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S13-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "SJF tie-breaking rule",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In Shortest Job First (SJF) scheduling, if two processes have equal next CPU bursts, which rule is used to break the tie?",
+      "options": {
+        "A": "Round Robin",
+        "B": "FCFS",
+        "C": "Priority scheduling",
+        "D": "Aging",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "When two CPU bursts are equal in SJF, the tie is broken using First-Come, First-Served (FCFS).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S13-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-Marketplace",
+      "concept": "Vertical marketplace",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "An e-marketplace that caters to one particular industry or niche, such as Airbnb for accommodation rentals, is called a:",
+      "options": {
+        "A": "Vertical marketplace",
+        "B": "Horizontal marketplace",
+        "C": "Global marketplace",
+        "D": "C2C marketplace",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Vertical marketplaces serve a particular industry or niche (Etsy, Airbnb, Upwork, Uber). Horizontal marketplaces such as Amazon and Flipkart cover many industries.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

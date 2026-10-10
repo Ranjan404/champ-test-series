@@ -1,0 +1,681 @@
+{
+  "setId": 40,
+  "title": "Set 40",
+  "questions": [
+    {
+      "id": "S40-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "TCP/IP",
+      "concept": "TCP ordering and reassembly",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In TCP/IP, which component is responsible for ordering packets and reassembling them at the destination?",
+      "options": {
+        "A": "IP",
+        "B": "TCP",
+        "C": "HTTP",
+        "D": "DNS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "TCP breaks messages into packets, guarantees delivery and reassembles them in order; IP handles addressing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Tracking",
+      "concept": "Cookies definition",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In the context of e-commerce websites, cookies are:",
+      "options": {
+        "A": "Advertisements that open underneath the current page",
+        "B": "Text files stored in the browser about the user's interaction with a website",
+        "C": "Small programs that encrypt card numbers during checkout",
+        "D": "Server logs that record only payment failures",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Cookies are text files stored in a browser that relate to a user's interaction with a website.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S40-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked List vs Array",
+      "concept": "Memory allocation time of linked list vs array",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which statement correctly compares memory allocation in arrays and linked lists?",
+      "options": {
+        "A": "Array memory is allocated at compile time; linked list memory at run time",
+        "B": "Array memory is allocated at run time; linked list memory at compile time",
+        "C": "Both allocate memory only at run time",
+        "D": "Both allocate memory only at compile time",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Arrays have static memory allocated at compile time, while linked lists are dynamic, allocating memory at run time so they can grow and shrink.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S40-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Loop Control Statements",
+      "concept": "goto is the jump statement transferring control",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which C++ statement, also known as a jump statement, transfers control to another (labelled) part of the program?",
+      "options": {
+        "A": "goto",
+        "B": "switch",
+        "C": "continue",
+        "D": "return",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "goto transfers control to a labelled statement elsewhere in the program. continue only skips the current iteration and switch selects among cases.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Evolution of Computer",
+      "concept": "IBM first personal computer year",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "In which year did IBM introduce the first personal computer for home users?",
+      "options": {
+        "A": "1971",
+        "B": "1984",
+        "C": "1977",
+        "D": "1981",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IBM introduced the first PC for home users in 1981. Apple's Macintosh came in 1984 and the Intel 4004 microprocessor in 1971.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S40-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Variants",
+      "concept": "Two-way infinite tape TM as a listed variation",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following is listed as a variation of the Turing machine?",
+      "options": {
+        "A": "Output-only Turing machine",
+        "B": "Stack-based Turing machine",
+        "C": "Two-way infinite tape Turing machine",
+        "D": "Read-only tape Turing machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Listed variations are multiple track, two-way infinite tape, multi-tape, multi-tape multi-head and multi-dimensional tape TMs.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S40-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing Concepts",
+      "concept": "Hadoop in cloud computing",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which open-source framework stores and processes large amounts of data across a network of computers and is a key technology for big data analytics in the cloud?",
+      "options": {
+        "A": "Pandas",
+        "B": "VMware",
+        "C": "Hadoop",
+        "D": "Arduino",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Hadoop is the open-source framework for distributed storage and processing of big data. Pandas is a Python analysis library and VMware is a virtualization/private cloud vendor.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S40-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "User Interfaces",
+      "concept": "CLI example MS-DOS",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which operating system is a typical example of a Command Line (Character User) Interface?",
+      "options": {
+        "A": "Windows 11",
+        "B": "MS-DOS",
+        "C": "macOS",
+        "D": "Android",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a CLI the user types keyboard commands; MS-DOS is the standard example, while Windows is the GUI example.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Reading from a Text File",
+      "concept": "readline() returns empty string at EOF",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What does readline() return once the end of the file has been reached?",
+      "options": {
+        "A": "None",
+        "B": "The last line again",
+        "C": "-1",
+        "D": "An empty string",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "readline() returns an empty string at EOF, which is why a loop such as while str: stops reading.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Back-end testing is database testing",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which testing type is also called database testing, in which the GUI is not involved?",
+      "options": {
+        "A": "Sanity testing",
+        "B": "Browser compatibility testing",
+        "C": "Back-end testing",
+        "D": "Interface testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Back-end testing is database testing and does not involve the GUI; interface testing is GUI testing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Formal Definitions",
+      "concept": "Sum of LBA and Moore machine tuple counts",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "If you add the number of tuples in the formal definition of a Linear Bounded Automaton to the number of tuples in a Moore machine, what total do you get?",
+      "options": {
+        "A": "15",
+        "B": "14",
+        "C": "13",
+        "D": "12",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An LBA is an 8-tuple and a Moore machine is a 6-tuple, so 8 + 6 = 14.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S40-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Sensors",
+      "concept": "Analog versus digital sensors",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which statement about IoT input components is FALSE?",
+      "options": {
+        "A": "A photoresistor light sensor is an analog sensor",
+        "B": "A microphone is a digital sensor",
+        "C": "A keyboard is a digital sensor",
+        "D": "A push button is a digital sensor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A microphone produces a continuously varying signal and is not a digital sensor. A photoresistor is analog, while push buttons and keyboards are digital.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S40-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Host-to-host vs node-to-node delivery",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Host-to-host delivery and node-to-node delivery are the responsibilities of which layers, respectively?",
+      "options": {
+        "A": "Transport layer and Data Link layer",
+        "B": "Transport layer and Network layer",
+        "C": "Data Link layer and Transport layer",
+        "D": "Network layer and Data Link layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Host-to-host (end-to-end, process-to-process) is Transport; node-to-node is Data Link.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Final step of a project is its outcome",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Among the steps for solving a project (identification, defining a plan, fixing time frame and processing, guidance and monitoring, outcome), which step comes last?",
+      "options": {
+        "A": "Fixing time frame and processing",
+        "B": "Providing guidance and monitoring",
+        "C": "Outcome of the project",
+        "D": "Defining a plan",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The project steps end with the outcome of the project, after guidance and monitoring.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S40-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ASCII",
+      "concept": "7-bit binary of lowercase c",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Uppercase 'A' is 65 in ASCII and each lowercase letter is 32 more than its uppercase form. What is the 7-bit binary ASCII code of lowercase 'c'?",
+      "options": {
+        "A": "1000011",
+        "B": "1100010",
+        "C": "1100011",
+        "D": "1100111",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'C' = 67, so 'c' = 67 + 32 = 99 = 1100011. 1000011 is uppercase 'C' and 1100010 is 'b'.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S40-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Round Robin Scheduling",
+      "concept": "Round robin average waiting time with quantum 4",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Processes P1, P2 and P3 arrive at time 0 in that order with CPU bursts of 24 ms, 3 ms and 3 ms. Using Round Robin with a time quantum of 4 ms, what is the average waiting time?",
+      "options": {
+        "A": "About 7.33 ms",
+        "B": "17 ms",
+        "C": "3 ms",
+        "D": "About 5.67 ms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Timeline: P1 0-4, P2 4-7, P3 7-10, P1 10-30. Waiting times are P1 = 6, P2 = 4, P3 = 7, giving 17 / 3 = about 5.67 ms.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linear Search",
+      "concept": "Alternate names of linear search",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Linear search is also known as:",
+      "options": {
+        "A": "Binary or interval search",
+        "B": "Hash search",
+        "C": "Sequential or serial search",
+        "D": "Indexed search",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Linear search compares elements one by one, so it is also called sequential search or serial search.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S40-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "List Operations",
+      "concept": "List and string cannot be concatenated",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What happens when the following code runs?\nlst = [1, 2]\nprint(lst + '3')",
+      "options": {
+        "A": "It prints [1, 2, '3']",
+        "B": "It prints [1, 2, 3]",
+        "C": "It prints 12",
+        "D": "TypeError is raised",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The + operator joins a list only with another list. A list cannot be concatenated with a string, so TypeError is raised.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S40-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware Types",
+      "concept": "Adware generates revenue via advertisements",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which malware is created mainly to generate revenue for its developer by displaying advertisements?",
+      "options": {
+        "A": "Adware",
+        "B": "Keylogger",
+        "C": "Ransomware",
+        "D": "Spyware",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Adware is malware created to generate revenue by displaying advertisements; it is usually annoying and may show unsafe links.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Electronic Data Interchange",
+      "concept": "EDI developed in the 1960s",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Electronic Data Interchange (EDI), regarded as one of the early forms of e-commerce, was developed in which decade?",
+      "options": {
+        "A": "1970s",
+        "B": "1980s",
+        "C": "1960s",
+        "D": "1990s",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "EDI was developed in the 1960s, well before web-based online shopping, which is why it is called an early form of e-commerce.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S40-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Types of Data Communication",
+      "concept": "Full-duplex implementation options",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Full-duplex communication may be implemented using:",
+      "options": {
+        "A": "Two physically separate simplex lines or a single shared channel",
+        "B": "Only a dedicated circuit-switched path",
+        "C": "Only an optical fiber pair",
+        "D": "Only a single simplex line that switches direction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Full duplex may use two separate simplex lines or one shared channel whose capacity is split between both directions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Query Order",
+      "concept": "Complete clause order of SQL query",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which sequence shows the correct order of clauses in an SQL query?",
+      "options": {
+        "A": "SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY",
+        "B": "SELECT, WHERE, FROM, GROUP BY, ORDER BY, HAVING",
+        "C": "SELECT, FROM, GROUP BY, WHERE, HAVING, ORDER BY",
+        "D": "SELECT, FROM, WHERE, HAVING, GROUP BY, ORDER BY",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The order is SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY; HAVING follows GROUP BY because it filters grouped aggregates.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S40-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Combating Malware",
+      "concept": "Scanning removable devices before use",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which of the following is a recommended practice for combating malware?",
+      "options": {
+        "A": "Share login credentials only with close friends",
+        "B": "Delay security patches to keep the system fast",
+        "C": "Prefer pirated software from popular websites",
+        "D": "Scan removable storage devices before using them",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Recommended practices include scanning removable devices, using legitimate software, applying security patches and never sharing passwords or login credentials.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S40-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "main() Function",
+      "concept": "Return value of main used by runtime library",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In C++, the value returned from main() is used by:",
+      "options": {
+        "A": "The preprocessor",
+        "B": "The runtime library",
+        "C": "The iostream header",
+        "D": "The class constructor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "main() is the starting point of execution, and its return value is passed back to and used by the runtime library.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S40-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Database following Codd's rules is a True RDBMS",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "What is a database that follows all of Codd's 12 rules called?",
+      "options": {
+        "A": "A NoSQL database",
+        "B": "A hierarchical DBMS",
+        "C": "A flat-file database",
+        "D": "A true RDBMS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "If a database follows Codd's 12 rules it is called a True RDBMS, ensuring consistency, accessibility and integrity.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

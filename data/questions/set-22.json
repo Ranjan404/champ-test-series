@@ -1,0 +1,681 @@
+{
+  "setId": 22,
+  "title": "Set 22",
+  "questions": [
+    {
+      "id": "S22-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Computability",
+      "concept": "Identifying the classic unsolvable problem",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following tasks is a classic problem that cannot be solved by any Turing machine?",
+      "options": {
+        "A": "Accepting palindromes",
+        "B": "Simulating another Turing machine",
+        "C": "Deciding whether an arbitrary program halts",
+        "D": "Copying a string on the tape",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Turing machines can copy strings, accept palindromes and simulate other TMs (universal TM), but the halting problem is unsolvable.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S22-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Operators",
+      "concept": "Scope resolution operator symbol",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which symbol is the scope resolution operator in C++?",
+      "options": {
+        "A": "::",
+        "B": "?:",
+        "C": "->",
+        "D": ".",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": ":: is the scope resolution operator. -> and . are member access (reference) operators and ?: is the ternary operator.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Metrics",
+      "concept": "LOC full form",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In software metrics, LOC stands for:",
+      "options": {
+        "A": "Lines of Code",
+        "B": "List of Components",
+        "C": "Level of Complexity",
+        "D": "Logic of Control",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "LOC means Lines of Code, a basic size metric for software.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S22-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Encoding Schemes",
+      "concept": "Count of 1 bits in ASCII DATA",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "In 7-bit ASCII, D = 1000100, A = 1000001 and T = 1010100. How many 1 bits are there in total when the word \"DATA\" is encoded?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "9",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "D has 2, A has 2, T has 3 and A has 2 ones: 2 + 2 + 3 + 2 = 9.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S22-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Access Specifiers",
+      "concept": "protected members accessible in derived classes",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which C++ access specifier makes a member inaccessible from outside the class but accessible in derived classes?",
+      "options": {
+        "A": "protected",
+        "B": "friend",
+        "C": "private",
+        "D": "public",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "protected members can be accessed in derived classes. private members are not directly accessible outside the class, and public members are accessible everywhere.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack Operations",
+      "concept": "Value returned by last pop in a push/pop sequence",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Starting with an empty stack, the operations PUSH(5), PUSH(9), POP(), PUSH(2), PUSH(7), POP(), POP() are performed. What value is returned by the last POP()?",
+      "options": {
+        "A": "5",
+        "B": "9",
+        "C": "7",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "After PUSH 5, 9 and POP (9), the stack is [5]. PUSH 2, 7 gives [5, 2, 7]; POP returns 7 and the final POP returns 2.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S22-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Verification and Validation",
+      "concept": "Verification checks the product is built right",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A QA team reviews whether the software has been built correctly according to its specification. This activity is:",
+      "options": {
+        "A": "Reverse engineering",
+        "B": "Verification",
+        "C": "Validation",
+        "D": "Feasibility study",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Verification checks whether the product is built right and is done by testers/QA; validation checks whether the right product is built and involves all stakeholders.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S22-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Problem Solving",
+      "concept": "GCD of two numbers by common divisors",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Using the algorithm of listing all divisors of both numbers and picking the largest common one, what is the GCD of 84 and 126?",
+      "options": {
+        "A": "14",
+        "B": "42",
+        "C": "252",
+        "D": "21",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Divisors of 84 and 126 that are common include 1, 2, 3, 6, 7, 14, 21, 42; the largest is 42. 252 is the LCM, not the GCD.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S22-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "DFA",
+      "concept": "DFA as a machine without output",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following finite-state models is described as a machine without output?",
+      "options": {
+        "A": "Turing machine with output tape",
+        "B": "Moore machine",
+        "C": "DFA",
+        "D": "Mealy machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A DFA is a machine without output, while Moore and Mealy machines produce output.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Video Formats",
+      "concept": "WAV is not a video extension",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which of the following is NOT a video file extension?",
+      "options": {
+        "A": ".wav",
+        "B": ".mov",
+        "C": ".flv",
+        "D": ".avi",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": ".wav is a Waveform audio file; .avi, .flv and .mov are video file extensions.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S22-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Evolution of Computer",
+      "concept": "LSI enabled the microprocessor",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "What did Large Scale Integration (LSI) during the 1970s make possible?",
+      "options": {
+        "A": "Replacing vacuum tubes with transistors",
+        "B": "Integrating a complete CPU on a single chip, called a microprocessor",
+        "C": "Storing programs and data together in memory",
+        "D": "Replacing command-line systems with GUI operating systems",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "LSI in the 1970s allowed a complete CPU to be integrated on one chip, the microprocessor. Transistors replaced vacuum tubes earlier, and GUIs came later.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Types of IoT",
+      "concept": "Smart pacemakers as commercial IoT",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Smart pacemakers and monitoring systems in the healthcare and transport industries are classified under which type of IoT?",
+      "options": {
+        "A": "Consumer IoT",
+        "B": "Industrial IoT (IIoT)",
+        "C": "Military Things (IoMT)",
+        "D": "Commercial IoT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Commercial IoT covers healthcare and transport industries, including smart pacemakers and monitoring. Consumer IoT is home appliances and IIoT is manufacturing and energy.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Administrator",
+      "concept": "Role of DBA",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Who is responsible for maintaining, securing and operating databases and ensuring data is correctly stored and retrieved?",
+      "options": {
+        "A": "Application tester",
+        "B": "End user",
+        "C": "Network administrator",
+        "D": "Database Administrator (DBA)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The DBA maintains, secures and operates databases and works with developers to design new features.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Infix to Prefix Conversion",
+      "concept": "Prefix of (A - B) * (C + D)",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the prefix form of (A - B) * (C + D) ?",
+      "options": {
+        "A": "- A B + C D *",
+        "B": "* - A B + C D",
+        "C": "A B - C D + *",
+        "D": "* A - B + C D",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Each bracket converts to - A B and + C D, and the * is placed before both: * - A B + C D. A B - C D + * is the postfix form.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S22-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce History",
+      "concept": "Chronological order of e-commerce milestones",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Arrange these milestones in chronological order: (P) PayPal founded, (Q) CompuServe begins, (R) Google AdWords launched, (S) Online shopping pioneered by Michael Aldrich.",
+      "options": {
+        "A": "S, Q, P, R",
+        "B": "Q, S, R, P",
+        "C": "Q, S, P, R",
+        "D": "Q, P, S, R",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "CompuServe (1969), Aldrich's online shopping (1979), PayPal (1998) and Google AdWords (2000) give the order Q, S, P, R.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S22-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management Basics",
+      "concept": "CPU generates logical address",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which type of address is generated by the CPU and must be translated by the OS to access RAM?",
+      "options": {
+        "A": "Physical address",
+        "B": "Frame address",
+        "C": "MAC address",
+        "D": "Logical address",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The CPU generates a logical address; the OS translates it into a physical address to access main memory.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "Function not belonging to data link layer",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is NOT a function of the Data Link layer?",
+      "options": {
+        "A": "Routing and forwarding packets",
+        "B": "Error control",
+        "C": "Flow control",
+        "D": "MAC addressing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Routing and forwarding belong to the Network layer; MAC addressing, flow control and error control are Data Link functions.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S22-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cryptography Basics",
+      "concept": "Encryption converts plaintext to ciphertext",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "The process of converting plaintext into ciphertext is called:",
+      "options": {
+        "A": "Decryption",
+        "B": "Steganography",
+        "C": "Encryption",
+        "D": "Cryptanalysis",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Encryption converts plaintext to ciphertext; decryption converts ciphertext back to plaintext.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Exceptions",
+      "concept": "Every syntax error is an exception but not vice versa",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which statement about syntax errors and exceptions in Python is correct?",
+      "options": {
+        "A": "Every syntax error is an exception, but every exception is not a syntax error",
+        "B": "Exceptions occur only when a program has syntax errors",
+        "C": "Every exception is a syntax error, but no syntax error is an exception",
+        "D": "Syntax errors and exceptions are completely unrelated",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SyntaxError is itself an exception, but most exceptions arise in programs that are already syntactically correct.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S22-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Types of OS",
+      "concept": "Devices that use RTOS or embedded OS",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which group of devices typically runs a real-time or embedded operating system?",
+      "options": {
+        "A": "Desktop PCs, laptops and workstations",
+        "B": "Web servers, mainframes and file servers",
+        "C": "Smartphones, tablets and notebooks",
+        "D": "Printers, routers and robots",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Fax machines, printers, scanners, routers and robots are listed as devices using RTOS or embedded OS.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI History",
+      "concept": "Year AI term was coined",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In which year did John McCarthy coin the term 'Artificial Intelligence'?",
+      "options": {
+        "A": "1999",
+        "B": "1960",
+        "C": "1956",
+        "D": "1950",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "John McCarthy, the founder of AI, coined the term in 1956. 1999 is when IoT was introduced.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S22-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL for Data Manipulation",
+      "concept": "Referenced row must exist before inserting foreign key",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "STUDENT.GUID is a foreign key referencing GUARDIAN.GUID. A new student and the student's guardian are both being added. In which order should the records be inserted?",
+      "options": {
+        "A": "Insert the STUDENT row with GUID left out permanently",
+        "B": "Insert the STUDENT row first, then the GUARDIAN row",
+        "C": "Insert the GUARDIAN row first, then the STUDENT row",
+        "D": "Insert both in any order since keys are checked later",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "When inserting a foreign key value, the referenced data should already exist, so the guardian must be inserted before the student who refers to it.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S22-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Firewall",
+      "concept": "Firewall filters using predefined rules",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A firewall decides whether to allow incoming and outgoing network traffic based on:",
+      "options": {
+        "A": "the encryption key of each packet",
+        "B": "predefined security rules",
+        "C": "virus signatures in a definition file",
+        "D": "cookies stored by visited websites",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A firewall acts as a network filter that monitors incoming and outgoing traffic based on predefined security rules.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S22-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Introduction to Python",
+      "concept": "Python first release year",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "In which year was the first version of Python released?",
+      "options": {
+        "A": "2000",
+        "B": "1991",
+        "C": "1994",
+        "D": "1989",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Development began in 1989, and the first version was released on 20 February 1991. Python 1.0 came in 1994 and 2.0 in 2000.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S22-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Additional wires when expanding a full mesh",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "A fully connected mesh network of 8 nodes is expanded to 10 nodes. How many additional wires are needed?",
+      "options": {
+        "A": "16",
+        "B": "45",
+        "C": "2",
+        "D": "17",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Wires = n(n-1)/2: 10 nodes need 45 and 8 nodes need 28, so 45 - 28 = 17 extra wires.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Question Misread",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

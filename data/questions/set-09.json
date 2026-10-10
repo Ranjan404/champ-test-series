@@ -1,0 +1,681 @@
+{
+  "setId": 9,
+  "title": "Set 9",
+  "questions": [
+    {
+      "id": "S09-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Semaphores",
+      "concept": "Semaphore Wait (P) operation effect",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In process synchronization, what does the Wait (P) operation do to a semaphore?",
+      "options": {
+        "A": "Increments its value (wakeup call)",
+        "B": "Decrements its value (block call)",
+        "C": "Resets its value back to one",
+        "D": "Sets its value permanently to zero",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Wait (P) decrements the semaphore value and acts as a block system call. Signal (V) increments it and acts as a wakeup call.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S09-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Flip-Flops",
+      "concept": "Invalid input combination of S-R flip-flop",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which input combination is invalid for an S-R flip-flop?",
+      "options": {
+        "A": "S = 0, R = 0",
+        "B": "S = 0, R = 1",
+        "C": "S = 1, R = 0",
+        "D": "S = 1, R = 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In an S-R flip-flop, the input S = 1, R = 1 is invalid. The other combinations hold, reset or set the stored bit.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S09-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing History",
+      "concept": "Licklider introduced cloud concepts in the 1960s",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Who introduced the concepts of cloud computing in the 1960s?",
+      "options": {
+        "A": "Joseph Carl Robnett Licklider",
+        "B": "Tim Berners-Lee",
+        "C": "Alan Turing",
+        "D": "Kevin Ashton",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Joseph Carl Robnett (J.C.R.) Licklider introduced cloud concepts in the 1960s. Cloud computing means storing and accessing data and programs over the Internet.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S09-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DDL Commands",
+      "concept": "TRUNCATE vs DELETE vs DROP",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which SQL command removes all rows of a table without a WHERE clause while keeping the table structure?",
+      "options": {
+        "A": "DELETE",
+        "B": "DROP",
+        "C": "TRUNCATE",
+        "D": "ROLLBACK",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "TRUNCATE deletes all rows faster and does not use a WHERE clause, but keeps the table structure. DELETE removes selected rows with WHERE, and DROP removes the whole table.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Address-of operator in C++",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In C++, which symbol returns the memory address of a variable?",
+      "options": {
+        "A": "& (ampersand)",
+        "B": "* (asterisk)",
+        "C": "new operator",
+        "D": "-> (arrow operator)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The & symbol returns the memory address of a variable. The * symbol declares pointers and acts as the dereference operator, and new allocates memory dynamically.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S09-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Variants",
+      "concept": "Register machine equivalence to Turing machine",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following models is considered equivalent in computational power to a Turing machine?",
+      "options": {
+        "A": "Pushdown automaton",
+        "B": "Deterministic finite automaton",
+        "C": "Linear bounded automaton",
+        "D": "Register machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Register machines, multi-tape and multi-track Turing machines are listed as equivalent models of the Turing machine. Finite automata, PDA and LBA are less powerful.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware Types",
+      "concept": "Key logger is a type of spyware",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A key logger, which secretly records the keys pressed by a user, is a type of:",
+      "options": {
+        "A": "Ransomware",
+        "B": "Spyware",
+        "C": "Worm",
+        "D": "Boot sector virus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A key logger is a type of spyware. Ransomware restricts access and demands ransom, while a worm self-replicates across a network.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "String Indexing",
+      "concept": "Out-of-range string index raises IndexError",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What happens when this Python code runs?\ns = 'Hello'\nprint(s[10])",
+      "options": {
+        "A": "It raises TypeError",
+        "B": "It prints an empty string",
+        "C": "It raises IndexError",
+        "D": "It prints the last character 'o'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Accessing a string index outside the valid range raises IndexError. A non-integer index would raise TypeError instead.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S09-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Protocols",
+      "concept": "RTSP for media session control",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A streaming service lets users play, pause and fast forward a movie. Which protocol controls such media sessions between client and server?",
+      "options": {
+        "A": "RTP",
+        "B": "MIME",
+        "C": "SMTP",
+        "D": "RTSP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "RTSP (Real-Time Streaming Protocol) controls media sessions, as in Netflix play/pause/fast forward. RTP is used for video conferencing and live streaming.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S09-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Laws of Boolean Algebra",
+      "concept": "Absorption law A + A'B",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Using the laws of Boolean algebra, the expression A + A'·B simplifies to:",
+      "options": {
+        "A": "A + B",
+        "B": "A",
+        "C": "A + 1",
+        "D": "B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "By the absorption law, A + A'·B = A + B. The related form A + A·B simplifies to A.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S09-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Design Quality",
+      "concept": "Cohesion definition",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which term refers to the measure of functional strength of a single software module?",
+      "options": {
+        "A": "Coupling",
+        "B": "Function Points",
+        "C": "Cohesion",
+        "D": "Cyclomatic Complexity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Cohesion measures the functional strength of a module, while coupling measures interdependence between modules. Good design has strong cohesion and low coupling.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q12",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Simplex communication examples",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following are examples of simplex (one-way only) communication? (Select all that apply)",
+      "options": {
+        "A": "Television broadcasting",
+        "B": "Walkie-talkie",
+        "C": "Fire alarm system",
+        "D": "Video conferencing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "Simplex allows one-way communication only; examples include TV broadcasting and fire alarm systems. A walkie-talkie is half duplex and video conferencing is full duplex.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Shortest Path Algorithms",
+      "concept": "Dijkstra's algorithm time complexity",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "What is the time complexity of Dijkstra's shortest path algorithm, where V is the number of vertices and E the number of edges?",
+      "options": {
+        "A": "O(V^3)",
+        "B": "O(E log V)",
+        "C": "O(V x E)",
+        "D": "O(V log E)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Dijkstra's algorithm runs in O(E log V). Floyd-Warshall takes O(V^3) and Bellman-Ford takes O(V x E).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S09-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Paging Address Calculation",
+      "concept": "Number of frames from physical address bits",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A system has a 27-bit logical address, a 21-bit physical address and a page size of 1K. How many frames does physical memory have?",
+      "options": {
+        "A": "131072",
+        "B": "1024",
+        "C": "4096",
+        "D": "2048",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Page size 1K = 2^10, so offset d = 10 bits. Frame bits F = 21 - 10 = 11, giving 2^11 = 2048 frames (the 131072 figure is the number of pages, 2^17).",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S09-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus Types",
+      "concept": "Logic bomb triggered by time is a time bomb",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "When a logic bomb is activated by a time-related event, it is known as a:",
+      "options": {
+        "A": "Time bomb",
+        "B": "Macro virus",
+        "C": "Retrovirus",
+        "D": "Boot sector virus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A logic bomb that is activated by a time-related event is called a time bomb. A retrovirus is a virus that can delete anti-virus software.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "LPWAN Technologies",
+      "concept": "Sigfox French LPWAN network operator",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which LPWAN technology is a French global network operator offering an inexpensive, reliable, low-power solution to connect sensors and devices?",
+      "options": {
+        "A": "LoRaWAN",
+        "B": "Sigfox",
+        "C": "NB-IoT",
+        "D": "Cat-1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Sigfox is a French global network operator providing a low-power solution for connecting sensors and devices. LoRaWAN, NB-IoT (Cat-M2) and Cat-1 are other LPWAN technologies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "yield keyword purpose",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which Python keyword is used for returning values from a generator?",
+      "options": {
+        "A": "return",
+        "B": "lambda",
+        "C": "yield",
+        "D": "pass",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "yield returns values from a generator. return exits a function and returns a value, lambda creates an anonymous function, and pass executes nothing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S09-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Hamming Codes",
+      "concept": "Minimum Hamming distance between valid Hamming codewords",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In Hamming codes such as the common Hamming(7, 4), what is the minimal Hamming distance between any two correct codewords?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The minimal Hamming distance between any two correct Hamming codewords is 3, which allows single-bit error correction. Hamming codes were invented by Richard Hamming.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S09-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Operation",
+      "concept": "Actions in a single Turing machine move",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In one move, what can a Turing machine do?",
+      "options": {
+        "A": "Push or pop a symbol on a stack only",
+        "B": "Read a symbol but never write anything on the tape",
+        "C": "Jump the head to any cell of the tape",
+        "D": "Change state, write a symbol, move head one cell",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In one move a Turing machine may change state, write a symbol, and move its head left or right by one cell. Stack operations belong to pushdown automata.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S09-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "TCL Commands",
+      "concept": "SAVEPOINT command category",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "The SAVEPOINT command belongs to which category of SQL language?",
+      "options": {
+        "A": "DCL",
+        "B": "DDL",
+        "C": "TCL",
+        "D": "DML",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "TCL (Transaction Control Language) includes COMMIT, ROLLBACK and SAVEPOINT. DCL has GRANT and REVOKE.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IEEE Standards",
+      "concept": "IEEE 802.4 Token Bus",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which networking standard is defined by IEEE 802.4?",
+      "options": {
+        "A": "Token Ring",
+        "B": "Token Bus",
+        "C": "Logical Link Control",
+        "D": "Cable Modems",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IEEE 802.4 is Token Bus. Token Ring is 802.5, Logical Link Control is 802.2 and Cable Modems is 802.14.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S09-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Types",
+      "concept": "Vectorization definition",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Transforming a pixel-based (raster) image into a vector image is called:",
+      "options": {
+        "A": "Rasterization",
+        "B": "Morphing",
+        "C": "Warping",
+        "D": "Vectorization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Vectorization converts a raster image into a vector image; rasterization is the reverse. Morphing and warping are image animation/distortion techniques.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Operator Precedence",
+      "concept": "Exponentiation associativity",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "As per operator precedence rules used for expression conversion, which operator group is evaluated from right to left?",
+      "options": {
+        "A": "Exponentiation (^)",
+        "B": "Multiplication and Division",
+        "C": "Addition and Subtraction",
+        "D": "Parentheses",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Exponentiation (^) has right-to-left associativity. Parentheses, multiplication/division and addition/subtraction are evaluated left to right.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S09-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Perfective maintenance",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A team adds new features to an existing, working software product. This type of maintenance is called:",
+      "options": {
+        "A": "Adaptive maintenance",
+        "B": "Perfective maintenance",
+        "C": "Corrective maintenance",
+        "D": "Preventive maintenance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Perfective maintenance adds new features to existing software. Adaptive maintenance updates software to fit new environments.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S09-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS History",
+      "concept": "Founder of OOPS is Alan Kay",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Who is regarded as the founder of Object-Oriented Programming (OOPS) in the 1960s?",
+      "options": {
+        "A": "Bjarne Stroustrup",
+        "B": "James Gosling",
+        "C": "Alan Kay",
+        "D": "Dennis Ritchie",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Alan Kay is credited as the founder of OOPS in the 1960s. Simula (1967) was the first OOP language and Smalltalk the first pure object-oriented language.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

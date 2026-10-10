@@ -1,0 +1,681 @@
+{
+  "setId": 33,
+  "title": "Set 33",
+  "questions": [
+    {
+      "id": "S33-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Basics",
+      "concept": "Symbol defined as a character",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In automata basics, a symbol is defined as a:",
+      "options": {
+        "A": "Character",
+        "B": "Set of states",
+        "C": "Finite set of alphabets",
+        "D": "Finite set of words",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A symbol is a character; an alphabet is a finite set of symbols, a word a finite set of alphabets and a language a finite set of words.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Bubble Sort",
+      "concept": "Bubble sort list after three passes",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Bubble sort (ascending) is applied to [7, 11, 3, 10, 17, 23, 1, 4, 21, 5]. What is the list after three complete passes?",
+      "options": {
+        "A": "[3, 7, 10, 11, 1, 4, 17, 5, 21, 23]",
+        "B": "[3, 7, 10, 1, 4, 11, 5, 17, 21, 23]",
+        "C": "[3, 7, 1, 10, 4, 11, 5, 17, 21, 23]",
+        "D": "[1, 3, 4, 5, 7, 10, 11, 17, 21, 23]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Pass 1 moves 23 to the end, pass 2 places 21 and pass 3 places 17, giving [3, 7, 10, 1, 4, 11, 5, 17, 21, 23]. The second option is the state after only two passes.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S33-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Radio wave frequency that penetrates walls",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Radio waves in which frequency range can penetrate walls?",
+      "options": {
+        "A": "1 GHz-300 GHz",
+        "B": "3-300 KHz",
+        "C": "300 GHz-400 THz",
+        "D": "300 KHz-30 MHz",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Radio waves of 3-300 KHz penetrate walls; 300 KHz-30 MHz travel long distances, while microwaves and infrared cannot penetrate solid objects.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC",
+      "concept": "Design stage involves algorithm and flowchart",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "In the SDLC stages, preparing the algorithm and flowchart for the solution is done during:",
+      "options": {
+        "A": "Deployment",
+        "B": "Design",
+        "C": "Development",
+        "D": "Requirement Analysis",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Design stage involves the algorithm and flowchart; coding is done in Development.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Concepts",
+      "concept": "Abstraction implemented using encapsulation",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which OOP feature can be implemented using encapsulation?",
+      "options": {
+        "A": "Abstraction",
+        "B": "Polymorphism",
+        "C": "Inheritance",
+        "D": "Function overloading",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "By wrapping data inside a class and exposing only selected members, encapsulation makes it possible to achieve abstraction.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "CASE Tools",
+      "concept": "CASE repository stores project information",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In CASE tools, which component stores all project-related changes and information from development through maintenance?",
+      "options": {
+        "A": "CASE compiler",
+        "B": "CASE prototype",
+        "C": "CASE debugger",
+        "D": "CASE repository",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The CASE repository is the central store of all project-related information and changes, from development to maintenance.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Robotics",
+      "concept": "Sophia as a humanoid robot",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Sophia, which uses AI, visual data processing, facial recognition and human-like gestures, is an example of which type of robot?",
+      "options": {
+        "A": "Drone",
+        "B": "Manipulator",
+        "C": "Humanoid",
+        "D": "Wheeled robot",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Sophia is a humanoid, a robot that resembles humans.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Common HTML Tags",
+      "concept": "Marquee tag for scrolling text",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which HTML tag is used to create scrolling text?",
+      "options": {
+        "A": "<marquee>",
+        "B": "<center>",
+        "C": "<scroll>",
+        "D": "<move>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The <marquee> tag creates a scrolling effect; <center> only centres content.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S33-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Star topology central device failure",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In a star topology, which failure can disrupt the entire network?",
+      "options": {
+        "A": "Failure of the terminator at one end of the bus",
+        "B": "Failure of the central hub or switch",
+        "C": "Failure of the cable to a single node",
+        "D": "Failure of any one end device",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Failure of one device in a star does not affect others, but the central node is a single point of failure.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S33-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "MySQL Basics",
+      "concept": "Multiline statement prompt in MySQL",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "While typing a multiline SQL statement in the MySQL client, what does the prompt change to until the statement is completed with a semicolon?",
+      "options": {
+        "A": "->",
+        "B": ">>>",
+        "C": "$",
+        "D": "mysql>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "For multiline statements the prompt changes from mysql> to -> until the statement is terminated with a semicolon.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S33-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "Ternary operator absolute difference",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the output of this C++ code?\n\nint a = 7, b = 4;\nint m = (a > b) ? a - b : b - a;\ncout << m * 2;",
+      "options": {
+        "A": "-6",
+        "B": "6",
+        "C": "22",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Since 7 > 4 is true, m = a - b = 3, and m * 2 = 6.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S33-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Types of Hackers",
+      "concept": "White hat hacker is a penetration tester",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "An ethical hacker who legally tests a system with the owner's permission, also called a penetration tester, is a:",
+      "options": {
+        "A": "Black hat hacker",
+        "B": "Grey hat hacker",
+        "C": "White hat hacker",
+        "D": "Security cracker",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "White hat hackers are ethical hackers or penetration testers who have permission to hack the system.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "List Methods",
+      "concept": "count() and index() on a list",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\nlst = [5, 3, 5, 7, 5]\nprint(lst.count(5), lst.index(7))",
+      "options": {
+        "A": "3 4",
+        "B": "5 3",
+        "C": "3 3",
+        "D": "2 3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "5 appears three times, and the first occurrence of 7 is at index 3 (indices start from 0).",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S33-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Error Correction",
+      "concept": "Hamming distance between two codewords",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "What is the Hamming distance between the codewords 1011101 and 1001001?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Comparing bit by bit, the words differ only at the 3rd and 5th positions, so the Hamming distance is 2.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S33-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Selection",
+      "concept": "if-elif chain stops at first true condition",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\nx = 15\nif x > 10:\n    print('A')\nelif x > 5:\n    print('B')\nelse:\n    print('C')",
+      "options": {
+        "A": "C",
+        "B": "B",
+        "C": "A B",
+        "D": "A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In an if..elif..else chain, only the block of the first true condition runs and the structure ends, so only A is printed even though x > 5 is also true.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Question Misread",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S33-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ASCII",
+      "concept": "ASCII is fixed length code",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "What kind of code is ASCII?",
+      "options": {
+        "A": "Variable length code",
+        "B": "Weighted BCD code",
+        "C": "Error correcting code",
+        "D": "Fixed length code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Every ASCII character uses the same number of bits, so ASCII is a fixed length code.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "MySQL Data Types",
+      "concept": "DATE data type value range",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "What is the range of values supported by the MySQL DATE data type?",
+      "options": {
+        "A": "1970-01-01 to 2038-01-19",
+        "B": "1000-01-01 to 9999-12-31",
+        "C": "1900-01-01 to 2099-12-31",
+        "D": "0001-01-01 to 9999-12-31",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The MySQL DATE type stores dates in YYYY-MM-DD format with a range from 1000-01-01 to 9999-12-31.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S33-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Paging Address Calculation",
+      "concept": "Number of pages for 16-bit logical address and 4K page",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A logical address is 16 bits long and the page size is 4 KB. How many pages does the logical address space contain?",
+      "options": {
+        "A": "16",
+        "B": "12",
+        "C": "4",
+        "D": "4096",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "4 KB = 2^12, so the offset is 12 bits and the page number is 16 - 12 = 4 bits, giving 2^4 = 16 pages.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Linear Bounded Automata",
+      "concept": "ML in LBA definition",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In the formal definition of a Linear Bounded Automaton, what does ML represent?",
+      "options": {
+        "A": "Right end marker",
+        "B": "Machine language symbol",
+        "C": "Left end marker",
+        "D": "Main loop state",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ML is the left end marker and MR the right end marker of an LBA.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S33-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Lower bound and upper bound of an array",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In array terminology, what are the lower bound and upper bound?",
+      "options": {
+        "A": "The first and last elements after sorting",
+        "B": "The base address and the last address of the array",
+        "C": "The smallest and largest values stored in the array",
+        "D": "The smallest and largest valid index values",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Lower bound and upper bound refer to the smallest and largest valid index values, not to the stored values or addresses.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Ports and Protocols",
+      "concept": "Correct protocol-port pairs",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which option lists correct protocol-port pairs?",
+      "options": {
+        "A": "HTTPS 80, HTTP 443",
+        "B": "SMTP 25, DNS 53",
+        "C": "POP3 143, IMAP 110",
+        "D": "Telnet 22, SSH 23",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SMTP uses 25 and DNS 53; the other options swap Telnet/SSH (23/22), POP3/IMAP (110/143) and HTTP/HTTPS (80/443).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S33-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cybercrime and Forensics",
+      "concept": "Cyber forensics combines law and computer science",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which field combines law and computer science to collect and analyse digital evidence?",
+      "options": {
+        "A": "Cyber stalking",
+        "B": "Cyber laundering",
+        "C": "Cryptanalysis",
+        "D": "Cyber forensics",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Cyber forensics combines law and computer science to collect and analyse information as digital evidence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S33-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Gateway",
+      "concept": "Function not performed by IoT gateway",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following is NOT a key functionality of an IoT gateway?",
+      "options": {
+        "A": "Data computing at edge level",
+        "B": "Performing data aggregation",
+        "C": "Converting energy into motion to drive devices",
+        "D": "Providing local storage as cache or buffer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Gateways aggregate data, cache it locally, compute at the edge, add security and run diagnostics. Converting energy into motion is the job of actuators.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S33-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "SJF Scheduling",
+      "concept": "SJF average waiting time calculation",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Processes P1, P2 and P3 arrive at time 0 with CPU bursts of 24 ms, 3 ms and 3 ms. What is the average waiting time under non-preemptive SJF?",
+      "options": {
+        "A": "3 ms",
+        "B": "17 ms",
+        "C": "9 ms",
+        "D": "6 ms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SJF runs P2 (0-3), P3 (3-6), then P1 (6-30). Waiting times are 0, 3 and 6, so the average is 9 / 3 = 3 ms.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S33-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Attributes",
+      "concept": "bgcolor versus background attribute",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which attribute of the body tag sets a background colour rather than a background image?",
+      "options": {
+        "A": "style-image",
+        "B": "src",
+        "C": "background",
+        "D": "bgcolor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "bgcolor sets the background colour, while background sets a background image.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

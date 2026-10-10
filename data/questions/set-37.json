@@ -1,0 +1,681 @@
+{
+  "setId": 37,
+  "title": "Set 37",
+  "questions": [
+    {
+      "id": "S37-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "Kruskal classified as MST algorithm",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Graph algorithms are divided into shortest path and minimum spanning tree categories. Which of these is a minimum spanning tree algorithm?",
+      "options": {
+        "A": "Dijkstra's algorithm",
+        "B": "Floyd-Warshall algorithm",
+        "C": "Bellman-Ford algorithm",
+        "D": "Kruskal's algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Kruskal's and Prim's are MST algorithms; Dijkstra, Bellman-Ford and Floyd-Warshall are shortest path algorithms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "ChatGPT",
+      "concept": "ChatGPT release year and developer",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which option correctly gives the initial release year and developer of ChatGPT?",
+      "options": {
+        "A": "2022, Google",
+        "B": "2023, Microsoft",
+        "C": "2021, OpenAI",
+        "D": "2022, OpenAI",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ChatGPT was initially released in 2022 and developed by OpenAI. Google's chatbot is Bard/Gemini and Microsoft's is Copilot.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S37-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Data Types",
+      "concept": "Signed char value count and maximum",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "A signed char in C++ has the range -128 to 127. How many distinct values can it hold, and what is its maximum value?",
+      "options": {
+        "A": "128 values, maximum 127",
+        "B": "256 values, maximum 127",
+        "C": "256 values, maximum 128",
+        "D": "255 values, maximum 127",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "From -128 to 127 there are 128 negative values, zero and 127 positive values, totalling 256; the largest is 127 because one bit pattern is used for zero.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S37-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Paging Address Calculation",
+      "concept": "Number of frames for 24-bit physical address and 2K frame",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A system has a 33-bit logical address, a 24-bit physical address and a page size of 2 KB. How many frames are in physical memory?",
+      "options": {
+        "A": "4096",
+        "B": "4194304",
+        "C": "8192",
+        "D": "16384",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A 2 KB page needs an 11-bit offset. Frame bits = 24 - 11 = 13, so frames = 2^13 = 8192. 4194304 (2^22) is the number of pages.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S37-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Boolean arithmetic using True as integer 1",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "What is the output of print(True + True + False) in Python?",
+      "options": {
+        "A": "TypeError",
+        "B": "TrueTrueFalse",
+        "C": "2",
+        "D": "True",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "bool is a subtype of int, with True behaving as 1 and False as 0, so the sum is 1 + 1 + 0 = 2.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cookies",
+      "concept": "Cookie editable only by its creating website",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which statement about a cookie stored on a client computer is correct?",
+      "options": {
+        "A": "It can be edited only by the website that created it",
+        "B": "It is stored only on the web server, not the client",
+        "C": "It can be edited by any website the user visits",
+        "D": "It is a self-replicating malicious program",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A cookie is a small file stored by a website on the client computer and can be edited only by the website that created it; cookies are generally not malware.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "NTFS full form",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What does NTFS stand for?",
+      "options": {
+        "A": "Native Tree File System",
+        "B": "New Table File Structure",
+        "C": "New Technology File System",
+        "D": "Network Transfer File System",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NTFS is the New Technology File System used by Windows NT/2000/XP and later versions.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S37-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Architecture",
+      "concept": "Tape head reads and writes symbols",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which part of a Turing machine reads and writes symbol values on the tape?",
+      "options": {
+        "A": "Blank symbol",
+        "B": "Tape head",
+        "C": "Set of final states",
+        "D": "Finite control",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The tape (read/write) head reads and writes symbols; the finite control tracks the machine's states.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Types of Files",
+      "concept": "Binary file corruption from a single bit change",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which statement about binary files is correct?",
+      "options": {
+        "A": "They store only ASCII characters",
+        "B": "Even a single bit change can corrupt the file",
+        "C": "Each line ends with an EOL character",
+        "D": "They can always be read correctly in any text editor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Binary files store raw bytes that are not human-readable and need specific software to read; changing a single bit can corrupt them.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Number System Complements",
+      "concept": "10's complement of four-digit decimal",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "What is the 10's complement of the decimal number 3409?",
+      "options": {
+        "A": "6591",
+        "B": "6501",
+        "C": "7691",
+        "D": "6590",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "10's complement = 10000 - 3409 = 6591 (equivalently 9's complement 6590 plus 1).",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Modes",
+      "concept": "Classifying devices by transmission mode",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Classify these in order: video conferencing, fire alarm system, walkie-talkie.",
+      "options": {
+        "A": "Full duplex, Half duplex, Simplex",
+        "B": "Simplex, Full duplex, Half duplex",
+        "C": "Full duplex, Simplex, Half duplex",
+        "D": "Half duplex, Simplex, Full duplex",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Video conferencing is full duplex, a fire alarm system is simplex and a walkie-talkie is half duplex.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Types of Web Development",
+      "concept": "Back-end responsibilities",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which task belongs to back-end rather than front-end web development?",
+      "options": {
+        "A": "Handling database interactions and user authentication",
+        "B": "Building the visible page layout with HTML",
+        "C": "Styling page colours and fonts with CSS",
+        "D": "Creating interactive UI components in React",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Back-end work includes database interactions, user authentication, server configuration and building APIs; HTML, CSS and React are front-end technologies.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Key Concepts in DBMS",
+      "concept": "Inserting rows changes instance not schema",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Three new rows are inserted into an existing STUDENT table without altering any column. Which statement is correct?",
+      "options": {
+        "A": "The schema changes while the instance stays the same",
+        "B": "The database instance changes while the schema stays the same",
+        "C": "Neither the schema nor the instance changes",
+        "D": "Both the schema and the instance change",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Insertions, updates and deletions change the database state (instance); the schema, the design of tables and columns, is unchanged.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S37-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Formats",
+      "concept": "JPEG as a lossy image format",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which of the following image formats uses lossy compression?",
+      "options": {
+        "A": "JPEG",
+        "B": "BMP",
+        "C": "GIF",
+        "D": "PNG",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "JPEG is a lossy format that permanently discards some data; PNG, GIF and BMP are listed as lossless.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Short-Range IoT Networks",
+      "concept": "BLE power saving through sleep mode",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "What key feature helps Bluetooth Low Energy (BLE) conserve power?",
+      "options": {
+        "A": "It supports only point-to-point communication",
+        "B": "It uses a high data transfer rate of 3 Mbps",
+        "C": "It always operates as a mesh network",
+        "D": "It stays in sleep mode except during data transmission",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "BLE remains in sleep mode except when transmitting data, which greatly reduces power consumption compared to classic Bluetooth.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linear Search",
+      "concept": "Linear search comparisons for an absent key",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Linear search is used to look for key 5 in numList = [8, -4, 7, 17, 0, 2, 19]. How many comparisons are made before the search is declared unsuccessful?",
+      "options": {
+        "A": "7",
+        "B": "0",
+        "C": "1",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "When the key is not present, every element must be compared, so n = 7 comparisons are made.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S37-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Comments",
+      "concept": "Code after # on the same line is ignored",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "What is the output of the following code?\nx = 5  # x = 10\nprint(x)",
+      "options": {
+        "A": "15",
+        "B": "SyntaxError",
+        "C": "10",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Everything after # up to the end of the line is a comment and is not executed, so x keeps the value 5.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S37-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Acceptance testing performed by client",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which testing is performed by the client to verify the end-to-end flow of the system as per business requirements?",
+      "options": {
+        "A": "Smoke testing",
+        "B": "Unit testing",
+        "C": "Back-end testing",
+        "D": "Acceptance testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Acceptance testing is performed by the client to verify end-to-end flow according to business requirements.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "Broadcast address",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following is the broadcast address?",
+      "options": {
+        "A": "127.0.0.1",
+        "B": "255.255.255.255",
+        "C": "192.168.0.1",
+        "D": "224.0.0.1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "255.255.255.255 is the broadcast address; 127.0.0.1 is loopback and 224.x is multicast.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Problem Solving",
+      "concept": "Uniqueness characteristic of algorithm",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which characteristic of a good algorithm says that each step leads to a uniquely defined result that depends only on the input and the result of the preceding steps?",
+      "options": {
+        "A": "Output",
+        "B": "Finiteness",
+        "C": "Uniqueness",
+        "D": "Precision",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Uniqueness means each step gives a uniquely defined result based on input and previous results. Precision is about precisely stated steps; finiteness about stopping after finite steps.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ACID Properties",
+      "concept": "Consistency keeps database in valid state",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "A rule says an account balance can never be negative. A transaction that would violate this rule is not allowed to leave the database in that state. Which ACID property is this?",
+      "options": {
+        "A": "Durability",
+        "B": "Consistency",
+        "C": "Isolation",
+        "D": "Atomicity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Consistency ensures a transaction takes the database from one valid state to another valid state.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "NFA",
+      "concept": "NFA handles empty string transitions",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which type of finite automaton can handle empty string transitions?",
+      "options": {
+        "A": "NFA",
+        "B": "Mealy machine",
+        "C": "Moore machine",
+        "D": "DFA",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An NFA can handle empty string transitions, whereas a DFA cannot.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Quality",
+      "concept": "Debugging definition",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "The process of finding and correcting errors in program code is called:",
+      "options": {
+        "A": "Prototyping",
+        "B": "Debugging",
+        "C": "Deploying",
+        "D": "Compiling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Software debugging is the process of locating and fixing errors (bugs) in program code.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S37-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Storage Specifiers",
+      "concept": "Automatic versus static local variable across calls",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "What is the output of this C++ code?\n\nvoid g() {\n    int a = 0;\n    static int b = 0;\n    a++; b++;\n    cout << a << b << \" \";\n}\n// in main:\ng(); g(); g();",
+      "options": {
+        "A": "11 22 33",
+        "B": "12 13 14",
+        "C": "11 12 13",
+        "D": "11 11 11",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "a is automatic and is recreated as 0 on each call, so it always prints 1. b is static, initialized once, and keeps its value, so it prints 1, 2, 3.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S37-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus History",
+      "concept": "Fred Cohen coined the term computer virus",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Who coined the term 'computer virus' in 1985?",
+      "options": {
+        "A": "Joseph Popp",
+        "B": "Bob Thomas",
+        "C": "Robert Morris",
+        "D": "Fred Cohen",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Fred Cohen coined the term computer virus in 1985, borrowing the idea from biological virus behaviour. Joseph Popp created the AIDS Trojan ransomware.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    }
+  ]
+}

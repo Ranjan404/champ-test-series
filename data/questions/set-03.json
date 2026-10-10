@@ -1,0 +1,681 @@
+{
+  "setId": 3,
+  "title": "Set 3",
+  "questions": [
+    {
+      "id": "S03-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Unguided Transmission Media",
+      "concept": "Microwave properties (1-300 GHz, unidirectional, line-of-sight)",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which wireless transmission wave has a frequency range of 1 GHz to 300 GHz, is unidirectional and requires line-of-sight propagation?",
+      "options": {
+        "A": "Radio waves",
+        "B": "Infrared waves",
+        "C": "Microwaves",
+        "D": "Visible light waves",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Microwaves range from 1 GHz to 300 GHz, are unidirectional, cannot penetrate walls or hills and need line-of-sight, so they are used for radar and satellite links. Radio waves (3 KHz to 1 GHz) are omni-directional.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S03-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "String Methods",
+      "concept": "str.title() capitalises first letter of each word",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What does the Python string method title() do, as in 'hello WORLD!'.title()?",
+      "options": {
+        "A": "Converts the first letter of each word to uppercase",
+        "B": "Converts all lowercase letters to uppercase",
+        "C": "Converts all uppercase letters to lowercase",
+        "D": "Converts only the first letter of the string to uppercase",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "title() converts the first letter of each word to uppercase, so 'hello WORLD!'.title() gives 'Hello World!'. upper() and lower() change the case of all letters.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S03-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Evolution of Computer",
+      "concept": "Herman Hollerith designed tabulating machine for punched-card data",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which computing device did Herman Hollerith design?",
+      "options": {
+        "A": "The Pascaline mechanical calculator",
+        "B": "The Analytical Engine",
+        "C": "The stored program computer",
+        "D": "A tabulating machine for punched-card data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Herman Hollerith designed a tabulating machine for summarising data stored on punched cards. The Pascaline was by Blaise Pascal, the Analytical Engine by Charles Babbage and the stored program concept by John von Neumann.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S03-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Design",
+      "concept": "Desired cohesion and coupling levels",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Cohesion measures the functional strength of a module and coupling measures interdependence between modules. What combination is desired in a good design?",
+      "options": {
+        "A": "Low cohesion and high coupling",
+        "B": "Strong cohesion and low coupling",
+        "C": "Strong cohesion and high coupling",
+        "D": "Low cohesion and low coupling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A good design keeps cohesion strong so each module does one job well, and coupling low so modules depend little on each other.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S03-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search",
+      "concept": "Binary search iteration count for first element",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Binary search with mid = (first + last) // 2 is applied to the sorted list [2, 3, 5, 7, 10, 11, 12, 17, 19, 23, 29, 31, 37, 41, 43]. How many iterations are needed to find key = 2?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "15",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The mid indices visited are 7, 3, 1 and then 0, where 2 is found, so it takes 4 iterations. Each unsuccessful comparison halves the search area.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S03-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Key Exchange",
+      "concept": "Diffie-Hellman one-time session key",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which technique provides a one-time session key for two communicating parties?",
+      "options": {
+        "A": "Rivest-Shamir-Adleman",
+        "B": "Data Encryption Standard",
+        "C": "Advanced Encryption Standard",
+        "D": "Diffie-Hellman",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Diffie-Hellman exchanges keys securely and provides a one-time session key for two parties. RSA is a public-key algorithm, while DES and AES are encryption standards.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S03-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Windows Power Modes",
+      "concept": "Hibernate mode for long idle periods",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In Windows, which power option is meant for a computer that will not be used for a long time?",
+      "options": {
+        "A": "Hibernate mode",
+        "B": "Sleep mode",
+        "C": "Shut down and restart",
+        "D": "Screen lock mode",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Hibernate mode is used when the computer will not be used for a long time, while Sleep mode is for short periods of no use.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S03-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Polymorphism in Java",
+      "concept": "Method overloading binding and scope",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which statement correctly describes method overloading in Java?",
+      "options": {
+        "A": "Same name and same signature in parent and child classes, using dynamic binding",
+        "B": "Same name but different signatures, resolved at runtime by dynamic binding",
+        "C": "Same name but different signatures in one class, using static binding",
+        "D": "Same signature redefined in a subclass, resolved at compile time",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Overloading uses the same method name with different signatures within the same class and is resolved at compile time with static binding. Overriding uses the same signature between parent and child classes with dynamic binding.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S03-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Tables",
+      "concept": "Degree of a relation",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In a relational database table, the number of columns defines the ____ of the relation.",
+      "options": {
+        "A": "cardinality",
+        "B": "domain",
+        "C": "schema",
+        "D": "degree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The number of columns (attributes) in a table defines the degree of the relation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S03-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "MQTT Protocol",
+      "concept": "Order of four stages of MQTT",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the correct order of the four stages of MQTT?",
+      "options": {
+        "A": "Authentication, Connection, Communication, Termination",
+        "B": "Connection, Authentication, Communication, Termination",
+        "C": "Connection, Communication, Authentication, Termination",
+        "D": "Authentication, Communication, Connection, Termination",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The four stages of MQTT are Connection, Authentication, Communication and Termination, in that order.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S03-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Encoding",
+      "concept": "ASCII lowercase value calculation",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "The ASCII value of 'A' is 65, and each lowercase letter is 32 more than its uppercase letter. What is the decimal ASCII value of 'e'?",
+      "options": {
+        "A": "101",
+        "B": "69",
+        "C": "100",
+        "D": "133",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "'E' is 65 + 4 = 69, and adding the uppercase-to-lowercase difference of 32 gives 101 for 'e'. This matches 'a' = 97 plus 4.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S03-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Closure Properties",
+      "concept": "Operations listed for context-free languages (concatenation, not intersection/complement/difference)",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "According to the operations listed by language class, which operation is listed for Context-Free Languages (Type 2)?",
+      "options": {
+        "A": "Intersection",
+        "B": "Complement",
+        "C": "Concatenation",
+        "D": "Difference",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The operations listed for context-free languages are union, concatenation, Kleene star and Kleene plus. Intersection and complement appear for context-sensitive and regular languages, and difference only for regular languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S03-Q13",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Wired Transmission Media",
+      "concept": "Optical fiber properties",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which of the following statements about optical fiber cable are true? (Select all that apply)",
+      "options": {
+        "A": "It is not affected by electromagnetic noise",
+        "B": "It is unidirectional, so full-duplex needs two cables",
+        "C": "It is less expensive than twisted pair cable",
+        "D": "It carries data as electrical signals in a copper core",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "Optical fiber carries data as light, has high bandwidth and is not affected by electromagnetic noise. It is expensive and unidirectional, so two cables are required for full-duplex communication.",
+      "distractorMistakeType": {
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S03-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Lists",
+      "concept": "Unordered list type values disc, circle, square",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which set gives the valid list type styles for an HTML unordered list?",
+      "options": {
+        "A": "1, A, a",
+        "B": "I, i, 1",
+        "C": "bullet, dash, dot",
+        "D": "disc, circle, square",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The type of an unordered list (<ul>) may be disc, circle or square. Values such as 1, A, a, I and i are numbering styles for ordered lists.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S03-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "List Methods",
+      "concept": "list.insert() shifts later elements then index() returns new position",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\nlst = [10, 20, 30]\nlst.insert(2, 25)\nprint(lst.index(30))",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "insert(2, 25) places 25 at index 2, so the list becomes [10, 20, 25, 30]. index(30) returns the first index of 30, which is now 3.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S03-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "MySQL Data Types",
+      "concept": "CHAR vs VARCHAR storage",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Which statement about the MySQL data types CHAR(n) and VARCHAR(n) is correct?",
+      "options": {
+        "A": "CHAR(n) pads shorter values with spaces; VARCHAR(n) uses only needed bytes",
+        "B": "VARCHAR(n) pads shorter values with spaces; CHAR(n) uses only needed bytes",
+        "C": "Both CHAR(n) and VARCHAR(n) allow a maximum length of 255",
+        "D": "CHAR(n) allows lengths up to 65535; VARCHAR(n) only up to 255",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "CHAR(n) is fixed-length (0 to 255) and pads remaining spaces. VARCHAR(n) is variable-length (0 to 65535) and uses only the bytes actually needed.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S03-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Process Models",
+      "concept": "Build and Fix model suitability",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which software process model is suitable only for small programming exercises of about 100-200 lines of code?",
+      "options": {
+        "A": "Spiral model",
+        "B": "Waterfall model",
+        "C": "Build & Fix model",
+        "D": "RAD model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Build & Fix model suits programming exercises of up to 100-200 LOC and is not suitable for large or complex work.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S03-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "DDS for real-time data exchange",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which IoT protocol is mainly used where real-time data exchange is required, for example in autonomous vehicles, power generation and robotics?",
+      "options": {
+        "A": "AMQP",
+        "B": "CoAP",
+        "C": "NFC",
+        "D": "DDS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DDS is used in situations needing real-time data exchange such as autonomous vehicles, power generation and robotics. AMQP uses queues for asynchronous communication, and CoAP targets constrained devices.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S03-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Asymmetric Cryptography",
+      "concept": "Receiver key in asymmetric encryption",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In asymmetric-key encryption for confidentiality, which key does the receiver use to decrypt the message?",
+      "options": {
+        "A": "The sender's public key",
+        "B": "The receiver's own private key",
+        "C": "A shared symmetric secret key",
+        "D": "The sender's own private key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In asymmetric-key ciphers the sender encrypts with the public key and the receiver decrypts with the private key, which the receiver keeps secret.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S03-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Collision detection with remainder method",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "The elements 12, 29, 45, 72 and 18 are hashed into a table of size 10 using h(element) = element % 10. Which two elements collide?",
+      "options": {
+        "A": "12 and 72",
+        "B": "29 and 45",
+        "C": "18 and 29",
+        "D": "45 and 72",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "12 % 10 = 2 and 72 % 10 = 2, so both map to index 2 and collide. The others map to 9, 5 and 8.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S03-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Types of Operating Systems",
+      "concept": "OS type and example pairing",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which pairing of operating system type and example is correct?",
+      "options": {
+        "A": "Multi-user, multi-tasking: MS-DOS",
+        "B": "Single-user, single-tasking: Windows Server",
+        "C": "Single-user, single-tasking: MS-DOS",
+        "D": "Real-time OS: Windows 2000",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MS-DOS is single-user, single-tasking. Windows Server is multi-user, multi-tasking, and Windows 2000 is listed as a client/server OS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S03-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Hyperlinks",
+      "concept": "vlink attribute meaning",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In HTML, which attribute refers to the colour state of a visited link?",
+      "options": {
+        "A": "alink",
+        "B": "vlink",
+        "C": "link",
+        "D": "href",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The vlink attribute refers to a visited link. The active link is represented separately from visited links.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S03-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "SRAM vs DRAM properties",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which statement about RAM types is correct?",
+      "options": {
+        "A": "SRAM uses capacitors and must be refreshed often",
+        "B": "DRAM uses transistors and is used as cache",
+        "C": "SRAM has slower access time than DRAM",
+        "D": "DRAM uses capacitors and must be refreshed often",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DRAM stores bits in capacitors and must be refreshed many times per second. SRAM uses transistors, has faster access and is used for cache memory.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S03-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Key Figures",
+      "concept": "Alonzo Church contribution",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which contribution to the Theory of Computation is credited to Alonzo Church?",
+      "options": {
+        "A": "Lambda calculus",
+        "B": "Chomsky hierarchy",
+        "C": "Pumping lemma",
+        "D": "Turing machine model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Alonzo Church developed lambda calculus and contributed to the Church-Turing thesis. The Turing machine was invented by Alan Turing.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S03-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java History",
+      "concept": "Java's earlier name was Oak",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Before it was named Java, the Java programming language was called:",
+      "options": {
+        "A": "Pine",
+        "B": "Green",
+        "C": "Oak",
+        "D": "Coffee",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Before Java, the language's name was Oak.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

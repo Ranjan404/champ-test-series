@@ -1,0 +1,681 @@
+{
+  "setId": 42,
+  "title": "Set 42",
+  "questions": [
+    {
+      "id": "S42-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Data Types",
+      "concept": "unsigned modifier accepts only positive values",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which C++ type modifier makes a variable accept only positive values?",
+      "options": {
+        "A": "short",
+        "B": "unsigned",
+        "C": "long",
+        "D": "signed",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "unsigned restricts a variable to non-negative values; signed allows both signs while short and long change the range size.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Schema",
+      "concept": "DDL used to create database schema",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which category of SQL language is used to create a database schema?",
+      "options": {
+        "A": "DML",
+        "B": "DCL",
+        "C": "DDL",
+        "D": "TCL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A database schema is created using DDL (Data Definition Language).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ROM Types",
+      "concept": "Mask ROM is factory custom built",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which type of ROM has to be custom built by the factory and cannot be reprogrammed afterwards?",
+      "options": {
+        "A": "PROM",
+        "B": "Mask ROM",
+        "C": "EPROM",
+        "D": "EEPROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Mask ROM is programmed at the factory during manufacture and cannot be reprogrammed if the stored data needs to change.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "DFA",
+      "concept": "DFA used in text editors",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "As per the syllabus, which finite automaton is noted for use in text editors?",
+      "options": {
+        "A": "DFA",
+        "B": "Pushdown automata",
+        "C": "NFA",
+        "D": "Linear bounded automata",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DFA is listed as used in text editors, while NFA is listed as used in programming.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S42-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Default value of uninitialized array element",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In C, for the declaration int arr[5] = {1, 2, 3}; what is the value of arr[3]?",
+      "options": {
+        "A": "Compile-time error",
+        "B": "3",
+        "C": "Garbage value",
+        "D": "0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "When an array is partially initialized, the remaining elements are set to zero, so arr[3] is 0. The value 3 is at arr[2].",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S42-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "DHCP assigns IP addresses",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which protocol automatically assigns IP addresses to hosts in a network?",
+      "options": {
+        "A": "ICMP",
+        "B": "DHCP",
+        "C": "ARP",
+        "D": "DNS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) assigns IP addresses; DNS maps names to IP addresses.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Schema",
+      "concept": "Physical schema stores files and indices",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which type of database schema specifies how data is stored on disk in the form of files and indices?",
+      "options": {
+        "A": "Physical schema",
+        "B": "View schema",
+        "C": "Logical schema",
+        "D": "External schema",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The physical schema describes how data is physically stored as files and indices on the storage system.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Types",
+      "concept": "Resolution independence of vector images",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "A logo must stay perfectly smooth when enlarged to billboard size. Which statement explains the right choice of image type?",
+      "options": {
+        "A": "Use a bitmap image, because more pixels are added automatically on enlargement",
+        "B": "Use a vector image, because it stores a fixed grid of tiny coloured squares",
+        "C": "Use a vector image, because it is built from mathematical paths and is resolution independent",
+        "D": "Use a bitmap image, because pixels are stored as curves that scale smoothly",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Vector images are made of points, lines and curves defined mathematically, so they scale without loss; bitmaps are grids of pixels that blur or pixelate when enlarged.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Evolution of Networking",
+      "concept": "Creator of ARPANET",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "ARPANET, the first network, was created in 1969 by:",
+      "options": {
+        "A": "The US Department of Defense",
+        "B": "ISO",
+        "C": "VSNL",
+        "D": "CERN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ARPANET was created by the US DoD in 1969; VSNL launched India's first public Internet service in 1995.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q10",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Identifying necessary conditions for deadlock among distractors",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which of the following are among the necessary conditions that must hold simultaneously for a deadlock to occur? Select all that apply.",
+      "options": {
+        "A": "Forced pre-emption of held resources",
+        "B": "Circular Wait",
+        "C": "Aging of waiting processes",
+        "D": "Mutual Exclusion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "The four necessary conditions are mutual exclusion, hold and wait, no pre-emption and circular wait. Forced pre-emption is the opposite of no pre-emption, and aging is a remedy for starvation.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Document Structure",
+      "concept": "DOCTYPE declaration purpose",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the purpose of <!DOCTYPE html> at the top of a page?",
+      "options": {
+        "A": "It links an external style sheet",
+        "B": "It acts as the root element of the page",
+        "C": "It adds a comment that browsers ignore",
+        "D": "It declares the document type and HTML version",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "<!DOCTYPE html> is the document type declaration indicating the HTML version; the root element is <html>.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "SJF Scheduling",
+      "concept": "SJF tie broken by FCFS in a schedule",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "P1, P2, P3 and P4 arrive at time 0 in that order with CPU bursts of 4, 2, 4 and 1 ms. Under non-preemptive SJF (ties broken by FCFS), what is the waiting time of P3?",
+      "options": {
+        "A": "3 ms",
+        "B": "6 ms",
+        "C": "10 ms",
+        "D": "7 ms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SJF runs P4 (0-1), P2 (1-3), then the tie between P1 and P3 is broken by arrival order: P1 (3-7) and P3 (7-11). So P3 waits 7 ms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S42-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Time Complexity",
+      "concept": "Complexity estimate with nested loop and single loop",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "An algorithm contains one nested loop (a loop inside a loop, each over n items) followed by a separate single loop over n items. As per the rule for estimating time complexity, its complexity is:",
+      "options": {
+        "A": "n^3",
+        "B": "n^2",
+        "C": "1",
+        "D": "n",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "When an algorithm has both a nested loop and a single loop, the estimate is based on the nested loop, giving quadratic time n^2.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S42-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Requirements Engineering",
+      "concept": "Physical requirement classified as non-functional",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A requirement states that the computer terminals must be installed in a dust-free room near the counter. How is this requirement classified?",
+      "options": {
+        "A": "Design constraint on module cohesion",
+        "B": "Functional requirement, because it is in the SRS",
+        "C": "Non-functional requirement, as a physical requirement",
+        "D": "Functional requirement, because it supports a task",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Physical and system requirements are examples of non-functional requirements; functional requirements describe tasks the program must perform. Appearing in the SRS does not make a requirement functional.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S42-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "try...except...else",
+      "concept": "else clause runs only when try succeeds",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What is the output of the following code?\ntry:\n    x = 10 / 2\nexcept ZeroDivisionError:\n    print('E', end='')\nelse:\n    print('L', end='')\nfinally:\n    print('F', end='')",
+      "options": {
+        "A": "F",
+        "B": "LF",
+        "C": "ELF",
+        "D": "EF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "No exception occurs, so the except block is skipped, the else block runs, and then finally always runs, giving 'LF'.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S42-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Artificial Intelligence",
+      "concept": "Knowledge base stores facts, assumptions and rules",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "In an AI system, what is a knowledge base?",
+      "options": {
+        "A": "A network of devices exchanging data over a LAN",
+        "B": "A set of sensors that collect data from the environment",
+        "C": "A store of facts, assumptions and rules used for decision making",
+        "D": "A headset that displays a computer-generated 3D world",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A knowledge base is a store of information consisting of facts, assumptions and rules that an AI system uses for decision making.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware and Intrusion Tools",
+      "concept": "Backdoor provides unauthorized access",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A hidden entry point that gives an intruder unauthorized access to a system is called a:",
+      "options": {
+        "A": "Cookie",
+        "B": "Firewall",
+        "C": "Backdoor",
+        "D": "Sandbox",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Backdoors provide unauthorized access to systems; a firewall does the opposite by blocking unauthorized access.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Evolution of Computer",
+      "concept": "Moore's Law prediction",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "What did Moore's Law predict about chips?",
+      "options": {
+        "A": "Transistor count would quadruple every five years",
+        "B": "Clock speed would double every two years while power use is halved",
+        "C": "Transistor count would double every year while costs stay constant",
+        "D": "Transistor count would double every two years while costs would be halved",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Moore's Law predicted that the number of transistors on a chip would double every two years while the cost would be halved.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S42-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Wired Transmission Media",
+      "concept": "Optical fiber cladding material",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In an optical fiber cable, the thin transparent glass strand is covered with cladding made of:",
+      "options": {
+        "A": "Denser glass",
+        "B": "Braided copper mesh",
+        "C": "Insulating rubber",
+        "D": "Less dense glass",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The core is covered with cladding of less dense glass and an outer jacket, which directs light by refraction.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Swap through pointer parameters",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What is the output of this C++ code?\n\nvoid sw(int *x, int *y) { int t = *x; *x = *y; *y = t; }\n// in main:\nint a = 3, b = 8;\nsw(&a, &b);\ncout << a - b;",
+      "options": {
+        "A": "0",
+        "B": "11",
+        "C": "-5",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Passing addresses lets sw modify the originals, so a becomes 8 and b becomes 3. Then a - b = 8 - 3 = 5.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S42-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Layers and Protocols",
+      "concept": "Total protocols across five IoT layers",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In the five-layer IoT stack, the physical layer has 9 protocols, the data link layer 2, the network layer 2, the transport layer 2 and the application layer 4. How many protocols are there in total?",
+      "options": {
+        "A": "17",
+        "B": "19",
+        "C": "15",
+        "D": "21",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "9 + 2 + 2 + 2 + 4 = 19 protocols.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S42-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Operations by Language Class",
+      "concept": "Homomorphism listed for regular languages",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Homomorphism and inverse are listed among the operations for which language class?",
+      "options": {
+        "A": "Regular languages",
+        "B": "Context-sensitive languages",
+        "C": "Context-free languages",
+        "D": "Recursively enumerable languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Regular languages list Kleene closure, Kleene plus, complement, reverse, union, intersection, inverse, homomorphism and difference.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "String Methods",
+      "concept": "find() with a start index",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of print('Hello World! Hello'.find('Hello', 1))?",
+      "options": {
+        "A": "12",
+        "B": "0",
+        "C": "13",
+        "D": "-1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Starting the search at index 1 skips the first 'Hello', and the next occurrence begins at index 13.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S42-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ALU",
+      "concept": "Logic section compares and merges data",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which section of the CPU performs operations such as comparing, selecting, matching and merging of data?",
+      "options": {
+        "A": "Logic section of the ALU",
+        "B": "Control unit",
+        "C": "Memory unit (registers)",
+        "D": "Arithmetic section of the ALU",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The logic section of the ALU performs comparing, selecting, matching and merging; the arithmetic section does addition, subtraction and so on.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S42-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Attack Methods",
+      "concept": "IP spoofing scenario",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "An attacker sends packets with a forged source IP address so that they appear to come from a trusted host. Which attack is this?",
+      "options": {
+        "A": "Spoofing",
+        "B": "Skimming",
+        "C": "Sniffing",
+        "D": "Eavesdropping",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Spoofing tries to fake or change an IP address or DNS identity; sniffing and eavesdropping capture traffic rather than forge it.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

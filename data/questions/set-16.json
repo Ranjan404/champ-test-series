@@ -1,0 +1,681 @@
+{
+  "setId": 16,
+  "title": "Set 16",
+  "questions": [
+    {
+      "id": "S16-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Payment Systems",
+      "concept": "RTGS full form",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "In e-commerce payment systems, RTGS stands for:",
+      "options": {
+        "A": "Rapid Transfer Gateway System",
+        "B": "Real Time Gateway Settlement",
+        "C": "Real Time Gross Settlement",
+        "D": "Remote Transaction Gross Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RTGS stands for Real Time Gross Settlement, one of the electronic fund transfer systems listed with NEFT, IMPS and UPI.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Careless Error",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Signed Number Representation",
+      "concept": "1's complement of a negative number",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the 8-bit 1's complement representation of -60?",
+      "options": {
+        "A": "11000011",
+        "B": "11000100",
+        "C": "10111100",
+        "D": "00111100",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "60 = 00111100. Flipping all bits gives the 1's complement 11000011. Adding 1 (11000100) would be the 2's complement.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S16-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Interrupts",
+      "concept": "Non-maskable interrupt in 8085",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which hardware interrupt of the 8085 microprocessor is non-maskable?",
+      "options": {
+        "A": "RST 7.5",
+        "B": "RST 5.5",
+        "C": "INTR",
+        "D": "TRAP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The 8085 has 5 hardware interrupts. TRAP is non-maskable and cannot be ignored by the CPU; RST 7.5, RST 6.5, RST 5.5 and INTR are maskable.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "List Methods",
+      "concept": "list.extend() appends each element of another list",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the value of lst after executing: lst = [10, 20, 30]; lst.extend([40, 50])?",
+      "options": {
+        "A": "[10, 20, 30, [40, 50]]",
+        "B": "[40, 50, 10, 20, 30]",
+        "C": "[10, 20, 30, 40, 50]",
+        "D": "[10, 20, 30, 90]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "extend() appends each element of the given list at the end of the list. append() would instead add [40, 50] as a single nested element.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S16-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Basics",
+      "concept": "Alphabet is a finite set of symbols",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In automata theory, a finite set of symbols is called a(n):",
+      "options": {
+        "A": "Word",
+        "B": "Language",
+        "C": "Alphabet",
+        "D": "Grammar",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A symbol is a character and an alphabet is a finite set of symbols. A word is built from alphabets and a language is a set of words.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Number and numbering of Codd's rules",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Codd's 12 rules for a true RDBMS actually consist of how many rules, numbered how?",
+      "options": {
+        "A": "12 rules, numbered 1 to 12",
+        "B": "13 rules, numbered 0 to 12",
+        "C": "12 rules, numbered 0 to 11",
+        "D": "13 rules, numbered 1 to 13",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Codd's 12 rules are a set of thirteen rules numbered 0 to 12, starting with Rule 0, the Foundation Rule.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Data Transfer Rate",
+      "concept": "Data transfer rate calculation",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A user uploads a text document at 10 pages per 20 seconds. If 1 page = 1600 characters and 1 character = 8 bits, what is the data transfer rate?",
+      "options": {
+        "A": "128000 bps",
+        "B": "6400 bps",
+        "C": "800 bps",
+        "D": "3200 bps",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bits sent = 10 x 1600 x 8 = 128000 bits in 20 seconds, so the rate is 128000 / 20 = 6400 bits per second.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S16-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "AMQP asynchronous queues",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which IoT protocol uses queues of data so that connected systems can communicate asynchronously and better handle traffic spikes?",
+      "options": {
+        "A": "MQTT",
+        "B": "CoAP",
+        "C": "DDS",
+        "D": "AMQP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "AMQP uses queues of data, enabling asynchronous communication and better handling of traffic spikes. DDS is used for real-time data exchange such as autonomous vehicles.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S16-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Process Models",
+      "concept": "RAD as high-speed adaptation of the linear sequential model",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which software process model is described as a high-speed adaptation of the linear sequential model?",
+      "options": {
+        "A": "Spiral model",
+        "B": "Prototyping model",
+        "C": "RAD model",
+        "D": "Build & Fix model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RAD (Rapid Application Development) is the high-speed adaptation of the linear sequential model and has 5 phases.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Polymorphism in Java",
+      "concept": "Overloading vs overriding binding",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which statement correctly distinguishes method overloading from method overriding in Java?",
+      "options": {
+        "A": "Overloading needs the same signature; overriding needs a new one",
+        "B": "Overloading spans parent and child; overriding stays in one class",
+        "C": "Both are resolved only at runtime through dynamic binding",
+        "D": "Overloading is resolved at compile time; overriding at runtime",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Overloading uses the same name with different signatures within a class and static binding at compile time. Overriding uses the same signature between parent and child classes with dynamic binding at runtime.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S16-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus",
+      "concept": "Retrovirus",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which type of virus is capable of deleting anti-virus software?",
+      "options": {
+        "A": "Macro virus",
+        "B": "Retrovirus",
+        "C": "Boot sector virus",
+        "D": "Time bomb",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A retrovirus is a virus that can delete anti-virus software. A macro virus spreads in application software, and a time bomb is a logic bomb triggered by time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S16-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Firmware",
+      "concept": "Firmware stored in ROM holds the BIOS",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Software that is permanently stored in ROM, helps in booting and is used to store the BIOS is called:",
+      "options": {
+        "A": "Middleware",
+        "B": "Shareware",
+        "C": "Freeware",
+        "D": "Firmware",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Firmware is non-volatile software stored in ROM. It helps in booting and stores the BIOS; remote controls, TVs and ACs use it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Postorder traversal sequence",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "A binary tree has root A, with left child B and right child C; B has a left child D. What is its postorder traversal?",
+      "options": {
+        "A": "A B D C",
+        "B": "D B A C",
+        "C": "B D C A",
+        "D": "D B C A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Postorder visits Left, Right, Root. The left subtree gives D B, then the right subtree C, then the root A: D B C A.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S16-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "Starvation-free Round Robin",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which CPU scheduling algorithm avoids starvation by giving every process a fixed time quantum?",
+      "options": {
+        "A": "Shortest Job First",
+        "B": "Priority scheduling",
+        "C": "Round Robin",
+        "D": "Shortest Remaining Time First",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Round Robin is preemptive and gives each process a fixed time quantum, so there is no starvation. SJF and Priority scheduling can cause starvation.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S16-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "ERP",
+      "concept": "ERP integrates and automates core business processes",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Software used by a company to manage key parts of its business by integrating and automating core business processes is called:",
+      "options": {
+        "A": "ERP",
+        "B": "EDI",
+        "C": "ECS",
+        "D": "MICR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ERP (Enterprise Resource Planning) software integrates and automates core business processes of a company.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Myhill-Nerode Theorem",
+      "concept": "Purpose of the Myhill-Nerode theorem",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "The Myhill-Nerode theorem (1958) is used for:",
+      "options": {
+        "A": "Proving that a language is not context-free",
+        "B": "Testing regularity and minimizing DFA states",
+        "C": "Converting an NFA directly into a Turing machine",
+        "D": "Defining the 8-tuple of a linear bounded automaton",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Myhill-Nerode theorem gives necessary and sufficient conditions for a language to be regular and can minimize states in a DFA. The pumping lemma is used to show a language is not context-free.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S16-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Everything is an Object",
+      "concept": "Object identity with id()",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Following the syllabus example, what does this Python code print?\nnum1 = 20\nnum2 = 30 - 10\nprint(id(num1) == id(num2))",
+      "options": {
+        "A": "False",
+        "B": "True",
+        "C": "20",
+        "D": "Error",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Every value in Python is an object with a unique identity returned by id(). In the syllabus example, num1 = 20 and num2 = 30 - 10 refer to the same object 20, so both ids are equal and True is printed.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S16-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Commands",
+      "concept": "NBTSTAT troubleshoots NetBIOS issues",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which networking command is used to troubleshoot NetBIOS over TCP/IP issues?",
+      "options": {
+        "A": "NetStat",
+        "B": "NBTSTAT",
+        "C": "Getmac",
+        "D": "Tracert",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "NBTSTAT troubleshoots NetBIOS over TCP/IP issues. NetStat shows network statistics and connections.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Schema",
+      "concept": "Logical schema",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which type of database schema defines views, integrity constraints and tables, and uses ER modeling?",
+      "options": {
+        "A": "Logical schema",
+        "B": "Physical schema",
+        "C": "View schema",
+        "D": "Storage schema",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The logical schema defines views, integrity constraints and tables and how attributes are linked; ER modeling is used here. The physical schema covers storage in files and indices.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S16-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "LPWAN Technologies",
+      "concept": "5G IoT peak data rate",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "According to the syllabus, 5G IoT offers peak data rates of up to:",
+      "options": {
+        "A": "20 Gbps",
+        "B": "100 Mbps",
+        "C": "1 Gbps",
+        "D": "10 Gbps",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "5G IoT offers peak data rates of up to 20 Gbps, with average data rates of 100+ Mbps.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Phishing Variants",
+      "concept": "Vishing",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "An attacker uses VoIP calls and voicemails to trick victims into revealing confidential information. This is called:",
+      "options": {
+        "A": "Smishing",
+        "B": "Phishing",
+        "C": "Vishing",
+        "D": "Spooling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Vishing (voice phishing) uses voice calls and voicemails, often placed through VoIP. Smishing uses SMS, and phishing uses emails and links.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S16-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "Truncation of floating-point to integer",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In Java, when a floating-point value such as 4.75 is assigned to an integer type, the fractional part is discarded and the result is 4. This is called:",
+      "options": {
+        "A": "Rounding",
+        "B": "Widening",
+        "C": "Truncation",
+        "D": "Overflow",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Truncation occurs when a floating-point value is assigned to an integer type; the fractional part is discarded, so 4.75 becomes 4. Rounding would give 5.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S16-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Cache Memory",
+      "concept": "Cache performance measured by hit ratio",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "The performance of cache memory is measured by its:",
+      "options": {
+        "A": "Hit ratio",
+        "B": "Seek time",
+        "C": "Clock rate",
+        "D": "Refresh rate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "If the requested word is found in cache it is a hit, otherwise a miss. Cache performance is measured by the hit ratio.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S16-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Shortest Path Algorithms",
+      "concept": "Bellman-Ford properties",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which algorithm finds shortest paths correctly even with negative weight edges, uses dynamic programming and runs in O(V x E)?",
+      "options": {
+        "A": "Dijkstra's algorithm",
+        "B": "Prim's algorithm",
+        "C": "Kruskal's MST algorithm",
+        "D": "Bellman-Ford algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Bellman-Ford handles negative weight edges, uses dynamic programming and runs in O(V x E). Dijkstra is greedy and O(E log V); Prim and Kruskal build minimum spanning trees.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S16-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Requirements Engineering",
+      "concept": "SRS full form",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In software engineering, SRS stands for:",
+      "options": {
+        "A": "Software Requirements Specification",
+        "B": "System Resource Scheduling",
+        "C": "Software Release Strategy",
+        "D": "System Requirements Survey",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SRS stands for Software Requirements Specification, the document describing what the software must do.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    }
+  ]
+}

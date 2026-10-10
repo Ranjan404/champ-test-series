@@ -1,0 +1,681 @@
+{
+  "setId": 48,
+  "title": "Set 48",
+  "questions": [
+    {
+      "id": "S48-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware Types",
+      "concept": "Worm does not need a host program",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which type of malware is a standalone program that does not need a host program to spread?",
+      "options": {
+        "A": "Virus",
+        "B": "Adware",
+        "C": "Worm",
+        "D": "Trojan",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A worm is standalone malware that replicates on its own and spreads through the network; a virus needs to insert its code into other programs or executable files.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Development",
+      "concept": "Prototyping IoT hardware",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Building IoT hardware enhanced with smart sensors and embedded systems using off-the-shelf components such as sensors, circuits and microcontrollers is called:",
+      "options": {
+        "A": "Protocol typing",
+        "B": "Casting",
+        "C": "Prototyping",
+        "D": "Protocasting",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "This process of building IoT devices from shelf components is called prototyping.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S48-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Bubble Sort",
+      "concept": "Total comparisons in bubble sort algorithm for n = 6",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "In Algorithm 5.1 (Bubble Sort), the inner loop runs while j < n-i-1 for i = 0 to n-1. How many comparisons are made in total for a list of 6 elements?",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "21",
+        "D": "36",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Inner loop counts are 5 + 4 + 3 + 2 + 1 + 0 = 15 comparisons.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S48-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Jump Statements",
+      "concept": "pass statement does nothing",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which Python statement does nothing when executed and is used as a placeholder?",
+      "options": {
+        "A": "break",
+        "B": "return",
+        "C": "continue",
+        "D": "pass",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "pass executes nothing. continue skips to the next iteration, break exits the loop and return exits a function.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CIA Triad in E-Commerce",
+      "concept": "Integrity violation scenario",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "An attacker silently changes the price and delivery address stored in a customer's order record. Which CIA property of e-commerce security is primarily violated?",
+      "options": {
+        "A": "Integrity",
+        "B": "Confidentiality",
+        "C": "Authentication",
+        "D": "Availability",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Integrity means customer data is accurate and unaltered; unauthorized modification breaks integrity, whereas reading it would breach confidentiality.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "FCFS Scheduling",
+      "concept": "FCFS waiting time with different arrival times",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Under FCFS, P1 arrives at 0 ms (burst 5), P2 at 1 ms (burst 3) and P3 at 2 ms (burst 8). What is the waiting time of P3?",
+      "options": {
+        "A": "6 ms",
+        "B": "8 ms",
+        "C": "4 ms",
+        "D": "14 ms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "P1 runs 0-5 and P2 runs 5-8, so P3 starts at 8. Waiting time = start time minus arrival time = 8 - 2 = 6 ms.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "PostgreSQL",
+      "concept": "PostgreSQL network address data types",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "PostgreSQL provides built-in data types to store which kind of values?",
+      "options": {
+        "A": "Only JPEG and PNG images",
+        "B": "Only HTML documents",
+        "C": "Only spreadsheet formulas",
+        "D": "IPv4, IPv6 and MAC addresses",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "PostgreSQL supports data types to store IPv4, IPv6 and MAC addresses.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S48-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Time Complexity",
+      "concept": "Constant time algorithm complexity",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "An algorithm whose running time does not depend on the size of the input is said to have a time complexity of:",
+      "options": {
+        "A": "n^2",
+        "B": "log n",
+        "C": "1",
+        "D": "n",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A constant time algorithm has time complexity 1; linear is n and quadratic is n^2.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S48-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC",
+      "concept": "Sequence of the six SDLC stages",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which sequence correctly lists the six SDLC stages?",
+      "options": {
+        "A": "Planning, Requirement Analysis, Development, Design, Deployment, Maintenance",
+        "B": "Planning, Requirement Analysis, Design, Development, Deployment, Maintenance",
+        "C": "Planning, Design, Requirement Analysis, Development, Maintenance, Deployment",
+        "D": "Requirement Analysis, Planning, Design, Development, Deployment, Maintenance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The stages are Planning, Requirement Analysis, Design, Development, Deployment and Maintenance in that order.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S48-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Sensors",
+      "concept": "Gyroscope tracks rotation of the hand",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "In a smartphone game, the player twists their hand to steer. Which sensor tracks this rotation or twist?",
+      "options": {
+        "A": "Hygrometer",
+        "B": "Gyroscope",
+        "C": "Proximity sensor",
+        "D": "Accelerometer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A gyroscope tracks the rotation or twist of the hand, while the accelerometer detects orientation of the phone.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Electronic Data Interchange",
+      "concept": "EDI definition",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Direct computer-to-computer transfer of transaction information contained in standard business documents is called:",
+      "options": {
+        "A": "Electronic Fund Transfer",
+        "B": "Electronic Clearing System",
+        "C": "Electronic Data Interchange",
+        "D": "Supply Chain Management",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "EDI is the direct computer-to-computer exchange of standard business documents; EFT and ECS move money, and SCM is a chain of partners.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IP Address Classes",
+      "concept": "Network octets in a Class C address",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "For the address 200.1.1.5 with its default mask, how many octets form the network portion?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "200 is Class C (192-223), format N.N.N.H, so three octets are network and one is host.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S48-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Spoofing, Sniffing and Spooling",
+      "concept": "Fake emails and websites as spoofing",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Sending fake emails or setting up fake websites that pretend to come from a trusted source is an example of:",
+      "options": {
+        "A": "Spooling",
+        "B": "Snooping",
+        "C": "Spoofing",
+        "D": "Sniffing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Spoofing covers fake emails, phone calls, websites and IP spoofing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Email Protocols",
+      "concept": "IMAP for server-side mail management",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "A user wants to view and organise e-mails on the server without downloading them, synchronised across several devices. Which protocol suits this?",
+      "options": {
+        "A": "IMAP",
+        "B": "MIME",
+        "C": "POP3",
+        "D": "SMTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IMAP manipulates mail on the server with synchronization; POP3 downloads mail and SMTP sends outgoing mail.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Phases",
+      "concept": "System analysis as detailed study of existing system",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "The detailed study of the existing system, carried out to understand how it works and where it falls short, is called:",
+      "options": {
+        "A": "System testing",
+        "B": "System analysis",
+        "C": "System design",
+        "D": "System deployment",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A detailed study of the existing system is termed system analysis; design, testing and deployment come later in the life cycle.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Logic Gates",
+      "concept": "XOR used in error detection and encryption",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which logic gate is commonly used in arithmetic operations, error detection and encryption?",
+      "options": {
+        "A": "XOR gate",
+        "B": "NOR gate",
+        "C": "AND gate",
+        "D": "XNOR gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "XOR is used in arithmetic, error detection, encryption and data selection; XNOR in data synchronization and multiplexing.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Roles of * and & in pointer declaration",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In the C++ statement int *p = &x; the symbols * and & respectively:",
+      "options": {
+        "A": "Return the address of x, and declare p as a pointer",
+        "B": "Declare p as a pointer, and return the address of x",
+        "C": "Multiply p by x, and perform bitwise AND",
+        "D": "Dereference x, and allocate memory dynamically",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a declaration * marks p as a pointer, and & is the address-of operator returning the memory address of x.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Basics",
+      "concept": "SQL is non-procedural, specifies what not how",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Which statement best describes how an SQL query specifies the data to be retrieved?",
+      "options": {
+        "A": "It states step by step how the data is to be fetched",
+        "B": "It must name the storage file and disk block to read",
+        "C": "It must give a loop that visits each row in order",
+        "D": "It states what data to retrieve, not how to retrieve it",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SQL does not require specifying how to get the data; the user only specifies what to retrieve and the DBMS works out the method.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S48-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java History",
+      "concept": "Java developer and companies",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Java was developed by James Gosling at ____ and later acquired by ____.",
+      "options": {
+        "A": "Bell Laboratories, Oracle Corporation",
+        "B": "Oracle Corporation, Sun Microsystems",
+        "C": "Sun Microsystems, Microsoft",
+        "D": "Sun Microsystems, Oracle Corporation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Java was developed at Sun Microsystems by James Gosling; Sun was later acquired by Oracle Corporation.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Careless Error",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S48-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Kleene Star and Kleene Plus",
+      "concept": "Counting strings of a* up to length 2",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Over the alphabet {a}, how many strings of length at most 2 are generated by the regular expression a*?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "4",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Kleene star means zero or more repetitions, giving the empty string, a and aa: 3 strings (a+ would give only 2).",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S48-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Modules",
+      "concept": "SIMM pins and voltage",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which memory module comes in 30-pin and 72-pin versions, stores 4 MB to 64 MB and works at 5 volts?",
+      "options": {
+        "A": "RIMM",
+        "B": "SIMM",
+        "C": "SODIMM",
+        "D": "DIMM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SIMM has 30/72 pins, 4-64 MB and 5 V; DIMM has 168/184/240 pins, 32 MB-1 GB and 3.3 V.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S48-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Reading from a Text File",
+      "concept": "readlines() returns a list of lines",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What does readlines() return when called on a file object opened for reading?",
+      "options": {
+        "A": "Only the first line of the file",
+        "B": "A list of strings, one for each line, each ending with a newline character",
+        "C": "One string containing the whole file",
+        "D": "A tuple containing the number of lines and characters",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "readlines() reads all lines and returns them as a list of strings. read() returns the whole file as one string, and readline() returns one line.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S48-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Internal Fragmentation",
+      "concept": "Internal fragmentation in fixed partitions",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Memory uses fixed partitions of 50 KB each. Processes of 40 KB, 45 KB and 30 KB are each placed in a separate partition. What is the total internal fragmentation?",
+      "options": {
+        "A": "115 KB",
+        "B": "25 KB",
+        "C": "35 KB",
+        "D": "150 KB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Wasted space inside partitions is (50 - 40) + (50 - 45) + (50 - 30) = 10 + 5 + 20 = 35 KB.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S48-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Multiple updates through a reassigned pointer",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What is the output of this C++ code?\n\nint a = 10, b = 20;\nint *p = &a;\n*p += b;\np = &b;\n*p = *p * 2;\ncout << a << \" \" << b;",
+      "options": {
+        "A": "30 20",
+        "B": "30 40",
+        "C": "10 40",
+        "D": "60 40",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "*p += b changes a to 30. Then p points to b and *p = *p * 2 changes b to 40, leaving a at 30.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S48-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Concepts in TOC",
+      "concept": "Pumping lemma as an important TOC concept",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is listed as an important concept in Theory of Computation?",
+      "options": {
+        "A": "Database normalization",
+        "B": "Page replacement",
+        "C": "Subnet masking",
+        "D": "Pumping lemma",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The pumping lemma is listed with finite automata, regular expressions, CFGs, Turing machines, decidability and the halting problem.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

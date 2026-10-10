@@ -1,0 +1,681 @@
+{
+  "setId": 1,
+  "title": "Set 1",
+  "questions": [
+    {
+      "id": "S01-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Data Types",
+      "concept": "CHAR fixed-length padding",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In MySQL, a column is declared as CHAR(10) and the value 'Ravi' is stored in it. Per the syllabus, what happens?",
+      "options": {
+        "A": "It occupies all 10 positions, padded with spaces",
+        "B": "Only the 4 characters are stored, as in VARCHAR",
+        "C": "An error is raised because the value is too short",
+        "D": "The column is automatically altered to VARCHAR(4)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "CHAR(n) is a fixed-length type: if the entered value is shorter, the remaining positions are padded with spaces. VARCHAR(n) is the variable-length type that uses only the bytes actually needed.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S01-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Identifiers",
+      "concept": "Valid identifier naming rules",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which of the following is a valid Python identifier?",
+      "options": {
+        "A": "2ndValue",
+        "B": "total-marks",
+        "C": "_marks1",
+        "D": "global",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An identifier may begin with a letter or underscore followed by letters, digits or underscores. It cannot start with a digit, contain special symbols such as '-', or be a keyword like global.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S01-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Mesh topology wire count",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "A fully connected mesh topology has 6 nodes. How many wires are required to connect them?",
+      "options": {
+        "A": "30",
+        "B": "15",
+        "C": "12",
+        "D": "36",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A fully connected mesh with n nodes needs n(n-1)/2 wires. For n = 6: 6 x 5 / 2 = 15.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S01-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Network Security Threats",
+      "concept": "Snooping vs eavesdropping",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "An attacker secretly captures packets travelling on a network and analyses the captured traffic later. Per the syllabus, this threat is best termed:",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Denial of Service",
+        "C": "Keylogging",
+        "D": "Snooping",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Snooping (also called sniffing) is the secret capture and analysis of network traffic, which may be analysed later. Eavesdropping is unauthorized real-time interception of private communication.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S01-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 2 languages and pushdown automata",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In the Chomsky hierarchy, Type 2 (context-free) languages are recognized by which machine?",
+      "options": {
+        "A": "Finite automata",
+        "B": "Pushdown automata",
+        "C": "Linear-bounded automata",
+        "D": "Turing machines",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Type 2 grammars generate context-free languages, which pushdown automata recognize. Finite automata recognize Type 3 (regular) languages, and Turing machines recognize Type 0 languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S01-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack Applications",
+      "concept": "Postfix expression evaluation",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Using a stack, evaluate the postfix expression: 6 2 3 + * 4 -",
+      "options": {
+        "A": "26",
+        "B": "11",
+        "C": "-26",
+        "D": "34",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Push 6, 2, 3; '+' pops 3 and 2 and pushes 5; '*' pops 5 and 6 and pushes 30; push 4; '-' pops 4 and 30 and pushes 30 - 4 = 26.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S01-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Big Data",
+      "concept": "Veracity characteristic of big data",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which characteristic of Big Data refers to data that may be inconsistent, biased, noisy or abnormal?",
+      "options": {
+        "A": "Velocity",
+        "B": "Variety",
+        "C": "Value",
+        "D": "Veracity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Veracity concerns the trustworthiness of data, which may be inconsistent, biased, noisy or abnormal. Velocity is the rate of generation, Variety the forms of data, and Value the hidden useful knowledge.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S01-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Classes and Access",
+      "concept": "Default access of class members",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "In C++, the data members and member functions of a class are by default:",
+      "options": {
+        "A": "public",
+        "B": "protected",
+        "C": "private",
+        "D": "static",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Unless an access specifier is given, members of a C++ class are private by default.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S01-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Encoding Schemes",
+      "concept": "ISCII bit size and code layout",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which statement about ISCII is correct?",
+      "options": {
+        "A": "It is a 7-bit code that represents only 128 characters",
+        "B": "It is an 8-bit code retaining all 128 ASCII codes",
+        "C": "It is a 16-bit code covering all world scripts",
+        "D": "It places Indian aksharas in codes 0 to 127",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "ISCII, developed in India in the mid-1980s, is an 8-bit code (256 characters). It retains all 128 ASCII codes and uses the upper region (160-255) for Indian language aksharas.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S01-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Priority Scheduling",
+      "concept": "Aging to prevent starvation",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In priority scheduling, low-priority jobs may be blocked indefinitely. Which technique gradually raises their priority to prevent this?",
+      "options": {
+        "A": "Context switching",
+        "B": "Time quantum",
+        "C": "Preemption",
+        "D": "Aging",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Starvation is the indefinite blocking of low-priority jobs. Aging increases the priority of waiting jobs over time so that they eventually get the CPU.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S01-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Metrics",
+      "concept": "Conversion rate calculation",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "An e-commerce site receives 2,000 visitors in a day and 50 of them make a purchase. What is its conversion rate?",
+      "options": {
+        "A": "2.5%",
+        "B": "25%",
+        "C": "4%",
+        "D": "0.25%",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Conversion rate is the percentage of site visitors who actually buy: 50 / 2000 x 100 = 2.5%.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S01-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Gorilla testing",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "A tester repeatedly and manually tests one module to check its robustness. This testing type is known as:",
+      "options": {
+        "A": "Smoke testing",
+        "B": "Sanity testing",
+        "C": "Gorilla testing",
+        "D": "Ad-hoc testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Gorilla testing, also called frustrating testing, is repetitive manual testing of a module to test robustness. Smoke testing validates a new build, and ad-hoc testing is informal testing without documentation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S01-Q13",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Boolean as subtype of int",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which of the following statements about Python's bool data type are correct? (Select all that apply)",
+      "options": {
+        "A": "bool is a subtype of the integer type",
+        "B": "Its two constants are True and False",
+        "C": "Its constants are written in lowercase as true and false",
+        "D": "False represents any non-zero value",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "In Python, bool is a subtype of integer with two constants, True and False (capitalised). False is the value zero, while True is non-zero, non-null and non-empty.",
+      "distractorMistakeType": {
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S01-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Bubble sort first pass result",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Bubble sort (ascending) is applied to [8, 7, 13, 1, -9, 4]. After the first complete pass, which element is guaranteed to be in its final position?",
+      "options": {
+        "A": "-9 at the first position",
+        "B": "8 at the fifth position",
+        "C": "1 at the third position",
+        "D": "13 at the last position",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In ascending bubble sort, each pass moves the largest remaining element to its correct place at the end. After pass 1 the list is [7, 8, 1, -9, 4, 13], so 13 is fixed at the last position.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S01-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Sensors",
+      "concept": "Accelerometer detects orientation",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "When a smartphone is turned sideways, its display switches from portrait to landscape. Which sensor detects this change in orientation?",
+      "options": {
+        "A": "Gyroscope",
+        "B": "Accelerometer",
+        "C": "Proximity sensor",
+        "D": "Ambient light sensor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Per the syllabus, the accelerometer detects the orientation of the mobile phone, enabling portrait/landscape switching. The gyroscope tracks rotation or twist of the hand.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S01-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "File System Limitations",
+      "concept": "Data dependence",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In a file-based system, application programs must be rewritten whenever the structure of a data file changes. Which limitation does this illustrate?",
+      "options": {
+        "A": "Data redundancy",
+        "B": "Data isolation",
+        "C": "Data dependence",
+        "D": "Data inconsistency",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Data dependence means application programs depend on the file structure, so structural changes force program changes. Isolation means files are not linked; redundancy means duplicated data.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S01-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Antivirus",
+      "concept": "Sandbox detection method",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "An antivirus runs a suspicious file inside a virtual environment and observes its behaviour without exposing real system resources. Which detection method is this?",
+      "options": {
+        "A": "Sandbox detection",
+        "B": "Signature-based detection",
+        "C": "Heuristics",
+        "D": "Real-time protection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Sandbox detection executes a suspicious file in a virtual environment and observes its behaviour, so the file cannot access real system resources. Signature-based detection compares code against a signature database.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S01-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pointers and Arrays",
+      "concept": "Pointer dereference with array indexing",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "What is the output of the following C++ code?\n\nint a[] = {5, 6, 7, 8, 9};\nint *p = a;\ncout << *(p + 1) + a[3];",
+      "options": {
+        "A": "13",
+        "B": "14",
+        "C": "15",
+        "D": "17",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "p points to a[0], so *(p + 1) dereferences the second element, 6. Array indexing starts at 0, so a[3] is 8. The output is 6 + 8 = 14.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S01-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Node Identification",
+      "concept": "MAC address structure",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "A MAC address is 48 bits long. What do its first 24 bits represent?",
+      "options": {
+        "A": "Network ID of the LAN",
+        "B": "Serial number of the NIC",
+        "C": "Manufacturer ID",
+        "D": "Host part of the IP address",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A MAC address is a 12-digit hexadecimal (48-bit) value engraved on the NIC. The first 24 bits are the manufacturer ID and the remaining 24 bits are the serial number.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S01-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Imaging",
+      "concept": "Rasterization",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In multimedia, the process of converting vector images into bitmap images is called:",
+      "options": {
+        "A": "Morphing",
+        "B": "Rasterization",
+        "C": "Compression",
+        "D": "Thumbnailing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Rasterization converts vector images into bitmap (pixel-based) images. Morphing distorts shapes in an image, and compression reduces file size.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S01-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machines",
+      "concept": "Turing machine tuple definition",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Per the syllabus, a Turing machine is formally defined as an n-tuple. What is the value of n?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The syllabus states that a Turing machine, when defined as an n-tuple, has n = 7. Its state set and tape symbol set are finite sets.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S01-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Units of Memory",
+      "concept": "Nibbles in a kilobyte calculation",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "How many nibbles are there in 2 KB of memory?",
+      "options": {
+        "A": "4096",
+        "B": "2048",
+        "C": "16384",
+        "D": "1024",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "1 KB = 1024 bytes, so 2 KB = 2048 bytes. A byte is two nibbles (8 bits = 2 x 4 bits), giving 2048 x 2 = 4096 nibbles.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S01-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "Round robin as preemptive FCFS",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Round robin scheduling is described as essentially the preemptive version of which algorithm?",
+      "options": {
+        "A": "Shortest Job First",
+        "B": "Priority scheduling",
+        "C": "FCFS",
+        "D": "Multilevel queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Round robin is essentially the preemptive version of FIFO/FCFS: processes are served in arrival order but each gets only a fixed time quantum before being preempted.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S01-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Modular approach to projects",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In project based learning, dividing a project into manageable parts, each with a defined task, inputs and outputs, is called the:",
+      "options": {
+        "A": "Modular approach",
+        "B": "Waterfall approach",
+        "C": "Prototype approach",
+        "D": "Spiral approach",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The modular approach divides a project into manageable modules, each with a defined task and its own inputs and outputs, which are then integrated.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S01-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Deque",
+      "concept": "Deque operations using a Python list",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A deque is implemented with a Python list myDeque = [], where insertFront uses insert(0, x), insertRear uses append(x) and deletionRear uses pop(). After insertRear(1), insertRear(2), insertFront(3) and deletionRear(), what does myDeque contain?",
+      "options": {
+        "A": "[1, 2]",
+        "B": "[3, 2]",
+        "C": "[1, 3]",
+        "D": "[3, 1]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "After the inserts the list is [3, 1, 2] (3 added at the front). deletionRear() calls pop(), removing the last element 2, leaving [3, 1].",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

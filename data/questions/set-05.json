@@ -1,0 +1,681 @@
+{
+  "setId": 5,
+  "title": "Set 5",
+  "questions": [
+    {
+      "id": "S05-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Session Layer",
+      "concept": "Session layer protocol identification",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "As per the OSI layer-wise protocol list, which protocol belongs to the Session Layer?",
+      "options": {
+        "A": "MIME",
+        "B": "PPTP",
+        "C": "SLIP",
+        "D": "IGMP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Session Layer protocols are PPTP, PAP, NetBIOS and ASP. MIME is a Presentation Layer protocol, SLIP is Data Link and IGMP is Network Layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S05-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Number System Complements",
+      "concept": "8's complement of an octal number",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "What is the 8's complement of the octal number 5670?",
+      "options": {
+        "A": "2107",
+        "B": "3110",
+        "C": "2110",
+        "D": "2101",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "8's complement = 8^n - number. For 5670 (n = 4): 7777 - 5670 = 2107 (7's complement), then add 1 to get 2110.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S05-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Antivirus Detection Methods",
+      "concept": "Sandbox detection",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which malware identification method runs a suspicious file inside a virtual environment and observes its behaviour?",
+      "options": {
+        "A": "Sandbox detection",
+        "B": "Signature-based detection",
+        "C": "Heuristics",
+        "D": "Real-time protection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Sandbox detection executes the suspicious file in a virtual environment, so it cannot access real system resources while its behaviour is analysed.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Version History",
+      "concept": "Keyword count by Python version",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "According to Python's version history, which release had 33 keywords?",
+      "options": {
+        "A": "Python 2.0 (2000)",
+        "B": "Python 3.8 (2019)",
+        "C": "Python 1.0 (1994)",
+        "D": "Python 3.0 (2008)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Python 2.0 (2000) had 30 keywords, Python 3.0 (2008) had 33 keywords and Python 3.8 (2019) had 35 keywords.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S05-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Paging",
+      "concept": "Number of pages from logical address bits",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A system has a 27-bit logical address, a 21-bit physical address and a page size of 1 KB. How many pages are there in the logical address space?",
+      "options": {
+        "A": "2048",
+        "B": "131072",
+        "C": "1024",
+        "D": "2097152",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Page size 1 KB = 2^10, so the offset d = 10 bits. Page bits P = 27 - 10 = 17, giving 2^17 = 131072 pages. 2048 (2^11) is the number of frames.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S05-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Variants",
+      "concept": "Models equivalent to a Turing machine",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following is described as an equivalent model of a Turing machine?",
+      "options": {
+        "A": "Pushdown automaton",
+        "B": "Finite automaton",
+        "C": "Register machine",
+        "D": "Linear bounded automaton",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Register machines, multi-tape and multi-track Turing machines are listed as equivalent models of the Turing machine. Finite automata, PDAs and LBAs are less powerful.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DDL Commands",
+      "concept": "TRUNCATE vs DELETE",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "A developer must remove every row from a table quickly while keeping the table structure, without using a WHERE clause. Which command fits?",
+      "options": {
+        "A": "DELETE",
+        "B": "DROP",
+        "C": "ALTER",
+        "D": "TRUNCATE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "TRUNCATE deletes all rows faster and keeps the table structure; WHERE is not used. DELETE removes selected rows with WHERE, and DROP removes the whole table.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S05-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing Concepts",
+      "concept": "Cloud Cube Model dimensions",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is NOT one of the four dimensions of the Cloud Cube Model (CCM)?",
+      "options": {
+        "A": "Public / Private",
+        "B": "Internal / External",
+        "C": "Proprietary / Open",
+        "D": "Insourced / Outsourced",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Cloud Cube Model classifies networks as Internal/External, Insourced/Outsourced, Proprietary/Open and Perimeterized/De-perimeterized. Public/Private describes deployment types, not CCM dimensions.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S05-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Storage Specifiers",
+      "concept": "Static local variable retains value",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "What is the output of the following C++ code?\n\nvoid f() { static int c; c++; cout << c; }\nint main() { f(); f(); f(); return 0; }",
+      "options": {
+        "A": "111",
+        "B": "000",
+        "C": "123",
+        "D": "012",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A static variable is initialized only once, has default value 0 and exists till the end of the program. So c becomes 1, 2, 3 across the three calls, printing 123.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S05-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Types",
+      "concept": "Vector image format",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is a vector image format?",
+      "options": {
+        "A": "BMP",
+        "B": "SVG",
+        "C": "TIFF",
+        "D": "GIF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Vector images are made from mathematical paths; examples include SVG, EPS, WMF and AI. BMP, TIFF and GIF are raster (bitmap) formats.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Stack overflow condition",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the condition called when an attempt is made to push an element into a stack that is already full?",
+      "options": {
+        "A": "Underflow",
+        "B": "Pop",
+        "C": "Push",
+        "D": "Overflow",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Overflow occurs when trying to push an element into a full stack. Underflow occurs when trying to remove an element from an empty stack.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S05-Q12",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Presentation Layer",
+      "concept": "Presentation layer functions",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following are functions of the OSI Presentation Layer? (Select all that apply)",
+      "options": {
+        "A": "Translation",
+        "B": "Dialog control",
+        "C": "Compression",
+        "D": "Routing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "Presentation Layer functions are translation, encryption, decryption and compression. Dialog control belongs to the Session Layer and routing to the Network Layer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Design Concepts",
+      "concept": "Coupling definition",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which term refers to the measure of interdependence between software modules?",
+      "options": {
+        "A": "Coupling",
+        "B": "Cohesion",
+        "C": "Function points",
+        "D": "Cyclomatic complexity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Coupling measures interdependence between modules, while cohesion measures the functional strength of a module. Good design has low coupling and strong cohesion.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Network Security Threats",
+      "concept": "Snooping (sniffing) vs eavesdropping",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which network threat, also known as sniffing, is the secret capture and analysis of network traffic, which may be analysed later?",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Snooping",
+        "C": "Network intrusion",
+        "D": "DDoS attack",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Snooping is the secret capture and analysis of network traffic and is also known as sniffing. Eavesdropping is real-time interception of private communication.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S05-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Page Fault and Thrashing",
+      "concept": "Thrashing",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What is the condition called when the CPU spends more time swapping pages, resulting in low CPU utilization due to a high number of page faults?",
+      "options": {
+        "A": "Compaction",
+        "B": "Segmentation",
+        "C": "Thrashing",
+        "D": "Spooling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Thrashing is when the CPU spends more time swapping pages between memory, resulting in low CPU utilization; it is caused by a high number of page faults.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "assert keyword purpose",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which Python keyword is used for debugging?",
+      "options": {
+        "A": "pass",
+        "B": "yield",
+        "C": "with",
+        "D": "assert",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "assert is used for debugging. pass executes nothing, yield returns values from a generator and with is used for the exception-handling context.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S05-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Laws of Boolean Algebra",
+      "concept": "Absorption law identification",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which law of Boolean algebra is expressed by the identity A + A·B = A?",
+      "options": {
+        "A": "Absorption Law",
+        "B": "Idempotent Law",
+        "C": "Distributive Law",
+        "D": "Annulment Law",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Absorption Law states A + A·B = A and A + A'·B = A + B. The Idempotent Law is A + A = A, and the Annulment Law is A + 1 = 1.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Church-Turing Thesis",
+      "concept": "Church's thesis statement",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which principle states that any function computable by an algorithm is computable by a Turing machine?",
+      "options": {
+        "A": "Pumping lemma",
+        "B": "Halting problem",
+        "C": "Church's thesis",
+        "D": "Myhill-Nerode theorem",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Church's thesis states that any function computable by an algorithm is computable by a Turing machine, linking algorithms and Turing machines.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Basics",
+      "concept": "SQL language generation",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "SQL belongs to which generation of programming languages?",
+      "options": {
+        "A": "Third generation",
+        "B": "Fourth generation",
+        "C": "Fifth generation",
+        "D": "Second generation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SQL is a 4th generation language, along with FoxPro, Access and Oracle. 3rd generation covers languages like C, C++ and Java.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S05-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Front-end",
+      "concept": "Thin client example",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is an example of a thin client?",
+      "options": {
+        "A": "MS Word",
+        "B": "Notepad++",
+        "C": "MS Outlook",
+        "D": "Gmail",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A thin client relies on a central server for most computation; examples are Gmail, Office 365 and search engines. MS Word, Notepad++ and MS Outlook are thick clients.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IEEE Standards",
+      "concept": "IEEE 802.16 WiMAX",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which IEEE standard is associated with WiMAX?",
+      "options": {
+        "A": "IEEE 802.16",
+        "B": "IEEE 802.11",
+        "C": "IEEE 802.14",
+        "D": "IEEE 802.15.1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IEEE 802.16 is WiMAX (Worldwide Interoperability for Microwave Access). 802.11 is WLAN, 802.14 is cable modems and 802.15.1 is Bluetooth.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S05-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Operator Precedence",
+      "concept": "Right-to-left associativity of exponentiation",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the operator precedence rules used for expression conversion, which operator group is evaluated from right to left?",
+      "options": {
+        "A": "Parentheses",
+        "B": "Multiplication and division",
+        "C": "Exponentiation (^)",
+        "D": "Addition and subtraction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Exponentiation (^) is evaluated right to left. Parentheses, multiplication/division and addition/subtraction are evaluated left to right.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S05-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Manipulation",
+      "concept": "Morphing",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In multimedia, which effect is an animation that changes one image slowly into another?",
+      "options": {
+        "A": "Warping",
+        "B": "Morphing",
+        "C": "Rasterization",
+        "D": "Vectorization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Morphing is animation that changes one image slowly into another, while warping is distortion of one static image to another.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S05-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C vs C++",
+      "concept": "Memory release operator in C++",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In C++, which operator is used to release memory that was allocated with new?",
+      "options": {
+        "A": "free()",
+        "B": "malloc()",
+        "C": "calloc()",
+        "D": "delete",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "C++ allocates memory with the new operator and releases it with delete. C uses malloc()/calloc() to allocate and free() to release.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S05-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Adders",
+      "concept": "Full adder construction",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "A full adder is constructed using:",
+      "options": {
+        "A": "Two half adders and one OR gate",
+        "B": "Two half adders and one AND gate",
+        "C": "One half adder and two OR gates",
+        "D": "Three half adders and one XOR gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A full adder adds three inputs and produces two outputs; it is constructed using 2 half adders and 1 OR gate.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

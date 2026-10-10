@@ -1,0 +1,681 @@
+{
+  "setId": 35,
+  "title": "Set 35",
+  "questions": [
+    {
+      "id": "S35-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Semaphores",
+      "concept": "Classical problems solved by semaphores",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is NOT a classical synchronization problem solved using semaphores?",
+      "options": {
+        "A": "The Dining Philosophers Problem",
+        "B": "The Halting Problem",
+        "C": "The Bounded-Buffer Problem",
+        "D": "The Readers-Writers Problem",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Semaphores are used for the bounded-buffer, readers-writers and dining philosophers problems. The halting problem is an undecidability result in theory of computation.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S35-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "ACID Properties",
+      "concept": "Isolation between concurrent transactions",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Two transactions run at the same time on the same account. One of them reads a balance that the other has changed but not yet committed, and makes a wrong decision. Which ACID property has been violated?",
+      "options": {
+        "A": "Consistency",
+        "B": "Atomicity",
+        "C": "Isolation",
+        "D": "Durability",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Isolation requires that concurrent transactions do not affect each other; seeing another transaction's uncommitted change breaks it.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Mobile Telecommunication",
+      "concept": "2G features",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which mobile generation introduced digital voice with SMS and MMS and improved security because signals could be encrypted?",
+      "options": {
+        "A": "4G",
+        "B": "1G",
+        "C": "3G",
+        "D": "2G",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "1G was analog voice only; 2G brought digital voice, SMS/MMS and encryption; 3G added data services.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search",
+      "concept": "Sequence of mid indices for an unsuccessful binary search",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Program 6-2 (binary search) runs on [2, 3, 5, 7, 10, 11, 12, 17, 19, 23, 29, 31, 37, 41, 43] with key 20. Which sequence of mid index values is computed before it returns -1?",
+      "options": {
+        "A": "7, 11, 9, 8",
+        "B": "7, 3, 1, 0",
+        "C": "7, 11, 9",
+        "D": "7, 11, 10, 9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "mid 7 (17 < 20, first = 8); mid 11 (31 > 20, last = 10); mid 9 (23 > 20, last = 8); mid 8 (19 < 20, first = 9). Now first > last, so -1 is returned.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S35-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Modes of Malware Distribution",
+      "concept": "Removable storage as malware carrier",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "An office PC that has no Internet connection gets infected right after an employee plugs in a pen drive used at a cyber cafe. Which mode of malware distribution is this?",
+      "options": {
+        "A": "Spam email attachments",
+        "B": "Propagation through the network",
+        "C": "Removable storage devices",
+        "D": "Downloading files from the Internet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Removable storage devices such as pen drives, SSD cards and mobile phones may carry infected data; the PC had no Internet, ruling out email and downloads.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S35-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "Smallest Java type to store 40000",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which is the smallest Java integer data type that can store the value 40000?",
+      "options": {
+        "A": "byte",
+        "B": "short",
+        "C": "int",
+        "D": "long",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "byte holds -128 to 127 and short holds -32,768 to 32,767, so 40000 does not fit. int (up to 2,147,483,647) is the smallest that fits; long also fits but is larger.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S35-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Digital Circuits",
+      "concept": "Combinational circuit has no flip-flops",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which statement about a combinational logic circuit is correct?",
+      "options": {
+        "A": "It can store one bit with two complementary outputs",
+        "B": "Its output depends on previously stored states",
+        "C": "It always contains at least one flip-flop",
+        "D": "It does not contain any flip-flops or memory elements",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A combinational circuit has no memory element; storage of a bit with complementary outputs describes a flip-flop, a sequential circuit.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Types",
+      "concept": "B2G example via tenders",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "A construction firm submits an online bid in response to a government tender for building a highway. Which e-commerce type is this?",
+      "options": {
+        "A": "B2G",
+        "B": "G2B",
+        "C": "B2B",
+        "D": "C2G",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A business selling to or bidding for government work is Business-to-Government (B2G); G2B would be the government providing services to businesses.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Deep Learning",
+      "concept": "Layers of a deep learning network",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "A deep learning network has at least how many layers, and in which layer is the model's prediction made?",
+      "options": {
+        "A": "Two layers; prediction is made in the hidden layer",
+        "B": "Three or more layers; prediction is made in the output layer",
+        "C": "Three or more layers; prediction is made in the input layer",
+        "D": "One layer; prediction is made in the output layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Deep learning uses neural networks with three or more layers: data enters at the input layer, hidden layers process it, and the output layer makes the prediction.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S35-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "SJF gives minimum average waiting time",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which CPU scheduling algorithm usually achieves the minimum average waiting time for a given set of processes?",
+      "options": {
+        "A": "Priority scheduling",
+        "B": "Round Robin",
+        "C": "Shortest Job First",
+        "D": "First-Come, First-Served",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "By running the shortest jobs first, SJF reduces the waiting time of most processes, so it is considered the optimal algorithm for minimum average waiting time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S35-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Phases",
+      "concept": "Regression testing in maintenance phase",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "After a bug fix during the maintenance phase, a team re-runs the earlier test cases to make sure nothing that previously worked has broken. This is called:",
+      "options": {
+        "A": "Regression testing",
+        "B": "Alpha testing",
+        "C": "Unit testing",
+        "D": "Smoke testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In maintenance, the current product is tested against previous test cases; this is regression testing.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q12",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Integrated Development Environment",
+      "concept": "Components of an IDE",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following are listed as components of an Integrated Development Environment (IDE)? Select all that apply.",
+      "options": {
+        "A": "Build automation tools",
+        "B": "Debugger",
+        "C": "Packet analyser",
+        "D": "Source code editor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "An IDE consists of a source code editor, build automation tools, a debugger and a compiler/interpreter. A packet analyser is a networking tool, not an IDE component.",
+      "distractorMistakeType": {
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S35-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Document Basics",
+      "concept": "HTML documents saved as ASCII text",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "If a web page is written in a word processor, in which form should the HTML document be saved?",
+      "options": {
+        "A": "Binary executable",
+        "B": "ASCII text",
+        "C": "Rich Text Format",
+        "D": "Compressed ZIP archive",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HTML documents are saved as plain ASCII text so the browser can read the markup.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Components",
+      "concept": "Turing machine input tape extent",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "As per the syllabus, the input tape of a Turing machine is:",
+      "options": {
+        "A": "Finite and fixed to the input length",
+        "B": "Infinite in length in both directions",
+        "C": "Infinite only towards the left side",
+        "D": "Limited by left and right end markers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The TM input tape is infinite in both directions; end markers bounding the tape belong to the linear bounded automaton.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Dictionaries",
+      "concept": "Dictionary stores key-value pairs",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which Python data structure stores data in key-value pairs?",
+      "options": {
+        "A": "List",
+        "B": "Tuple",
+        "C": "Dictionary",
+        "D": "Set",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A dictionary stores data as key-value pairs. Lists and tuples are indexed sequences, and a set is an unordered collection of unique values.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Branches of TOC",
+      "concept": "Number of types of TOC",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Into how many types (branches) is Theory of Computation divided?",
+      "options": {
+        "A": "Three",
+        "B": "Two",
+        "C": "Four",
+        "D": "Five",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The three types are computability theory, computational complexity theory and automata theory; four is the count of primary machines, not branches.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S35-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Floyd-Warshall Algorithm",
+      "concept": "Founders and use of Floyd-Warshall",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "The Floyd-Warshall algorithm, used in network routing protocols, is named after:",
+      "options": {
+        "A": "Edsger Dijkstra and Robert Floyd",
+        "B": "Richard Bellman and Lester Ford",
+        "C": "Joseph Kruskal and Robert Prim",
+        "D": "Robert Floyd and Stephen Warshall",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Its founders are Robert Floyd and Stephen Warshall; Bellman and Ford gave the Bellman-Ford algorithm.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Wireless Technologies",
+      "concept": "Bluetooth frequency band",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Bluetooth operates in which unlicensed frequency band?",
+      "options": {
+        "A": "60 GHz",
+        "B": "900 MHz",
+        "C": "2.4 GHz",
+        "D": "5 GHz",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Bluetooth uses the 2.4 GHz unlicensed band, with a range of about 10 m.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S35-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Canonical Forms",
+      "concept": "Canonical SOP from truth table rows",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A 3-input function F(A, B, C) has output 1 only for inputs 001 and 110. What is its canonical SOP expression?",
+      "options": {
+        "A": "AB'C' + A'BC",
+        "B": "(A + B + C')(A' + B' + C)",
+        "C": "A'B'C · ABC'",
+        "D": "A'B'C + ABC'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SOP sums the minterms of rows with output 1: 001 gives A'B'C and 110 gives ABC'. The sum-term product is a POS form.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S35-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Layer and device from frame and MAC",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "A device handles data in the form of frames and forwards it using MAC addresses. Which OSI layer and device does this describe?",
+      "options": {
+        "A": "Transport layer, gateway",
+        "B": "Data Link layer, switch or bridge",
+        "C": "Network layer, router",
+        "D": "Physical layer, hub or repeater",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Frames and MAC/physical addresses belong to the Data Link layer, where switches and bridges operate.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Programming Languages",
+      "concept": "Full form of Prolog",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Prolog, a language used in AI, stands for:",
+      "options": {
+        "A": "Procedural Logic",
+        "B": "Programming in Logic",
+        "C": "Program Language",
+        "D": "Professional Logic",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Prolog stands for Programming in Logic; Lisp stands for list processing.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S35-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Cache Memory",
+      "concept": "CPU to cache word transfer",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "What is the unit of data transfer between the CPU and cache memory?",
+      "options": {
+        "A": "Set transfer",
+        "B": "Block transfer",
+        "C": "Associative transfer",
+        "D": "Word transfer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Transfer between CPU and cache is word transfer; block transfer happens between cache and main memory.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S35-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Built-in Exceptions",
+      "concept": "ValueError for right type but inappropriate value",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which exception is raised by int('abc')?",
+      "options": {
+        "A": "ValueError",
+        "B": "TypeError",
+        "C": "NameError",
+        "D": "SyntaxError",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "int() receives an argument of the right type (a string) but an inappropriate value that cannot be converted, so ValueError is raised.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Schema",
+      "concept": "View schema describes user interaction",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which type of database schema describes how users interact with the database system?",
+      "options": {
+        "A": "View schema",
+        "B": "Logical schema",
+        "C": "Storage schema",
+        "D": "Physical schema",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The view schema describes user interaction with the database system and is part of the three-schema architecture.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S35-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption Standards",
+      "concept": "Heart of DES",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "The heart of the DES algorithm is:",
+      "options": {
+        "A": "its public and private key pair",
+        "B": "the TLS handshake procedure",
+        "C": "the Diffie-Hellman key exchange",
+        "D": "the DES function together with its round structure",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The heart of DES is the DES function and the round structure; DES is symmetric, so it does not use a public/private key pair.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

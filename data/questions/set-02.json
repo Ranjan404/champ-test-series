@@ -1,0 +1,681 @@
+{
+  "setId": 2,
+  "title": "Set 2",
+  "questions": [
+    {
+      "id": "S02-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Windows Power Modes",
+      "concept": "Hibernate vs sleep mode",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "A Windows laptop will not be used for a long time, but the user wants to resume the session later. Per the syllabus, which mode is meant for a long period of no use?",
+      "options": {
+        "A": "Sleep mode",
+        "B": "Log off",
+        "C": "Hibernate mode",
+        "D": "Lock mode",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Per the syllabus, Hibernate mode is used when the computer will not be used for a long time, while Sleep mode is for a short time of no use.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Binary search iteration count",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Binary search with mid = (first + last) // 2 is applied to the sorted list [2, 3, 5, 7, 10, 11, 12, 17, 19, 23, 29, 31, 37, 41, 43] to find key 2. How many iterations are needed?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Iteration 1: mid = 7 (17), go left. Iteration 2: first 0, last 6, mid = 3 (7), go left. Iteration 3: last 2, mid = 1 (3), go left. Iteration 4: mid = 0, key 2 found.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S02-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Lists",
+      "concept": "Ordered list start attribute",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which HTML code starts a numbered list counting from 3?",
+      "options": {
+        "A": "<ul start=\"3\">",
+        "B": "<ol begin=\"3\">",
+        "C": "<li start=\"3\">",
+        "D": "<ol start=\"3\">",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A numbered list is created with <ol>, and the attribute start=\"3\" begins the ordered list at 3. <ul> creates a bulleted list.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S02-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "DRAM capacitor refresh",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which type of RAM uses capacitors to store data and must therefore be refreshed many times per second?",
+      "options": {
+        "A": "SRAM",
+        "B": "DRAM",
+        "C": "PROM",
+        "D": "EEPROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DRAM uses capacitors and must be refreshed many times per second. SRAM uses transistors, does not need refreshing and is used for cache memory.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Branches of TOC",
+      "concept": "Computational complexity theory",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which branch of the Theory of Computation studies what makes some problems computationally hard and others easy?",
+      "options": {
+        "A": "Complexity theory",
+        "B": "Computability theory",
+        "C": "Automata theory",
+        "D": "Grammar theory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Computational complexity theory studies what makes some problems hard and others easy. Computability theory asks what can or cannot be computed, and automata theory studies abstract machines.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S02-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Tuples",
+      "concept": "Single-element tuple trailing comma",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "Which assignment creates a tuple containing the single element 20?",
+      "options": {
+        "A": "t = (20)",
+        "B": "t = [20]",
+        "C": "t = (20,)",
+        "D": "t = {20}",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A single-element tuple must include a trailing comma, as in (20,). Without the comma, (20) is just the integer 20; square brackets create a list.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S02-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Wireless Technologies",
+      "concept": "Bluetooth piconet active slaves",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In a Bluetooth piconet, a master device can communicate with up to how many active slave devices?",
+      "options": {
+        "A": "255",
+        "B": "8",
+        "C": "10",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A Bluetooth master can communicate with up to 7 active slaves. A network may hold up to 255 devices, but only 8 (master plus 7 slaves) communicate at the same time.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S02-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Execution",
+      "concept": "JDK composition",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In Java, the JDK is made up of which components?",
+      "options": {
+        "A": "JVM + byte code + editor",
+        "B": "JRE + compilers + debugger",
+        "C": "JRE + JVM only",
+        "D": "Compiler + .class files",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "JDK (Java Development Kit) = JRE (Java Runtime Environment) + compilers + debugger. The JDK must be installed to create, compile and run Java programs.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S02-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Hierarchy",
+      "concept": "Record as group of fields",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In the database hierarchy, a group of related fields forms a:",
+      "options": {
+        "A": "Record",
+        "B": "File/Table",
+        "C": "Database",
+        "D": "Byte",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In the hierarchy, bytes form fields, a group of fields forms a record, a group of records forms a file/table, and a group of files forms a database.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Data Processing",
+      "concept": "Edge computing reduces latency",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "In IoT, what is the main advantage of processing data with edge computing rather than sending everything to the cloud?",
+      "options": {
+        "A": "Unlimited storage capacity",
+        "B": "No need for any sensors",
+        "C": "Reduced latency in processing",
+        "D": "No security requirements",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Edge computing processes data close to where it is generated, so its main advantage over cloud processing is reduced latency. It is the technology used for real-time data processing in IoT.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Design",
+      "concept": "Cohesion and coupling goals",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which combination is desirable for a well-designed software module?",
+      "options": {
+        "A": "Low cohesion and low coupling",
+        "B": "High cohesion and low coupling",
+        "C": "High cohesion and high coupling",
+        "D": "Low cohesion and high coupling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Cohesion measures the functional strength of a module and coupling measures interdependence between modules. Cohesion should be strong and coupling should be low.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q12",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Key Cryptography",
+      "concept": "Symmetric vs asymmetric key algorithms",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following statements about key-based cryptography are correct? (Select all that apply)",
+      "options": {
+        "A": "In symmetric-key cryptography, the shared key is called the secret key",
+        "B": "RSA is an example of an asymmetric-key algorithm",
+        "C": "DES is a public-key (asymmetric) algorithm",
+        "D": "In asymmetric encryption, the receiver decrypts using the public key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "Symmetric systems use a single shared secret key, and RSA is the best example of asymmetric-key cryptography. DES is a conventional symmetric algorithm, and in asymmetric encryption the receiver uses the private key.",
+      "distractorMistakeType": {
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "8085 data and address bus widths",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "The Intel 8085 microprocessor has a data bus and an address bus of which widths?",
+      "options": {
+        "A": "16-bit data, 8-bit address",
+        "B": "8-bit data, 20-bit address",
+        "C": "16-bit data, 20-bit address",
+        "D": "8-bit data, 16-bit address",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The 8085 is an 8-bit second-generation CPU (1976) with an 8-bit data bus and a 16-bit address bus. A 20-bit address size belongs to the 8086.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S02-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "String Slicing",
+      "concept": "Slicing with step value",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "Given str1 = 'Hello World!', what does str1[0:10:2] return?",
+      "options": {
+        "A": "'HloWr'",
+        "B": "'HloWrd'",
+        "C": "'el ol'",
+        "D": "'HloW'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "str1[n:m:k] takes characters from index n up to m-1 in steps of k. Indices 0, 2, 4, 6, 8 give 'H', 'l', 'o', 'W', 'r', so the result is 'HloWr'.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S02-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Types of OS",
+      "concept": "MS-DOS single-user single-tasking",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "MS-DOS is classified as which type of operating system?",
+      "options": {
+        "A": "Multi-user, multi-tasking",
+        "B": "Single-user, multi-tasking",
+        "C": "Single-user, single-tasking",
+        "D": "Real-time operating system",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MS-DOS is a single-user, single-tasking OS. Windows and macOS are single-user multi-tasking, while Windows Server and mainframes are multi-user multi-tasking.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Tables",
+      "concept": "Cell padding vs cell spacing",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In an HTML table, what does cell padding specify?",
+      "options": {
+        "A": "Gap between one table cell and the next one",
+        "B": "Space between a cell's content and border",
+        "C": "Thickness of the outer table border",
+        "D": "Height of each table row and header",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Cell padding is the space between a table cell's content and its borders, whereas cell spacing is the space between adjacent table cells.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Remainder method collision",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Using the remainder method h(element) = element % 10 on a hash table of size 10, which pair of elements causes a collision?",
+      "options": {
+        "A": "12 and 21",
+        "B": "45 and 54",
+        "C": "30 and 31",
+        "D": "26 and 46",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "26 % 10 = 6 and 46 % 10 = 6, so both map to index 6 and collide. The other pairs give different remainders (2/1, 5/4, 0/1).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S02-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Polymorphism in Java",
+      "concept": "Method overloading characteristics",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In Java, which statement correctly describes method overloading?",
+      "options": {
+        "A": "Same name and same signature in parent and child, with dynamic binding",
+        "B": "Same name and different signatures in parent and child, resolved at run time",
+        "C": "Same name and different signatures in the same class, with static binding",
+        "D": "Different names but the same signature, resolved during execution",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Overloading uses the same method name with different signatures within the same class, with static binding at compile time. Overriding uses the same name and signature across parent and child classes with dynamic binding.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Types of Communication",
+      "concept": "Half-duplex communication",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A walkie-talkie lets both users talk, but only in one direction at a time. This mode of data communication is:",
+      "options": {
+        "A": "Half-duplex",
+        "B": "Simplex",
+        "C": "Full-duplex",
+        "D": "Multipoint",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Half-duplex communication is two-way but only one direction at a time, as with a walkie-talkie. Simplex is one-way only, and full-duplex allows simultaneous two-way transfer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Models",
+      "concept": "Linear bounded automaton",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which machine model is described in the syllabus as a type of Turing machine with limited memory?",
+      "options": {
+        "A": "Pushdown automaton",
+        "B": "Linear bounded automaton",
+        "C": "Finite automaton",
+        "D": "Universal Turing machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A Linear Bounded Automaton is a type of Turing machine with limited memory. Pushdown automata recognize context-free languages, and finite automata recognize only regular languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S02-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "Atomicity in ACID",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "A fund transfer debits one account, but the system crashes before the other account is credited, so the whole transaction is rolled back. Which ACID property ensures this all-or-nothing behaviour?",
+      "options": {
+        "A": "Consistency",
+        "B": "Isolation",
+        "C": "Durability",
+        "D": "Atomicity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Atomicity means a transaction is all or nothing. Consistency maintains a valid state, Isolation keeps transactions from affecting each other, and Durability makes committed changes permanent.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S02-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Key Exchange",
+      "concept": "Diffie-Hellman session key",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which technique provides a one-time session key that two parties can use for secure communication?",
+      "options": {
+        "A": "Diffie-Hellman key exchange",
+        "B": "Steganography",
+        "C": "DES round function",
+        "D": "Digital certificate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Diffie-Hellman securely exchanges keys and provides a one-time session key for two parties. Steganography hides data inside media such as images rather than exchanging keys.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S02-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "Secure MQTT port number",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "What is the standard port number used by secure MQTT?",
+      "options": {
+        "A": "1883",
+        "B": "443",
+        "C": "8883",
+        "D": "5683",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The standard port for secure MQTT is 8883. MQTT is a lightweight machine-to-machine IoT protocol whose messages are secured through SSL/TLS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S02-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Registers",
+      "concept": "Program counter function",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which CPU register contains the address of the next instruction to be executed?",
+      "options": {
+        "A": "Accumulator",
+        "B": "Program counter",
+        "C": "Memory buffer register",
+        "D": "Memory address register",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The program counter contains the address of the next instruction to be executed. The accumulator stores intermediate ALU results, and the memory buffer register holds the content of the accessed memory word.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S02-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Adaptive maintenance",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "An existing application is modified so that it runs on a newly adopted operating system, without adding any new features. Which type of maintenance is this?",
+      "options": {
+        "A": "Perfective maintenance",
+        "B": "Corrective maintenance",
+        "C": "Preventive maintenance",
+        "D": "Adaptive maintenance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Adaptive maintenance updates software to fit a new environment. Perfective maintenance adds new features to existing software.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    }
+  ]
+}

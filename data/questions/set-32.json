@@ -1,0 +1,681 @@
+{
+  "setId": 32,
+  "title": "Set 32",
+  "questions": [
+    {
+      "id": "S32-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Audio Formats",
+      "concept": "MP3 full form",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "The audio format MP3 stands for:",
+      "options": {
+        "A": "MPEG Layer 3",
+        "B": "Media Player 3",
+        "C": "Music Protocol 3",
+        "D": "Multi-Pass Audio 3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MP3 stands for MPEG Layer 3.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S32-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Closure Properties",
+      "concept": "Meaning of closure property",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In automata theory, a class of languages is said to be closed under an operation when:",
+      "options": {
+        "A": "Applying it moves the result to a higher Chomsky type",
+        "B": "Applying it to languages of the class gives a language of the same class",
+        "C": "Applying it always produces the empty language",
+        "D": "Applying it always produces a finite language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Closure means taking languages from a class and performing the operation yields a language that belongs to the same class.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S32-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Pseudocode",
+      "concept": "Tracing a WHILE loop that halves n",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Trace this pseudocode: INPUT n (n = 20); count = 0; WHILE n > 0: n = n DIV 2 (integer division), INCREMENT count; PRINT count. What is printed?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "4",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "n goes 20, 10, 5, 2, 1, 0, so the loop body runs 5 times and count = 5.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S32-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Process Models",
+      "concept": "Agile model supports iterative development",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which process model supports iterative development and is commonly used by teams that deliver work in short iterations?",
+      "options": {
+        "A": "Waterfall model",
+        "B": "Build and Fix model",
+        "C": "Linear sequential model",
+        "D": "Agile model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The agile model supports iterative development; waterfall and the linear sequential model are non-iterative, and Build and Fix has no planned iterations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Scalar Functions",
+      "concept": "UCASE converts to upper case",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "What is the result of applying the SQL scalar function UCASE() to the text 'dbms'?",
+      "options": {
+        "A": "4",
+        "B": "SMBD",
+        "C": "D",
+        "D": "DBMS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "UCASE() converts a field to upper case; LEN() would return the length 4 and MID() would extract characters such as D.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ROM Types",
+      "concept": "Bootstrap loader stored in ROM",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "ROM is needed to store an initial program that starts the computer. This program is called the:",
+      "options": {
+        "A": "Compiler",
+        "B": "Device driver",
+        "C": "Bootstrap loader",
+        "D": "Kernel",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ROM stores the bootstrap loader, which loads the operating system into memory at startup.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Immersive Experiences",
+      "concept": "Flight simulator headset as Virtual Reality",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "A trainee pilot wears a headset that places them inside a fully computer-generated three-dimensional cockpit and lets them explore it. Which technology is being used?",
+      "options": {
+        "A": "Augmented Reality",
+        "B": "Natural Language Processing",
+        "C": "Web of Things",
+        "D": "Virtual Reality",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "VR is a three-dimensional, computer-generated situation that simulates the real world and uses VR headsets. AR only overlays information on the existing physical surroundings.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S32-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Digital Ethics",
+      "concept": "Plagiarism definition",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Stealing the ideas or creations of others and presenting them as one's own is known as:",
+      "options": {
+        "A": "Plagiarism",
+        "B": "Phishing",
+        "C": "Sniffing",
+        "D": "Spoofing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Plagiarism is stealing the ideas or creations of others.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Process Models",
+      "concept": "Waterfall unsuitable when requirements keep changing",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A client warns that the requirements of a project will change frequently while development is in progress. Which model is the poorest fit for this situation?",
+      "options": {
+        "A": "Incremental model",
+        "B": "Prototyping model",
+        "C": "Waterfall model",
+        "D": "Agile model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The waterfall model is not suitable for accommodating changes because each phase is completed before the next begins; agile, prototyping and incremental models handle evolving requirements better.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "List Methods",
+      "concept": "sort() sorts in place and returns None",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\nx = [3, 1, 2]\ny = x.sort()\nprint(y)",
+      "options": {
+        "A": "[3, 2, 1]",
+        "B": "[3, 1, 2]",
+        "C": "None",
+        "D": "[1, 2, 3]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "sort() sorts the list in place and returns None. sorted() is the function that returns a new sorted list.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "PPP",
+      "concept": "PPP dedicated direct connection",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which protocol establishes a dedicated, direct connection between two devices (such as a home computer to an ISP through a modem) and requires duplex-capable devices?",
+      "options": {
+        "A": "FTP",
+        "B": "PPP",
+        "C": "SMTP",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "PPP defines how two directly linked devices authenticate and exchange data, and requires duplex mode.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "FCFS Scheduling",
+      "concept": "FCFS average waiting time calculation",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Processes P1, P2 and P3 arrive at time 0 in that order with CPU bursts of 24 ms, 3 ms and 3 ms. What is the average waiting time under FCFS?",
+      "options": {
+        "A": "27 ms",
+        "B": "17 ms",
+        "C": "3 ms",
+        "D": "10 ms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Under FCFS the waiting times are P1 = 0, P2 = 24 and P3 = 27, so the average is 51 / 3 = 17 ms. 3 ms would be the SJF result.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S32-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linear Search",
+      "concept": "Return value of linearSearch function",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "The function linearSearch(list, key) returns index + 1 when list[index] == key, and None otherwise. What does it return for list = [8, -4, 7, 17, 0, 2, 19] and key = 0?",
+      "options": {
+        "A": "0",
+        "B": "4",
+        "C": "None",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "0 is at index 4, and the function returns index + 1 = 5 (its position).",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Paging",
+      "concept": "Paging removes external but may cause internal fragmentation",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which statement about paging and fragmentation is correct?",
+      "options": {
+        "A": "Paging requires pages to be stored contiguously in memory",
+        "B": "Paging removes external fragmentation but may cause internal fragmentation",
+        "C": "Paging causes both internal and external fragmentation",
+        "D": "Paging removes internal fragmentation but causes external fragmentation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Because pages can be placed in any free frame, there is no external fragmentation; the last page of a process may not fill its frame, causing internal fragmentation.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Opening and Closing a File",
+      "concept": "file.mode attribute returns access mode",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What is the output of the following code?\nf = open('myfile.txt', 'a+')\nprint(f.mode)",
+      "options": {
+        "A": "r",
+        "B": "True",
+        "C": "a+",
+        "D": "append",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The mode attribute returns the access mode used to open the file. The closed attribute would return a Boolean.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S32-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Formatting",
+      "concept": "Font face change syntax",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which HTML code correctly changes the font face of text to Calibri?",
+      "options": {
+        "A": "<font type=\"Calibri\">",
+        "B": "<font name=\"Calibri\">",
+        "C": "<text font=\"Calibri\">",
+        "D": "<font face=\"Calibri\">",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The face attribute of the font tag sets the typeface: <font face=\"Calibri\">.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "Lower sublayer of data link layer",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "The Data Link layer is divided into two sublayers. Which one is the lower sublayer?",
+      "options": {
+        "A": "MAC sublayer",
+        "B": "Physical signalling sublayer",
+        "C": "Network convergence sublayer",
+        "D": "Logical Link Control (LLC) sublayer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The lower sublayer of the Data Link layer is MAC; LLC is the upper sublayer.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Front-end",
+      "concept": "Thick client example",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is an example of a thick (fat) client application?",
+      "options": {
+        "A": "MS Word",
+        "B": "A web search engine",
+        "C": "Office 365",
+        "D": "Gmail",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Thick clients keep most logic on the device, e.g. MS Word, Outlook, Excel. Gmail, Office 365 and search engines are thin client examples.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Selection Sort",
+      "concept": "Selection sort list after second pass",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Selection sort (ascending) is applied to [8, 7, 13, 1, -9, 4]. What is the list after the second pass?",
+      "options": {
+        "A": "[-9, 7, 13, 1, 8, 4]",
+        "B": "[-9, 1, 4, 7, 8, 13]",
+        "C": "[-9, 1, 13, 7, 8, 4]",
+        "D": "[-9, 1, 7, 13, 8, 4]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Pass 1 swaps 8 and -9 giving [-9, 7, 13, 1, 8, 4]. Pass 2 finds the minimum 1 in the unsorted part and swaps it with 7, giving [-9, 1, 13, 7, 8, 4].",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Evolution of Computer",
+      "concept": "Von Neumann stored program concept",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Who introduced the concept of a stored program computer, capable of storing both data and program in memory?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "Blaise Pascal",
+        "C": "John von Neumann",
+        "D": "Charles Babbage",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "John von Neumann introduced the stored program concept, on which EDVAC and ENIAC were based. Babbage designed the Analytical Engine and Pascal the Pascaline.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Architecture",
+      "concept": "Blank symbol represents empty cells",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In a Turing machine, what is the blank symbol used for?",
+      "options": {
+        "A": "Representing empty tape cells",
+        "B": "Indicating the halting state",
+        "C": "Separating input words",
+        "D": "Marking the initial state",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The blank symbol represents empty cells on the tape.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "Sum of truncated casts in Java",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the value of x after this Java statement?\n\nint x = (int) 9.99 + (int) 2.5;",
+      "options": {
+        "A": "10",
+        "B": "11",
+        "C": "13",
+        "D": "12",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Each cast truncates its own value: (int) 9.99 is 9 and (int) 2.5 is 2, so x = 11. Truncation discards the fraction; it does not round to 10 + 3 = 13.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S32-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Architecture",
+      "concept": "Single-tier architecture needs no network",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In which DBMS architecture is the database directly available to the user on the local system, with no network connection required?",
+      "options": {
+        "A": "Three-tier architecture",
+        "B": "Client-server architecture",
+        "C": "Two-tier architecture",
+        "D": "Single-tier architecture",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Single-tier architecture is a local database system used for local development and needs no network connection.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S32-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Tools",
+      "concept": "GCC full form",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Among compilers used for C++, GCC stands for:",
+      "options": {
+        "A": "Global Compiler Chain",
+        "B": "General C Compiler",
+        "C": "GNU Compiler Collection",
+        "D": "GNU C Code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "GCC is the GNU Compiler Collection, listed with Turbo C++, Dev C++, Borland C++ and Microsoft Visual C++.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S32-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus Behaviour",
+      "concept": "Virus remains dormant until infected file is executed",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A user downloads an infected executable file but does not open it for a week. During that week, the virus in the file:",
+      "options": {
+        "A": "may stay dormant until the infected file is opened or executed",
+        "B": "spreads by itself across the network like a worm",
+        "C": "is removed automatically when the system restarts",
+        "D": "encrypts the user's files and demands a ransom",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A virus may remain dormant until the infected file is opened or executed; self-propagation over a network is worm behaviour and demanding ransom is ransomware behaviour.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

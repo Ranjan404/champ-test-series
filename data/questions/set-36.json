@@ -1,0 +1,681 @@
+{
+  "setId": 36,
+  "title": "Set 36",
+  "questions": [
+    {
+      "id": "S36-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Spam",
+      "concept": "Most common form of spam",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which is the most common form of spam?",
+      "options": {
+        "A": "Blog comment spam",
+        "B": "SMS spam",
+        "C": "Email spam",
+        "D": "Social media invitations",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Spam is any unwanted digital content, and email spam is its most common form.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S36-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Kibibyte vs decimal kilobyte",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which statement about binary (IEC) and decimal units is correct?",
+      "options": {
+        "A": "1 KiB and a decimal KB both equal 1024 bytes",
+        "B": "1 KiB = 1000 bytes, while a decimal KB = 1024 bytes",
+        "C": "1 KiB = 1024 bits, while a decimal KB = 1000 bits",
+        "D": "1 KiB = 1024 bytes, while a decimal KB = 1000 bytes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The kibibyte (KiB) is the binary unit of 1024 bytes; the decimal kilobyte is 10^3 = 1000 bytes.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S36-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Linear Bounded Automata",
+      "concept": "LBA components absent from Moore machine definition",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which components appear in the 8-tuple of a Linear Bounded Automaton but have no counterpart in the 6-tuple of a Moore machine?",
+      "options": {
+        "A": "Left and right end markers",
+        "B": "Transition function",
+        "C": "Initial state",
+        "D": "Input alphabet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Both definitions contain Q, input alphabet, delta and q0; the end markers ML and MR (along with tape alphabet and final states) are LBA-specific.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cryptography Basics",
+      "concept": "Meaning of the word cryptography",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "The word cryptography, derived from Greek roots, means:",
+      "options": {
+        "A": "hidden picture",
+        "B": "number theory",
+        "C": "secret writing",
+        "D": "secure network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Cryptography derives from Greek roots meaning secret writing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S36-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Functions in C++",
+      "concept": "Two types of C++ functions",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "C++ functions are broadly classified into which two types?",
+      "options": {
+        "A": "Standard library functions and user-defined functions",
+        "B": "Virtual functions and friend functions",
+        "C": "Inline functions and recursive functions",
+        "D": "Static functions and dynamic functions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "C++ has standard library functions, which are predefined, and user-defined functions created by the programmer.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S36-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Infix to Prefix Conversion",
+      "concept": "Prefix of A + B * C",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the prefix form of the infix expression A + B * C ?",
+      "options": {
+        "A": "A B C * +",
+        "B": "+ * A B C",
+        "C": "* + A B C",
+        "D": "+ A * B C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "B * C has higher precedence, becoming * B C, and the + is placed before both operands: + A * B C. A B C * + is the postfix form.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S36-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Operators and Expressions",
+      "concept": "True division always returns a float",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What is the output of print(36 / 6)?",
+      "options": {
+        "A": "6",
+        "B": "6.0",
+        "C": "6.00",
+        "D": "0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The / operator performs true division and returns a float, so 36 / 6 gives 6.0. Floor division (//) would give 6.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Payment Systems",
+      "concept": "MICR full form",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "MICR, used for processing cheques, stands for:",
+      "options": {
+        "A": "Magnetic Ink Character Recognition",
+        "B": "Machine Integrated Cheque Reader",
+        "C": "Magnetic Information Card Register",
+        "D": "Mechanical Ink Card Reader",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MICR stands for Magnetic Ink Character Recognition.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S36-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "HTTP",
+      "concept": "HTTP development year",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "HTTP was developed by Tim Berners-Lee at CERN in which year?",
+      "options": {
+        "A": "1971",
+        "B": "1990",
+        "C": "1989",
+        "D": "1983",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HTTP dates from 1989; 1990 is the WWW/HTML year, 1983 DNS and 1971 e-mail.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Page Replacement",
+      "concept": "FIFO page fault count",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Using FIFO page replacement with 3 frames (initially empty), how many page faults occur for the reference string 7, 0, 1, 2, 0, 3, 0, 4, 2, 3?",
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "6",
+        "D": "10",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FIFO faults on 7, 0, 1, 2, 3, 0, 4, 2, 3 (hit only on the first repeated 0), giving 9 faults. LRU would give 8 and Optimal 6.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S36-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Tuple Assignment",
+      "concept": "Simultaneous tuple assignment evaluates right side first",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\na, b = 5, 9\na, b = b, a + b\nprint(a, b)",
+      "options": {
+        "A": "14 9",
+        "B": "5 14",
+        "C": "9 18",
+        "D": "9 14",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The right side is evaluated first using the old values, giving (9, 5 + 9) = (9, 14), and only then assigned to a and b.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "TCL Commands",
+      "concept": "Effect of rollback to savepoint before commit",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "A transaction runs: INSERT row R1; SAVEPOINT s1; INSERT row R2; ROLLBACK TO s1; COMMIT;. Which rows are permanently saved?",
+      "options": {
+        "A": "Only R1",
+        "B": "Both R1 and R2",
+        "C": "Only R2",
+        "D": "No rows at all",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Rolling back to savepoint s1 undoes only the work after s1 (R2); COMMIT then makes R1 permanent.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Process Concept",
+      "concept": "Program in execution is a process",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In operating system terminology, what is a program in execution called?",
+      "options": {
+        "A": "A process",
+        "B": "A dispatcher",
+        "C": "A thread pool",
+        "D": "A semaphore",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A program becomes a process when it is loaded and executing; it then moves through states such as new, ready, running and waiting.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Marketing",
+      "concept": "Affiliate marketing as a three-party process",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Affiliate marketing is best described as a marketing process involving:",
+      "options": {
+        "A": "Four parties: bank, buyer, seller and government",
+        "B": "Three parties: publisher, advertiser and consumer",
+        "C": "Two parties: buyer and seller only",
+        "D": "One party: the advertiser promoting itself",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Affiliate marketing is a three-party process where the publisher earns by referring consumers to the advertiser.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S36-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Physical Layer",
+      "concept": "Physical layer protocol identification",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following is listed as a Physical layer protocol?",
+      "options": {
+        "A": "PPP",
+        "B": "ARP",
+        "C": "ISDN",
+        "D": "MIME",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Physical layer protocols include DSL, ISDN, USB, Bluetooth and Ethernet; PPP is Data Link, ARP Network and MIME Presentation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Design Concepts",
+      "concept": "Reasoning about module design from cohesion and coupling",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Module X performs one well-defined function and exchanges data with only one other module. Module Y performs several unrelated jobs and depends on six other modules. Which statement is correct?",
+      "options": {
+        "A": "X has low cohesion and high coupling",
+        "B": "X has high cohesion and low coupling",
+        "C": "Y has low coupling but low cohesion",
+        "D": "Y has high cohesion and low coupling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Cohesion measures functional strength (X is focused, so high) and coupling measures interdependence (X has few dependencies, so low). Y is the opposite: low cohesion and high coupling.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Moore Machine",
+      "concept": "Moore output fixed by present state",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "A Moore machine is in state q1, whose associated output is 1. It reads input 0 and stays in q1, then reads input 1 and stays in q1. What output is associated with q1 after each of these inputs?",
+      "options": {
+        "A": "0 then 1",
+        "B": "No output, since q1 is not final",
+        "C": "1 then 0",
+        "D": "1 both times",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a Moore machine the output depends solely on the present state, so staying in q1 always gives output 1 regardless of the input read.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ History",
+      "concept": "Designer and lab of C++",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "C++ was designed by ____ at ____.",
+      "options": {
+        "A": "James Gosling, Sun Microsystems",
+        "B": "Bjarne Stroustrup, Bell Laboratories",
+        "C": "Bjarne Stroustrup, IBM",
+        "D": "Dennis Ritchie, Bell Laboratories",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bjarne Stroustrup created C++ at Bell Laboratories. Dennis Ritchie created C and James Gosling created Java.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IP Address",
+      "concept": "IPv6 notation",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "How is an IPv6 address written?",
+      "options": {
+        "A": "Six pairs of hexadecimal digits separated by hyphens",
+        "B": "Four decimal numbers separated by periods",
+        "C": "Eight groups of hexadecimal numbers separated by colons",
+        "D": "Eight groups of decimal numbers separated by periods",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "IPv6 is 128 bits written as eight hexadecimal groups separated by colons; four dotted decimals is IPv4.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S36-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Match the Sum game termination condition",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In the 'Match the Sum' game with 15 cells, new digits keep entering at the rightmost end while existing digits shift left. When does the game end?",
+      "options": {
+        "A": "When the student removes 15 digits",
+        "B": "When there is no empty cell left to insert a digit",
+        "C": "When the student types a wrong sum",
+        "D": "When the digit 9 appears in every cell",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The game continues until there is no empty cell to insert a new digit.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S36-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Web of Things",
+      "concept": "Purpose of Web of Things",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "What is the main aim of the Web of Things (WoT)?",
+      "options": {
+        "A": "To limit IoT devices to wired LANs only",
+        "B": "To replace sensors with web browsers",
+        "C": "To provide one interface to connect many devices",
+        "D": "To give every device its own separate app",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "WoT uses web services to connect physical-world things and aims to provide one interface for many devices rather than a separate app for each.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S36-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Architecture",
+      "concept": "ODBC full form",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In two-tier DBMS architecture, clients connect using ODBC. What does ODBC stand for?",
+      "options": {
+        "A": "Open Data Block Controller",
+        "B": "Online Data Base Control",
+        "C": "Object Database Connection",
+        "D": "Open Database Connectivity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ODBC stands for Open Database Connectivity; JDBC is Java Database Connectivity.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S36-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Actuators",
+      "concept": "Arduino is not an actuator",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which of the following is NOT an actuator in IoT?",
+      "options": {
+        "A": "Stepper motor",
+        "B": "Arduino board",
+        "C": "Fan",
+        "D": "LED",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Stepper motors, fans and LEDs produce physical output and act as actuators; Arduino is a microcontroller platform, not an actuator.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S36-Q24",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "DRAM refresh modes",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which of the following are basic refresh modes for dynamic RAM? Select all that apply.",
+      "options": {
+        "A": "Burst refresh",
+        "B": "Cyclic redundancy refresh",
+        "C": "Distributed refresh",
+        "D": "Open refresh",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "The two basic DRAM refresh modes are burst refresh and distributed refresh.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S36-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Deque Operations",
+      "concept": "Deque used as a stack",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A deque can behave like a stack when:",
+      "options": {
+        "A": "insertion is done at the rear and deletion at the front",
+        "B": "insertion is done at both ends and deletion at none",
+        "C": "deletion is done alternately from front and rear",
+        "D": "insertion and deletion are both done at the same end",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Inserting and deleting at the same end gives LIFO (stack) behaviour; rear insertion with front deletion gives queue (FIFO) behaviour.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

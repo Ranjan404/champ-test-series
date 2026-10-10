@@ -1,0 +1,681 @@
+{
+  "setId": 44,
+  "title": "Set 44",
+  "questions": [
+    {
+      "id": "S44-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Heading Sizes",
+      "concept": "Heading equal to default font size",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "The default HTML font size is 16 px. Which heading tag has a default size equal to this value?",
+      "options": {
+        "A": "<h5>",
+        "B": "<h2>",
+        "C": "<h4>",
+        "D": "<h3>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Default sizes are h1 32 px, h2 24 px, h3 18.72 px, h4 16 px, h5 13.28 px and h6 12 px, so <h4> matches 16 px.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S44-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Pickle Module",
+      "concept": "Handling EOFError when loading all records",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A binary file holds several records written with repeated pickle.dump() calls. When pickle.load() is called in a loop to read all of them, which exception signals that no records are left?",
+      "options": {
+        "A": "ValueError",
+        "B": "KeyboardInterrupt",
+        "C": "IndexError",
+        "D": "EOFError",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Reading past the last pickled object raises EOFError, which is handled to stop the read loop cleanly.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Basics",
+      "concept": "Full form of R in RFID",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "In RFID, used for identifying devices in IoT, what does the letter R stand for?",
+      "options": {
+        "A": "Real",
+        "B": "Remote",
+        "C": "Radio",
+        "D": "Reserved",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RFID stands for Radio Frequency Identification.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S44-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Subnetting",
+      "concept": "Usable hosts for a /25 mask",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "How many hosts can be configured using the subnet mask 255.255.255.128?",
+      "options": {
+        "A": "128",
+        "B": "126",
+        "C": "62",
+        "D": "254",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "128 leaves 7 host bits: 2^7 - 2 = 126 usable hosts (network and broadcast addresses excluded).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Key Figures",
+      "concept": "Father of theoretical computer science",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Who is called the father of theoretical computer science?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "Charles Babbage",
+        "C": "Noam Chomsky",
+        "D": "Alonzo Church",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Alan Turing, inventor of the Turing machine, is called the father of theoretical computer science.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Unit testing done by programmers",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Testing of an individual module, usually carried out by the programmers themselves, is:",
+      "options": {
+        "A": "Unit testing",
+        "B": "Beta testing",
+        "C": "Acceptance testing",
+        "D": "Integration testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Unit testing tests an individual module and is done by programmers; integration testing combines modules and is done by testers.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT History",
+      "concept": "IoT introduced by Kevin Ashton",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Who introduced the term Internet of Things in 1999?",
+      "options": {
+        "A": "Kevin Ashton",
+        "B": "Jaap Haartsen",
+        "C": "John McCarthy",
+        "D": "Vint Cerf",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Kevin Ashton introduced IoT in 1999. Vint Cerf is the father of the Internet, McCarthy of AI, and Haartsen invented Bluetooth.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Repetition",
+      "concept": "Infinite loop when condition never becomes False",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What happens when the following code runs?\ni = 1\nwhile i < 5:\n    print(i)",
+      "options": {
+        "A": "It raises a SyntaxError",
+        "B": "It prints 1 once and stops",
+        "C": "It prints 1 2 3 4 and stops",
+        "D": "It prints 1 repeatedly in an infinite loop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "i is never changed inside the loop, so the condition i < 5 stays True forever and the loop never ends.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S44-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Special Tree Types",
+      "concept": "B-Tree described as fat tree",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which self-balanced search tree is described as a 'fat tree' because each node holds multiple keys and has more than two children?",
+      "options": {
+        "A": "Red-Black tree",
+        "B": "AVL tree",
+        "C": "Binary heap",
+        "D": "B-Tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A B-Tree node stores multiple keys and has more than two children. AVL and Red-Black trees are binary search trees.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Keylogger Prevention",
+      "concept": "Online virtual keyboard randomizes layout",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "To defeat a keylogger that records which key positions are pressed, which input method is safer, and why?",
+      "options": {
+        "A": "Online virtual keyboard, because its key layout is randomized",
+        "B": "Physical keyboard, because keystrokes are hardware encrypted",
+        "C": "On-screen keyboard, because its key layout is randomized",
+        "D": "On-screen keyboard, because it uses a fixed QWERTY layout",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The on-screen keyboard uses a fixed QWERTY layout, while an online virtual keyboard randomizes the key layout, making recorded positions useless to a keylogger.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "Constants are also called literals",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "In C++, constants are also called:",
+      "options": {
+        "A": "Literals",
+        "B": "Tokens",
+        "C": "Keywords",
+        "D": "Identifiers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Fixed values written directly in a program, such as 10 or 'a', are constants, also known as literals.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "Priority algorithm in both versions",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which CPU scheduling algorithm exists in both preemptive and non-preemptive versions?",
+      "options": {
+        "A": "Shortest Remaining Time First",
+        "B": "Priority scheduling",
+        "C": "Round Robin",
+        "D": "First-Come, First-Served",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Priority scheduling has both forms. FCFS is only non-preemptive, while Round Robin and SRTF are preemptive.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S44-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Concepts",
+      "concept": "Ada supports classes but not polymorphism",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which language supports classes but does not support polymorphism?",
+      "options": {
+        "A": "C++",
+        "B": "Smalltalk",
+        "C": "Ada",
+        "D": "Java",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Ada is the language that supports classes without supporting polymorphism; C++, Java and Smalltalk all support polymorphism.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S44-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Payment Systems",
+      "concept": "BHIM full form",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "The payment app abbreviation BHIM stands for:",
+      "options": {
+        "A": "Bank Hub for Instant Money",
+        "B": "Bharat Interface for Money",
+        "C": "Banking Handler for Internet Money",
+        "D": "Bharat Instant Mobile Payment",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "BHIM is Bharat Interface for Money.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S44-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Attack Methods",
+      "concept": "Targets of injection vulnerabilities",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Injection vulnerabilities typically target which of the following?",
+      "options": {
+        "A": "Wi-Fi passwords, WPA2 keys and routers",
+        "B": "SQL queries, XML parsers and program arguments",
+        "C": "Printer spools, cookies and virus definition files",
+        "D": "Boot sectors, RAM and BIOS chips",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Injection vulnerabilities target SQL, XML parsers and program arguments by inserting malicious input.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL History",
+      "concept": "SQL developed at IBM by Chamberlin and Boyce",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "SQL was initially developed at IBM by which two people?",
+      "options": {
+        "A": "Raymond F. Boyce and E. F. Codd",
+        "B": "Donald D. Chamberlin and Raymond F. Boyce",
+        "C": "E. F. Codd and Charles Bachman",
+        "D": "Charles Bachman and Donald D. Chamberlin",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SQL was developed at IBM by Donald D. Chamberlin and Raymond F. Boyce; Codd proposed the relational model and Bachman built IDS.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S44-Q17",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Metrics",
+      "concept": "Examples of software quality metrics",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which of the following are listed as examples of software quality metrics? (Select all that apply)",
+      "options": {
+        "A": "Function Points",
+        "B": "SWOT analysis",
+        "C": "Lines of Code (LOC)",
+        "D": "Cyclomatic Complexity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation": "LOC, Function Points and Cyclomatic Complexity are the quality metrics given as examples. SWOT analysis is a planning technique used in requirement analysis, not a metric.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Hierarchy",
+      "concept": "File or table as group of records",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In the database hierarchy, what is a group of related records called?",
+      "options": {
+        "A": "File or table",
+        "B": "Byte",
+        "C": "Field",
+        "D": "Database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Fields group into records, records group into files or tables, and files group into a database.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Basics",
+      "concept": "Building order of symbol, alphabet, word, language",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which sequence correctly orders the basic automata terms from the smallest unit to the largest collection?",
+      "options": {
+        "A": "Alphabet, symbol, word, language",
+        "B": "Word, symbol, alphabet, language",
+        "C": "Symbol, word, alphabet, language",
+        "D": "Symbol, alphabet, word, language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A symbol is a character, an alphabet is a set of symbols, a word is built from the alphabet and a language is a set of words.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual Memory",
+      "concept": "Virtual memory implemented via demand paging",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Virtual memory is commonly implemented using which technique?",
+      "options": {
+        "A": "Best fit allocation",
+        "B": "Static partitioning",
+        "C": "Demand paging",
+        "D": "Compaction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Virtual memory is implemented via demand paging, with pages swapped in and out of secondary memory as needed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Problem Solving",
+      "concept": "Pseudocode not directly executable",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which statement about pseudocode is correct?",
+      "options": {
+        "A": "It is translated directly into machine code by the compiler",
+        "B": "It must follow the exact syntax of a programming language",
+        "C": "It is a non-formal language for human reading and cannot be executed directly by a computer",
+        "D": "It represents steps using standard shapes connected by arrows",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Pseudocode is an informal description for humans and cannot be run directly. Shapes and arrows describe a flowchart.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Bellman-Ford Algorithm",
+      "concept": "Bellman-Ford used in currency conversion",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which shortest path algorithm is cited as being used in currency conversion?",
+      "options": {
+        "A": "Dijkstra's algorithm",
+        "B": "Bellman-Ford algorithm",
+        "C": "Kruskal's algorithm",
+        "D": "Prim's algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bellman-Ford handles negative weight edges and is used in currency conversion. Prim's and Kruskal's are MST algorithms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "CREATE INDEX creates a search key",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which SQL command creates a search key on a table to speed up data lookup?",
+      "options": {
+        "A": "CREATE KEY",
+        "B": "ALTER DATABASE",
+        "C": "CREATE INDEX",
+        "D": "CREATE VIEW",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "CREATE INDEX creates an index (search key); DROP INDEX deletes it.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S44-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IP Address Classes",
+      "concept": "Class and default mask from an address",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "The IPv4 address 150.10.20.30 belongs to which class, and what is its default subnet mask?",
+      "options": {
+        "A": "Class A, 255.0.0.0",
+        "B": "Class B, 255.255.255.0",
+        "C": "Class C, 255.255.255.0",
+        "D": "Class B, 255.255.0.0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "First octet 150 lies in 128-191, so it is Class B with default mask 255.255.0.0.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S44-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Cache Memory",
+      "concept": "LRU replacement policy",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "When the cache is full, the LRU replacement policy discards:",
+      "options": {
+        "A": "The least frequently used data first",
+        "B": "The data that entered the cache first",
+        "C": "The most recently used data first",
+        "D": "The least recently used data first",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "LRU (Least Recently Used) removes the item unused for the longest time. Removing the oldest entry is FIFO, and the least frequently used is LFU.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "setId": 14,
+  "title": "Set 14",
+  "questions": [
+    {
+      "id": "S14-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Short-Range Networks",
+      "concept": "NFC connection distance",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which short-range IoT wireless technology needs a distance of 4 cm or less to start a connection?",
+      "options": {
+        "A": "Bluetooth",
+        "B": "NFC",
+        "C": "Z-Wave",
+        "D": "Zigbee",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Near-Field Communication (NFC) needs a distance of 4 cm or less to start a connection. Bluetooth has a range of about 10 metres.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S14-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Asymmetric Cryptography",
+      "concept": "Receiver's private key for decryption",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In asymmetric-key cryptography, which key does the receiver use to decrypt the message?",
+      "options": {
+        "A": "Receiver's public key",
+        "B": "A shared secret key",
+        "C": "Sender's public key",
+        "D": "Receiver's private key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In asymmetric encryption the sender uses the public key and the receiver uses the private key, which is kept secret by the receiver. A single shared secret key belongs to symmetric cryptography.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Layers and Protocols",
+      "concept": "Layer of 6LoWPAN in IoT stack",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In the five-layer IoT protocol stack, 6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks) belongs to which layer?",
+      "options": {
+        "A": "Physical Layer",
+        "B": "Data Link Layer",
+        "C": "Network Layer",
+        "D": "Transport Layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Network Layer protocols of the IoT stack are IPv6 and 6LoWPAN. IEEE 802.15.4 and LPWAN sit at the Data Link Layer, and TCP and UDP at the Transport Layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S14-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Priority Queue",
+      "concept": "Equal-priority elements follow FIFO",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In a priority queue, how are elements that have the same priority arranged?",
+      "options": {
+        "A": "In LIFO order",
+        "B": "In FIFO order",
+        "C": "In ascending order of value",
+        "D": "In random order",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A priority queue arranges elements by priority, and elements with the same priority are arranged according to the FIFO principle.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Windows Features",
+      "concept": "Hibernate mode",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which Windows power mode is meant for a computer that will not be used for a long time?",
+      "options": {
+        "A": "Sleep",
+        "B": "Hibernate",
+        "C": "Restart",
+        "D": "Log off",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Hibernate mode is used when the computer will not be used for a long time, while Sleep mode is used for a short break.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Mutable data types",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which of the following Python data types is mutable?",
+      "options": {
+        "A": "list",
+        "B": "tuple",
+        "C": "string",
+        "D": "int",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In Python, list, set and dictionary are mutable, while int, tuple and string are immutable.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S14-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Engineering Fundamentals",
+      "concept": "Father of software engineering",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Who is known as the father of software engineering?",
+      "options": {
+        "A": "Barry Boehm",
+        "B": "Harlan Mills",
+        "C": "Winston Royce",
+        "D": "Watts S. Humphrey",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Watts S. Humphrey is called the father of software engineering. Mills is associated with the Cleanroom philosophy.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S14-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Halting Problem",
+      "concept": "Halting states of a Turing machine",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "The halting state of a Turing machine, where it stops processing input, corresponds to which outcomes?",
+      "options": {
+        "A": "Push and Pop",
+        "B": "Read and Write",
+        "C": "Accept and Reject",
+        "D": "Left and Right",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The halting state of a Turing machine is Accept or Reject: Accept means the computation succeeded and Reject means it was unsuccessful.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S14-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Nested Lists",
+      "concept": "Nested list indexing and length",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following Python code?\n\nlist1 = [1, 2, 'a', 'c', [6, 7, 8], 4, 9]\nprint(len(list1), list1[4][1])",
+      "options": {
+        "A": "7 7",
+        "B": "9 7",
+        "C": "7 6",
+        "D": "9 6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The nested list [6, 7, 8] counts as one element, so len(list1) is 7. list1[4] is [6, 7, 8] and index 1 of it is 7.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Authoring",
+      "concept": "Multimedia authoring system tools",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is a multimedia authoring system software tool?",
+      "options": {
+        "A": "Authorware",
+        "B": "Adobe Illustrator",
+        "C": "CorelDraw",
+        "D": "Adobe Photoshop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Multimedia authoring tools include Macromedia/Adobe Flash, Director, Authorware and Quest. Illustrator and CorelDraw are vector image software, and Photoshop is pixel-based image software.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S14-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Types by Access",
+      "concept": "Extranet",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A network that is shared between two companies is called:",
+      "options": {
+        "A": "Intranet",
+        "B": "Internet",
+        "C": "Extranet",
+        "D": "Ethernet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "By access, the Internet is open to all, an intranet is only for employees, and an extranet is between two companies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S14-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Singleton Tags",
+      "concept": "Unpaired HTML tag",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following is an unpaired (singleton) HTML tag that has no closing tag?",
+      "options": {
+        "A": "<p>",
+        "B": "<ol>",
+        "C": "<td>",
+        "D": "<meta>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "<meta> gives metadata and is an unpaired tag, like <br>, <hr>, <img>, <input> and <link>. <p>, <ol> and <td> have closing tags.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Logical Operators",
+      "concept": "Value returned by and operator",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What is the output of the following Python code?\n\nx = 100\ny = 50\nprint(x and y)",
+      "options": {
+        "A": "50",
+        "B": "True",
+        "C": "100",
+        "D": "150",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The and operator returns y when x is truthy. Since 100 is truthy, x and y gives 50.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S14-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "PostgreSQL",
+      "concept": "Maximum table name length in PostgreSQL",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "What is the maximum length of a table name in PostgreSQL as per the syllabus?",
+      "options": {
+        "A": "32 characters",
+        "B": "128 characters",
+        "C": "64 characters",
+        "D": "255 characters",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The maximum length of a table name in PostgreSQL is given as 64 characters.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S14-Q15",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Alpha, beta, regression and black-box testing",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which of the following statements about software testing are correct? (Select all that apply)",
+      "options": {
+        "A": "Beta testing is done by the development team at the developer's site.",
+        "B": "Alpha testing is performed at the developer's end.",
+        "C": "In black-box testing, the internal code is visible to the tester.",
+        "D": "Regression testing reruns previous test cases after maintenance.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "Alpha testing happens at the developer's end, and regression testing reruns earlier test cases after maintenance. Beta testing is done at the client end, and in black-box testing the internal design is not considered.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S14-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "Scalar vs aggregate functions",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which of the following is an SQL scalar function rather than an aggregate function?",
+      "options": {
+        "A": "MID()",
+        "B": "FIRST()",
+        "C": "COUNT()",
+        "D": "LAST()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MID() extracts characters from a text field and is a scalar function. FIRST(), LAST() and COUNT() return a single value from a column and are aggregate functions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S14-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Architecture Types",
+      "concept": "CISC processor example",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following processors is an example of CISC architecture?",
+      "options": {
+        "A": "DEC Alpha 21064",
+        "B": "Intel Pentium Pro",
+        "C": "Motorola MC88100",
+        "D": "Intel IA-64",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Intel 386/486 and the Pentium family are CISC examples. DEC Alpha and MC88100 are RISC, and IA-64 is EPIC.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S14-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cryptography Basics",
+      "concept": "Role of a cryptanalyst",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "A person who attempts to break ciphertext in order to obtain the original plaintext is called a:",
+      "options": {
+        "A": "Cryptographer",
+        "B": "Steganographer",
+        "C": "Key distributor",
+        "D": "Cryptanalyst",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A cryptanalyst attempts to break ciphertext to recover the original plaintext.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Ports and Protocols",
+      "concept": "DHCP server port number",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A DHCP client sends a request to the DHCP server. Which port number does the server use?",
+      "options": {
+        "A": "68",
+        "B": "53",
+        "C": "110",
+        "D": "67",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DHCP server uses port 67 (client sends to server) and DHCP client uses port 68 (server sends to client). Port 53 is DNS and 110 is POP3.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S14-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Basics",
+      "concept": "C++ as semi-object-oriented language",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "How is C++ classified in terms of object orientation?",
+      "options": {
+        "A": "Pure object-oriented language",
+        "B": "Purely procedural language",
+        "C": "Semi-object-oriented language",
+        "D": "Purely functional language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "C++ is a semi-object-oriented programming language. Smalltalk is the 100% (pure) object-oriented language.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked List Types",
+      "concept": "Null pointer count in linked lists",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which type of linked list contains exactly two null pointers?",
+      "options": {
+        "A": "Singly linked list",
+        "B": "Circular linked list",
+        "C": "Circular doubly linked list",
+        "D": "Doubly linked list",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A doubly linked list has two null pointers (start and end). A singly linked list has one, and a circular linked list has none because the last node points back to the head.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Inline Functions",
+      "concept": "inline keyword copies body to call site",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In C++, which keyword creates a function whose body is copied to the location of the function call at compile time?",
+      "options": {
+        "A": "static",
+        "B": "register",
+        "C": "inline",
+        "D": "mutable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An inline function, created with the inline keyword, has its body copied to the call location at compile time, which may make execution faster.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S14-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Types of Operating Systems",
+      "concept": "Single-user single-tasking OS",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following is an example of a single-user, single-tasking operating system?",
+      "options": {
+        "A": "macOS",
+        "B": "MS-DOS",
+        "C": "Windows Server",
+        "D": "Windows 2000",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "MS-DOS is single-user, single-tasking. Windows and macOS are single-user multi-tasking, Windows Server is multi-user multi-tasking, and Windows 2000 is a client/server OS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S14-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Primary Machines in TOC",
+      "concept": "Linear bounded automata",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the four primary machines in TOC is described as a type of Turing machine with limited memory?",
+      "options": {
+        "A": "Linear bounded automata",
+        "B": "Pushdown automata",
+        "C": "Finite automata",
+        "D": "Universal Turing machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A linear bounded automaton is a Turing machine with limited memory. Finite automata recognize regular languages and pushdown automata recognize context-free languages.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S14-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessor Generations",
+      "concept": "8086 generation and bit width",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "The Intel 8086 microprocessor belongs to which generation and bit width?",
+      "options": {
+        "A": "2nd generation, 8-bit",
+        "B": "3rd generation, 16-bit",
+        "C": "4th generation, 32-bit",
+        "D": "1st generation, 4-bit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "3rd generation microprocessors are 16-bit (8086, 8088, 80186, 80188, 80286). The 8-bit 2nd generation includes 8008, 8080 and 8085.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

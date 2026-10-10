@@ -1,0 +1,681 @@
+{
+  "setId": 7,
+  "title": "Set 7",
+  "questions": [
+    {
+      "id": "S07-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Devices",
+      "concept": "Transducer examples",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which pair is given as examples of transducers, one acting as input and the other as output?",
+      "options": {
+        "A": "Thermostat and relay switch",
+        "B": "Keyboard and monitor",
+        "C": "Barcode reader and printer",
+        "D": "Microphone and loudspeaker",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Transducers convert energy from one form to another. The syllabus cites the microphone (input) and loudspeaker (output) as transducer examples.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S07-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "MySQL Data Types",
+      "concept": "MySQL DATE data type format YYYY-MM-DD",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In which format does the MySQL DATE data type store a date?",
+      "options": {
+        "A": "DD-MM-YYYY",
+        "B": "MM-DD-YYYY",
+        "C": "YYYY-MM-DD",
+        "D": "YYYY-DD-MM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The MySQL DATE data type stores dates in YYYY-MM-DD format, with a range from 1000-01-01 to 9999-12-31.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S07-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Phishing Variants",
+      "concept": "Smishing definition",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A fraud that targets victims through SMS or MMS text messages is known as:",
+      "options": {
+        "A": "Vishing",
+        "B": "Smishing",
+        "C": "Spoofing",
+        "D": "Sniffing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Smishing is SMS phishing using SMS or MMS text messages. Vishing uses voice calls, and phishing uses emails and links.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S07-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessor Generations",
+      "concept": "80286 generation and bit width",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "According to the microprocessor generation table, the Intel 80286 belongs to which generation?",
+      "options": {
+        "A": "2nd generation, 8-bit",
+        "B": "4th generation, 32-bit",
+        "C": "5th generation, 64-bit",
+        "D": "3rd generation, 16-bit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The 3rd generation of microprocessors is 16-bit and includes 8086, 8088, 80186, 80188 and 80286. The 80386 and 80486 are 4th generation 32-bit.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S07-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Mealy Machine",
+      "concept": "Mealy machine output dependency",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In a Mealy machine, the output depends on:",
+      "options": {
+        "A": "The current state and the current input",
+        "B": "Only the present state",
+        "C": "Only the current input symbol",
+        "D": "Only whether a final state is reached",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A Mealy machine's output depends on both the current state and the current input. In a Moore machine, output depends solely on the present state.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S07-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Operators and Precedence",
+      "concept": "Right-associative exponentiation",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What is the output of the Python statement print(2**3**2)?",
+      "options": {
+        "A": "64",
+        "B": "512",
+        "C": "12",
+        "D": "81",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Exponentiation is evaluated right to left, so 2**3**2 = 2**9 = 512. Evaluating left to right would wrongly give 64.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Question Misread",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S07-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Hold and Wait condition",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A process acquires the resources currently available to it and then waits for the remaining resources it needs. Which deadlock condition does this describe?",
+      "options": {
+        "A": "Mutual Exclusion",
+        "B": "No Pre-emption",
+        "C": "Hold & Wait",
+        "D": "Circular Wait",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Hold & Wait means a process holds the available resources and waits for the remaining ones. It is one of the four necessary conditions for deadlock.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S07-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Heading Sizes",
+      "concept": "Default pixel size of h3",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the default pixel size of the HTML <h3> heading?",
+      "options": {
+        "A": "18.72 px",
+        "B": "24 px",
+        "C": "16 px",
+        "D": "13.28 px",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Default heading sizes are h1 = 32 px, h2 = 24 px, h3 = 18.72 px, h4 = 16 px, h5 = 13.28 px and h6 = 12 px.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S07-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Transport layer PDU and address",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In the OSI model, what is the data unit handled at the Transport layer and which address does it use?",
+      "options": {
+        "A": "Packet, logical IP address",
+        "B": "Frame, MAC address",
+        "C": "Bits, no address",
+        "D": "Segment, port address",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Transport layer works with segments and uses port addresses. Packets with IP addresses belong to the Network layer and frames with MAC addresses to the Data Link layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S07-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Match the Sum game rule",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In the 'Match the Sum' educational game described under project based learning, when are the digits typed by the student removed from the cells?",
+      "options": {
+        "A": "When 2 typed digits add up to 15",
+        "B": "When two adjacent digits on screen are equal",
+        "C": "When 2 or 3 typed digits add up to 10",
+        "D": "When the typed digits add up to exactly 9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In 'Match the Sum', the student types 2 or 3 displayed digits and they are removed if their sum is 10. The game hones the skill of making 10 for children aged 5-7.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S07-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Keywords",
+      "concept": "C++ keyword count vs C",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "As per the syllabus, how many keywords does C++ have in total, and how many of these are also present in C?",
+      "options": {
+        "A": "63 total, 32 present in C",
+        "B": "95 total, 63 present in C",
+        "C": "95 total, 32 present in C",
+        "D": "45 total, 32 present in C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "C++ has 95 keywords, of which 32 are present in C and 63 are not. The figure 45 is the number of C++ operators.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S07-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Types of Data Structures",
+      "concept": "Non-linear data structure identification",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following is a non-primitive, non-linear data structure?",
+      "options": {
+        "A": "Graph",
+        "B": "Stack",
+        "C": "Queue",
+        "D": "Linked List",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Non-primitive data structures are linear (arrays, linked lists, stacks, queues) or non-linear (trees, graphs). A graph is non-linear.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S07-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus Types",
+      "concept": "Retrovirus deletes antivirus",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which type of computer virus is capable of deleting the anti-virus software installed on a system?",
+      "options": {
+        "A": "Macro virus",
+        "B": "Retrovirus",
+        "C": "Boot sector virus",
+        "D": "Time bomb",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A retrovirus is a virus that can delete anti-virus software. A time bomb is a logic bomb triggered by a time-related event.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S07-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Types of IoT",
+      "concept": "IIoT application areas",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Digital control systems, smart agriculture and industrial big data are associated with which type of IoT?",
+      "options": {
+        "A": "Consumer IoT",
+        "B": "Commercial IoT",
+        "C": "Infrastructure IoT",
+        "D": "Industrial IoT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Industrial Internet of Things (IIoT) covers manufacturing and energy sectors, digital control systems, smart agriculture and industrial big data.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S07-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Three-Level Schema Architecture",
+      "concept": "Internal level responsibilities",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the three-level schema architecture, at which level are data compression and encryption techniques discussed?",
+      "options": {
+        "A": "Conceptual (logical) level",
+        "B": "External (view) level",
+        "C": "Internal (physical) level",
+        "D": "Application (client) level",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The internal or physical level describes how data is actually stored and discusses compression and encryption. It is the lowest level of the architecture.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S07-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Linear Bounded Automata",
+      "concept": "LBA tuple count",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "A Linear Bounded Automaton (LBA) is formally defined using how many tuples?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An LBA is an 8-tuple that includes left and right end markers. A Turing machine uses 7 tuples, and Moore and Mealy machines use 6.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S07-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Operators and Precedence",
+      "concept": "Floor division with negative operand",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What is the result of the Python expression -18 // 5?",
+      "options": {
+        "A": "-4",
+        "B": "-3",
+        "C": "-3.6",
+        "D": "-5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The // operator performs floor division, rounding down toward negative infinity, so -18 // 5 = -4. True division would give -3.6.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S07-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Architecture Types",
+      "concept": "RISC processor example",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following processors is listed as an example of RISC architecture?",
+      "options": {
+        "A": "Pentium Pro",
+        "B": "Motorola 68020",
+        "C": "Intel 486",
+        "D": "DEC Alpha 21164",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "RISC examples include IBM RS6000, MC88100 and DEC Alpha processors. Pentium Pro, Motorola 68020 and Intel 486 are CISC examples.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S07-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Unpaired Tags",
+      "concept": "Singleton tag identification",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following HTML tags is an unpaired (singleton) tag with no closing tag?",
+      "options": {
+        "A": "<p>",
+        "B": "<img>",
+        "C": "<table>",
+        "D": "<ol>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Unpaired tags include <img>, <br>, <hr>, <input>, <link> and <meta>. Tags like <p>, <table> and <ol> need closing tags.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S07-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Interrupts",
+      "concept": "8085 non-maskable interrupt",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Among the hardware interrupts of the 8085 microprocessor, which one is non-maskable?",
+      "options": {
+        "A": "TRAP",
+        "B": "RST 7.5",
+        "C": "INTR",
+        "D": "RST 5.5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "TRAP is the non-maskable interrupt of the 8085 and cannot be ignored by the CPU. RST 7.5, RST 6.5, RST 5.5 and INTR are maskable.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S07-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Loop Control Statements",
+      "concept": "break and continue output",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is printed by this C++ code?\nfor (int i = 1; i <= 5; i++) {\n  if (i == 3) continue;\n  if (i == 5) break;\n  cout << i;\n}",
+      "options": {
+        "A": "12",
+        "B": "124",
+        "C": "1245",
+        "D": "1234",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "continue skips only the iteration where i is 3, and break exits the loop when i is 5. So 1, 2 and 4 are printed as 124.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S07-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Switching Techniques",
+      "concept": "Packet switching vs circuit switching",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In which switching technique can different pieces of the same message take different routes, with the channel occupied only during their transmission?",
+      "options": {
+        "A": "Packet switching",
+        "B": "Circuit switching",
+        "C": "Dedicated line switching",
+        "D": "Signal multiplexing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In packet switching, information is broken into packets that are transmitted independently, may take different routes and are reassembled at the destination. The channel is occupied only while a packet is transmitted.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S07-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "BFS uses queue / level order",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which tree traversal approach uses a Queue data structure and is also called Level Order Traversal?",
+      "options": {
+        "A": "Preorder traversal",
+        "B": "Inorder traversal",
+        "C": "Depth First Search",
+        "D": "Breadth First Search",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "BFS uses a queue (FIFO) and is also called Level Order Traversal. DFS uses a stack and includes preorder, inorder and postorder.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S07-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Teamwork",
+      "concept": "Components of teamwork",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which of the following is NOT listed as a component of teamwork in project based learning?",
+      "options": {
+        "A": "Listen to others",
+        "B": "Respect for others",
+        "C": "Compete with others",
+        "D": "Share with others",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The components of teamwork are: communicate, listen, share, respect, help and participate. Competing with team members is not one of them.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S07-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Number System Complements",
+      "concept": "16's complement of hexadecimal",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the 16's complement of the hexadecimal number (FAB)16?",
+      "options": {
+        "A": "(054)16",
+        "B": "(055)16",
+        "C": "(065)16",
+        "D": "(0A5)16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The 15's complement of FAB is FFF - FAB = 054. Adding 1 gives the 16's complement, 055.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    }
+  ]
+}

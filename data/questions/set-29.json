@@ -1,0 +1,681 @@
+{
+  "setId": 29,
+  "title": "Set 29",
+  "questions": [
+    {
+      "id": "S29-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Generations of Languages",
+      "concept": "Assembly language second generation",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which generation of programming languages uses mnemonics and requires an assembler?",
+      "options": {
+        "A": "Third generation",
+        "B": "First generation",
+        "C": "Second generation",
+        "D": "Fourth generation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "2nd generation languages are assembly languages using mnemonics; 1st generation is machine/binary language.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Applications of TOC",
+      "concept": "Error-correcting codes as a TOC application",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is listed as an application of Theory of Computation?",
+      "options": {
+        "A": "Designing printed circuit boards",
+        "B": "Correcting errors in codes",
+        "C": "Formatting spreadsheet cells",
+        "D": "Crimping network cables",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Applications listed include cryptography, algorithm design, quantum calculation, correcting errors in codes, string pattern matching, compiler design and AI.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S29-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware and Intrusion Tools",
+      "concept": "Rootkit administrative access and stealth",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which malicious software gives an attacker administrative access while hiding its own presence on the system?",
+      "options": {
+        "A": "Adware",
+        "B": "Worm",
+        "C": "Rootkit",
+        "D": "Botnet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Rootkits provide administrative access along with stealth capability, hiding malicious activity.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning Steps",
+      "concept": "ML step immediately before training",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the seven steps of machine learning, which step comes immediately before Training?",
+      "options": {
+        "A": "Preparing the data",
+        "B": "Choosing a model",
+        "C": "Hyperparameter tuning",
+        "D": "Evaluation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The order is Gathering data, Preparing data, Choosing a model, Training, Evaluation, Hyperparameter tuning, Prediction.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S29-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Paging Address Calculation",
+      "concept": "Frame number bits for 64 KB physical memory",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Physical memory is 64 KB and the frame size is 1 KB. How many bits does the physical address use for the frame number?",
+      "options": {
+        "A": "16",
+        "B": "6",
+        "C": "10",
+        "D": "64",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "64 KB = 2^16, so the physical address is 16 bits. The offset for 1 KB is 10 bits, leaving 16 - 10 = 6 bits for the frame number (64 frames).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S29-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Subnetting",
+      "concept": "Mask giving exactly 2 usable hosts",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which subnet mask allows exactly 2 usable hosts?",
+      "options": {
+        "A": "255.255.255.248",
+        "B": "255.255.255.240",
+        "C": "255.255.255.254",
+        "D": "255.255.255.252",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "252 leaves 2 host bits: 2^2 - 2 = 2 hosts; 248 gives 6 and 240 gives 14.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S29-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Concepts",
+      "concept": "Abstraction meaning in OOP",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "In object-oriented programming, abstraction refers to:",
+      "options": {
+        "A": "Giving one function name more than one form",
+        "B": "Deriving a new class from an existing class",
+        "C": "Hiding the implementation and showing only the features",
+        "D": "Binding data and functions into a single unit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Abstraction hides implementation details and exposes only the essential features. Binding data and functions is encapsulation, deriving classes is inheritance and many forms is polymorphism.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q08",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "Network layer protocol identification",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following are listed as Network layer protocols? (Select all that apply)",
+      "options": {
+        "A": "ARP",
+        "B": "ICMP",
+        "C": "SLIP",
+        "D": "MIME",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "ARP, RARP, ICMP and IGMP are Network layer protocols; SLIP is Data Link and MIME is Presentation.",
+      "distractorMistakeType": {
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "Creator of MQTT",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Who is credited with creating the MQTT protocol?",
+      "options": {
+        "A": "Andy Stanford-Clark",
+        "B": "Tim Berners-Lee",
+        "C": "Vint Cerf",
+        "D": "Robert Cailliau",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MQTT was created by Andy Stanford-Clark and is associated with IBM. Berners-Lee and Cailliau are linked to the WWW and Vint Cerf to the Internet.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S29-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Traversal",
+      "concept": "BFS preferred when target is near source",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "When the target vertex is expected to be close to the source vertex, which traversal is generally better?",
+      "options": {
+        "A": "DFS, because it uses recursion",
+        "B": "BFS, because it uses a stack",
+        "C": "BFS, because it explores level by level using a queue",
+        "D": "DFS, because it uses a queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "BFS uses a queue and is better when the target is close to the source; DFS (stack/recursion) is better when the target is far.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Process Models",
+      "concept": "Number of phases in RAD model",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "The RAD (Rapid Application Development) model is organised into how many phases?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "3",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "As per the syllabus, the RAD model has 5 phases.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S29-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Applications",
+      "concept": "Shared printer requests as queue application",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which of the following is an application of a queue rather than a stack?",
+      "options": {
+        "A": "Handling requests sent to a shared printer",
+        "B": "Undo/redo in a text editor",
+        "C": "Matching nested parentheses in an expression",
+        "D": "Reversing a string",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Shared printer requests are served first come first served, which is FIFO queue behaviour. Undo/redo, parenthesis matching and string reversal are stack applications.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "String Indexing",
+      "concept": "Negative index maps to positive index",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "Given str1 = 'Hello World!', what does str1[-6] return?",
+      "options": {
+        "A": "'W'",
+        "B": "'o'",
+        "C": "' '",
+        "D": "'r'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The string has 12 characters, so index -6 is the same as index 12 - 6 = 6, which is 'W'.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S29-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL History",
+      "concept": "SQL old name SEQUEL",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What was the original name of SQL?",
+      "options": {
+        "A": "QUEL",
+        "B": "QBE",
+        "C": "SEQUEL",
+        "D": "SQUARE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SQL was originally called SEQUEL, Structured English Query Language.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S29-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Types",
+      "concept": "Vector graphics software",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which software is primarily used to create vector images?",
+      "options": {
+        "A": "Adobe Photoshop",
+        "B": "Microsoft Paint",
+        "C": "Adobe Premiere",
+        "D": "CorelDraw",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Adobe Illustrator and CorelDraw are vector tools; Photoshop is pixel-based.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Process Model Selection",
+      "concept": "Matching model to project situation",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Match each situation with the most suitable model: (i) a 150-line programming exercise, (ii) a project whose team lacks experience on similar projects and needs risk analysis, (iii) a project where the user is involved in every phase. Which mapping is correct?",
+      "options": {
+        "A": "(i) Waterfall, (ii) Spiral, (iii) Prototyping",
+        "B": "(i) Build and Fix, (ii) Spiral, (iii) Prototyping",
+        "C": "(i) Prototyping, (ii) Spiral, (iii) Build and Fix",
+        "D": "(i) Build and Fix, (ii) Waterfall, (iii) Prototyping",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Build and Fix suits exercises of about 100-200 LOC, spiral suits inexperienced teams and includes risk analysis, and prototyping suits full user involvement.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "Bitwise AND and OR output",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the output of this C++ code?\n\nint a = 12, b = 10;\ncout << (a & b) << \" \" << (a | b);",
+      "options": {
+        "A": "8 14",
+        "B": "8 6",
+        "C": "14 8",
+        "D": "6 14",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "12 = 1100 and 10 = 1010. AND gives 1000 = 8 and OR gives 1110 = 14. 6 (0110) would be the XOR result.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cyber Security Tools",
+      "concept": "VPN as a cyber security tool",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is a cyber security tool rather than a threat?",
+      "options": {
+        "A": "Virtual Private Network (VPN)",
+        "B": "Rootkit",
+        "C": "Botnet",
+        "D": "Keylogger",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Cyber security tools include antivirus, antimalware, encryption tools, VPN and strong passwords; keyloggers, botnets and rootkits are threats.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S29-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Catching Exceptions",
+      "concept": "Matching except clause among multiple handlers",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What is the output of the following code?\ntry:\n    x = [1, 2][5]\nexcept ZeroDivisionError:\n    print('Z')\nexcept IndexError:\n    print('I')\nexcept:\n    print('O')",
+      "options": {
+        "A": "I",
+        "B": "I O",
+        "C": "O",
+        "D": "Z",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Accessing index 5 of a two-element list raises IndexError. Only the first matching handler runs, so just 'I' is printed.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S29-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Schedulers",
+      "concept": "Role of the dispatcher",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the role of the dispatcher in process management?",
+      "options": {
+        "A": "It loads new processes from disk into RAM",
+        "B": "It gives the CPU to the process selected by the short-term scheduler",
+        "C": "It de-allocates the resources of terminated processes",
+        "D": "It swaps processes between RAM and secondary memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The dispatcher allocates the CPU to the process chosen by the short-term scheduler. Swapping is the medium-term scheduler's job.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Flip-Flops",
+      "concept": "Flip-flop basic memory element",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "What is the basic memory element in a digital circuit?",
+      "options": {
+        "A": "Multiplexer",
+        "B": "Flip-flop",
+        "C": "Decoder",
+        "D": "Logic gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A flip-flop is a bistable sequential circuit that stores one bit and is the basic memory element.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S29-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DCL Commands",
+      "concept": "REVOKE removes authorization",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "A user's previously granted access to a table must be withdrawn. Which SQL command is used?",
+      "options": {
+        "A": "ROLLBACK",
+        "B": "DROP",
+        "C": "DELETE",
+        "D": "REVOKE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "REVOKE is a DCL command that removes authorization granted with GRANT; ROLLBACK undoes transaction changes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Identifiers",
+      "concept": "Keyword case-sensitivity when choosing identifiers",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which of the following names CANNOT be used as an identifier in Python?",
+      "options": {
+        "A": "Pass_1",
+        "B": "_None",
+        "C": "TRUE",
+        "D": "nonlocal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "nonlocal is a reserved keyword. Keywords are case-sensitive, so TRUE is not the keyword True, and Pass_1 and _None are ordinary valid names.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S29-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Formal Definition",
+      "concept": "Output function not part of TM 7-tuple",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following is NOT one of the components of the Turing machine 7-tuple?",
+      "options": {
+        "A": "Transition function (delta)",
+        "B": "Set of final states (F)",
+        "C": "Output transition function (lambda)",
+        "D": "Initial state (q0)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The TM 7-tuple has Q, two alphabets, delta, q0, B and F; the output function lambda belongs to Moore and Mealy machines.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S29-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Hyperlinks",
+      "concept": "Mailto email link syntax",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which is the correct HTML code to create an e-mail link?",
+      "options": {
+        "A": "<a mail=\"xxx@yyy\">",
+        "B": "<mail href=\"xxx@yyy\">",
+        "C": "<link mailto=\"xxx@yyy\">",
+        "D": "<a href=\"mailto:xxx@yyy\">",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "E-mail links use the anchor tag with the mailto: scheme in href.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

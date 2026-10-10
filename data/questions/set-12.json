@@ -1,0 +1,681 @@
+{
+  "setId": 12,
+  "title": "Set 12",
+  "questions": [
+    {
+      "id": "S12-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Defaults",
+      "concept": "Default HTML font size",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "What is the default font size in HTML?",
+      "options": {
+        "A": "12 pixels",
+        "B": "14 pixels",
+        "C": "16 pixels",
+        "D": "18 pixels",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The default font size in HTML is 16 pixels, and the default background colour is white.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S12-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Terminology",
+      "concept": "Depth of a node definition",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In a tree, the total number of edges from the root node to a given node is called the node's:",
+      "options": {
+        "A": "Depth",
+        "B": "Height",
+        "C": "Degree",
+        "D": "Order",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Depth (level) of a node is the number of edges from the root to that node, so the root has depth 0. Height is the longest path from a node down to a leaf.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S12-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Attack Methods",
+      "concept": "Skimming card data",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Copying credit or debit card data during a legitimate transaction is known as:",
+      "options": {
+        "A": "Spoofing",
+        "B": "Sniffing",
+        "C": "Smishing",
+        "D": "Skimming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Skimming copies card data during legitimate transactions. Sniffing captures network packets and smishing is phishing through SMS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S12-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Latch and Register",
+      "concept": "Latch is asynchronous 1-bit storage",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "How does a latch differ from a register?",
+      "options": {
+        "A": "A latch uses a clock pulse and holds multiple bits",
+        "B": "A latch holds 1 bit and is asynchronous (no clock)",
+        "C": "A latch is a group of registers working together",
+        "D": "A latch is located only inside the cache memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A latch holds 1 bit of data and is asynchronous with no clock pulse. A register is a combination of flip-flops with a clock pulse holding multiple bits.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S12-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "List Methods",
+      "concept": "list.pop(index) return value and effect",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following Python code?\nlst = [10, 20, 30, 40, 50]\nx = lst.pop(3)\nprint(x, len(lst))",
+      "options": {
+        "A": "30 4",
+        "B": "40 5",
+        "C": "40 4",
+        "D": "50 4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "pop(3) returns and removes the element at index 3, which is 40. The list then has 4 elements.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S12-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "No context switching in FCFS",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In which CPU scheduling algorithm does context switching not take place?",
+      "options": {
+        "A": "FCFS",
+        "B": "Round Robin",
+        "C": "Preemptive Priority",
+        "D": "SRTF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FCFS is non-preemptive and context switching does not take place in it. Round Robin is preemptive and switches on each time quantum.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model Symbols",
+      "concept": "Dashed oval represents derived attribute",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In an ER diagram, a dashed oval represents which of the following?",
+      "options": {
+        "A": "Multivalued attribute",
+        "B": "Weak entity",
+        "C": "Relationship",
+        "D": "Derived attribute",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A dashed oval is a derived attribute. A double ellipse is a multivalued attribute, a diamond is a relationship and a double rectangle is a weak entity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S12-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "Finite automata origin in 1943",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Finite automata are associated with two neurophysiologists who studied the workings of the brain in 1943. One of them was:",
+      "options": {
+        "A": "Joel Moses",
+        "B": "Warren McCulloch",
+        "C": "Noam Chomsky",
+        "D": "Alan Mathison Turing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Finite automata are credited to Warren McCulloch and Walter Pitts (1943), neurophysiologists. Joel Moses (1960) is linked with pushdown automata.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S12-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOP History",
+      "concept": "First OOP language versus first pure OOP language",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "According to OOP history, which pairing is correct?",
+      "options": {
+        "A": "First OOP language: Smalltalk; first pure OOP language: JavaScript",
+        "B": "First OOP language: C++; first pure OOP language: Simula",
+        "C": "First OOP language: Simula; first pure OOP language: Smalltalk",
+        "D": "First OOP language: Java; first pure OOP language: C#",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Simula (1967) was the first OOP language and Smalltalk (1970s) was the first pure, 100% object-oriented language. OOP was founded by Alan Kay.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S12-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IP Address Classes",
+      "concept": "Class D IPv4 used for multicast",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "IPv4 Class D addresses (first octet 224 to 239) are reserved for:",
+      "options": {
+        "A": "Multicast",
+        "B": "Experimental and research use",
+        "C": "Loopback and diagnostic functions",
+        "D": "Large networks in N.H.H.H format",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Class D (224 to 239) is used for multicast. Class E (240 to 254) is experimental, 127.x.x.x is reserved for loopback, and Class A uses the N.H.H.H format.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Modules",
+      "concept": "DIMM pin counts and 3.3 V power",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which memory module is available in 168, 184 and 240 pin versions, stores 32 MB to 1 GB and works at 3.3 volts?",
+      "options": {
+        "A": "SIMM",
+        "B": "RIMM",
+        "C": "SDRAM",
+        "D": "DIMM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DIMM (Dual In-Line Memory Module) has 168/184/240 pins, 32 MB to 1 GB and 3.3 V. SIMM has 30/72 pins and uses 5 V.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Devices",
+      "concept": "Transducer converts energy between forms",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In IoT, which device converts energy from one form to another, such as a microphone or loudspeaker?",
+      "options": {
+        "A": "Actuator",
+        "B": "Transducer",
+        "C": "IoT Gateway",
+        "D": "Sensor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Transducers convert energy from one form to another, e.g. a microphone (input) and a loudspeaker (output). Actuators convert energy into motion.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Inorder traversal sequence",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A binary tree has root A with left child B and right child C. Node B has left child D and right child E. What is the inorder traversal?",
+      "options": {
+        "A": "A B D E C",
+        "B": "D E B C A",
+        "C": "D B E A C",
+        "D": "A B C D E",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Inorder visits Left, Root, Right: D, B, E, then A, then C. A B D E C is preorder and D E B C A is postorder.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Accessibility testing",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which type of software testing checks whether the software can be used by disabled people?",
+      "options": {
+        "A": "Back-end testing",
+        "B": "Interface testing",
+        "C": "Sanity testing",
+        "D": "Accessibility testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Accessibility testing checks if software is accessible for disabled people. Back-end testing is database testing, and interface testing validates the GUI.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "String Slicing",
+      "concept": "String slicing with a step value",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following Python code?\ns = \"Hello World!\"\nprint(s[0:10:2])",
+      "options": {
+        "A": "HloWr",
+        "B": "HloWrd",
+        "C": "el ol",
+        "D": "Hlo o",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "s[0:10:2] takes indices 0, 2, 4, 6 and 8 (stopping before 10): H, l, o, W, r, giving 'HloWr'.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S12-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Attribute Types",
+      "concept": "Stored attribute used to derive derived attribute",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Date of Birth remains fixed and is used to compute Age. In the ER model, Date of Birth is an example of which attribute type?",
+      "options": {
+        "A": "Derived attribute",
+        "B": "Composite attribute",
+        "C": "Stored attribute",
+        "D": "Multivalued attribute",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A stored attribute remains constant and helps derive derived attributes; Date of Birth is the standard example. Age, computed from it, is the derived attribute.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S12-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "Running to ready on time quantum expiry",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "When the time allocation (time quantum) of a running process expires, the process moves to which state?",
+      "options": {
+        "A": "Waiting",
+        "B": "Ready",
+        "C": "Terminated",
+        "D": "New",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A running process whose time allocation expires returns to the ready state (ready queue). The waiting state is for processes waiting for I/O or an event.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S12-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "USB as half-duplex example",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which of the following is listed as an example of half-duplex communication?",
+      "options": {
+        "A": "Keyboard to computer",
+        "B": "Video conferencing",
+        "C": "Television broadcasting",
+        "D": "USB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Half duplex allows both directions but one at a time, e.g. walkie-talkie, browsing the Internet and USB. Keyboard input and TV broadcasting are simplex; video calls are full duplex.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Hyperlinks",
+      "concept": "vlink attribute for visited links",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which HTML attribute refers to the colour/state of a visited link?",
+      "options": {
+        "A": "vlink",
+        "B": "alink",
+        "C": "href",
+        "D": "link",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The vlink attribute refers to a visited link. The active link is represented separately, and href gives the link target.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S12-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Megabytes to bytes conversion",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Using binary memory units, how many bytes are there in 4 MB?",
+      "options": {
+        "A": "2^20 bytes",
+        "B": "2^24 bytes",
+        "C": "2^22 bytes",
+        "D": "2^32 bytes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "1 MB = 2^20 bytes, so 4 MB = 2^2 x 2^20 = 2^22 bytes (4,194,304 bytes).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S12-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Linear Bounded Automata",
+      "concept": "LBA tape limit and power",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which statement about Linear Bounded Automata (LBA) is correct?",
+      "options": {
+        "A": "LBA has an infinite two-way tape and is more powerful than a Turing machine",
+        "B": "LBA has tape limited by input size and accepts context-sensitive languages",
+        "C": "LBA is a finite automaton with an extra stack memory",
+        "D": "LBA accepts only regular languages using a finite tape",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An LBA has limited tape based on input size, with left and right end markers. It is linked with Type 1 (context-sensitive) grammar and is weaker than a TM but stronger than a PDA.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Controls",
+      "concept": "PGP for email security",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Pretty Good Privacy (PGP) is mainly used for which purpose?",
+      "options": {
+        "A": "Wi-Fi security",
+        "B": "Blocking network intrusions",
+        "C": "Detecting malware signatures",
+        "D": "Email security",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "PGP is used for email security. WPA2 is used for Wi-Fi security and a firewall protects against unauthorized access.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S12-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Generations of Languages",
+      "concept": "Prolog and LISP as 5th generation languages",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "In the generations of programming languages, Prolog and LISP belong to which generation?",
+      "options": {
+        "A": "5th generation",
+        "B": "4th generation",
+        "C": "3rd generation",
+        "D": "2nd generation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "5th generation languages are AI/robot languages such as Mercury, OPS5, LISP and Prolog. 4th generation includes Perl, Python, SQL; 3rd includes C, C++, Java.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S12-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "Encrypted MQTT port",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "MQTT, developed by IBM, uses which default port for encrypted communication?",
+      "options": {
+        "A": "1883",
+        "B": "443",
+        "C": "8883",
+        "D": "5683",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The default unencrypted MQTT port is 1883 and the encrypted MQTT port is 8883.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S12-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Red-Black Tree",
+      "concept": "Red-Black tree colouring rules",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is a rule of a Red-Black tree?",
+      "options": {
+        "A": "The root is always red",
+        "B": "The root is always black",
+        "C": "A red node must have red children",
+        "D": "Two consecutive red nodes are allowed",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a Red-Black tree the root is always black, nodes are red or black, and red nodes cannot have red children (no two consecutive red nodes on any path).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

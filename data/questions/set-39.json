@@ -1,0 +1,681 @@
+{
+  "setId": 39,
+  "title": "Set 39",
+  "questions": [
+    {
+      "id": "S39-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption Standards",
+      "concept": "DES designed by IBM",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "The Data Encryption Standard (DES) was designed by:",
+      "options": {
+        "A": "Intel",
+        "B": "IBM",
+        "C": "Microsoft",
+        "D": "Cisco",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DES, a conventional symmetric encryption standard, was designed by IBM.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S39-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Singleton Tags",
+      "concept": "Counting unpaired tags",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "How many of these HTML tags are unpaired (have no closing tag): <img>, <p>, <input>, <table>, <meta>, <li>, <source>?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "<img>, <input>, <meta> and <source> are unpaired tags; <p>, <table> and <li> are paired, giving 4.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S39-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Logic Gates",
+      "concept": "Other names of NOT gate",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "The NOT gate is known by several other names. Which of the following is NOT one of them?",
+      "options": {
+        "A": "Inverter",
+        "B": "Negation",
+        "C": "Complement",
+        "D": "Buffer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The NOT gate is also called complement, negation or inverter. A buffer passes its input unchanged.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S39-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Match the Sum target age group",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "The 'Match the Sum' educational game is designed to improve the summing skills of children of which age group?",
+      "options": {
+        "A": "10-12 years",
+        "B": "5-7 years",
+        "C": "3-4 years",
+        "D": "8-10 years",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The edutainment game targets children aged 5-7 years.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S39-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Primary Machines in TOC",
+      "concept": "Finite automata example of phone number patterns",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Recognizing simple patterns such as phone numbers is given as an example of the capability of which machine?",
+      "options": {
+        "A": "Finite automata",
+        "B": "Linear bounded automata",
+        "C": "Turing machine",
+        "D": "Universal Turing machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Finite automata can only recognize regular languages, such as simple patterns like phone numbers.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S39-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Cycle",
+      "concept": "Second step of CPU cycle is decode",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In the CPU (machine) cycle, which step comes immediately after fetching an instruction?",
+      "options": {
+        "A": "Execute",
+        "B": "Store",
+        "C": "Interrupt",
+        "D": "Decode",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The CPU cycle is Fetch, Decode, Execute; decode comes second.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S39-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Wireless Technologies",
+      "concept": "Bluetooth simultaneous communicating devices",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A Bluetooth network can include up to 255 devices. How many of them can communicate at the same time?",
+      "options": {
+        "A": "7",
+        "B": "255",
+        "C": "8",
+        "D": "10",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Only 8 devices (one master plus 7 active slaves) can communicate at once, though up to 255 can be in the network.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Types",
+      "concept": "Raster format identification",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is a raster (bitmap) image format?",
+      "options": {
+        "A": "SVG",
+        "B": "WMF",
+        "C": "BMP",
+        "D": "EPS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "BMP is a raster format made of pixels; SVG, EPS and WMF are vector formats.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ROM Types",
+      "concept": "PROM no editing possible",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which type of ROM can be programmed once but allows no editing afterwards?",
+      "options": {
+        "A": "PROM",
+        "B": "Flash memory",
+        "C": "EEPROM",
+        "D": "EPROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "PROM (Programmable ROM) allows no editing once written; EPROM and EEPROM can be erased and rewritten.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Selection Sort",
+      "concept": "Purpose of flag in selection sort algorithm",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "In the selection sort algorithm, a variable flag is set to 1 inside the inner loop. What is its purpose?",
+      "options": {
+        "A": "To mark the position of the largest element",
+        "B": "To stop the algorithm when the list is already sorted",
+        "C": "To count the number of passes completed",
+        "D": "To perform the swap only when a smaller element than numList[i] was found",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "flag becomes 1 only when numList[j] < numList[min], so the swap of numList[i] and numList[min] happens only when a smaller element was found.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S39-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Windows Versions",
+      "concept": "Windows 3.1 does not support networking",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which Windows version does not support networking?",
+      "options": {
+        "A": "Windows XP",
+        "B": "Windows 3.1",
+        "C": "Windows NT",
+        "D": "Windows 95",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Windows 3.1 does not support networking. Windows NT and its successors were designed with networking support.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S39-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Binary data types in Python",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which group lists Python's binary data types?",
+      "options": {
+        "A": "list, tuple, range",
+        "B": "int, float, complex",
+        "C": "str, bool, None",
+        "D": "bytes, bytearray, memoryview",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "bytes, bytearray and memoryview are the binary data types. int, float and complex are numeric types, and list, tuple and range are sequences.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S39-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Spoofing, Sniffing and Spooling",
+      "concept": "Spooling is a printer technique, not an attack",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following terms refers to a legitimate technique used with printers rather than a cyber attack?",
+      "options": {
+        "A": "Spooling",
+        "B": "Skimming",
+        "C": "Spoofing",
+        "D": "Sniffing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Spooling (Simultaneous Peripheral Operations Online) is used in printers, while spoofing, sniffing and skimming are attacks.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Language Origin and Environment",
+      "concept": "Developer of Python",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Who developed the Python programming language?",
+      "options": {
+        "A": "James Gosling",
+        "B": "Bjarne Stroustrup",
+        "C": "Dennis Ritchie",
+        "D": "Guido van Rossum",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Python was developed by Guido van Rossum. Ritchie created C, Gosling Java and Stroustrup C++.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S39-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Constructors",
+      "concept": "Number of constructor types in C++",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "As per the syllabus, how many types of constructors are there in C++?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "C++ constructors are classified into three types: default, parameterized and copy constructors.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S39-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Cardinality Ratios",
+      "concept": "Many-to-many relationship scenario",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A student can enrol in several courses, and each course can have several students. What is the cardinality of the ENROLS relationship between STUDENT and COURSE?",
+      "options": {
+        "A": "One-to-One (1:1)",
+        "B": "Many-to-Many (M:N)",
+        "C": "One-to-Many (1:N)",
+        "D": "Many-to-One (N:1)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Since many students relate to one course and many courses relate to one student, the relationship is M:N.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S39-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Windows Features",
+      "concept": "Windows Explorer as file and folder manager",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "In Windows, which component is used to manage files and folders?",
+      "options": {
+        "A": "Control Panel",
+        "B": "Device Manager",
+        "C": "Task Scheduler",
+        "D": "Windows Explorer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Windows Explorer is the files and folder manager in Windows.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Deque Implementation in Python",
+      "concept": "Values returned by a mixed sequence of deque deletions",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A deque uses a Python list where insertFront is insert(0, x), insertRear is append(x), deletionFront is pop(0) and deletionRear is pop(). Starting empty: insertRear(4), insertFront(7), insertRear(9), deletionFront(), deletionRear(), insertFront(1), deletionRear(). Which values are returned by the three deletions, in order?",
+      "options": {
+        "A": "7, 9, 4",
+        "B": "7, 9, 1",
+        "C": "9, 7, 4",
+        "D": "4, 9, 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The list becomes [7, 4, 9]; deletionFront returns 7 and deletionRear returns 9, leaving [4]; insertFront(1) gives [1, 4] and deletionRear returns 4.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Tuple is Immutable",
+      "concept": "Assigning to a tuple element raises TypeError",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What happens when the following code runs?\nt = (1, 2, 3)\nt[0] = 5",
+      "options": {
+        "A": "t becomes (5, 2, 3)",
+        "B": "TypeError is raised",
+        "C": "t becomes (5, 1, 2, 3)",
+        "D": "IndexError is raised",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A tuple is immutable, so assigning to one of its elements raises TypeError.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI, ML and Deep Learning",
+      "concept": "Nesting of AI, ML and deep learning",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which statement correctly describes the relationship among AI, Machine Learning (ML) and Deep Learning (DL)?",
+      "options": {
+        "A": "ML is a subset of DL, and DL is a subset of AI",
+        "B": "AI is a subset of ML, and ML is a subset of DL",
+        "C": "DL is a subset of ML, and ML is a subset of AI",
+        "D": "AI, ML and DL are independent, non-overlapping fields",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "AI enables machines to mimic human behaviour; ML is a subset of AI using statistical methods; DL is a subset of ML making multi-layer neural networks feasible.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S39-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Correct grammar type, language class and machine triple",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which triple of grammar type, language class and accepting machine is correctly matched?",
+      "options": {
+        "A": "Type 2, context-sensitive, pushdown automata",
+        "B": "Type 0, regular, Turing machine",
+        "C": "Type 1, context-sensitive, linear bounded automata",
+        "D": "Type 3, context-free, finite automata",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Type 0 is RE (TM), Type 1 context-sensitive (LBA), Type 2 context-free (PDA) and Type 3 regular (FA).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "Ones complement of 5",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the output of this C++ code?\n\nint x = 5;\ncout << ~x;",
+      "options": {
+        "A": "10",
+        "B": "-5",
+        "C": "-6",
+        "D": "250",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "~ flips every bit of the int. For two's complement integers ~x equals -(x + 1), so ~5 = -6.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S39-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Key Concepts in DBMS",
+      "concept": "Database instance as snapshot of database state",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In a DBMS, what is the term for the state or snapshot of the database at a particular moment after data has been loaded into it?",
+      "options": {
+        "A": "Metadata",
+        "B": "Database instance",
+        "C": "Data constraint",
+        "D": "Database schema",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A database instance is the state or snapshot of the database after data is loaded; the schema is the design, metadata is data about data.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S39-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Components of Data Communication",
+      "concept": "Five components of data communication",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which of the following is NOT one of the five components of data communication?",
+      "options": {
+        "A": "Compiler",
+        "B": "Protocol",
+        "C": "Message",
+        "D": "Communication medium",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The five components are sender, receiver, message, communication medium and protocol.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S39-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Communication Models",
+      "concept": "Publish-subscribe model for low power devices",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which IoT communication model is considered most efficient for devices that need low power consumption?",
+      "options": {
+        "A": "Broadcast",
+        "B": "Peer-to-peer",
+        "C": "Request/response",
+        "D": "Publish/subscribe",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In publish/subscribe (used by MQTT), devices send only when they have data and do not keep polling, saving power.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

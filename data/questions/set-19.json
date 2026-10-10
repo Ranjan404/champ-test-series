@@ -1,0 +1,681 @@
+{
+  "setId": 19,
+  "title": "Set 19",
+  "questions": [
+    {
+      "id": "S19-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Commands",
+      "concept": "nslookup resolves a DNS domain name to an IP address",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which networking command is used to find the IP address corresponding to a DNS domain name?",
+      "options": {
+        "A": "ping",
+        "B": "nslookup",
+        "C": "netstat",
+        "D": "getmac",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "nslookup (name server lookup) finds the IP address of a DNS domain name. ping tests reachability, netstat shows network statistics and getmac shows the MAC address.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Pickle Module",
+      "concept": "Pickling converts a Python object into a byte stream",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "In Python, the process of converting a Python object into a byte stream is called:",
+      "options": {
+        "A": "Unpickling",
+        "B": "Deserialization",
+        "C": "Compilation",
+        "D": "Pickling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Pickling converts a Python object into a byte stream. Unpickling (deserialization) converts the byte stream back into a Python object.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S19-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Infix to Postfix Conversion",
+      "concept": "Converting (x + y)/(z*8) from infix to postfix",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Using a stack, what is the postfix form of the infix expression (x + y)/(z*8)?",
+      "options": {
+        "A": "xy+z8*/",
+        "B": "xy+/z8*",
+        "C": "xyz8+*/",
+        "D": "/+xy*z8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each parenthesised part becomes postfix first: (x + y) gives xy+ and (z*8) gives z8*. The division operator comes last, giving xy+z8*/.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S19-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Interrupts",
+      "concept": "Non-maskable hardware interrupt in 8085",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In the 8085 microprocessor, which hardware interrupt is non-maskable and cannot be ignored by the CPU?",
+      "options": {
+        "A": "RST 7.5",
+        "B": "INTR",
+        "C": "TRAP",
+        "D": "RST 6.5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Of the five 8085 hardware interrupts, only TRAP is non-maskable. RST 7.5, RST 6.5, RST 5.5 and INTR are all maskable.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Extensions",
+      "concept": "FLAC audio format full form",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In multimedia file formats, what is the full form of the audio format FLAC?",
+      "options": {
+        "A": "Free Lossless Audio Codec",
+        "B": "Fast Linear Audio Compression",
+        "C": "Flash Lossless Audio Container",
+        "D": "File Layer Audio Codec",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FLAC stands for Free Lossless Audio Codec. It is an audio format that compresses sound without losing original quality.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 0 unrestricted grammar generates recursively enumerable languages",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the Chomsky hierarchy, Type 0 (unrestricted) grammar generates which class of languages, accepted by a Turing machine?",
+      "options": {
+        "A": "Context-sensitive languages",
+        "B": "Context-free languages",
+        "C": "Recursively enumerable languages",
+        "D": "Regular languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Type 0 unrestricted grammar generates recursively enumerable languages, which are accepted by Turing machines. Type 1, 2 and 3 give context-sensitive, context-free and regular languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S19-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cryptographic Protocols",
+      "concept": "TLS protects HTTP connections",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which cryptographic protocol is used to protect an HTTP connection?",
+      "options": {
+        "A": "SMTP",
+        "B": "TLS",
+        "C": "ARP",
+        "D": "FTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "TLS (Transport Layer Security) is the cryptographic protocol that protects HTTP connections, as in HTTPS.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S19-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Codd's Rule 3 identification",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which of the following is Rule 3 of Codd's 12 rules for a relational database?",
+      "options": {
+        "A": "Guaranteed Access Rule",
+        "B": "View Updating Rule",
+        "C": "Systematic Treatment of Null Values",
+        "D": "Information Rule",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Rule 3 is the Systematic Treatment of Null Values. Rule 1 is the Information Rule, Rule 2 is the Guaranteed Access Rule and Rule 6 is the View Updating Rule.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Father of machine learning",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Who coined the term \"machine learning\" and is called the father of machine learning?",
+      "options": {
+        "A": "Arthur Samuel",
+        "B": "John McCarthy",
+        "C": "Alan Turing",
+        "D": "Marvin Minsky",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Arthur Samuel coined the term machine learning and is known as its father. John McCarthy coined the term Artificial Intelligence.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Program Execution",
+      "concept": "Order of the Java program execution flow",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which sequence correctly shows the Java program execution flow?",
+      "options": {
+        "A": "Byte code (.class) -> javac -> Source code (.java) -> JVM",
+        "B": "Source code (.java) -> javac -> Byte code (.class) -> JVM",
+        "C": "Source code (.java) -> JVM -> Byte code (.class) -> javac",
+        "D": "Source code (.class) -> javac -> Byte code (.java) -> JVM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The .java source file is compiled by javac into byte code stored in a .class file. The JVM then executes this byte code during the run phase.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S19-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Complements",
+      "concept": "15's complement of a hexadecimal number",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "What is the 15's complement of the hexadecimal number (12D)16?",
+      "options": {
+        "A": "(FD2)16",
+        "B": "(ED3)16",
+        "C": "(E2D)16",
+        "D": "(ED2)16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "15's complement is found by subtracting each digit from F: F-1 = E, F-2 = D, F-D = 2. So the answer is (ED2)16. Adding 1 would give the 16's complement ED3.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S19-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Modular approach in projects",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In project based learning, what does the modular approach involve?",
+      "options": {
+        "A": "Assigning the entire project to a single member to finish",
+        "B": "Coding the whole system first and defining modules later",
+        "C": "Dividing the project into modules with defined inputs and outputs",
+        "D": "Skipping the plan and directly reporting results to the guide",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The modular approach divides a project into manageable modules, and each module has a defined task with inputs and outputs. The modules are solved and then integrated.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S19-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Remainder method hash index",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Using the remainder method h(element) = element % size(hash table) with a hash table of 10 positions, at which index will the element 86 be placed?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "0",
+        "D": "9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "86 % 10 = 6, so the element goes to index 6. Using the quotient (8) instead of the remainder is a common mistake.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S19-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "Starvation-prone scheduling algorithms",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which pair of CPU scheduling algorithms can lead to starvation?",
+      "options": {
+        "A": "FCFS and Round Robin",
+        "B": "FCFS and SJF",
+        "C": "Round Robin and Priority",
+        "D": "SJF and Priority",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SJF and Priority scheduling can starve some processes. FCFS has no starvation, and Round Robin avoids it by giving every process a fixed time quantum.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S19-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Links in a fully connected mesh",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "How many total links are required to connect 12 devices in a fully connected mesh network?",
+      "options": {
+        "A": "132",
+        "B": "11",
+        "C": "66",
+        "D": "78",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A full mesh needs n(n-1)/2 links. For 12 devices: 12 x 11 / 2 = 66.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S19-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus",
+      "concept": "VIRUS acronym full form",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What does VIRUS stand for in cyber security?",
+      "options": {
+        "A": "Vital Information Resource Under Seize",
+        "B": "Very Important Resource Under Siege",
+        "C": "Virtual Information Routine Under Security",
+        "D": "Vital Internet Resource Using Software",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "VIRUS stands for Vital Information Resource Under Seize. A computer virus copies itself and infects a computer without the owner's permission or knowledge.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Version History",
+      "concept": "Python 3.0 release year",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "In which year was Python 3.0 released?",
+      "options": {
+        "A": "2000",
+        "B": "2008",
+        "C": "1994",
+        "D": "2019",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python 3.0 came out in 2008 with 33 keywords. Python 2.0 was released in 2000, 1.0 in 1994 and 3.8 in 2019.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine",
+      "concept": "Finite control component of Turing machine",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which component of a Turing machine keeps track of its different states, acting like a CPU?",
+      "options": {
+        "A": "Input tape",
+        "B": "Read/write head",
+        "C": "Stack",
+        "D": "Finite control",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The finite control keeps track of the Turing machine's states, much like a CPU. The input tape is infinite in both directions, and the read/write head observes symbols.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S19-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Segments",
+      "concept": "OLX as a C2C e-commerce example",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "OLX, where individuals sell used goods directly to other individuals, is an example of which e-commerce model?",
+      "options": {
+        "A": "B2B",
+        "B": "C2C",
+        "C": "B2C",
+        "D": "G2C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "OLX is an example of C2C (consumer-to-consumer) e-commerce. Flipkart, Amazon and Myntra are examples of B2C.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S19-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Keywords",
+      "concept": "final keyword defines constants and prevents method overriding",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which Java keyword is used to define a constant variable and also to prevent a method from being overridden in a subclass?",
+      "options": {
+        "A": "final",
+        "B": "super",
+        "C": "static",
+        "D": "interface",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "final defines a constant variable and prevents method overriding in subclasses. super calls the parent class constructor or superclass methods.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "ACID Properties",
+      "concept": "Durability keeps committed changes permanent",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "A bank transaction is committed, and then the server suffers a power failure. After restart, the committed changes are still present. Which ACID property does this show?",
+      "options": {
+        "A": "Atomicity",
+        "B": "Durability",
+        "C": "Isolation",
+        "D": "Consistency",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Durability means changes become permanent once a transaction is committed. Atomicity is all or nothing, isolation keeps transactions from affecting each other and consistency maintains a valid state.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S19-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "ChatGPT",
+      "concept": "RLHF training of ChatGPT",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "ChatGPT is trained using which technique?",
+      "options": {
+        "A": "Unsupervised clustering without human feedback",
+        "B": "Rule-based expert system programming",
+        "C": "RLHF (Reinforcement Learning from Human Feedback)",
+        "D": "Genetic algorithm based evolution",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ChatGPT, developed by OpenAI, is trained using RLHF (Reinforcement Learning from Human Feedback). GPT stands for Generative Pre-trained Transformer.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S19-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Karnaugh Map",
+      "concept": "Allowed K-map group sizes",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "When simplifying with a Karnaugh map, which group size is NOT allowed?",
+      "options": {
+        "A": "2 cells",
+        "B": "4 cells",
+        "C": "6 cells",
+        "D": "8 cells",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "K-map groups must be a power of 2 (1, 2, 4, 8 or 16 cells). A group of 6 cells is not allowed.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S19-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IP Datagram",
+      "concept": "Maximum IPv4 datagram length",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "What is the maximum length (in bytes) of an IPv4 datagram?",
+      "options": {
+        "A": "1500",
+        "B": "65536",
+        "C": "32768",
+        "D": "65535",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The largest IPv4 datagram is 65535 bytes, which is the maximum value of a 16-bit length field (2^16 - 1).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S19-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linear Search",
+      "concept": "Linear search comparison count",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Linear search is used to find key 17 in numList = [8, -4, 7, 17, 0, 2, 19]. How many comparisons are made?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "17",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Linear search compares 8, -4, 7 and then 17, so the key is found on the 4th comparison, at position 4.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

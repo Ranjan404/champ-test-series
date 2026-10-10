@@ -1,0 +1,681 @@
+{
+  "setId": 25,
+  "title": "Set 25",
+  "questions": [
+    {
+      "id": "S25-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Video Editing Tools",
+      "concept": "Adobe Illustrator is not a video editor",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which of the following is NOT a video editing tool?",
+      "options": {
+        "A": "Adobe Premiere",
+        "B": "Adobe After Effects",
+        "C": "Final Cut Pro",
+        "D": "Adobe Illustrator",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Adobe Illustrator is a vector graphics program; Premiere, Final Cut Pro and After Effects are video editing tools.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S25-Q02",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "DCL Commands",
+      "concept": "Identifying DCL commands",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following are DCL (Data Control Language) commands? Select all that apply.",
+      "options": {
+        "A": "GRANT",
+        "B": "TRUNCATE",
+        "C": "COMMIT",
+        "D": "REVOKE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "D"
+      ],
+      "explanation": "DCL commands are GRANT, which permits users, and REVOKE, which removes authorization. COMMIT is TCL and TRUNCATE is DDL.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Restaurant project manager login functions",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In the restaurant order-processing project, which task is available through the manager login rather than the customer kiosk?",
+      "options": {
+        "A": "Entering or changing the menu",
+        "B": "Placing an order using item code and quantity",
+        "C": "Viewing the menu before ordering",
+        "D": "Viewing the soft copy of the bill",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Manager login allows menu entry/change, deletion of orders and sales reports; customers view the menu, order by item code and quantity, and see the bill on the kiosk.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S25-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Everything is an Object",
+      "concept": "Object identity constant during lifetime",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which statement about the identity (ID) of a Python object is correct?",
+      "options": {
+        "A": "It is the same for every object of the same data type",
+        "B": "It is unique and remains constant during the object's lifetime",
+        "C": "It changes each time the object's value is printed",
+        "D": "It is assigned only to numeric objects",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python treats every value as an object, and each object has a unique ID, returned by id(), that stays constant while the object exists.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S25-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Windows Versions",
+      "concept": "First Windows version",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which was the first version of Microsoft Windows?",
+      "options": {
+        "A": "Windows 95",
+        "B": "Windows NT",
+        "C": "Windows 1.0",
+        "D": "Windows 3.0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Windows version sequence begins with Windows 1.0, after MS-DOS.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S25-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "CoAP Protocol",
+      "concept": "CoAP based on client-server model",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "The Constrained Application Protocol (CoAP) is based on which model, and how are its messages encoded?",
+      "options": {
+        "A": "Client-server model; plain text format",
+        "B": "Peer-to-peer model; XML format",
+        "C": "Client-server model; binary format",
+        "D": "Publish-subscribe model; binary format",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "CoAP is an application layer protocol based on the client-server model, and its messages are encoded in binary.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Transport layer service types",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which kind of service does the Transport layer provide?",
+      "options": {
+        "A": "Only connectionless services",
+        "B": "Connection-oriented and connectionless services",
+        "C": "Only connection-oriented services",
+        "D": "Only node-to-node delivery services",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Transport layer offers connection-oriented (TCP) and connectionless (UDP) services.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Polymorphism in Java",
+      "concept": "Java supports operator overloading only in a limited way",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "As per the syllabus, how does Java support operator overloading?",
+      "options": {
+        "A": "Only through the final keyword",
+        "B": "Fully, exactly as C++ does",
+        "C": "Only inside interfaces",
+        "D": "In a very limited way",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Java does not let programmers overload operators freely; it supports operator overloading only in a very limited way (for example + for string concatenation).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S25-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Bandwidth",
+      "concept": "Unit of bandwidth",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Bandwidth of a communication channel is measured in:",
+      "options": {
+        "A": "Hertz (Hz)",
+        "B": "Bytes",
+        "C": "Bits per second (bps)",
+        "D": "Decibels (dB)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bandwidth is a range of frequencies and is measured in Hertz; data transfer rate is measured in bps.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S25-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack Implementation in Python",
+      "concept": "Python list method used for PUSH",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "When a stack is implemented using a Python list, which list method performs the PUSH operation?",
+      "options": {
+        "A": "extend(x)",
+        "B": "pop()",
+        "C": "append(x)",
+        "D": "insert(0, x)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "append() adds the element at the rightmost end of the list, which acts as the TOP of the stack. pop() is used for POP, not PUSH.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Laws of Boolean Algebra",
+      "concept": "Distributive law simplification (A+B)(A+C)",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Using the laws of Boolean algebra, (A + B)·(A + C) simplifies to:",
+      "options": {
+        "A": "A + B + C",
+        "B": "A·B + C",
+        "C": "A + B·C",
+        "D": "A·B + A·C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "By the distributive law A + (B·C) = (A + B)·(A + C), so the expression equals A + BC.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Writing to a Text File",
+      "concept": "write() return count with newline counted as one character",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What value does f.write('Hello\\n') return when f is a text file opened in 'w' mode?",
+      "options": {
+        "A": "7",
+        "B": "None",
+        "C": "5",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "write() returns the number of characters written. '\\n' counts as one character, so 'Hello\\n' gives 5 + 1 = 6.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S25-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Classes and Objects",
+      "concept": "Audi Nissan Volvo as objects of Car class",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "If Car is a class, then Audi, Nissan and Volvo are best described as:",
+      "options": {
+        "A": "Access specifiers of Car",
+        "B": "Objects (instances) of Car",
+        "C": "Member functions of Car",
+        "D": "Derived classes of Car",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A class is a group of similar objects; Audi, Nissan and Volvo are individual objects of the Car class.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "DFA vs NFA",
+      "concept": "Subset relationship between DFA and NFA",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which statement correctly describes the relationship between DFA and NFA?",
+      "options": {
+        "A": "DFA and NFA are disjoint classes of machines",
+        "B": "No DFA can be an NFA",
+        "C": "Every DFA is an NFA, but not every NFA is a DFA",
+        "D": "Every NFA is a DFA, but not every DFA is an NFA",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "All DFA are NFA, but not all NFA are DFA.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Online Advertising",
+      "concept": "Click-through definition",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In online advertising, the count of users who click an ad and reach the advertiser's site is called:",
+      "options": {
+        "A": "Click-through",
+        "B": "Conversion",
+        "C": "Impression share",
+        "D": "Chargeback",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Click-through counts users who click an ad and land on the advertiser's site; conversion counts visitors who actually buy.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cookies",
+      "concept": "Authentication cookie vs session cookie",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "One cookie records that a user is already logged in, while another tracks the current visit and may end it after a timeout. These are, respectively:",
+      "options": {
+        "A": "third-party cookie and supercookie",
+        "B": "zombie cookie and session cookie",
+        "C": "session cookie and authentication cookie",
+        "D": "authentication cookie and session cookie",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Authentication cookies record whether a user is already logged in; session cookies track current sessions and may terminate them after timeout.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S25-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Operations by Language Class",
+      "concept": "Complement listed for CSL but not RE languages",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which operation is listed for Context-Sensitive Languages (Type 1) but NOT for Recursively Enumerable Languages (Type 0)?",
+      "options": {
+        "A": "Complement",
+        "B": "Union",
+        "C": "Concatenation",
+        "D": "Intersection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "RE languages list union, intersection, concatenation and Kleene closure; context-sensitive languages additionally list complement and reversal.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S25-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC",
+      "concept": "Stage between Design and Deployment",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "In the six-stage SDLC, which stage lies between Design and Deployment, and what activity does it involve?",
+      "options": {
+        "A": "Planning, involving risk analysis",
+        "B": "Development, involving coding and programming",
+        "C": "Maintenance, involving updating and upgrading",
+        "D": "Requirement Analysis, involving SWOT analysis",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Design is followed by Development (coding and programming), after which Deployment (installation and release) happens.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S25-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arithmetic Expression Notations",
+      "concept": "Reverse Polish notation is postfix",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "In the notations for arithmetic expressions, 'Reverse Polish' notation is another name for which form?",
+      "options": {
+        "A": "Infix notation",
+        "B": "Parenthesized notation",
+        "C": "Prefix notation",
+        "D": "Postfix notation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Postfix is called Reverse Polish notation because operators come after their operands; prefix is the (forward) Polish notation.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Error Detection",
+      "concept": "Parity bit for detection not correction",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Parity bit coding is used for:",
+      "options": {
+        "A": "Error detection only, not correction",
+        "B": "Data encryption",
+        "C": "Error correction of multi-bit errors",
+        "D": "Data compression",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A parity bit can detect (usually single-bit) errors but cannot correct them.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S25-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ALTER TABLE",
+      "concept": "ALTER TABLE DROP removes an attribute",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "An attribute named income was added to the GUARDIAN table and must now be removed while keeping the rest of the table. Which statement does this?",
+      "options": {
+        "A": "ALTER TABLE GUARDIAN DELETE income;",
+        "B": "DELETE income FROM GUARDIAN;",
+        "C": "ALTER TABLE GUARDIAN DROP income;",
+        "D": "DROP TABLE GUARDIAN income;",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ALTER TABLE ... DROP attribute removes a column; DROP TABLE removes the whole table and DELETE removes rows, not columns.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S25-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Page Replacement",
+      "concept": "Optimal page replacement fault count",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Using the Optimal page replacement algorithm with 3 frames (initially empty), how many page faults occur for the reference string 4, 7, 6, 1, 7, 6, 1, 2, 7, 2?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Faults on 4, 7, 6; page 1 replaces 4 (never used again); 7, 6, 1 hit; page 2 replaces 6 or 1 (not used again); 7 and 2 hit. Total 5 faults, while FIFO and LRU give 6.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S25-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "8085 pin count",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "How many pins does the Intel 8085 microprocessor have?",
+      "options": {
+        "A": "64",
+        "B": "40",
+        "C": "16",
+        "D": "20",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The 8085 is a 40-pin chip; 16 and 8 bits are its address and data bus widths.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Types of IoT",
+      "concept": "Military IoT examples",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Surveillance robots and human-wearable biometrics belong to which type of IoT?",
+      "options": {
+        "A": "Infrastructure IoT",
+        "B": "Commercial IoT",
+        "C": "Consumer IoT",
+        "D": "Military Things (IoMT)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Internet of Military Things covers surveillance robots and human-wearable biometrics.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S25-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Antivirus Software",
+      "concept": "Bitdefender as an antivirus product",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which of the following is an antivirus software product?",
+      "options": {
+        "A": "WannaCry",
+        "B": "Bitdefender",
+        "C": "Pegasus",
+        "D": "TeslaCrypt",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bitdefender is antivirus software; WannaCry and TeslaCrypt are ransomware and Pegasus is spyware.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

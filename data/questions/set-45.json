@@ -1,0 +1,681 @@
+{
+  "setId": 45,
+  "title": "Set 45",
+  "questions": [
+    {
+      "id": "S45-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process State Transitions",
+      "concept": "Wait to Ready on I/O completion",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "A process in the Wait/Block state finishes its I/O operation. Which state does it enter next?",
+      "options": {
+        "A": "Running",
+        "B": "New",
+        "C": "Terminated",
+        "D": "Ready",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "On I/O or event completion a blocked process moves to Ready; it must be dispatched by the scheduler again before it can run.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Search by Hashing",
+      "concept": "Hashing determines presence of key in one step",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "What makes search by hashing more efficient than linear or binary search?",
+      "options": {
+        "A": "It halves the search area in every iteration",
+        "B": "It sorts the list before every search",
+        "C": "It compares the key with every element in parallel",
+        "D": "It can determine whether a key is present in one step",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A hash function computes the index directly, so presence of a key can be determined in one step. Halving the search area describes binary search.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S45-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Concepts",
+      "concept": "Sum of abstraction types, polymorphism types and access specifiers",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Let x = number of types of abstraction in an object-oriented language, y = number of broad types of polymorphism, and z = number of access specifiers in C++. What is x + y + z?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "8",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "There are 2 types of abstraction, polymorphism is broadly of 2 types (compile time and run time), and C++ has 3 access specifiers (public, private, protected), so 2 + 2 + 3 = 7.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S45-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Three-Level Schema Architecture",
+      "concept": "Conceptual level holds constraints and security",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "At which level of the three-level architecture are database constraints and security implemented, and where do programmers and DBAs mainly work?",
+      "options": {
+        "A": "Application or client level",
+        "B": "Internal or physical level",
+        "C": "Conceptual or logical level",
+        "D": "External or view level",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The conceptual level describes the whole database structure; constraints and security are implemented there and programmers and DBAs work at it.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Order of testing levels",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Arrange these testing levels in the order they are normally performed: (1) system testing, (2) unit testing, (3) acceptance testing, (4) integration testing.",
+      "options": {
+        "A": "4, 2, 1, 3",
+        "B": "2, 1, 4, 3",
+        "C": "2, 4, 1, 3",
+        "D": "2, 4, 3, 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Individual units are tested first, then their interactions (integration), then the whole system, and finally the user confirms acceptance.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S45-Q06",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "RAM speed factors bus width and speed",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which factors are used to measure the speed of RAM? Select all that apply.",
+      "options": {
+        "A": "Bus width",
+        "B": "Bus speed",
+        "C": "Number of memory slots",
+        "D": "Storage capacity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "RAM speed depends on its bus width and bus speed; capacity tells how much it stores, not how fast it is.",
+      "distractorMistakeType": {
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Natural Language Processing",
+      "concept": "Machine translation as an emerging NLP field",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which of the following is described as an emerging field within Natural Language Processing (NLP)?",
+      "options": {
+        "A": "Detecting phone orientation with sensors",
+        "B": "Machine translation from one language to another",
+        "C": "Facial recognition in photographs",
+        "D": "Superimposing digital data on live camera views",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "NLP deals with human languages; machine translation is an emerging NLP field. Facial recognition is a vision task and the others belong to sensors and AR.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption Standards",
+      "concept": "RSA full form",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "The public-key algorithm RSA is named after:",
+      "options": {
+        "A": "Ross, Shannon and Atkins",
+        "B": "Rivest, Smith and Anderson",
+        "C": "Ritchie, Stroustrup and Aho",
+        "D": "Rivest, Shamir and Adleman",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "RSA stands for the Rivest-Shamir-Adleman algorithm, a commonly used public-key method.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S45-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Physical Layer",
+      "concept": "Layer specifying voltage and cables",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which OSI layer specifies voltage, wire speed and cables, and moves bits between devices?",
+      "options": {
+        "A": "Transport layer",
+        "B": "Data Link layer",
+        "C": "Network layer",
+        "D": "Physical layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Physical layer is closest to the medium and deals with bits, voltages and cabling.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Introduction to Files",
+      "concept": "File as named location on secondary storage",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A file is best described as:",
+      "options": {
+        "A": "A function that returns a byte stream",
+        "B": "A named block of code that runs when called",
+        "C": "A temporary variable that is held in RAM",
+        "D": "A named location on secondary storage where data is stored permanently",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Data in variables is temporary, while a file is a named location on secondary storage that keeps data permanently for later access.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Infix to Postfix Conversion",
+      "concept": "Postfix of A * (B + C) / D",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the postfix form of the infix expression A * (B + C) / D ?",
+      "options": {
+        "A": "A B C + D / *",
+        "B": "A B C + * D /",
+        "C": "A B * C + D /",
+        "D": "A B C * + D /",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The parenthesized B + C becomes B C +, then A * gives A B C + *, and since * and / associate left to right, / D is applied last: A B C + * D /.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S45-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "3D Animation",
+      "concept": "Activities in a 3D animation process",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which set of activities makes up a typical 3D animation process?",
+      "options": {
+        "A": "Scanning, cropping, printing and archiving",
+        "B": "Rasterization, vectorization, zipping and streaming",
+        "C": "Modeling, rendering, animation and special effects",
+        "D": "Planning, sampling, quantization and encoding",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A 3D animation process includes modeling, rendering, animation and special effects; the other lists mix project stages or image-processing terms.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cryptography Basics",
+      "concept": "Definition of a cryptographic key",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In cryptography, the number or set of numbers on which a cipher operates is called the:",
+      "options": {
+        "A": "Key",
+        "B": "Protocol",
+        "C": "Plaintext",
+        "D": "Ciphertext",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A key is the number or set of numbers on which the cipher operates.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Service Models",
+      "concept": "Identifying a SaaS example",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "A user opens Zoom in a browser for a meeting without installing or managing any infrastructure or platform. Under which cloud service model does Zoom fall, and which other option shares that model?",
+      "options": {
+        "A": "PaaS, like AWS Elastic Beanstalk",
+        "B": "IaaS, like Linode",
+        "C": "SaaS, like Mailchimp",
+        "D": "PaaS, like Google App Engine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Zoom and Mailchimp are listed as SaaS. Google App Engine and AWS Elastic Beanstalk are PaaS, and Linode is IaaS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "Arithmetic precedence with modulus",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the output of this C++ code?\n\nint a = 5 + 3 * 2 % 4;\ncout << a;",
+      "options": {
+        "A": "7",
+        "B": "0",
+        "C": "11",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "* and % have the same precedence and are evaluated left to right before +: 3 * 2 = 6, 6 % 4 = 2, then 5 + 2 = 7. Evaluating 5 + 3 first would give 16 % 4 = 0.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S45-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Semaphores",
+      "concept": "Binary semaphore as mutex lock initialized to 1",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A binary semaphore (mutex lock) is initialized to which value to allow only one process into its critical section?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2",
+        "D": "-1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A binary semaphore takes values 0 and 1 and is initialized to 1, so the first wait succeeds and later ones block until a signal.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S45-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Basics",
+      "concept": "Language defined as set of words",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "As per automata basics, a finite set of words is called a(n):",
+      "options": {
+        "A": "Grammar",
+        "B": "Symbol",
+        "C": "Language",
+        "D": "Alphabet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Words combine into a language; an alphabet is a finite set of symbols.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Built-in Exceptions",
+      "concept": "EOFError raised by input() at end of file",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which built-in exception is raised when input() reaches the end-of-file condition without reading any data?",
+      "options": {
+        "A": "IOError",
+        "B": "IndexError",
+        "C": "EOFError",
+        "D": "ImportError",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "EOFError is raised when input() reaches the end of file without reading data. IOError relates to files that cannot be opened.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine",
+      "concept": "TM as finite automaton with read write erase on infinite tape",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "A Turing machine is described as a finite automaton that can additionally do what?",
+      "options": {
+        "A": "Read symbols only on a bounded tape",
+        "B": "Read, write and erase symbols on an infinitely long tape",
+        "C": "Produce output on each state change",
+        "D": "Push and pop symbols on a single stack",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A TM reads, writes and erases on an infinite tape; a stack is the PDA's memory and a bounded tape is the LBA's.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Laws of Boolean Algebra",
+      "concept": "Simplify AB + AB' + A'B",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Using the laws of Boolean algebra, A·B + A·B' + A'·B simplifies to:",
+      "options": {
+        "A": "1",
+        "B": "A + B",
+        "C": "A",
+        "D": "B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A·B + A·B' = A·(B + B') = A, and then A + A'·B = A + B by the absorption law.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S45-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-Marketplace",
+      "concept": "Horizontal marketplace example",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "An e-marketplace that serves a wide variety of industries as a digital one-stop shop, such as Flipkart, is a:",
+      "options": {
+        "A": "Horizontal marketplace",
+        "B": "Government marketplace",
+        "C": "Niche marketplace",
+        "D": "Vertical marketplace",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Horizontal marketplaces span many industries (Amazon, Flipkart); vertical marketplaces target one niche.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S45-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Working with Python",
+      "concept": "Python shell prompt symbol",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which symbol is displayed as the Python prompt in the Python shell (interactive mode)?",
+      "options": {
+        "A": "$",
+        "B": ">>>",
+        "C": "C:\\>",
+        "D": "#",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Python shell shows >>> as its prompt, where statements can be typed and executed instantly. The # symbol starts a comment.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S45-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack Applications",
+      "concept": "Maximum stack depth while matching nested parentheses",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A stack is used to check the parentheses in the expression ((2+3)*(4/2))+2, pushing on '(' and popping on ')'. What is the maximum number of left parentheses present on the stack at any moment?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "4",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The outer '(' and the '(' of (2+3) are on the stack together (2). The first inner pair is popped before (4/2) is pushed, so the depth never exceeds 2.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S45-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Aggregate Functions",
+      "concept": "COUNT with WHERE on attendance data",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "An ATTENDANCE table has 12 rows. On 2018-09-01, roll numbers 3 and 5 are marked 'A' and the rest 'P'; on 2018-09-02, roll numbers 3 and 4 are marked 'A' and the rest 'P'. What does SELECT COUNT(*) FROM ATTENDANCE WHERE AttendanceStatus = 'A'; return?",
+      "options": {
+        "A": "12",
+        "B": "4",
+        "C": "3",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "COUNT(*) counts the rows that satisfy WHERE: two absences on each date gives 4. Counting distinct roll numbers would wrongly give 3.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S45-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "World Wide Web",
+      "concept": "Technologies used to create the WWW",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Which three technologies did Tim Berners-Lee use to create the World Wide Web in 1990?",
+      "options": {
+        "A": "HTML, URI/URL and HTTP",
+        "B": "HTML, DNS and FTP",
+        "C": "TCP/IP, URL and SMTP",
+        "D": "XML, URI and HTTPS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The WWW was built on HTML for pages, URI/URL for addressing and HTTP for transfer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

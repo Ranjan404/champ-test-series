@@ -1,0 +1,681 @@
+{
+  "setId": 20,
+  "title": "Set 20",
+  "questions": [
+    {
+      "id": "S20-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS History",
+      "concept": "First DBMS Integrated Data Store",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Who created the first DBMS, known as the Integrated Data Store (IDS)?",
+      "options": {
+        "A": "E. F. Codd",
+        "B": "Charles Bachman",
+        "C": "Raymond Boyce",
+        "D": "Donald Chamberlin",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Charles Bachman created the first DBMS, the Integrated Data Store (IDS). E. F. Codd is known as the father of the relational database.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S20-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "Bitwise XOR operator output",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is printed by this C++ code?\nint a = 5, b = 3;\ncout << (a ^ b);",
+      "options": {
+        "A": "125",
+        "B": "8",
+        "C": "6",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In C++, ^ is the bitwise XOR operator, not a power operator. 5 (101) XOR 3 (011) = 110, which is 6.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S20-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Encoding Schemes",
+      "concept": "ISCII bit length",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "ISCII, developed in India in the mid-1980s for Indian languages, uses how many bits per character?",
+      "options": {
+        "A": "7",
+        "B": "16",
+        "C": "32",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ISCII is an 8-bit code, so it can represent 2^8 = 256 characters. It keeps all 128 ASCII codes and uses the rest for Indian scripts.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S20-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Language class accepted by LBA",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "According to the Chomsky hierarchy, Linear Bounded Automata accept which class of languages?",
+      "options": {
+        "A": "Regular",
+        "B": "Context-free",
+        "C": "Context-sensitive",
+        "D": "Recursively enumerable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Linear Bounded Automata accept Type 1 (context-sensitive) languages. Finite automata accept regular, PDA accept context-free and Turing machines accept recursively enumerable languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S20-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Transport layer PDU",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In the OSI model, what is the data unit (PDU) at the Transport layer called?",
+      "options": {
+        "A": "Segment",
+        "B": "Packet",
+        "C": "Frame",
+        "D": "Bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Transport layer uses segments and port addresses. The Network layer uses packets, the Data Link layer uses frames and the Physical layer uses bits.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S20-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Objects and Identity",
+      "concept": "id() of objects with equal small int values",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Based on Python's object identity behaviour, what is the output of this code?\nnum1 = 20\nnum2 = 30 - 10\nprint(id(num1) == id(num2))",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "20",
+        "D": "Error",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In Python every value is an object, and id() returns its identity. Both names refer to the same object 20, so the ids match and True is printed, as in the source example.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S20-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Formats",
+      "concept": "GIF can embed a web bug",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which image format can embed a small program called a web bug?",
+      "options": {
+        "A": "JPEG",
+        "B": "PNG",
+        "C": "TIFF",
+        "D": "GIF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "GIF can embed a small program called a web bug. GIF is also the format used for animation.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S20-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Stack removal order (LIFO)",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "The elements A, B, C and D are pushed onto a stack in that order and then deleted one at a time. In what order are they removed?",
+      "options": {
+        "A": "DCBA",
+        "B": "ABCD",
+        "C": "BADC",
+        "D": "DABC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A stack follows LIFO (Last In First Out), so the last element pushed (D) is removed first, giving DCBA. A queue would give ABCD.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S20-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "CASE Tools",
+      "concept": "CASE full form",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In software engineering, CASE stands for:",
+      "options": {
+        "A": "Computer Assisted System Execution",
+        "B": "Computer Aided Software Engineering",
+        "C": "Code Analysis and Software Evaluation",
+        "D": "Computer Automated System Engineering",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "CASE stands for Computer Aided Software Engineering. A CASE repository stores all project-related information from development to maintenance.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S20-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management",
+      "concept": "Compaction solves external fragmentation",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which memory management technique collects all free memory into one large chunk to solve external fragmentation?",
+      "options": {
+        "A": "Paging",
+        "B": "Segmentation",
+        "C": "Compaction",
+        "D": "Thrashing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Compaction gathers all free memory into one large block for other processes, which solves external fragmentation. Segmentation itself suffers from external fragmentation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S20-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Short-Range IoT Networks",
+      "concept": "Inventor of Bluetooth",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Bluetooth, a low-power short-range network used in IoT, was invented by:",
+      "options": {
+        "A": "Kevin Ashton",
+        "B": "Vint Cerf",
+        "C": "Tim Berners-Lee",
+        "D": "Jaap Haartsen",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Bluetooth (IEEE 802.15.1) was invented by Jaap Haartsen. Kevin Ashton introduced IoT in 1999 and Vint Cerf is called the father of the Internet.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S20-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Controls",
+      "concept": "PGP used for email security",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Pretty Good Privacy (PGP) is mainly used for securing:",
+      "options": {
+        "A": "Wi-Fi networks",
+        "B": "Email",
+        "C": "ATM transactions",
+        "D": "Boot sectors",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "PGP is used for email security. WPA2 secures Wi-Fi, and AES is used in most ATMs.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S20-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Element count of a 3D array",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "How many elements can be stored in the array declared as int arr[4][5][8]?",
+      "options": {
+        "A": "17",
+        "B": "160",
+        "C": "40",
+        "D": "32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The number of elements in a multidimensional array is the product of its dimensions: 4 x 5 x 8 = 160.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S20-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ASCII",
+      "concept": "7-bit ASCII binary of a character",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "The ASCII value of 'T' is 84. What is its 7-bit binary code?",
+      "options": {
+        "A": "1010100",
+        "B": "1001010",
+        "C": "1010010",
+        "D": "1100100",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "84 = 64 + 16 + 4, which is 1010100 in 7-bit binary. This matches the ASCII table used to encode the word DATA.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S20-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "complex data type in Python",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "What is the data type of the value 3 + 4j in Python?",
+      "options": {
+        "A": "float",
+        "B": "int",
+        "C": "complex",
+        "D": "tuple",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Values like 3 + 4j and 2 - 2j belong to the complex type in Python. int holds integers and float holds real numbers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S20-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Query Languages",
+      "concept": "QBE first graphical query language",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which was the first graphical query language?",
+      "options": {
+        "A": "SQL",
+        "B": "QBE",
+        "C": "DDL",
+        "D": "PL/SQL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "QBE (Query by Example) was the first graphical query language. It is a user interface that makes SQL procedures simpler.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S20-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce History",
+      "concept": "First significant e-commerce company",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which company, from 1969, is regarded as the first significant e-commerce company?",
+      "options": {
+        "A": "Amazon",
+        "B": "eBay",
+        "C": "Alibaba",
+        "D": "CompuServe",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "CompuServe (1969) was the first significant e-commerce company. Amazon and eBay were founded in 1996 and Alibaba in 1999.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S20-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Interrupts",
+      "concept": "Number of software interrupts in 8085",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "How many software interrupts does the 8085 microprocessor have?",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "4",
+        "D": "16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The 8085 has 8 software interrupts, RST 0 to RST 7. It has 5 hardware interrupts: TRAP, RST 7.5, RST 6.5, RST 5.5 and INTR.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S20-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "McCulloch and Pitts and finite automata",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Neurophysiologists Warren McCulloch and Walter Pitts (1943) are associated with which machine model?",
+      "options": {
+        "A": "Turing machine",
+        "B": "Pushdown automata",
+        "C": "Finite automata",
+        "D": "Linear bounded automata",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "McCulloch and Pitts (1943) are linked with finite automata (Type 3, regular grammar). Pushdown automata are linked with Joel Moses (1960), and Turing machines with Alan Turing (1936).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S20-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware",
+      "concept": "Polymorphic virus behaviour",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which type of virus keeps changing its type and signature?",
+      "options": {
+        "A": "Resident virus",
+        "B": "Macro virus",
+        "C": "Boot sector virus",
+        "D": "Polymorphic virus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A polymorphic virus keeps changing its type and signature. A resident virus stays in RAM, and a macro virus spreads through application software.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S20-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Keywords",
+      "concept": "C++ keywords shared with C",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "C++ has 95 keywords in total. How many of them are also present in C?",
+      "options": {
+        "A": "32",
+        "B": "63",
+        "C": "33",
+        "D": "45",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Of the 95 C++ keywords, 32 are present in C and 63 are not. The number 45 is the count of C++ operators.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S20-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Networking History",
+      "concept": "First public internet service in India",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "The first publicly available Internet service in India was launched by VSNL on which date?",
+      "options": {
+        "A": "15 August 1995",
+        "B": "26 January 1995",
+        "C": "15 August 1991",
+        "D": "1 April 1998",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "State-owned Videsh Sanchar Nigam Limited (VSNL) launched India's first public Internet service on 15 August 1995.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S20-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Basics",
+      "concept": "First IoT device",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which device is regarded as the first IoT device?",
+      "options": {
+        "A": "Smart TV",
+        "B": "Toaster",
+        "C": "Thermostat",
+        "D": "Refrigerator",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The toaster is regarded as the first IoT device. The term IoT was introduced in 1999.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S20-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Adaptive maintenance definition",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Updating existing software so that it works in a new environment is called:",
+      "options": {
+        "A": "Perfective maintenance",
+        "B": "Reverse engineering",
+        "C": "Adaptive maintenance",
+        "D": "Re-engineering",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Adaptive maintenance updates software to fit new environments. Perfective maintenance adds new features, and reverse engineering is about understanding and documenting existing software.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S20-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Primitive Data Types",
+      "concept": "Range of byte data type",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What is the range of values of the byte data type?",
+      "options": {
+        "A": "-128 to 127",
+        "B": "0 to 255",
+        "C": "-32,768 to 32,767",
+        "D": "-127 to 128",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A byte ranges from a minimum of -128 to a maximum of 127. The range -32,768 to 32,767 belongs to short.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    }
+  ]
+}

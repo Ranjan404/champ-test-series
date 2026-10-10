@@ -1,0 +1,681 @@
+{
+  "setId": 41,
+  "title": "Set 41",
+  "questions": [
+    {
+      "id": "S41-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Tuple is Immutable",
+      "concept": "Mutable list inside a tuple can be changed",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\nt = (10, 20, [30, 40])\nt[2][0] = 35\nprint(t)",
+      "options": {
+        "A": "TypeError is raised",
+        "B": "(10, 20, [35, 40])",
+        "C": "(10, 20, [30, 40])",
+        "D": "(10, 20, 35, [30, 40])",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The tuple itself cannot be changed, but its element at index 2 is a mutable list, which can be modified in place.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S41-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Tables",
+      "concept": "Cell spacing scenario",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "A developer wants more gap between neighbouring cells of a table, without changing the gap between each cell's text and its own border. Which property should be increased?",
+      "options": {
+        "A": "Cell spacing",
+        "B": "Border width",
+        "C": "Cell padding",
+        "D": "Colspan",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Cell spacing is the space between adjacent cells, while cell padding is the space between cell content and its border.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S41-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Program Execution",
+      "concept": "JVM executes bytecode",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which component executes Java bytecode during the run phase?",
+      "options": {
+        "A": "JVM (Java Virtual Machine)",
+        "B": "jdb (Java Debugger)",
+        "C": "javac (Java compiler)",
+        "D": "Java source editor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The JVM executes the bytecode in .class files. javac only compiles source to bytecode and jdb is a debugger.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S41-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessor History",
+      "concept": "Microprocessor in 4th generation of computers",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "The microprocessor belongs to which generation of computers?",
+      "options": {
+        "A": "Third generation",
+        "B": "Fifth generation",
+        "C": "Fourth generation",
+        "D": "Second generation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Microprocessors (from LSI/VLSI chips) mark the 4th generation of computers. Third generation used integrated circuits.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S41-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Arduino",
+      "concept": "Microcontroller of Arduino UNO",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which microcontroller is used in the Arduino UNO?",
+      "options": {
+        "A": "AT91SAM3x8E",
+        "B": "ATmega32U4",
+        "C": "ATmega2560",
+        "D": "ATmega328p",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Arduino UNO uses the ATmega328p microcontroller; ATmega2560 is used on the Arduino Mega.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S41-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "Contention-based MAC protocol usage",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Contention-based MAC protocols are commonly used in which type of network?",
+      "options": {
+        "A": "Token Ring networks",
+        "B": "Point-to-point networks",
+        "C": "ATM networks",
+        "D": "Ethernet networks",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Ethernet nodes contend for the shared medium; Token Ring uses token passing instead of contention.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Strings",
+      "concept": "No separate character data type in Python",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "How does Python represent a single character such as 'A'?",
+      "options": {
+        "A": "As a separate char data type",
+        "B": "As an int holding its ASCII value",
+        "C": "As a string of length one",
+        "D": "As a tuple with one element",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Python has no character data type; a single character is simply a string of length one.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "File System Limitations",
+      "concept": "Data redundancy as duplication of same data",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "A school keeps the guardian's name and phone number both in the STUDENT file and in a separate fee file. Which file-system limitation does this duplication of the same data in different places represent?",
+      "options": {
+        "A": "Data abstraction",
+        "B": "Data redundancy",
+        "C": "Data dependence",
+        "D": "Data isolation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Data redundancy means the same data is duplicated in different places, which wastes storage and can lead to inconsistency.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IP Address Classes",
+      "concept": "First octet 245 is Class E",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "An IPv4 address with first octet 245 belongs to which class?",
+      "options": {
+        "A": "Class B",
+        "B": "Class E (experimental/research)",
+        "C": "Class C",
+        "D": "Class D (multicast)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Class E covers 240-254 and is reserved for experimental use; Class D is 224-239.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Types",
+      "concept": "Output-restricted dequeue",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In an output-restricted dequeue, which operations are allowed?",
+      "options": {
+        "A": "Insertion at both ends, no deletion",
+        "B": "Insertion and deletion at only one end",
+        "C": "Deletion at only one end, insertion at both ends",
+        "D": "Insertion at only one end, deletion at both ends",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Output-restricted means deletion (output) is limited to one end while insertion can be done from both ends. The reverse describes the input-restricted dequeue.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Moore Machine",
+      "concept": "Lambda in Moore 6-tuple",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In the six-tuple definition of a Moore machine, what does lambda denote?",
+      "options": {
+        "A": "Output transition function",
+        "B": "Input alphabet",
+        "C": "Output alphabet",
+        "D": "State transition function",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Lambda is the output transition function; O/A is the output alphabet and delta the state transition function.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Browser compatibility testing",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "A web application is checked to ensure it runs correctly on Chrome, Firefox and Edge across Windows and Linux. This is:",
+      "options": {
+        "A": "Gorilla testing",
+        "B": "Back-end testing",
+        "C": "Backward compatibility testing",
+        "D": "Browser compatibility testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Browser compatibility testing ensures a web application runs on different browser and operating system combinations. Backward compatibility concerns older versions' files and environments.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Pickle Module",
+      "concept": "pickle.dump() needs file opened in wb mode",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which statement correctly opens a file for writing a list with pickle.dump()?",
+      "options": {
+        "A": "fileobject = open('mybinary.dat', 'r+')",
+        "B": "fileobject = open('mybinary.dat', 'rb')",
+        "C": "fileobject = open('mybinary.dat', 'w')",
+        "D": "fileobject = open('mybinary.dat', 'wb')",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "pickle writes byte streams, so the file must be opened in binary write mode, 'wb'. 'rb' is used when loading.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Representation",
+      "concept": "Count of edge entries in undirected adjacency matrix",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "An undirected graph has vertices A, B, C, D and edges A-B, B-C and C-D. In its adjacency matrix (1 for an edge, 0 otherwise), how many entries are 1?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In an undirected graph each edge appears at both (u, v) and (v, u), so 3 edges give 6 entries of 1.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S41-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AMQP Protocol",
+      "concept": "AMQP guaranteed message delivery",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which IoT protocol is used for scalability and modularity and offers guaranteed message delivery?",
+      "options": {
+        "A": "DDS",
+        "B": "HTTP",
+        "C": "AMQP",
+        "D": "CoAP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "AMQP (Advanced Message Queuing Protocol) provides scalability, modularity and guaranteed message delivery, and processes messages into queues.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Functions of OS",
+      "concept": "Major functions of an operating system",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following is NOT listed among the major functions of an operating system?",
+      "options": {
+        "A": "Device management",
+        "B": "Job accounting",
+        "C": "Compiling program source code",
+        "D": "Security",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The major OS functions are job accounting, process management, file management, networking, device management and security. Compiling source code is the job of a language translator.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S41-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Attack Methods",
+      "concept": "SQL injection definition",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "SQL injection is best described as:",
+      "options": {
+        "A": "malware that encrypts a database and demands ransom",
+        "B": "a protocol used to secure database connections",
+        "C": "a method of capturing small packets on a network",
+        "D": "a code injection technique used to attack data-driven applications",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SQL injection is a code injection technique used to attack data-driven applications; packet capture is sniffing and ransom demands are ransomware.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Flip-Flops",
+      "concept": "Cascaded T flip-flops frequency division",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Three T flip-flops (each in toggle mode) are cascaded, with the output of each driving the clock of the next. If the first receives a 16 kHz clock, what is the output frequency of the third?",
+      "options": {
+        "A": "5.33 kHz",
+        "B": "4 kHz",
+        "C": "2 kHz",
+        "D": "8 kHz",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Each T flip-flop halves the frequency: 16 to 8 to 4 to 2 kHz. Dividing by 3 instead of 2^3 is a conceptual mistake.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S41-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Translators",
+      "concept": "Loader stage after object code",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In the flow Source code -> Translator -> Object code -> ____ -> Execution, which component fills the blank?",
+      "options": {
+        "A": "Loader",
+        "B": "Interpreter",
+        "C": "Debugger",
+        "D": "Assembler",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Compilers, assemblers and interpreters produce object code, which the loader places into memory for execution.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS History",
+      "concept": "Father of relational database",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Who is known as the father of the relational database?",
+      "options": {
+        "A": "E. F. Codd",
+        "B": "Raymond F. Boyce",
+        "C": "Donald D. Chamberlin",
+        "D": "Charles Bachman",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "E. F. Codd is the father of the relational database; Charles Bachman created the first DBMS (IDS).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Search by Hashing",
+      "concept": "Empty slots after remainder hashing",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "The elements 34, 16, 2, 93, 75 and 40 are stored in an empty hash table of 10 positions using h(element) = element % 10. How many positions remain empty?",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The indices used are 4, 6, 2, 3, 5 and 0, all distinct, so 6 of the 10 positions are filled and 4 remain empty.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S41-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware Types",
+      "concept": "Trojan does not self-replicate",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A malicious program looks like a legitimate game and tricks a user into installing it, but it does not copy itself or infect other files on its own. It is best classified as a:",
+      "options": {
+        "A": "Trojan",
+        "B": "Ransomware",
+        "C": "Virus",
+        "D": "Worm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A Trojan looks like legitimate software and tricks users into installing it, but it does not self-replicate or infect other files by itself, unlike worms and viruses.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S41-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Operations by Language Class",
+      "concept": "Intersection listed for regular but not context-free languages",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which operation is listed for Regular Languages (Type 3) but NOT for Context-Free Languages (Type 2)?",
+      "options": {
+        "A": "Union",
+        "B": "Intersection",
+        "C": "Kleene star",
+        "D": "Kleene plus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Union, Kleene star and Kleene plus are listed for both classes, while intersection is listed only for regular languages.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S41-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Open Source OS",
+      "concept": "Identifying a non open-source OS",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is NOT an open-source operating system?",
+      "options": {
+        "A": "Debian",
+        "B": "Gentoo",
+        "C": "Fedora",
+        "D": "Windows 10",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Fedora, Debian and Gentoo are listed open-source operating systems; Windows is proprietary.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S41-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce History",
+      "concept": "Online shopping pioneer",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Online shopping was pioneered in 1979 in the United Kingdom by:",
+      "options": {
+        "A": "Tim Berners-Lee",
+        "B": "Michael Aldrich",
+        "C": "Bob Goldstein",
+        "D": "Jeff Bezos",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Michael Aldrich pioneered online shopping in 1979; Tim Berners-Lee created the WWW and Bob Goldstein coined multimedia.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

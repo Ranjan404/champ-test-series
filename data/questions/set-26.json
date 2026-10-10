@@ -1,0 +1,681 @@
+{
+  "setId": 26,
+  "title": "Set 26",
+  "questions": [
+    {
+      "id": "S26-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "MySQL Data Types",
+      "concept": "INT storage size in MySQL",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "How many bytes of storage does the INT data type use in MySQL?",
+      "options": {
+        "A": "8 bytes",
+        "B": "4 bytes",
+        "C": "2 bytes",
+        "D": "1 byte",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In MySQL, INT stores an integer value using 4 bytes of storage.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S26-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "User Defined Functions",
+      "concept": "Function without return statement returns None",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\ndef add5(x):\n    x = x + 5\nprint(add5(3))",
+      "options": {
+        "A": "None",
+        "B": "0",
+        "C": "3",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A function may or may not return a value. add5 has no return statement, so the call returns None, and that is what gets printed.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S26-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Mealy Machine",
+      "concept": "Mealy machine tuple count",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "A Mealy machine is formally defined as how many tuples?",
+      "options": {
+        "A": "Eight",
+        "B": "Seven",
+        "C": "Five",
+        "D": "Six",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A Mealy machine is a six-tuple (Q, input alphabet, delta, q0, output alphabet, lambda); seven is the TM and eight the LBA.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S26-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Asymmetric Cryptography",
+      "concept": "Sender encrypts with receiver's public key",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Alice wants to send Bob a confidential message using asymmetric-key cryptography. Which key does Alice use to encrypt it?",
+      "options": {
+        "A": "Bob's public key",
+        "B": "A shared secret key",
+        "C": "Bob's private key",
+        "D": "Alice's private key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In asymmetric encryption the sender uses the receiver's public key, and only the receiver's private key, which Bob keeps secret, can decrypt it.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Adders",
+      "concept": "Full adder output for 1,0,1",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "A full adder receives A = 1, B = 0 and Cin = 1. What are its outputs?",
+      "options": {
+        "A": "Sum = 0, Cout = 1",
+        "B": "Sum = 1, Cout = 1",
+        "C": "Sum = 0, Cout = 0",
+        "D": "Sum = 1, Cout = 0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "1 + 0 + 1 = 2 = binary 10, so Sum = 0 and carry out = 1.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S26-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Color Models",
+      "concept": "RGB colour model full form",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In digital imaging, the RGB colour model stands for:",
+      "options": {
+        "A": "Red, Grey, Black",
+        "B": "Red, Green, Blue",
+        "C": "Raster, Graphic, Bitmap",
+        "D": "Red, Gold, Brown",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RGB stands for Red, Green, Blue.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S26-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "Starving is not a valid process state",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following is NOT a valid process state?",
+      "options": {
+        "A": "Ready",
+        "B": "New",
+        "C": "Waiting",
+        "D": "Starving",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "New, ready, running and waiting are valid process states. Starvation is a scheduling problem, not a state a process is placed in.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "S26-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "Sum of relational expression results",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the output of this C++ code?\n\ncout << (5 > 3) + (2 == 2) + (4 < 1);",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "0",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Relational expressions yield 1 for true and 0 for false: (5 > 3) is 1, (2 == 2) is 1 and (4 < 1) is 0, giving 2.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S26-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Process of Handling Exception",
+      "concept": "Throwing an exception definition",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "In exception handling, what does throwing an exception mean?",
+      "options": {
+        "A": "Printing the stack trace and closing the file",
+        "B": "Creating an exception object and handing it to the runtime system",
+        "C": "Ignoring the error and continuing execution",
+        "D": "Executing the code block designed to handle the exception",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Throwing means creating an exception object and passing it to the runtime system. Catching means running the matching handler block.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Big Data",
+      "concept": "Variety characteristic of big data scenario",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "A company collects database tables, XML logs, tweets, photographs and audio chats for analysis. Which characteristic of Big Data does this mix of structured, semi-structured and unstructured data illustrate?",
+      "options": {
+        "A": "Velocity",
+        "B": "Variety",
+        "C": "Volume",
+        "D": "Veracity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Variety means data can be structured, semi-structured or unstructured. Velocity is rate, Volume is size and Veracity is trustworthiness.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Teamwork",
+      "concept": "Help others component includes seeking external help",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Supporting every team member and seeking external help when required belongs to which component of teamwork?",
+      "options": {
+        "A": "Help others",
+        "B": "Listen to others",
+        "C": "Participate",
+        "D": "Respect for others",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The 'Help others' component covers supporting each member and seeking external help when required.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Architecture Types",
+      "concept": "EPIC uses compiler for parallelism",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which processor architecture allows instructions to execute in parallel by making use of compilers?",
+      "options": {
+        "A": "CISC",
+        "B": "EPIC",
+        "C": "RISC",
+        "D": "Single-core",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "EPIC (Explicitly Parallel Instruction Computing) relies on the compiler to expose instruction-level parallelism; IA-64 is an example.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S26-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "RDBMS Concepts",
+      "concept": "Cardinality calculation from rows",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "A table records attendance of 6 students for each of 2 days, one row per student per day, with columns Date, RollNumber and Status. What are its degree and cardinality?",
+      "options": {
+        "A": "Degree 6, cardinality 2",
+        "B": "Degree 12, cardinality 3",
+        "C": "Degree 3, cardinality 12",
+        "D": "Degree 3, cardinality 6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Degree is the number of columns (3) and cardinality is the number of tuples (6 x 2 = 12).",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S26-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Teamwork",
+      "concept": "Successful teamwork needs technical and interpersonal skills",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Successful teamwork is said to require which combination?",
+      "options": {
+        "A": "Individual competition and secrecy",
+        "B": "Only technical competence",
+        "C": "Technical competence and interpersonal skills",
+        "D": "Only a strong leader",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Successful teamwork includes both technical competence and interpersonal skills.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S26-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "Tab escape sequence in C++",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which escape sequence represents a horizontal tab in C++?",
+      "options": {
+        "A": "\\n",
+        "B": "\\r",
+        "C": "\\a",
+        "D": "\\t",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "\\t inserts a tab; \\n is a new line, \\r a carriage return and \\a an alert (bell).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Conditions",
+      "concept": "Front greater than Rear indicates empty queue",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In the array implementation of a queue, what does the condition Front > Rear indicate?",
+      "options": {
+        "A": "The queue has exactly one element",
+        "B": "The queue has overflowed",
+        "C": "The queue is empty",
+        "D": "The queue is full",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Front > Rear (also Front < 0 or Front = Null) indicates an empty queue; Front = Rear = 0 indicates a single element.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S26-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Ring topology one-direction data flow",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In which topology is each node connected to exactly two other devices, with data travelling in one direction only?",
+      "options": {
+        "A": "Mesh topology",
+        "B": "Ring topology",
+        "C": "Bus topology",
+        "D": "Star topology",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a ring, each node links to two neighbours forming a loop and data travels in one direction.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Contiguous Memory Allocation",
+      "concept": "Advantage and drawback of contiguous allocation",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which statement about contiguous memory allocation is correct?",
+      "options": {
+        "A": "Access is fast and address translation is easy, but it suffers from external fragmentation",
+        "B": "Access is slow, but it never suffers from any fragmentation",
+        "C": "It divides processes into pages placed anywhere in memory",
+        "D": "It needs a page table, which causes internal fragmentation only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Contiguous allocation gives fast access and easy translation, but free space may be scattered, causing external fragmentation.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Preorder traversal sequence of a six-node tree",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "A binary tree has root A with left child B and right child C. B has left child D and right child E. C has right child F. What is its preorder traversal?",
+      "options": {
+        "A": "D B E A C F",
+        "B": "D E B F C A",
+        "C": "A B C D E F",
+        "D": "A B D E C F",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Preorder is Root, Left, Right: A, then B's subtree (B D E), then C's subtree (C F). The other sequences are inorder, postorder and level order.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "DRAM variants",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following is NOT a type of DRAM?",
+      "options": {
+        "A": "DDR3",
+        "B": "DDR4",
+        "C": "EEPROM",
+        "D": "SDRAM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DRAM types include SDRAM, DDR, DDR2, DDR3, DDR4 and DDR5. EEPROM is a type of ROM.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S26-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Deployment Models",
+      "concept": "Hybrid cloud examples",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Netflix, Hulu, Uber and Airbnb are cited as examples of which cloud deployment model?",
+      "options": {
+        "A": "Community cloud",
+        "B": "Hybrid cloud",
+        "C": "Private cloud",
+        "D": "Public cloud",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Hybrid clouds combine private and public environments; Netflix, Hulu, Uber and Airbnb are the listed examples.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Modem operation at the sender side",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In communication through a modem, what operation is performed at the sender's end?",
+      "options": {
+        "A": "Digital data is modulated into analog signals",
+        "B": "Analog signals are demodulated into digital data",
+        "C": "Domain names are mapped to IP addresses",
+        "D": "Weak signals are regenerated to full strength",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Modem stands for Modulator Demodulator: the sender side modulates digital data into analog signals and the receiver side demodulates them back.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Kleene Star and Kleene Plus",
+      "concept": "String matched by ab* but not by ab+",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which string is generated by the regular expression ab* but NOT by ab+?",
+      "options": {
+        "A": "abb",
+        "B": "abbb",
+        "C": "ab",
+        "D": "a",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Kleene star allows zero repetitions of b, so 'a' matches ab*; Kleene plus needs at least one b.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S26-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Standards",
+      "concept": "W3C maintains web standards",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Web standards, including HTML, are created by which organisation?",
+      "options": {
+        "A": "International Telecommunication Union (ITU)",
+        "B": "Internet Engineering Task Force (IETF)",
+        "C": "World Wide Web Consortium (W3C)",
+        "D": "American National Standards Institute (ANSI)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Web standards are created by the World Wide Web Consortium (W3C).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S26-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Antivirus Detection Methods",
+      "concept": "Limitation of signature-based detection",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Signature-based detection is most likely to fail against malware that:",
+      "options": {
+        "A": "activates only when its host file is executed",
+        "B": "spreads through removable storage devices",
+        "C": "changes its signature or encrypts part of its code",
+        "D": "is already listed in the signature database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Signature-based detection compares code against a database of known byte sequences, so it fails when malware changes its signature or encrypts part of its code.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

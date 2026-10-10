@@ -1,0 +1,681 @@
+{
+  "setId": 8,
+  "title": "Set 8",
+  "questions": [
+    {
+      "id": "S08-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Rasterization and Vectorization",
+      "concept": "Rasterization definition",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Transforming a vector (curve-based) image into a pixel-based image is called:",
+      "options": {
+        "A": "Vectorization",
+        "B": "Rasterization",
+        "C": "Morphing",
+        "D": "Warping",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Rasterization converts a vector image into a raster (pixel-based) image. Vectorization is the reverse process.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Semaphores",
+      "concept": "Wait and Signal operations",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which statement about semaphore operations is correct?",
+      "options": {
+        "A": "Wait (P) increments the semaphore value",
+        "B": "Wait (P) decrements the semaphore value",
+        "C": "Signal (V) decrements the semaphore value",
+        "D": "Signal (V) is the block system call",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Wait (P) decrements the semaphore and acts as a block call. Signal (V) increments it and acts as a wakeup call.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S08-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Flip-Flops",
+      "concept": "Race-around problem eliminated by master-slave J-K flip-flop",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which flip-flop configuration is used to eliminate the race-around problem?",
+      "options": {
+        "A": "D flip-flop",
+        "B": "T flip-flop",
+        "C": "Basic S-R flip-flop",
+        "D": "Master-slave J-K flip-flop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The race-around problem of the J-K flip-flop is eliminated by using the master-slave J-K flip-flop. D flip-flops act as delay switches and T flip-flops as toggle switches.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Alpha testing location",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which type of testing is performed at the developer's end before release to customers?",
+      "options": {
+        "A": "Beta testing",
+        "B": "Alpha testing",
+        "C": "Acceptance testing",
+        "D": "Smoke testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Alpha testing is done at the developer's end, while beta testing is done at the client end or by a group of customers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S08-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Capitalized Python keywords",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which Python keywords are written with an uppercase first letter?",
+      "options": {
+        "A": "True, False, Null",
+        "B": "If, Else, Elif",
+        "C": "True, False, None",
+        "D": "Def, Class, Lambda",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "True, False and None are capitalized, while all other Python keywords are lowercase.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IEEE Standards",
+      "concept": "IEEE 802.5 Token Ring",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "IEEE 802.5 is the standard for:",
+      "options": {
+        "A": "Token Bus",
+        "B": "Token Ring",
+        "C": "Ethernet",
+        "D": "Wireless LAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IEEE 802.5 is Token Ring. Token Bus is 802.4, Ethernet is 802.3 and WLAN (Wi-Fi) is 802.11.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S08-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine",
+      "concept": "Universal Turing machine",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "A Turing machine that is reprogrammable and can simulate other Turing machines is called a:",
+      "options": {
+        "A": "Multi-tape Turing machine",
+        "B": "Universal Turing machine",
+        "C": "Linear bounded automaton",
+        "D": "Pushdown automaton",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Universal Turing machines are reprogrammable and can simulate other Turing machines.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Schema",
+      "concept": "Schema design process is called Data Modeling",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "The process of designing a database schema is also known as:",
+      "options": {
+        "A": "Data Modeling",
+        "B": "Data Mining",
+        "C": "Normalization",
+        "D": "Indexing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Database schema design, which defines tables, fields, data types and relationships, is also known as Data Modeling. DDL is used to create the schema.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S08-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Storage Specifiers",
+      "concept": "Static storage specifier",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which C++ storage specifier is initialized only once, exists till the end of the program and has a default value of 0?",
+      "options": {
+        "A": "register",
+        "B": "mutable",
+        "C": "automatic",
+        "D": "static",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A static variable is initialized only once and lives until the program ends, with default value 0. Automatic is the default for local variables.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Service Models",
+      "concept": "PaaS example identification",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is an example of PaaS (Platform as a Service)?",
+      "options": {
+        "A": "Zoom",
+        "B": "DigitalOcean",
+        "C": "Shopify",
+        "D": "Google App Engine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Google App Engine is a PaaS example that provides app and website hosting space. DigitalOcean is IaaS, while Zoom and Shopify are SaaS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S08-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus",
+      "concept": "First computer virus Creeper",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which program is known as the first computer virus?",
+      "options": {
+        "A": "WannaCry",
+        "B": "CryptoLocker",
+        "C": "Locky",
+        "D": "Creeper",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Creeper is recorded as the first computer virus. WannaCry, CryptoLocker and Locky are examples of ransomware.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S08-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Types",
+      "concept": "Postfix notation form",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "An expression is written in the form 'operand operand operator', for example A B +. Which notation is this?",
+      "options": {
+        "A": "Prefix notation",
+        "B": "Infix notation",
+        "C": "Postfix notation",
+        "D": "Bracketed notation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Postfix notation places the operator after its operands (A B +). Prefix places it before (+ A B), and infix places it between (A + B).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S08-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Checksum and CRC",
+      "concept": "Internet checksum uses one's complement arithmetic",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "The traditional 16-bit Internet checksum is computed using which type of arithmetic?",
+      "options": {
+        "A": "One's complement arithmetic",
+        "B": "Two's complement arithmetic",
+        "C": "BCD arithmetic",
+        "D": "Floating-point arithmetic",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Internet checksum is traditionally 16 bits and uses one's complement arithmetic. It is an error-detection technique, not an error-correction one.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Variants",
+      "concept": "Models equivalent to Turing machine",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following is described as an equivalent model to the Turing machine?",
+      "options": {
+        "A": "Finite automaton",
+        "B": "Pushdown automaton",
+        "C": "Moore machine",
+        "D": "Register machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Multi-tape, multi-track Turing machines and register machines are considered equivalent to Turing machines. Finite and pushdown automata are less powerful.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S08-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Paging",
+      "concept": "Number of pages calculation",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A system has a 27-bit logical address, a 21-bit physical address and a page size of 1K. How many pages does the logical address space have?",
+      "options": {
+        "A": "2^11 = 2048",
+        "B": "2^16 = 65536",
+        "C": "2^27 = 134217728",
+        "D": "2^17 = 131072",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "1K = 2^10, so the offset needs 10 bits. Page number bits = 27 - 10 = 17, giving 2^17 = 131072 pages. 2^11 would be the frame count from the physical address.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Protocols",
+      "concept": "RTSP purpose",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which protocol controls media sessions between client and server, enabling play, pause and fast forward as in Netflix?",
+      "options": {
+        "A": "RTSP",
+        "B": "RTP",
+        "C": "SMTP",
+        "D": "FTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "RTSP (Real-Time Streaming Protocol) controls media sessions such as play and pause. RTP is used for video conferencing and live streaming.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S08-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Interpreters",
+      "concept": "Python interpreter implementations",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is listed as a Python interpreter?",
+      "options": {
+        "A": "PyCharm",
+        "B": "Javac",
+        "C": "IronPython",
+        "D": "PyInstaller",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Python interpreters include CPython, PyPy, Stackless Python, Jython and IronPython.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S08-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AWS Well-Architected Framework",
+      "concept": "Five AWS well-architected cloud pillars",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is NOT one of the five AWS well-architected cloud pillars?",
+      "options": {
+        "A": "Reliability",
+        "B": "Scalability",
+        "C": "Cost Optimization",
+        "D": "Operational Excellence",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The five AWS well-architected pillars are Operational Excellence, Security, Reliability, Performance Efficiency and Cost Optimization. Scalability is not listed as a pillar.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S08-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model Symbols",
+      "concept": "Double ellipses represent multivalued attribute",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In an ER diagram, a multivalued attribute such as phone numbers is represented by:",
+      "options": {
+        "A": "A dashed oval",
+        "B": "A double rectangle",
+        "C": "A diamond",
+        "D": "Double ellipses",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Double ellipses represent a multivalued attribute in an ER diagram. A dashed oval is a derived attribute, a double rectangle is a weak entity and a diamond is a relationship.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S08-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Network Security Threats",
+      "concept": "Eavesdropping vs snooping",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Unauthorized real-time interception or monitoring of private communication, such as line tapping, is called:",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Snooping",
+        "C": "Network intrusion",
+        "D": "Denial of Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Eavesdropping is real-time interception of private communication. Snooping is the secret capture and analysis of network traffic, which may be done later.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Duality Principle",
+      "concept": "Dual of Boolean identity",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Using the duality principle of Boolean algebra, what is the dual of A · 1 = A?",
+      "options": {
+        "A": "A + 1 = A",
+        "B": "A · 0 = 0",
+        "C": "A + 0 = A",
+        "D": "A' + 1 = 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Duality swaps AND with OR and 0 with 1. So A · 1 = A becomes A + 0 = A.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Design Quality",
+      "concept": "Cohesion and coupling goal",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which combination is recommended for good software module design?",
+      "options": {
+        "A": "High cohesion, low coupling",
+        "B": "Low cohesion, high coupling",
+        "C": "High cohesion, high coupling",
+        "D": "Low cohesion, low coupling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Cohesion measures a module's functional strength and should be strong. Coupling measures interdependence between modules and should be low.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S08-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Stack underflow",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Trying to remove an element from an empty stack results in:",
+      "options": {
+        "A": "Underflow",
+        "B": "Overflow",
+        "C": "Push",
+        "D": "Deadlock",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Underflow happens when you try to pop from an empty stack. Overflow happens when you try to push onto a full stack.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S08-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Session Layer",
+      "concept": "Session layer protocols",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following protocols is listed under the OSI Session layer?",
+      "options": {
+        "A": "MIME",
+        "B": "SLIP",
+        "C": "PPTP",
+        "D": "IGMP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Session layer protocols include PPTP, PAP, NetBIOS and ASP. MIME is Presentation, SLIP is Data Link and IGMP is Network layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S08-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Recursion",
+      "concept": "Recursive factorial output",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "What is printed by this C++ code?\nint f(int n) {\n  if (n <= 1) return 1;\n  return n * f(n - 1);\n}\n// in main:\ncout << f(4);",
+      "options": {
+        "A": "10",
+        "B": "6",
+        "C": "24",
+        "D": "120",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "f calls itself until the base condition n <= 1 is reached, so f(4) = 4 * 3 * 2 * 1 = 24.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "D": "Calculation"
+      }
+    }
+  ]
+}

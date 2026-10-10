@@ -1,0 +1,681 @@
+{
+  "setId": 23,
+  "title": "Set 23",
+  "questions": [
+    {
+      "id": "S23-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Ready Queue",
+      "concept": "Ready queue as selection pool when CPU is idle",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "When the CPU becomes idle, from which queue does the operating system select the next process to execute?",
+      "options": {
+        "A": "Blocked queue",
+        "B": "Waiting queue",
+        "C": "Ready queue",
+        "D": "Device queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The CPU scheduler picks the next process from the ready queue, which holds processes waiting to be executed by the CPU.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S23-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Common HTML Tags",
+      "concept": "Link tag for external style sheets",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which HTML tag is used to link an external style sheet to a page?",
+      "options": {
+        "A": "<link>",
+        "B": "<href>",
+        "C": "<meta>",
+        "D": "<a>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The <link> tag connects external resources such as style sheets; <a> creates hyperlinks on the page.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Encoding Schemes",
+      "concept": "ISCII upper region for aksharas",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "ISCII retains all 128 ASCII codes. In which code range are the additional aksharas of Indian languages assigned?",
+      "options": {
+        "A": "256 to 511",
+        "B": "160 to 255",
+        "C": "128 to 255",
+        "D": "0 to 127",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "ISCII keeps codes 0-127 for ASCII and assigns the additional Indian language aksharas in the upper region 160-255.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Types",
+      "concept": "C2G example via tax payment",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "A citizen pays house tax and the electricity bill on a government portal. Which e-commerce type does this represent?",
+      "options": {
+        "A": "C2B",
+        "B": "C2G",
+        "C": "G2C",
+        "D": "B2G",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Consumers paying government bodies (income tax, house tax, electricity payments) is Consumer-to-Government (C2G); G2C is the reverse direction.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Multiplexing",
+      "concept": "Sharing a channel among signals",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "How is a single channel shared by multiple signals in a computer network?",
+      "options": {
+        "A": "Phase modulation",
+        "B": "Multiplexing",
+        "C": "Digital modulation",
+        "D": "Analog modulation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Multiplexing lets multiple signals share one channel; modulation only changes a carrier signal.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Project Based Learning",
+      "concept": "Puzzle project numbered cells",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In the puzzle project, when the player clicks a cell that has no bomb, what does the cell reveal?",
+      "options": {
+        "A": "The time remaining in the game",
+        "B": "The total number of bombs on the board",
+        "C": "A number giving the count of neighbouring bombs",
+        "D": "The score earned so far",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A bomb-free cell reveals a number indicating how many neighbouring cells contain bombs.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S23-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "NFA",
+      "concept": "NFA construction and space compared to DFA",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Compared with a DFA, an NFA is described as:",
+      "options": {
+        "A": "Harder to construct and requiring more space",
+        "B": "Easier to construct but requiring more space",
+        "C": "Easier to construct and requiring less space",
+        "D": "Harder to construct but requiring less space",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NFA requires less space and is easier to construct; DFA requires more space and is more difficult to construct.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S23-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Setting Offsets in a File",
+      "concept": "tell() after reading whole file",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A text file contains exactly 12 ASCII characters and no newline. What does f.tell() return right after f.read() reads the entire file?",
+      "options": {
+        "A": "12",
+        "B": "11",
+        "C": "-1",
+        "D": "0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "tell() gives the byte position from the beginning of the file. After all 12 bytes have been read, the position is 12.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S23-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Gorilla testing also called frustrating testing",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which testing type is also known as Frustrating Testing?",
+      "options": {
+        "A": "Gorilla testing",
+        "B": "Ad-hoc testing",
+        "C": "Acceptance testing",
+        "D": "Sanity testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Gorilla testing, the repetitive manual testing of a module to test its robustness, is also called Frustrating Testing.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S23-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Contiguous Memory Allocation",
+      "concept": "Worst fit chooses largest partition",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which contiguous memory allocation algorithm searches for the largest free partition for a process?",
+      "options": {
+        "A": "Best Fit",
+        "B": "First Fit",
+        "C": "Worst Fit",
+        "D": "Next Fit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Worst Fit picks the largest hole. Best Fit picks the smallest hole that fits, and First Fit picks the first hole large enough.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Aggregate Functions",
+      "concept": "MAX minus MIN calculation",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A column Marks holds the values 45, 72, 38, 90 and 61. What does SELECT MAX(Marks) - MIN(Marks) FROM RESULT; return?",
+      "options": {
+        "A": "29",
+        "B": "306",
+        "C": "45",
+        "D": "52",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MAX returns 90 and MIN returns 38, so the difference is 52. 306 is the SUM of the column.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S23-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Classes and Objects",
+      "concept": "Instance of abstract class cannot be created",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "An instance (object) of which kind of class cannot be created?",
+      "options": {
+        "A": "Nested class",
+        "B": "Parent class",
+        "C": "Abstract class",
+        "D": "Derived class",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An abstract class is meant only to be inherited from, so objects of it cannot be instantiated directly.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S23-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Network Security Threats",
+      "concept": "Network intrusion definition",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Unauthorized activity on a computer network, such as unauthorized use of its resources, is termed:",
+      "options": {
+        "A": "Spooling",
+        "B": "Data mining",
+        "C": "Spamming",
+        "D": "Network intrusion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Network intrusion is any unauthorized activity on a computer network, including unauthorized use of network resources or threats to data.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S23-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Speed",
+      "concept": "Shorter clock cycles mean faster processor",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Processor speed is determined by its clock cycles. A faster processor has:",
+      "options": {
+        "A": "Fewer instructions per second",
+        "B": "Irregular clock cycles",
+        "C": "Shorter clock cycles",
+        "D": "Longer clock cycles",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Shorter clock cycles mean more cycles per second, so the processor is faster.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S23-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "LPWAN Technologies",
+      "concept": "5G IoT average data rate",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What average data rate does 5G IoT offer?",
+      "options": {
+        "A": "20 Gbps",
+        "B": "100+ Mbps",
+        "C": "1 Mbps",
+        "D": "10 Kbps",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "5G IoT gives 100+ Mbps average data rates; 20 Gbps is its peak rate, and 1 Mbps is the reduced throughput of Cat-0.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S23-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Recursion",
+      "concept": "Recursive digit sum",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "What is the output of this C++ code?\n\nint s(int n) {\n    if (n == 0) return 0;\n    return n % 10 + s(n / 10);\n}\n// in main:\ncout << s(1234);",
+      "options": {
+        "A": "10",
+        "B": "4",
+        "C": "24",
+        "D": "4321",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each call adds the last digit and recurses on the rest: 4 + 3 + 2 + 1 + 0 = 10. The base condition n == 0 stops the recursion.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Bus topology bidirectional data flow",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "How is data passed along the shared medium in a bus topology?",
+      "options": {
+        "A": "Only through a central hub to the destination",
+        "B": "In both directions, and any node on the bus can receive it",
+        "C": "Over a dedicated link between every pair of nodes",
+        "D": "In one direction only around a closed loop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In bus topology, data travels along the bus in both directions and every connected node can receive it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Flash Memory",
+      "concept": "Flash memory later form of EEPROM",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Flash memory, which can be erased electrically, is a later form of which memory?",
+      "options": {
+        "A": "Mask ROM",
+        "B": "PROM",
+        "C": "EPROM",
+        "D": "EEPROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Flash memory evolved from EEPROM and, like it, is erased electrically. EPROM uses UV rays.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Deque Applications",
+      "concept": "Comparisons in deque palindrome check of RADAR",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A deque based palindrome check removes one character from the front and one from the rear and compares them, repeating while more than one character remains. How many such comparisons are made for the string RADAR?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Pairs compared are R/R and A/A; only D remains, so the loop stops after 2 comparisons.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S23-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Reading from a Text File",
+      "concept": "Successive read(n) calls continue from current position",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "A text file contains exactly Hello World. What is printed by the following code?\nf = open('a.txt', 'r')\nf.read(3)\nprint(f.read(4))\nf.close()",
+      "options": {
+        "A": "lo W",
+        "B": "Hell",
+        "C": "Hel",
+        "D": "lo Wo",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The first read(3) consumes 'Hel' and moves the file position to 3. The next read(4) returns the following four characters, 'lo W'.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Question Misread",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S23-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Primary Machines in TOC",
+      "concept": "Increasing order of power of the four primary machines",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which sequence lists the four primary machines of TOC in increasing order of computational power?",
+      "options": {
+        "A": "Finite automata, linear bounded automata, pushdown automata, Turing machine",
+        "B": "Finite automata, pushdown automata, linear bounded automata, Turing machine",
+        "C": "Finite automata, pushdown automata, Turing machine, linear bounded automata",
+        "D": "Pushdown automata, finite automata, linear bounded automata, Turing machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "FA recognize regular languages, PDA context-free, LBA context-sensitive and the Turing machine is the most powerful, matching Types 3, 2, 1 and 0.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Antivirus Detection Methods",
+      "concept": "Data mining technique uses machine learning",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which antivirus identification method uses machine learning to classify the behaviour of a file as benign or malicious?",
+      "options": {
+        "A": "Heuristics",
+        "B": "Sandbox detection",
+        "C": "Signature-based detection",
+        "D": "Data mining techniques",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Data mining techniques classify file behaviour as benign or malicious using machine learning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "MQTT Protocol",
+      "concept": "Three roles in MQTT",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which set correctly lists the roles in MQTT communication?",
+      "options": {
+        "A": "Publisher, Subscriber, Broker",
+        "B": "Producer, Consumer, Gateway",
+        "C": "Client, Server, Proxy",
+        "D": "Sender, Receiver, Router",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MQTT works with a Publisher, a Subscriber and a Broker.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S23-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Primitive Data Structures",
+      "concept": "Pointer stores memory address",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which primitive data structure holds the memory address of another variable?",
+      "options": {
+        "A": "Boolean",
+        "B": "Character",
+        "C": "Double",
+        "D": "Pointer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A pointer contains the memory address of data and is used with arrays and strings for efficient access.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S23-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "HAVING Clause",
+      "concept": "Valid query filtering groups by aggregate",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "An EMPLOYEE table has columns EmpID and Dept. Which query correctly lists departments having more than 5 employees?",
+      "options": {
+        "A": "SELECT Dept FROM EMPLOYEE GROUP BY Dept WHERE COUNT(*) > 5;",
+        "B": "SELECT Dept FROM EMPLOYEE WHERE COUNT(*) > 5 GROUP BY Dept;",
+        "C": "SELECT Dept FROM EMPLOYEE HAVING COUNT(*) > 5 ORDER BY Dept;",
+        "D": "SELECT Dept FROM EMPLOYEE GROUP BY Dept HAVING COUNT(*) > 5;",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "WHERE cannot be used with aggregate functions and HAVING needs GROUP BY, so the condition on COUNT(*) belongs in HAVING after GROUP BY.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

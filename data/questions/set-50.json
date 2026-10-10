@@ -1,0 +1,681 @@
+{
+  "setId": 50,
+  "title": "Set 50",
+  "questions": [
+    {
+      "id": "S50-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Function Overloading",
+      "concept": "Overload resolution for int and double arguments",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "What is the output of this C++ code?\n\nint f(int a) { return a * 2; }\ndouble f(double a) { return a / 2; }\n// in main:\ncout << f(5) + f(5.0);",
+      "options": {
+        "A": "5",
+        "B": "20",
+        "C": "12",
+        "D": "12.5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "f(5) matches the int version and returns 10; f(5.0) matches the double version and returns 2.5. The sum is 12.5.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S50-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "SSL and TLS placement in OSI list",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "In the OSI layer-wise protocol list of the syllabus, SSL and TLS are placed under which layer?",
+      "options": {
+        "A": "Transport layer",
+        "B": "Session layer",
+        "C": "Application layer",
+        "D": "Presentation layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The syllabus lists TCP, UDP, SSL and TLS as Transport layer protocols, even though Presentation handles encryption.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "No pre-emption condition",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which deadlock condition states that a resource cannot be forcefully taken from a process and can only be released voluntarily by it?",
+      "options": {
+        "A": "No Pre-emption",
+        "B": "Mutual Exclusion",
+        "C": "Hold and Wait",
+        "D": "Circular Wait",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "No Pre-emption means no process can forcibly take another process's resources; release happens only voluntarily.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Language Types",
+      "concept": "Set of commands that are all DDL",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which set consists only of DDL commands?",
+      "options": {
+        "A": "ALTER, DROP, UPDATE, TRUNCATE",
+        "B": "CREATE, ALTER, DROP, TRUNCATE",
+        "C": "CREATE, ALTER, INSERT, DROP",
+        "D": "CREATE, GRANT, DROP, TRUNCATE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DDL commands are CREATE, ALTER, DROP and TRUNCATE; INSERT and UPDATE are DML and GRANT is DCL.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Network Security Threats",
+      "concept": "Why DDoS is harder to counter than DoS",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Why is a DDoS attack harder to counter than a simple DoS attack?",
+      "options": {
+        "A": "It intercepts private conversations in real time",
+        "B": "It encrypts the victim's data and demands a ransom",
+        "C": "Its requests come from many compromised systems spread over a wide area",
+        "D": "It needs physical access to the target server",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In DDoS the illegitimate requests originate from many distributed compromised systems (often a botnet), so blocking a single source does not stop it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Segments",
+      "concept": "Why digital products suit B2C",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Why are digital products (such as e-books or software) considered best suited to B2C e-commerce?",
+      "options": {
+        "A": "They can be sold only through government tenders",
+        "B": "They avoid the need for any payment gateway",
+        "C": "They require a physical warehouse close to every buyer",
+        "D": "They can be delivered to the consumer at the time of purchase",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Digital products are best suited to B2C because they can be delivered instantly at the time of purchase.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Pumping Lemma",
+      "concept": "Language classes having pumping lemmas",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "The two pumping lemmas are stated for which pair of language classes?",
+      "options": {
+        "A": "Context-sensitive and recursively enumerable languages",
+        "B": "Regular and context-free languages",
+        "C": "Regular and recursively enumerable languages",
+        "D": "Context-free and context-sensitive languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "There are two pumping lemmas, one for regular languages and one for context-free languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Search Engine Marketing",
+      "concept": "SERP full form",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In digital marketing, SERP stands for:",
+      "options": {
+        "A": "Search Engine Ranking Protocol",
+        "B": "Site Engagement Rate Percentage",
+        "C": "Secure Electronic Retail Payment",
+        "D": "Search Engine Results Page",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SERP is the Search Engine Results Page, where rankings improved by SEO appear.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Queue removal order for A, B, C, D",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "The elements A, B, C and D are inserted into a queue in that order and then deleted one at a time. In what order are they removed?",
+      "options": {
+        "A": "BADC",
+        "B": "ADCB",
+        "C": "ABCD",
+        "D": "DCBA",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A queue is FIFO, so elements leave in the order they entered: ABCD. DCBA would be the stack (LIFO) order.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Process Models",
+      "concept": "V-model emphasises testing",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which software process model is particularly known for its emphasis on testing, pairing each development stage with a corresponding test activity?",
+      "options": {
+        "A": "RAD model",
+        "B": "Spiral model",
+        "C": "V-model",
+        "D": "Build and Fix model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The V-model emphasises testing; it is the model highlighted in the syllabus for this characteristic.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Virtualization",
+      "concept": "Resource pooling called virtualization",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Sharing and pooling of resources in cloud computing, which forms its backbone, is called:",
+      "options": {
+        "A": "Prototyping",
+        "B": "Thin clienting",
+        "C": "Data mining",
+        "D": "Virtualization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Virtualization creates virtual versions of servers, storage, networks and operating systems and is the backbone of cloud computing.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "The assert Statement",
+      "concept": "assert with false expression stops execution",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What happens when the following code runs?\ndef check(n):\n    assert n >= 0, 'Negative'\n    print('OK')\ncheck(-5)",
+      "options": {
+        "A": "It prints 'Negative' and then 'OK'",
+        "B": "AssertionError is raised with the message 'Negative' and 'OK' is not printed",
+        "C": "ValueError is raised because -5 is negative",
+        "D": "It prints 'OK' and then raises AssertionError",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "When the asserted expression is False, AssertionError is raised with the given message, and the statements after it in the block are not executed.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Kruskal's Algorithm",
+      "concept": "Kruskal starts with least weighted edge",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which statement correctly describes how Kruskal's algorithm begins?",
+      "options": {
+        "A": "It starts with the least weighted edge in the whole graph",
+        "B": "It starts from the heaviest edge and removes edges",
+        "C": "It starts from an arbitrary vertex and grows from it",
+        "D": "It starts from the vertex with the highest degree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Kruskal chooses the minimum weight edge from all edges, starting with the least weighted edge. Starting from any vertex is Prim's approach.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Maintenance gives long life to the system",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which SDLC phase is credited with giving a long life to a newly developed system through enhancements, upgrades and bug fixes?",
+      "options": {
+        "A": "Design",
+        "B": "Maintenance",
+        "C": "Feasibility study",
+        "D": "Coding",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Maintenance (with evaluation) is where enhancements, upgrades and bug fixes are done, giving the system a long life.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning Types",
+      "concept": "Objective of supervised learning",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the main objective of supervised machine learning?",
+      "options": {
+        "A": "To learn only through hit-and-trial feedback",
+        "B": "To map an input variable (x) to an output variable (y)",
+        "C": "To store facts and rules in a knowledge base",
+        "D": "To discover hidden groupings without any supervision",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Supervised learning trains on known data to map input x to output y. Hidden groupings is unsupervised and hit-and-trial feedback is reinforcement learning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Attribute Types",
+      "concept": "Key attribute shown as underlined text",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "How is a key attribute, which represents the primary key, shown in an ER diagram?",
+      "options": {
+        "A": "As a diamond",
+        "B": "As a dashed oval",
+        "C": "As a double ellipse",
+        "D": "As underlined text in an oval",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A key attribute is shown with its name underlined; a dashed oval is a derived attribute and a double ellipse is multivalued.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Schedulers",
+      "concept": "Long-term scheduler loads processes for multiprogramming",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which scheduler brings processes from the hard disk into RAM to support multiprogramming?",
+      "options": {
+        "A": "Long-term scheduler",
+        "B": "Medium-term scheduler",
+        "C": "Short-term scheduler",
+        "D": "Dispatcher",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The long-term scheduler admits processes from disk into RAM. The medium-term scheduler swaps processes in and out, and the short-term scheduler selects a ready process for the CPU.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search Tree",
+      "concept": "BST placement of inserted keys",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Keys 50, 30, 70, 20, 40 are inserted in that order into an empty binary search tree (left value less than parent, right value greater). What is the right child of 30?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "20",
+        "D": "70",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "50 is the root, 30 goes left, 70 right; 20 < 30 goes left of 30, and 40 (less than 50, greater than 30) becomes the right child of 30.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ASCII",
+      "concept": "Two types of ASCII",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "The two types of ASCII are:",
+      "options": {
+        "A": "ASCII-4 and ASCII-16",
+        "B": "ASCII-4 and ASCII-8",
+        "C": "ASCII-7 and ASCII-8",
+        "D": "ASCII-8 and ASCII-16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ASCII-7 represents 128 characters and ASCII-8 represents 256 characters.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S50-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Opening a File using with",
+      "concept": "with clause closes file automatically",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What is the main advantage of opening a file using with open('f.txt', 'r') as f:?",
+      "options": {
+        "A": "The file cannot be read inside the block",
+        "B": "The file is closed automatically when the block ends",
+        "C": "The file contents are pickled automatically",
+        "D": "The file is opened in binary mode automatically",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "With the with clause, the file is closed automatically when control leaves the block, so close() does not have to be called.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Cache Mapping",
+      "concept": "Direct mapping fixed cache location",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In which cache mapping technique is data picked from RAM placed at a fixed place in the cache?",
+      "options": {
+        "A": "Set-associative mapping",
+        "B": "Associative mapping",
+        "C": "Direct mapping",
+        "D": "Demand paging",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Direct mapping places each block at a fixed cache position; associative mapping can place it anywhere.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q22",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Computability",
+      "concept": "Basic operations a Turing machine can perform",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following are listed as basic operations that a Turing machine can perform? Select all that apply.",
+      "options": {
+        "A": "Accept palindromes",
+        "B": "Delete symbols",
+        "C": "Solve the halting problem",
+        "D": "Copy strings",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "Turing machines can copy strings, delete symbols and accept palindromes, but the halting problem is unsolvable by any TM.",
+      "distractorMistakeType": {
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S50-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Features",
+      "concept": "Automatic garbage collection not supported in C++",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which of the following is NOT supported in C++?",
+      "options": {
+        "A": "Smart pointers",
+        "B": "Virtual destructors",
+        "C": "Multiple inheritance",
+        "D": "Automatic garbage collection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "C++ supports multiple inheritance, smart pointers and virtual destructors, but it has no automatic garbage collection; memory from new must be released with delete.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S50-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Antivirus Detection Methods",
+      "concept": "Real-time protection monitors active memory",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which antivirus method monitors the behaviour of an application while it is running in active memory?",
+      "options": {
+        "A": "Signature-based detection",
+        "B": "Data mining techniques",
+        "C": "Real-time protection",
+        "D": "Sandbox detection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Real-time protection monitors suspicious activity while an application is running in active memory; sandbox detection runs files in a virtual environment instead.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S50-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IEEE Standards",
+      "concept": "Correct IEEE standard pairing",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which IEEE standard and technology pair is correctly matched?",
+      "options": {
+        "A": "IEEE 802.15.1 - Bluetooth",
+        "B": "IEEE 802.11 - Ethernet",
+        "C": "IEEE 802.6 - PAN",
+        "D": "IEEE 802.3 - WLAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "802.15.1 is Bluetooth; 802.11 is WLAN, 802.3 Ethernet, 802.6 MAN and 802.15 PAN.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

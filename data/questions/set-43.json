@@ -1,0 +1,681 @@
+{
+  "setId": 43,
+  "title": "Set 43",
+  "questions": [
+    {
+      "id": "S43-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search",
+      "concept": "Binary search iterations for key 41",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Binary search with mid = (first + last) // 2 is applied to [2, 3, 5, 7, 10, 11, 12, 17, 19, 23, 29, 31, 37, 41, 43] to find key 41. How many iterations are needed?",
+      "options": {
+        "A": "14",
+        "B": "3",
+        "C": "4",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "mid = 7 (17 < 41), then first = 8, mid = 11 (31 < 41), then first = 12, mid = 13 holds 41. The key is found in 3 iterations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S43-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Keywords",
+      "concept": "Number of Java keywords",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "As per the syllabus, how many keywords are there in the latest Java versions?",
+      "options": {
+        "A": "45",
+        "B": "95",
+        "C": "32",
+        "D": "67",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Latest Java versions have 67 keywords. 95 is the C++ keyword count, 32 is the C keyword count and 45 is the number of C++ operators.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Paging Address Calculation",
+      "concept": "Pages and frames for 13-bit logical and 12-bit physical address",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A system has a 13-bit logical address, a 12-bit physical address and a page size of 1 KB. How many pages and frames are there?",
+      "options": {
+        "A": "13 pages and 12 frames",
+        "B": "1024 pages and 1024 frames",
+        "C": "4 pages and 8 frames",
+        "D": "8 pages and 4 frames",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Offset d = 10 bits for 1 KB. Page bits = 13 - 10 = 3, so 8 pages; frame bits = 12 - 10 = 2, so 4 frames.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S43-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Antivirus Detection Methods",
+      "concept": "Heuristics vs signature-based detection",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "An antivirus flags a new program because its source code resembles patterns of known viruses, even though no exact byte sequence matches any stored signature. Which method did it use?",
+      "options": {
+        "A": "Signature-based detection",
+        "B": "Sandbox detection",
+        "C": "Heuristics",
+        "D": "Real-time protection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Heuristics compares source code against known virus patterns; signature-based detection needs an exact consecutive byte sequence match.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "LPWAN Technologies",
+      "concept": "NB-IoT also called Cat-M2",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which LPWAN technology, also called Cat-M2, stands for NarrowBand Internet of Things?",
+      "options": {
+        "A": "NB-IoT",
+        "B": "LoRaWAN",
+        "C": "Sigfox",
+        "D": "Cat-0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NB-IoT (NarrowBand IoT) is also referred to as Cat-M2.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Loops in C++",
+      "concept": "while loop trace with multiplication",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the output of this C++ code?\n\nint i = 1, c = 0;\nwhile (i < 20) {\n    i *= 3;\n    c++;\n}\ncout << c << \" \" << i;",
+      "options": {
+        "A": "3 27",
+        "B": "4 81",
+        "C": "3 9",
+        "D": "2 9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "i goes 1 -> 3 -> 9 -> 27 with c incremented each time. After i becomes 27 the condition 27 < 20 fails, so c = 3 and i = 27.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S43-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Round Robin Scheduling",
+      "concept": "Round robin completion order with quantum 2",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "P1, P2 and P3 arrive at time 0 in that order with CPU bursts of 5, 3 and 1 ms. With Round Robin and a time quantum of 2 ms, in what order do the processes complete?",
+      "options": {
+        "A": "P3, P2, P1",
+        "B": "P3, P1, P2",
+        "C": "P2, P3, P1",
+        "D": "P1, P2, P3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Timeline: P1 0-2, P2 2-4, P3 4-5 (done), P1 5-7, P2 7-8 (done), P1 8-9 (done). So P3 finishes at 5, P2 at 8 and P1 at 9.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Output Devices",
+      "concept": "3D printer builds physical replicas",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which output device is used to build physical replicas of digital 3D designs, for example prototypes in manufacturing and medicine?",
+      "options": {
+        "A": "Projector",
+        "B": "3D printer",
+        "C": "Dot matrix printer",
+        "D": "Braille display monitor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "3D printers build physical replicas of digital 3D designs. A braille display helps visually challenged users read text output.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "HAVING Clause",
+      "concept": "Tracing GROUP BY with HAVING on attendance",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "ATTENDANCE has two days of records for roll numbers 1 to 6. Absences ('A'): roll 3 and 5 on day 1, roll 3 and 4 on day 2; all other entries are 'P'. Which roll numbers does this query return? SELECT RollNumber FROM ATTENDANCE WHERE AttendanceStatus = 'P' GROUP BY RollNumber HAVING COUNT(*) = 2;",
+      "options": {
+        "A": "4 and 5",
+        "B": "1, 2 and 6",
+        "C": "3 only",
+        "D": "1, 2, 4, 5 and 6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Only students present on both days have a count of 2 among 'P' rows: rolls 1, 2 and 6. Rolls 4 and 5 have a count of 1 and roll 3 has none.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S43-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Applications of Python",
+      "concept": "Python application areas",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following is a common application area of Python?",
+      "options": {
+        "A": "Writing BIOS firmware in binary",
+        "B": "Data analysis and machine learning",
+        "C": "Designing CPU microarchitecture in hardware",
+        "D": "Manufacturing integrated circuits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python is used for websites, software, task automation, data analysis, visualization, AI, machine learning and game development.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning Types",
+      "concept": "Reinforcement learning maze robot scenario",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "A robot learns to navigate a maze by receiving rewards for correct moves and penalties for collisions. Which type of machine learning is this?",
+      "options": {
+        "A": "Unsupervised learning",
+        "B": "Supervised learning",
+        "C": "Data mining",
+        "D": "Reinforcement learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Reinforcement learning uses rewards and penalties; robot navigation and game AI are its typical applications.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S43-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Types",
+      "concept": "C2B example",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "A freelancer designs a logo and sells it to a company through a crowdsourcing website. This is an example of:",
+      "options": {
+        "A": "C2C",
+        "B": "B2C",
+        "C": "C2B",
+        "D": "B2G",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "When an individual provides a product or service to a business (logo design, freelance work, crowdsourcing), it is Consumer-to-Business.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pillars of OOPS",
+      "concept": "Data hiding definition",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Protecting the data within a class from unwanted access is called:",
+      "options": {
+        "A": "Data hiding",
+        "B": "Data abstraction",
+        "C": "Instantiation",
+        "D": "Polymorphism",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Data hiding protects class data from unwanted access, while data abstraction means displaying only essential information.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Types",
+      "concept": "WAN characteristics",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which network type covers countries, uses routers and requires a firewall, with the Internet as its largest example?",
+      "options": {
+        "A": "CAN",
+        "B": "WAN",
+        "C": "LAN",
+        "D": "MAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "WAN is a telecommunication network spanning countries; the Internet is the largest WAN.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Heap",
+      "concept": "Root of max heap",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "In a Max Heap, the root node always contains:",
+      "options": {
+        "A": "The minimum element",
+        "B": "The most recently inserted element",
+        "C": "The median element",
+        "D": "The maximum element",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a Max Heap the root is always the maximum element; in a Min Heap it is the minimum.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S43-Q16",
+      "type": "multiple",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Types of Web Development",
+      "concept": "Front-end language identification",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following are listed as front-end web development languages or frameworks? Select all that apply.",
+      "options": {
+        "A": "Golang",
+        "B": "React",
+        "C": "PHP",
+        "D": "Angular",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "React and Angular (along with HTML, CSS, JavaScript and Swift) are front-end technologies; PHP and Golang are back-end languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Architecture",
+      "concept": "Unbounded tape versus finite state set",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which of the following in a Turing machine is unbounded rather than finite?",
+      "options": {
+        "A": "The set of states",
+        "B": "The tape alphabet",
+        "C": "The tape",
+        "D": "The set of final states",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A TM is a finite-state controller with an unbounded tape; the state set and tape symbol set are finite.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys and Constraints",
+      "concept": "Composite primary key of ATTENDANCE table",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "An ATTENDANCE table stores (AttendanceDate, RollNumber, AttendanceStatus), with one row per student per day. Which choice of primary key uniquely identifies every row?",
+      "options": {
+        "A": "AttendanceDate alone",
+        "B": "RollNumber alone",
+        "C": "AttendanceDate and RollNumber together",
+        "D": "AttendanceStatus and RollNumber together",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A roll number repeats every day and a date repeats for every student, so only the composite key (AttendanceDate, RollNumber) is unique; status values also repeat.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S43-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Flip-Flops",
+      "concept": "Inverter on SR inputs gives D flip-flop",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "When an inverter is added to an S-R flip-flop so that its two inputs are always complements of each other, the result is a:",
+      "options": {
+        "A": "D flip-flop",
+        "B": "Master-slave flip-flop",
+        "C": "J-K flip-flop",
+        "D": "T flip-flop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Adding an inverter so S and R are always complementary removes the invalid state and yields a D flip-flop.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Concepts",
+      "concept": "Authentication vs authorization",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Verifying the identity of a user is called ____, while granting access rights to that user is called ____.",
+      "options": {
+        "A": "authorization; encryption",
+        "B": "encryption; decryption",
+        "C": "authentication; authorization",
+        "D": "authorization; authentication",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Authentication verifies identity and authorization grants access rights.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S43-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "DFA vs NFA",
+      "concept": "Backtracking allowed in DFA",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "As per the syllabus, which finite automaton allows backtracking?",
+      "options": {
+        "A": "DFA",
+        "B": "Pushdown automata",
+        "C": "Epsilon-NFA",
+        "D": "NFA",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The syllabus lists 'allows backtracking' as a DFA characteristic and 'does not allow backtracking' for NFA.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Gateway as single entry and exit point",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Which statement about a gateway in an organisation's network is correct?",
+      "options": {
+        "A": "It can be implemented only as a hardware device",
+        "B": "It is an eight-pin connector at the end of a network cable",
+        "C": "It is an analog device that regenerates weak signals",
+        "D": "All data entering or leaving the network passes through it",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A gateway is the key access point between the organisation's network and the Internet; it can be software, hardware or both.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Engineering Fundamentals",
+      "concept": "Software engineering as application of engineering principles",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Software engineering is best described as:",
+      "options": {
+        "A": "The writing of code without planning",
+        "B": "The repair of computer hardware components",
+        "C": "The study of electrical circuits used in computers",
+        "D": "The systematic application of engineering principles to software development",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Software engineering is the systematic application of engineering principles to the design, development, testing and maintenance of software.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S43-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Scalar Functions",
+      "concept": "NOW returns current date and time",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which SQL scalar function returns the current system date and time?",
+      "options": {
+        "A": "LAST()",
+        "B": "ROUND()",
+        "C": "NOW()",
+        "D": "FORMAT()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NOW() returns the current date and time; FORMAT() formats display, ROUND() rounds numbers and LAST() is an aggregate.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S43-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Repetition",
+      "concept": "Combined continue and break trace",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What is the output of the following code?\nfor i in range(1, 6):\n    if i == 3:\n        continue\n    if i == 5:\n        break\n    print(i, end='')",
+      "options": {
+        "A": "12",
+        "B": "124",
+        "C": "1234",
+        "D": "1245",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "continue skips printing 3, and break ends the loop when i is 5 before printing, so 1, 2 and 4 are printed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

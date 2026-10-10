@@ -1,0 +1,681 @@
+{
+  "setId": 47,
+  "title": "Set 47",
+  "questions": [
+    {
+      "id": "S47-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Tables",
+      "concept": "Default table border value",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "When the BORDER attribute is used on an HTML table, what is its default value?",
+      "options": {
+        "A": "2 pixels",
+        "B": "16 pixels",
+        "C": "1 pixel",
+        "D": "0 pixels",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The default value of the BORDER attribute is 1 pixel; 16 px is the default font size.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S47-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Back-end",
+      "concept": "Other names of cloud back-end platforms",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "The back-end platforms (servers and storage) that form the core of cloud computing are also called:",
+      "options": {
+        "A": "Thin Client or Thick Client",
+        "B": "Intranet or Intercloud",
+        "C": "Hypervisor or Virtual Machine",
+        "D": "Cloud Computing Engine or Storage Area Network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Back-end platforms are also called the Cloud Computing Engine or SAN. Thin and thick clients are front end, and Internet/Intranet/Intercloud form the network.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S47-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Evolution of Networking",
+      "concept": "Chronological order of networking milestones",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Arrange in chronological order: (i) Domain Name System introduced (ii) the term Internet coined (iii) TCP/IP made the standard protocol on ARPANET (iv) NSFNET expanded connectivity.",
+      "options": {
+        "A": "iii, ii, i, iv",
+        "B": "ii, i, iii, iv",
+        "C": "ii, iii, iv, i",
+        "D": "ii, iii, i, iv",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Internet term 1974, TCP/IP standard 1982, DNS 1983, NSFNET 1986.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S47-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "DFS uses stack data structure",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Depth First Search (DFS) tree traversal uses which data structure?",
+      "options": {
+        "A": "Heap",
+        "B": "Hash table",
+        "C": "Queue",
+        "D": "Stack",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DFS uses a stack (or recursion); BFS, also called level order traversal, uses a queue.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Semaphores",
+      "concept": "Counting semaphore value after wait and signal operations",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A counting semaphore is initialized to 5. Processes then perform 8 Wait (P) operations followed by 4 Signal (V) operations. What is the final value of the semaphore?",
+      "options": {
+        "A": "1",
+        "B": "17",
+        "C": "-3",
+        "D": "9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each Wait decrements and each Signal increments: 5 - 8 + 4 = 1. -3 is the value after the waits only.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Manipulation",
+      "concept": "Warping definition",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "The distortion of one static image to produce another, by digitally manipulating the image without animating a transition, is called:",
+      "options": {
+        "A": "Warping",
+        "B": "Rasterization",
+        "C": "Vectorization",
+        "D": "Morphing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Warping distorts a static image; morphing is an animation that gradually changes one image into another.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Tables",
+      "concept": "Degree change after adding a column",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "The GUARDIAN table has attributes GUID, GName, GPhone and GAddress and holds 5 rows. After ALTER TABLE GUARDIAN ADD income INT; what is the degree of the relation?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "10",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Degree is the number of columns: 4 original attributes plus income gives 5. The number of rows does not affect degree.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Ransomware",
+      "concept": "WannaCry 2017 scale of infection",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which ransomware attack of 2017 infected almost 200,000 computers across about 150 countries?",
+      "options": {
+        "A": "Morris Worm",
+        "B": "WannaCry",
+        "C": "ILOVEYOU",
+        "D": "Creeper",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "WannaCry ransomware infected almost 200,000 computers across 150 countries in 2017.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S47-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "TLB and Cache Mapping",
+      "concept": "TLB follows locality of reference",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which statement about the Translation Lookaside Buffer (TLB) is correct?",
+      "options": {
+        "A": "It is the same as the segment table",
+        "B": "It is a part of secondary memory used for swapping",
+        "C": "It uses cache memory and follows locality of reference",
+        "D": "It is larger and slower than main memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The TLB uses cache memory, which is faster and smaller than main memory, and relies on locality of reference.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S47-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Features of Python",
+      "concept": "Python is case-sensitive",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "What is the output of the following code?\nnum = 5\nNum = 10\nprint(num)",
+      "options": {
+        "A": "15",
+        "B": "10",
+        "C": "NameError",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Python is case-sensitive, so num and Num are two different variables; num still holds 5.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S47-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Exception Handling",
+      "concept": "Divide by zero is an exception",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which of the following is an example of an exception in C++?",
+      "options": {
+        "A": "Division of a number by zero at run time",
+        "B": "Using a variable that was never declared",
+        "C": "A missing semicolon at the end of a statement",
+        "D": "An expression written with wrong syntax",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Divide by zero is a problem that arises during execution, which makes it an exception. The other three are compile-time (syntax) problems.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Token-based ring with FDDI",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which topology is described as token-based and associated with FDDI?",
+      "options": {
+        "A": "Tree",
+        "B": "Bus",
+        "C": "Ring",
+        "D": "Star",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The syllabus lists ring topology as token-based, FDDI, LAN.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Types",
+      "concept": "Circular queue also called ring buffer",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A circular queue, in which the last element is connected to the first, is also called a:",
+      "options": {
+        "A": "Ring buffer",
+        "B": "Linear queue",
+        "C": "Simple queue",
+        "D": "Priority queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Circular queue is also known as Ring Buffer; linear queue and simple queue are names of the same non-circular type.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Robotics",
+      "concept": "Disciplines combined in robotics",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Robotics is an interdisciplinary branch of technology. Which combination of fields does it mainly require?",
+      "options": {
+        "A": "Mechanical engineering, biology and economics",
+        "B": "Civil engineering, chemistry and computer science",
+        "C": "Mechanical engineering, electronics and computer science",
+        "D": "Electronics, linguistics and statistics",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Robotics requires applications of mechanical engineering, electronics and computer science.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S47-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Number System Complements",
+      "concept": "Radix complement equals diminished radix complement plus one",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which general statement about number system complements is correct?",
+      "options": {
+        "A": "The (r-1)'s complement equals the r's complement plus 1, for example 15's = 16's + 1",
+        "B": "The 2's complement is found by flipping every bit of the 1's complement",
+        "C": "The r's complement equals the (r-1)'s complement plus 1, for example 16's = 15's + 1",
+        "D": "The 9's complement of an n-digit decimal number N equals 10^n - N",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "2's = 1's + 1, 10's = 9's + 1 and 16's = 15's + 1. The 9's complement is (10^n - 1) - N, and flipping the 1's complement just gives back the original number.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL History",
+      "concept": "First commercial distribution of SQL",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which company was the first to commercially distribute SQL?",
+      "options": {
+        "A": "IBM",
+        "B": "Sybase",
+        "C": "Microsoft",
+        "D": "Oracle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Although SQL was developed at IBM, it was first commercially distributed by Oracle.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Tuples",
+      "concept": "Comma-separated values without parentheses form a tuple",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\nseq = 1, 2, 3\nprint(type(seq))",
+      "options": {
+        "A": "<class 'int'>",
+        "B": "<class 'tuple'>",
+        "C": "<class 'set'>",
+        "D": "<class 'list'>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A comma-separated sequence without parentheses is treated as a tuple by default.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Myhill-Nerode Theorem",
+      "concept": "Necessary and sufficient regularity condition versus pumping lemma",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Unlike the pumping lemma, which result gives both necessary and sufficient conditions for a language to be regular?",
+      "options": {
+        "A": "Myhill-Nerode theorem",
+        "B": "Church-Turing thesis",
+        "C": "Chomsky hierarchy",
+        "D": "Halting problem theorem",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Myhill-Nerode theorem gives necessary and sufficient conditions for regularity, while the pumping lemma is used to show languages are not regular.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Virtual Memory",
+      "concept": "Virtual memory implementation",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which statement about virtual memory is correct?",
+      "options": {
+        "A": "It is a physically larger RAM chip added to the motherboard",
+        "B": "It is a temporary area in RAM for data moving between devices",
+        "C": "It uses secondary memory space with swap-in and swap-out, implemented via demand paging",
+        "D": "It is a high-speed SRAM area between CPU and RAM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Virtual memory gives the illusion of larger RAM by using secondary storage and swapping, via demand paging. SRAM between CPU and RAM is cache; the RAM transfer area is buffer memory.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine Architecture",
+      "concept": "Transition function describes state movement and symbol changes",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which element of a Turing machine describes state-to-state movement and the changes made to tape symbols?",
+      "options": {
+        "A": "Input alphabet",
+        "B": "Initial state",
+        "C": "Blank symbol",
+        "D": "Transition function",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The transition function (delta) defines how the machine moves between states and changes symbols.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S47-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Phases",
+      "concept": "Requirements analysis as most important SDLC phase",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "As per the syllabus, which phase of the SDLC is regarded as the most important, since errors made here propagate to every later phase?",
+      "options": {
+        "A": "Testing",
+        "B": "Requirements analysis",
+        "C": "Deployment",
+        "D": "Coding",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Requirements analysis is treated as the most important phase of the SDLC; mistakes in requirements affect design, coding and testing.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S47-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cybercrime",
+      "concept": "Cyber stalking definition",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Harassing or stalking a person through online means is called:",
+      "options": {
+        "A": "Plagiarism",
+        "B": "Cyber stalking",
+        "C": "Skimming",
+        "D": "Cyber laundering",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Cyber stalking is harassment or stalking carried out online.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "Alternate name of application layer",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "The OSI Application layer is also called the:",
+      "options": {
+        "A": "End-to-end layer",
+        "B": "Desktop layer",
+        "C": "Bit layer",
+        "D": "Internet layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Application layer is also called the Desktop layer; the Transport layer is called the end-to-end layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S47-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search",
+      "concept": "First mid index for even-length list",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Binary search is applied to a sorted list of 10 elements (indices 0 to 9). Using floor division, which index is examined first?",
+      "options": {
+        "A": "4",
+        "B": "4.5",
+        "C": "9",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "mid = (0 + 9) // 2 = 4; floor division discards the fractional part.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S47-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Exception Handling",
+      "concept": "Unhandled exception terminates the program",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "By default, what does a C++ program do when it detects an exception that is not handled?",
+      "options": {
+        "A": "It continues running from the next statement",
+        "B": "It terminates the program",
+        "C": "It silently removes the exception",
+        "D": "It restarts execution from main()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "If an exception is raised and not caught by a matching handler, the default result is termination of the program.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

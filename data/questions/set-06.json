@@ -1,0 +1,681 @@
+{
+  "setId": 6,
+  "title": "Set 6",
+  "questions": [
+    {
+      "id": "S06-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "HAVING Clause",
+      "concept": "Reason HAVING was added to SQL",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Why was the HAVING clause added to SQL?",
+      "options": {
+        "A": "To sort query output in a chosen order",
+        "B": "To join two tables on a shared column",
+        "C": "WHERE cannot be used with aggregate functions",
+        "D": "To delete duplicate rows from a grouped result table",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HAVING was added because the WHERE keyword cannot be used with aggregate functions such as MIN(), MAX(), SUM(), AVG() and COUNT(). It is used with GROUP BY.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S06-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "8085 address bus width",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "The Intel 8085 microprocessor has an address bus of what width?",
+      "options": {
+        "A": "8-bit",
+        "B": "16-bit",
+        "C": "20-bit",
+        "D": "32-bit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The 8085 (Intel, 1977) is an 8-bit CPU with an 8-bit data bus, a 16-bit address bus and 40 pins.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Primary Machines in TOC",
+      "concept": "LBA as a limited-memory Turing machine",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which machine is described as a type of Turing machine with limited memory?",
+      "options": {
+        "A": "Linear Bounded Automata",
+        "B": "Pushdown Automata",
+        "C": "Finite Automata",
+        "D": "Moore Machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Linear Bounded Automata are a type of Turing machine with limited memory. Pushdown automata recognize context-free languages and finite automata recognize regular languages.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "String Immutability",
+      "concept": "String immutability: assigning to str index raises TypeError",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What happens when the following code runs?\nstr1 = 'Hello World!'\nstr1[1] = 'a'",
+      "options": {
+        "A": "str1 becomes 'Hallo World!'",
+        "B": "An IndexError is raised",
+        "C": "A new string is created silently",
+        "D": "A TypeError is raised",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A string is immutable, so assigning a new value to a character position such as str1[1] = 'a' raises a TypeError.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S06-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Ports and Protocols",
+      "concept": "IMAP port number",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which port number is used by IMAP?",
+      "options": {
+        "A": "110",
+        "B": "143",
+        "C": "194",
+        "D": "443",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IMAP uses port 143. Port 110 is POP3, 194 is IRC and 443 is HTTPS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cyber Defense",
+      "concept": "AES used in most ATMs",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which encryption standard is used in most ATMs?",
+      "options": {
+        "A": "Pretty Good Privacy (PGP)",
+        "B": "WPA2",
+        "C": "Advanced Encryption Standard (AES)",
+        "D": "Secure Shell (SSH)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Advanced Encryption Standard (AES) is used in most ATMs. PGP is used for email security and WPA2 for Wi-Fi security.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Page Replacement Algorithms",
+      "concept": "Belady's anomaly",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Belady's Anomaly, where increasing page frames increases page faults, is always seen in which page replacement algorithm?",
+      "options": {
+        "A": "FIFO",
+        "B": "Optimal",
+        "C": "LRU",
+        "D": "Round Robin",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Belady's Anomaly occurs when more page frames lead to more page faults, and it is always seen in the FIFO page replacement algorithm.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Origin of the term Machine Learning",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Who coined the term Machine Learning while at IBM?",
+      "options": {
+        "A": "John McCarthy",
+        "B": "Geoffrey Hinton",
+        "C": "Alan Turing",
+        "D": "Arthur Samuel",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Machine Learning was coined by Arthur Samuel at IBM. John McCarthy coined Artificial Intelligence, and Geoffrey Hinton is associated with Deep Learning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Modifying a variable through a pointer",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What is the output of the following C++ code?\n\nint x = 5;\nint *p = &x;\n*p = 9;\ncout << x;",
+      "options": {
+        "A": "5",
+        "B": "9",
+        "C": "Address of x",
+        "D": "14",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "& returns the address of x, so p points to x. The dereference operator * accesses x through p, so *p = 9 changes x to 9.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S06-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Types",
+      "concept": "Input-restricted dequeue",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which statement correctly describes an input-restricted dequeue?",
+      "options": {
+        "A": "Insertion and deletion are both allowed at only one end",
+        "B": "Deletion at only one end, insertion at both ends",
+        "C": "Insertion at only one end, deletion at both ends",
+        "D": "Elements are removed strictly by their priority",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In an input-restricted dequeue, insertion is allowed at only one end while deletion is allowed from both ends. The reverse describes an output-restricted dequeue.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Approaches",
+      "concept": "Adhoc testing executed without documentation and planning",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which type of software testing is executed without any documentation and planning?",
+      "options": {
+        "A": "Adhoc testing",
+        "B": "Smoke testing",
+        "C": "Acceptance testing",
+        "D": "Regression testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Adhoc testing is executed without documentation and planning. Smoke testing validates the build and regression testing re-runs previous test cases in maintenance.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q12",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Devices",
+      "concept": "Physical layer devices",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following devices operate at the Physical Layer of the OSI model? (Select all that apply)",
+      "options": {
+        "A": "Hub",
+        "B": "Router",
+        "C": "Repeater",
+        "D": "Switch",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "Hub and Repeater work at the Physical Layer. A Switch works at the Data Link Layer and a Router at the Network Layer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ROM Types",
+      "concept": "EPROM erasure using UV rays",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which type of ROM can be erased and reprogrammed using UV rays?",
+      "options": {
+        "A": "PROM",
+        "B": "EEPROM",
+        "C": "SRAM",
+        "D": "EPROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "EPROM (Erasable Programmable ROM) is edited using UV rays. PROM cannot be edited, and EEPROM is erased electrically.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Payments",
+      "concept": "Chargeback",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In e-commerce, what is a chargeback?",
+      "options": {
+        "A": "A processing fee charged by the payment gateway",
+        "B": "A dispute initiated by the buyer with their bank",
+        "C": "A discount offered at the shopping cart",
+        "D": "A loyalty reward credited after purchase",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A chargeback is a dispute initiated by the buyer with their bank, which reverses the funds.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S06-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Everything is an Object",
+      "concept": "id() of equal integer objects",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "In the textbook example, num1 = 20 and num2 = 30 - 10. What does comparing id(num1) and id(num2) show?",
+      "options": {
+        "A": "id(num2) is 10 more than id(num1)",
+        "B": "They differ since num2 is computed",
+        "C": "Both ids are exactly the same",
+        "D": "id() raises an error for integers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Python treats every value as an object with a unique identity. In Example 5.2, id(num1) and id(num2) both return 1433920576 because both refer to the same object, 20.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Contiguous Memory Allocation",
+      "concept": "Best fit hole selection",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Free memory holes are 100 KB, 500 KB, 200 KB, 300 KB and 600 KB (in that order). Using Best Fit, which hole is allocated to a 212 KB process?",
+      "options": {
+        "A": "500 KB",
+        "B": "600 KB",
+        "C": "200 KB",
+        "D": "300 KB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Best Fit chooses the smallest free partition that can fit the process. The smallest hole of at least 212 KB is 300 KB. First Fit would pick 500 KB and Worst Fit 600 KB.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S06-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Types of AI",
+      "concept": "AI types vs AI branches",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following is NOT one of the four types of AI?",
+      "options": {
+        "A": "Expert Systems",
+        "B": "Reactive Machines",
+        "C": "Limited Memory",
+        "D": "Theory of Mind",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The four types of AI are Reactive Machines, Limited Memory, Theory of Mind and Self-aware AI. Expert Systems is a branch of AI, not a type.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "NoSQL Databases",
+      "concept": "Identifying a non-NoSQL database",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which of the following is NOT an example of a NoSQL database?",
+      "options": {
+        "A": "MongoDB",
+        "B": "Neo4J",
+        "C": "PostgreSQL",
+        "D": "HBase",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "PostgreSQL is an open-source object-relational (SQL) database. MongoDB, Neo4J and HBase are NoSQL databases.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Steganography",
+      "concept": "Hiding data inside an image",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "The technique of hiding information inside an image is called:",
+      "options": {
+        "A": "Cryptanalysis",
+        "B": "Steganography",
+        "C": "Encryption",
+        "D": "Authentication",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Steganography hides information inside an image; the data is embedded rather than transformed into an obscure format as in encryption.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Commands",
+      "concept": "Tracert command",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which command displays the possible routes of packets and measures transit delays, up to a maximum of 30 hops?",
+      "options": {
+        "A": "Ping",
+        "B": "Netstat",
+        "C": "Nslookup",
+        "D": "Tracert",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Tracert (Traceroute) displays possible routes and transit delays of packets with a maximum of 30 hops, using ICMP. Ping only tests reachability.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S06-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Basics",
+      "concept": "First OOP language",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which language is recognised as the first object-oriented programming language (1967)?",
+      "options": {
+        "A": "Simula",
+        "B": "Smalltalk",
+        "C": "C++",
+        "D": "Java",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Simula (1967) was the first OOPS language. Smalltalk is the first pure (100%) object-oriented language.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked List Types",
+      "concept": "Null pointers in a doubly linked list",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "How many null pointers does a doubly linked list contain?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A doubly linked list has two null pointers. A singly linked list has one, and a circular linked list has zero.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S06-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine History",
+      "concept": "Turing machine introduced by Alan Turing in 1936",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In which year did Alan Turing introduce the Turing machine?",
+      "options": {
+        "A": "1943",
+        "B": "1936",
+        "C": "1956",
+        "D": "1928",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Alan Turing introduced the Turing machine in 1936.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Marketing",
+      "concept": "Least tolerated online ad type",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which type of online advertisement are people least willing to tolerate?",
+      "options": {
+        "A": "Banner ads",
+        "B": "Pop-up ads",
+        "C": "Affiliate links",
+        "D": "Pop-under ads",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "People are most willing to tolerate banner ads, while pop-under ads are the least tolerated.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S06-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Hierarchy",
+      "concept": "Memory speed order",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which order correctly arranges memory from fastest to slowest?",
+      "options": {
+        "A": "Register, Cache, RAM, Hard Disk",
+        "B": "Cache, Register, RAM, Hard Disk",
+        "C": "Register, RAM, Cache, Hard Disk",
+        "D": "RAM, Cache, Register, Hard Disk",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The memory hierarchy from fastest to slowest is Register, Cache, RAM, Hard Disk. Cache is the second fastest memory.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

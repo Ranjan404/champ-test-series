@@ -1,0 +1,681 @@
+{
+  "setId": 17,
+  "title": "Set 17",
+  "questions": [
+    {
+      "id": "S17-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Character Encoding",
+      "concept": "Extended ASCII character count",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Extended ASCII (EASCII) is an 8-bit code. How many characters can it represent?",
+      "options": {
+        "A": "128",
+        "B": "256",
+        "C": "512",
+        "D": "65,536",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Extended ASCII uses 8 bits, so it can represent 2^8 = 256 characters. Standard ASCII is a 7-bit code with 128 characters.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Measuring Capacity of Media",
+      "concept": "Data transfer rate alternate name",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "In data communication, the number of bits transmitted between source and destination in one second is also called:",
+      "options": {
+        "A": "Bandwidth",
+        "B": "Channel capacity",
+        "C": "Frequency",
+        "D": "Bit rate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Data transfer rate is the number of bits sent per second and is also called bit rate, measured in bps. Bandwidth is a range of frequencies measured in Hz.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S17-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Language Origin and Environment",
+      "concept": "Implementation language of Python",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In which programming language is the Python language itself written?",
+      "options": {
+        "A": "C",
+        "B": "Java",
+        "C": "C++",
+        "D": "Assembly language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Python is written in C. It was developed by Guido van Rossum in 1989 and first released in 1991.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S17-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Disk Scheduling",
+      "concept": "SCAN as the Elevator algorithm",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which disk scheduling algorithm is also known as the Elevator Algorithm?",
+      "options": {
+        "A": "C-LOOK scheduling",
+        "B": "SSTF scheduling",
+        "C": "SCAN scheduling",
+        "D": "FCFS scheduling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SCAN scheduling is also called the Elevator Algorithm. SSTF is Shortest Seek Time First and C-LOOK is Circular-LOOK.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack - Postfix Evaluation",
+      "concept": "Evaluating a postfix expression with a stack",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Using a stack, what is the value of the postfix expression 7 8 2 * 4 / + ?",
+      "options": {
+        "A": "15",
+        "B": "7.5",
+        "C": "11",
+        "D": "9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Operands are pushed; each operator pops two values and pushes the result: 8*2 = 16, 16/4 = 4, then 7+4 = 11.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S17-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Spyware",
+      "concept": "Pegasus spyware developer",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Pegasus spyware, which can stealthily enter a smartphone and access its camera and microphone, was developed by:",
+      "options": {
+        "A": "NSO",
+        "B": "Kaspersky",
+        "C": "McAfee",
+        "D": "Bitdefender",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Pegasus was developed by NSO and was discovered in 2019. Kaspersky, McAfee and Bitdefender are antivirus products.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Singleton Tags",
+      "concept": "Unpaired HTML tag identification",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which of the following HTML tags is an unpaired (singleton) tag that has no closing tag?",
+      "options": {
+        "A": "<p>",
+        "B": "<table>",
+        "C": "<ol>",
+        "D": "<img>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "<img> is an unpaired tag used to define an image. Tags such as <p>, <table> and <ol> need closing tags.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S17-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Limitations of File System",
+      "concept": "Data isolation in file systems",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In a file system, the limitation where data files are not linked or mapped to one another is called:",
+      "options": {
+        "A": "Data redundancy",
+        "B": "Data isolation",
+        "C": "Data inconsistency",
+        "D": "Data dependence",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Data isolation means data files are not linked or mapped. Redundancy is duplication, inconsistency is the same data differing across files, and dependence is programs depending on file structure.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine",
+      "concept": "Turing machine as a writing machine",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Because it can modify its own input, a Turing machine is also called a:",
+      "options": {
+        "A": "Writing machine",
+        "B": "Reading machine",
+        "C": "Stack machine",
+        "D": "Counting machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A Turing machine can modify its own input, so it is also called a writing machine. It uses an infinite tape with a read/write head.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S17-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "CoAP introduced by IETF",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "The CoAP (Constrained Application Protocol) used in IoT was introduced by:",
+      "options": {
+        "A": "IBM",
+        "B": "IETF",
+        "C": "IEEE",
+        "D": "Qualcomm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "CoAP is an application layer, client-server protocol introduced by the IETF (Internet Engineering Task Force). MQTT, not CoAP, was developed by IBM.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S17-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Namespaces",
+      "concept": "Purpose of namespace in C++",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In C++, what is the main purpose of a namespace?",
+      "options": {
+        "A": "To display output on the screen",
+        "B": "To allocate memory at run time",
+        "C": "To avoid name collisions",
+        "D": "To mark where execution starts",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A namespace provides a way to avoid name collisions. Output is done with cout, and main() is the starting point of execution.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Ports and Protocols",
+      "concept": "Number of ports per IP address",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A port number is 16 bits long. How many ports can each host have per IP address?",
+      "options": {
+        "A": "1024",
+        "B": "256",
+        "C": "32768",
+        "D": "65535",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Each host can have 65535 ports per IP address because the port number is 16 bits. Ports work at the Transport Layer (layer 4) of the OSI model.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S17-Q13",
+      "type": "multiple",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware and Intrusion Tools",
+      "concept": "Rootkit, botnet, resident virus and backdoor facts",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which of the following statements about malware and intrusion tools are correct? (Select all that apply)",
+      "options": {
+        "A": "A rootkit provides administrative access along with stealth capability",
+        "B": "A non-resident virus stays in RAM after it is executed",
+        "C": "A botnet is a network of compromised computers often called zombies",
+        "D": "A backdoor is malware that tracks browsing habits and shows popups",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "Rootkits give administrative access and stealth, and botnets are networks of compromised zombie computers. A resident virus (not a non-resident one) stays in RAM, and tracking browsing with popups describes adware, not a backdoor.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Integration testing",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which testing type combines a collection of modules and tests them as a group, and is done by testers?",
+      "options": {
+        "A": "Unit Testing",
+        "B": "Integration Testing",
+        "C": "Sanity Testing",
+        "D": "Smoke Testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Integration Testing tests a collection of modules combined as a group and is done by testers. Unit Testing tests an individual module and is done by programmers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Operators and Expressions",
+      "concept": "Floor division with negatives and precedence",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What does the Python statement print(-18 // 5, 4 + 2**5 // 10) display?",
+      "options": {
+        "A": "-4 7",
+        "B": "-3 7",
+        "C": "-4 7.2",
+        "D": "-3 3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "// is floor division, so -18 // 5 rounds down to -4. In 4 + 2**5 // 10, ** is applied first (32), then 32 // 10 = 3, giving 4 + 3 = 7.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S17-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Character Encoding",
+      "concept": "Unicode developers' organisation",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Unicode was developed by Joe Becker, Lee Collins and Mark Davis, who were employees of:",
+      "options": {
+        "A": "IBM",
+        "B": "Microsoft",
+        "C": "ANSI",
+        "D": "Xerox",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Unicode was developed by Xerox employees Joe Becker, Lee Collins and Mark Davis, and is maintained by the Unicode Consortium. The ASCII proposal came from Bob Bemer of IBM and was submitted to ANSI.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Selection Sort",
+      "concept": "Selection sort first pass result",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Selection sort (ascending) is applied to the list [8, 7, 13, 1, -9, 4]. What is the list after the first pass?",
+      "options": {
+        "A": "[7, 8, 13, 1, -9, 4]",
+        "B": "[-9, 8, 7, 13, 1, 4]",
+        "C": "[-9, 7, 13, 1, 8, 4]",
+        "D": "[7, 8, 1, -9, 4, 13]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In each pass, selection sort picks the smallest element of the unsorted part and swaps it to the front. The smallest value -9 is swapped with 8, giving [-9, 7, 13, 1, 8, 4].",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process State Transitions",
+      "concept": "Running to Ready on interrupt",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "When a running process is interrupted, which process state transition takes place?",
+      "options": {
+        "A": "Running to Wait/Block",
+        "B": "Running to Ready",
+        "C": "Running to Terminated",
+        "D": "Running to Suspend",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An interrupt moves a process from Running back to Ready. Running to Wait/Block happens on an I/O or event wait, and Running to Terminated happens on exit.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine",
+      "concept": "Turing machine tuple count",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "When a Turing machine is formally defined as an n-tuple, what is the value of n as given in the syllabus?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The syllabus defines a Turing machine as a 7-tuple, with finite sets of states, input symbols and tape symbols among its components.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S17-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML History",
+      "concept": "Release year of HTML 1.0",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In which year was the first version of HTML, HTML 1.0, released?",
+      "options": {
+        "A": "1993",
+        "B": "1991",
+        "C": "1995",
+        "D": "2014",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The first version, HTML 1.0, came in 1993, and HTML was founded by Tim Berners-Lee. 2014 is the year of HTML 5, the latest version.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Types of Networks",
+      "concept": "Range of a Campus Area Network",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A Campus Area Network (CAN), a group of interconnected LANs, typically covers what range?",
+      "options": {
+        "A": "About 10 metres",
+        "B": "50 to 100 km",
+        "C": "100 to 500 metres",
+        "D": "1 to 5 km",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A CAN (Campus or Corporate Area Network) is a group of interconnected LANs with a range of 1 to 5 km. About 10 metres is the range of a PAN.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S17-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Sensors",
+      "concept": "Identifying non-sensor IoT component",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which of the following is NOT a sensor in IoT?",
+      "options": {
+        "A": "BMP280",
+        "B": "DHT11",
+        "C": "LED",
+        "D": "Photoresistor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An LED is an output device (actuator), not a sensor. BMP280, DHT11 and the photoresistor are sensors.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Query Order",
+      "concept": "Clause following WHERE in SQL query order",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In the SQL query order, which clause comes immediately after the WHERE clause?",
+      "options": {
+        "A": "GROUP BY",
+        "B": "HAVING",
+        "C": "ORDER BY",
+        "D": "FROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The SQL query order is SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY. HAVING comes after GROUP BY because it applies conditions on aggregate fields.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S17-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Software patch definition",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In software engineering, a software patch is best described as:",
+      "options": {
+        "A": "A complete rewrite of the system",
+        "B": "An emergency or critical fix",
+        "C": "A document listing user requirements",
+        "D": "A metric used to estimate software size",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A software patch is an emergency fix or a required/critical fix. Requirements are documented in the SRS, and Function Points estimate software size.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S17-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Storage Specifiers",
+      "concept": "Mutable storage specifier",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which of the five C++ storage specifiers allows an object to be changed after it is created?",
+      "options": {
+        "A": "Register",
+        "B": "Static",
+        "C": "Automatic",
+        "D": "Mutable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A mutable object can be changed after it is created. Register allocates memory in a register, Automatic is the default for local variables and Static is initialised only once.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

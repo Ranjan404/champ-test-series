@@ -1,0 +1,681 @@
+{
+  "setId": 49,
+  "title": "Set 49",
+  "questions": [
+    {
+      "id": "S49-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "RDBMS Concepts",
+      "concept": "Column called attribute in RDBMS",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In RDBMS terminology, what is a column of a table called?",
+      "options": {
+        "A": "Attribute",
+        "B": "Tuple",
+        "C": "Schema",
+        "D": "Cardinality",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In a relational table, rows are tuples and columns are attributes or fields.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Page Fault",
+      "concept": "Definition of page fault",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What is a page fault?",
+      "options": {
+        "A": "An event when the CPU accesses data that is not currently in RAM",
+        "B": "Wasted space inside an allocated partition",
+        "C": "A situation where two processes wait on each other",
+        "D": "A hardware failure in a RAM module",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A page fault occurs when the referenced page is not in main memory, so it must be brought in from secondary memory.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S49-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Arguments and Parameters",
+      "concept": "Rebinding an integer parameter does not change the argument",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\ndef increment(n):\n    n = n + 5\n    return n\nnum = 10\nincrement(num)\nprint(num)",
+      "options": {
+        "A": "10",
+        "B": "None",
+        "C": "15",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Inside the function, n = n + 5 binds n to a new object (its id changes). The returned value is discarded and num still refers to 10.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S49-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Switching Techniques",
+      "concept": "Circuit switching dedicated path",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Which statement correctly describes circuit switching?",
+      "options": {
+        "A": "Data is broken into packets that may take different routes",
+        "B": "Each packet is routed independently using its header",
+        "C": "A dedicated path is identified before communication starts and all data follows it",
+        "D": "The channel is occupied only while a packet is being transmitted",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In circuit switching (e.g. a telephone call) a dedicated path is set up first; the other statements describe packet switching.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "Compound assignment sequence",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the output of this C++ code?\n\nint x = 17;\nx %= 5;\nx *= 3;\nx -= 1;\ncout << x;",
+      "options": {
+        "A": "10",
+        "B": "50",
+        "C": "5",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "17 % 5 = 2, then 2 * 3 = 6, then 6 - 1 = 5.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S49-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Built-in Exceptions",
+      "concept": "ImportError when module not found",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Which built-in exception is raised when the requested module definition is not found?",
+      "options": {
+        "A": "IndexError",
+        "B": "ImportError",
+        "C": "IOError",
+        "D": "NameError",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "ImportError is raised when a requested module cannot be found. NameError is for undefined variables.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Sensors",
+      "concept": "Sensor resolution definition",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "The smallest change in a measured quantity that a sensor can detect is called its:",
+      "options": {
+        "A": "Resolution",
+        "B": "Scale",
+        "C": "Accuracy",
+        "D": "Precision",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Resolution is the smallest difference a sensor can detect. Accuracy is closeness to the true value and precision is repeatability.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Data Transfer Rate",
+      "concept": "Transmission time calculation using 1 Kbps = 1024 bps",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A message of 4096 characters (8 bits per character) is sent over a 4 Kbps link. Taking 1 Kbps = 1024 bps, how long does the transfer take?",
+      "options": {
+        "A": "1 second",
+        "B": "8.192 seconds",
+        "C": "64 seconds",
+        "D": "8 seconds",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "4096 x 8 = 32768 bits; 4 Kbps = 4096 bps; 32768 / 4096 = 8 s. Using 1000 bps per Kbps gives 8.192 s.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S49-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Pumping Lemma",
+      "concept": "Meaning of the word lemma",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In the term 'pumping lemma', what does 'lemma' mean?",
+      "options": {
+        "A": "A final state of an automaton",
+        "B": "An intermediate theorem in a proof",
+        "C": "A machine that pushes symbols on a stack",
+        "D": "A grammar rule that generates strings",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A lemma is an intermediate theorem in a proof; 'pumping' refers to generating many strings by repeating a part.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S49-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Nested Lists",
+      "concept": "Indexing into a string inside a nested list",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of the following code?\nlist4 = [['Physics', 101], ['Chemistry', 202], ['Maths', 303]]\nprint(list4[1][0][2])",
+      "options": {
+        "A": "Chemistry",
+        "B": "h",
+        "C": "e",
+        "D": "202",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "list4[1] is ['Chemistry', 202], [0] picks 'Chemistry', and [2] picks the character at index 2, which is 'e'.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S49-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Array Address Calculation",
+      "concept": "Address of 6th element with 4-byte elements",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "A one-dimensional array of 4-byte elements starts at base address 2000. What is the address of its 6th cell?",
+      "options": {
+        "A": "2024",
+        "B": "2006",
+        "C": "2016",
+        "D": "2020",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The 6th cell is 5 elements after the first, so its address is 2000 + 5 x 4 = 2020. Using 6 x 4 gives the wrong 2024.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S49-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Distance after which signals need a repeater",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "A repeater is used because signals travelling on a cable lose strength after about what distance?",
+      "options": {
+        "A": "100 m",
+        "B": "40 km",
+        "C": "1 km",
+        "D": "10 m",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Signals lose strength after roughly 100 m, so a repeater regenerates them to let them travel further.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S49-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Implementation in Python",
+      "concept": "Python list method used for dequeue",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "When a queue is implemented using a Python list myQueue, which call removes an element from the front?",
+      "options": {
+        "A": "myQueue.remove()",
+        "B": "myQueue.pop()",
+        "C": "myQueue.pop(0)",
+        "D": "myQueue.insert(0)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "append() acts at the rear and pop(0) removes the element at the beginning, which acts as the front. pop() would remove from the rear like a stack.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Interrupts",
+      "concept": "Non-maskable interrupt example",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which of the following is an example of a non-maskable hardware interrupt that the CPU cannot ignore?",
+      "options": {
+        "A": "Power failure",
+        "B": "Peripheral device interrupt",
+        "C": "Normal software instruction interrupt",
+        "D": "Divide by zero exception",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Non-maskable interrupts such as power failure or a smoke detector signal cannot be disabled. Peripheral interrupts are maskable, and divide by zero is a software exception.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Three-Level Schema Architecture",
+      "concept": "Mapping three-tier levels to alternate names",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which mapping of the three-tier DBMS levels to their alternate names is correct?",
+      "options": {
+        "A": "External = physical, conceptual = logical, internal = view",
+        "B": "External = logical, conceptual = view, internal = physical",
+        "C": "External = view, conceptual = physical, internal = logical",
+        "D": "External = view, conceptual = logical, internal = physical",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The three levels are external (view), conceptual (logical) and internal (physical).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Loops in C++",
+      "concept": "for and while are entry-controlled loops",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which two C++ loops are entry-controlled (condition checked before the body runs)?",
+      "options": {
+        "A": "for and do-while",
+        "B": "do-while and goto",
+        "C": "for and while",
+        "D": "while and do-while",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "for and while verify the condition before entering the loop body. do-while is exit-controlled, checking the condition after the body executes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Quality",
+      "concept": "SQA full form",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In software engineering, the abbreviation SQA stands for:",
+      "options": {
+        "A": "Software Quality Assurance",
+        "B": "Standard Quality Assurance",
+        "C": "System Quality Audit",
+        "D": "Software Quality Analysis",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SQA stands for Software Quality Assurance, the activity of ensuring the software process and product meet quality standards.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S49-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Correct Codd rule number and name pair",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which pairing of a Codd's rule number with its name is correct?",
+      "options": {
+        "A": "Rule 11: Integrity Independence",
+        "B": "Rule 9: Logical Data Independence",
+        "C": "Rule 8: Logical Data Independence",
+        "D": "Rule 6: Non-Subversion Rule",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Rule 8 is Physical Data Independence and Rule 9 is Logical Data Independence; Rule 10 is Integrity Independence and Rule 12 is Non-Subversion.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S49-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Interrupts",
+      "concept": "Exception as a software interrupt",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "A program attempts to divide a value by zero. What kind of interrupt does this cause?",
+      "options": {
+        "A": "A non-maskable hardware interrupt",
+        "B": "An exception (software interrupt)",
+        "C": "A peripheral device interrupt",
+        "D": "A maskable hardware interrupt",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Software interrupts include normal interrupts and exceptions; an exception is caused by unusual conditions such as division by zero.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Errors in Programming",
+      "concept": "Interface errors as fourth error type",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Besides syntax errors, logic errors and run-time errors, which is the fourth type of programming error listed in the syllabus?",
+      "options": {
+        "A": "Linker errors",
+        "B": "Interface errors",
+        "C": "Encoding errors",
+        "D": "Hardware errors",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The four error types are syntax (compile-time), logic (semantic), run-time (exceptions) and interface errors.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S49-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Document Object Model",
+      "concept": "DOM definition",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "The convention that represents an HTML document as an object hierarchy and defines how those objects interact is the:",
+      "options": {
+        "A": "Document Type Declaration",
+        "B": "Standard Generalized Markup Language (SGML)",
+        "C": "Cascading Style Sheet",
+        "D": "Document Object Model (DOM)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The DOM represents the HTML document as a hierarchy of objects and defines how they interact; SGML is the parent markup language of HTML.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Computer Virus History",
+      "concept": "Brain first boot sector virus",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which was the first boot sector virus?",
+      "options": {
+        "A": "Creeper",
+        "B": "ILOVEYOU",
+        "C": "Stuxnet",
+        "D": "Brain",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Brain was the first boot sector virus, while Creeper is cited as the first computer virus/worm.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S49-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Karnaugh Map",
+      "concept": "K-map simplification of Σm(0,2,4,6)",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Using a 3-variable K-map, what is the simplified form of F(A, B, C) = Σm(0, 2, 4, 6)?",
+      "options": {
+        "A": "A'·C'",
+        "B": "A'",
+        "C": "B'·C'",
+        "D": "C'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Minterms 000, 010, 100 and 110 all have C = 0 while A and B take every value, so the quad of four cells reduces to C'.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S49-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Scheduling Criteria",
+      "concept": "Definition of waiting time",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In CPU scheduling, what does the waiting time of a process measure?",
+      "options": {
+        "A": "Time spent waiting only for I/O completion",
+        "B": "Total time the process spends in the ready queue",
+        "C": "Total time the process spends executing on the CPU",
+        "D": "Time from submission until the first response is produced",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Waiting time is defined as the total time a process spends waiting in the ready queue, not its CPU burst or I/O time.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S49-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Checksum and CRC",
+      "concept": "CRC advantages",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which statement best describes CRC compared with other error detection techniques?",
+      "options": {
+        "A": "It corrects all single and double bit errors",
+        "B": "It needs more overhead than a simple checksum and detects fewer errors",
+        "C": "It offers higher detection capability with lower computational overhead",
+        "D": "It has lower detection capability than a single parity bit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "CRC gives higher error detection capability with lower computational overhead and is used for detection, not correction.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

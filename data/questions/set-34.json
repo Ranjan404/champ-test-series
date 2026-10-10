@@ -1,0 +1,681 @@
+{
+  "setId": 34,
+  "title": "Set 34",
+  "questions": [
+    {
+      "id": "S34-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Protocols",
+      "concept": "RTP for video conferencing",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which protocol is used for video conferencing and live streaming applications such as Zoom and Skype?",
+      "options": {
+        "A": "RTP",
+        "B": "FTP",
+        "C": "SMTP",
+        "D": "RTSP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "RTP (Real-Time Transport Protocol) carries live audio/video for conferencing; RTSP controls media sessions like play and pause.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Android Versions",
+      "concept": "Android 14 codename",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "What is the codename of Android 14?",
+      "options": {
+        "A": "Vanilla Ice Cream",
+        "B": "Upside Down Cake",
+        "C": "Tiramisu",
+        "D": "Baklava",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Android 13 is Tiramisu, Android 14 is Upside Down Cake (2023), Android 15 is Vanilla Ice Cream and Android 16 is Baklava.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S34-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Operators and Expressions",
+      "concept": "Exponent precedence over multiplication",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What is the output of print(2 * 3 ** 3)?",
+      "options": {
+        "A": "18",
+        "B": "54",
+        "C": "216",
+        "D": "729",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "** has higher precedence than *, so 3 ** 3 = 27 is computed first, then 2 * 27 = 54. Evaluating left to right gives 6 ** 3 = 216.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S34-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Languages",
+      "concept": "Primitive data types keep Java from being 100% object oriented",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Smalltalk is considered 100% object oriented, but Java is not. What is the main reason?",
+      "options": {
+        "A": "Java requires a main() method in every class",
+        "B": "Java allows primitive data types such as int, float and char",
+        "C": "Java programs are compiled into bytecode first",
+        "D": "Java supports static members only through interfaces",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a pure object-oriented language every value is an object. Java keeps primitive types like int, float and char that are not objects, so it is not 100% object oriented.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S34-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "LPWAN Technologies",
+      "concept": "Full form of LTE",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In 4G LTE IoT, what does LTE stand for?",
+      "options": {
+        "A": "Long-Range Transmission",
+        "B": "Low-Energy Telemetry",
+        "C": "Long-Term Evolution",
+        "D": "Low-Throughput Exchange",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "LTE stands for Long-Term Evolution, the successor of 3G and 2G smartphone technology.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S34-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Phases",
+      "concept": "Life cycle model describes entry and exit criteria of phases",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "A project manager needs a description of when each phase may begin and what must be complete before it ends. Which of these provides the entry and exit criteria for each phase?",
+      "options": {
+        "A": "A software patch",
+        "B": "A test case suite",
+        "C": "A CASE repository",
+        "D": "A system life cycle model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A system (software) life cycle model describes the entry and exit criteria for each phase. A CASE repository stores project information, a patch is an emergency fix and test cases verify behaviour.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "SMTP",
+      "concept": "SMTP focus on header",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "SMTP is mainly concerned with which part of an e-mail?",
+      "options": {
+        "A": "Encryption of the message text",
+        "B": "The message header and recipient addresses",
+        "C": "Compression of attachments",
+        "D": "The content of the message body",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SMTP uses the header and destination addresses; it is not concerned with the body content.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S34-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Basics",
+      "concept": "Examples of things in IoT",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which of the following is given as an example of a 'thing' in IoT?",
+      "options": {
+        "A": "A wooden table",
+        "B": "A handwritten letter",
+        "C": "A farm animal with a biochip transponder",
+        "D": "A printed paper map",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A thing can be a person with a monitor implant, a farm animal with a biochip transponder or a car with built-in sensors; it must be able to sense and communicate.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S34-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Insertion Sort",
+      "concept": "Insertion sort state after inserting the fourth element",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "Insertion sort (ascending) is applied to [8, 7, 13, 1, -9, 4]. What is the list immediately after the element 1 has been inserted into the sorted part?",
+      "options": {
+        "A": "[-9, 1, 7, 8, 13, 4]",
+        "B": "[7, 8, 13, 1, -9, 4]",
+        "C": "[1, 8, 7, 13, -9, 4]",
+        "D": "[1, 7, 8, 13, -9, 4]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "After inserting 7 and 13 the sorted part is [7, 8, 13]; 1 is smaller than all of them, so they shift right and 1 goes to the front: [1, 7, 8, 13, -9, 4].",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S34-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Theory",
+      "concept": "Application areas of automata",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Automata, as abstract machines and mathematical models, are used in which pair of areas?",
+      "options": {
+        "A": "Compiler design and natural language processing",
+        "B": "Network routing and packet switching",
+        "C": "Image compression and audio mixing",
+        "D": "Disk scheduling and memory paging",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Automata are used in compiler design and natural language processing.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Phishing Variants",
+      "concept": "Phishing uses emails and websites",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Phishing is an online crime carried out mainly through:",
+      "options": {
+        "A": "infected pen drives",
+        "B": "emails and fake websites or links",
+        "C": "SMS and MMS text messages",
+        "D": "voice calls placed over VoIP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Phishing uses emails, links and websites; SMS based attacks are smishing and VoIP voice calls are vishing.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "User Defined Functions",
+      "concept": "Function header syntax with def and colon",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "Which line is a correct header for a user-defined function in Python?",
+      "options": {
+        "A": "function area(l, b):",
+        "B": "define area(l, b)",
+        "C": "def area(l, b);",
+        "D": "def area(l, b):",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A function definition begins with def, and the header ends with a colon.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S34-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Terminology",
+      "concept": "Height of a tree measured in edges",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A tree has root A with children B and C; B has child D; D has child E; C has no children. What is the height of the tree (longest path from root to a leaf, counted in edges)?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "2",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The longest root-to-leaf path is A-B-D-E, which has 3 edges. Counting nodes instead of edges gives 4.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S34-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Controls",
+      "concept": "WPA2 used for Wi-Fi security",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "WPA2 is used to provide security for:",
+      "options": {
+        "A": "ATM transactions",
+        "B": "HTTP connections",
+        "C": "Wi-Fi networks",
+        "D": "Email messages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "WPA2 is used for Wi-Fi security; PGP secures email, TLS protects HTTP and AES is used in most ATMs.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Branches of TOC",
+      "concept": "Computability theory scope",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which branch of Theory of Computation is concerned with what can be computed and what cannot be computed?",
+      "options": {
+        "A": "Automata theory",
+        "B": "Formal language theory",
+        "C": "Computational complexity theory",
+        "D": "Computability theory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Computability theory asks what can and cannot be computed; complexity theory asks why some problems are hard or easy.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Paging Address Calculation",
+      "concept": "Number of pages for 24-bit logical address and 1K page",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "A system has a 24-bit logical address, a 16-bit physical address and a page size of 1 KB. How many pages are in the logical address space?",
+      "options": {
+        "A": "4096",
+        "B": "64",
+        "C": "16384",
+        "D": "1024",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Offset = 10 bits, so page bits = 24 - 10 = 14 and pages = 2^14 = 16384. 64 is the number of frames (2^6).",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Karnaugh Map",
+      "concept": "K-map simplification of Σm(2,3,6,7)",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Using a 3-variable K-map, what is the simplified form of F(A, B, C) = Σm(2, 3, 6, 7)?",
+      "options": {
+        "A": "A·B",
+        "B": "B + C",
+        "C": "B",
+        "D": "A'·B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Minterms 010, 011, 110, 111 all have B = 1 while A and C vary, so the quad simplifies to F = B.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S34-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys and Constraints",
+      "concept": "Foreign key needs matching data type and size",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "GUARDIAN.GUID is declared CHAR(12). To run ALTER TABLE STUDENT ADD FOREIGN KEY(GUID) REFERENCES GUARDIAN(GUID); successfully, how must STUDENT.GUID be declared?",
+      "options": {
+        "A": "CHAR(12), matching the referenced type and size",
+        "B": "INT, since GUID holds only digits",
+        "C": "CHAR(10), since a smaller size is allowed",
+        "D": "VARCHAR(20), since any string type is accepted",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A foreign key must have the same data type and size as the primary key it references, so STUDENT.GUID must also be CHAR(12).",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S34-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "String Operations",
+      "concept": "Membership test is case-sensitive",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "What is the output of print('world' in 'Hello World!')?",
+      "options": {
+        "A": "1",
+        "B": "False",
+        "C": "True",
+        "D": "TypeError",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The in operator checks for an exact substring and is case-sensitive. 'world' (lowercase w) does not occur in 'Hello World!'.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S34-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Representation",
+      "concept": "Adjacency list definition",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which graph representation stores, for each vertex, a list of its adjacent vertices?",
+      "options": {
+        "A": "Adjacency list",
+        "B": "Edge heap",
+        "C": "Adjacency matrix",
+        "D": "Incidence tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An adjacency list is a collection of lists where each vertex stores its adjacent vertices; an adjacency matrix is a 2-D matrix of vertices.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S34-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Laws of Boolean Algebra",
+      "concept": "Simplify (A+B)(A+B')",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "What does the expression (A + B)·(A + B') simplify to?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "1",
+        "D": "A + B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "By distributive law (A + B)(A + B') = A + B·B' = A + 0 = A (complement and identity laws).",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "S34-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Attribute Types",
+      "concept": "Single-valued attribute example",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "An entity PERSON has an attribute Gender that holds exactly one value for each person. What type of attribute is Gender?",
+      "options": {
+        "A": "Composite attribute",
+        "B": "Multivalued attribute",
+        "C": "Single-valued attribute",
+        "D": "Derived attribute",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A single-valued attribute has exactly one value, such as DOB or gender.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Concepts",
+      "concept": "Dynamic binding used in implementing inheritance",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Which feature of OOP is used extensively in implementing inheritance?",
+      "options": {
+        "A": "Dynamic binding",
+        "B": "Abstraction",
+        "C": "Inline expansion",
+        "D": "Operator overloading",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Inheritance relies heavily on dynamic binding, where the function to be called is resolved at run time based on the actual object.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Formats",
+      "concept": "Photoshop native file extension",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "What is the native file extension of an Adobe Photoshop document?",
+      "options": {
+        "A": ".ai",
+        "B": ".pdf",
+        "C": ".eps",
+        "D": ".psd",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Photoshop saves documents as .psd (Photoshop Document); .ai belongs to Adobe Illustrator.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S34-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Hub behaviour on simultaneous transmissions",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "What happens in an Ethernet hub when two connected devices send data at exactly the same time?",
+      "options": {
+        "A": "The hub queues one frame and forwards it later",
+        "B": "A collision occurs",
+        "C": "The hub repacks the data into smaller packets",
+        "D": "The data is delivered only to the intended device",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A hub sends data arriving on one line out on all others, so simultaneous transmissions collide.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "setId": 10,
+  "title": "Set 10",
+  "questions": [
+    {
+      "id": "S10-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue Types",
+      "concept": "Input-restricted deque",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "In an input-restricted double ended queue (deque), which operations are allowed?",
+      "options": {
+        "A": "Deletion at one end only, insertion at both ends",
+        "B": "Insertion and deletion at the same single end",
+        "C": "Insertion at one end only, deletion at both ends",
+        "D": "Insertion and deletion only by element priority",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An input-restricted deque allows insertion at only one end but deletion from both ends. An output-restricted deque allows deletion at one end and insertion at both.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Metrics",
+      "concept": "Conversion rate",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In e-commerce, the percentage of site visitors who actually make a purchase is called the:",
+      "options": {
+        "A": "Conversion rate",
+        "B": "Click-through count",
+        "C": "Chargeback ratio",
+        "D": "SERP ranking",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Conversion rate is the percentage of visitors who buy after visiting the site. Click-through counts users who click an ad and reach the advertiser's site.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "Founder of DRAM",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Who is credited as the founder of DRAM (Dynamic RAM)?",
+      "options": {
+        "A": "John Von Neumann",
+        "B": "Charles Bachman",
+        "C": "Alan Turing",
+        "D": "Robert Heath Dennard",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Robert Heath Dennard is the founder of DRAM, which is made of capacitors and needs refreshing. John Von Neumann is the founder of computer architecture.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S10-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Ransomware",
+      "concept": "First ransomware AIDS Trojan",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "Which was the first ransomware, created by Joseph Popp in 1989?",
+      "options": {
+        "A": "WannaCry",
+        "B": "AIDS Trojan",
+        "C": "CryptoLocker",
+        "D": "Creeper",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The first ransomware was the AIDS Trojan, created in 1989 by Joseph Popp. WannaCry and CryptoLocker are later ransomware examples, and Creeper was the first computer virus.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Identifiers",
+      "concept": "Valid Python identifier rules",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which of the following is a valid identifier in Python?",
+      "options": {
+        "A": "_total2",
+        "B": "2total",
+        "C": "total-marks",
+        "D": "global",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An identifier may begin with a letter or underscore and contain letters, digits and underscores. It cannot start with a digit, use symbols like -, or be a keyword such as global.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S10-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Contiguous Memory Allocation",
+      "concept": "Best fit partition selection",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Free partitions of 100K, 500K, 200K, 300K and 600K exist (in that order). Using Best Fit, where is a 212K process placed?",
+      "options": {
+        "A": "500K",
+        "B": "600K",
+        "C": "200K",
+        "D": "300K",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Best Fit chooses the smallest free partition that can hold the process, which is 300K. First Fit would pick 500K and Worst Fit would pick 600K; 200K is too small.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "S10-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Kleene Star and Kleene Plus",
+      "concept": "Kleene plus means one or more repetitions",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "In regular expressions, which operator means \"one or more repetitions\" of the preceding character and therefore excludes the null string?",
+      "options": {
+        "A": "Kleene star (*)",
+        "B": "Complement",
+        "C": "Kleene plus (+)",
+        "D": "Reversal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Kleene plus (+) means one or more repetitions and excludes null, so meow+ produces meow, meooow, etc. Kleene star (*) means zero or more repetitions and includes null.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "MID scalar function",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which SQL scalar function extracts characters from a text field?",
+      "options": {
+        "A": "LEN()",
+        "B": "MID()",
+        "C": "FIRST()",
+        "D": "COUNT()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "MID() extracts characters from a text field. LEN() returns the length of a text field, while FIRST() and COUNT() are aggregate functions.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOPS Basics",
+      "concept": "First OOP language Simula",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which language, introduced in 1967, is considered the first object-oriented programming language?",
+      "options": {
+        "A": "Smalltalk",
+        "B": "C++",
+        "C": "Java",
+        "D": "Simula",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Simula (1967) was the first OOP language. Smalltalk (1970s) is regarded as the first pure (100%) object-oriented language.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S10-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "LPWAN Technologies",
+      "concept": "LoRaWAN applications",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which low-power wide-area IoT technology is used in smart farming, smart meters and industrial IoT operations?",
+      "options": {
+        "A": "LoRaWAN",
+        "B": "Bluetooth Low Energy",
+        "C": "NFC",
+        "D": "Z-Wave",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "LoRaWAN (Long Range Wide Area Network) is an LPWAN technology used in smart farming, smart meters, transportation and industrial IoT. Zigbee, NFC and Z-Wave are short-range networks.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Data Link Layer",
+      "concept": "Data link layer protocols",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which of the following protocols works at the Data Link Layer of the OSI model?",
+      "options": {
+        "A": "ICMP",
+        "B": "PPTP",
+        "C": "SLIP",
+        "D": "MIME",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Data Link Layer protocols include PPP, NCP and SLIP. ICMP is a Network Layer protocol, PPTP is a Session Layer protocol and MIME is a Presentation Layer protocol.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Engineering History",
+      "concept": "Cleanroom philosophy proposer",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "The cleanroom philosophy in software engineering was proposed by:",
+      "options": {
+        "A": "Humphrey and others",
+        "B": "Mills and others",
+        "C": "Gosling and others",
+        "D": "Codd and others",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The cleanroom philosophy was proposed by Mills and others. Watts S. Humphrey is called the father of software engineering.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S10-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessor History",
+      "concept": "First microprocessor Intel 4004",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which was the first microprocessor, invented in 1971?",
+      "options": {
+        "A": "Intel 4004",
+        "B": "Intel 8085",
+        "C": "Intel 8086",
+        "D": "Intel 80386",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Intel 4004 was the first microprocessor, invented in 1971. The 8085 (1977) is 8-bit, the 8086 is 16-bit and the 80386 is 32-bit.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S10-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked List Types",
+      "concept": "Null pointers in circular linked list",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "How many NULL pointers are present in a circular linked list?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "One per node",
+        "D": "Zero",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a circular linked list the last node points back to the head, so there are zero NULL pointers. A singly linked list has one and a doubly linked list has two.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S10-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Steganography",
+      "concept": "Steganography definition",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "The technique of hiding secret information inside an image is called:",
+      "options": {
+        "A": "Cryptanalysis",
+        "B": "Steganography",
+        "C": "Encryption",
+        "D": "Spoofing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Steganography hides information inside media such as images. Unlike encryption, the data is embedded rather than transformed into an obscure format.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "HAVING Clause",
+      "concept": "Reason HAVING clause exists",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Which statement about the SQL HAVING clause is correct?",
+      "options": {
+        "A": "It cannot contain any aggregate function at all",
+        "B": "It is normally used without any GROUP BY clause in queries",
+        "C": "It exists because WHERE cannot use aggregate functions",
+        "D": "It is written before WHERE in SQL query order",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HAVING was added to SQL because the WHERE keyword cannot be used with aggregate functions. HAVING can contain aggregates, needs GROUP BY, and comes after GROUP BY in query order.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S10-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning Steps",
+      "concept": "ML step after evaluation",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "In the standard steps of Machine Learning, which step comes immediately after Evaluation?",
+      "options": {
+        "A": "Training",
+        "B": "Prediction",
+        "C": "Training the chosen model",
+        "D": "Hyperparameter Tuning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The steps are: Gathering Data, Preparing Data, Choosing a Model, Training, Evaluation, Hyperparameter Tuning, and Prediction. Prediction is the final step after tuning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Page Replacement",
+      "concept": "Belady's anomaly in FIFO",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Belady's Anomaly, where adding page frames increases page faults, is always seen in which page replacement algorithm?",
+      "options": {
+        "A": "FIFO",
+        "B": "LRU",
+        "C": "Optimal",
+        "D": "C-SCAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Belady's Anomaly occurs when increasing the number of frames increases page faults, and it is always seen in FIFO. C-SCAN is a disk scheduling algorithm.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "bool as subtype of int",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "In Python, the bool data type is a subtype of which type?",
+      "options": {
+        "A": "float",
+        "B": "int",
+        "C": "str",
+        "D": "complex",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "bool is a subtype of integer with two constants, True and False; False is the value zero.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S10-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Private IP Ranges",
+      "concept": "Identifying a private IPv4 address",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which of the following IPv4 addresses falls in a private IP address range?",
+      "options": {
+        "A": "172.32.1.1",
+        "B": "192.169.1.1",
+        "C": "172.20.5.4",
+        "D": "11.0.0.1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Private ranges include 10.0.0.0-10.255.255.255, 172.16.0.0-172.31.255.255 and 192.168.0.0-192.168.255.255. Only 172.20.5.4 lies within one of them.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "DFA vs NFA",
+      "concept": "Characteristic distinguishing DFA from NFA",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which characteristic belongs to a DFA rather than an NFA?",
+      "options": {
+        "A": "It can handle empty string transitions",
+        "B": "It requires less space",
+        "C": "It is easier to construct",
+        "D": "It allows backtracking and is used in text editors",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A DFA allows backtracking, needs more space, is harder to construct and is used in text editors. An NFA can handle empty string transitions, needs less space and is easier to construct.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Pillars of OOPS",
+      "concept": "Encapsulation definition",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which OOPS concept binds data and functions together into a single unit?",
+      "options": {
+        "A": "Polymorphism",
+        "B": "Encapsulation",
+        "C": "Inheritance",
+        "D": "Data Abstraction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Encapsulation binds data and functions together and supports data hiding. Abstraction shows only essential information, and polymorphism means having more than one form.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Payments",
+      "concept": "Chargeback definition",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In online shopping, a payment dispute initiated by the buyer with their bank is called a:",
+      "options": {
+        "A": "Chargeback",
+        "B": "Payment gateway",
+        "C": "Shopping cart",
+        "D": "Affiliate program",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A chargeback is a dispute initiated by the buyer with their bank that reverses funds. A payment gateway is the software that processes payments.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S10-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Signed Number Representation",
+      "concept": "1's complement of negative number",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What is the 8-bit 1's complement representation of -27?",
+      "options": {
+        "A": "11100101",
+        "B": "10011011",
+        "C": "11100100",
+        "D": "00011011",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "27 = 00011011; flipping all bits gives 11100100, the 1's complement form of -27. 11100101 would be the 2's complement, and 10011011 is sign-magnitude.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S10-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "White box testing alias",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Glass Box or Transparent Box testing, where the code is visible to the tester, is another name for:",
+      "options": {
+        "A": "White Box testing",
+        "B": "Black Box testing",
+        "C": "Sanity testing",
+        "D": "Beta testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "White Box testing is also called Open, Glass or Transparent Box testing because the internal structure is known to the tester. In Black Box testing the code is not visible.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

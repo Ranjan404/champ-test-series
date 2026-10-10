@@ -1,0 +1,681 @@
+{
+  "setId": 27,
+  "title": "Set 27",
+  "questions": [
+    {
+      "id": "S27-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Process of Handling Exception",
+      "concept": "Exception handled by caller in call stack",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What is the output of the following code?\ndef divide():\n    return 5 / 0\ndef caller():\n    try:\n        divide()\n    except ZeroDivisionError:\n        print('handled in caller')\ncaller()\nprint('done')",
+      "options": {
+        "A": "Only done",
+        "B": "handled in caller, then done",
+        "C": "The program stops with ZeroDivisionError",
+        "D": "Only handled in caller",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "divide() has no handler, so the runtime system searches back through the call stack, finds the handler in caller(), runs it, and the program then continues to print 'done'.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S27-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Bandwidth",
+      "concept": "Bandwidth as frequency difference",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Bandwidth of a composite signal is defined as:",
+      "options": {
+        "A": "The number of bits transmitted per second",
+        "B": "The difference between its maximum and minimum frequency",
+        "C": "The ratio of its maximum to minimum frequency",
+        "D": "The maximum amount of traffic the channel can carry",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bandwidth is the range of frequencies, i.e. maximum minus minimum frequency; bits per second is data rate and maximum traffic is capacity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Constraints",
+      "concept": "DEFAULT constraint supplies value when none given",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "Which SQL constraint supplies a value for a column automatically when no value is given for it during insertion?",
+      "options": {
+        "A": "UNIQUE",
+        "B": "CHECK",
+        "C": "NOT NULL",
+        "D": "DEFAULT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DEFAULT provides a default value if no value is supplied; NOT NULL only rejects NULLs and UNIQUE only enforces distinct values.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "MQTT Protocol",
+      "concept": "Default unencrypted MQTT port",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "What is the default port for unencrypted MQTT communication?",
+      "options": {
+        "A": "1883",
+        "B": "8080",
+        "C": "8883",
+        "D": "5683",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Unencrypted MQTT uses port 1883 and encrypted MQTT uses 8883.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S27-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "Internetworking as network layer function",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Internetworking, along with routing and addressing, is a function of which OSI layer?",
+      "options": {
+        "A": "Data Link layer",
+        "B": "Network layer",
+        "C": "Session layer",
+        "D": "Transport layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Network layer handles routing and forwarding, internetworking and addressing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Infix to Postfix Conversion",
+      "concept": "Handling right parenthesis during infix to postfix conversion",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "In the infix to postfix conversion algorithm, what is done when a right parenthesis is read from the infix expression?",
+      "options": {
+        "A": "All remaining operators are popped and the algorithm terminates",
+        "B": "It is pushed on the stack until a matching left parenthesis is read",
+        "C": "It is appended to the postfix string and the stack is left unchanged",
+        "D": "Operators are popped to the postfix string until a left parenthesis, and both parentheses are discarded",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "On ')' the algorithm pops operators to postExp until '(' is reached, then discards both parentheses; parentheses never appear in the postfix output.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S27-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC",
+      "concept": "Planning stage covers cost, resources, feasibility and risk",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "In the six SDLC stages, cost estimation, resource identification, feasibility and risk analysis belong to which stage?",
+      "options": {
+        "A": "Planning",
+        "B": "Deployment",
+        "C": "Maintenance",
+        "D": "Design",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Planning stage asks 'what do we want' and covers cost, resources, feasibility and risk analysis.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Encoding Schemes",
+      "concept": "Unicode superset of ASCII and UTF space use",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "Which statement about Unicode is correct?",
+      "options": {
+        "A": "UTF-8 takes more space than UTF-32 for the same text",
+        "B": "UTF-32 takes more space than UTF-16 or UTF-8",
+        "C": "Unicode values 0 to 128 hold characters different from ASCII",
+        "D": "Unicode is a subset of the ASCII character set",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Unicode is a superset of ASCII, its first 128 values match ASCII, and UTF-32 takes more space than UTF-16 or UTF-8.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S27-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Symmetric Key Cryptography",
+      "concept": "Symmetric key is called the secret key",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "In symmetric-key encryption, the single key shared by sender and receiver is called the:",
+      "options": {
+        "A": "secret key",
+        "B": "key pair",
+        "C": "session certificate",
+        "D": "public key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In symmetric encryption both parties use the same key, which is called the secret key; public keys belong to asymmetric systems.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Introduction to OS",
+      "concept": "OS as intermediary between user and hardware",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "What role does an operating system play between the user and the computer hardware?",
+      "options": {
+        "A": "It translates high-level source code into machine code",
+        "B": "It acts as an intermediary that manages hardware and software resources",
+        "C": "It permanently stores user files without managing them",
+        "D": "It only provides an internet connection to applications",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An operating system is core system software that acts as an intermediary between the user and the hardware, managing processes, memory, files and devices.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S27-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Operator Precedence",
+      "concept": "Postfix of A ^ B ^ C with right associativity",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Given that exponentiation is evaluated from right to left, what is the postfix form of A ^ B ^ C ?",
+      "options": {
+        "A": "^ ^ A B C",
+        "B": "A B ^ C ^",
+        "C": "A B C ^ ^",
+        "D": "A ^ B C ^",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Right-to-left associativity means A ^ (B ^ C), whose postfix is A B C ^ ^. A B ^ C ^ would treat ^ as left associative.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S27-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Video Formats",
+      "concept": "AVI full form",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In video file formats, AVI stands for:",
+      "options": {
+        "A": "Animated Video Image",
+        "B": "Advanced Video Interface",
+        "C": "Audio Video Interleave",
+        "D": "Audio Visual Integration",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "AVI is Audio Video Interleave, a video container format.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S27-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Layers and Protocols",
+      "concept": "Incorrect protocol to IoT layer mapping",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which protocol-to-layer pairing in the five-layer IoT stack is INCORRECT?",
+      "options": {
+        "A": "UDP: Transport layer",
+        "B": "IEEE 802.15.4: Data link layer",
+        "C": "CoAP: Transport layer",
+        "D": "RFID: Physical layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "CoAP is an application layer protocol (with MQTT, AMQP and DDS). RFID is physical, UDP is transport and IEEE 802.15.4 is data link.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "S27-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Firewall",
+      "concept": "Host-based vs network firewall placement",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A firewall installed on a single laptop to filter only that laptop's traffic, and a firewall placed between a school LAN and the Internet, are respectively called:",
+      "options": {
+        "A": "network firewall and host-based firewall",
+        "B": "antivirus program and network firewall",
+        "C": "proxy server and hardware router",
+        "D": "host-based firewall and network firewall",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A host-based firewall is placed on a computer, while a network firewall is placed between networks.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "S27-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Problem Solving",
+      "concept": "Flowchart decision symbol",
+      "source": "Generated",
+      "sourceRef": "01_PDF_01_TO_05.md",
+      "question": "In a flowchart, which symbol represents a yes/no or true/false question that leads to two different paths?",
+      "options": {
+        "A": "Decision",
+        "B": "Process",
+        "C": "Data (Input/Output)",
+        "D": "Terminator",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Decision (branch) symbol poses a yes/no question with two outgoing paths. Process is a single action and Terminator marks start/end.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Protocol",
+      "concept": "Flow control scenario",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Computer A sends data at 1024 Mbps while computer B can receive only at 512 Mbps, which may cause data loss. Which protocol function handles this?",
+      "options": {
+        "A": "Addressing",
+        "B": "Packet reassembly",
+        "C": "Flow control",
+        "D": "Access control",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Flow control manages sending and receiving at different speeds; access control decides which node uses a shared channel.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Halting Problem",
+      "concept": "Halting problem definition",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "What does the halting problem ask?",
+      "options": {
+        "A": "Whether a program produces the correct output",
+        "B": "Whether a program will finish running or continue to run forever",
+        "C": "How many steps a program needs in the worst case",
+        "D": "Whether a grammar generates a regular language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The halting problem asks whether a program will finish or run forever on a given input; it is undecidable.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S27-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Images and Backgrounds",
+      "concept": "Body background image syntax",
+      "source": "Generated",
+      "sourceRef": "08_PDF_36_TO_40.md",
+      "question": "Which HTML code correctly sets an image as the page background?",
+      "options": {
+        "A": "<body background=\"background.gif\">",
+        "B": "<body bgimage=\"background.gif\">",
+        "C": "<img background=\"background.gif\">",
+        "D": "<background img=\"background.gif\">",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The background attribute of the body tag sets a background image.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Process Models",
+      "concept": "Incremental model delivers software in a series of releases",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which software process model develops the software as a series of incremental releases?",
+      "options": {
+        "A": "Waterfall model",
+        "B": "Build and Fix model",
+        "C": "V-model",
+        "D": "Incremental model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The incremental model builds and delivers the product in a series of incremental releases, each adding functionality.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Polymorphism in Java",
+      "concept": "Identifying overriding and overloading in subclass",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Class A has a method void show(int x). Class B extends A and defines void show(int x) and void show(String s). Relative to A's show(int x), B's two methods are respectively examples of:",
+      "options": {
+        "A": "Overriding and overriding",
+        "B": "Overloading and overloading",
+        "C": "Overriding and overloading",
+        "D": "Overloading and overriding",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "show(int x) in B has the same name and signature as the parent method, so it overrides it. show(String s) has the same name but a different signature, so it overloads it.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Selection",
+      "concept": "switch is not a Python conditional statement",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "Which of the following is NOT used as a conditional statement in Python?",
+      "options": {
+        "A": "elif",
+        "B": "else",
+        "C": "if",
+        "D": "switch",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Python's conditional statements are if, elif and else. switch is not used as a conditional statement in Python.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S27-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Basics",
+      "concept": "Querying as retrieval of data using commands",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "In the context of a DBMS, what is the process of retrieving data from a database using commands called?",
+      "options": {
+        "A": "Querying",
+        "B": "Normalising",
+        "C": "Indexing",
+        "D": "Compiling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Querying is the process of retrieving data from the database using commands, such as SQL SELECT statements.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S27-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Moore and Mealy Machines",
+      "concept": "Moore and Mealy machines belong to Type 3 automata theory",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Moore and Mealy machines are used in the automata theory of which Chomsky grammar type?",
+      "options": {
+        "A": "Type 0",
+        "B": "Type 2",
+        "C": "Type 3",
+        "D": "Type 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Both Moore and Mealy machines are finite automata models, which belong to Type 3 (regular).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S27-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Contiguous Memory Allocation",
+      "concept": "First fit allocation sequence and failure",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Free holes are 100 KB, 500 KB, 200 KB, 300 KB and 600 KB in that order. Processes of 212 KB, 417 KB, 112 KB and 426 KB arrive in that order. Using First Fit, which process cannot be allocated?",
+      "options": {
+        "A": "417 KB",
+        "B": "112 KB",
+        "C": "212 KB",
+        "D": "426 KB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "212 goes to 500 (288 left), 417 goes to 600 (183 left), 112 goes to the 288 hole (176 left). The remaining holes 100, 176, 200, 300 and 183 are all too small for 426 KB.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S27-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Generations of Languages",
+      "concept": "Language and generation pairing",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Which pairing of language and generation is correct?",
+      "options": {
+        "A": "SQL: 4th generation",
+        "B": "LISP: 3rd generation",
+        "C": "Assembly language: 1st generation",
+        "D": "COBOL: 4th generation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SQL, Perl, Python, Ruby and MatLab are 4th generation. COBOL is 3rd, assembly is 2nd and LISP is 5th generation.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

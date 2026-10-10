@@ -1,0 +1,681 @@
+{
+  "setId": 21,
+  "title": "Set 21",
+  "questions": [
+    {
+      "id": "S21-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Black box testing ignores internal design",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "In which testing technique is the internal design of the system not considered, with tests based only on inputs and expected outputs?",
+      "options": {
+        "A": "Unit code review",
+        "B": "White box testing",
+        "C": "Glass box testing",
+        "D": "Black box testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Black box testing does not consider internal system design; white box (glass box) testing examines the code.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Function Overloading",
+      "concept": "Same name different arguments is overloading",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "The declarations int test(); int test(int a); float test(double a); int test(int a, double b); in one C++ program illustrate:",
+      "options": {
+        "A": "Inline functions",
+        "B": "Function overloading",
+        "C": "Function overriding",
+        "D": "Recursion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Several functions sharing one name but differing in their argument lists is function overloading.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Canonical Forms",
+      "concept": "Identifying POS expression",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which of the following expressions is in POS (product of sums) form?",
+      "options": {
+        "A": "Y = AB + BC + CA",
+        "B": "Y = A'B + AB'",
+        "C": "Y = ABC + A'B'C'",
+        "D": "Y = (A + B)(B + C)(C + A)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "POS is a product of OR terms, such as (A + B)(B + C)(C + A); the others are sums of products (SOP).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development History",
+      "concept": "WWW creator and year",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "The World Wide Web was created by Sir Tim Berners-Lee in which year?",
+      "options": {
+        "A": "1989",
+        "B": "2014",
+        "C": "1969",
+        "D": "1993",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "WWW was created in 1989; 1993 is the year of HTML 1.0 and 2014 is HTML5.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "ALTER TABLE",
+      "concept": "MODIFY requires data type with constraint",
+      "source": "Generated",
+      "sourceRef": "04_PDF_16_TO_20.md",
+      "question": "SName in STUDENT is VARCHAR(20) and currently allows NULL. Which statement correctly adds the NOT NULL constraint to it in MySQL?",
+      "options": {
+        "A": "UPDATE STUDENT SET SName NOT NULL;",
+        "B": "ALTER TABLE STUDENT MODIFY SName VARCHAR(20) NOT NULL;",
+        "C": "ALTER TABLE STUDENT ADD NOT NULL(SName);",
+        "D": "ALTER TABLE STUDENT MODIFY SName NOT NULL;",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "When using MODIFY to change a constraint, the data type must be specified together with the constraint, so VARCHAR(20) NOT NULL is required.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "S21-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Branches of TOC",
+      "concept": "Automata theory as study of abstract machines",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "Which branch of Theory of Computation is defined as the study of abstract machines and the problems they can solve?",
+      "options": {
+        "A": "Computability theory",
+        "B": "Graph theory",
+        "C": "Automata theory",
+        "D": "Computational complexity theory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Automata theory studies abstract machines (automata) and the problems they can solve.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Logic Gates",
+      "concept": "XNOR gate behaviour",
+      "source": "Generated",
+      "sourceRef": "09_PDF_41_TO_42.md",
+      "question": "Which gate gives a high output when both inputs are low and also when both inputs are high, but low otherwise?",
+      "options": {
+        "A": "NAND",
+        "B": "XOR",
+        "C": "XNOR",
+        "D": "NOR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "XNOR outputs true when both inputs are equal. NOR is high only when both inputs are low.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S21-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Deque using Python List",
+      "concept": "Deque operations trace on a list",
+      "source": "Generated",
+      "sourceRef": "03_PDF_11_TO_15.md",
+      "question": "What is the output of the following code?\nd = []\nd.insert(0, 1)\nd.append(2)\nd.insert(0, 3)\nd.pop()\nprint(d)",
+      "options": {
+        "A": "[3, 1, 2]",
+        "B": "[3, 1]",
+        "C": "[1, 3]",
+        "D": "[1, 2]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "After the operations the list is [3, 1, 2]. pop() with no index removes the rear element 2, leaving [3, 1].",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Short-Range IoT Networks",
+      "concept": "Bluetooth IEEE standard and range",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Which option correctly gives the IEEE standard and approximate range of Bluetooth?",
+      "options": {
+        "A": "IEEE 802.15.1, about 10 meters",
+        "B": "IEEE 802.15.4, about 10 meters",
+        "C": "IEEE 802.11, about 100 meters",
+        "D": "IEEE 802.15.1, about 4 centimeters",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bluetooth is IEEE 802.15.1 with a range of about 30 feet (10 meters). 802.15.4 is Zigbee, 802.11 is Wi-Fi, and 4 cm is NFC.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Kleene Star and Kleene Plus",
+      "concept": "Kleene star symbol",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "Which symbol is used to denote the Kleene star operation?",
+      "options": {
+        "A": "|",
+        "B": "?",
+        "C": "+",
+        "D": "*",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Kleene star is written as '*' and includes the null string; '+' is Kleene plus.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT32 maximum file size",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "What is the maximum size of a single file in the FAT32 file system?",
+      "options": {
+        "A": "16 exabytes",
+        "B": "4 GB",
+        "C": "16 GB",
+        "D": "2 GB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "FAT32 limits a single file to 4 GB; exFAT raises the limit to 16 exabytes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S21-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Types",
+      "concept": "Interface testing validates the GUI",
+      "source": "Generated",
+      "sourceRef": "16_PDF_103_TO_114.md",
+      "question": "Interface testing, as listed among software testing types, mainly validates:",
+      "options": {
+        "A": "Repeated manual use of one module",
+        "B": "The program's behaviour at range limits",
+        "C": "The database tables behind the application",
+        "D": "The GUI against business requirements",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Interface testing is GUI testing that validates the GUI as per business requirements. The other options describe back-end, boundary value and gorilla testing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "cin and cout are stream objects",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "In C++, cin and cout are predefined:",
+      "options": {
+        "A": "Operators of the iostream library",
+        "B": "Objects of the input and output streams",
+        "C": "Keywords reserved by the compiler",
+        "D": "Functions declared in main()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "cin is an object of the input stream and cout is an object of the output stream, both provided by iostream.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "SRTF Scheduling",
+      "concept": "SRTF average waiting time calculation",
+      "source": "Generated",
+      "sourceRef": "14_PDF_83_TO_92.md",
+      "question": "Under SRTF, P1 arrives at 0 (burst 8), P2 at 1 (burst 4), P3 at 2 (burst 9) and P4 at 3 (burst 5). What is the average waiting time?",
+      "options": {
+        "A": "6.5 ms",
+        "B": "5.25 ms",
+        "C": "8.75 ms",
+        "D": "7.75 ms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Timeline: P1 0-1, P2 1-5, P4 5-10, P1 10-17, P3 17-26. Waiting times are P1 = 9, P2 = 0, P3 = 15, P4 = 2, so 26 / 4 = 6.5 ms. Non-preemptive SJF would give 7.75 ms.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Payment Systems",
+      "concept": "NEFT full form",
+      "source": "Generated",
+      "sourceRef": "11_PDF_53_TO_62.md",
+      "question": "In Indian payment systems, NEFT stands for:",
+      "options": {
+        "A": "New Electronic Fund Transmission",
+        "B": "National E-commerce Fund Treasury",
+        "C": "National Electronic Funds Transfer",
+        "D": "Net Electronic Finance Transaction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NEFT is National Electronic Funds Transfer.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S21-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Operator Precedence",
+      "concept": "Evaluating 2 + 3 * 4 ^ 2 using precedence rules",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "Using the operator precedence order (parentheses, then ^, then * and /, then + and -), what is the value of 2 + 3 * 4 ^ 2 ?",
+      "options": {
+        "A": "38",
+        "B": "50",
+        "C": "400",
+        "D": "144",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "4 ^ 2 = 16 is computed first, then 3 * 16 = 48, then 2 + 48 = 50. Ignoring precedence gives values such as 400 or 144.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S21-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Tuple Operations",
+      "concept": "Adding one element to a tuple needs a trailing comma",
+      "source": "Generated",
+      "sourceRef": "02_PDF_06_TO_10.md",
+      "question": "Given t = (1, 2, 3), which statement correctly creates a new tuple with 4 added at the end?",
+      "options": {
+        "A": "t = t + (4)",
+        "B": "t = t + 4",
+        "C": "t = t + (4,)",
+        "D": "t.append(4)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A tuple can only be concatenated with another tuple, and a one-element tuple needs a trailing comma. (4) is just the integer 4, and tuples have no append().",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Hierarchy",
+      "concept": "Ascending order of database hierarchy",
+      "source": "Generated",
+      "sourceRef": "10_PDF_43_TO_52.md",
+      "question": "Which sequence correctly arranges the database hierarchy from the smallest unit to the largest?",
+      "options": {
+        "A": "Byte, Field, Record, File, Database",
+        "B": "Field, Byte, Record, Database, File",
+        "C": "Byte, Field, File, Record, Database",
+        "D": "Byte, Record, Field, File, Database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A byte (8 bits) forms fields, fields form records, records form files or tables, and files form a database.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IEEE Standards",
+      "concept": "IEEE 802.2 Logical Link Control",
+      "source": "Generated",
+      "sourceRef": "13_PDF_73_TO_82.md",
+      "question": "IEEE 802.2 is the standard for:",
+      "options": {
+        "A": "Ethernet",
+        "B": "Cable Modems",
+        "C": "Token Bus",
+        "D": "Logical Link Control",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "802.2 is LLC; 802.3 Ethernet, 802.4 Token Bus and 802.14 Cable Modems.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "S21-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Hackers and Crackers",
+      "concept": "Hacktivists aim for political or social change",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "Hackers whose aim is to bring about political or social change are called:",
+      "options": {
+        "A": "Grey hat hackers",
+        "B": "Penetration testers",
+        "C": "Hacktivists",
+        "D": "Crackers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Hacktivists are hackers aiming for political or social change; grey hats hack for challenge or fun without monetary or political motives.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Terminology",
+      "concept": "Counting internal nodes and depth together",
+      "source": "Generated",
+      "sourceRef": "15_PDF_93_TO_102.md",
+      "question": "In a tree, root P has children Q and R; Q has children S and T; T has child U. How many internal nodes are there, and what is the depth of node U?",
+      "options": {
+        "A": "3 internal nodes, depth 4",
+        "B": "4 internal nodes, depth 3",
+        "C": "2 internal nodes, depth 3",
+        "D": "3 internal nodes, depth 3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Internal nodes (at least one child) are P, Q and T, so 3. Depth of U is the number of edges from the root: P-Q-T-U = 3.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "S21-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Protocols",
+      "concept": "Why UDP suits real-time applications",
+      "source": "Generated",
+      "sourceRef": "06_PDF_26_TO_30.md",
+      "question": "Why is UDP commonly used for video streaming and online gaming?",
+      "options": {
+        "A": "It encrypts traffic using SSL/TLS",
+        "B": "It guarantees ordered, acknowledged delivery",
+        "C": "It reserves a dedicated circuit for the session",
+        "D": "It is fast because it is connectionless",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "UDP is connectionless with low overhead, making it fast; guaranteed ordered delivery is a TCP feature.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Combating Malware",
+      "concept": "Closing pop-ups with the X icon",
+      "source": "Generated",
+      "sourceRef": "05_PDF_21_TO_25.md",
+      "question": "A pop-up window claims the system is infected and shows its own 'Close' button. As per safe practice for combating malware, the user should:",
+      "options": {
+        "A": "click the pop-up link to run a free online scan",
+        "B": "click the Close button provided inside the pop-up",
+        "C": "close it using the window's X icon, not the button inside the pop-up",
+        "D": "install the antivirus program offered by the pop-up",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Pop-up windows should be closed using the X icon instead of the close button inside the pop-up, and anti-spyware or antivirus programs offered through pop-ups should never be installed.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "S21-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Cache Memory",
+      "concept": "Cache miss",
+      "source": "Generated",
+      "sourceRef": "12_PDF_63_TO_72.md",
+      "question": "When the data or word requested by the CPU is not found in cache memory, the event is called a:",
+      "options": {
+        "A": "Miss",
+        "B": "Hit",
+        "C": "Fault",
+        "D": "Swap",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Finding data in cache is a hit; not finding it is a miss.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "S21-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "ChatGPT",
+      "concept": "Full form of GPT",
+      "source": "Generated",
+      "sourceRef": "07_PDF_31_TO_35.md",
+      "question": "In ChatGPT, what does GPT stand for?",
+      "options": {
+        "A": "Generative Pre-trained Transformer",
+        "B": "Generative Programmed Translator",
+        "C": "Graphical Pre-trained Technology",
+        "D": "General Purpose Transformer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "GPT stands for Generative Pre-trained Transformer.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}
