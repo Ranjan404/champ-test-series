@@ -1,7 +1,7 @@
 "use client";
 import * as RadioGroup from "@radix-ui/react-radio-group";
 import * as Checkbox from "@radix-ui/react-checkbox";
-import { Check, X } from "lucide-react";
+import { Check, CircleCheck, X } from "lucide-react";
 import { useId } from "react";
 import { cn } from "@/lib/utils";
 import type { Letter, OptionKey, PublicQuestion } from "@/lib/types";
@@ -68,7 +68,7 @@ function OptionRow({
       </span>
       {state === "right" && <Check className="mt-0.5 size-5 shrink-0 text-success" aria-label="Correct" />}
       {state === "wrong" && <X className="mt-0.5 size-5 shrink-0 text-danger" aria-label="Wrong" />}
-      {state === "missed" && <span className="mt-0.5 shrink-0 rounded bg-success px-1.5 py-0.5 text-[11px] font-bold text-white">Correct answer</span>}
+      {state === "missed" && <CircleCheck className="mt-0.5 size-5 shrink-0 text-success" strokeWidth={2.5} aria-label="Correct answer" />}
     </label>
   );
 }
