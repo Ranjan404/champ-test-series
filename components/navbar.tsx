@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { CalendarDays, LayoutDashboard, ListChecks, LogOut, Menu, X } from "lucide-react";
+import { CalendarDays, GraduationCap, LayoutDashboard, ListChecks, LogOut, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Logo } from "./logo";
 
@@ -10,7 +10,10 @@ const links = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/practice", label: "Practice Sets", icon: ListChecks },
   { href: "/daily", label: "Daily Question", icon: CalendarDays },
+  { href: "/dashboard/bpsc-tre4", label: "GK/GS", icon: GraduationCap },
 ];
+
+const matches = (pathname: string, href: string) => pathname === href || pathname.startsWith(href + "/");
 
 async function logout() {
   await fetch("/api/auth/logout", { method: "POST" }).catch(() => null);
@@ -21,7 +24,8 @@ export function Navbar({ username }: { username: string }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   useEffect(() => setOpen(false), [pathname]);
-  const active = (href: string) => pathname === href || pathname.startsWith(href + "/");
+  // Most specific link wins, so /dashboard/bpsc-tre4 doesn't also light up Dashboard.
+  const active = (href: string) => matches(pathname, href) && !links.some((l) => l.href.length > href.length && matches(pathname, l.href));
 
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur supports-[backdrop-filter]:bg-background/70">
