@@ -11,6 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { ResetButton } from "@/components/reset-button";
+import { PRACTICE_DURATION_SECONDS } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = { title: "Practice Sets" };
@@ -46,7 +47,7 @@ function SetCard({ s }: { s: SetSummary }) {
           <p>
             Score <span className="font-mono font-bold">{formatScore(s.score!)}</span>
             <span className="text-muted-foreground"> / {s.total}</span>
-            {s.attempts > 1 && <span className="block text-xs text-muted-foreground">Best {formatScore(s.bestScore!)} · {s.attempts} attempts</span>}
+            {s.attemptNo > 1 && <span className="block text-xs text-muted-foreground">Attempt {s.attemptNo}</span>}
           </p>
         )}
         {s.status === "in_progress" && (
@@ -55,8 +56,8 @@ function SetCard({ s }: { s: SetSummary }) {
             <Progress value={(s.answered / s.total) * 100} label={`Set ${s.setId} progress`} />
           </div>
         )}
-        {s.status === "not_started" && !locked && <p className="text-muted-foreground">{s.total} questions · not started</p>}
-        {locked && <p className="text-muted-foreground">Answer all questions of Set {s.setId - 1} to unlock.</p>}
+        {s.status === "not_started" && !locked && <p className="text-muted-foreground">{s.total} questions · {PRACTICE_DURATION_SECONDS / 60} minutes</p>}
+        {locked && <p className="text-muted-foreground">Submit Set {s.setId - 1} to unlock.</p>}
       </div>
 
       <div className="mt-4 flex flex-wrap gap-2">
@@ -104,8 +105,9 @@ export default async function PracticePage() {
         <Badge className="px-3 py-1 text-sm">{unlocked} unlocked</Badge>
       </PageHeader>
       <p className="-mt-3 mb-6 max-w-2xl text-sm text-muted-foreground sm:-mt-5">
-        Each set has 25 questions from across the syllabus. Correct +1, wrong -1/3, Not Attempted 0. Answer every question in a set to unlock
-        the next one. Unlocked sets stay unlocked even if you reset.
+        Each set has 25 questions from across the syllabus and a {PRACTICE_DURATION_SECONDS / 60}-minute timer. Move freely with Save &amp; Next
+        and Previous, then Submit to see your score, the correct answers and explanations. Correct +1, wrong -1/3, Not Attempted 0. Submitting
+        a set unlocks the next one. Retaking a set replaces its previous result; unlocked sets stay unlocked.
       </p>
       <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
         {list.map((s) => (

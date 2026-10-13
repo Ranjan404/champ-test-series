@@ -1,31 +1,47 @@
-import type { Progress, PublicQuestion, QuestionSet, SetStatus } from "./types";
-import { netScore } from "./scoring";
+import type { OptionKey, PublicQuestion, QuestionSet, SetProgress } from "./types";
+import { PRACTICE_DURATION_SECONDS } from "./types";
+import { practiceDeadline } from "./progress";
 import { toPublic } from "./questions";
 
-export interface TestState {
+/** What the practice test runner gets: no answers, topics or difficulty until the set is submitted. */
+export interface PracticeAttemptState {
   setId: number;
   title: string;
-  total: number;
-  status: SetStatus;
-  currentIndex: number;
-  score: number;
-  counts: { correct: number; incorrect: number; notAttempted: number };
-  /** The question to answer now, without answer/topic/difficulty. Null once the set is completed. */
-  question: PublicQuestion | null;
+  attemptNo: number;
+  startedAt: string;
+  deadline: number;
+  durationSeconds: number;
+  answers: Record<string, OptionKey[]>;
+  marked: string[];
+  current: number;
+  questions: PublicQuestion[];
 }
 
-export function buildTestState(set: QuestionSet, progress: Progress): TestState {
-  const sp = progress.sets[set.setId];
-  const currentIndex = sp?.currentIndex ?? 0;
-  const done = sp?.status === "completed";
+export type PracticeStart =
+  | { status: "completed"; setId: number }
+  | {
+      status: "in_progress";
+      /** Server clock, so the browser timer can correct for a skewed device clock. */
+      serverNow: number;
+      attempt: PracticeAttemptState;
+    };
+
+export function buildPracticeStart(set: QuestionSet, sp: SetProgress, now = Date.now()): PracticeStart {
+  if (sp.status === "completed") return { status: "completed", setId: set.setId };
   return {
-    setId: set.setId,
-    title: set.title,
-    total: set.questions.length,
-    status: sp?.status ?? "not_started",
-    currentIndex,
-    score: sp ? netScore(sp.correct, sp.incorrect) : 0,
-    counts: { correct: sp?.correct ?? 0, incorrect: sp?.incorrect ?? 0, notAttempted: sp?.notAttempted ?? 0 },
-    question: done ? null : toPublic(set.questions[currentIndex]),
+    status: "in_progress",
+    serverNow: now,
+    attempt: {
+      setId: set.setId,
+      title: set.title,
+      attemptNo: sp.attemptNo,
+      startedAt: sp.startedAt,
+      deadline: practiceDeadline(sp),
+      durationSeconds: PRACTICE_DURATION_SECONDS,
+      answers: sp.answers,
+      marked: sp.marked ?? [],
+      current: sp.currentIndex,
+      questions: set.questions.map(toPublic),
+    },
   };
 }

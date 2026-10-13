@@ -7,6 +7,7 @@ import { getProgress } from "@/lib/store";
 import { getAllSets, getSet, parseSetId } from "@/lib/questions";
 import { buildSetReport } from "@/lib/report";
 import { formatScore } from "@/lib/scoring";
+import { formatDuration } from "@/lib/bpsc";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -74,7 +75,14 @@ export default async function ResultPage({ params }: Props) {
             </p>
             <p className="mt-1 text-sm text-muted-foreground">
               Percentage <span className="font-semibold text-foreground">{s.percentage}%</span> · net marks after +1 / -1/3 / 0
+              {r.timeTaken !== null && (
+                <>
+                  {" "}
+                  · Time <span className="font-semibold text-foreground">{formatDuration(r.timeTaken)}</span> of {formatDuration(r.durationSeconds)}
+                </>
+              )}
             </p>
+            {r.timedOut && <p className="mt-1 text-sm text-muted-foreground">Time ran out; the set was submitted automatically with your saved answers.</p>}
             {delta !== null && (
               <p className={cn("mt-2 inline-flex items-center gap-1.5 text-sm font-semibold", delta >= 0 ? "text-success" : "text-danger")}>
                 {delta >= 0 ? <TrendingUp className="size-4" /> : <TrendingDown className="size-4" />}
@@ -253,7 +261,7 @@ export default async function ResultPage({ params }: Props) {
 
       <div className="grid gap-4 sm:gap-6 lg:grid-cols-5">
         {/* Revision plan */}
-        <Section title="Revision plan" description="In priority order. Repeated weaknesses from your other sets and earlier attempts rank higher." className="lg:col-span-3">
+        <Section title="Revision plan" description="In priority order. Repeated weaknesses from your other sets rank higher." className="lg:col-span-3">
           {r.revisionPlan.length === 0 ? (
             <p className="text-sm text-muted-foreground">No revision needed from this set.</p>
           ) : (

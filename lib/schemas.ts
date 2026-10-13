@@ -46,9 +46,17 @@ export const loginSchema = z.object({
   password: z.string().min(1).max(256),
 });
 
-export const answerSchema = z.object({
-  questionId: z.string().regex(/^S\d{2}-Q\d{2}$/),
-  answer: z.array(z.enum(["A", "B", "C", "D", "E"])).min(1).max(4),
+const practiceQuestionId = z.string().regex(/^S\d{2}-Q\d{2}$/);
+const practiceAnswers = z.record(practiceQuestionId, z.array(z.enum(["A", "B", "C", "D", "E"])).max(4));
+
+export const practiceSaveSchema = z.object({
+  answers: practiceAnswers,
+  marked: z.array(practiceQuestionId).max(25).default([]),
+  current: z.number().int().min(0).max(24).default(0),
+});
+
+export const practiceSubmitSchema = z.object({
+  answers: practiceAnswers,
 });
 
 export const dailySetSchema = z.object({

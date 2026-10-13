@@ -46,10 +46,10 @@ export function ResetButton({
         </Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
-        <AlertDialogTitle>Reset Set {setId}?</AlertDialogTitle>
+        <AlertDialogTitle>Retake Set {setId}?</AlertDialogTitle>
         <AlertDialogDescription>
-          This deletes your answers and score for this attempt so you can start Set {setId} again from Question 1. Sets you have already unlocked
-          stay unlocked, and finished attempts stay in your score history.
+          This clears your answers so you can start Set {setId} again from Question 1 with a fresh timer. Your new result replaces the previous
+          one when you submit. Sets you have already unlocked stay unlocked.
         </AlertDialogDescription>
         {error && <p className="text-sm font-medium text-danger">{error}</p>}
         <AlertDialogFooter>

@@ -1,5 +1,5 @@
 import type { Difficulty, Letter, OptionKey, Progress, Question, QuestionSet, SetStatus } from "./types";
-import { TOTAL_SETS } from "./types";
+import { PRACTICE_DURATION_SECONDS, TOTAL_SETS } from "./types";
 import { evaluate, netScore, round2, wrongLetters } from "./scoring";
 import { isUnlocked, setStatus } from "./progress";
 
@@ -192,16 +192,20 @@ export function buildSetReport(set: QuestionSet, progress: Progress, allSets: Qu
     explanation: r.q.explanation,
   }));
 
-  const attempts = progress.history.filter((h) => h.setId === set.setId);
-  const previous = attempts.length >= 2 ? attempts[attempts.length - 2] : null;
+  const timeTaken =
+    sp?.completedAt && sp.marked ? Math.min(PRACTICE_DURATION_SECONDS, Math.round((Date.parse(sp.completedAt) - Date.parse(sp.startedAt)) / 1000)) : null;
 
   return {
     setId: set.setId,
     title: set.title,
     attemptNo: sp?.attemptNo ?? 1,
     completedAt: sp?.completedAt ?? null,
+    /** Seconds; null for attempts from before practice sets were timed. */
+    timeTaken,
+    durationSeconds: PRACTICE_DURATION_SECONDS,
+    timedOut: sp?.timedOut ?? false,
     summary: { score, total: rows.length, percentage: round2((score / rows.length) * 100), correct, incorrect, notAttempted },
-    previousScore: previous?.score ?? null,
+    previousScore: sp?.previousScore ?? null,
     topics,
     difficulty,
     strongTopics,
@@ -249,8 +253,8 @@ export type SetSummary = {
   answered: number;
   total: number;
   score: number | null;
-  bestScore: number | null;
-  attempts: number;
+  /** Number of the latest attempt (0 if never taken). A retake replaces the previous result. */
+  attemptNo: number;
 };
 
 export function buildSetList(progress: Progress, allSets: QuestionSet[]): SetSummary[] {
@@ -258,18 +262,16 @@ export function buildSetList(progress: Progress, allSets: QuestionSet[]): SetSum
     const setId = i + 1;
     const set = allSets.find((s) => s.setId === setId);
     const sp = progress.sets[setId];
-    const attempts = progress.history.filter((h) => h.setId === setId);
     return {
       setId,
       title: set?.title ?? `Set ${setId}`,
       status: setStatus(progress, setId),
       unlocked: isUnlocked(progress, setId),
       available: !!set,
-      answered: sp?.currentIndex ?? 0,
+      answered: sp ? Object.keys(sp.answers).length : 0,
       total: set?.questions.length ?? 25,
-      score: sp ? netScore(sp.correct, sp.incorrect) : null,
-      bestScore: attempts.length ? Math.max(...attempts.map((a) => a.score)) : null,
-      attempts: attempts.length,
+      score: sp?.status === "completed" ? netScore(sp.correct, sp.incorrect) : null,
+      attemptNo: sp?.attemptNo ?? progress.history.findLast((h) => h.setId === setId)?.attemptNo ?? 0,
     };
   });
 }

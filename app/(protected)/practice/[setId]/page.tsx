@@ -4,8 +4,7 @@ import { requireUser } from "@/lib/session";
 import { getProgress } from "@/lib/store";
 import { getSet, parseSetId } from "@/lib/questions";
 import { isUnlocked } from "@/lib/progress";
-import { buildTestState } from "@/lib/test-state";
-import { TestRunner } from "@/components/test-runner";
+import { PracticeTest } from "@/components/practice-test-runner";
 
 type Props = { params: Promise<{ setId: string }> };
 
@@ -20,7 +19,7 @@ export default async function TestPage({ params }: Props) {
   if (!set) notFound();
   const progress = await getProgress(user.id);
   if (!isUnlocked(progress, set.setId)) redirect("/practice");
-  const state = buildTestState(set, progress);
-  if (state.status === "completed") redirect(`/practice/${set.setId}/result`);
-  return <TestRunner initial={state} />;
+  if (progress.sets[set.setId]?.status === "completed") redirect(`/practice/${set.setId}/result`);
+  // The timer starts (or resumes) from the browser, so a link prefetch never starts it.
+  return <PracticeTest key={set.setId} setId={set.setId} />;
 }

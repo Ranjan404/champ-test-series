@@ -5,6 +5,8 @@ export type OptionKey = (typeof ALL_OPTIONS)[number];
 
 export const TOTAL_SETS = 50;
 export const QUESTIONS_PER_SET = 25;
+/** Practice sets are timed like the Daily Question: 25 minutes for 25 questions. */
+export const PRACTICE_DURATION_SECONDS = 25 * 60;
 
 export type Difficulty = "Easy" | "Medium" | "Hard";
 export type QuestionType = "single" | "multiple";
@@ -56,16 +58,26 @@ export interface User {
 
 export type SetStatus = "not_started" | "in_progress" | "completed";
 
+/** A practice attempt. Answers are saved on Save & Next / Previous / palette jumps and scored on Submit. */
 export interface SetProgress {
   status: Exclude<SetStatus, "not_started">;
   answers: Record<string, OptionKey[]>;
+  /** Marked for review. Missing on attempts started before practice sets were timed. */
+  marked?: string[];
+  /** The question on screen while in progress. */
   currentIndex: number;
+  /** Filled in on submit. */
   correct: number;
   incorrect: number;
   notAttempted: number;
+  /** Also the timer start: the attempt ends PRACTICE_DURATION_SECONDS later. */
   startedAt: string;
   completedAt?: string;
   attemptNo: number;
+  /** Submitted by the timer rather than the candidate. */
+  timedOut?: boolean;
+  /** Score of the attempt this one replaced, if any. */
+  previousScore?: number;
 }
 
 export interface HistoryEntry {
@@ -125,16 +137,3 @@ export interface DailyProgress {
 }
 
 export type AnswerResult = "correct" | "incorrect" | "not_attempted";
-
-export interface AnswerFeedback {
-  result: AnswerResult;
-  yourAnswer: OptionKey[];
-  correct: Letter[];
-  marks: number;
-  explanation: string;
-  score: number;
-  answered: number;
-  total: number;
-  completed: boolean;
-  nextUnlocked: number | null;
-}
