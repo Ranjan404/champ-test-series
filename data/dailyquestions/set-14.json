@@ -1,0 +1,681 @@
+{
+  "setId": 14,
+  "title": "Daily Set 14",
+  "questions": [
+    {
+      "id": "D14-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Hash table definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q5",
+      "question": "What is a hash table?",
+      "options": {
+        "A": "A structure that maps values to keys",
+        "B": "A structure that maps keys to values",
+        "C": "A structure that stores elements only in sorted order",
+        "D": "A structure used to implement stacks and queues",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A hash table stores key-value pairs and uses a hash function on the key to locate the associated value, i.e. it maps keys to values.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D14-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "MUX select lines",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p9",
+      "question": "How many select lines are required for a 16-to-1 multiplexer?",
+      "options": {
+        "A": "16",
+        "B": "4",
+        "C": "2",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A MUX with 2^n inputs needs n select lines; 16 = 2^4, so 4 select lines.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D14-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Super key vs candidate key",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "Which statement about database keys is correct?",
+      "options": {
+        "A": "A foreign key must always be unique in its own table",
+        "B": "A candidate key is a minimal super key",
+        "C": "Every super key is a candidate key",
+        "D": "A table can have only one candidate key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A super key is any set of attributes that uniquely identifies rows; a candidate key is a super key with no redundant attributes.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Edge Computing",
+      "concept": "Edge computing reduces latency",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q304",
+      "question": "In IoT, what is the main advantage of using edge computing over cloud computing for data processing?",
+      "options": {
+        "A": "Lower costs",
+        "B": "More data storage options",
+        "C": "Reduced latency in data processing",
+        "D": "Higher security",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Edge computing processes data near the devices that produce it, avoiding round trips to a distant cloud and so reducing latency.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Topology statements",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "Which statement is correct?",
+      "options": {
+        "A": "Bus topology has the best fault tolerance",
+        "B": "Ring topology requires a central hub",
+        "C": "Mesh topology is used in home automation and is bi-directional",
+        "D": "Star topology uses token passing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Mesh topology uses bi-directional point-to-point links and is common in home automation (e.g. Zigbee and Z-Wave mesh networks). Bus has poor fault tolerance, star (not ring) uses a central hub, and ring (not star) uses token passing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Back-end DB tools",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Which of the following are database tools commonly used in back-end development?",
+      "options": {
+        "A": "React and Angular",
+        "B": "HTML and CSS",
+        "C": "MySQL and Oracle",
+        "D": "Photoshop and Illustrator",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MySQL and Oracle are database systems used on the server side.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D14-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "raise",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword is used to manually throw (raise) an exception in Python?",
+      "options": {
+        "A": "except",
+        "B": "throw",
+        "C": "assert",
+        "D": "raise",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Python uses raise to trigger an exception; 'throw' is used in Java and C++.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D14-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "IaaS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "What is the full form of IaaS?",
+      "options": {
+        "A": "Internet as a Service",
+        "B": "Information as a Service",
+        "C": "Integration as a Service",
+        "D": "Infrastructure as a Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IaaS stands for Infrastructure as a Service.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D14-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterm and Maxterm",
+      "concept": "Minterm definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "A minterm is:",
+      "options": {
+        "A": "A product (AND) term containing all variables",
+        "B": "Any single variable",
+        "C": "A sum (OR) term containing all variables",
+        "D": "A term that always equals 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A minterm is an AND term of all variables, each true or complemented; it equals 1 for exactly one input combination. OR terms are maxterms.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D14-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "Data link protocols",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "Which of the following protocols belongs to the Data Link layer?",
+      "options": {
+        "A": "PPP",
+        "B": "HTTP",
+        "C": "UDP",
+        "D": "ICMP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "PPP (Point-to-Point Protocol), SLIP and NCP (Network Control Protocol) are Data Link layer protocols; HTTP is Application, ICMP Network and UDP Transport.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "Purpose of normalization",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q57",
+      "question": "Normalization is the process of organizing data in a database in order to:",
+      "options": {
+        "A": "Increase redundancy for faster reads",
+        "B": "Create automatic backups",
+        "C": "Reduce data redundancy and improve data integrity",
+        "D": "Encrypt sensitive columns",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Normalization decomposes tables according to normal forms to eliminate redundant data and update anomalies, improving integrity. Deliberately adding redundancy is denormalization.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Exabyte relation",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "1 Exabyte (EB) is equal to:",
+      "options": {
+        "A": "1024 ZB",
+        "B": "1024 PB",
+        "C": "1024 TB",
+        "D": "1024 GB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The order is TB, PB, EB, ZB; so 1 EB = 1024 PB = 2^60 bytes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "DFS traversal types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "Which of the following is NOT a depth-first tree traversal?",
+      "options": {
+        "A": "Level order traversal",
+        "B": "Preorder traversal",
+        "C": "Inorder traversal",
+        "D": "Postorder traversal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Preorder, inorder and postorder are depth-first traversals; level order is breadth-first.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption",
+      "concept": "AES symmetric",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p44",
+      "question": "Which of the following is an example of a symmetric encryption algorithm?",
+      "options": {
+        "A": "AES",
+        "B": "RSA",
+        "C": "ECC",
+        "D": "Diffie-Hellman",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "AES uses a single shared key; RSA, Diffie-Hellman and ECC are public-key (asymmetric) techniques.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D14-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Commands",
+      "concept": "ipconfig",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q208",
+      "question": "The ipconfig command is mainly used to:",
+      "options": {
+        "A": "Display the IP address configuration",
+        "B": "Trace the route to a remote host",
+        "C": "Find the list of nearby networks",
+        "D": "Test name resolution with DNS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ipconfig shows the IP address, subnet mask and default gateway of network adapters in Windows. tracert traces routes and nslookup queries DNS.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Generations",
+      "concept": "Second generation hardware",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Transistors were the main hardware component of which generation of computers?",
+      "options": {
+        "A": "Fourth",
+        "B": "Second",
+        "C": "Third",
+        "D": "First",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Second-generation computers (around 1955-64) replaced vacuum tubes with transistors.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D14-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Dot operator",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "In Boolean algebra, the dot (.) operator represents which operation?",
+      "options": {
+        "A": "AND",
+        "B": "XOR",
+        "C": "NOT",
+        "D": "OR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The dot (.) denotes AND (logical multiplication), while plus (+) denotes OR.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Languages",
+      "concept": "Languages used in AI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Which of the following languages is NOT commonly used for AI development?",
+      "options": {
+        "A": "Scala",
+        "B": "Haskell",
+        "C": "Julia",
+        "D": "COBOL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Languages used in AI include Python, Lisp, Java, JavaScript, C++, Prolog, Julia, Haskell, Scala and R. COBOL is a business-oriented language.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D14-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Time Complexity",
+      "concept": "Theta tight bound",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Theta (Θ) notation represents:",
+      "options": {
+        "A": "The tightest bound (upper and lower bound together)",
+        "B": "Only the upper bound",
+        "C": "The space complexity",
+        "D": "Only the lower bound",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Theta bounds a function from both above and below, giving the tight bound.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "Match file system to OS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "Which pairing of file system and operating system is INCORRECT?",
+      "options": {
+        "A": "APFS: iOS",
+        "B": "NTFS: Windows 10",
+        "C": "EXT4: Linux",
+        "D": "HFS+: Android",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "HFS+ is an Apple (Mac OS) file system; Android uses EXT3/EXT4 and FAT32.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D14-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Prototype model use",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "When customer requirements are unclear, which SDLC model builds a working sample early to gather feedback?",
+      "options": {
+        "A": "Big Bang model",
+        "B": "COCOMO model",
+        "C": "Waterfall model",
+        "D": "Prototype model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Prototype model builds a preliminary version for users to evaluate, helping clarify unclear requirements.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "NOW function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "Which SQL function returns the current system date and time?",
+      "options": {
+        "A": "FORMAT()",
+        "B": "NOW()",
+        "C": "MID()",
+        "D": "LAST()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "NOW() returns the current date and time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "class",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword is used to define a class in Python?",
+      "options": {
+        "A": "struct",
+        "B": "def",
+        "C": "object",
+        "D": "class",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The class keyword creates a new class.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D14-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "CSS full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "What is the full form of CSS?",
+      "options": {
+        "A": "Colorful Style Syntax",
+        "B": "Computer Style Sheets",
+        "C": "Cascading Style Sheets",
+        "D": "Creative Style Sheets",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "CSS stands for Cascading Style Sheets.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D14-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Address-of operator",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q227",
+      "question": "The address of a variable, obtained using the unary operator &, is assigned to a:",
+      "options": {
+        "A": "Short",
+        "B": "Array",
+        "C": "Pointer",
+        "D": "Stack",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A pointer variable stores the memory address of another variable, e.g. int *p = &x;.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "setId": 22,
+  "title": "Daily Set 22",
+  "questions": [
+    {
+      "id": "D22-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "Scalar vs aggregate statement",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "Which statement is correct?",
+      "options": {
+        "A": "Scalar functions such as FORMAT() return a value for each input value",
+        "B": "LAST() is a scalar function that formats text",
+        "C": "FORMAT() is an aggregate function",
+        "D": "LCASE() returns the largest value in a column",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Scalar functions (UCASE, LCASE, MID, LEN, ROUND, NOW, FORMAT) operate on a single value; FORMAT controls how a field is displayed.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "Postfix evaluation",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "What is the value of the postfix expression 2 3 4 * + ?",
+      "options": {
+        "A": "14",
+        "B": "20",
+        "C": "9",
+        "D": "24",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Scan left to right: push 2, 3, 4; * gives 3*4 = 12; + gives 2+12 = 14.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D22-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterm and Maxterm",
+      "concept": "POS to maxterm list",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "Express F = (A+B+C)(A+B+C')(A+B'+C')(A'+B+C) as a product of maxterms.",
+      "options": {
+        "A": "ΠM(1, 2, 3, 4)",
+        "B": "ΠM(0, 1, 3, 4)",
+        "C": "ΠM(7, 6, 4, 3)",
+        "D": "ΠM(0, 1, 2, 4)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "With unprimed = 0 and primed = 1: 000 = 0, 001 = 1, 011 = 3, 100 = 4, so F = ΠM(0,1,3,4).",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D22-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Topology definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p13",
+      "question": "Network topology refers to the:",
+      "options": {
+        "A": "Protocol used for email",
+        "B": "Speed of data transmission",
+        "C": "Physical or logical layout of a network",
+        "D": "Type of operating system used",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Topology is the physical or logical layout describing how computers are connected and how data flows between them.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "Purpose of normalization",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q122",
+      "question": "By normalizing relations, one minimizes:",
+      "options": {
+        "A": "Redundancy",
+        "B": "Database",
+        "C": "Data",
+        "D": "Fields",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Normalization decomposes relations to reduce data redundancy and the update anomalies it causes.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D22-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "GCC full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p25",
+      "question": "GCC stands for:",
+      "options": {
+        "A": "GNU Code Converter",
+        "B": "Global Compiler Core",
+        "C": "General C Compiler",
+        "D": "GNU Compiler Collection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "GCC is the GNU Compiler Collection, which compiles C, C++ and other languages.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D22-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "LIFO",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q207",
+      "question": "What is the primary principle of operation of a stack data structure?",
+      "options": {
+        "A": "Random access by index",
+        "B": "Priority-based removal",
+        "C": "LIFO (Last In, First Out)",
+        "D": "FIFO (First In, First Out)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A stack inserts and removes elements at the same end (top), so the last element pushed is the first popped.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Types",
+      "concept": "Extranet",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "Two companies share part of their private networks with each other for business collaboration. This is an example of a(n):",
+      "options": {
+        "A": "Internet",
+        "B": "PAN",
+        "C": "Intranet",
+        "D": "Extranet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An extranet extends an intranet to authorized outside parties such as partner companies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Basics",
+      "concept": "SEQUEL full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q52",
+      "question": "SEQUEL, the original name of SQL, stands for:",
+      "options": {
+        "A": "Systematic English Query Language",
+        "B": "Structured English Query Language",
+        "C": "Sequential English Query Language",
+        "D": "Structured English Quantum Language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SQL was developed at IBM as SEQUEL, Structured English Query Language, and later renamed SQL.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D22-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary to Hexadecimal",
+      "concept": "1010111100 to hex",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "Convert (1010111100)2 into hexadecimal.",
+      "options": {
+        "A": "AF0",
+        "B": "2BE",
+        "C": "2BC",
+        "D": "ABC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Group into 4 bits from the right: 10 1011 1100 = 2 B C, so the answer is (2BC)16.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D22-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "ZigBee supported topologies",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q11",
+      "question": "Which network topology is NOT supported by ZigBee networks (including ZigBee Smart Energy)?",
+      "options": {
+        "A": "Ring",
+        "B": "Mesh",
+        "C": "Cluster tree",
+        "D": "Star",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ZigBee (IEEE 802.15.4 based) supports star, cluster-tree and mesh topologies; ring topology is not one of its supported topologies.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D22-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Basics",
+      "concept": "Execution flow",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which sequence correctly shows how a Python program is executed?",
+      "options": {
+        "A": "Source code -> Machine code -> Linker",
+        "B": "Source code -> Byte code -> Python Virtual Machine",
+        "C": "Source code -> Assembly code -> Loader",
+        "D": "Byte code -> Source code -> Python Virtual Machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Python interpreter compiles source code into byte code, which is then executed by the Python Virtual Machine (PVM).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D22-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Effects",
+      "concept": "Warping vs morphing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "Which statement about warping and morphing is correct?",
+      "options": {
+        "A": "Warping distorts a single image, while morphing is an animation that transforms one image into another",
+        "B": "Warping is an audio effect and morphing is a video codec",
+        "C": "Morphing distorts a single image, while warping blends two images",
+        "D": "Warping and morphing are techniques that convert vector images into raster images",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Warping works on one static image (stretching/distorting it); morphing is a transition animation from one image to a different image.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "SDRAM module type",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q13",
+      "question": "On most modern PCs, SDRAM comes on a stick known as a:",
+      "options": {
+        "A": "DIPP",
+        "B": "RIMM",
+        "C": "DIMM",
+        "D": "SIMM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Modern SDRAM (including DDR) is packaged on DIMMs (Dual Inline Memory Modules), which have separate contacts on each side; SIMMs were used for older memory.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Encoder inputs outputs",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "An encoder with 2^n input lines has how many output lines?",
+      "options": {
+        "A": "1",
+        "B": "n",
+        "C": "2n",
+        "D": "2^n",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An encoder converts 2^n inputs into an n-bit code, so it has n outputs.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Generative AI",
+      "concept": "Purpose of ChatGPT",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q261",
+      "question": "ChatGPT is primarily designed to:",
+      "options": {
+        "A": "Manage the computer's hardware resources",
+        "B": "Compile source code into machine code",
+        "C": "Store data in relational tables",
+        "D": "Answer questions and converse in a human-like way",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ChatGPT is a conversational large language model whose main purpose is generating human-like text responses to user prompts.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "OS Functions",
+      "concept": "Job accounting",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "Keeping track of the time and resources used by various jobs and users is which OS function?",
+      "options": {
+        "A": "Process synchronisation",
+        "B": "Job accounting",
+        "C": "Paging",
+        "D": "Spooling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Job accounting is the OS function that records the time and resources used by jobs and users.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "Prefix notation",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "The expression +AB is written in which notation?",
+      "options": {
+        "A": "Postfix",
+        "B": "Infix",
+        "C": "Reverse Polish",
+        "D": "Prefix",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In prefix (Polish) notation the operator comes before the operands: operator operand operand.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "C++ semi object oriented",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p25",
+      "question": "C++ is often described as a semi object-oriented language because:",
+      "options": {
+        "A": "It supports both procedural and object-oriented programming",
+        "B": "It does not support classes",
+        "C": "It supports only functional programming",
+        "D": "It cannot use procedural functions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "C++ combines procedural and object-oriented styles, so it is called semi (partially) object-oriented.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 0 languages",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Languages generated by unrestricted (Type 0) grammars are called:",
+      "options": {
+        "A": "Context-free languages",
+        "B": "Deterministic context-free languages",
+        "C": "Regular languages",
+        "D": "Recursively enumerable languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Unrestricted grammars generate exactly the recursively enumerable languages, which are accepted by Turing machines.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer History",
+      "concept": "First programmer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Who is considered the world's first computer programmer?",
+      "options": {
+        "A": "Grace Hopper",
+        "B": "Charles Babbage",
+        "C": "Lady Ada Lovelace",
+        "D": "Dennis Ritchie",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Lady Ada Lovelace wrote an algorithm for Babbage's Analytical Engine and is regarded as the first programmer.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D22-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "Data types storable",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "Which statement about data that can be stored in a database is correct?",
+      "options": {
+        "A": "Audio and video data can never be stored",
+        "B": "Only text data can be stored",
+        "C": "Only numeric data can be stored",
+        "D": "Images, text files and audio or video data can all be stored",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Databases can store image-oriented data, text and files, and multimedia such as audio and video.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "pass",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword is a null statement that executes nothing and is used as a placeholder?",
+      "options": {
+        "A": "pass",
+        "B": "None",
+        "C": "break",
+        "D": "continue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "pass does nothing; it is used where a statement is syntactically required but no action is needed.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D22-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "MAC Address",
+      "concept": "MAC hex digits",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "A MAC address such as 02:60:8C:39:1F:2A contains how many hexadecimal digits?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "6",
+        "D": "16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "48 bits / 4 bits per hex digit = 12 hexadecimal digits, shown as 6 pairs.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Question Misread",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D22-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Inline style attribute",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "Inline CSS is applied using:",
+      "options": {
+        "A": "A separate .css file",
+        "B": "A <script> tag",
+        "C": "The style attribute inside an HTML tag",
+        "D": "A <style> tag in the <head>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Inline CSS is written directly on an element through its style attribute.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

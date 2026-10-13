@@ -1,0 +1,681 @@
+{
+  "setId": 11,
+  "title": "Daily Set 11",
+  "questions": [
+    {
+      "id": "D11-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graphs",
+      "concept": "Regular graph",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q158",
+      "question": "A graph in which all vertices have equal degree is known as a:",
+      "options": {
+        "A": "Multigraph",
+        "B": "Complete graph",
+        "C": "Regular graph",
+        "D": "Simple graph",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A k-regular graph has every vertex of degree k; a complete graph is a special regular graph but not every regular graph is complete.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Subnetting",
+      "concept": "Hosts with /25 mask",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q298",
+      "question": "How many usable hosts can be configured using the subnet mask 255.255.255.128?",
+      "options": {
+        "A": "254",
+        "B": "126",
+        "C": "30",
+        "D": "62",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "255.255.255.128 leaves 7 host bits: 2^7 = 128 addresses minus network and broadcast = 126 usable hosts.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D11-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Branches of AI",
+      "concept": "Expert system",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "A program that captures the knowledge of a human specialist (e.g. a doctor) to give advice in a narrow domain belongs to which AI branch?",
+      "options": {
+        "A": "Expert Systems",
+        "B": "Fuzzy Logic",
+        "C": "Computer Vision",
+        "D": "Robotics",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Expert Systems emulate the decision making of a human expert using a knowledge base and inference engine.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterm and Maxterm",
+      "concept": "Minterm variable rule",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "When writing a minterm from an input combination, a variable whose value is 0 is written as:",
+      "options": {
+        "A": "It is omitted",
+        "B": "1",
+        "C": "The complemented variable (A')",
+        "D": "The variable itself (A)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "For minterms, 1 = true variable (A) and 0 = complemented variable (A'). Maxterms use the opposite rule.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "MID function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "Which SQL scalar function extracts characters from a text field?",
+      "options": {
+        "A": "LEN()",
+        "B": "MID()",
+        "C": "ROUND()",
+        "D": "FORMAT()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "MID() extracts a substring from a text field.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "SMTP port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "The default port for SMTP (Simple Mail Transfer Protocol) is:",
+      "options": {
+        "A": "110",
+        "B": "25",
+        "C": "143",
+        "D": "53",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SMTP sends mail on port 25; POP3 uses 110 and IMAP 143.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "EDI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "EDI, used for computer-to-computer exchange of business documents, stands for:",
+      "options": {
+        "A": "Electronic Document Interface",
+        "B": "Electronic Data Interchange",
+        "C": "Enterprise Data Integration",
+        "D": "Electronic Data Index",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "EDI is Electronic Data Interchange, the structured electronic exchange of documents such as invoices and orders between organisations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D11-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "K-Map",
+      "concept": "Don't care conditions",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q37",
+      "question": "Don't care conditions can be used for simplifying Boolean expressions in:",
+      "options": {
+        "A": "Latches",
+        "B": "Terms",
+        "C": "K-maps",
+        "D": "Registers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a Karnaugh map, don't care entries (X) can be treated as 0 or 1, whichever produces larger groups and a simpler expression.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Banker's Algorithm",
+      "concept": "Banker's name origin",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Why is the Banker's algorithm so named?",
+      "options": {
+        "A": "It was written by a banker",
+        "B": "It was invented to calculate bank interest rates",
+        "C": "It encrypts banking transactions",
+        "D": "It mimics a bank that lends money only if it can still satisfy all customers' needs",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Like a banker who grants a loan only if it can still meet all customers' maximum demands, the algorithm allocates resources only when the system remains in a safe state.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "Word length of 8-bit processor",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q62",
+      "question": "What is the word length of an 8-bit microprocessor?",
+      "options": {
+        "A": "8 bits",
+        "B": "4 bits",
+        "C": "32 bits",
+        "D": "16 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An n-bit microprocessor processes n bits at a time, so the word length of an 8-bit microprocessor is 8 bits (its address bus may be wider, e.g. 16 bits).",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Cardinality definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "The number of tuples (rows) in a relation is called its:",
+      "options": {
+        "A": "Degree",
+        "B": "Arity",
+        "C": "Domain",
+        "D": "Cardinality",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Cardinality is the number of tuples; degree (arity) is the number of attributes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D11-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Stack underflow",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q114",
+      "question": "Trying to remove an element from an empty stack causes a condition called:",
+      "options": {
+        "A": "Overflow",
+        "B": "Garbage collection",
+        "C": "Empty collection",
+        "D": "Underflow",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Popping from an empty stack is underflow; pushing onto a full stack is overflow.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D11-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "History of AI",
+      "concept": "Dartmouth Conference",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q186",
+      "question": "At which conference did John McCarthy first coin the term \"Artificial Intelligence\" in 1956?",
+      "options": {
+        "A": "AAAI Conference",
+        "B": "RNT Conference",
+        "C": "Dartmouth Conference",
+        "D": "ACM Conference",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The term was coined for the 1956 Dartmouth Summer Research Project on Artificial Intelligence organised by McCarthy and others.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D11-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Stable sorting algorithms",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q173",
+      "question": "Which of the following is NOT a stable sorting algorithm?",
+      "options": {
+        "A": "Bubble sort",
+        "B": "Merge sort",
+        "C": "Selection sort",
+        "D": "Insertion sort",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Standard selection sort swaps the minimum into place over long distances, which can change the relative order of equal keys, so it is not stable. Insertion, bubble and merge sort are stable.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D11-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption",
+      "concept": "Public key scenario",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p44",
+      "question": "Ravi encrypts a message for Sita using Sita's public key (asymmetric encryption). Which key is needed to decrypt it?",
+      "options": {
+        "A": "Ravi's public key",
+        "B": "Sita's public key",
+        "C": "Ravi's private key",
+        "D": "Sita's private key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In asymmetric encryption, data encrypted with a recipient's public key can only be decrypted with that recipient's private key.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D11-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Involution law",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q231",
+      "question": "The identity A'' = A represents which law of Boolean algebra?",
+      "options": {
+        "A": "Distributive law",
+        "B": "Commutative law",
+        "C": "Associative law",
+        "D": "Involution (double inversion) law",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Complementing a variable twice returns the original value; this is the involution (double inversion) law.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4",
+      "concept": "Maximum IPv4 datagram size",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q97",
+      "question": "What is the maximum length (in bytes) of an IPv4 datagram?",
+      "options": {
+        "A": "1024",
+        "B": "256",
+        "C": "65535",
+        "D": "32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The IPv4 Total Length field is 16 bits, so the largest datagram is 2^16 - 1 = 65535 bytes.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "Interrupt transition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "An interrupt (such as a timer expiry) causes a process to move from:",
+      "options": {
+        "A": "Running to Ready",
+        "B": "Ready to Waiting",
+        "C": "Waiting to Running",
+        "D": "New to Running",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "When a running process is interrupted (e.g. time slice expires), it is preempted and returns to the Ready state.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D11-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer History",
+      "concept": "ENIAC full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "What is the full form of ENIAC?",
+      "options": {
+        "A": "Electrical Numeric Instruction And Calculator",
+        "B": "Electronic Numerical Interface And Computer",
+        "C": "Electronic Number Integrated Automatic Calculator",
+        "D": "Electronic Numerical Integrator And Computer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ENIAC stands for Electronic Numerical Integrator And Computer, built in 1946.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D11-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "RDBMS stores data in tables",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "How is data stored in an RDBMS, in contrast to a traditional file-based DBMS?",
+      "options": {
+        "A": "In tables of rows and columns",
+        "B": "In key-value pairs only",
+        "C": "In flat files only",
+        "D": "In hierarchical trees only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An RDBMS stores data in related tables made of rows and columns, while a basic DBMS stores data as files.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "except",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "In Python exception handling, which keyword is used to catch an exception raised in a try block?",
+      "options": {
+        "A": "except",
+        "B": "catch",
+        "C": "finally",
+        "D": "raise",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Python uses except (not catch, as in Java/C++) to handle exceptions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D11-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Loops",
+      "concept": "Do while exit controlled",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Which loop in C++ is exit controlled?",
+      "options": {
+        "A": "for",
+        "B": "do-while",
+        "C": "while",
+        "D": "range-based for",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "do-while checks its condition after executing the body, so it is exit controlled.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Machine becomes intelligent",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p30",
+      "question": "Which statement is correct about how a machine becomes intelligent in AI?",
+      "options": {
+        "A": "A machine becomes intelligent once it is trained",
+        "B": "A machine becomes intelligent as soon as it is powered on",
+        "C": "A machine becomes intelligent only when it is connected to the internet",
+        "D": "A machine becomes intelligent when its RAM is increased",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "AI deals with building smart machines; a machine becomes intelligent only after it is trained on data/experience.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D11-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Backward compatibility",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Verifying that a new version of software still works with files and data from older versions is:",
+      "options": {
+        "A": "Smoke testing",
+        "B": "Backward compatibility testing",
+        "C": "Browser compatibility testing",
+        "D": "Alpha testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Backward compatibility testing checks that new versions work with older versions' data and environments.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D11-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Basics",
+      "concept": "Examples of multimedia",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "Which of the following is an example of a multimedia application?",
+      "options": {
+        "A": "Video games",
+        "B": "A keyboard driver",
+        "C": "A BIOS routine",
+        "D": "A spreadsheet formula",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Video games combine text, graphics, animation, audio and video, making them a classic multimedia example along with films, TV, e-learning and advertising.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

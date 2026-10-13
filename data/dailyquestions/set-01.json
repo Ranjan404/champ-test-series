@@ -1,0 +1,681 @@
+{
+  "setId": 1,
+  "title": "Daily Set 1",
+  "questions": [
+    {
+      "id": "D01-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Binary base",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "The base (radix) of the binary number system is:",
+      "options": {
+        "A": "2",
+        "B": "10",
+        "C": "16",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The binary system uses only two digits, 0 and 1, so its base is 2.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Communication",
+      "concept": "Bluetooth for short range",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q146",
+      "question": "Which wireless technology is commonly used in IoT devices for short-range personal area communication?",
+      "options": {
+        "A": "Satellite link",
+        "B": "Bluetooth",
+        "C": "LoRaWAN",
+        "D": "4G LTE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bluetooth (including BLE) is a short-range PAN technology widely used in IoT wearables and sensors; LTE, satellite and LoRaWAN are long-range.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "Doubly linked list alternate name",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q1",
+      "question": "A doubly linked list is also known as a:",
+      "options": {
+        "A": "One-way chain",
+        "B": "Right link",
+        "C": "Two-way chain",
+        "D": "Circular array",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Each node of a doubly linked list has both a next and a previous pointer, so it can be traversed in two directions; hence it is called a two-way chain.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "BCNF 3.5NF",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "Which normal form is also called 3.5NF and is an advanced (stricter) version of 3NF?",
+      "options": {
+        "A": "5NF",
+        "B": "4NF",
+        "C": "BCNF",
+        "D": "2NF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Boyce-Codd Normal Form (BCNF) is a stronger version of 3NF, often called 3.5NF.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "Class D multicast",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q31",
+      "question": "Which class of IPv4 addressing is used for multicasting?",
+      "options": {
+        "A": "Class C",
+        "B": "Class D",
+        "C": "Class B",
+        "D": "Class A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Class D (224.0.0.0 to 239.255.255.255) is reserved for multicast; Classes A, B and C are for unicast host addressing.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D01-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Registers",
+      "concept": "Registers as fast storage",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q40",
+      "question": "Which high-speed component in the CPU is used to store data temporarily during processing?",
+      "options": {
+        "A": "Registers",
+        "B": "ALU",
+        "C": "Auxiliary memory",
+        "D": "Control unit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Registers are the fastest storage locations inside the CPU and hold data, addresses and instructions temporarily during processing.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Connectors",
+      "concept": "RJ-11 use",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "The RJ-11 connector is commonly used to connect a:",
+      "options": {
+        "A": "Telephone",
+        "B": "Television coaxial cable",
+        "C": "Fibre optic cable",
+        "D": "Ethernet LAN cable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "RJ-11 (Registered Jack-11) connects a telephone handset or line to the wall socket.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "Number of process states",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "In the classic process state model, how many states does a process pass through during execution?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The five-state model has New, Ready, Running, Waiting and Terminated.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D01-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "8085 generation",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q292",
+      "question": "Intel 8085, an 8-bit NMOS microprocessor introduced in 1976, belongs to which generation of microprocessors?",
+      "options": {
+        "A": "First",
+        "B": "Second",
+        "C": "Third",
+        "D": "Fourth",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "First-generation microprocessors were 4-bit PMOS chips (4004). The second generation was 8-bit NMOS chips (8080, 8085, Z80); 16-bit chips like the 8086 formed the third.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D01-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Associative law",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "Which expression represents the associative law for addition?",
+      "options": {
+        "A": "A + (B + C) = (A + B) + C",
+        "B": "A.(B + C) = A.B + A.C",
+        "C": "A + A' = 1",
+        "D": "A + A = A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The associative law says the grouping of variables does not change the result: A + (B + C) = (A + B) + C.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "OTP",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "The OTP sent to a mobile phone during online payment stands for:",
+      "options": {
+        "A": "Online Transaction Password",
+        "B": "One-Time PIN Protocol",
+        "C": "Online Temporary Passcode",
+        "D": "One-Time Password",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "OTP is One-Time Password, a code valid for a single login or transaction.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D01-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "Doubly linked list use case",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q54",
+      "question": "In which scenario is a doubly linked list most useful?",
+      "options": {
+        "A": "When we need to frequently perform a binary search",
+        "B": "When we need to frequently delete elements at the head",
+        "C": "When we need to frequently traverse the list in both directions",
+        "D": "When we need to frequently add new elements",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Each node of a doubly linked list has previous and next pointers, which is what allows efficient forward and backward traversal.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D01-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Queries",
+      "concept": "ORDER BY",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which SQL clause is used to sort the result set by one or more fields?",
+      "options": {
+        "A": "GROUP BY",
+        "B": "SORT BY",
+        "C": "HAVING",
+        "D": "ORDER BY",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ORDER BY sorts the result; GROUP BY groups rows.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "NFC full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "NFC, a short-range IoT network used in contactless payments, stands for:",
+      "options": {
+        "A": "Network Frequency Control",
+        "B": "Near Frequency Connection",
+        "C": "Near Field Communication",
+        "D": "Network Field Channel",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NFC is Near Field Communication, which works over a few centimetres.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D01-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "RAM volatility",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q135",
+      "question": "RAM is volatile in nature because:",
+      "options": {
+        "A": "It can be accessed from any location",
+        "B": "It can be used for both reading and writing",
+        "C": "It does not need a continuous power supply",
+        "D": "It needs a continuous power supply to retain data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Volatile memory loses its contents when power is removed; RAM needs continuous power to retain data.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D01-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Complement of an expression",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q215",
+      "question": "What is the complement of the expression A'B + CD'?",
+      "options": {
+        "A": "(A' + B)(C' + D)",
+        "B": "(A + B')(C + D')",
+        "C": "(A' + B')(C' + D)",
+        "D": "(A + B')(C' + D)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "By De Morgan's theorem, (A'B + CD')' = (A'B)'(CD')' = (A + B')(C' + D).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Conceptual",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "D01-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Browser compatibility",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Checking that a web application works correctly on Chrome, Firefox, Edge and Safari is:",
+      "options": {
+        "A": "Backward compatibility testing",
+        "B": "Browser compatibility testing",
+        "C": "Unit testing",
+        "D": "Gorilla testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Browser compatibility testing verifies a web app across different browsers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search Trees",
+      "concept": "BST subtree node count",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q15",
+      "question": "A binary search tree is built by inserting, in order, the integers 50, 15, 62, 5, 20, 58, 91, 3, 8, 37, 60, 24. How many nodes are in the left subtree and the right subtree of the root, respectively?",
+      "options": {
+        "A": "(8, 3)",
+        "B": "(4, 7)",
+        "C": "(3, 8)",
+        "D": "(7, 4)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The root is 50. Values less than 50 (15, 5, 20, 3, 8, 37, 24) form the left subtree: 7 nodes. Values greater than 50 (62, 58, 91, 60) form the right subtree: 4 nodes.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Question Misread",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D01-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "finally",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "In a try statement, which block always executes whether or not an exception occurs?",
+      "options": {
+        "A": "finally",
+        "B": "raise",
+        "C": "else",
+        "D": "except",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The finally block runs in all cases and is typically used for clean-up.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "MQTT publish-subscribe",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q45",
+      "question": "Which lightweight protocol, widely used for IoT device communication, follows a publish-subscribe model through a broker and runs over TCP?",
+      "options": {
+        "A": "MQTT",
+        "B": "CoAP",
+        "C": "FTP",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MQTT is a lightweight publish/subscribe messaging protocol running over TCP with a central broker. CoAP is also an IoT protocol but uses a request-response (REST) model over UDP.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D01-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Arrays in C",
+      "concept": "Zero-based indexing",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q115",
+      "question": "How do we access the 5th element of an array arr in C?",
+      "options": {
+        "A": "arr(5);",
+        "B": "arr{4};",
+        "C": "arr[5];",
+        "D": "arr[4];",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "C arrays are zero-indexed, so the 5th element is at index 4: arr[4].",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D01-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Raster examples",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Which of the following is NOT a raster (bitmap) image format?",
+      "options": {
+        "A": "TIFF",
+        "B": "SVG",
+        "C": "BMP",
+        "D": "GIF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SVG (Scalable Vector Graphics) is a vector format. BMP, GIF, TIFF, PNG and JPEG are raster formats.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D01-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "Ready to running transition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "A process moves from the Ready state to the Running state through:",
+      "options": {
+        "A": "Admission",
+        "B": "Scheduler dispatch",
+        "C": "Exit",
+        "D": "I/O completion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The scheduler dispatches a ready process to the CPU, moving it from Ready to Running.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv4 octets",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "In the IPv4 address 192.168.2.33, each of the four numbers separated by dots is called a(n):",
+      "options": {
+        "A": "Octet",
+        "B": "Hextet",
+        "C": "Word",
+        "D": "Nibble",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each part of an IPv4 address is 8 bits, called an octet; 4 octets x 8 bits = 32 bits.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D01-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Triggers",
+      "concept": "Trigger events",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q176",
+      "question": "On which operations can a database trigger be fired?",
+      "options": {
+        "A": "DROP, COMMENT",
+        "B": "GRANT, REVOKE",
+        "C": "INSERT, UPDATE, DELETE",
+        "D": "DEFINE, CREATE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DML triggers fire automatically before or after INSERT, UPDATE or DELETE operations on a table.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

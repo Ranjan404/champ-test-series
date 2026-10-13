@@ -9,6 +9,7 @@
     "lint": "tsc --noEmit",
     "test": "vitest run",
     "validate": "node scripts/validate-questions.mjs",
+    "validate:daily": "node scripts/validate-daily-questions.mjs",
     "create-user": "tsx --env-file-if-exists=.env.local scripts/create-user.ts",
     "migrate-to-supabase": "tsx --env-file-if-exists=.env.local scripts/migrate-to-supabase.ts",
     "test:e2e": "next build && playwright test"

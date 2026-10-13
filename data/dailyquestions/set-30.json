@@ -1,0 +1,681 @@
+{
+  "setId": 30,
+  "title": "Daily Set 30",
+  "questions": [
+    {
+      "id": "D30-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Utilities",
+      "concept": "Ping tests connectivity",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q289",
+      "question": "What is the ping command primarily used for?",
+      "options": {
+        "A": "Assigning IP addresses to hosts",
+        "B": "Testing network connectivity to a host",
+        "C": "Encrypting network traffic",
+        "D": "Transferring files between computers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "ping sends ICMP Echo Request packets and waits for Echo Replies to check if a host is reachable and to measure round-trip time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Input/Output Devices",
+      "concept": "Output device NOT",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "Which of the following is NOT an output device?",
+      "options": {
+        "A": "Barcode reader",
+        "B": "Monitor",
+        "C": "Plotter",
+        "D": "Headphones",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A barcode reader reads codes into the computer, so it is an input device; plotters, headphones and monitors are output devices.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D30-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Column is attribute",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "In an RDBMS, a column of a table is known as a(n):",
+      "options": {
+        "A": "Cardinality",
+        "B": "Tuple",
+        "C": "Instance",
+        "D": "Attribute",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Columns are attributes or fields; rows are tuples.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design",
+      "concept": "Backtracking",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q116",
+      "question": "Backtracking uses ____ node generation ____ bounding functions.",
+      "options": {
+        "A": "Breadth-first, with",
+        "B": "Depth-first, with",
+        "C": "Breadth-first, without",
+        "D": "Depth-first, without",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Backtracking explores the state space tree depth-first and uses bounding functions to prune nodes; branch and bound typically uses BFS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D30-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "OR law A+1",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "According to the OR laws, A + 1 equals:",
+      "options": {
+        "A": "A",
+        "B": "0",
+        "C": "A'",
+        "D": "1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Any variable ORed with 1 gives 1, since 1 + anything = 1.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "Unix multi-user",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Unix and Linux are examples of which type of operating system?",
+      "options": {
+        "A": "Multi-user, multi-tasking",
+        "B": "Single-user, multi-tasking",
+        "C": "Batch-only OS",
+        "D": "Single-user, single-task",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Unix and Linux let several users log in and run many processes simultaneously: multi-user, multi-tasking.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Hierarchy",
+      "concept": "Registers are fastest memory access",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q251",
+      "question": "Which of the following is the fastest means of memory access for the CPU?",
+      "options": {
+        "A": "Cache",
+        "B": "Stack",
+        "C": "Main memory",
+        "D": "Registers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Registers are inside the CPU itself and are accessed within a clock cycle, faster than cache, main memory or a stack held in RAM.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D30-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Adders",
+      "concept": "Full adder output",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p9",
+      "question": "For a full adder with A = 1, B = 1 and Cin = 1, the outputs are:",
+      "options": {
+        "A": "Sum = 1, Cout = 0",
+        "B": "Sum = 1, Cout = 1",
+        "C": "Sum = 0, Cout = 0",
+        "D": "Sum = 0, Cout = 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "1 + 1 + 1 = 3 = (11)2, so Sum = 1 and Cout = 1.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D30-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "TLS full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "TLS, the successor of SSL, stands for:",
+      "options": {
+        "A": "Transfer Link Service",
+        "B": "Trusted Layer Socket",
+        "C": "Transport Layer Security",
+        "D": "Transmission Line Security",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "TLS is Transport Layer Security; SSL is Secure Sockets Layer. Both secure communication and are commonly listed under the Transport layer in OSI protocol lists.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D30-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Reinforcement learning applications",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q288",
+      "question": "Real-time decisions, game AI, skill acquisition and robot navigation are typical applications of:",
+      "options": {
+        "A": "Unsupervised learning",
+        "B": "Reinforcement learning",
+        "C": "Supervised learning",
+        "D": "Association rule mining",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In these tasks an agent learns by acting and receiving rewards or penalties from an environment, which is reinforcement learning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "PSD and AI extensions",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Match the extensions: .PSD and .AI are native file formats of which software respectively?",
+      "options": {
+        "A": "Adobe Premiere and Adobe InDesign",
+        "B": "Paint Shop and Artificial Intelligence",
+        "C": "Adobe Photoshop and Adobe Illustrator",
+        "D": "Adobe Illustrator and Adobe Photoshop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "PSD is the Photoshop Document format and AI is the Adobe Illustrator format.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D30-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "Infix to postfix brackets",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "What is the postfix form of (A + B) * C?",
+      "options": {
+        "A": "A B C + *",
+        "B": "* + A B C",
+        "C": "A B C * +",
+        "D": "A B + C *",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Brackets are evaluated first: (A+B) becomes AB+, then multiply by C: A B + C *.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D30-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "Cross join cartesian",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Which join returns the Cartesian product of two tables?",
+      "options": {
+        "A": "Full outer join",
+        "B": "Left outer join",
+        "C": "Inner join",
+        "D": "Cross join",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A cross join pairs every row of A with every row of B (A x B).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv4 address classes",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q85",
+      "question": "The IP address 20.100.200.15 belongs to which class?",
+      "options": {
+        "A": "Class B",
+        "B": "Class A",
+        "C": "Class D",
+        "D": "Class C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The first octet is 20, which lies in the Class A range 1-126 (first bit 0).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D30-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "C++ language level",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p25",
+      "question": "C++ is classified as a:",
+      "options": {
+        "A": "Machine language",
+        "B": "Markup language",
+        "C": "Low-level assembly language",
+        "D": "High-level, general-purpose language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "C++ is a high-level, general-purpose programming language.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "NOT gate other names",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "The NOT gate is also known as:",
+      "options": {
+        "A": "Inverter",
+        "B": "Latch",
+        "C": "Adder",
+        "D": "Buffer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The NOT gate produces the complement (negation) of its input, so it is also called an inverter.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Beta testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Testing of a near-final product by real customers in their own environment is called:",
+      "options": {
+        "A": "White box testing",
+        "B": "Beta testing",
+        "C": "Unit testing",
+        "D": "Alpha testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Beta testing is done by real users/customers at their site before final release.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Generative AI",
+      "concept": "Technology behind ChatGPT",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q216",
+      "question": "What is the main technology behind ChatGPT?",
+      "options": {
+        "A": "Machine learning",
+        "B": "Virtual reality",
+        "C": "Robotics",
+        "D": "Augmented reality",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ChatGPT is a large language model trained with machine learning (deep learning on transformer neural networks).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Unit order",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "Which of the following shows memory units in correct INCREASING order of size?",
+      "options": {
+        "A": "PB, ZB, EB, YB",
+        "B": "EB, PB, ZB, YB",
+        "C": "PB, EB, ZB, YB",
+        "D": "PB, EB, YB, ZB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Each unit is 1024 times the previous: Petabyte < Exabyte < Zettabyte < Yottabyte.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D30-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "Infix notation",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "In which notation is the operator written between the two operands, as in A+B?",
+      "options": {
+        "A": "Polish",
+        "B": "Postfix",
+        "C": "Infix",
+        "D": "Prefix",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Infix notation is operand operator operand, e.g. A+B.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D30-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Newest keywords",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which two Python keywords were the most recent additions to the list of reserved (hard) keywords?",
+      "options": {
+        "A": "lambda and with",
+        "B": "nonlocal and yield",
+        "C": "async and await",
+        "D": "assert and global",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "async and await became reserved keywords in Python 3.7, bringing the total to 35. (Later additions such as match, case and type are only soft keywords.)",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D30-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Not a deadlock condition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Which of the following is NOT a necessary condition for deadlock?",
+      "options": {
+        "A": "Preemption",
+        "B": "Circular wait",
+        "C": "Hold and wait",
+        "D": "Mutual exclusion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The condition is NO preemption (resources cannot be forcibly taken away). Preemption itself prevents deadlock.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D30-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "Not B2B",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "Which of the following companies is classified under the B2C model rather than B2B?",
+      "options": {
+        "A": "Oracle",
+        "B": "General Electric",
+        "C": "Zomato",
+        "D": "Adobe",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Swiggy/Zomato sell food delivery services directly to consumers (B2C); Oracle, Adobe and General Electric are listed as B2B examples.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D30-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Types",
+      "concept": "LBA definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "A Linear Bounded Automaton is best described as:",
+      "options": {
+        "A": "A Turing machine whose tape is limited to a portion proportional to the input length",
+        "B": "A finite automaton with two stacks",
+        "C": "A pushdown automaton with no stack",
+        "D": "A Turing machine with an infinite number of tapes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An LBA is a restricted (non-deterministic) Turing machine that may use only a limited amount of tape (memory) bounded by the input length.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D30-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Codd rule matching",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Which pairing of Codd's rule number and name is correct?",
+      "options": {
+        "A": "Rule 2: Guaranteed Access Rule",
+        "B": "Rule 6: Information Rule",
+        "C": "Rule 8: Logical Data Independence",
+        "D": "Rule 4: View Updating Rule",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Rule 2 is Guaranteed Access; Rule 8 is Physical Data Independence, Rule 6 is View Updating and Rule 4 is the active online catalog.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

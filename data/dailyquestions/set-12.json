@@ -1,0 +1,681 @@
+{
+  "setId": 12,
+  "title": "Daily Set 12",
+  "questions": [
+    {
+      "id": "D12-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "AI ML DL hierarchy",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Which relationship among AI, ML and DL is correct?",
+      "options": {
+        "A": "ML is a subset of DL, and DL is a subset of AI",
+        "B": "DL is a subset of ML, and ML is a subset of AI",
+        "C": "AI is a subset of ML, and ML is a subset of DL",
+        "D": "AI, ML and DL are completely independent fields",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "AI is the broadest field; machine learning is a subset of AI, and deep learning is a subset of machine learning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D12-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Absorption law",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q21",
+      "question": "Which expression represents the absorption law?",
+      "options": {
+        "A": "A + A'B = A",
+        "B": "A + AB = B",
+        "C": "A + AB = A",
+        "D": "AB + AA' = A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Absorption: A + AB = A(1 + B) = A. Note that A + A'B simplifies to A + B, not A.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D12-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "Join definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q205",
+      "question": "A ____ is a query that retrieves rows by combining two or more tables or views.",
+      "options": {
+        "A": "Trigger",
+        "B": "Join",
+        "C": "Sequence",
+        "D": "Index",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A join combines rows from two or more tables or views based on a related column.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Protocols",
+      "concept": "HTTP",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q198",
+      "question": "Which protocol is designed for distributing, searching and retrieving documents (hypertext) over the Internet?",
+      "options": {
+        "A": "TCP/IP",
+        "B": "HTTP",
+        "C": "Telnet",
+        "D": "DHCP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HTTP (Hypertext Transfer Protocol) is used to request and deliver web documents. Telnet is remote login and DHCP assigns IP addresses.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting Algorithms",
+      "concept": "Non-comparison sorting",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Which of the following sorting algorithms is NOT comparison-based?",
+      "options": {
+        "A": "Heap sort",
+        "B": "Merge sort",
+        "C": "Counting sort",
+        "D": "Quick sort",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Counting sort places elements by counting occurrences of each key value instead of comparing elements, so it is a non-comparison sort (like radix and bucket sort). Heap, merge and quick sort all work by comparing elements.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "C2G tax payment",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "A salaried person files Income Tax and pays TDS dues online on a government portal. Which e-commerce model does this represent?",
+      "options": {
+        "A": "B2G (Business-to-Government)",
+        "B": "G2G (Government-to-Government)",
+        "C": "C2G (Consumer-to-Government)",
+        "D": "C2C (Consumer-to-Consumer)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Payments from an individual citizen to a government body such as Income Tax, TDS or GST are Consumer-to-Administration/Consumer-to-Government transactions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D12-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Absorption A+AB",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "Simplify the Boolean expression A + AB.",
+      "options": {
+        "A": "A + B",
+        "B": "AB",
+        "C": "B",
+        "D": "A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A + AB = A(1 + B) = A.1 = A, by the absorption law.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D12-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "Infix to postfix simple",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "What is the postfix form of the infix expression A + B * C?",
+      "options": {
+        "A": "+ A * B C",
+        "B": "A B C + *",
+        "C": "A B C * +",
+        "D": "A B + C *",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "* has higher precedence than +, so B*C is evaluated first giving BC*, and then A is added: A B C * +.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D12-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "SLIP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "SLIP, a Data Link layer protocol, stands for:",
+      "options": {
+        "A": "Serial Line Internet Protocol",
+        "B": "Switched Link Internet Process",
+        "C": "Simple Line Integration Protocol",
+        "D": "Secure Link Interface Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SLIP is the Serial Line Internet Protocol, an older predecessor of PPP used to carry IP over serial links.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D12-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "ML as subset of AI",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q61",
+      "question": "Machine learning is a subset of:",
+      "options": {
+        "A": "Robotics",
+        "B": "Artificial intelligence",
+        "C": "Data learning",
+        "D": "Deep learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Machine learning is a branch of artificial intelligence, and deep learning is in turn a subset of machine learning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Specialization (top-down)",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q165",
+      "question": "Which ER-model process is a top-down approach in which a higher-level entity is divided into two or more lower-level sub-entities?",
+      "options": {
+        "A": "Specialization",
+        "B": "Normalization",
+        "C": "Aggregation",
+        "D": "Generalization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Specialization is top-down: a higher-level entity set is split into lower-level sub-entity sets based on distinguishing features. Generalization is the reverse, bottom-up process.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer History",
+      "concept": "Father of the computer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Who is known as the 'Father of the Computer'?",
+      "options": {
+        "A": "John Von Neumann",
+        "B": "Blaise Pascal",
+        "C": "Alan Turing",
+        "D": "Charles Babbage",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Charles Babbage designed the Difference Engine and the Analytical Engine, so he is called the Father of the Computer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Boolean keywords",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which pair of Python keywords represents Boolean values?",
+      "options": {
+        "A": "1 and 0",
+        "B": "True and False",
+        "C": "Yes and No",
+        "D": "On and Off",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "True and False are the Boolean keywords in Python.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D12-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Program Execution",
+      "concept": "Order of Java execution",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Which sequence correctly shows how a Java program runs?",
+      "options": {
+        "A": "Bytecode -> Compiler -> Source code -> JVM",
+        "B": "Source code -> JVM -> Bytecode -> Compiler",
+        "C": "Source code -> Interpreter -> Machine code -> javac",
+        "D": "Source code -> Compiler (javac) -> Bytecode -> JVM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A .java file is compiled by javac into bytecode (.class), which the JVM then executes on the target platform.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D12-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Complex literal",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "What is the data type of the value 3+4j in Python?",
+      "options": {
+        "A": "int",
+        "B": "float",
+        "C": "str",
+        "D": "complex",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A number with a j suffix for the imaginary part is a complex number.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "D12-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "EEPROM most advanced ROM",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q47",
+      "question": "Among the following, which is the most advanced form of ROM, allowing data to be erased and rewritten electrically?",
+      "options": {
+        "A": "EEPROM",
+        "B": "EPROM",
+        "C": "Mask ROM",
+        "D": "PROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "EEPROM (Electrically Erasable PROM) can be erased and reprogrammed electrically, byte by byte, without removing the chip. EPROM needs UV light, PROM is one-time programmable and Mask ROM is fixed at manufacture.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "De Morgan's Theorem",
+      "concept": "NAND as bubbled OR",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q182",
+      "question": "According to De Morgan's theorem, a NAND gate is equivalent to a:",
+      "options": {
+        "A": "Bubbled OR",
+        "B": "Bubbled AND",
+        "C": "Bubbled XOR",
+        "D": "Bubbled NOR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "(AB)' = A' + B', so a NAND gate is equivalent to an OR gate with inverted (bubbled) inputs.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Definition of AI",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q246",
+      "question": "Which emerging branch of computer science deals with the means and methods of making computers think like human beings?",
+      "options": {
+        "A": "Virtual reality",
+        "B": "Blockchain",
+        "C": "Cloud computing",
+        "D": "Artificial intelligence",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Artificial intelligence studies how to make machines perform tasks that need human-like thinking such as learning, reasoning and problem solving.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "Largest heading",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Which HTML heading tag displays the largest text by default?",
+      "options": {
+        "A": "<head>",
+        "B": "<header>",
+        "C": "<h6>",
+        "D": "<h1>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "<h1> is the largest heading and <h6> the smallest.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D12-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Linear search average",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "On average, approximately how many comparisons does a successful linear search make in a list of n elements?",
+      "options": {
+        "A": "1",
+        "B": "n^2",
+        "C": "n/2",
+        "D": "log2 n",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "On average the key is found halfway through the list, so about n/2 comparisons are made (still O(n)).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "ACID full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "In DBMS transactions, the letters of ACID stand for:",
+      "options": {
+        "A": "Accuracy, Consistency, Integrity, Durability",
+        "B": "Atomicity, Concurrency, Isolation, Dependency",
+        "C": "Atomicity, Consistency, Isolation, Durability",
+        "D": "Availability, Consistency, Integrity, Distribution",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The four transaction properties are Atomicity, Consistency, Isolation and Durability.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D12-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Web Security Protocols",
+      "concept": "SSL channel security",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q22",
+      "question": "Which protocol secures the entire communication channel (session) between a web client and server, rather than individual messages or payment transactions?",
+      "options": {
+        "A": "S-HTTP",
+        "B": "SSL",
+        "C": "SET",
+        "D": "SMTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SSL works between the transport and application layers and encrypts everything sent over the connection. S-HTTP secures individual HTTP messages, and SET secures credit-card transactions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D12-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "IGMP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "In networking, IGMP stands for:",
+      "options": {
+        "A": "Internet Group Management Protocol",
+        "B": "Interior Gateway Mail Protocol",
+        "C": "Internet Gateway Message Protocol",
+        "D": "Internal Group Mapping Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IGMP is the Internet Group Management Protocol, a Network layer protocol used to manage multicast group membership.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D12-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Ad-hoc testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Informal testing without planning or documentation, which can be done by anyone in the project, is called:",
+      "options": {
+        "A": "Ad-hoc testing",
+        "B": "Regression testing",
+        "C": "Boundary value testing",
+        "D": "Integration testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Ad-hoc testing is unplanned, unscripted testing that anyone on the project can perform.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D12-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT32 usage",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Gaming consoles, USB drives and flash memory cards have traditionally used which file system for maximum compatibility?",
+      "options": {
+        "A": "FAT32",
+        "B": "HFS+",
+        "C": "EXT2",
+        "D": "NTFS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FAT32 is widely supported by consoles, USB drives, memory cards and external disks, making it the compatibility choice.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

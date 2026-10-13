@@ -1,0 +1,681 @@
+{
+  "setId": 15,
+  "title": "Daily Set 15",
+  "questions": [
+    {
+      "id": "D15-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Encoder vs decoder",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "Which statement about encoders and decoders is correct?",
+      "options": {
+        "A": "An encoder has n inputs and 2^n outputs",
+        "B": "An encoder has more input lines than output lines, while a decoder has more output lines than input lines",
+        "C": "Both have equal numbers of inputs and outputs",
+        "D": "A decoder has 2^n inputs and n outputs",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An encoder maps 2^n inputs to n outputs, and a decoder maps n inputs to 2^n outputs, so they are reverse operations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Classification",
+      "concept": "Non-linear data structures",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q53",
+      "question": "Which of the following data structures stores elements in a non-linear (hierarchical) relationship?",
+      "options": {
+        "A": "Stack",
+        "B": "Array",
+        "C": "Tree",
+        "D": "Queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A tree arranges elements hierarchically with parent-child relationships, so it is non-linear. Stacks, queues and arrays store elements in a linear sequence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "Cloud model examples",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "Which pairing of a service with its cloud model is correct?",
+      "options": {
+        "A": "Google App Engine: IaaS",
+        "B": "Rackspace: SaaS",
+        "C": "Salesforce: SaaS",
+        "D": "Gmail: PaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Salesforce delivers ready applications (SaaS); Google App Engine is PaaS and Rackspace is IaaS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "ROUND Function",
+      "concept": "ROUND to zero",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "What is the result of ROUND(748.58, -4)?",
+      "options": {
+        "A": "1000",
+        "B": "0",
+        "C": "700",
+        "D": "10000",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "-4 rounds to the nearest multiple of 10000; 748.58 is closer to 0 than to 10000, so the result is 0.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D15-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Physical layer data unit",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q181",
+      "question": "The physical layer of the OSI model is concerned with the movement of ____ over the physical medium.",
+      "options": {
+        "A": "Bits",
+        "B": "Frames",
+        "C": "Packets",
+        "D": "Data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The physical layer transmits raw bits over the medium. Frames belong to the data link layer and packets to the network layer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D15-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Languages",
+      "concept": "TCL commands",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which of the following is a TCL (Transaction Control Language) command?",
+      "options": {
+        "A": "GRANT",
+        "B": "ALTER",
+        "C": "INSERT",
+        "D": "SAVEPOINT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "TCL commands are COMMIT, ROLLBACK and SAVEPOINT.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Basics",
+      "concept": "ICT full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q132",
+      "question": "What does ICT stand for?",
+      "options": {
+        "A": "Inter Connect Technology",
+        "B": "Inter Communication Topology",
+        "C": "Internet Connection Topology",
+        "D": "Information and Communication Technology",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ICT stands for Information and Communication Technology.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D15-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Inorder numeric tree",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "A tree has root 1 with children 2 and 3. Node 2 has children 4 and 5, and node 4 has a left child 8. Node 3 has children 6 and 7, and node 6 has children 9 and 10. What is the inorder traversal?",
+      "options": {
+        "A": "8 4 2 5 1 9 6 10 3 7",
+        "B": "8 2 4 5 1 9 6 10 3 7",
+        "C": "8 4 5 2 9 10 6 7 3 1",
+        "D": "1 2 4 8 5 3 6 9 10 7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Inorder (Left, Root, Right): left subtree gives 8 4 2 5, then root 1, then right subtree 9 6 10 3 7.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "Identify non-video extension",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Which of the following is NOT a video file extension?",
+      "options": {
+        "A": "Vorbis",
+        "B": "WMV",
+        "C": "MP4",
+        "D": "FLV",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Vorbis is an open audio format. MP4 (MPEG-4), WMV (Windows Media Video) and FLV (Flash Video) are video formats.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "global",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "In Python, which keyword lets a function modify a variable defined at module level?",
+      "options": {
+        "A": "global",
+        "B": "static",
+        "C": "nonlocal",
+        "D": "extern",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Declaring a name global inside a function makes assignments refer to the module-level variable.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D15-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "OR symbol",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "Which symbol is used to represent the OR operation in logic?",
+      "options": {
+        "A": "∧",
+        "B": "∨",
+        "C": "~",
+        "D": ".",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "OR is written as + or ∨; AND is written as . or ∧, and ~ denotes NOT.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "MQTT",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q174",
+      "question": "Which lightweight, low-bandwidth machine-to-machine protocol is widely used for IoT device communication?",
+      "options": {
+        "A": "MQTT",
+        "B": "Telnet",
+        "C": "TCP/IP",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MQTT (Message Queuing Telemetry Transport) is a lightweight publish/subscribe M2M protocol designed for constrained devices and low-bandwidth networks.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Demodulation direction",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "At the receiving computer, the demodulator part of a modem converts:",
+      "options": {
+        "A": "Analog signal to digital signal",
+        "B": "Digital signal to analog signal",
+        "C": "Analog signal to radio waves",
+        "D": "Digital signal to optical signal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Demodulation converts the analog signal received from the telephone line back into digital data for the computer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Truth Tables",
+      "concept": "Truth table definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q148",
+      "question": "The format used to present the logic output for the various combinations of inputs to a gate is called a(n):",
+      "options": {
+        "A": "Boolean variable",
+        "B": "Input logic function",
+        "C": "Truth table",
+        "D": "Boolean constant",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A truth table lists every input combination with its corresponding output.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption",
+      "concept": "Decryption",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p44",
+      "question": "The process of converting cipher text back into plain text using a key is called:",
+      "options": {
+        "A": "Encryption",
+        "B": "Encoding",
+        "C": "Compression",
+        "D": "Decryption",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Decryption reverses encryption, using the decryption key to recover the original plain text.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D15-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Number of grammar types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "According to the Chomsky hierarchy, grammars are divided into how many types?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Chomsky hierarchy has four types of grammar: Type 0, Type 1, Type 2 and Type 3.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D15-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "ROS in robots",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "In robotics software development, ROS stands for:",
+      "options": {
+        "A": "Remote Output Service",
+        "B": "Routing Operating Standard",
+        "C": "Robot Operating System",
+        "D": "Real Optical Scanner",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ROS is the Robot Operating System, an open-source framework of libraries and tools used to build robot software.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D15-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "LEN function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "SELECT LEN('BIHAR'); returns:",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "BIHAR",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "LEN() returns the length of a text field; 'BIHAR' has 5 characters.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D15-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "First AI demonstration",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "In which university was the first demonstration of an AI program run?",
+      "options": {
+        "A": "Harvard University",
+        "B": "Stanford University",
+        "C": "Carnegie Mellon University",
+        "D": "Oxford University",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The first AI program demonstration (Logic Theorist by Newell and Simon) was run at Carnegie Mellon University.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D15-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Program Execution",
+      "concept": "Platform independence via JVM",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "The same Java .class file can run on Windows, Mac and Linux because:",
+      "options": {
+        "A": "Bytecode is converted to C code before execution",
+        "B": "Java source code is interpreted directly without compilation",
+        "C": "javac produces separate native code for each OS",
+        "D": "Each platform has its own JVM that interprets the common bytecode",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Bytecode is platform-neutral; a platform-specific JVM on each OS interprets (or JIT-compiles) it, giving 'write once, run anywhere'.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D15-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Internal embedded",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "Internal CSS is also known as:",
+      "options": {
+        "A": "Inline CSS",
+        "B": "Imported CSS",
+        "C": "Linked CSS",
+        "D": "Embedded CSS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Internal CSS, written inside a <style> tag in the page's <head>, is also called embedded CSS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D15-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Hierarchy",
+      "concept": "Internal memory components",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q14",
+      "question": "The internal memory of a computer consists of:",
+      "options": {
+        "A": "Main memory and secondary memory",
+        "B": "Virtual memory and cache memory",
+        "C": "CPU registers, main memory and cache memory",
+        "D": "Cache memory and registers only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Internal memory is memory directly accessible by the CPU: registers, cache and main memory (RAM/ROM). Secondary storage is external, and virtual memory is a technique, not a physical internal memory.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D15-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Lower bound of array",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q320",
+      "question": "The smallest index of an array is called its:",
+      "options": {
+        "A": "Upper bound",
+        "B": "Extraction",
+        "C": "Range",
+        "D": "Lower bound",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The lower bound is the smallest valid index (0 in C); the upper bound is the largest valid index.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "Port matching",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "Which protocol-to-port matching is INCORRECT?",
+      "options": {
+        "A": "HTTPS: 443",
+        "B": "IMAP: 110",
+        "C": "DNS: 53",
+        "D": "Telnet: 23",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IMAP uses port 143; port 110 belongs to POP3.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D15-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Identifiers",
+      "concept": "Identifier meaning",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "In Python, an identifier is:",
+      "options": {
+        "A": "A name used to identify a variable, function, class or object",
+        "B": "A reserved word with special meaning",
+        "C": "A symbol used for comments",
+        "D": "A built-in data type",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Identifiers are user-defined names for variables, functions, classes, objects and so on.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "setId": 26,
+  "title": "Daily Set 26",
+  "questions": [
+    {
+      "id": "D26-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graphs",
+      "concept": "Edges in a complete graph",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q83",
+      "question": "What is the number of edges in a complete undirected graph with n vertices?",
+      "options": {
+        "A": "n^2",
+        "B": "n(n+1)/2",
+        "C": "n",
+        "D": "n(n-1)/2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Every pair of distinct vertices is joined by exactly one edge, so the count is nC2 = n(n-1)/2.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D26-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Hybrid topology",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "A network that combines two or more different topologies is called a:",
+      "options": {
+        "A": "Mesh topology",
+        "B": "Tree topology",
+        "C": "Star topology",
+        "D": "Hybrid topology",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A hybrid topology is a combination of two or more topologies, such as star-bus or star-ring.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "ROM Types",
+      "concept": "EEPROM erased electrically",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q287",
+      "question": "In EEPROM, data is erased with the help of:",
+      "options": {
+        "A": "It cannot be erased",
+        "B": "Ultraviolet rays",
+        "C": "Transistors",
+        "D": "Electrical signals",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "EEPROM stands for Electrically Erasable Programmable ROM; it is erased with electrical signals. UV light is used for EPROM.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D26-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Octal to Binary",
+      "concept": "540 octal to binary",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "Convert (540)8 into binary.",
+      "options": {
+        "A": "110100000",
+        "B": "101100100",
+        "C": "101100000",
+        "D": "100101000",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Replace each octal digit with 3 bits: 5 = 101, 4 = 100, 0 = 000, giving 101100000.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D26-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Priority queue",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "In a hospital emergency ward, patients are served according to the seriousness of their condition rather than arrival time. Which queue models this?",
+      "options": {
+        "A": "Priority queue",
+        "B": "Deque",
+        "C": "Simple queue",
+        "D": "Circular queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In a priority queue each element has a priority, and the highest-priority element is served first.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Queries",
+      "concept": "HAVING clause",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which SQL clause is used to apply conditions on aggregate (grouped) values?",
+      "options": {
+        "A": "WHERE",
+        "B": "HAVING",
+        "C": "ORDER BY",
+        "D": "FROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HAVING filters groups using aggregate conditions; WHERE filters individual rows.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Decimal to Binary",
+      "concept": "Bits needed",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "What is the minimum number of bits needed to represent the decimal number 100 in binary?",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "10",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "100 = 1100100 in binary, which has 7 bits (2^6 = 64 <= 100 < 128 = 2^7).",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D26-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "Not C2C",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "Which of the following is NOT an example of a C2C platform?",
+      "options": {
+        "A": "IndiaMART",
+        "B": "OLX",
+        "C": "eBay",
+        "D": "Quikr",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "eBay, OLX and Quikr are consumer-to-consumer marketplaces, while IndiaMART is a B2B marketplace connecting businesses.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D26-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Unguided media",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p16",
+      "question": "Which of the following is an example of unguided media?",
+      "options": {
+        "A": "Coaxial cable",
+        "B": "Twisted pair cable",
+        "C": "Microwaves",
+        "D": "Fibre optic cable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Unguided (wireless) media include radio waves, microwaves and infrared waves; cables are guided media.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Standard binary tree traversals",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q4",
+      "question": "Which of the following is NOT a standard traversal technique for a binary tree?",
+      "options": {
+        "A": "Inorder traversal",
+        "B": "Randomized traversal",
+        "C": "Postorder traversal",
+        "D": "Preorder traversal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The standard binary tree traversals are preorder, inorder, postorder (and level order); there is no standard 'randomized traversal'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D26-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Software Types",
+      "concept": "Software two categories",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "Software is broadly classified into which two categories?",
+      "options": {
+        "A": "System software and Application software",
+        "B": "Open source and Freeware",
+        "C": "Hardware and Firmware",
+        "D": "Compiler and Interpreter",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Software is broadly divided into system software (OS, drivers, translators, utilities) and application software (word processors, browsers etc.).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Command Categories",
+      "concept": "DCL commands GRANT and REVOKE",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q253",
+      "question": "Which of the following are DCL (Data Control Language) commands?",
+      "options": {
+        "A": "UPDATE and TRUNCATE",
+        "B": "COMMIT and ROLLBACK",
+        "C": "SELECT and INSERT",
+        "D": "GRANT and REVOKE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DCL controls access rights: GRANT gives privileges and REVOKE removes them. COMMIT and ROLLBACK are TCL commands.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "del",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword is used to delete an object, such as a variable or list element, in Python?",
+      "options": {
+        "A": "del",
+        "B": "remove",
+        "C": "clear",
+        "D": "delete",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "del deletes objects or references; remove() and clear() are list methods, not keywords.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D26-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Father of AI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p30",
+      "question": "Who is known as the founder (father) of Artificial Intelligence?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "Charles Babbage",
+        "C": "John McCarthy",
+        "D": "Tim Berners-Lee",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "John McCarthy is regarded as the founder of AI; he coined the term Artificial Intelligence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D26-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Types",
+      "concept": "PDA recognises CFL",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Which machine is used to recognise context-free languages?",
+      "options": {
+        "A": "Mealy machine",
+        "B": "Linear bounded automaton",
+        "C": "Pushdown automaton",
+        "D": "Finite automaton",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A pushdown automaton (a finite automaton plus a stack) accepts exactly the context-free languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "TIFF full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "TIFF stands for:",
+      "options": {
+        "A": "Tagged Interchange File Format",
+        "B": "Tagged Image File Format",
+        "C": "Transparent Image File Format",
+        "D": "Text Image File Format",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "TIFF is the Tagged Image File Format, a raster format used in publishing and scanning.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D26-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Protocols",
+      "concept": "Protocol layer mismatch",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Which protocol and OSI layer pairing is INCORRECT?",
+      "options": {
+        "A": "ARP: Network layer",
+        "B": "ICMP: Transport layer",
+        "C": "HTTP: Application layer",
+        "D": "TCP: Transport layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "ICMP (Internet Control Message Protocol) is a Network layer protocol, not a Transport layer protocol.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "Types of anomalies",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q280",
+      "question": "Into how many types are anomalies in DBMS commonly categorized?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "There are three anomalies in poorly designed relations: insertion, deletion and update (modification) anomalies.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D26-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT versions chronology",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Which is the correct chronological order of FAT versions?",
+      "options": {
+        "A": "FAT12, FAT16, FAT32",
+        "B": "FAT32, FAT16, FAT12",
+        "C": "FAT12, FAT32, FAT16",
+        "D": "FAT16, FAT12, FAT32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FAT12 came first (around 1980), followed by FAT16 (1984) and FAT32 (1996).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D26-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer History",
+      "concept": "First home computer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Which company launched its Personal Computer (model 5150) in 1981, the machine that popularised the term 'PC' for home and office users?",
+      "options": {
+        "A": "IBM",
+        "B": "Apple",
+        "C": "Intel",
+        "D": "Microsoft",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IBM launched the IBM Personal Computer (model 5150) in 1981; it became the standard 'PC' architecture. Microsoft supplied its operating system (PC DOS) and Intel its 8088 processor.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Program Execution",
+      "concept": "Java compiler name",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Which tool compiles a Java source file (.java) into bytecode?",
+      "options": {
+        "A": "javac",
+        "B": "jar",
+        "C": "javadoc",
+        "D": "java",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "javac is the Java compiler; it converts .java source code into bytecode stored in .class files.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "MQTT full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "MQTT, a popular IoT protocol, stands for:",
+      "options": {
+        "A": "Machine Query Transfer Technology",
+        "B": "Multi Queue Transmission Transport",
+        "C": "Message Queue Telemetry Transport",
+        "D": "Message Quality Transfer Tool",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MQTT is Message Queue Telemetry Transport, a lightweight publish-subscribe protocol for IoT.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D26-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Front and rear after first insertion",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q86",
+      "question": "In an array-based queue where front and rear are both initially -1, what value do both front and rear hold after one element is inserted?",
+      "options": {
+        "A": "-1",
+        "B": "2",
+        "C": "1",
+        "D": "0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "On the first enqueue both front and rear move from -1 to index 0, since the single element is both the first and the last.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Calculation",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "D26-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "NAND truth table",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q206",
+      "question": "Which gate gives a HIGH output whenever at least one input is LOW?",
+      "options": {
+        "A": "AND gate",
+        "B": "OR gate",
+        "C": "NAND gate",
+        "D": "XOR gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A NAND output is LOW only when all inputs are HIGH, so any LOW input makes the output HIGH.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D26-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "All mutable group",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which group contains ONLY mutable data types?",
+      "options": {
+        "A": "list, tuple, set",
+        "B": "str, list, dict",
+        "C": "int, float, list",
+        "D": "list, dict, set",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "list, dictionary and set are mutable; tuple, str, int and float are immutable.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

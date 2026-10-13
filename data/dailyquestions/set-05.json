@@ -1,0 +1,681 @@
+{
+  "setId": 5,
+  "title": "Daily Set 5",
+  "questions": [
+    {
+      "id": "D05-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "Decomposition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q202",
+      "question": "A common approach to normalization is to ____ a larger table into smaller tables and link them using relationships.",
+      "options": {
+        "A": "Divide",
+        "B": "Multiply",
+        "C": "Add",
+        "D": "Subtract",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Normalization decomposes (divides) large tables into smaller related tables to remove redundancy.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D05-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Transport protocols",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Which pair of protocols belongs to the Transport layer?",
+      "options": {
+        "A": "PPP and SLIP",
+        "B": "ARP and RARP",
+        "C": "HTTP and FTP",
+        "D": "TCP and UDP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "TCP (connection oriented) and UDP (connectionless) are the main Transport layer protocols.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "SaaS use",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "Using ready-made applications or online games through a browser without installing them is an example of:",
+      "options": {
+        "A": "IaaS",
+        "B": "Private cloud",
+        "C": "SaaS",
+        "D": "PaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SaaS delivers complete applications such as apps and games directly to end users over the internet.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D05-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "SOP and POS",
+      "concept": "Canonical form contains all variables",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q325",
+      "question": "In which form of a Boolean expression must every product term (in SOP) or sum term (in POS) contain all the variables of the function?",
+      "options": {
+        "A": "Algebraically simplified form",
+        "B": "Minimized form",
+        "C": "Hybrid form",
+        "D": "Canonical form",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In canonical form each term is a full minterm or maxterm containing every variable, in true or complemented form. Minimized forms drop variables where possible.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Binary search best case",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Which statement is correct?",
+      "options": {
+        "A": "Binary search and linear search each have a best case of O(1)",
+        "B": "Binary search has a worst case of O(n)",
+        "C": "Linear search requires sorted data",
+        "D": "The best case of binary search is O(log n)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "If the key is found at the first comparison (middle element for binary, first element for linear), both take O(1). Binary search needs sorted data; linear does not.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Registers",
+      "concept": "Accumulator role",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q3",
+      "question": "Which CPU register is used to store data and intermediate results produced by the ALU?",
+      "options": {
+        "A": "Memory address register",
+        "B": "Accumulator",
+        "C": "Instruction register",
+        "D": "Program counter",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The accumulator holds one operand and receives the result of ALU operations, so it stores intermediate results.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "OS Commands",
+      "concept": "taskkill ends processes",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q250",
+      "question": "Which Windows command is used to end running processes?",
+      "options": {
+        "A": "arp",
+        "B": "networkLook",
+        "C": "lookup",
+        "D": "taskkill",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "taskkill terminates one or more processes by PID or image name. arp shows the ARP cache; the others are not process commands.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D05-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ROUND Function",
+      "concept": "ROUND -1 tens",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "What does SELECT ROUND(65.726, -1); return?",
+      "options": {
+        "A": "70",
+        "B": "66",
+        "C": "65.7",
+        "D": "60",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "-1 rounds to the nearest multiple of 10, so 65.726 becomes 70.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D05-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "B2C scenario",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "A student buys a mobile phone for personal use from Flipkart. This transaction belongs to which e-commerce model?",
+      "options": {
+        "A": "B2C",
+        "B": "B2G",
+        "C": "B2B",
+        "D": "C2C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A business (Flipkart) selling directly to an end consumer is Business-to-Consumer (B2C).",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D05-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT",
+      "concept": "IoT full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "IoT stands for:",
+      "options": {
+        "A": "Interface of Things",
+        "B": "Internet of Tools",
+        "C": "Internet of Things",
+        "D": "Integration of Technology",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "IoT means Internet of Things: physical devices connected to the Internet that collect and exchange data.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D05-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "Routing function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Routing and forwarding of packets is the main function of which OSI layer?",
+      "options": {
+        "A": "Network layer",
+        "B": "Data Link layer",
+        "C": "Transport layer",
+        "D": "Session layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Network layer decides the path (routing) and forwards packets from source to destination across networks.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Switching algebra",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q245",
+      "question": "Boolean algebra is also called:",
+      "options": {
+        "A": "Linear algebra",
+        "B": "Switching algebra",
+        "C": "Abstract number algebra",
+        "D": "Arithmetic algebra",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Boolean algebra is called switching algebra because it models two-state switching circuits (on/off, 1/0).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Three-node tree postorder",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "For a tree with root A, left child B and right child C, what is the postorder traversal?",
+      "options": {
+        "A": "B C A",
+        "B": "A B C",
+        "C": "B A C",
+        "D": "C B A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Postorder is Left, Right, Root, giving B C A.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D05-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "SJF selection",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Which scheduling algorithm selects the process with the smallest CPU burst time next?",
+      "options": {
+        "A": "Priority scheduling",
+        "B": "Round Robin",
+        "C": "FCFS",
+        "D": "Shortest Job First",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Shortest Job First (SJF) picks the process with the shortest burst, minimising average waiting time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Aggregation",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q194",
+      "question": "In the ER model, the abstraction in which a relationship set together with its participating entity sets is treated as a single higher-level entity is called:",
+      "options": {
+        "A": "Generalization",
+        "B": "Specialization",
+        "C": "Aggregation",
+        "D": "Normalization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Aggregation treats a relationship and its entities as one abstract entity so that it can participate in another relationship.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption",
+      "concept": "Plain text",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p44",
+      "question": "Unencrypted, readable data is called:",
+      "options": {
+        "A": "Key text",
+        "B": "Hash code",
+        "C": "Cipher text",
+        "D": "Plain text",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Readable data before encryption is plain text; after encryption it becomes cipher text.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Comments",
+      "concept": "Docstring",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Docstring comments in Python are written using:",
+      "options": {
+        "A": "/* and */",
+        "B": "Double slashes (//)",
+        "C": "Triple quotes (\"\"\" \"\"\")",
+        "D": "Single # symbol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Docstrings are string literals enclosed in triple quotes, typically placed just after a function, class or module definition.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D05-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Connectors",
+      "concept": "Connector NOT fibre",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p16",
+      "question": "Which of the following is NOT a fibre optic connector?",
+      "options": {
+        "A": "SC",
+        "B": "LC",
+        "C": "RJ-45",
+        "D": "ST",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SC (Subscriber Connector), ST (Straight Tip) and LC (Lucent Connector) are fibre connectors; RJ-45 is used with twisted pair Ethernet cable.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D05-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "V-model",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "The V-shaped model is also known as the:",
+      "options": {
+        "A": "Visual design model",
+        "B": "Version control model",
+        "C": "Verification and Validation model",
+        "D": "Variable iteration model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The V-model pairs each development phase with a corresponding testing phase, so it is called the Verification and Validation model.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D05-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Keywords",
+      "concept": "Keywords as identifiers",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "Why can't a keyword such as int be used as a variable name in C++?",
+      "options": {
+        "A": "Keywords can be used if written in capital letters only in C",
+        "B": "Keywords are reserved words whose meaning is predefined by the compiler",
+        "C": "Keywords are only used in comments",
+        "D": "Keywords are too short to be identifiers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Keywords are reserved words with meanings already defined by the compiler, so they cannot be identifiers.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D05-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "Organisation vs system",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "Which of the following is an organisation rather than a payment method or system?",
+      "options": {
+        "A": "IMPS",
+        "B": "NPCI",
+        "C": "NEFT",
+        "D": "RTGS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "NPCI (National Payments Corporation of India) is the organisation that operates payment systems; NEFT, RTGS and IMPS are transfer systems.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D05-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterms and Maxterms",
+      "concept": "Maxterm for A=1, B=1",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q266",
+      "question": "What is the maxterm corresponding to the input combination A = 1, B = 1?",
+      "options": {
+        "A": "A + B'",
+        "B": "A + B",
+        "C": "A' + B",
+        "D": "A' + B'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A maxterm is 0 only for its own combination: a variable equal to 1 appears complemented. For A = 1, B = 1 the maxterm is A' + B'.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "D05-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "Machine cycle steps",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q184",
+      "question": "In the machine (instruction) cycle of fetch, decode, execute and store, which is the last step, in which the result of the instruction is written back to memory or a register?",
+      "options": {
+        "A": "Fetch",
+        "B": "Store",
+        "C": "Execute",
+        "D": "Decode",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The machine cycle runs fetch, decode, execute and then store; the store step writes the output of the executed instruction to memory or a register.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D05-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "AMQP message queues",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q12",
+      "question": "Which protocol uses queues of data, enabling connected systems to communicate asynchronously and better handle issues like traffic spikes?",
+      "options": {
+        "A": "AMQP",
+        "B": "DDS",
+        "C": "MQTT",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "AMQP (Advanced Message Queuing Protocol) is built around message queues and brokers that store and forward messages, decoupling producers and consumers asynchronously.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D05-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Hash function purpose",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q43",
+      "question": "What is the use of a hash function in a hash table?",
+      "options": {
+        "A": "To erase data",
+        "B": "To calculate and return the index of the corresponding data",
+        "C": "To store data",
+        "D": "To change data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A hash function converts a key into an index (bucket address) in the table where the corresponding data is stored or looked up.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

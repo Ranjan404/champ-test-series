@@ -1,0 +1,681 @@
+{
+  "setId": 39,
+  "title": "Daily Set 39",
+  "questions": [
+    {
+      "id": "D39-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Physical Layer",
+      "concept": "Physical layer functions",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "Which of the following is a function of the Physical layer?",
+      "options": {
+        "A": "Routing of packets",
+        "B": "Bit synchronization and bit rate control",
+        "C": "Flow control of frames using MAC addresses",
+        "D": "Encryption and decryption",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Physical layer maintains the physical connection and handles bit synchronization, bit rate control, topology and transmission modes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Mining",
+      "concept": "Data mining",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q242",
+      "question": "The process of deriving meaningful information from a large amount of data is called:",
+      "options": {
+        "A": "Extraction",
+        "B": "Data mining",
+        "C": "Data warehousing",
+        "D": "Abstraction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Data mining discovers useful patterns and knowledge in large datasets; a data warehouse only stores integrated data for analysis.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Memory Allocation",
+      "concept": "Array static vs linked list dynamic",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q284",
+      "question": "In ____, memory is assigned at compile time, and in ____, memory is assigned at runtime.",
+      "options": {
+        "A": "Queue, Array",
+        "B": "Linked list, Array",
+        "C": "Array, Linked list",
+        "D": "Stack, Array",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A static array's size is fixed when the program is compiled, while linked list nodes are allocated dynamically at runtime as needed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Functions",
+      "concept": "Neutral function",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q295",
+      "question": "A function in which the number of minterms equals the number of maxterms is called a:",
+      "options": {
+        "A": "Neutral function",
+        "B": "Universal function",
+        "C": "Boolean function",
+        "D": "Self-dual function",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A function whose number of minterms equals its number of maxterms (each 2^(n-1) for n variables) is called a neutral function. Every self-dual function is neutral, but a neutral function need not be self-dual, so 'self-dual' does not define this property.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "Mask ROM limitation",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q136",
+      "question": "A major disadvantage of mask ROM is that:",
+      "options": {
+        "A": "It loses its data when power is switched off",
+        "B": "It has an extremely short life and needs frequent replacement",
+        "C": "It cannot be reprogrammed if the stored data needs to be changed",
+        "D": "It can be erased only with ultraviolet light",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Mask ROM data is fixed during chip fabrication, so it cannot be reprogrammed; changes require manufacturing new chips.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Basics",
+      "concept": "Definition of multimedia",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "Multimedia is best defined as:",
+      "options": {
+        "A": "The integration of different types of media such as text, images, audio, video and animation",
+        "B": "A type of computer memory used for graphics",
+        "C": "A single medium used to store large files",
+        "D": "A network protocol used for streaming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Multimedia is the integration of several media types such as text, drawings, still images, video, audio and animation.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Commands",
+      "concept": "nslookup",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q149",
+      "question": "Which command is used to find the IP address corresponding to a domain name using DNS?",
+      "options": {
+        "A": "lookup",
+        "B": "networklook",
+        "C": "nslookup",
+        "D": "arp",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "nslookup queries DNS servers to resolve domain names to IP addresses; arp maps IP to MAC addresses.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "Microcontroller",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q103",
+      "question": "A complete computer on a single chip is called a:",
+      "options": {
+        "A": "Compiler",
+        "B": "Assembler",
+        "C": "Microprocessor",
+        "D": "Microcontroller",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A microcontroller integrates CPU, memory (RAM/ROM) and I/O on one chip; a microprocessor contains only the CPU.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Definitions of AI ML DL",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Which statement is correct?",
+      "options": {
+        "A": "Deep learning is a technique that only mimics human behaviour without data",
+        "B": "AI is a subset of deep learning that uses neural networks",
+        "C": "Machine learning makes multi-layer neural networks feasible, and DL uses only statistics",
+        "D": "Machine learning uses statistical methods to enable machines to improve with experience",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "AI mimics human behaviour; ML is a subset of AI using statistical methods to improve with experience; DL is a subset of ML that makes multi-layer neural network computation feasible.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting Algorithms",
+      "concept": "Bubble sort best",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p36",
+      "question": "What is the best-case time complexity of (optimized) bubble sort when the input is already sorted?",
+      "options": {
+        "A": "O(n log n)",
+        "B": "O(n)",
+        "C": "O(n^2)",
+        "D": "O(1)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "With a swap flag, bubble sort finishes after one pass with no swaps on sorted input, giving O(n). Average and worst cases are O(n^2).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D39-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Protocols",
+      "concept": "RTP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "What is the full form of RTP, the protocol used in video conferencing and live streaming?",
+      "options": {
+        "A": "Real-Time Transmission Packet",
+        "B": "Routing Table Protocol",
+        "C": "Real-Time Transport Protocol",
+        "D": "Remote Transfer Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RTP stands for Real-Time Transport Protocol; it carries real-time audio and video, e.g. in Zoom and Skype calls.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D39-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "Left outer join",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Which join returns all rows from the left table and only the matching rows from the right table?",
+      "options": {
+        "A": "Cross join",
+        "B": "Inner join",
+        "C": "Right outer join",
+        "D": "Left outer join",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A left outer join keeps every row of the left table and fills NULL where the right table has no match.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "Mainframes OS type",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Operating systems running on mainframe computers that serve hundreds of terminal users at once are of which type?",
+      "options": {
+        "A": "Single-user, multi-tasking",
+        "B": "Single-user, single-task",
+        "C": "Real-time embedded",
+        "D": "Multi-user, multi-tasking",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Mainframe OSes serve many users and many jobs simultaneously, making them multi-user, multi-tasking.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Commutative law of OR",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q101",
+      "question": "Which Boolean law is expressed by A + B = B + A?",
+      "options": {
+        "A": "Absorption law",
+        "B": "Commutative law",
+        "C": "Distributive law",
+        "D": "Associative law",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The commutative law states that the order of operands does not change the result: A + B = B + A.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Gorilla testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Repeatedly and intensively testing one particular module over and over, which is tedious and frustrating, is called:",
+      "options": {
+        "A": "Gorilla testing",
+        "B": "Smoke testing",
+        "C": "Sanity testing",
+        "D": "Monkey testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Gorilla testing hammers a single module repetitively to check its robustness; monkey testing is random testing.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Annulment law",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q23",
+      "question": "According to Boolean algebra, A + 1 = ?",
+      "options": {
+        "A": "0",
+        "B": "A'",
+        "C": "1",
+        "D": "A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "By the annulment (null) law of OR, anything ORed with 1 gives 1, so A + 1 = 1.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Number of deadlock conditions",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "How many necessary conditions must hold simultaneously for a deadlock to occur?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The four Coffman conditions are mutual exclusion, hold and wait, no preemption and circular wait.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D39-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "Secondary memory identification",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "Which of the following is an example of secondary (external) memory?",
+      "options": {
+        "A": "Blu-ray Disc",
+        "B": "Dynamic RAM",
+        "C": "Static RAM",
+        "D": "EEPROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Blu-ray Disc is external/secondary storage, like hard disks, CDs, DVDs, pen drives and memory cards; SRAM, DRAM and EEPROM are primary memory.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Constraints",
+      "concept": "UNION is not a constraint",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q282",
+      "question": "Which of the following is NOT a constraint in SQL?",
+      "options": {
+        "A": "UNION",
+        "B": "NOT NULL",
+        "C": "PRIMARY KEY",
+        "D": "CHECK",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "PRIMARY KEY, NOT NULL and CHECK are column/table constraints. UNION is a set operator that combines the results of two SELECT queries.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D39-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Quick sort technique",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q119",
+      "question": "Which algorithm design technique is used in quick sort?",
+      "options": {
+        "A": "Greedy method",
+        "B": "Dynamic programming",
+        "C": "Backtracking",
+        "D": "Divide and conquer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Quick sort partitions the array around a pivot and recursively sorts the sub-arrays, which is divide and conquer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Loops",
+      "concept": "For loop known iterations",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "When the number of iterations is known beforehand, which loop is most suitable?",
+      "options": {
+        "A": "do-while loop",
+        "B": "for loop",
+        "C": "while loop",
+        "D": "goto loop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A for loop is used when we know how many times the loop body needs to run.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D39-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Vector scaling",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "A logo must look perfectly sharp whether printed on a visiting card or a large banner. Which graphics type is most suitable?",
+      "options": {
+        "A": "Vector graphics",
+        "B": "Bitmap graphics",
+        "C": "JPEG photographs",
+        "D": "Raster graphics",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "No matter how much you zoom in on a vector image, its lines and curves remain smooth, so vectors are used for logos. Raster/bitmap images become pixelated when enlarged.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D39-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "return",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword exits a function and sends a value back to the caller?",
+      "options": {
+        "A": "pass",
+        "B": "return",
+        "C": "yield",
+        "D": "break",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "return ends the function and returns a value to the caller.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D39-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "Service models",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "Which of the following is NOT a cloud service model?",
+      "options": {
+        "A": "Hybrid cloud",
+        "B": "SaaS",
+        "C": "IaaS",
+        "D": "PaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The service models are IaaS, PaaS and SaaS; hybrid cloud is a deployment model.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D39-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "Purpose of routing",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q89",
+      "question": "What is the primary function of routing in the network layer?",
+      "options": {
+        "A": "Finding the best path for data",
+        "B": "Error correction",
+        "C": "Flow control",
+        "D": "Data framing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Routing selects the best path for packets from source to destination across networks; framing is a data link function.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

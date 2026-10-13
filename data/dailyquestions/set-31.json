@@ -1,0 +1,681 @@
+{
+  "setId": 31,
+  "title": "Daily Set 31",
+  "questions": [
+    {
+      "id": "D31-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Tree",
+      "concept": "Minimum nodes for a given height",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q177",
+      "question": "What is the minimum number of nodes in a binary tree of height 5, where height is the number of edges on the longest root-to-leaf path?",
+      "options": {
+        "A": "32",
+        "B": "63",
+        "C": "6",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The minimum is achieved by a skewed tree with one node per level: height h (in edges) needs h + 1 nodes, so 6. 63 (2^(h+1) - 1) is the maximum.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D31-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Character Codes",
+      "concept": "ASCII value of '!'",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q166",
+      "question": "What is the decimal ASCII code of the character '!'?",
+      "options": {
+        "A": "31",
+        "B": "34",
+        "C": "32",
+        "D": "33",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In ASCII, space is 32 and '!' immediately follows it with code 33.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "D31-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Processor Architecture",
+      "concept": "EPIC architecture",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q117",
+      "question": "Which architecture allows instructions to be executed in parallel by relying on the compiler to schedule them?",
+      "options": {
+        "A": "Von Neumann",
+        "B": "EPIC",
+        "C": "CISC",
+        "D": "RISC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "EPIC (Explicitly Parallel Instruction Computing, e.g. Intel Itanium) lets the compiler explicitly mark instructions that can execute in parallel.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Composite key",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q113",
+      "question": "Which key consists of two or more attributes that together uniquely identify an entity occurrence?",
+      "options": {
+        "A": "Candidate key",
+        "B": "Composite key",
+        "C": "Foreign key",
+        "D": "Alternate key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A composite key is formed by combining two or more attributes to uniquely identify each row.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "TCP/IP Model",
+      "concept": "Layers in TCP/IP",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q99",
+      "question": "How many layers are there in the TCP/IP model?",
+      "options": {
+        "A": "6 layers",
+        "B": "7 layers",
+        "C": "4 layers",
+        "D": "3 layers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The TCP/IP model has four layers: Network Access (Link), Internet, Transport and Application; 7 layers belong to OSI.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D31-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "MS-DOS single-tasking",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "MS-DOS is a classic example of which type of operating system?",
+      "options": {
+        "A": "Single-user, single-task",
+        "B": "Multi-user, multi-tasking",
+        "C": "Real-time",
+        "D": "Distributed",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MS-DOS allows one user to run one program at a time, so it is a single-user, single-task OS.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Preorder rule",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "Preorder traversal visits nodes in which order?",
+      "options": {
+        "A": "Left, Right, Root",
+        "B": "Left, Root, Right",
+        "C": "Root, Left, Right",
+        "D": "Right, Root, Left",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Pre means the root comes first: Root, Left subtree, Right subtree.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Architecture",
+      "concept": "Number of DB architecture types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "Database architecture is commonly classified into which three types?",
+      "options": {
+        "A": "Hierarchical, network and relational",
+        "B": "Single tier, two tier and three tier",
+        "C": "Physical, logical and view",
+        "D": "Client, server and cloud",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The DBMS architecture types are 1-tier, 2-tier and 3-tier.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D31-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Email Protocols",
+      "concept": "IMAP",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q139",
+      "question": "Which protocol allows users to view and manipulate emails on the server without downloading them?",
+      "options": {
+        "A": "IMAP",
+        "B": "TCP/IP",
+        "C": "DHCP",
+        "D": "POP3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IMAP keeps mail on the server and lets clients manage folders remotely; POP3 typically downloads and removes messages.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Performance",
+      "concept": "Clock speed in hertz",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q308",
+      "question": "The speed of a CPU is measured in ____, which represents CPU clock cycles per second.",
+      "options": {
+        "A": "Hertz (Hz)",
+        "B": "Gigabytes (GB)",
+        "C": "Kilobytes (KB)",
+        "D": "Terabytes (TB)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Clock speed is measured in hertz (cycles per second), usually GHz for modern CPUs. Bytes measure storage capacity, not speed.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Structural vs presentational",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "If HTML is described as the structural layer (skeleton) of a web page, CSS is described as the:",
+      "options": {
+        "A": "Structural layer",
+        "B": "Database layer",
+        "C": "Network layer",
+        "D": "Presentational layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "HTML defines structure (like a skeleton) and CSS adds presentation (appearance) on top of it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D31-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "IoT network categories",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "IoT networks are broadly divided into which two categories?",
+      "options": {
+        "A": "High-power LAN and High-power WAN",
+        "B": "Simplex IoT and Duplex IoT",
+        "C": "Low-power short-range networks and Low-power wide-area networks (LPWAN)",
+        "D": "Wired IoT and Optical IoT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "IoT networks are broadly classified as low-power short-range networks (e.g. Bluetooth, Zigbee, Wi-Fi) and low-power wide-area networks or LPWAN (e.g. Sigfox, LoRaWAN, NB-IoT).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "NAND output 0",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "A 2-input NAND gate gives output 0 when:",
+      "options": {
+        "A": "A=1, B=1",
+        "B": "A=0, B=1",
+        "C": "A=1, B=0",
+        "D": "A=0, B=0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NAND output (AB)' is 0 only when AB = 1, i.e., both inputs are 1.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 3 machines NFA DFA",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Type 3 (regular) grammars are accepted by finite automata. Which two kinds of finite automata are commonly used?",
+      "options": {
+        "A": "NFA and DFA",
+        "B": "LBA and TM",
+        "C": "Mealy and Turing",
+        "D": "PDA and DPDA",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Finite automata come in two kinds: NFA (Non-deterministic Finite Automata) and DFA (Deterministic Finite Automata).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Keywords",
+      "concept": "C++ only keyword",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "Which of the following is a keyword in C++ but NOT in C?",
+      "options": {
+        "A": "goto",
+        "B": "volatile",
+        "C": "register",
+        "D": "virtual",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "virtual is a C++ keyword used for polymorphism; register, volatile and goto exist in C too.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D31-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Waterfall linear model",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Which SDLC model follows a strictly linear, sequential flow where each phase must be completed before the next begins?",
+      "options": {
+        "A": "Agile model",
+        "B": "Spiral model",
+        "C": "Prototype model",
+        "D": "Waterfall model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Waterfall model is linear and sequential, with no overlap between phases.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "Running to waiting",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "A running process requests data from the disk. Into which state does it move?",
+      "options": {
+        "A": "New",
+        "B": "Waiting",
+        "C": "Ready",
+        "D": "Terminated",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "On an I/O or event wait, a running process moves to the Waiting (blocked) state.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D31-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "ROUND Function",
+      "concept": "ROUND truncate parameter",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "In SQL Server, SELECT ROUND(12.3456, 2, 1); returns 12.3400. Why is the result not 12.35?",
+      "options": {
+        "A": "ROUND always rounds down for positive numbers",
+        "B": "The third parameter converts the value to an integer",
+        "C": "A non-zero third parameter truncates instead of rounding",
+        "D": "The third parameter sets the number of digits before the decimal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "If the third parameter is 0 the value is rounded; if it is non-zero the value is truncated.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "FLAC lossless",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Which of the following audio formats is lossless, as its name suggests?",
+      "options": {
+        "A": "FLAC",
+        "B": "WMA",
+        "C": "AAC",
+        "D": "MP3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FLAC stands for Free Lossless Audio Codec; it compresses audio without discarding any data. MP3 is lossy.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv6 size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "An IPv6 address is how many bits long?",
+      "options": {
+        "A": "32 bits",
+        "B": "256 bits",
+        "C": "64 bits",
+        "D": "128 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IPv6 uses 128-bit (16-byte) addresses written in hexadecimal groups separated by colons.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D31-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "yield",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "In Python, a function that produces a sequence of values one at a time, pausing between them (a generator), uses which keyword?",
+      "options": {
+        "A": "async",
+        "B": "yield",
+        "C": "lambda",
+        "D": "return",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "yield returns a value from a generator and suspends its state until the next value is requested.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XNOR complement",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "The XNOR gate output is the logical complement of the output of which gate?",
+      "options": {
+        "A": "XOR",
+        "B": "AND",
+        "C": "OR",
+        "D": "NAND",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "XNOR (Exclusive NOR) is XOR followed by NOT, so its output is the complement of XOR.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Types of machine learning",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q59",
+      "question": "Which of the following is NOT one of the three main types of machine learning?",
+      "options": {
+        "A": "Supervised learning",
+        "B": "Reinforcement learning",
+        "C": "Unsupervised learning",
+        "D": "Sequential learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The three main types of machine learning are supervised, unsupervised and reinforcement learning; 'sequential learning' is not one of them.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D31-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Linear search complexity",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Sequential (linear) search on unsorted data has a worst-case time complexity of:",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n^2)",
+        "D": "O(log n)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In the worst case linear search checks all n elements, so it is O(n). Its best case is O(1).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D31-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Software Types",
+      "concept": "Not application software",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "Which of the following is NOT application software?",
+      "options": {
+        "A": "Database software",
+        "B": "Word processor",
+        "C": "Utility program",
+        "D": "Graphics software",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Utility programs (antivirus, disk cleanup etc.) are system software; the others are application software.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

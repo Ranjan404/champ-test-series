@@ -1,0 +1,681 @@
+{
+  "setId": 37,
+  "title": "Daily Set 37",
+  "questions": [
+    {
+      "id": "D37-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "Types of RAM",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "The two main types of RAM are:",
+      "options": {
+        "A": "MROM and EEPROM",
+        "B": "Cache and Virtual",
+        "C": "PROM and EPROM",
+        "D": "Static RAM and Dynamic RAM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "RAM is classified into Static RAM (SRAM) and Dynamic RAM (DRAM).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "De Morgan's Theorem",
+      "concept": "Complement of a sum",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q229",
+      "question": "Which of the following correctly states De Morgan's theorem?",
+      "options": {
+        "A": "(AB)' = A' · B'",
+        "B": "(A + B)' = A' · B",
+        "C": "A' + B' = AB'",
+        "D": "(A + B)' = A' · B'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "De Morgan's theorems are (A + B)' = A'B' and (AB)' = A' + B'. Only option D matches one of them.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D37-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Cell spacing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "The space between two adjacent table cells is known as:",
+      "options": {
+        "A": "Text indent",
+        "B": "Line height",
+        "C": "Cell spacing",
+        "D": "Cell padding",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Cell spacing defines the distance between neighbouring cells.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Alternate key",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "Candidate keys that are not chosen as the primary key are called:",
+      "options": {
+        "A": "Foreign keys",
+        "B": "Composite keys",
+        "C": "Super keys",
+        "D": "Alternate keys",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Of all candidate keys, one becomes the primary key; the remaining ones are alternate keys.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Tree has no cycle",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "Which statement about trees is correct?",
+      "options": {
+        "A": "A tree can have multiple root nodes",
+        "B": "Every node in a tree must have exactly two children",
+        "C": "A tree does not contain any closed loop (cycle)",
+        "D": "A tree must contain at least one cycle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A tree is a hierarchical structure without closed loops; it has exactly one root, and nodes may have any number of children.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D37-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Ring uses token",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "Token passing and FDDI are associated with which topology?",
+      "options": {
+        "A": "Tree",
+        "B": "Ring",
+        "C": "Star",
+        "D": "Bus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Ring topology circulates a token so that only the holder can transmit; FDDI uses a (dual) ring.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary to Decimal",
+      "concept": "Place value",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "In the binary number (101101)2, what is the place value of the leftmost 1?",
+      "options": {
+        "A": "16",
+        "B": "32",
+        "C": "2",
+        "D": "64",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The leftmost digit is at position 5 (counting from 0 on the right), so its value is 2^5 = 32.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Question Misread",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D37-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Architecture",
+      "concept": "Gateway role in smart grid",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q219",
+      "question": "Which of the following is NOT a role of the gateway in the smart grid architecture of IoT?",
+      "options": {
+        "A": "Managing and forwarding data to the cloud",
+        "B": "Collecting data from smart meters and sensors",
+        "C": "Generating electrical power for the grid",
+        "D": "Providing security for data transfer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A smart grid gateway collects, manages, stores/forwards and secures data between field devices and the cloud; it does not generate electricity.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D37-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "h2 size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "With a 16px base font, the default size of an <h2> heading is:",
+      "options": {
+        "A": "24px",
+        "B": "32px",
+        "C": "18.72px",
+        "D": "20px",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "<h2> is 1.5em, which is 24px with a 16px base.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D37-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "TCL",
+      "concept": "SAVEPOINT purpose",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "What does SAVEPOINT do in SQL?",
+      "options": {
+        "A": "Creates a point within a transaction to which a later ROLLBACK can return",
+        "B": "Undoes the entire transaction immediately",
+        "C": "Permanently saves all changes to the database",
+        "D": "Creates a backup copy of the whole database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SAVEPOINT marks a point inside a transaction so you can roll back partially to it.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D37-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Banker's Algorithm",
+      "concept": "Banker's developer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Who developed the Banker's algorithm?",
+      "options": {
+        "A": "Ken Thompson",
+        "B": "Dennis Ritchie",
+        "C": "Alan Turing",
+        "D": "Edsger Dijkstra",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Banker's algorithm was developed by Edsger W. Dijkstra.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D37-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search Trees",
+      "concept": "BST average search",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q34",
+      "question": "In a binary search tree, what is the average-case time complexity of searching for an element?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n log n)",
+        "C": "O(n)",
+        "D": "O(log n)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "On average a BST has height proportional to log n, and each comparison discards one subtree, so search takes O(log n). O(n) is the worst case for a skewed tree.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Gateway layers",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "According to the OSI device mapping, a gateway can operate at which of the following layers?",
+      "options": {
+        "A": "Only the Network layer",
+        "B": "Only the Data Link layer",
+        "C": "Only the Physical layer",
+        "D": "Transport layer through Application layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A gateway works at the upper layers (Layer 4 to Layer 7) because it may need to translate between different protocols.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D37-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Generations",
+      "concept": "Third generation SSI MSI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Integrated circuits with SSI (Small Scale Integration) and MSI (Medium Scale Integration) are features of which generation?",
+      "options": {
+        "A": "Second",
+        "B": "Third",
+        "C": "Fifth",
+        "D": "Fourth",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Third-generation computers (around 1964-77) used ICs built with SSI and MSI technology.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Identity law",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "According to the identity law, A + 0 equals:",
+      "options": {
+        "A": "A'",
+        "B": "A",
+        "C": "0",
+        "D": "1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Identity law: A + 0 = A and A.1 = A.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Loops",
+      "concept": "Do while output",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "How many times is \"Hi\" printed by: int i = 5; do { cout << \"Hi\"; } while (i < 3);",
+      "options": {
+        "A": "0",
+        "B": "5",
+        "C": "1",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The body of a do-while loop runs once before the condition (5 < 3, false) is checked.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D37-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Branches of AI",
+      "concept": "Branches of AI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Which of the following is NOT a branch of AI?",
+      "options": {
+        "A": "Robotics",
+        "B": "Spreadsheet Processing",
+        "C": "Fuzzy Logic",
+        "D": "Natural Language Processing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The branches of AI are Machine Learning, Deep Learning, NLP, Robotics, Expert Systems and Fuzzy Logic.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D37-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Guided media",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "Networking cables such as twisted pair, coaxial and fibre optic are classified as:",
+      "options": {
+        "A": "Wireless media",
+        "B": "Unguided media",
+        "C": "Guided media",
+        "D": "Broadcast media",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Cables provide a physical path for signals and are called guided (wired) media.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Smoke testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "A quick check performed on a new build to verify its critical functions work before deeper testing is called:",
+      "options": {
+        "A": "Smoke testing (build verification testing)",
+        "B": "Boundary value testing",
+        "C": "Gorilla testing",
+        "D": "Beta testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Smoke testing, also called build verification testing, checks that the main functions of a new build work.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "Circular linked list application",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q271",
+      "question": "Which of the following applications makes use of a circular linked list?",
+      "options": {
+        "A": "Round-robin allocation of the CPU to processes",
+        "B": "Recursive function calls",
+        "C": "Implementing hash tables",
+        "D": "Undo operation in a text editor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Round-robin CPU scheduling cycles through processes repeatedly, which maps naturally to a circular linked list. Undo and recursion use stacks.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "EEPROM full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "What does EEPROM stand for?",
+      "options": {
+        "A": "Electrically Erasable Programmable Read Only Memory",
+        "B": "Extended Erasable Programmable Read Only Memory",
+        "C": "Electrically Encoded Programmable Random Operating Memory",
+        "D": "Erasable Electronic Programmable Read Only Memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "EEPROM is Electrically Erasable Programmable Read Only Memory; it can be erased and reprogrammed electrically.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D37-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "Android file systems",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "Android devices commonly use which combination of file systems?",
+      "options": {
+        "A": "APFS and HFS",
+        "B": "FAT12 and NTFS",
+        "C": "FAT32, EXT3 and EXT4",
+        "D": "NTFS and HFS+",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Android, being Linux-based, uses EXT3/EXT4 internally and FAT32 for removable storage.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "UCASE function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "Which SQL scalar function converts a field to upper case?",
+      "options": {
+        "A": "UCASE()",
+        "B": "LCASE()",
+        "C": "MID()",
+        "D": "FORMAT()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "UCASE() converts to upper case; LCASE() converts to lower case.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D37-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "GIF full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "What is the full form of GIF?",
+      "options": {
+        "A": "Graphical Image File",
+        "B": "Graphics Interchange Format",
+        "C": "General Image Format",
+        "D": "Graphics Integrated Format",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "GIF stands for Graphics Interchange Format, a raster format that also supports simple animation.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D37-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Basics",
+      "concept": "PVM",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which component actually executes Python byte code?",
+      "options": {
+        "A": "Python Virtual Machine (PVM)",
+        "B": "Linker",
+        "C": "Java Virtual Machine (JVM)",
+        "D": "Assembler",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Python byte code is run by the Python Virtual Machine, the runtime engine of the interpreter.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

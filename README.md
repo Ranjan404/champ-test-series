@@ -41,6 +41,7 @@ Questions always stay in `data/questions/`. Setting `DATA_DIR` forces the JSON f
 | --- | --- |
 | `npm run create-user -- <name> [password]` | Add a user, or reset an existing user's password |
 | `npm run validate` | Check every question set against `syllabus/TEST_RULES.md` |
+| `npm run validate:daily` | Check the Daily Question sets in `data/dailyquestions/` |
 | `npm test` | Unit tests: scoring, unlock, reset, report |
 | `npm run test:e2e` | Build + Playwright run on phone and desktop sizes |
 | `npm run lint` | TypeScript type check |
@@ -51,6 +52,7 @@ Questions always stay in `data/questions/`. Setting `DATA_DIR` forces the JSON f
 data/
   users.json              # [{ id, username, passwordHash, createdAt }]  (bcrypt hashes)
   questions/set-01..50.json
+  dailyquestions/set-01..40.json  # Daily Question rotation (ids D01-Q01...)
   progress/<userId>.json  # { unlockedUpTo, sets: { "<n>": current attempt }, history: [completed attempts] }
 ```
 
@@ -68,3 +70,18 @@ and no duplicate question text or concept across the 50 sets.
 
 Every question is tagged `Generated` (the batch files have no exam-year attribution), so result pages say there
 are no PYQ questions.
+
+## Daily Question
+
+One daily set per day (Indian time), rotating through `data/dailyquestions/set-01..40.json`: set 1 on
+2026-10-13 (`DAILY_START_DATE` in `lib/daily.ts`), set 2 the next day, and back to set 1 after the last file. Adding
+`set-41.json` adds it to the rotation. Each set has 25 single-answer questions, a 25-minute timer and the same
++1 / -1/3 / 0 marking, and can be attempted any number of times that day. The test works like the GK/GS one:
+question palette, mark for review, Previous, Save & Next, and Submit (automatic when time runs out).
+
+Attempts are kept on the server (`daily` in the progress file), so a reload or another device resumes the same
+attempt. The 25 minutes are timed on the server. Correct answers only reach the browser on the result page.
+
+The 1,000 questions come from two PDFs: the 328-question "Marathon" paper (answer key checked, questions with
+"all/none of the above" rewritten to one correct option) and the "STET Computer Selected Topic" notes (questions
+written from the slides). `sourceRef` says which PDF each question came from (`MARATHON_328#Q<n>` or `STET_NOTES#p<page>`).

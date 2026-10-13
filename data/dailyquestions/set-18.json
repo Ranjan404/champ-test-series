@@ -1,0 +1,681 @@
+{
+  "setId": 18,
+  "title": "Daily Set 18",
+  "questions": [
+    {
+      "id": "D18-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Process-to-process delivery",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Process-to-process delivery of a message is the responsibility of which layer?",
+      "options": {
+        "A": "Data Link layer",
+        "B": "Network layer",
+        "C": "Transport layer",
+        "D": "Physical layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Transport layer uses port numbers to deliver data between specific processes; node-to-node delivery is done by the Data Link layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "Anomalies",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q232",
+      "question": "Normalization aims to eliminate three kinds of data anomalies. Which of the following is NOT one of them?",
+      "options": {
+        "A": "Deletion anomaly",
+        "B": "Selection anomaly",
+        "C": "Insertion anomaly",
+        "D": "Update anomaly",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Normalization removes insertion, update (modification) and deletion anomalies. Reading data (selection) does not cause anomalies.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D18-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Security",
+      "concept": "MQTT security",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q190",
+      "question": "How is security typically added to MQTT messages in IoT applications?",
+      "options": {
+        "A": "By using a longer topic name",
+        "B": "Through SSL/TLS encryption of the connection",
+        "C": "Through digital watermarks",
+        "D": "By using strong passwords only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "MQTT itself has minimal security; it is normally run over TLS (MQTTS, port 8883) to encrypt and authenticate the connection.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D18-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "Infix to prefix",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "What is the prefix form of the infix expression A + B * C?",
+      "options": {
+        "A": "+ A * B C",
+        "B": "A B C * +",
+        "C": "+ * A B C",
+        "D": "* + A B C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "B*C becomes *BC (higher precedence), then A + (*BC) becomes + A * B C.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D18-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Annulment law",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "Which pair of expressions represents the annulment law?",
+      "options": {
+        "A": "A + A' = 1 and A.A' = 0",
+        "B": "A + A = A and A.A = A",
+        "C": "A + 0 = A and A.1 = A",
+        "D": "A.0 = 0 and A + 1 = 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Annulment law: A.0 = 0 and A + 1 = 1. The other options are the identity, idempotent and complement laws.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "Protocol NOT at network layer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Which of the following is NOT a Network layer protocol?",
+      "options": {
+        "A": "IGMP",
+        "B": "ARP",
+        "C": "ICMP",
+        "D": "UDP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "UDP is a Transport layer protocol; ICMP, IGMP and ARP are conventionally classified under the Network layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "Zigbee for low-power sensor networks",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q249",
+      "question": "Which technology is designed for low-power, low-data-rate applications such as wireless sensor networks and home automation?",
+      "options": {
+        "A": "MQTT",
+        "B": "HTTP",
+        "C": "Zigbee",
+        "D": "Bluetooth",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Zigbee (based on IEEE 802.15.4) is a low-power, low-data-rate mesh networking standard built for sensor networks and home automation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Character Codes",
+      "concept": "ASCII case difference",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q239",
+      "question": "What is the difference between the ASCII values of a lowercase letter and the corresponding uppercase letter?",
+      "options": {
+        "A": "32",
+        "B": "97",
+        "C": "30",
+        "D": "65",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "'a' is 97 and 'A' is 65, so the difference is 32 for every letter.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Node.js",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Which technology allows JavaScript to be used for back-end development?",
+      "options": {
+        "A": "React",
+        "B": "CSS",
+        "C": "Node.js",
+        "D": "Angular",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Node.js is a JavaScript runtime that runs JavaScript on the server.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D18-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "break",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword immediately terminates the nearest enclosing loop, with execution continuing at the statement after the loop?",
+      "options": {
+        "A": "break",
+        "B": "pass",
+        "C": "return",
+        "D": "continue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "break terminates the nearest enclosing loop.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Hierarchy",
+      "concept": "Record is group of fields",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "In the data hierarchy, a group of related fields is called a:",
+      "options": {
+        "A": "File",
+        "B": "Record",
+        "C": "Byte",
+        "D": "Database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A record is a collection of related fields; a group of records forms a file (table).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "CPU components",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "The CPU (brain of the computer) contains the Control Unit and which other processing unit?",
+      "options": {
+        "A": "Input Unit",
+        "B": "Output Unit",
+        "C": "Arithmetic/Logic Unit",
+        "D": "Power Supply Unit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The CPU contains the Control Unit (CU) and the Arithmetic Logic Unit (ALU), working with the memory unit.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D18-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "All-pairs shortest path",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q75",
+      "question": "Which algorithm finds the shortest paths between ALL pairs of vertices of a weighted graph in a single run?",
+      "options": {
+        "A": "Prim's algorithm",
+        "B": "Floyd-Warshall algorithm",
+        "C": "Kruskal's algorithm",
+        "D": "Dijkstra's algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Floyd-Warshall is a dynamic programming algorithm that computes all-pairs shortest paths in O(V^3). Dijkstra finds shortest paths from a single source, and Kruskal/Prim build minimum spanning trees.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption",
+      "concept": "Symmetric",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p44",
+      "question": "In symmetric encryption:",
+      "options": {
+        "A": "The same key is used for both encryption and decryption",
+        "B": "A public key encrypts and a private key decrypts",
+        "C": "No key is used at all",
+        "D": "Two public keys are used",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Symmetric (private-key) encryption uses one shared secret key for both operations.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D18-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "Total logic gates",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "According to the standard classification, how many logic gates are there in total?",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "6",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "There are 7 logic gates: AND, OR, NOT, NAND, NOR, XOR and XNOR.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D18-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Priority",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "If the same property is set for an element by external, internal and inline CSS, which one takes effect?",
+      "options": {
+        "A": "Inline CSS",
+        "B": "External CSS",
+        "C": "Internal CSS",
+        "D": "The first one written in the file",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Inline styles have the highest priority among the three types in the cascade.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D18-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Identifiers",
+      "concept": "Identifier start",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "A Python identifier must begin with:",
+      "options": {
+        "A": "An @ symbol",
+        "B": "A digit (0-9)",
+        "C": "A letter or a $ sign",
+        "D": "A letter (A-Z or a-z) or an underscore (_)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Identifiers start with a letter or underscore; digits can appear later but not first, and special symbols are not allowed.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D18-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Keywords",
+      "concept": "Keyword identification",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "Which of the following is NOT a C++ keyword?",
+      "options": {
+        "A": "main",
+        "B": "template",
+        "C": "friend",
+        "D": "throw",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "main is the name of a function, not a reserved keyword; friend, template and throw are keywords.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D18-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "32-bit vs 64-bit OS",
+      "concept": "32-bit address limit numeric",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "What is the maximum memory directly addressable with a 32-bit address?",
+      "options": {
+        "A": "4 GB",
+        "B": "64 GB",
+        "C": "16 GB",
+        "D": "2 GB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "2^32 bytes = 4,294,967,296 bytes = 4 GB.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D18-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "AMQP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "AMQP, a messaging protocol used in IoT, stands for:",
+      "options": {
+        "A": "Automated Machine Query Protocol",
+        "B": "Advanced Message Queuing Protocol",
+        "C": "Advanced Mobile Queue Process",
+        "D": "Asynchronous Message Quality Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "AMQP is the Advanced Message Queuing Protocol, used for message-oriented middleware.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D18-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Terabyte power",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "In binary units, 1 Terabyte (TB) equals:",
+      "options": {
+        "A": "2^50 bytes",
+        "B": "2^30 bytes",
+        "C": "2^40 bytes",
+        "D": "2^20 bytes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "1 TB = 1024 GB = 2^40 bytes (decimal approximation 10^12 bytes).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Heap",
+      "concept": "Min heap root",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "In a min heap, the root contains:",
+      "options": {
+        "A": "A random element",
+        "B": "The last inserted element",
+        "C": "The minimum element of the entire tree",
+        "D": "The maximum element",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a min heap each parent is smaller than or equal to its children, so the root holds the minimum.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Half duplex example",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "A walkie-talkie is an example of which transmission mode?",
+      "options": {
+        "A": "Simplex",
+        "B": "Broadcast",
+        "C": "Full duplex",
+        "D": "Half duplex",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In half duplex, data flows in both directions but only one direction at a time, as with a walkie-talkie.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "TCL",
+      "concept": "COMMIT permanent",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which TCL command makes the changes of a transaction permanent?",
+      "options": {
+        "A": "SAVEPOINT",
+        "B": "COMMIT",
+        "C": "GRANT",
+        "D": "ROLLBACK",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "COMMIT permanently saves the changes made by a transaction.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D18-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Types",
+      "concept": "Turing machine as general model",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Which abstract machine is the theoretical model of a general-purpose computer, capable of solving any computable problem?",
+      "options": {
+        "A": "Finite automaton",
+        "B": "Pushdown automaton",
+        "C": "Moore machine",
+        "D": "Turing machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A Turing machine can simulate any algorithm, so it models a general-purpose computer and can solve any computable problem.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

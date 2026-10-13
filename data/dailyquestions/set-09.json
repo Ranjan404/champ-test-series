@@ -1,0 +1,681 @@
+{
+  "setId": 9,
+  "title": "Daily Set 9",
+  "questions": [
+    {
+      "id": "D09-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "POS full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "In Boolean algebra, POS stands for:",
+      "options": {
+        "A": "Power of Sum",
+        "B": "Product of Signals",
+        "C": "Product of Sums",
+        "D": "Point of Sale",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "POS = Product of Sums: OR terms (sums) multiplied by AND, also called the product of maxterms.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "Circular linked list property",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q64",
+      "question": "Which statement is true about a circular linked list?",
+      "options": {
+        "A": "There is no beginning and no end.",
+        "B": "Its elements are stored in contiguous memory locations.",
+        "C": "The last node's next pointer is NULL.",
+        "D": "Its components are arranged hierarchically.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In a circular linked list the last node points back to the first, forming a loop, so there is no natural beginning or end (no NULL terminator).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "IaaS scenario",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "A company rents virtual servers, storage and network capacity from a cloud provider and installs its own OS. This is:",
+      "options": {
+        "A": "SaaS",
+        "B": "G2G",
+        "C": "PaaS",
+        "D": "IaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Renting raw infrastructure such as servers, storage and networking is Infrastructure as a Service.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "SFTP/SSH port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "SFTP (SSH File Transfer Protocol) uses which port number?",
+      "options": {
+        "A": "21",
+        "B": "23",
+        "C": "22",
+        "D": "25",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SFTP runs over SSH (Secure Shell), which uses port 22.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "DBMS stores data in tables",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "In a (relational) database management system, data is stored in the form of:",
+      "options": {
+        "A": "Tables",
+        "B": "Graphs only",
+        "C": "Flowcharts",
+        "D": "Bit streams only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A DBMS stores data in tables made of rows and columns.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT12 year",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "The earliest FAT variant, FAT12, dates to around:",
+      "options": {
+        "A": "1996",
+        "B": "2001",
+        "C": "1980",
+        "D": "1990",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "FAT12 dates to about 1980 and was used by early MS-DOS on floppy disks.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D09-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Session layer function",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q60",
+      "question": "Which OSI layer establishes, maintains and synchronizes the interaction between communicating devices?",
+      "options": {
+        "A": "Transport layer",
+        "B": "Network layer",
+        "C": "Session layer",
+        "D": "Physical layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The session layer (layer 5) sets up, manages, synchronizes (with checkpoints) and terminates sessions (dialogs) between applications.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "Cloud computing definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "Cloud computing allows users to store and access data and applications:",
+      "options": {
+        "A": "Over the internet instead of on a local hard drive or server",
+        "B": "Only through a mainframe terminal",
+        "C": "Only on optical storage devices",
+        "D": "Only on a local area network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Cloud computing delivers storage and applications over the internet rather than from the computer's own hard drive or a local server.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queues",
+      "concept": "Deque definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q318",
+      "question": "A linear data structure in which insertion and deletion can be performed at both ends is a:",
+      "options": {
+        "A": "Deque",
+        "B": "Circular queue",
+        "C": "Stack",
+        "D": "Queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A deque (double-ended queue) allows insertion and deletion at both front and rear. A queue inserts at the rear and deletes at the front.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "SOP to minterm/maxterm list",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q10",
+      "question": "Express F = A'B'C + AB'C' + ABC' as minterm and maxterm lists.",
+      "options": {
+        "A": "Minterms = 0,2,4; Maxterms = 1,3,5,6,7",
+        "B": "Minterms = 1,4,6; Maxterms = 0,2,3,5,7",
+        "C": "Minterms = 0,1,6; Maxterms = 2,3,4,5,7",
+        "D": "Minterms = 1,5,7; Maxterms = 0,2,3,4,6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A'B'C = 001 = 1, AB'C' = 100 = 4 and ABC' = 110 = 6, so the minterms are 1, 4, 6 and the remaining indices 0, 2, 3, 5, 7 are the maxterms.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D09-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "Primary memory types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "Primary (main/internal) memory consists of:",
+      "options": {
+        "A": "Hard disk and CD",
+        "B": "ROM and pen drive",
+        "C": "RAM and hard disk",
+        "D": "RAM and ROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Internal or primary memory is divided into RAM and ROM; hard disks, CDs and pen drives are secondary memory.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "CSS table properties",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "Which of the following can NOT be defined using CSS for a table?",
+      "options": {
+        "A": "The data values stored in the table cells",
+        "B": "Colour of table border",
+        "C": "Cell padding",
+        "D": "Thickness of table border",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "CSS controls presentation such as padding, spacing and border style, colour and thickness; the content itself comes from HTML.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D09-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Foreign key",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "Which key in one table refers to the primary key of another table?",
+      "options": {
+        "A": "Candidate key",
+        "B": "Foreign key",
+        "C": "Alternate key",
+        "D": "Super key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A foreign key references the primary key of another table and links the two tables.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Firewall",
+      "concept": "Firewall composition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p13",
+      "question": "A firewall can be implemented as:",
+      "options": {
+        "A": "Hardware, software or a combination of both",
+        "B": "Only a network cable",
+        "C": "Only software",
+        "D": "Only hardware",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A firewall can be a dedicated hardware device, a software program, or a combination of both.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Demultiplexer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p9",
+      "question": "Which device takes a single input and routes it to one of 2^n outputs using n control signals?",
+      "options": {
+        "A": "Encoder",
+        "B": "Multiplexer",
+        "C": "Demultiplexer",
+        "D": "Full adder",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A demultiplexer (DEMUX) has one input and 2^n outputs selected by n control lines; it is the reverse of a MUX.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D09-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "Applications of 8-bit microprocessors",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q296",
+      "question": "Which of the following is NOT a typical application of a simple 8-bit microprocessor such as the 8085?",
+      "options": {
+        "A": "Microwave oven control",
+        "B": "Traffic light controller",
+        "C": "Washing machine control",
+        "D": "Training large deep-learning models",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Simple 8-bit processors are used for embedded control tasks like appliances and traffic lights. Training deep-learning models needs GPUs or high-performance processors.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D09-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "First DBMS name",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "The first DBMS was known as:",
+      "options": {
+        "A": "Information Management System (IMS)",
+        "B": "Oracle",
+        "C": "System R",
+        "D": "Integrated Data Store (IDS)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Charles Bachman's first DBMS was called the Integrated Data Store (IDS).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "PDU order bottom to top",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "Arrange the OSI PDUs in order from the Physical layer upward to the Transport layer.",
+      "options": {
+        "A": "Bits, Frames, Packets, Segments",
+        "B": "Segments, Packets, Frames, Bits",
+        "C": "Bits, Packets, Frames, Segments",
+        "D": "Frames, Bits, Segments, Packets",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Physical layer carries bits, Data Link frames, Network packets and Transport segments.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D09-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Loops",
+      "concept": "Do while executes once",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Even if the condition is false at the start, which loop executes its body at least once?",
+      "options": {
+        "A": "while loop",
+        "B": "do-while loop",
+        "C": "nested for loop",
+        "D": "for loop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The do-while loop tests the condition after the body, so the body runs at least once.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT12 with MS-DOS 1.0",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Which file system is associated with MS-DOS 1.0?",
+      "options": {
+        "A": "NTFS",
+        "B": "exFAT",
+        "C": "FAT12",
+        "D": "FAT32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Early MS-DOS (version 1.0) used FAT12, the original File Allocation Table format for floppy disks.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D09-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "C2C examples",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "Online platforms such as eBay, OLX and Quikr, where individuals sell goods to other individuals, follow which e-commerce model?",
+      "options": {
+        "A": "B2C",
+        "B": "B2B",
+        "C": "G2G",
+        "D": "C2C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "eBay, OLX and Quikr let consumers sell directly to other consumers, which is the Consumer-to-Consumer (C2C) model.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D09-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "from",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword is used to import only a specific name from a module, as in '___ math import sqrt'?",
+      "options": {
+        "A": "in",
+        "B": "from",
+        "C": "import",
+        "D": "as",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'from module import name' imports a specific item from a module.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D09-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "Secure MQTT port",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q313",
+      "question": "What is the standard port number for secure MQTT (MQTT over TLS)?",
+      "options": {
+        "A": "8888",
+        "B": "8000",
+        "C": "1883",
+        "D": "8883",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MQTT uses port 1883 unencrypted and port 8883 when secured with TLS/SSL.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting Algorithms",
+      "concept": "Complexity table statement",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p36",
+      "question": "Which statement about sorting time complexities is correct?",
+      "options": {
+        "A": "Merge sort's worst case is O(n^2)",
+        "B": "Insertion sort's best case is O(n), while selection sort's best case is O(n^2)",
+        "C": "Selection sort's best case is O(n)",
+        "D": "Quick sort's best case is O(n^2)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Insertion sort detects sorted input in O(n); selection sort always needs O(n^2) comparisons. Merge sort is O(n log n) always and quick sort's best case is O(n log n).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D09-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Testing match",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Which pairing of testing type and its focus is INCORRECT?",
+      "options": {
+        "A": "Back-end testing: Database",
+        "B": "Unit testing: Collection of modules",
+        "C": "Alpha testing: Developer's site",
+        "D": "Accessibility testing: Disabled persons",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Unit testing focuses on a single module; testing a collection of modules is integration testing.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

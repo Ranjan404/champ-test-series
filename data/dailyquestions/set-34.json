@@ -1,0 +1,681 @@
+{
+  "setId": 34,
+  "title": "Daily Set 34",
+  "questions": [
+    {
+      "id": "D34-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Decoder outputs",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "A decoder with 3 input lines can have at most how many output lines?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "3",
+        "D": "9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A decoder with n inputs has 2^n outputs; 2^3 = 8.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D34-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting Algorithms",
+      "concept": "Which differs in worst case",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p36",
+      "question": "Among merge sort, heap sort, quick sort and selection sort, which one has an average case of O(n log n) but a worst case of O(n^2)?",
+      "options": {
+        "A": "Merge sort",
+        "B": "Heap sort",
+        "C": "Quick sort",
+        "D": "Selection sort",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Quick sort is O(n log n) on average but O(n^2) in the worst case. Merge and heap sort stay O(n log n); selection sort is O(n^2) in all cases.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ROUND Function",
+      "concept": "ROUND positive decimals",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "What is the result of SELECT ROUND(35.4458, 2);?",
+      "options": {
+        "A": "35.45",
+        "B": "35.00",
+        "C": "35.44",
+        "D": "35.4458",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Rounding to 2 decimals looks at the third decimal (5), so 35.4458 becomes 35.45.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D34-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Instruction Cycle",
+      "concept": "Fetch phase",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "In the CPU instruction cycle, during the fetch phase the instruction is:",
+      "options": {
+        "A": "Brought from main memory into the processor",
+        "B": "Executed by the ALU",
+        "C": "Decoded into control signals",
+        "D": "Written to secondary storage",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In the fetch phase the instruction is fetched from main memory and stored in the processor (instruction register).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D34-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "Telnet port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "Telnet uses which default port?",
+      "options": {
+        "A": "22",
+        "B": "25",
+        "C": "53",
+        "D": "23",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Telnet uses port 23; SSH uses 22 and SMTP 25.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Flip-Flops",
+      "concept": "One-bit storage",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q156",
+      "question": "A digital circuit that can store only one bit is a:",
+      "options": {
+        "A": "NOR gate",
+        "B": "Multiplexer",
+        "C": "Register",
+        "D": "Flip-flop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A flip-flop is a bistable element storing one bit; a register is a group of flip-flops.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Architecture",
+      "concept": "IoT gateways",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q189",
+      "question": "Once data sensing is done in an IoT system, which components are required to facilitate the data transfer?",
+      "options": {
+        "A": "GPS",
+        "B": "Cloud devices",
+        "C": "Sensors",
+        "D": "Gateways",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Gateways sit between sensors and the network/cloud, aggregating and forwarding sensed data.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D34-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Emerging Computers",
+      "concept": "Quantum computer",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q221",
+      "question": "Which type of computer uses qubits, which can exist in a superposition of 0 and 1, to perform computations?",
+      "options": {
+        "A": "Supercomputer",
+        "B": "PARAM 10000",
+        "C": "Quantum computer",
+        "D": "Mainframe computer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Quantum computers use qubits whose superposition and entanglement allow certain problems to be solved far faster than classical machines. PARAM 10000 is a classical Indian supercomputer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Effects",
+      "concept": "Morphing definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "An animation in which one image changes slowly into another image (for example, one face gradually turning into another) is called:",
+      "options": {
+        "A": "Rasterization",
+        "B": "Warping",
+        "C": "Morphing",
+        "D": "Compression",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Morphing is an animation technique that smoothly transforms one image into a different image over a sequence of frames.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D34-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "Circular linked list pitfall",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q127",
+      "question": "What is a common drawback of a circular linked list?",
+      "options": {
+        "A": "It cannot be traversed starting from an arbitrary node",
+        "B": "It requires two pointers in every node",
+        "C": "It cannot be used to implement a queue",
+        "D": "A simple loop through the list may never end if not handled carefully",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Since the last node points back to the first, there is no NULL to stop at, so a naive traversal loop can run forever.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D34-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Rule 12 non subversion",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Codd's Rule 12 is the:",
+      "options": {
+        "A": "Distribution Independence Rule",
+        "B": "Integrity Independence Rule",
+        "C": "Non-Subversion Rule",
+        "D": "View Updating Rule",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Rule 12 (Non-Subversion) says low-level access must not bypass integrity rules; Rule 11 is Distribution Independence.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D34-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "DNS port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "DNS (Domain Name System) uses which port number?",
+      "options": {
+        "A": "53",
+        "B": "80",
+        "C": "67",
+        "D": "443",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DNS queries use port 53.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "Not multi-user multitasking",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Which of the following is NOT an example of a multi-user, multi-tasking operating system?",
+      "options": {
+        "A": "Ubuntu",
+        "B": "MS-DOS",
+        "C": "Windows Server",
+        "D": "Unix",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "MS-DOS is single-user and single-task; Unix, Ubuntu and Windows Server are multi-user, multi-tasking.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D34-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "Wi-Fi standard",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "Wi-Fi, one of the short-range IoT networks, corresponds to which IEEE standard?",
+      "options": {
+        "A": "IEEE 802.3",
+        "B": "IEEE 802.15.4",
+        "C": "IEEE 802.11",
+        "D": "IEEE 802.5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Wi-Fi is IEEE 802.11.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "BHIM",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "What is the full form of BHIM, the UPI app launched in India?",
+      "options": {
+        "A": "Bharat Interface for Money",
+        "B": "Banking Hub for Indian Money",
+        "C": "Bharat Internet for Money",
+        "D": "Bharat Integrated Mobile Money",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "BHIM stands for Bharat Interface for Money, a UPI-based payment app developed by NPCI.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D34-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Boundary value testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "For an input field accepting values 1 to 100, testing with 0, 1, 100 and 101 is an example of:",
+      "options": {
+        "A": "Gorilla testing",
+        "B": "Boundary value testing",
+        "C": "Ad-hoc testing",
+        "D": "Smoke testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Boundary value analysis tests values at and just beyond the edges of valid input ranges, where errors are most likely.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Data Types",
+      "concept": "short range",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q187",
+      "question": "In Java, which integer data type has a minimum value of -32,768 and a maximum value of 32,767?",
+      "options": {
+        "A": "long",
+        "B": "double",
+        "C": "float",
+        "D": "short",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A 16-bit signed short (as in Java) ranges from -2^15 = -32,768 to 2^15 - 1 = 32,767. float and double store fractional values and long is 64-bit in Java.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D34-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design Paradigms",
+      "concept": "Steps of divide and conquer",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q286",
+      "question": "Which of the following is NOT a step in the Divide and Conquer approach?",
+      "options": {
+        "A": "Backtrack",
+        "B": "Divide",
+        "C": "Combine",
+        "D": "Conquer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Divide and Conquer has three steps: divide the problem, conquer the subproblems recursively, and combine their solutions. Backtracking is a separate paradigm.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D34-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Registers",
+      "concept": "MBR holds memory data",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q71",
+      "question": "Which register holds the data word that has just been read from memory, or is about to be written to memory?",
+      "options": {
+        "A": "MBR",
+        "B": "MAR",
+        "C": "IR",
+        "D": "PC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The MBR (Memory Buffer Register, also called MDR) holds the data transferred to or from memory, while the MAR holds the address of that memory location.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "TCL",
+      "concept": "ROLLBACK undo",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which SQL command undoes uncommitted changes made by a transaction?",
+      "options": {
+        "A": "REVOKE",
+        "B": "ROLLBACK",
+        "C": "COMMIT",
+        "D": "TRUNCATE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "ROLLBACK undoes changes that have not been committed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Types",
+      "concept": "Example of regular pattern",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "What is the weakest type of machine that is sufficient to check whether a string is a correctly formatted 10-digit phone number?",
+      "options": {
+        "A": "Turing machine",
+        "B": "Pushdown automaton",
+        "C": "Linear bounded automaton",
+        "D": "Finite automaton",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A fixed-format digit pattern is a regular language, so a finite automaton (the weakest machine) is sufficient.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D34-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Connectors",
+      "concept": "RJ-45 pins",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "How many pins does an RJ-45 connector have?",
+      "options": {
+        "A": "10",
+        "B": "8",
+        "C": "6",
+        "D": "4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RJ-45 has 8 pins and is used for Ethernet; RJ-11 has 6 positions and is used for telephones.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D34-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Not a keyword switch",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which of the following is NOT a Python keyword?",
+      "options": {
+        "A": "nonlocal",
+        "B": "switch",
+        "C": "yield",
+        "D": "assert",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python has no switch keyword; nonlocal, yield and assert are all reserved words.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D34-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "NTFS full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "NTFS stands for:",
+      "options": {
+        "A": "Native Text File System",
+        "B": "New Table File Structure",
+        "C": "New Technology File System",
+        "D": "Network Transfer File System",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NTFS stands for New Technology File System, introduced with Windows NT.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D34-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary to Octal",
+      "concept": "1010101100 to octal",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "Convert (1010101100)2 into octal.",
+      "options": {
+        "A": "1254",
+        "B": "1252",
+        "C": "1354",
+        "D": "2524",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Group into 3 bits from the right: 1 010 101 100 = 1 2 5 4, so the answer is (1254)8.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    }
+  ]
+}

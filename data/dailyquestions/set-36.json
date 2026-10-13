@@ -1,0 +1,681 @@
+{
+  "setId": 36,
+  "title": "Daily Set 36",
+  "questions": [
+    {
+      "id": "D36-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Vector made of paths",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Vector images are made from:",
+      "options": {
+        "A": "A grid of tiny coloured squares",
+        "B": "Compressed audio samples",
+        "C": "Scanned photographs only",
+        "D": "Mathematical paths of points, lines and curves",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Vector graphics consist of points, lines and curves defined by mathematical equations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D36-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "Atomicity all or nothing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "A bank transfer debits one account but the system crashes before crediting the other, so the whole transaction is undone. Which ACID property ensures this?",
+      "options": {
+        "A": "Consistency",
+        "B": "Durability",
+        "C": "Isolation",
+        "D": "Atomicity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Atomicity means a transaction is all or nothing: either every operation completes or none does.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Registers",
+      "concept": "Instruction buffer register",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q120",
+      "question": "In the IAS computer, an instruction that is not to be executed immediately is placed in the:",
+      "options": {
+        "A": "Instruction Buffer Register",
+        "B": "Current Instruction Register",
+        "C": "Program Counter",
+        "D": "Memory Address Register",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Instruction Buffer Register holds an instruction (e.g. the second of a fetched pair) that will be executed later.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Postorder small tree",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "A tree has root A with left child B and right child C, and B has children D and E. What is the postorder traversal?",
+      "options": {
+        "A": "D E C B A",
+        "B": "D B E A C",
+        "C": "D E B C A",
+        "D": "A B D E C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Left, Right, Root: subtree B gives D E B, then C, then root A: D E B C A.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Infrared short range",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q30",
+      "question": "Which waves are used for short-range communication, such as between a PC and a nearby peripheral device or a TV remote?",
+      "options": {
+        "A": "Infrared waves",
+        "B": "Microwaves",
+        "C": "Long-wave radio",
+        "D": "Fiber optic light",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Infrared waves are used for short-range, line-of-sight communication like remote controls and older PC-peripheral links; they cannot penetrate walls.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D36-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Character Encoding",
+      "concept": "UTF bit sizes",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "Which of the following is NOT a standard Unicode encoding form?",
+      "options": {
+        "A": "UTF-16",
+        "B": "UTF-12",
+        "C": "UTF-32",
+        "D": "UTF-8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Unicode is encoded as UTF-8, UTF-16 or UTF-32, with 8, 16 and 32 bit code units.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D36-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Conversion",
+      "concept": "Infix to postfix",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q269",
+      "question": "What is the postfix form of the infix expression A*B+C/D?",
+      "options": {
+        "A": "*AB/CD+",
+        "B": "AB*CD/+",
+        "C": "A*BC+/D",
+        "D": "ABCD+/*",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "* and / have higher precedence than +, so A*B becomes AB* and C/D becomes CD/; adding them gives AB*CD/+.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D36-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Page Replacement",
+      "concept": "LRU full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q235",
+      "question": "What does LRU stand for in page replacement?",
+      "options": {
+        "A": "Low Required Usage",
+        "B": "Low Rate Usage",
+        "C": "Least Rate Usage",
+        "D": "Least Recently Used",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "LRU (Least Recently Used) replaces the page that has not been used for the longest time.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D36-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Languages",
+      "concept": "DDL full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "In SQL, DDL stands for:",
+      "options": {
+        "A": "Data Dictionary Language",
+        "B": "Data Definition Language",
+        "C": "Data Description Language",
+        "D": "Database Design Language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DDL is Data Definition Language, used to define structures (CREATE, ALTER, DROP, TRUNCATE, RENAME).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D36-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Translators",
+      "concept": "Assembler",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "Which translator converts assembly language into machine code?",
+      "options": {
+        "A": "Compiler",
+        "B": "Linker",
+        "C": "Assembler",
+        "D": "Interpreter",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An assembler translates assembly language; compilers and interpreters translate high-level languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "Not LPWAN",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "Which of the following is NOT an LPWAN technology?",
+      "options": {
+        "A": "Sigfox",
+        "B": "Cat-1",
+        "C": "Z-Wave",
+        "D": "NB-IoT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Z-Wave is a low-power short-range network; Sigfox, NB-IoT and Cat-1 are LPWAN technologies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "UDP connectionless",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "A video streaming application needs a fast, connectionless Transport layer service and can tolerate some loss. Which protocol fits best?",
+      "options": {
+        "A": "SMTP",
+        "B": "UDP",
+        "C": "ARP",
+        "D": "TCP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "UDP (User Datagram Protocol) is connectionless with no acknowledgements, making it fast; TCP is connection oriented and reliable.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "PNG full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "PNG stands for:",
+      "options": {
+        "A": "Picture Network Group",
+        "B": "Portable Native Graphics",
+        "C": "Portable Network Graphics",
+        "D": "Printable Network Graphics",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "PNG is Portable Network Graphics, a lossless raster image format.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D36-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Identify POS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "Which expression is in POS form?",
+      "options": {
+        "A": "(A + B).(A + B' + C).(A + B')",
+        "B": "AB + A'B'C",
+        "C": "A'B + AB'",
+        "D": "ABC + A'BC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "POS combines sum (OR) terms with AND, like (A + B)(A + B' + C)(A + B').",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Scrum and Kanban agile",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Scrum and Kanban are frameworks belonging to which development approach?",
+      "options": {
+        "A": "V-model",
+        "B": "Waterfall",
+        "C": "Big Bang",
+        "D": "Agile",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Scrum (sprints) and Kanban (visual boards, WIP limits) are Agile frameworks.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Logical operators",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which of the following Python keywords is NOT a logical operator?",
+      "options": {
+        "A": "is",
+        "B": "or",
+        "C": "not",
+        "D": "and",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "and, or and not are logical operators; 'is' is an identity operator that checks whether two names refer to the same object.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "5NF join dependency",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "Fifth Normal Form (5NF) is based on which kind of dependency?",
+      "options": {
+        "A": "Join dependency",
+        "B": "Transitive dependency",
+        "C": "Multivalued dependency",
+        "D": "Partial dependency",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "5NF (Project-Join Normal Form) deals with join dependencies.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Buses",
+      "concept": "Types of system bus",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q324",
+      "question": "Which of the following is NOT a type of bus commonly used in microprocessors?",
+      "options": {
+        "A": "Control bus",
+        "B": "Cache bus",
+        "C": "Address bus",
+        "D": "Data bus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A microprocessor system bus has three parts: the address bus, data bus and control bus. Cache bus is not one of the standard bus types.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D36-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "long size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "The Java long type has range -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. How many bits does it use?",
+      "options": {
+        "A": "64",
+        "B": "16",
+        "C": "128",
+        "D": "32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "long is a 64-bit signed integer, giving range -2^63 to 2^63 - 1.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D36-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Session Layer",
+      "concept": "PPTP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "PPTP stands for:",
+      "options": {
+        "A": "Peer-to-Peer Transfer Protocol",
+        "B": "Point-to-Point Tunneling Protocol",
+        "C": "Point-to-Point Transmission Protocol",
+        "D": "Packet Path Tracking Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "PPTP is the Point-to-Point Tunneling Protocol, an older method for implementing VPNs.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D36-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "B2A full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "In e-commerce, what does B2A stand for?",
+      "options": {
+        "A": "Buyer-to-Authority",
+        "B": "Business-to-Account",
+        "C": "Business-to-Agent",
+        "D": "Business-to-Administration",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "B2A means Business-to-Administration and is another name for Business-to-Government (B2G).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary Arithmetic",
+      "concept": "1+1 rule",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "In binary addition, 1 + 1 gives:",
+      "options": {
+        "A": "Sum 1, Carry 1",
+        "B": "Sum 1, Carry 0",
+        "C": "Sum 0, Carry 1",
+        "D": "Sum 2, Carry 0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "1 + 1 = 2 = (10)2, so the sum bit is 0 and the carry is 1.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D36-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "exFAT capacity",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Which file system has a theoretical maximum of 16 exabytes and is widely used on SD cards and USB drives?",
+      "options": {
+        "A": "exFAT",
+        "B": "FAT16",
+        "C": "FAT12",
+        "D": "HFS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "exFAT (Extended File Allocation Table) supports up to 16 EB and is designed for flash media such as SD cards and USB drives.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D36-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "CoAP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "CoAP stands for:",
+      "options": {
+        "A": "Connected Asset Protocol",
+        "B": "Controlled Access Protocol",
+        "C": "Common Application Protocol",
+        "D": "Constrained Application Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "CoAP is the Constrained Application Protocol, designed for resource-constrained IoT devices.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D36-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "Dijkstra single source",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q192",
+      "question": "Dijkstra's algorithm solves the ____ shortest path problem.",
+      "options": {
+        "A": "Multiple destination",
+        "B": "Multiple source",
+        "C": "Single source",
+        "D": "Single destination",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Dijkstra's algorithm finds the shortest paths from one source vertex to all other vertices (single-source shortest paths) in a graph with non-negative weights.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

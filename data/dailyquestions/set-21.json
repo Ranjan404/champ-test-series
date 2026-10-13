@@ -1,0 +1,681 @@
+{
+  "setId": 21,
+  "title": "Daily Set 21",
+  "questions": [
+    {
+      "id": "D21-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "Seven aggregate functions",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "Which of the following is NOT among the seven aggregate functions listed in SQL (COUNT, SUM, AVG, MIN, MAX, FIRST, LAST)?",
+      "options": {
+        "A": "FIRST()",
+        "B": "LAST()",
+        "C": "MAX()",
+        "D": "ROUND()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ROUND() is a scalar function that works on single values; the rest are aggregate functions.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D21-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Adders",
+      "concept": "Full adder construction",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p9",
+      "question": "A full adder can be built using:",
+      "options": {
+        "A": "Three half adders",
+        "B": "Two half adders and one AND gate",
+        "C": "One half adder and one XOR gate",
+        "D": "Two half adders and one OR gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Two half adders generate the sum, and their two carries are combined by an OR gate to give Cout.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Heap",
+      "concept": "Max heap root",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "In a max heap, the root node always contains:",
+      "options": {
+        "A": "The minimum element",
+        "B": "The most recently inserted element",
+        "C": "The maximum element",
+        "D": "The median element",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a max heap every parent is greater than or equal to its children, so the root is the maximum.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "MAC Address",
+      "concept": "OUI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "In a MAC address, the first three bytes (24 bits) identify the:",
+      "options": {
+        "A": "Port number",
+        "B": "Organizationally Unique Identifier (manufacturer)",
+        "C": "Network interface controller specific serial",
+        "D": "Subnet ID",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The first 24 bits are the OUI assigned to the manufacturer; the last 24 bits are NIC-specific.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Degree of a relation",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q38",
+      "question": "Which term refers to the number of attributes in a relation?",
+      "options": {
+        "A": "Depth",
+        "B": "Cardinality",
+        "C": "Row",
+        "D": "Degree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The degree of a relation is its number of attributes (columns), while cardinality is its number of tuples (rows).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "while",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword creates a loop that repeats as long as a condition remains true?",
+      "options": {
+        "A": "while",
+        "B": "if",
+        "C": "for",
+        "D": "loop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A while loop keeps executing while its condition is True.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D21-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Full-stack",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "A full-stack developer is one who works on:",
+      "options": {
+        "A": "Both front-end and back-end development",
+        "B": "Only the user interface",
+        "C": "Only network hardware",
+        "D": "Only database administration",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Web development is divided into front-end, back-end and full-stack; full-stack covers both front-end and back-end.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D21-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "C++ compilers",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p25",
+      "question": "Which of the following is NOT a C++ compiler or IDE?",
+      "options": {
+        "A": "PyCharm",
+        "B": "Dev C++",
+        "C": "GCC",
+        "D": "Turbo C++",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Turbo C++, Dev C++ and GCC (GNU Compiler Collection) are used for C++; PyCharm is a Python IDE.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D21-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "De Morgan's Theorem",
+      "concept": "Complement of a product",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q204",
+      "question": "By De Morgan's theorem, the complement of a product of several variables equals the OR of their complements. What is (ABC)' equal to?",
+      "options": {
+        "A": "(A + B + C)'",
+        "B": "A' + B' + C'",
+        "C": "A + B + C",
+        "D": "A'B'C'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "De Morgan's theorem gives (ABC)' = A' + B' + C'. A'B'C' equals (A + B + C)', the complement of a sum.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Definition of AI",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q20",
+      "question": "What is artificial intelligence?",
+      "options": {
+        "A": "Playing a game",
+        "B": "Putting your intelligence into a computer",
+        "C": "Making a machine intelligent",
+        "D": "Programming with your own intelligence",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Artificial intelligence is the field of making machines capable of intelligent behaviour such as learning, reasoning and problem solving.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D21-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Classification",
+      "concept": "Integer subtypes",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "In Java, which of the following is NOT an integer primitive data type?",
+      "options": {
+        "A": "byte",
+        "B": "long",
+        "C": "double",
+        "D": "short",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "byte, short, int and long are integer types; double is a floating-point type.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D21-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "IRC port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "IRC (Internet Relay Chat) is assigned which well-known port number by IANA?",
+      "options": {
+        "A": "143",
+        "B": "443",
+        "C": "110",
+        "D": "194",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IANA assigns well-known port 194 to IRC (in practice many IRC servers also use port 6667). Port 143 is IMAP, 443 is HTTPS and 110 is POP3.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ROUND Function",
+      "concept": "ROUND zero decimals",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "What does SELECT ROUND(153.467, 0); return?",
+      "options": {
+        "A": "153.5",
+        "B": "150",
+        "C": "153",
+        "D": "154",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Rounding to 0 decimals gives the nearest whole number; .467 is below .5, so the result is 153.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D21-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Cache Memory",
+      "concept": "Cache between CPU and main memory",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q315",
+      "question": "What is the high-speed memory between the main memory and the CPU called?",
+      "options": {
+        "A": "Storage memory",
+        "B": "Cache memory",
+        "C": "Register memory",
+        "D": "Virtual memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Cache is a small, fast SRAM memory placed between the CPU and main memory to hold frequently used data and instructions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "NAND expression",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "The NAND gate is a combination of which two gates?",
+      "options": {
+        "A": "AND followed by NOT",
+        "B": "OR followed by NOT",
+        "C": "XOR followed by NOT",
+        "D": "NOT followed by OR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NAND = NOT + AND: the AND output is inverted, giving Q = (AB)'.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "PDU of data link layer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "Which PDU is handled by the Data Link layer of the OSI model?",
+      "options": {
+        "A": "Segment",
+        "B": "Packet",
+        "C": "Data",
+        "D": "Frame",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Data Link layer encapsulates packets into frames and uses MAC addresses for delivery.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "continue",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword skips the rest of the current iteration and moves to the next iteration of a loop?",
+      "options": {
+        "A": "yield",
+        "B": "continue",
+        "C": "pass",
+        "D": "break",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "continue jumps to the next iteration of the loop without executing the remaining statements of the current one.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "2NF full functional dependency",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "Second Normal Form (2NF) requires that every non-key attribute be:",
+      "options": {
+        "A": "Multivalued dependent on the key",
+        "B": "Fully functionally dependent on the primary key",
+        "C": "Transitively dependent on the primary key",
+        "D": "Independent of the primary key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "2NF removes partial dependency, so non-key attributes depend on the whole primary key.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D21-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "2-D array size with index bounds",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q16",
+      "question": "How many elements can be held by an array A(-4:9, 6:11)?",
+      "options": {
+        "A": "84",
+        "B": "110",
+        "C": "80",
+        "D": "90",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Rows: 9 - (-4) + 1 = 14; columns: 11 - 6 + 1 = 6; total = 14 x 6 = 84.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D21-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Year AI term coined",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p30",
+      "question": "In which year did John McCarthy coin the term Artificial Intelligence?",
+      "options": {
+        "A": "1956",
+        "B": "1950",
+        "C": "1946",
+        "D": "1965",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "John McCarthy coined the term Artificial Intelligence in 1956 (for the Dartmouth conference).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D21-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "TOC Basics",
+      "concept": "Three branches of TOC",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Theory of Computation is traditionally divided into which three branches?",
+      "options": {
+        "A": "Computability theory, Computational complexity theory and Automata theory",
+        "B": "Compiler theory, Graph theory and Automata theory",
+        "C": "Set theory, Number theory and Computability theory",
+        "D": "Information theory, Coding theory and Complexity theory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The three branches of TOC are computability theory, computational complexity theory and automata theory.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D21-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Program Execution",
+      "concept": "JVM full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "What does JVM stand for?",
+      "options": {
+        "A": "Joint Virtual Memory",
+        "B": "Java Verified Module",
+        "C": "Java Virtual Machine",
+        "D": "Java Visual Manager",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "JVM stands for Java Virtual Machine, which executes Java bytecode.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D21-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "Smallest unit of memory",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q172",
+      "question": "Which of the following is the smallest entity of memory?",
+      "options": {
+        "A": "Set",
+        "B": "Instance",
+        "C": "Cell",
+        "D": "Block",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A memory cell is the smallest storage unit of memory, holding one bit; cells are grouped into words and blocks.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "OS Functions",
+      "concept": "Secondary storage management",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "Allocating free space and scheduling requests on a hard disk falls under which OS function?",
+      "options": {
+        "A": "Security",
+        "B": "Secondary storage management",
+        "C": "Process management",
+        "D": "Networking",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Secondary storage management handles disk space allocation, free-space management and disk scheduling.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D21-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "Count of models",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "How many types of e-commerce are listed when B2A/B2G and C2A/C2G are each counted as one type (B2B, B2C, C2C, C2B, B2A/B2G, C2A/C2G, G2G)?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "8",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The seven types are B2B, B2C, C2C, C2B, B2A/B2G, C2A/C2G and G2G.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    }
+  ]
+}

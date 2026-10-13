@@ -1,0 +1,681 @@
+{
+  "setId": 23,
+  "title": "Daily Set 23",
+  "questions": [
+    {
+      "id": "D23-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "Isolation",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "Which ACID property ensures that concurrently executing transactions do not affect each other?",
+      "options": {
+        "A": "Isolation",
+        "B": "Consistency",
+        "C": "Atomicity",
+        "D": "Durability",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Isolation keeps concurrent transactions from interfering with each other.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "Derived gates",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "XOR and XNOR gates fall under which category?",
+      "options": {
+        "A": "Derived gates",
+        "B": "Basic gates",
+        "C": "Sequential gates",
+        "D": "Universal gates",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Logic gates are classified as basic (AND, OR, NOT), universal (NAND, NOR) and derived (XOR, XNOR).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stacks",
+      "concept": "Stack definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q82",
+      "question": "Which of the following best describes a stack?",
+      "options": {
+        "A": "An ordered collection of items in which insertion and deletion take place only at one end (the top)",
+        "B": "A hierarchical collection of nodes",
+        "C": "An unordered collection of items accessed by keys",
+        "D": "An ordered collection in which insertion happens at the rear and deletion at the front",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A stack is an ordered LIFO collection where push and pop occur only at the top; rear-insert/front-delete describes a queue.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Protocols",
+      "concept": "NCP ambiguity",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "In layer-wise OSI protocol lists, the acronym 'NCP' appears at two different layers with two different expansions. Which matching is correct?",
+      "options": {
+        "A": "Data Link layer: NetWare Core Protocol; Presentation layer: Network Control Protocol",
+        "B": "Transport layer: Network Core Protocol; Application layer: Network Control Program",
+        "C": "Data Link layer: Network Control Protocol; Presentation layer: NetWare Core Protocol",
+        "D": "Network layer: Network Control Protocol; Session layer: NetWare Core Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Network Control Protocol (part of PPP) is a Data Link layer protocol, while NetWare Core Protocol (Novell) is listed under the Presentation layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "First DBMS creator",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "Who created the first DBMS?",
+      "options": {
+        "A": "Charles Babbage",
+        "B": "E. F. Codd",
+        "C": "Charles Bachman",
+        "D": "Dennis Ritchie",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Charles Bachman developed the first DBMS, the Integrated Data Store (IDS), in the 1960s; E. F. Codd later proposed the relational model.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Hash table efficiency",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q24",
+      "question": "Which data structure supports efficient searching, insertion and deletion of elements, taking O(1) time on average?",
+      "options": {
+        "A": "Queue",
+        "B": "Linked list",
+        "C": "Stack",
+        "D": "Hash table",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A hash table computes the location of a key with a hash function, giving average O(1) search, insert and delete; stacks, queues and linked lists need O(n) to search.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D23-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Supervised learning",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q134",
+      "question": "In which type of learning is labelled training data used?",
+      "options": {
+        "A": "Unsupervised learning",
+        "B": "Reinforcement learning",
+        "C": "Clustering",
+        "D": "Supervised learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Supervised learning trains a model on input-output pairs (labelled data); unsupervised learning uses unlabelled data.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Full duplex example",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "Which of the following is an example of full duplex communication?",
+      "options": {
+        "A": "Keyboard to CPU",
+        "B": "Mobile phone call",
+        "C": "Television broadcast",
+        "D": "Walkie-talkie",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In full duplex both sides can send and receive simultaneously, as in mobile calls and video conferencing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Identifiers",
+      "concept": "Special symbol invalid",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which of the following identifiers is invalid because of the characters it uses?",
+      "options": {
+        "A": "total@marks",
+        "B": "TOTAL",
+        "C": "totalMarks",
+        "D": "total_marks",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Special symbols such as !, @, # and $ are not allowed in identifiers.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D23-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterms and Maxterms",
+      "concept": "Maxterm for given inputs",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q163",
+      "question": "Which maxterm corresponds to the input combination A = 0, B = 1?",
+      "options": {
+        "A": "A' + B",
+        "B": "A + B'",
+        "C": "A' + B'",
+        "D": "A + B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a maxterm a variable is uncomplemented when it is 0 and complemented when it is 1, giving A + B'.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D23-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "Cache memory technology",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q161",
+      "question": "Cache memory is made up of:",
+      "options": {
+        "A": "SRAM",
+        "B": "DRAM",
+        "C": "ROM",
+        "D": "Registers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Cache uses fast static RAM (SRAM), which needs no refresh; main memory uses DRAM.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Comments",
+      "concept": "Documentation comment",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Which Java comment type is also known as a 'doc comment' and begins with /** ?",
+      "options": {
+        "A": "Single-line comment",
+        "B": "Documentation comment",
+        "C": "Multi-line comment",
+        "D": "Block annotation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Documentation comments start with /** and end with */; the javadoc tool uses them to generate API documentation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Aggregate Functions",
+      "concept": "COUNT(*)",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q111",
+      "question": "Which SQL function call counts the number of rows returned by a query?",
+      "options": {
+        "A": "SUM()",
+        "B": "TOTAL()",
+        "C": "COUNT(*)",
+        "D": "NUMBER()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "COUNT(*) returns the number of rows, including rows with NULLs; SUM adds numeric values.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D23-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "Incorrect expansion",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "Which abbreviation-expansion pair is INCORRECT?",
+      "options": {
+        "A": "EFT: Electronic Fund Transfer",
+        "B": "IMPS: Immediate Payment Service",
+        "C": "RTGS: Real Time Gross Settlement",
+        "D": "NEFT: National Electronic Fast Transfer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "NEFT is National Electronic Funds Transfer, not Fast Transfer; the other three pairs are correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D23-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "LPWAN count",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "A commonly cited list of LPWAN network types is: 4G LTE IoT, 5G IoT, Cat-0, Cat-1, LoRaWAN, NB-IoT/Cat-M2 and Sigfox. How many LPWAN types does this list contain?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "7",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The list contains seven LPWAN types: 4G LTE IoT, 5G IoT, Cat-0, Cat-1, LoRaWAN, NB-IoT/Cat-M2 and Sigfox.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "ARP purpose",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "ARP (Address Resolution Protocol) is used to find the:",
+      "options": {
+        "A": "Port number of a service",
+        "B": "Domain name of a host",
+        "C": "MAC address from a known IP address",
+        "D": "IP address from a known MAC address",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ARP resolves a known IP address to the corresponding MAC (physical) address on the local network.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "byte range",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "What is the range of the Java byte data type?",
+      "options": {
+        "A": "-127 to 128",
+        "B": "0 to 255",
+        "C": "-32,768 to 32,767",
+        "D": "-128 to 127",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "byte is an 8-bit signed type, so its range is -2^7 to 2^7 - 1, i.e. -128 to 127.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D23-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Boot Process",
+      "concept": "Bootstrap loader in ROM",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q262",
+      "question": "ROM is needed for storing an initial program called the:",
+      "options": {
+        "A": "Bootstrap loader",
+        "B": "Kernel",
+        "C": "Computer startup loader",
+        "D": "OS version",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The bootstrap loader stored in ROM runs at power-on and loads the operating system from secondary storage into memory.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Languages",
+      "concept": "Match SQL categories",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which matching of SQL command to language category is correct?",
+      "options": {
+        "A": "INSERT: DML, REVOKE: DCL, ROLLBACK: TCL",
+        "B": "INSERT: DDL, REVOKE: TCL, ROLLBACK: DCL",
+        "C": "INSERT: DCL, REVOKE: DML, ROLLBACK: TCL",
+        "D": "INSERT: DML, REVOKE: TCL, ROLLBACK: DCL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "INSERT manipulates data (DML), REVOKE controls permissions (DCL) and ROLLBACK controls transactions (TCL).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "Exponent associativity",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "According to the rules of expression evaluation, the exponent operator (^) is evaluated in which direction?",
+      "options": {
+        "A": "Left to right",
+        "B": "Any order",
+        "C": "Top to bottom",
+        "D": "Right to left",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "^ is right-associative, so A^B^C means A^(B^C). Brackets, * /, and + - are evaluated left to right.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D23-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Vectorization",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Converting a raster (pixel-based) image into a vector (curve-based) image is known as:",
+      "options": {
+        "A": "Rasterization",
+        "B": "Warping",
+        "C": "Rendering",
+        "D": "Vectorization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Vectorization converts raster image to vector image, i.e. pixels into curves/paths.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "elif",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword does Python use for an 'else if' condition?",
+      "options": {
+        "A": "else if",
+        "B": "elsif",
+        "C": "elif",
+        "D": "elseif",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Python uses elif for else-if branches.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D23-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "iOS file system",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Which file system is used by Apple's iOS?",
+      "options": {
+        "A": "FAT12",
+        "B": "APFS",
+        "C": "NTFS",
+        "D": "EXT4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Apple File System (APFS) is used by iOS (and newer macOS).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D23-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Number of Boolean functions of n variables",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q170",
+      "question": "How many distinct Boolean functions (expressions) can be formed with four Boolean variables?",
+      "options": {
+        "A": "16",
+        "B": "65536",
+        "C": "256",
+        "D": "4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "With n variables there are 2^n input combinations, each mapped to 0 or 1, giving 2^(2^n) functions; for n = 4 that is 2^16 = 65536.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D23-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Ordering by power",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Arrange the machines in increasing order of computational power.",
+      "options": {
+        "A": "TM < LBA < PDA < FA",
+        "B": "FA < PDA < LBA < TM",
+        "C": "FA < LBA < PDA < TM",
+        "D": "PDA < FA < LBA < TM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Power increases from finite automata (Type 3) to PDA (Type 2), LBA (Type 1) and Turing machines (Type 0).",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

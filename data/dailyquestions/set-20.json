@@ -1,0 +1,681 @@
+{
+  "setId": 20,
+  "title": "Daily Set 20",
+  "questions": [
+    {
+      "id": "D20-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Basics",
+      "concept": "Definition of data structure",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q277",
+      "question": "A particular way of storing and organizing data in a computer's memory is called a:",
+      "options": {
+        "A": "Pseudocode",
+        "B": "Flowchart",
+        "C": "Algorithm",
+        "D": "Data structure",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A data structure (array, list, tree, etc.) is a way of organizing data in memory so it can be used efficiently. An algorithm is a step-by-step procedure.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "4NF multivalued dependency",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "A table in BCNF still has an issue where one key independently determines two sets of values. Which normal form addresses multivalued dependency?",
+      "options": {
+        "A": "4NF",
+        "B": "2NF",
+        "C": "1NF",
+        "D": "3NF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "4NF requires that the table has no non-trivial multivalued dependencies.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Commands",
+      "concept": "tracert",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q137",
+      "question": "Which command displays the possible route (path) of packets and measures their transit delays?",
+      "options": {
+        "A": "tracert",
+        "B": "tracerouter",
+        "C": "tracenetwork",
+        "D": "traceaddress",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "tracert (traceroute on Unix) lists each hop on the path to a destination along with round-trip times.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D20-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Identifying SOP",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q39",
+      "question": "The expression Y = AB + BC + AC is in which form?",
+      "options": {
+        "A": "SOP (sum of products)",
+        "B": "NAND",
+        "C": "EX-OR",
+        "D": "POS (product of sums)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Y is a sum (OR) of product (AND) terms AB, BC and AC, so it is in sum-of-products form.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Keyword definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which statement about keywords in Python is correct?",
+      "options": {
+        "A": "They are user-defined names given to variables",
+        "B": "They are predefined, reserved words whose meaning is already known to the compiler/interpreter",
+        "C": "They can be redefined freely by the programmer",
+        "D": "They are names of built-in library modules",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Keywords are predefined reserved words with special meaning; they cannot be used as identifiers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D20-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "A^B^C postfix",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "Using the right-to-left associativity of ^, what is the postfix form of A ^ B ^ C?",
+      "options": {
+        "A": "A B C ^ ^",
+        "B": "A ^ B C ^",
+        "C": "^ ^ A B C",
+        "D": "A B ^ C ^",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A^B^C = A^(B^C), so B C ^ is formed first and then A is raised to it: A B C ^ ^.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Data Types",
+      "concept": "Double for precision",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Which C++ data type is best for storing a value like 3.333333333 with higher precision?",
+      "options": {
+        "A": "bool",
+        "B": "double",
+        "C": "int",
+        "D": "char",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "double stores floating point numbers with greater precision than float.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "MOV QuickTime",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "The .MOV video extension is associated with:",
+      "options": {
+        "A": "Flash Video",
+        "B": "Windows Media Video",
+        "C": "QuickTime Movie (Apple)",
+        "D": "Moving Picture Experts Group",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MOV is the QuickTime Movie format developed by Apple.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Hexadecimal Codes",
+      "concept": "1110 hex digit",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "The 4-bit binary pattern 1110 corresponds to which hexadecimal digit?",
+      "options": {
+        "A": "D",
+        "B": "C",
+        "C": "E",
+        "D": "F",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "1110 = 8 + 4 + 2 = 14, which is E in hexadecimal.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D20-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Mesh ports per device",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "In a fully connected mesh of 8 devices, how many I/O ports does each device need?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "28",
+        "D": "56",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each device connects directly to every other device, so it needs n-1 = 7 ports.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D20-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer History",
+      "concept": "ENIAC inventors",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "ENIAC, the first general-purpose electronic digital computer (1946), was developed by:",
+      "options": {
+        "A": "Bill Gates and Paul Allen",
+        "B": "John Von Neumann and Alan Turing",
+        "C": "Charles Babbage and Ada Lovelace",
+        "D": "J.P. Eckert and J.W. Mauchly",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ENIAC was designed by J. Presper Eckert and John W. Mauchly and completed in 1946.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "ALTER modifies attributes",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which DDL command is used to add, delete, modify or rename the attributes (columns) of a relation?",
+      "options": {
+        "A": "UPDATE",
+        "B": "CHANGE",
+        "C": "MODIFY",
+        "D": "ALTER",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ALTER (DDL) changes the structure of a table; UPDATE (DML) changes existing records.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D20-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Supervised classification",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q18",
+      "question": "You are given reviews of a few Netflix series labelled positive, negative or neutral. Classifying the reviews of a new Netflix series using this data is an example of:",
+      "options": {
+        "A": "Reinforcement learning",
+        "B": "Unsupervised learning",
+        "C": "Semi-supervised learning",
+        "D": "Supervised learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The model learns from labelled examples (reviews with known sentiment) and predicts labels for new data, which is supervised learning (classification).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Stack removal order",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q212",
+      "question": "If the elements A, B, C and D are pushed onto a stack in that order and then popped one at a time, in what order are they removed?",
+      "options": {
+        "A": "ABCD",
+        "B": "DCBA",
+        "C": "ABDC",
+        "D": "DCAB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A stack is LIFO, so elements come out in reverse order of insertion: D, C, B, A.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D20-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "h4 size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Which HTML heading has a default size equal to the normal 16px body text?",
+      "options": {
+        "A": "<h5>",
+        "B": "<h6>",
+        "C": "<h4>",
+        "D": "<h3>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "<h4> is 1em, i.e. 16px, the same as normal text.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata Types",
+      "concept": "FA recognises regular languages",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "A finite automaton can recognise only which class of languages?",
+      "options": {
+        "A": "Context-sensitive languages",
+        "B": "Context-free languages",
+        "C": "Regular languages",
+        "D": "Recursively enumerable languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Finite automata have no auxiliary memory, so they recognise exactly the regular languages (simple patterns like phone numbers).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Registers",
+      "concept": "Accumulator stores ALU results",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q310",
+      "question": "Which of the following is used by the ALU to store intermediate results?",
+      "options": {
+        "A": "Hard disk",
+        "B": "Accumulator",
+        "C": "Program counter",
+        "D": "Heap memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The accumulator is a special CPU register that holds operands and intermediate results of ALU operations.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Comments",
+      "concept": "Multi-line comment",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Which symbols are used for a multi-line comment in C++?",
+      "options": {
+        "A": "#",
+        "B": "/* ... */",
+        "C": "<!-- ... -->",
+        "D": "//",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "/* */ encloses multi-line comments; // starts a single-line comment.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "AI system components",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p30",
+      "question": "AI systems are made up of which combination?",
+      "options": {
+        "A": "Only software algorithms",
+        "B": "Databases and spreadsheets only",
+        "C": "Only sensors and actuators",
+        "D": "Machines, hardware and software",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "AI systems combine machines (physical devices), hardware such as processors and sensors, and software algorithms that let them learn and act.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D20-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Star uses hub",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "In which topology are all computers connected to a central hub?",
+      "options": {
+        "A": "Mesh",
+        "B": "Ring",
+        "C": "Star",
+        "D": "Bus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In star topology every node connects to a central hub or switch.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XOR expression",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "Which Boolean expression represents A XOR B?",
+      "options": {
+        "A": "A'B + AB'",
+        "B": "A.B",
+        "C": "(A + B)'",
+        "D": "AB + A'B'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A XOR B = A'B + AB', which is 1 only when exactly one input is 1; AB + A'B' is XNOR.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Basics",
+      "concept": "File extension",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Python source code is saved in a file with which extension?",
+      "options": {
+        "A": ".pn",
+        "B": ".py",
+        "C": ".pyt",
+        "D": ".pt",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python programs are written in files with the .py extension.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D20-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption",
+      "concept": "RSA asymmetric",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p44",
+      "question": "RSA is an example of which type of encryption?",
+      "options": {
+        "A": "Hashing",
+        "B": "Steganography",
+        "C": "Asymmetric encryption",
+        "D": "Symmetric encryption",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RSA is a public-key algorithm that uses a public and a private key.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT32 max volume",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "The theoretical maximum volume size supported by FAT32 is about:",
+      "options": {
+        "A": "16 TB",
+        "B": "16 EB",
+        "C": "2 GB",
+        "D": "4 GB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FAT32 uses 28-bit cluster addresses and a 32-bit sector count, giving a theoretical volume limit of about 16 TB with 4 KB sectors (2 TB with 512-byte sectors), although the maximum single-file size is 4 GB.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D20-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Languages",
+      "concept": "DCL commands",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which SQL commands belong to DCL (Data Control Language)?",
+      "options": {
+        "A": "CREATE and DROP",
+        "B": "INSERT and UPDATE",
+        "C": "COMMIT and ROLLBACK",
+        "D": "GRANT and REVOKE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DCL controls access rights with GRANT and REVOKE.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "setId": 38,
+  "title": "Daily Set 38",
+  "questions": [
+    {
+      "id": "D38-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterms",
+      "concept": "Minterm for given inputs",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q69",
+      "question": "Which minterm corresponds to A = 1, B = 1?",
+      "options": {
+        "A": "AB'",
+        "B": "A'B'",
+        "C": "AB",
+        "D": "A'B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a minterm a variable equal to 1 appears uncomplemented and a variable equal to 0 appears complemented, so A = 1, B = 1 gives AB.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D38-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "MAC Address",
+      "concept": "MAC is physical",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "Which statement about a MAC address is correct?",
+      "options": {
+        "A": "It changes every time the computer connects to a new network",
+        "B": "It is a logical address assigned by DHCP",
+        "C": "It is a physical address burned into the network interface card",
+        "D": "It is used by the Transport layer to identify processes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A MAC address is a hardware (physical) address attached to the NIC, used at the Data Link layer.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "MP3 meaning",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "The audio extension MP3 refers to:",
+      "options": {
+        "A": "Moving Picture 3 Channels",
+        "B": "Media Player version 3",
+        "C": "Multi-Purpose Audio 3",
+        "D": "MPEG Audio Layer 3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MP3 is short for MPEG (Moving Picture Experts Group) Audio Layer 3, a lossy audio compression format.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D38-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Postorder 7 nodes",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "A tree has root A with children B (left) and C (right). B has children D and E; C has children F and G. What is its postorder traversal?",
+      "options": {
+        "A": "A C G F B E D",
+        "B": "A B D E C F G",
+        "C": "D E B F G C A",
+        "D": "D B E A F C G",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Postorder visits Left, Right, Root: D E B, then F G C, and finally A.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Instruction Cycle",
+      "concept": "Instruction cycle order",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "What is the correct order of phases in a CPU instruction cycle?",
+      "options": {
+        "A": "Fetch, Execute, Decode",
+        "B": "Fetch, Decode, Execute",
+        "C": "Decode, Fetch, Execute",
+        "D": "Execute, Fetch, Decode",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An instruction must first be fetched, then decoded (the second phase), and finally executed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "Number of ANSI joins",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "How many types of JOIN does ANSI standard SQL define?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "5",
+        "D": "4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ANSI SQL defines inner, left outer, right outer, full outer and cross joins.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D38-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Minterm to maxterm conversion",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q44",
+      "question": "A Boolean function is given as F(x, y, z) = Σ(1, 3, 6, 7). What is its equivalent canonical form?",
+      "options": {
+        "A": "F = Σ(0, 2, 4, 5), sum of minterms",
+        "B": "F = Π(0, 2, 3, 5), product of maxterms",
+        "C": "F = Π(0, 2, 4, 5), product of minterms",
+        "D": "F = Π(0, 2, 4, 5), product of maxterms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "With 3 variables the indices are 0-7. The indices missing from the minterm list (0, 2, 4, 5) are the maxterms, so F = Π(0, 2, 4, 5) as a product of maxterms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ROUND Function",
+      "concept": "Negative length meaning",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "In ROUND(n, -3), the length -3 means the number is rounded to the nearest multiple of:",
+      "options": {
+        "A": "1000",
+        "B": "0.001",
+        "C": "3",
+        "D": "100",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "-1, -2 and -3 mean rounding to multiples of 10, 100 and 1000 respectively.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Question Misread",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D38-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Hash key",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q214",
+      "question": "In hashing, the identifier that uniquely identifies a data item (entity) is called the:",
+      "options": {
+        "A": "Key",
+        "B": "Function",
+        "C": "Value",
+        "D": "Hash",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The key uniquely identifies a record; the hash function maps the key to a table index.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "What is the full form of FAT in file systems?",
+      "options": {
+        "A": "File Allocation Table",
+        "B": "Fixed Allocation Track",
+        "C": "File Access Table",
+        "D": "Format Allocation Type",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FAT stands for File Allocation Table, the file system used by MS-DOS and early Windows.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D38-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "SEO",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "In front-end development, SEO stands for:",
+      "options": {
+        "A": "Search Entry Organisation",
+        "B": "Search Engine Optimization",
+        "C": "Secure Engine Optimization",
+        "D": "Site Engine Operation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SEO is Search Engine Optimization, improving a site's ranking in search results.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT",
+      "concept": "Type NOT IoT",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "Which of the following is NOT one of the five commonly cited types of IoT (Consumer, Commercial, Industrial, Infrastructure and Military)?",
+      "options": {
+        "A": "Educational IoT",
+        "B": "Military Things (IoMT)",
+        "C": "Consumer IoT",
+        "D": "Infrastructure IoT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The five types are Consumer, Commercial, Military Things (IoMT), Industrial (IIoT) and Infrastructure IoT.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Processor Architecture",
+      "concept": "CISC applications",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q244",
+      "question": "According to standard textbook classification, which architecture is used in low-end applications such as security systems and home automation?",
+      "options": {
+        "A": "RISC",
+        "B": "CISC",
+        "C": "VLIW",
+        "D": "EPIC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Textbooks classify CISC as used in low-end applications like security systems and home automation, while RISC is used in high-end applications such as video and image processing and telecommunications.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Infrared remote",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p16",
+      "question": "A TV remote control typically communicates using which type of unguided media?",
+      "options": {
+        "A": "Microwaves",
+        "B": "Fibre optics",
+        "C": "Radio waves over long range",
+        "D": "Infrared waves",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "TV remotes use infrared waves, which work over short line-of-sight distances.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "React Angular",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "React and Angular are mainly used in:",
+      "options": {
+        "A": "Operating system development",
+        "B": "Back-end database design",
+        "C": "Front-end development",
+        "D": "Network configuration",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "React and Angular are JavaScript libraries/frameworks for building user interfaces.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D38-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Fastest cable",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p16",
+      "question": "Which transmission medium is the fastest and is used for undersea communication cables?",
+      "options": {
+        "A": "Telephone wire",
+        "B": "Twisted pair cable",
+        "C": "Coaxial cable",
+        "D": "Fibre optic cable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Fibre optic cable carries data as light, offering the highest speed and bandwidth; it is used for undersea and broadband links.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Tree is hierarchical",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "A tree organizes data in which fashion?",
+      "options": {
+        "A": "Hierarchical (non-linear)",
+        "B": "Sequential (linear)",
+        "C": "Circular",
+        "D": "Tabular",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A tree organizes data hierarchically (non-linear) without any closed loop; every element is a node.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "NoSQL",
+      "concept": "Graph NoSQL Neo4j",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which of the following is NOT an RDBMS?",
+      "options": {
+        "A": "Firebird",
+        "B": "Neo4j",
+        "C": "Db2 Express-C",
+        "D": "CUBRID",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Neo4j is a NoSQL graph database; Firebird, CUBRID and Db2 Express-C are relational systems.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D38-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Hold and wait meaning",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "The 'hold and wait' condition means:",
+      "options": {
+        "A": "Processes wait in a circular chain",
+        "B": "Resources cannot be forcibly taken from a process",
+        "C": "A resource can be held by only one process at a time",
+        "D": "A process holds at least one resource while waiting to acquire additional resources",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Hold and wait: a process holding resources requests more and waits without releasing what it holds.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Comments",
+      "concept": "Multi-line comment delimiters",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Which pair correctly marks the start and end of a Java multi-line comment?",
+      "options": {
+        "A": "<!-- and -->",
+        "B": "/* and */",
+        "C": "// and //",
+        "D": "{# and #}",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Multi-line comments in Java start with /* and end with */.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Advanced form of AI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p30",
+      "question": "Which subset of machine learning, based on multi-layer neural networks, is often described as the advanced form of AI?",
+      "options": {
+        "A": "Deep Learning",
+        "B": "Fuzzy Logic",
+        "C": "Data Mining",
+        "D": "Expert System",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Deep learning is described as the advanced form of AI; it uses multi-layer neural networks.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Canonical form basis",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "Canonical forms of Boolean expressions are mainly based on:",
+      "options": {
+        "A": "Truth tables and flowcharts",
+        "B": "Octal and hexadecimal",
+        "C": "BCD and Gray code",
+        "D": "SOP and POS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Canonical forms are Sum of Products (SOP, sum of minterms) and Product of Sums (POS, product of maxterms).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Keyword count",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "According to the keyword list of Python 3 (3.7 onwards), how many keywords does Python have?",
+      "options": {
+        "A": "36",
+        "B": "33",
+        "C": "35",
+        "D": "32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Python 3.7+ has 35 keywords, including async and await, which were the newest additions.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D38-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Types",
+      "concept": "ROM types NOT",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "Which of the following is NOT a type of ROM?",
+      "options": {
+        "A": "DRAM",
+        "B": "EPROM",
+        "C": "PROM",
+        "D": "EEPROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DRAM (Dynamic RAM) is a type of RAM; MROM, PROM, EPROM and EEPROM are types of ROM.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D38-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Sanity testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "After a minor bug fix, QA quickly checks only the related menus, functions and commands. This is:",
+      "options": {
+        "A": "Alpha testing",
+        "B": "Sanity testing",
+        "C": "Accessibility testing",
+        "D": "Integration testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Sanity testing is a narrow, focused check by QA of specific functionality (menus, functions, commands) after a change.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

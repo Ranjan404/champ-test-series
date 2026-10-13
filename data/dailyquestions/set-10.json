@@ -1,0 +1,681 @@
+{
+  "setId": 10,
+  "title": "Daily Set 10",
+  "questions": [
+    {
+      "id": "D10-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "STP use",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "Shielded Twisted Pair (STP) cable is preferred in factories mainly because it:",
+      "options": {
+        "A": "Has no copper conductors",
+        "B": "Has shielding that reduces electromagnetic interference",
+        "C": "Is the cheapest cable available",
+        "D": "Carries light signals",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "STP has a metallic shield that protects against interference from heavy machinery, so it suits factory environments.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "SaaS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "What is the full form of SaaS?",
+      "options": {
+        "A": "Storage as a Service",
+        "B": "System as a Service",
+        "C": "Software as a Service",
+        "D": "Security as a Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SaaS stands for Software as a Service.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D10-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "De Morgan's Theorem",
+      "concept": "De Morgan rule",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "When applying De Morgan's theorem, 'break the bar and change the sign' means:",
+      "options": {
+        "A": "Replace each 1 with 0 only",
+        "B": "Remove all complements",
+        "C": "Complement each variable and swap AND with OR",
+        "D": "Change AND to XOR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Breaking the overbar complements each variable and the operator changes: AND becomes OR and OR becomes AND.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Underlined ellipse key",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "In an ER diagram, an ellipse with the attribute name underlined represents a:",
+      "options": {
+        "A": "Key (primary key) attribute",
+        "B": "Weak relationship",
+        "C": "Multivalued attribute",
+        "D": "Composite entity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Underlining the attribute name inside an ellipse marks the key attribute.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Preorder order",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q26",
+      "question": "Which order describes preorder traversal of a binary tree?",
+      "options": {
+        "A": "Right subtree, left subtree, root",
+        "B": "Right subtree, root, left subtree",
+        "C": "Root, left subtree, right subtree",
+        "D": "Left subtree, right subtree, root",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In preorder traversal the root is visited first, then the left subtree, then the right subtree.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI History",
+      "concept": "IPL first AI language",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q256",
+      "question": "What was the first AI programming language called?",
+      "options": {
+        "A": "IPL",
+        "B": "Machine Language",
+        "C": "Python",
+        "D": "LISP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IPL (Information Processing Language), created by Newell, Shaw and Simon around 1956, was the first AI language; LISP came later in 1958.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "Not RTOS example",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Which of the following is LEAST likely to run a real-time/embedded OS?",
+      "options": {
+        "A": "Multi-user university Unix server",
+        "B": "Printer",
+        "C": "Fax machine",
+        "D": "Industrial robot",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Fax machines, robots and printers are embedded real-time devices; a multi-user Unix server is a general-purpose multi-user OS.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D10-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "Database definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "A database is best defined as:",
+      "options": {
+        "A": "A program that translates source code",
+        "B": "A network protocol for file transfer",
+        "C": "A device that stores electricity",
+        "D": "An organized collection of data that can be accessed, updated and managed",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A database is an organized collection of data or information that can be easily accessed, updated and managed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "CSS types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "Which of the following is NOT one of the three types of CSS?",
+      "options": {
+        "A": "Internal CSS",
+        "B": "Dynamic CSS",
+        "C": "External CSS",
+        "D": "Inline CSS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The three ways to apply CSS are external, internal (embedded) and inline.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D10-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Protocols",
+      "concept": "ARP resolves MAC address",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q327",
+      "question": "Which protocol is used to find the hardware (MAC) address of a local device from its IP address?",
+      "options": {
+        "A": "RARP",
+        "B": "IP",
+        "C": "ICMP",
+        "D": "ARP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ARP (Address Resolution Protocol) maps a known IP address to a MAC address on the local network. RARP does the reverse.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Functions",
+      "concept": "Number of Boolean functions",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q128",
+      "question": "How many distinct Boolean functions can be formed with three Boolean variables?",
+      "options": {
+        "A": "1024",
+        "B": "16",
+        "C": "256",
+        "D": "32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "3 variables give 2^3 = 8 truth table rows and each row can be 0 or 1, so there are 2^8 = 256 functions.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D10-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Leaf node",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "In a tree, a node with no children is called a:",
+      "options": {
+        "A": "Edge",
+        "B": "Leaf node",
+        "C": "Parent node",
+        "D": "Root node",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A leaf (terminal) node has no children; the root is the topmost node and edges connect nodes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Registers",
+      "concept": "Program counter",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q300",
+      "question": "The program counter:",
+      "options": {
+        "A": "Contains the address of the next instruction to be executed",
+        "B": "Decides which program to run",
+        "C": "Counts the number of instructions that have been executed",
+        "D": "Is where arithmetic is done in a computer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The program counter (PC) holds the memory address of the next instruction to fetch; it is updated after each fetch or by jumps.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Hashing",
+      "concept": "SHA full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q25",
+      "question": "In hashing, what does SHA stand for?",
+      "options": {
+        "A": "Secure Hash Algorithm",
+        "B": "Strong Hash Algorithm",
+        "C": "Secure Hardware Application",
+        "D": "Structure Hash Algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SHA stands for Secure Hash Algorithm, a family of cryptographic hash functions (SHA-1, SHA-2, SHA-3) published by NIST.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D10-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT32 year",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "FAT32 was introduced in which year?",
+      "options": {
+        "A": "2006",
+        "B": "1984",
+        "C": "1980",
+        "D": "1996",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "FAT32 was introduced in 1996 (with Windows 95 OSR2) and later used by Windows 98.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D10-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Bits in KB",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "How many bits are there in 1 Kilobyte (binary)?",
+      "options": {
+        "A": "1000",
+        "B": "1024",
+        "C": "8000",
+        "D": "8192",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "1 KB = 1024 bytes and 1 byte = 8 bits, so 1 KB = 1024 x 8 = 8192 bits.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D10-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "2-D array size with index bounds",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q66",
+      "question": "How many elements can be held by an array A(-3:10, 5:12)?",
+      "options": {
+        "A": "112",
+        "B": "104",
+        "C": "91",
+        "D": "119",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Rows: 10 - (-3) + 1 = 14; columns: 12 - 5 + 1 = 8; total = 14 x 8 = 112.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D10-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Implementations",
+      "concept": "CPython",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which is the default (reference) Python implementation, written in C?",
+      "options": {
+        "A": "Jython",
+        "B": "PyPy",
+        "C": "IronPython",
+        "D": "CPython",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "CPython, written in C, is the standard implementation downloaded from python.org.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D10-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "PaaS users",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "The PaaS layer of the cloud is primarily targeted at:",
+      "options": {
+        "A": "Hardware manufacturers",
+        "B": "Application developers",
+        "C": "Network architects",
+        "D": "End users",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In the SaaS-PaaS-IaaS pyramid, SaaS targets end users, PaaS targets application developers and IaaS targets network architects.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "RAD full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "What does RAD stand for in SDLC models?",
+      "options": {
+        "A": "Random Access Design",
+        "B": "Rapid Application Development",
+        "C": "Requirement Analysis Document",
+        "D": "Reliable Agile Delivery",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RAD is Rapid Application Development, which emphasises quick prototyping and component reuse.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D10-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Access Specifiers",
+      "concept": "Private members",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "In C++, members declared as private:",
+      "options": {
+        "A": "Cannot be accessed directly from outside the class",
+        "B": "Can be accessed directly by any function in the file",
+        "C": "Can be accessed from anywhere in the program",
+        "D": "Are automatically public in derived classes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Private members are hidden and cannot be accessed directly from outside the class.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Sum of products",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q91",
+      "question": "A logical sum (OR) of two or more logical product (AND) terms is called:",
+      "options": {
+        "A": "OR operation",
+        "B": "SOP",
+        "C": "NAND operation",
+        "D": "POS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Sum of Products is an OR of AND terms, e.g. AB + BC; POS is an AND of OR terms.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "Scenario mail retrieval",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "A mail client downloads messages from the server with POP3 and sends new mail with SMTP. Which pair of ports does it use?",
+      "options": {
+        "A": "143 and 25",
+        "B": "110 and 80",
+        "C": "25 and 443",
+        "D": "110 and 25",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "POP3 uses port 110 for retrieval and SMTP uses port 25 for sending.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D10-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "JPEG full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "JPEG stands for:",
+      "options": {
+        "A": "Joint Photographic Encoding Group",
+        "B": "Java Photographic Experts Group",
+        "C": "Joint Photographic Experts Group",
+        "D": "Joint Picture Encoding Graphics",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "JPEG/JPG stands for Joint Photographic Experts Group, the committee that created the standard.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D10-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Degree and cardinality calculation",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "A STUDENT table has 6 columns and 40 rows. What are its degree and cardinality?",
+      "options": {
+        "A": "Degree 240, Cardinality 6",
+        "B": "Degree 40, Cardinality 6",
+        "C": "Degree 6, Cardinality 40",
+        "D": "Degree 6, Cardinality 240",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Degree is the number of attributes (6) and cardinality is the number of tuples (40).",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    }
+  ]
+}

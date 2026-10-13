@@ -1,0 +1,681 @@
+{
+  "setId": 17,
+  "title": "Daily Set 17",
+  "questions": [
+    {
+      "id": "D17-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Constraints",
+      "concept": "Referential integrity",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Which SQL constraint is also called the referential integrity constraint?",
+      "options": {
+        "A": "UNIQUE",
+        "B": "FOREIGN KEY",
+        "C": "NOT NULL",
+        "D": "CHECK",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A FOREIGN KEY constraint enforces referential integrity by referencing a row in another table.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "DDS full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "In IoT, DDS stands for:",
+      "options": {
+        "A": "Data Distribution Service",
+        "B": "Distributed Data System",
+        "C": "Digital Data Storage",
+        "D": "Device Discovery Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DDS is the Data Distribution Service, a real-time publish-subscribe middleware standard.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D17-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv6 vs IPv4 address space",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "By what factor is the number of possible IPv6 addresses larger than the number of possible IPv4 addresses?",
+      "options": {
+        "A": "2^4",
+        "B": "2^96",
+        "C": "2^32",
+        "D": "96",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IPv6 has 2^128 addresses and IPv4 has 2^32, so the ratio is 2^(128-32) = 2^96.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D17-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Balanced Trees",
+      "concept": "AVL tree property",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q17",
+      "question": "Which statement about AVL trees is true?",
+      "options": {
+        "A": "They do not require balancing.",
+        "B": "They are designed to store duplicate keys.",
+        "C": "They are a type of self-balancing binary search tree.",
+        "D": "They support only insertion operations.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An AVL tree is a height-balanced binary search tree that rebalances itself with rotations after insertions and deletions.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D17-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Functions",
+      "concept": "Degree of a Boolean term",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q51",
+      "question": "What is the degree of the Boolean function F(X, Y, Z, M) = X'Y'Z'M'?",
+      "options": {
+        "A": "5",
+        "B": "1",
+        "C": "4",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The degree of a Boolean function (term) is the number of literals/variables in it; X'Y'Z'M' has four variables, so the degree is 4.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D17-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "Microprocessor definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q110",
+      "question": "A CPU on a single chip is called a:",
+      "options": {
+        "A": "Solid state drive",
+        "B": "Motherboard",
+        "C": "Microcontroller",
+        "D": "Microprocessor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A microprocessor implements the CPU on a single integrated circuit; a microcontroller adds memory and I/O on the chip too.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Protocols",
+      "concept": "HTTP for web browsing",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q290",
+      "question": "The HTTP protocol is mainly used for:",
+      "options": {
+        "A": "File transfers",
+        "B": "E-mail communication",
+        "C": "Web browsing",
+        "D": "Remote terminal access",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HTTP transfers web pages between browsers and web servers. E-mail uses SMTP, file transfer uses FTP and remote terminal access uses Telnet/SSH.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "Deployment models",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "Which of the following is NOT a cloud deployment model?",
+      "options": {
+        "A": "Hybrid cloud",
+        "B": "Public cloud",
+        "C": "Private cloud",
+        "D": "SaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Deployment models are public, private and hybrid; SaaS is a service model.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D17-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "Universal gates",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "Which gates are called universal gates?",
+      "options": {
+        "A": "NAND and NOR",
+        "B": "XOR and XNOR",
+        "C": "AND and OR",
+        "D": "AND and NOT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NAND and NOR are universal gates because any Boolean function can be built using only one of them.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "B2B examples",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "Alibaba and IndiaMART are classic examples of which e-commerce model?",
+      "options": {
+        "A": "C2C (Consumer-to-Consumer)",
+        "B": "B2C (Business-to-Consumer)",
+        "C": "B2B (Business-to-Business)",
+        "D": "C2B (Consumer-to-Business)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Alibaba and IndiaMART connect manufacturers and wholesalers with other businesses, so they are B2B platforms.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D17-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Basics",
+      "concept": "Output function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which function displays output on the screen in Python?",
+      "options": {
+        "A": "echo()",
+        "B": "print()",
+        "C": "printf()",
+        "D": "cout()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "print() is Python's output function; printf is from C, cout from C++ and echo from shell/PHP.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Queries",
+      "concept": "WHERE vs HAVING",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "To list only departments whose total salary exceeds 5 lakh, the condition SUM(salary) > 500000 should be placed in which clause?",
+      "options": {
+        "A": "ORDER BY",
+        "B": "SELECT",
+        "C": "WHERE",
+        "D": "HAVING",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Conditions on aggregate functions like SUM go in HAVING, after GROUP BY.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Binary search comparisons",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "What is the maximum number of comparisons binary search needs to find an element in a sorted array of 1023 elements?",
+      "options": {
+        "A": "1023",
+        "B": "11",
+        "C": "512",
+        "D": "10",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "For n = 2^k - 1 elements, binary search needs at most k comparisons; 1023 = 2^10 - 1, so 10 comparisons.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D17-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "SJF waiting time calc",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Three processes with CPU burst times of 24, 3 and 3 ms all arrive at time 0. What is the average waiting time under non-preemptive SJF scheduling?",
+      "options": {
+        "A": "6 ms",
+        "B": "17 ms",
+        "C": "9 ms",
+        "D": "3 ms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SJF runs 3, 3, then 24: waiting times 0, 3 and 6; average = 9 / 3 = 3 ms.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D17-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Identifiers",
+      "concept": "Digit start invalid",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which of the following is an INVALID identifier in Python?",
+      "options": {
+        "A": "Value_2",
+        "B": "value2",
+        "C": "2value",
+        "D": "_value",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An identifier cannot start with a digit; it must begin with a letter (A-Z, a-z) or an underscore.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D17-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption",
+      "concept": "Asymmetric keys",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p44",
+      "question": "Asymmetric encryption uses which pair of keys?",
+      "options": {
+        "A": "A public key and a private key",
+        "B": "Two identical secret keys",
+        "C": "Two public keys",
+        "D": "A master key and a session key only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Asymmetric (public-key) encryption uses a mathematically related public-private key pair.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D17-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Software",
+      "concept": "Open source DBMS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "Which of the following DBMS is open source?",
+      "options": {
+        "A": "Microsoft SQL Server",
+        "B": "Oracle",
+        "C": "Microsoft Access",
+        "D": "PostgreSQL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "PostgreSQL is open source, while Oracle, SQL Server and Access are proprietary products.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D17-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Languages",
+      "concept": "Prolog full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "PROLOG stands for:",
+      "options": {
+        "A": "Programming in Logic",
+        "B": "Procedural Logic",
+        "C": "Prototype Logic",
+        "D": "Program Logic Generator",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Prolog means Programming in Logic, a declarative language widely used in AI.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D17-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Most powerful machine",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Among the four primary machines of the Chomsky hierarchy, which is the most powerful and capable of simulating any computation?",
+      "options": {
+        "A": "Pushdown automaton",
+        "B": "Turing machine",
+        "C": "Linear bounded automaton",
+        "D": "DFA",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Turing machine (Type 0) is the most powerful, able to simulate any computation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Primary Memory",
+      "concept": "Main memory properties",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q322",
+      "question": "Which of the following statements about the main memory (RAM) of a computer is NOT correct?",
+      "options": {
+        "A": "Main memory is made of semiconductors",
+        "B": "Main memory is slower than secondary memory such as hard disks",
+        "C": "Data in main memory is lost when power is switched off",
+        "D": "Main memory is faster than secondary memory but slower than registers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RAM is volatile, semiconductor-based, and faster than secondary storage while slower than registers. So saying it is slower than hard disks is false.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D17-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stacks",
+      "concept": "Stack overflow",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q70",
+      "question": "Pushing an element onto a stack of size 5 that already holds five elements results in:",
+      "options": {
+        "A": "Underflow",
+        "B": "Crash",
+        "C": "Overflow",
+        "D": "An empty stack",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Inserting into a full stack causes stack overflow; underflow occurs when popping from an empty stack.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D17-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Data Types",
+      "concept": "bool not in C",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Which of these data types is a built-in keyword in C++ but not in traditional (C89) C?",
+      "options": {
+        "A": "bool",
+        "B": "int",
+        "C": "char",
+        "D": "double",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "C++ has a built-in bool type holding true(1) or false(0); traditional C did not have bool.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D17-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Topology types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p13",
+      "question": "Which of the following is NOT a network topology?",
+      "options": {
+        "A": "Bus",
+        "B": "Square",
+        "C": "Mesh",
+        "D": "Ring",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The standard topologies are Bus, Ring, Star, Tree, Mesh and Hybrid; 'Square' is not one.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "De Morgan's Theorem",
+      "concept": "Bubbled OR",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "A 'bubbled OR' gate (an OR gate with inverted inputs) is equivalent to which gate?",
+      "options": {
+        "A": "NAND",
+        "B": "AND",
+        "C": "XOR",
+        "D": "NOR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A' + B' = (AB)', so an OR gate with bubbled inputs (negative-OR) behaves as a NAND gate.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D17-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Vector disadvantage",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Which of the following is a disadvantage of vector images?",
+      "options": {
+        "A": "They are time consuming to create and need specific talent",
+        "B": "They can only be stored in BMP format",
+        "C": "They cannot be used for logos",
+        "D": "They become pixelated when zoomed in",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Vector images stay smooth at any zoom, but creating them is time consuming and requires specific skill.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

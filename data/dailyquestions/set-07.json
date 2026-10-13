@@ -1,0 +1,681 @@
+{
+  "setId": 7,
+  "title": "Daily Set 7",
+  "questions": [
+    {
+      "id": "D07-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "COUNT function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "Which SQL function returns the number of rows that match a condition?",
+      "options": {
+        "A": "COUNT()",
+        "B": "LEN()",
+        "C": "MAX()",
+        "D": "SUM()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "COUNT() returns the number of rows.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Multi-dimensional arrays",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q49",
+      "question": "An array declared in C as int a[3][4][5] is a:",
+      "options": {
+        "A": "Linked list",
+        "B": "Two-dimensional array",
+        "C": "One-dimensional array",
+        "D": "Multi-dimensional (three-dimensional) array",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Each pair of brackets adds a dimension, so a[3][4][5] has three dimensions; arrays can be one-, two- or multi-dimensional.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "D07-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Physical layer devices",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "Which of the following devices operates at the Physical layer of the OSI model?",
+      "options": {
+        "A": "Repeater",
+        "B": "Bridge",
+        "C": "Router",
+        "D": "Switch",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Hubs, repeaters, modems and cables work at the Physical layer; bridges and switches work at the Data Link layer, routers at the Network layer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "LPWAN full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q118",
+      "question": "What is the full form of LPWAN?",
+      "options": {
+        "A": "Low Power Wide Area Network",
+        "B": "Low Protocol Wide Area of Network",
+        "C": "Lower Power Wide Area of Network",
+        "D": "Long Protocol Wider Area Network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "LPWAN stands for Low Power Wide Area Network, used for long-range, low-power IoT communication (e.g. LoRaWAN).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Careless Error",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D07-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterm and Maxterm",
+      "concept": "Maxterm number",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "The maxterm (A' + B + C') corresponds to which maxterm number?",
+      "options": {
+        "A": "M7",
+        "B": "M5",
+        "C": "M3",
+        "D": "M2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In maxterms, an uncomplemented variable is 0 and a complemented variable is 1: A'=1, B=0, C'=1 gives 101 = 5, so M5.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Basics",
+      "concept": "IoT and cloud",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q218",
+      "question": "Where is the data collected by IoT devices typically stored and processed?",
+      "options": {
+        "A": "Cloud",
+        "B": "Actuator",
+        "C": "Network switch",
+        "D": "Automata",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IoT devices push their sensed data to cloud platforms, where it is stored, processed and analysed.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D07-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "OR gate behaviour",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q35",
+      "question": "Which gate gives a HIGH output if at least one of its inputs is HIGH (and LOW only when all inputs are LOW)?",
+      "options": {
+        "A": "NOR gate",
+        "B": "XNOR gate",
+        "C": "OR gate",
+        "D": "AND gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An OR gate outputs 1 whenever any input is 1. An XOR gate differs because it outputs 0 when both inputs are 1.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "B2G defence supply",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "A private company supplies surveillance aircraft and missile defence systems to the government after winning a tender. This is an example of:",
+      "options": {
+        "A": "C2G",
+        "B": "B2G",
+        "C": "B2C",
+        "D": "G2G",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Tenders and the sale of machinery or defence equipment by a business to the government fall under Business-to-Government (B2G), also called B2A.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D07-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessor",
+      "concept": "Microprocessor components",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q237",
+      "question": "Which of the following is true about microprocessors?",
+      "options": {
+        "A": "It has large built-in RAM and ROM on the chip",
+        "B": "It always uses the Harvard architecture",
+        "C": "It contains an ALU, a control unit and registers",
+        "D": "It has built-in I/O ports and timers for standalone control",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A microprocessor is a CPU on a chip: ALU, control unit and registers. On-chip memory, I/O ports and timers (and usually Harvard architecture) characterise microcontrollers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Hash function",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q236",
+      "question": "What is used in a hash table to determine the index of an input record?",
+      "options": {
+        "A": "Hash linked list",
+        "B": "Hash function",
+        "C": "Hash tree",
+        "D": "Hash chaining",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A hash function maps a key to an index (bucket) in the table. Chaining is a collision-resolution technique.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "Port sum",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "What is the sum of the default port numbers of Telnet and DNS?",
+      "options": {
+        "A": "74",
+        "B": "76",
+        "C": "78",
+        "D": "75",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Telnet = 23 and DNS = 53, so 23 + 53 = 76.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D07-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "TCL commands",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q42",
+      "question": "Which of the following are TCL (Transaction Control Language) commands?",
+      "options": {
+        "A": "GRANT and REVOKE",
+        "B": "SELECT and INSERT",
+        "C": "COMMIT and ROLLBACK",
+        "D": "UPDATE and TRUNCATE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "COMMIT and ROLLBACK (along with SAVEPOINT) control transactions. GRANT/REVOKE are DCL; SELECT/INSERT/UPDATE are DML; TRUNCATE is DDL.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "32-bit vs 64-bit OS",
+      "concept": "Both 32 and 64-bit XP",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "Which of the following Windows versions was released in both 32-bit and 64-bit editions?",
+      "options": {
+        "A": "MS-DOS",
+        "B": "Windows 95",
+        "C": "Windows 98",
+        "D": "Windows XP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Windows XP was released as a 32-bit OS and also had a 64-bit edition (XP Professional x64).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Network Attacks",
+      "concept": "Spoofing",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q201",
+      "question": "An attempt to fake or take over an IP address or DNS identity is called:",
+      "options": {
+        "A": "Spoofing",
+        "B": "Phishing",
+        "C": "Sniffing",
+        "D": "Spooling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Spoofing means forging an identity such as an IP address or DNS response. Sniffing captures traffic; spooling is buffering jobs for devices.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D07-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterms",
+      "concept": "Number of minterms",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q8",
+      "question": "How many minterms are there for 3 variables (a, b, c)?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "n variables give 2^n minterms, so 3 variables give 2^3 = 8 minterms.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D07-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Unit testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Testing an individual module or function in isolation is called:",
+      "options": {
+        "A": "Integration testing",
+        "B": "Acceptance testing",
+        "C": "Unit testing",
+        "D": "System testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Unit testing tests a single module/component independently, usually by developers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Input attributes",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q193",
+      "question": "Which type of attribute is required by both supervised learning and unsupervised clustering?",
+      "options": {
+        "A": "Hidden attribute",
+        "B": "Categorical attribute",
+        "C": "Output attribute",
+        "D": "Input attribute",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Both need input attributes (features) to learn from; only supervised learning additionally requires an output (target) attribute.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "Cross join row count",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Table A has 5 rows and table B has 4 rows. How many rows does A CROSS JOIN B produce?",
+      "options": {
+        "A": "9",
+        "B": "20",
+        "C": "4",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A cross join produces m x n rows: 5 x 4 = 20.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D07-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Raster other name",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Raster graphics are also called:",
+      "options": {
+        "A": "Path images",
+        "B": "Outline images",
+        "C": "Vector images",
+        "D": "Bitmap images",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Raster graphics are also called bitmap images because they store the image as a map of individual pixels.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Modem full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "MODEM stands for:",
+      "options": {
+        "A": "Modulator-Demodulator",
+        "B": "Modular Data Exchange Module",
+        "C": "Multiplexer-Demultiplexer",
+        "D": "Mode Emulator",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A modem is a Modulator-Demodulator that converts signals between digital and analog form.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D07-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "FCFS waiting time calc",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Three processes arrive at time 0 in the order P1, P2, P3 with burst times 24, 3 and 3 ms. What is the average waiting time under FCFS?",
+      "options": {
+        "A": "27 ms",
+        "B": "3 ms",
+        "C": "17 ms",
+        "D": "10 ms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Waiting times are 0, 24 and 27 ms; average = (0 + 24 + 27) / 3 = 17 ms.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D07-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Ports and Buses",
+      "concept": "USB full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q150",
+      "question": "What does USB stand for?",
+      "options": {
+        "A": "Unique Sequential Bus",
+        "B": "Universal Serial Bus",
+        "C": "Universal Sequential Bus",
+        "D": "Unique Serial Bus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "USB stands for Universal Serial Bus.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D07-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "lambda",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword is used to create an anonymous function in Python?",
+      "options": {
+        "A": "lambda",
+        "B": "def",
+        "C": "anon",
+        "D": "func",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "lambda creates small anonymous functions, e.g. lambda x: x * 2.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D07-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Data Types",
+      "concept": "Floating-point types",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q209",
+      "question": "Which of the following C data types CANNOT store numbers with a fractional (decimal) part?",
+      "options": {
+        "A": "float",
+        "B": "long double",
+        "C": "long",
+        "D": "double",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "float, double and long double are floating-point types; long is an integer type and stores whole numbers only.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D07-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "Spanning tree edge count",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q307",
+      "question": "How many edges does a spanning tree of a connected graph with N vertices have?",
+      "options": {
+        "A": "N + 1",
+        "B": "N(N - 1)/2",
+        "C": "N",
+        "D": "N - 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A tree on N vertices always has exactly N - 1 edges; a spanning tree connects all N vertices with no cycle.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "setId": 32,
+  "title": "Daily Set 32",
+  "questions": [
+    {
+      "id": "D32-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Internet Connections",
+      "concept": "Dial-up vs DSL",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p13",
+      "question": "Which statement comparing dial-up and DSL is correct?",
+      "options": {
+        "A": "Dial-up is the slowest connection, while DSL is a broadband connection",
+        "B": "Both dial-up and DSL require fibre optic cable",
+        "C": "DSL is slower than dial-up",
+        "D": "Dial-up is a broadband connection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Dial-up is the slowest connection over telephone lines via modem, whereas DSL provides high-speed broadband.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Inorder of BST is sorted",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "Which traversal of a binary search tree outputs the keys in ascending (sorted) order?",
+      "options": {
+        "A": "Preorder",
+        "B": "Level order",
+        "C": "Inorder",
+        "D": "Postorder",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a BST, left < root < right, so the Left-Root-Right (inorder) traversal yields sorted order.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Software Types",
+      "concept": "Firmware",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q48",
+      "question": "Instructions permanently written in ROM are called:",
+      "options": {
+        "A": "Hardware",
+        "B": "Malware",
+        "C": "Firmware",
+        "D": "Software",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Firmware is software stored in non-volatile memory such as ROM that provides low-level control of hardware (e.g. BIOS).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Hexadecimal to Binary",
+      "concept": "5AD to binary",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "Convert (5AD)16 into binary.",
+      "options": {
+        "A": "010110101101",
+        "B": "010110111101",
+        "C": "011010101101",
+        "D": "010111001101",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "5 = 0101, A = 1010, D = 1101, so (5AD)16 = 0101 1010 1101.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D32-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "MIN function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "SELECT MIN(marks) FROM result; returns:",
+      "options": {
+        "A": "The smallest value in the marks column",
+        "B": "The first value in the marks column",
+        "C": "The number of rows in the table",
+        "D": "The average of the marks column",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "MIN() returns the smallest value; FIRST() returns the first value.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Hexadecimal base",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "The hexadecimal number system has a base of:",
+      "options": {
+        "A": "12",
+        "B": "8",
+        "C": "10",
+        "D": "16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Hexadecimal uses 16 symbols (0-9 and A-F), so its base is 16.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "Third normal form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q167",
+      "question": "A relation that is in 2NF and in which no non-prime attribute is transitively dependent on a candidate key is in which normal form (at least)?",
+      "options": {
+        "A": "Second",
+        "B": "Third",
+        "C": "First",
+        "D": "Fourth",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "3NF requires 2NF plus no transitive dependency of non-prime attributes on any candidate key.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "PaaS use case",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "A developer rents a ready environment from the cloud to host and deploy a website without managing servers. Which cloud service model is this?",
+      "options": {
+        "A": "SaaS",
+        "B": "IaaS",
+        "C": "DaaS",
+        "D": "PaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "PaaS (Platform as a Service) provides an app and website hosting platform, e.g. Google App Engine.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D32-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "BFS uses queue",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "Breadth First Search (BFS) uses which data structure?",
+      "options": {
+        "A": "Stack (LIFO)",
+        "B": "Heap",
+        "C": "Queue (FIFO)",
+        "D": "Hash table",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "BFS visits nodes level by level, so it uses a queue (First In First Out).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "PDU of transport layer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "In the OSI model, the data unit (PDU) at the Transport layer is called a:",
+      "options": {
+        "A": "Segment",
+        "B": "Bit",
+        "C": "Frame",
+        "D": "Packet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Transport layer breaks data into segments; packets belong to the Network layer and frames to the Data Link layer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "RTOS characteristic",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "What is the defining characteristic of a Real-Time Operating System?",
+      "options": {
+        "A": "It has no scheduler",
+        "B": "It supports the largest number of users",
+        "C": "It runs only on mainframes",
+        "D": "It must respond to inputs within a strict, guaranteed time limit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An RTOS guarantees processing and response within fixed time constraints, as needed by robots, routers and similar devices.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Translators",
+      "concept": "Types of translators",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "Which of the following is NOT a language translator?",
+      "options": {
+        "A": "Loader",
+        "B": "Assembler",
+        "C": "Interpreter",
+        "D": "Compiler",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The three translators are assembler, compiler and interpreter; a loader loads programs into memory.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Protocols",
+      "concept": "RTSP use",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "Which protocol is used to control media sessions between clients and servers, enabling play, pause and fast-forward (as on Netflix)?",
+      "options": {
+        "A": "RTP",
+        "B": "SMTP",
+        "C": "RTSP",
+        "D": "SNMP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RTSP (Real-Time Streaming Protocol) controls streaming media sessions, providing VCR-like commands such as play, pause and fast-forward.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Yottabyte power",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "1 Yottabyte is equal to how many bytes in binary units?",
+      "options": {
+        "A": "2^80",
+        "B": "2^70",
+        "C": "2^60",
+        "D": "2^90",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "1 YB = 1024 ZB = 2^80 bytes; 2^70 is a Zettabyte and 2^90 is a Brontobyte.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "Basic gate NOT",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "Which of the following is NOT a basic logic gate?",
+      "options": {
+        "A": "AND",
+        "B": "NOT",
+        "C": "OR",
+        "D": "NAND",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The basic gates are AND, OR and NOT; NAND is a universal gate.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D32-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "TOC Basics",
+      "concept": "Computability theory scope",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Which branch of Theory of Computation deals with the question of what can and cannot be computed at all?",
+      "options": {
+        "A": "Computational complexity theory",
+        "B": "Computability theory",
+        "C": "Automata theory",
+        "D": "Formal grammar theory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Computability theory studies which problems are solvable by an algorithm and which are not (e.g. the halting problem).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D32-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Capital keyword count",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "How many Python keywords begin with an uppercase letter?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "5",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Only True, False and None start with an uppercase letter, so the count is 3.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D32-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Arrays",
+      "concept": "Array declaration with initializer",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q265",
+      "question": "In Java, which of the following statements correctly declares, constructs and initializes an array with the values 1, 2 and 3?",
+      "options": {
+        "A": "int arr[3] = {1, 2, 3};",
+        "B": "int arr[][] = {1, 2, 3, 4};",
+        "C": "int arr[] = {1, 2, 3};",
+        "D": "int[] arr = (1, 2, 3);",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "int arr[] = {1, 2, 3}; is valid Java: the initializer creates a 3-element array. Java does not allow a size inside the declaration brackets, parentheses as an initializer, or 1-D values for a 2-D array.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D32-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual Memory",
+      "concept": "Virtual memory definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q297",
+      "question": "Virtual memory is:",
+      "options": {
+        "A": "Supercomputer memory",
+        "B": "An illusion of an extremely large main memory",
+        "C": "An extremely large secondary memory",
+        "D": "An extremely large main memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Virtual memory uses disk space and paging to give programs the illusion of a main memory much larger than the physical RAM.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Types of ML",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Which of the following is NOT a type of machine learning?",
+      "options": {
+        "A": "Reinforcement learning",
+        "B": "Compiled learning",
+        "C": "Supervised learning",
+        "D": "Unsupervised learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The three main types of machine learning are supervised, unsupervised and reinforcement learning.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D32-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Trees",
+      "concept": "Perfect binary tree definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q257",
+      "question": "A binary tree in which every internal node has exactly two children and all leaf nodes are at the same level is called a:",
+      "options": {
+        "A": "Full binary tree",
+        "B": "Perfect binary tree",
+        "C": "Complete binary tree",
+        "D": "Balanced binary tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A perfect binary tree is full (every internal node has two children) and also has all leaves at the same depth. A full tree alone does not require leaves on one level.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Presentation Layer",
+      "concept": "MIME full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "MIME, which allows email to carry images, audio and other non-text content, stands for:",
+      "options": {
+        "A": "Mail Interface for Multimedia Exchange",
+        "B": "Multipurpose Internet Mail Extensions",
+        "C": "Multiple Internet Mail Encoding",
+        "D": "Multimedia Internet Message Exchange",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "MIME is Multipurpose Internet Mail Extensions, which extends email format to support non-ASCII content.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D32-Q23",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Command Categories",
+      "concept": "SELECT belongs to DQL",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q306",
+      "question": "When SQL commands are divided into five sub-languages (DDL, DML, DQL, DCL, TCL), to which category does SELECT belong?",
+      "options": {
+        "A": "DCL",
+        "B": "DDL",
+        "C": "DQL",
+        "D": "TCL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SELECT only retrieves data, so in the five-way classification it is the Data Query Language (DQL) command.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Black box testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "In which testing is the internal code hidden from the tester, who tests only inputs and outputs?",
+      "options": {
+        "A": "Glass box testing",
+        "B": "Unit code review",
+        "C": "White box testing",
+        "D": "Black box testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Black box testing treats the software as opaque: the code is hidden and only functionality is tested.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D32-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "NPCI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "What does NPCI stand for?",
+      "options": {
+        "A": "National Payments Corporation of India",
+        "B": "National Processing Corporation of India",
+        "C": "Net Payments Commission of India",
+        "D": "National Payment Council of India",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NPCI is the National Payments Corporation of India, which operates UPI, IMPS and RuPay.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

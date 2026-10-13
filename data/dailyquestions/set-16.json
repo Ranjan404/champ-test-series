@@ -1,0 +1,681 @@
+{
+  "setId": 16,
+  "title": "Daily Set 16",
+  "questions": [
+    {
+      "id": "D16-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Connectors",
+      "concept": "RJ-45 scenario",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "You want to connect a PC to a router using an Ethernet cable. Which connector will you use?",
+      "options": {
+        "A": "BNC connector",
+        "B": "RJ-45",
+        "C": "ST connector",
+        "D": "RJ-11",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RJ-45 is the 8-pin connector used for Ethernet connections between network devices; RJ-11 is for telephones.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Postorder numeric tree",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "A tree has root 4 with left child 2 and right child 6. Node 2 has children 1 and 3; node 6 has children 5 and 7. What is the postorder traversal?",
+      "options": {
+        "A": "1 3 2 5 7 6 4",
+        "B": "1 2 3 4 5 6 7",
+        "C": "4 2 1 3 6 5 7",
+        "D": "2 1 3 6 5 7 4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Postorder (Left, Right, Root): 1 3 2 for the left subtree, 5 7 6 for the right subtree, then root 4.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D16-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "ML trained on large datasets",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q285",
+      "question": "Which type of AI involves training a computer program using a large dataset?",
+      "options": {
+        "A": "Expert systems",
+        "B": "Fuzzy logic",
+        "C": "Reinforcement learning",
+        "D": "Machine learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Machine learning builds models by learning patterns from large datasets. Expert systems use hand-written rules and reinforcement learning learns from rewards in an environment.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Canonical SOP terms",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "A canonical SOP expression is a sum of:",
+      "options": {
+        "A": "Maxterms",
+        "B": "Minterms",
+        "C": "Prime implicants only",
+        "D": "Sum terms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Canonical SOP is the Sum of Minterms; canonical POS is the Product of Maxterms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Languages",
+      "concept": "DDL command identification",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which of the following is NOT a DDL command?",
+      "options": {
+        "A": "UPDATE",
+        "B": "TRUNCATE",
+        "C": "ALTER",
+        "D": "RENAME",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "UPDATE is a DML command; TRUNCATE, RENAME and ALTER are DDL.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q06",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "Short-range IoT networks",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "Which of the following is a low-power, short-range wireless network technology used in IoT (e.g. home automation)?",
+      "options": {
+        "A": "LoRaWAN",
+        "B": "Zigbee",
+        "C": "Sigfox",
+        "D": "NB-IoT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Zigbee (IEEE 802.15.4) is a low-power, short-range mesh network used for home automation and sensors. LoRaWAN, Sigfox and NB-IoT are long-range LPWAN (Low Power Wide Area Network) technologies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Router layer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "A router works at which layer of the OSI model?",
+      "options": {
+        "A": "Data Link layer",
+        "B": "Physical layer",
+        "C": "Network layer",
+        "D": "Session layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A router forwards packets between networks using logical (IP) addresses, which is a Network layer (Layer 3) function.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D16-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "SDRAM full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q197",
+      "question": "What does SDRAM stand for?",
+      "options": {
+        "A": "Synchronous Dynamic RAM",
+        "B": "Serial Dynamic RAM",
+        "C": "Single Dynamic RAM",
+        "D": "Static Dynamic RAM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SDRAM is Synchronous Dynamic RAM, which is synchronised with the system clock.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D16-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "h1 h2 difference",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "What is the difference between the default font sizes of <h1> and <h3> (16px base)?",
+      "options": {
+        "A": "13.28px",
+        "B": "14.72px",
+        "C": "8px",
+        "D": "16px",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "h1 = 32px and h3 = 18.72px, so the difference is 32 - 18.72 = 13.28px.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D16-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Operations",
+      "concept": "Basic operations",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q79",
+      "question": "Which of the following is NOT a basic operation performed on a data structure?",
+      "options": {
+        "A": "Encryption",
+        "B": "Traversal",
+        "C": "Insertion",
+        "D": "Deletion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Basic data structure operations include insertion, deletion, traversal, searching and sorting; encryption is a security operation, not a data structure operation.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D16-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterm and Maxterm",
+      "concept": "Minterm number",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p8",
+      "question": "The minterm A'BC' corresponds to which minterm number?",
+      "options": {
+        "A": "m5",
+        "B": "m3",
+        "C": "m2",
+        "D": "m6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A'BC' means A=0, B=1, C=0, i.e., binary 010 = 2, so it is m2.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D16-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Capitalised keyword",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which of the following Python keywords begins with an uppercase letter?",
+      "options": {
+        "A": "lambda",
+        "B": "import",
+        "C": "while",
+        "D": "True",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "True, False and None are the only Python keywords that start with a capital letter.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Constraints",
+      "concept": "CREATE INDEX purpose",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "What is the purpose of CREATE INDEX?",
+      "options": {
+        "A": "To set default values",
+        "B": "To prevent duplicate values in every column",
+        "C": "To link two tables",
+        "D": "To speed up data retrieval (reading)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An index speeds up the read process of queries.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "DFA full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "What is the full form of DFA in Theory of Computation?",
+      "options": {
+        "A": "Deterministic Finite Automata",
+        "B": "Deterministic Function Algorithm",
+        "C": "Dynamic Finite Automata",
+        "D": "Directed Flow Automata",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DFA stands for Deterministic Finite Automata: for each state and input symbol there is exactly one next state.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D16-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Deep learning neural networks",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Deep learning is the subset of machine learning that makes the computation of which of the following feasible?",
+      "options": {
+        "A": "Relational database queries",
+        "B": "Multi-layer neural networks",
+        "C": "Linear search",
+        "D": "Packet switching",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Deep learning is characterized by multi-layer (deep) neural networks.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Architecture",
+      "concept": "Three tier architecture",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "In which database architecture is an application server placed between the client and the database server?",
+      "options": {
+        "A": "Single-tier architecture",
+        "B": "Two-tier architecture",
+        "C": "Three-tier architecture",
+        "D": "Peer-to-peer architecture",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Three-tier architecture has client, application/server layer and database as separate tiers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D16-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "APIs",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Developing APIs for third-party services is part of which area of web development?",
+      "options": {
+        "A": "Responsive design",
+        "B": "Back-end development",
+        "C": "Front-end development",
+        "D": "Web page styling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "APIs are server-side interfaces built by back-end developers.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D16-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Keywords",
+      "concept": "C++ keyword count",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "According to the standard count, how many of the C++ keywords are also present in C?",
+      "options": {
+        "A": "30",
+        "B": "33",
+        "C": "32",
+        "D": "95",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Of the 95 C++ keywords, 32 come from C, 30 are not present in C and 33 are not essential.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D16-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Hashing",
+      "concept": "Hashing is one-way",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q41",
+      "question": "Hashing is a process that is:",
+      "options": {
+        "A": "Multi-directional",
+        "B": "Bidirectional (reversible)",
+        "C": "Circular",
+        "D": "Unidirectional (one-way)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A hash function maps input to a fixed-size digest, and the original input cannot be recovered from the digest, so hashing is one-way, unlike encryption.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D16-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "def",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword is used to define a function in Python?",
+      "options": {
+        "A": "def",
+        "B": "define",
+        "C": "func",
+        "D": "function",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Functions are defined with the def keyword.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "Invalid transition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "Which state transition is NOT possible in the five-state process model?",
+      "options": {
+        "A": "Ready to Running",
+        "B": "Running to Terminated",
+        "C": "New to Ready",
+        "D": "Waiting to Running",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A waiting process must first go to Ready after its event completes; it cannot go directly from Waiting to Running.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D16-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "FTP control port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "FTP uses two ports. Which port is used for the control channel?",
+      "options": {
+        "A": "20",
+        "B": "23",
+        "C": "21",
+        "D": "22",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "FTP port 21 carries control commands and port 20 carries the data.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Postorder root last",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "In which traversal is the root node always the LAST node visited?",
+      "options": {
+        "A": "Level order",
+        "B": "Preorder",
+        "C": "Postorder",
+        "D": "Inorder",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Postorder visits Left, Right and finally the Root, so the root always appears last. In preorder and level order it comes first.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Generations",
+      "concept": "Second generation mnemonics",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Assembly language, which uses mnemonics, is associated with which generation of computers?",
+      "options": {
+        "A": "First",
+        "B": "Second",
+        "C": "Fifth",
+        "D": "Third",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Second-generation computers introduced assembly language, which uses mnemonic codes such as ADD and MOV.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D16-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Character Codes",
+      "concept": "ASCII full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q191",
+      "question": "What does ASCII stand for?",
+      "options": {
+        "A": "American Scientific Code for Information Interchange",
+        "B": "American Standard Code for Interchanging Information",
+        "C": "American Scientific Code for Interchanging Information",
+        "D": "American Standard Code for Information Interchange",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ASCII is the American Standard Code for Information Interchange, a 7-bit character encoding.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Careless Error",
+        "C": "Memory/Fact"
+      }
+    }
+  ]
+}

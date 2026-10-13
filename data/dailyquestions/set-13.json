@@ -1,0 +1,681 @@
+{
+  "setId": 13,
+  "title": "Daily Set 13",
+  "questions": [
+    {
+      "id": "D13-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Branches of AI",
+      "concept": "Fuzzy logic",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Which AI branch deals with degrees of truth (values between 0 and 1) rather than strict true/false, and is used in washing machines and ACs?",
+      "options": {
+        "A": "Expert Systems",
+        "B": "Fuzzy Logic",
+        "C": "Robotics",
+        "D": "Deep Learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Fuzzy logic allows partial truth values between 0 and 1, making it useful for control systems like washing machines.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Software",
+      "concept": "Firebase developer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "Firebase, a cloud database platform, is offered by:",
+      "options": {
+        "A": "Amazon",
+        "B": "Google",
+        "C": "Microsoft",
+        "D": "Oracle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Firebase is a Google platform; Amazon offers DynamoDB.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D13-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "Dijkstra's algorithm",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q92",
+      "question": "Dijkstra's algorithm provides a solution for which problem?",
+      "options": {
+        "A": "Single source shortest path",
+        "B": "Network flow",
+        "C": "Sorting",
+        "D": "All pairs shortest path",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Dijkstra's greedy algorithm finds shortest paths from one source vertex to all other vertices (with non-negative weights).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "AND gate output",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "An AND gate gives output 1 only when:",
+      "options": {
+        "A": "Inputs are different",
+        "B": "All inputs are 0",
+        "C": "All inputs are 1",
+        "D": "Any one input is 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "AND (Q = A.B) is 1 only when every input is 1.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Internet Connections",
+      "concept": "Dial-up uses modem",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p13",
+      "question": "A dial-up Internet connection uses which device over telephone lines?",
+      "options": {
+        "A": "Bridge",
+        "B": "Switch",
+        "C": "Modem",
+        "D": "Repeater",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Dial-up connections use a modem to send data over ordinary telephone lines and are the slowest type of connection.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Comments",
+      "concept": "Single-line comment",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which symbol is used for a single-line comment in Python?",
+      "options": {
+        "A": "//",
+        "B": "#",
+        "C": "/*",
+        "D": "--",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python single-line comments start with #.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "RTGS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "RTGS, used for high-value bank transfers, stands for:",
+      "options": {
+        "A": "Real Time Gross Settlement",
+        "B": "Real Time General Settlement",
+        "C": "Real Transaction Gross Service",
+        "D": "Rapid Transfer Gross System",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "RTGS is Real Time Gross Settlement: each transaction is settled individually (gross) in real time.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D13-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "UPDATE modifies records",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which DML command changes values in existing records of a table?",
+      "options": {
+        "A": "INSERT",
+        "B": "ALTER",
+        "C": "UPDATE",
+        "D": "COMMIT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "UPDATE is a DML command that modifies existing records.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Character Encoding",
+      "concept": "EBCDIC full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "EBCDIC stands for:",
+      "options": {
+        "A": "Extended Binary Character Data Interchange Code",
+        "B": "Encoded Binary Coded Decimal Information Code",
+        "C": "Extended Basic Coded Decimal Interchange Code",
+        "D": "Extended Binary Coded Decimal Interchange Code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "EBCDIC is Extended Binary Coded Decimal Interchange Code, used mainly on IBM mainframes.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D13-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Subfields of AI",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q247",
+      "question": "Which of the following is NOT a subfield of Artificial Intelligence?",
+      "options": {
+        "A": "Virtual reality",
+        "B": "Robotics",
+        "C": "Machine learning",
+        "D": "Natural language processing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Machine learning, NLP and robotics are branches of AI. Virtual reality is a simulated-environment display technology, not an AI subfield.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "DHCP server/client ports",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "In DHCP, which ports are used by the server and the client respectively?",
+      "options": {
+        "A": "Server 67, Client 68",
+        "B": "Server 53, Client 54",
+        "C": "Server 68, Client 67",
+        "D": "Server 20, Client 21",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Clients send DHCP messages to the server on port 67, and the server replies to clients on port 68.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "Dijkstra limitation",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q152",
+      "question": "Dijkstra's algorithm cannot be correctly applied to:",
+      "options": {
+        "A": "Graphs having negative edge weights",
+        "B": "Unweighted graphs",
+        "C": "Directed weighted graphs",
+        "D": "Undirected graphs",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Dijkstra assumes a finalized vertex's distance cannot later decrease, which negative edges violate; Bellman-Ford handles them.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D13-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "SRAM vs DRAM",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q124",
+      "question": "What is the difference between static RAM and dynamic RAM?",
+      "options": {
+        "A": "SRAM is slower than DRAM",
+        "B": "Dynamic RAM must be refreshed, static RAM does not",
+        "C": "Static RAM must be refreshed, dynamic RAM does not",
+        "D": "There is no difference",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DRAM stores bits as charge on capacitors that leak, so it needs periodic refresh; SRAM uses flip-flops and is faster.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D13-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Address used per layer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "Which pairing of OSI layer and addressing is correct?",
+      "options": {
+        "A": "Data Link layer: Port address",
+        "B": "Network layer: IP (logical) address",
+        "C": "Transport layer: MAC address",
+        "D": "Physical layer: IP address",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Network layer uses logical IP addresses, the Transport layer uses port addresses and the Data Link layer uses physical MAC addresses.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D13-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "DELETE with WHERE",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which SQL command removes selected rows from a table and can use a WHERE clause?",
+      "options": {
+        "A": "TRUNCATE",
+        "B": "DROP",
+        "C": "DELETE",
+        "D": "ALTER",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DELETE removes one or more rows and supports a WHERE clause; TRUNCATE removes all rows without WHERE.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "Municipal tax",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "Paying house tax and water tax online to a municipal corporation is classified as:",
+      "options": {
+        "A": "C2C",
+        "B": "B2A / B2G",
+        "C": "C2A / C2G",
+        "D": "B2B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An individual paying taxes to a government administration is Consumer-to-Administration, also called Consumer-to-Government.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D13-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT32 max file size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "A user cannot copy a 6 GB video file to a pen drive although the drive has 30 GB free. Which file system is the drive most likely using?",
+      "options": {
+        "A": "APFS",
+        "B": "exFAT",
+        "C": "NTFS",
+        "D": "FAT32",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "FAT32 limits a single file to 4 GB, so a 6 GB file cannot be stored even when free space is available.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Immutable tuple",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which of the following data types is immutable in Python?",
+      "options": {
+        "A": "tuple",
+        "B": "set",
+        "C": "list",
+        "D": "dict",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A tuple cannot be changed after creation; list, dict and set are mutable.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D13-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Reinforcement mistakes",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Which type of machine learning learns from mistakes through rewards and penalties?",
+      "options": {
+        "A": "Supervised learning",
+        "B": "Unsupervised learning",
+        "C": "Reinforcement learning",
+        "D": "Deep clustering",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Reinforcement learning lets an agent learn from its mistakes by receiving rewards or penalties from the environment.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D13-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Firewall",
+      "concept": "Firewall layers",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p13",
+      "question": "A typical (packet-filtering) firewall works at which OSI layers?",
+      "options": {
+        "A": "Layer 5 (Session) and Layer 6 (Presentation)",
+        "B": "Layer 1 (Physical) and Layer 2 (Data Link)",
+        "C": "Only Layer 7 (Application)",
+        "D": "Layer 3 (Network) and Layer 4 (Transport)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Packet-filtering firewalls inspect IP addresses (Layer 3) and port numbers (Layer 4).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Third dimension of a 3-D array",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q58",
+      "question": "In a 3-D array, the first two dimensions behave like a matrix (rows and columns). What does the third dimension represent?",
+      "options": {
+        "A": "Diagonals",
+        "B": "Rows",
+        "C": "Columns",
+        "D": "Pages or sheets",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A 3-D array can be viewed as a stack of 2-D matrices; the third index selects the page (sheet/layer), and the other two select the row and column within it.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Hierarchy",
+      "concept": "Lowest level of memory hierarchy",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q281",
+      "question": "Which of the following is lowest (slowest and cheapest per bit) in the memory hierarchy?",
+      "options": {
+        "A": "Secondary memory",
+        "B": "Registers",
+        "C": "RAM",
+        "D": "Cache memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Secondary storage such as hard disks sits at the bottom of the hierarchy: largest and cheapest but slowest. Registers are at the top.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D13-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "boolean values",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Which values can a Java boolean variable hold?",
+      "options": {
+        "A": "Any integer",
+        "B": "0 and 1 only",
+        "C": "'Y' and 'N'",
+        "D": "true and false only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In Java a boolean can only be true or false; unlike C, integers cannot be used as booleans.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D13-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XNOR gate behaviour",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q94",
+      "question": "Which gate gives a HIGH output when both inputs are LOW and also when both inputs are HIGH?",
+      "options": {
+        "A": "OR gate",
+        "B": "XNOR gate",
+        "C": "XOR gate",
+        "D": "AND gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "XNOR outputs 1 when both inputs are equal (00 or 11); AND gives 0 for 00, OR gives 0 for 00, and XOR gives 0 for equal inputs.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D13-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Spiral model risk",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Which SDLC model emphasises risk analysis in each iteration and was proposed by Barry Boehm?",
+      "options": {
+        "A": "V-shaped model",
+        "B": "Big Bang model",
+        "C": "Waterfall model",
+        "D": "Spiral model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Spiral model (Barry Boehm, 1986) combines iterative development with explicit risk analysis in every loop.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

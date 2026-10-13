@@ -200,7 +200,7 @@ export default async function DashboardPage() {
           </span>
           <span className="min-w-0 flex-1">
             <span className="block font-bold">Daily Question</span>
-            <span className="block text-sm text-muted-foreground">Coming soon</span>
+            <span className="block text-sm text-muted-foreground">New 25-question test every day</span>
           </span>
           <ArrowRight className="size-4 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
         </Link>

@@ -1,0 +1,681 @@
+{
+  "setId": 6,
+  "title": "Daily Set 6",
+  "questions": [
+    {
+      "id": "D06-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "DDS",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q210",
+      "question": "Which protocol is mainly used where real-time data exchange is required, for example in autonomous vehicles, power generation and robotics?",
+      "options": {
+        "A": "AMQP",
+        "B": "DDS",
+        "C": "MQTT",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DDS (Data Distribution Service) is a brokerless, real-time publish/subscribe middleware standard used in mission-critical systems like autonomous vehicles and robotics.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Decimal to Binary",
+      "concept": "50 to binary",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "Convert (50)10 into binary.",
+      "options": {
+        "A": "101010",
+        "B": "110100",
+        "C": "110010",
+        "D": "100110",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "50 = 32 + 16 + 2, giving 110010. Repeated division by 2 gives remainders 0,1,0,0,1,1 read bottom-up.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D06-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "1NF atomic values",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "A table is in First Normal Form (1NF) when:",
+      "options": {
+        "A": "It has no transitive dependency",
+        "B": "Every determinant is a candidate key",
+        "C": "Every attribute holds only atomic (indivisible) values",
+        "D": "It has no multivalued dependency",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "1NF requires atomic values in every column.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked List",
+      "concept": "Linked list vs array",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q213",
+      "question": "Which of the following statements comparing a linked list with an array is NOT correct?",
+      "options": {
+        "A": "Linked lists allow constant-time random access to any element by index.",
+        "B": "Arrays have better cache locality, which improves their performance.",
+        "C": "Inserting and deleting elements is easier in a linked list.",
+        "D": "An array's size is fixed, whereas a linked list can grow or shrink.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Linked lists must be traversed from the head to reach the i-th node, so random access is O(n), not constant time. The other three statements are true.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D06-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Coaxial use",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p16",
+      "question": "Which cable is commonly used for cable TV connections?",
+      "options": {
+        "A": "RJ-11 telephone cable",
+        "B": "Fibre optic patch cord",
+        "C": "Coaxial cable",
+        "D": "Unshielded twisted pair",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Coaxial cable is widely used for television (cable TV) connections.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT",
+      "concept": "IIoT full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "IIoT stands for:",
+      "options": {
+        "A": "Internal Internet of Things",
+        "B": "Industrial Internet of Things",
+        "C": "Integrated Internet of Things",
+        "D": "Intelligent Internet of Things",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IIoT is the Industrial Internet of Things, used in manufacturing and industrial automation.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D06-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "NTFS Windows",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "NTFS is the default file system of which family of operating systems?",
+      "options": {
+        "A": "Windows NT/2000/XP/Vista/7/8/10/11",
+        "B": "Linux",
+        "C": "Android",
+        "D": "Mac OS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NTFS (New Technology File System) is used by Windows NT and its successors such as 2000, XP, Vista, 7, 8, 10 and 11.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Adders",
+      "concept": "Half adder sum expression",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p9",
+      "question": "The sum output of a half adder is given by:",
+      "options": {
+        "A": "AB + A'B'",
+        "B": "A + B",
+        "C": "A'B + AB'",
+        "D": "AB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Sum = A'B + AB' = A XOR B, and Carry = AB.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stacks",
+      "concept": "Recursion uses stack",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q81",
+      "question": "Which data structure is used for implementing recursion?",
+      "options": {
+        "A": "Stack",
+        "B": "Tree",
+        "C": "Array",
+        "D": "Queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each recursive call pushes an activation record onto the call stack, and records are popped in LIFO order as calls return.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Raster made of pixels",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Raster graphics are made up of:",
+      "options": {
+        "A": "Mathematical equations of curves",
+        "B": "Bezier paths only",
+        "C": "Text characters",
+        "D": "Pixels",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Raster images render a picture as a grid of countless tiny squares called pixels.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D06-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "Durability",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "Which ACID property guarantees that changes remain permanent after a transaction is committed, even if the system fails?",
+      "options": {
+        "A": "Durability",
+        "B": "Atomicity",
+        "C": "Isolation",
+        "D": "Consistency",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Durability ensures committed changes are permanent.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Mode definitions",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "Which statement is correct?",
+      "options": {
+        "A": "Half duplex allows simultaneous two-way communication",
+        "B": "Full duplex allows communication in only one direction",
+        "C": "Simplex allows two-way communication simultaneously",
+        "D": "Half duplex allows two-way communication but only one direction at a time",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Simplex is one-way, half duplex is two-way but alternating, and full duplex is two-way simultaneously.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Hierarchy",
+      "concept": "Register is the fastest memory",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q328",
+      "question": "Which of the following is the fastest memory in a computer?",
+      "options": {
+        "A": "Register",
+        "B": "Hard disk",
+        "C": "Cache",
+        "D": "RAM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "CPU registers sit at the top of the memory hierarchy and are faster than cache, which in turn is faster than RAM.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Secure Protocols",
+      "concept": "HTTPS uses SSL/TLS",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q275",
+      "question": "Which protocol uses SSL/TLS encryption to protect the confidentiality and integrity of transmitted data?",
+      "options": {
+        "A": "HTTP",
+        "B": "HTTPS",
+        "C": "DHCP",
+        "D": "TCP/IP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HTTPS is HTTP carried over an SSL/TLS encrypted connection; plain HTTP sends data unencrypted.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Mesh most reliable",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "Which topology provides dedicated point-to-point links between devices, making it highly reliable but requiring more wiring?",
+      "options": {
+        "A": "Ring",
+        "B": "Star",
+        "C": "Bus",
+        "D": "Mesh",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Mesh topology has point-to-point, bi-directional links between nodes, giving high reliability at the cost of extensive wiring.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Initial front and rear",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q106",
+      "question": "In a typical array implementation, when the queue is initially empty, front and rear are both set to:",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "-1",
+        "D": "1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An empty queue is commonly indicated by front = rear = -1, since no valid index is occupied.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D06-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "Apple file systems",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Which file systems are associated with Apple's Mac OS?",
+      "options": {
+        "A": "NTFS and FAT16",
+        "B": "EXT3 and EXT4",
+        "C": "FAT12 and exFAT",
+        "D": "HFS, HFS+ and APFS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Mac OS uses HFS (Hierarchical File System), HFS+ and the newer APFS (Apple File System).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Software Types",
+      "concept": "Not system software",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "Which of the following is NOT system software?",
+      "options": {
+        "A": "Web browser",
+        "B": "Firmware",
+        "C": "Language translator",
+        "D": "Device driver",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A web browser is application software; device drivers, firmware and language translators are system software.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D06-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Codes",
+      "concept": "ASCII value of 'a'",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q293",
+      "question": "What is the decimal ASCII value of the character 'a'?",
+      "options": {
+        "A": "65",
+        "B": "97",
+        "C": "95",
+        "D": "96",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Lowercase letters start at 97 in ASCII ('a' = 97); uppercase 'A' is 65.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D06-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Acceptance testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Which testing determines whether the client accepts the delivered system as meeting requirements?",
+      "options": {
+        "A": "Smoke testing",
+        "B": "Acceptance testing",
+        "C": "Gorilla testing",
+        "D": "Unit testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Acceptance testing is performed to obtain client acceptance that the software satisfies business requirements.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D06-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "IMPS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "IMPS, which allows instant 24x7 interbank transfers, stands for:",
+      "options": {
+        "A": "Instant Money Payment System",
+        "B": "Immediate Money Processing System",
+        "C": "Interbank Mobile Payment Service",
+        "D": "Immediate Payment Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IMPS is Immediate Payment Service, offering instant interbank fund transfer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D06-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Components",
+      "concept": "Sensor",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q125",
+      "question": "In IoT, a device that converts a physical attribute into an electrical signal is called a(n):",
+      "options": {
+        "A": "Sensor",
+        "B": "Motor",
+        "C": "Actuator",
+        "D": "Compiler",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A sensor converts physical quantities such as temperature or light into electrical signals; an actuator does the reverse.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D06-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Arrays",
+      "concept": "Array index range",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q164",
+      "question": "For the Java declaration int marks[] = new int[5]; what are the first and last elements?",
+      "options": {
+        "A": "First is marks[5] and last is marks[1]",
+        "B": "First is marks[4] and last is marks[0]",
+        "C": "First is marks[0] and last is marks[4]",
+        "D": "First is marks[1] and last is marks[5]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Java arrays are zero-indexed, so an array of 5 elements has indices 0 to 4.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D06-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "None",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword represents a null value (absence of a value) in Python?",
+      "options": {
+        "A": "Null",
+        "B": "None",
+        "C": "void",
+        "D": "nil",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python's null value is None.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D06-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Architecture",
+      "concept": "Two tier architecture",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "In a two-tier database architecture, the client application communicates:",
+      "options": {
+        "A": "Only with a local database on the same machine",
+        "B": "Through an intermediate application server",
+        "C": "Through a web crawler",
+        "D": "Directly with the database server over a network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Two-tier is a client-server model where the client talks directly to the database system on the server.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

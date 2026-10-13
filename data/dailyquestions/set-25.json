@@ -1,0 +1,681 @@
+{
+  "setId": 25,
+  "title": "Daily Set 25",
+  "questions": [
+    {
+      "id": "D25-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "DFS uses stack",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "Depth First Search (DFS) is implemented using which data structure?",
+      "options": {
+        "A": "Array of lists",
+        "B": "Stack",
+        "C": "Priority queue",
+        "D": "Queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DFS goes as deep as possible before backtracking, which is implemented using a stack (or recursion).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Languages",
+      "concept": "Number of SQL language types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "How many types of SQL sub-languages are commonly listed (DDL, DML, DCL, TCL, DQL)?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The five SQL sub-languages are DDL, DML, DCL, TCL and DQL (Data Query Language).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D25-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Bit full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "The term 'bit' is short for:",
+      "options": {
+        "A": "Binary Interface",
+        "B": "Basic Information Token",
+        "C": "Binary Digit",
+        "D": "Byte Integer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A bit is a Binary Digit, taking the value 0 or 1.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D25-Q04",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "Data structures behind graph algorithms",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q32",
+      "question": "What are the appropriate data structures for the following algorithms, respectively? 1. Breadth-First Search 2. Depth-First Search 3. Prim's MST 4. Kruskal's MST",
+      "options": {
+        "A": "Stack, Queue, Priority Queue, Union-Find",
+        "B": "Queue, Stack, Priority Queue, Union-Find",
+        "C": "Queue, Stack, Union-Find, Priority Queue",
+        "D": "Stack, Queue, Union-Find, Priority Queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "BFS uses a queue, DFS uses a stack, Prim's algorithm picks the minimum edge with a priority queue, and Kruskal's algorithm detects cycles with a union-find (disjoint set) structure.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "Bubble meaning",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "In logic gate symbols, a small bubble (circle) at an input or output indicates:",
+      "options": {
+        "A": "A clock signal",
+        "B": "A ground connection",
+        "C": "Amplification",
+        "D": "Inversion (complement)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A bubble represents inversion; for example NAND is an AND gate with a bubble on its output.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "POP3 port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "POP3 (Post Office Protocol version 3) uses which port?",
+      "options": {
+        "A": "194",
+        "B": "25",
+        "C": "110",
+        "D": "143",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "POP3 retrieves email on port 110; IMAP uses 143.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "Vector file formats",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Which group contains only vector file formats?",
+      "options": {
+        "A": "JPG, SVG, PNG",
+        "B": "JPG, GIF, TIFF",
+        "C": "EPS, AI, SVG",
+        "D": "PSD, PNG, BMP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "EPS, AI, SVG (and PDF) are vector formats, while JPG, GIF, TIF, PSD and PNG are raster formats.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "ROUND Function",
+      "concept": "ROUND negative length",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "What is the result of SELECT ROUND(125.9152, -2);?",
+      "options": {
+        "A": "125.91",
+        "B": "100",
+        "C": "130",
+        "D": "126",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A length of -2 rounds to the nearest multiple of 100; 125.9152 rounds to 100.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D25-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Device that is NOT data link",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "Which device does NOT operate at the Data Link layer?",
+      "options": {
+        "A": "Layer-2 switch",
+        "B": "Hub",
+        "C": "Switch",
+        "D": "Bridge",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A hub simply repeats bits to all ports and works at the Physical layer, whereas switches and bridges use MAC addresses at the Data Link layer.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Postorder from inorder and preorder",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q50",
+      "question": "The inorder traversal of a binary tree is 8 12 20 22 25 30 40 and its preorder traversal is 22 12 8 20 30 25 40. What is its postorder traversal?",
+      "options": {
+        "A": "12 25 40 30 22 20 8",
+        "B": "22 30 40 25 12 20 8",
+        "C": "8 20 12 25 40 30 22",
+        "D": "8 12 25 40 30 22 20",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Root 22 has left subtree {8, 12, 20} with root 12 (children 8, 20) and right subtree {25, 30, 40} with root 30 (children 25, 40). Postorder (left, right, root) gives 8 20 12 25 40 30 22.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D25-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "assert",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "The Python keyword 'assert' is mainly used for:",
+      "options": {
+        "A": "Debugging, by testing that a condition is true",
+        "B": "Defining a loop",
+        "C": "Importing a module",
+        "D": "Declaring a constant",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "assert checks a condition and raises AssertionError if it is false, which helps in debugging.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D25-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "SOP and POS",
+      "concept": "Canonical POS identification",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q276",
+      "question": "The expression (X + Y + Z)(X + Y + Z') is a product of sum terms in which each term contains every variable. It is therefore in:",
+      "options": {
+        "A": "Canonical (standard) SOP form",
+        "B": "A mixed form that is neither SOP nor POS",
+        "C": "Minimal SOP form",
+        "D": "Canonical (standard) POS form",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A product of sum terms is POS, and when every sum term contains all the variables (a maxterm), it is the canonical or standard POS form.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT",
+      "concept": "Number of IoT types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "IoT is commonly classified as Consumer IoT, Commercial IoT, Internet of Military Things (IoMT), Industrial IoT (IIoT) and Infrastructure IoT. Into how many types does this classification divide IoT?",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "7",
+        "D": "4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The five types are Consumer IoT, Commercial IoT, Military Things (IoMT), Industrial IoT (IIoT) and Infrastructure IoT.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D25-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Hardware",
+      "concept": "RAM on motherboard",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q311",
+      "question": "Where is RAM located in a computer?",
+      "options": {
+        "A": "Inside the monitor",
+        "B": "On the hard disk",
+        "C": "In peripheral devices",
+        "D": "On the motherboard",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "RAM modules plug into memory slots on the motherboard, close to the CPU.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Front-end trio",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Which three core technologies are used in front-end development?",
+      "options": {
+        "A": "Java, C# and Kotlin",
+        "B": "HTML, CSS and JavaScript",
+        "C": "PHP, MySQL and Ruby",
+        "D": "Python, Golang and Oracle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HTML gives structure, CSS gives style and JavaScript adds interactivity on the client side.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D25-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "nonlocal",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Inside a nested function, which keyword allows you to modify a variable of the enclosing (outer) function that is not global?",
+      "options": {
+        "A": "local",
+        "B": "outer",
+        "C": "global",
+        "D": "nonlocal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "nonlocal binds the name to the nearest enclosing function scope, excluding the global scope.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Basics",
+      "concept": "IoT full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q19",
+      "question": "What is the full form of IoT?",
+      "options": {
+        "A": "Internet of Technology",
+        "B": "Internet of Things",
+        "C": "Incorporate of Technology",
+        "D": "Incorporate of Things",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IoT stands for Internet of Things: physical devices connected to the internet that collect and exchange data.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D25-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Comments",
+      "concept": "Single-line comment syntax",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "A single-line comment in Java starts with:",
+      "options": {
+        "A": "//",
+        "B": "<!--",
+        "C": "#",
+        "D": "/*",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Single-line comments in Java begin with a double forward slash (//).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting Algorithms",
+      "concept": "Not a sorting algorithm",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Which of the following is NOT a sorting algorithm?",
+      "options": {
+        "A": "Bucket sort",
+        "B": "Shell sort",
+        "C": "Binary search",
+        "D": "Radix sort",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Binary search is a searching technique; shell, radix and bucket sort are sorting algorithms.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D25-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Storage Devices",
+      "concept": "Solid-state storage",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q109",
+      "question": "Which of the following is an example of a solid-state storage device?",
+      "options": {
+        "A": "USB flash drive",
+        "B": "DVD",
+        "C": "CD",
+        "D": "Hard drive",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "USB flash drives use flash memory with no moving parts; hard drives are magnetic and CDs/DVDs are optical.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Presentation Layer",
+      "concept": "Encryption layer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Translation, encryption and decryption of data are functions of which OSI layer?",
+      "options": {
+        "A": "Transport layer",
+        "B": "Session layer",
+        "C": "Network layer",
+        "D": "Presentation layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Presentation layer handles data translation (format conversion), encryption/decryption and compression.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 1 grammar",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Which Chomsky type corresponds to context-sensitive grammar?",
+      "options": {
+        "A": "Type 1",
+        "B": "Type 0",
+        "C": "Type 3",
+        "D": "Type 2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Type 1 is context-sensitive grammar, recognised by linear bounded automata.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Threads",
+      "concept": "Thread smallest unit",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "Which statement about threads is correct?",
+      "options": {
+        "A": "A thread is the smallest unit of a program that can be scheduled; a process can contain one or more threads",
+        "B": "Threads of the same process never share memory",
+        "C": "A thread can contain several processes",
+        "D": "A process can have only one thread",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A process contains one or more threads; a thread is the smallest schedulable unit of execution and shares the process's resources.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D25-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XOR error detection",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "Which gate is commonly used for parity generation and error detection, and also in simple encryption?",
+      "options": {
+        "A": "NAND",
+        "B": "AND",
+        "C": "XOR",
+        "D": "NOT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "XOR is used in arithmetic, error detection (parity), encryption and data selection, because it detects differences between bits.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D25-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Queries",
+      "concept": "ORDER BY default ASC",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q319",
+      "question": "If neither ASC nor DESC is specified after an SQL ORDER BY clause, which order is used by default?",
+      "options": {
+        "A": "Random order",
+        "B": "DESC",
+        "C": "There is no default order",
+        "D": "ASC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ORDER BY sorts in ascending order (ASC) by default; DESC must be written explicitly.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Memory/Fact",
+        "C": "Conceptual"
+      }
+    }
+  ]
+}

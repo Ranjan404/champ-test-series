@@ -1,0 +1,681 @@
+{
+  "setId": 33,
+  "title": "Daily Set 33",
+  "questions": [
+    {
+      "id": "D33-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv6 bytes",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "How many bytes make up an IPv6 address?",
+      "options": {
+        "A": "6 bytes",
+        "B": "8 bytes",
+        "C": "4 bytes",
+        "D": "16 bytes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "128 bits divided by 8 bits per byte = 16 bytes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Time Complexity",
+      "concept": "Big-O upper bound",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Big-O notation (O) represents which bound of an algorithm's running time?",
+      "options": {
+        "A": "Average bound only",
+        "B": "Lower bound",
+        "C": "Tightest bound",
+        "D": "Upper bound",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Big-O gives the upper bound (worst-case growth), Omega gives the lower bound, and Theta gives the tight bound.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Foreign key definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q102",
+      "question": "An attribute in a relation is a foreign key if the ____ key of another relation is used as an attribute in that relation.",
+      "options": {
+        "A": "Candidate",
+        "B": "Super",
+        "C": "Primary",
+        "D": "Sub",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A foreign key references the primary key of another (or the same) relation to link the two tables.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D33-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Generations",
+      "concept": "First generation language",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Which language was used to program first-generation computers?",
+      "options": {
+        "A": "Machine (binary) language",
+        "B": "Database query language",
+        "C": "Assembly language",
+        "D": "High-level language",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "First-generation computers were programmed directly in machine language, i.e., binary 0s and 1s.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Identify SOP",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "Which expression is in SOP form?",
+      "options": {
+        "A": "(A + B)'",
+        "B": "(A + B).C'",
+        "C": "(A + B).(A + B' + C)",
+        "D": "AB + AB'C + A'B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SOP consists of product (AND) terms combined with OR, such as AB + AB'C + A'B; the others are POS or not in either standard form.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Generative AI",
+      "concept": "GPT full form",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q272",
+      "question": "What does 'GPT' stand for in ChatGPT?",
+      "options": {
+        "A": "Generative Pre-trained Transformer",
+        "B": "General Purpose Transformer",
+        "C": "Generative Post-trained Transformer",
+        "D": "Global Prediction Tool",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "GPT stands for Generative Pre-trained Transformer: a transformer model pre-trained on large text data that generates text.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Careless Error",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D33-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "FCFS full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "FCFS in CPU scheduling stands for:",
+      "options": {
+        "A": "First Come First Serve",
+        "B": "First Cycle First Served",
+        "C": "Fast CPU First Schedule",
+        "D": "Fixed CPU Frame Scheduling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FCFS is First Come First Serve: processes are executed in the order they arrive.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D33-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Character Codes",
+      "concept": "ASCII value of 'A'",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q241",
+      "question": "What is the decimal ASCII code of the character 'A'?",
+      "options": {
+        "A": "66",
+        "B": "64",
+        "C": "65",
+        "D": "67",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Uppercase letters start at 65 for 'A' (64 is '@').",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Careless Error",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D33-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "C2B examples",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "Freelance websites, blogs, product reviews, and polls and surveys, where individuals provide value or services to companies, are examples of which model?",
+      "options": {
+        "A": "C2C",
+        "B": "C2B",
+        "C": "G2G",
+        "D": "B2C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In Consumer-to-Business (C2B) the consumer creates value (services, reviews, opinions) that a business consumes or pays for.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Rectangle entity",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "In an ER diagram, a rectangle represents a(n):",
+      "options": {
+        "A": "Entity",
+        "B": "Relationship",
+        "C": "Attribute",
+        "D": "Multivalued attribute",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Rectangles represent entities, ellipses represent attributes and diamonds represent relationships.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q11",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "DRAM refresh modes",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q141",
+      "question": "Which pair lists the two basic refresh modes for dynamic RAM?",
+      "options": {
+        "A": "Burst refresh and distributed refresh",
+        "B": "Static refresh and dynamic refresh",
+        "C": "Open refresh and closed refresh",
+        "D": "Read refresh and write refresh",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DRAM is refreshed either in a burst (all rows at once) or distributed (rows refreshed at intervals across the refresh period).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D33-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Heap",
+      "concept": "Heap array indices",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "In a heap stored in an array with 0-based indexing, the children of the node at index i are at:",
+      "options": {
+        "A": "2i and 2i + 1",
+        "B": "i + 1 and i + 2",
+        "C": "2i + 1 and 2i + 2",
+        "D": "i/2 and i/2 + 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "With 0-based indexing, left child = 2i+1 and right child = 2i+2; the 2i and 2i+1 formula applies to 1-based indexing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "DNS function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Which Application layer service translates domain names such as example.com into IP addresses?",
+      "options": {
+        "A": "DHCP",
+        "B": "FTP",
+        "C": "DNS",
+        "D": "POP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DNS (Domain Name System) resolves human-readable domain names into IP addresses.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Alpha testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Alpha testing is performed by:",
+      "options": {
+        "A": "Government auditors",
+        "B": "Developers/internal testers at the developer's site",
+        "C": "Real end customers at their site",
+        "D": "Hackers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Alpha testing is done in-house at the developer's site before the product is released to customers.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D33-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Loops",
+      "concept": "Loop statements",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Which statement about loops in C++ is correct?",
+      "options": {
+        "A": "A for loop always executes at least once",
+        "B": "while is an exit controlled loop",
+        "C": "do-while checks its condition before the first iteration",
+        "D": "for and while are entry controlled loops",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "for and while verify the condition before entering the body; do-while verifies it after.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Cell padding",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "In a table, the space between a cell's content and its border is called:",
+      "options": {
+        "A": "Border spacing between tables",
+        "B": "Cell padding",
+        "C": "Margin collapse",
+        "D": "Cell spacing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Cell padding is the gap inside a cell between content and border; cell spacing is the gap between adjacent cells.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Heart of OSI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Which layer is known as the 'Heart of the OSI model'?",
+      "options": {
+        "A": "Network layer",
+        "B": "Application layer",
+        "C": "Transport layer",
+        "D": "Session layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Transport layer is called the heart of the OSI model because it provides end-to-end, reliable delivery between processes.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D33-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Adders",
+      "concept": "Half adder outputs 01",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p9",
+      "question": "For a half adder with inputs A = 0 and B = 1, the outputs are:",
+      "options": {
+        "A": "Sum = 0, Carry = 0",
+        "B": "Sum = 0, Carry = 1",
+        "C": "Sum = 1, Carry = 0",
+        "D": "Sum = 1, Carry = 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Sum = A XOR B = 1 and Carry = A.B = 0, matching the half adder truth table.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D33-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "Consistency valid state",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "Which statement about ACID properties is correct?",
+      "options": {
+        "A": "Durability means a transaction is executed either fully or not at all",
+        "B": "Consistency means a transaction takes the database from one valid state to another valid state",
+        "C": "Isolation means committed data survives a power failure",
+        "D": "Atomicity means transactions running together cannot see each other's data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Consistency maintains a valid state; the other statements swap the meanings of atomicity, durability and isolation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 0 grammar",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Type 0 grammar in the Chomsky hierarchy is also known as:",
+      "options": {
+        "A": "Unrestricted grammar",
+        "B": "Context-free grammar",
+        "C": "Regular grammar",
+        "D": "Context-sensitive grammar",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Type 0 grammars are unrestricted grammars; they generate the recursively enumerable languages.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Python Implementations",
+      "concept": "IronPython",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which Python implementation is designed for the Microsoft .NET framework?",
+      "options": {
+        "A": "IronPython",
+        "B": "Stackless Python",
+        "C": "CPython",
+        "D": "Jython",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IronPython is the Python implementation that targets .NET.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Inorder 7 nodes",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "A tree has root A with children B (left) and C (right). B has children D and E; C has children F and G. What is its inorder traversal?",
+      "options": {
+        "A": "A B D E C F G",
+        "B": "D B E F C G A",
+        "C": "D E B F G C A",
+        "D": "D B E A F C G",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Inorder visits Left, Root, Right: D B E (left subtree), A, then F C G (right subtree).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "Waiting to ready",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "When the I/O a waiting process was blocked on completes, the process moves to:",
+      "options": {
+        "A": "New",
+        "B": "Ready",
+        "C": "Running",
+        "D": "Terminated",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "After I/O or event completion, the process goes from Waiting to Ready, then waits for the scheduler to dispatch it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Instruction Cycle",
+      "concept": "Fetch step",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q138",
+      "question": "The first step of the instruction cycle, in which the instruction is read from memory, is:",
+      "options": {
+        "A": "Execute",
+        "B": "Store",
+        "C": "Decode",
+        "D": "Fetch",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The instruction cycle starts with fetch (reading the instruction from memory), followed by decode and execute.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D33-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Unsupervised clusters",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "An online store groups its customers into segments based on buying behaviour without any predefined labels. Which type of learning is this?",
+      "options": {
+        "A": "Transfer learning",
+        "B": "Unsupervised learning",
+        "C": "Reinforcement learning",
+        "D": "Supervised learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Identifying clusters in unlabelled data is the hallmark of unsupervised learning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

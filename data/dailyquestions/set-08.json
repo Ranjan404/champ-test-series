@@ -1,0 +1,681 @@
+{
+  "setId": 8,
+  "title": "Daily Set 8",
+  "questions": [
+    {
+      "id": "D08-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Unsupervised learning",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q234",
+      "question": "The problem of finding hidden structure in unlabelled data is called:",
+      "options": {
+        "A": "Unsupervised learning",
+        "B": "Reinforcement learning",
+        "C": "Regression",
+        "D": "Supervised learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Unsupervised learning (e.g. clustering) discovers patterns in data that has no labels. Supervised learning and regression need labelled outputs.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "External sorting definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q263",
+      "question": "What is an external sorting algorithm?",
+      "options": {
+        "A": "An algorithm that uses tape or disk during the sort",
+        "B": "An algorithm that uses only main memory during the sort",
+        "C": "An algorithm that sorts only by swapping adjacent elements",
+        "D": "An algorithm that sorts data using only CPU registers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "External sorting is used when data is too large for main memory, so it keeps runs on tape or disk (e.g., external merge sort). Sorting entirely in RAM is internal sorting.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D08-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Types of network devices",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "Which of the following is NOT a network device?",
+      "options": {
+        "A": "Compiler",
+        "B": "Access point",
+        "C": "Bridge",
+        "D": "Gateway",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Access points, bridges, gateways, hubs, switches and routers are network devices; a compiler is system software.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Octal digits",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "Which set of digits is used in the octal number system?",
+      "options": {
+        "A": "0 to 7",
+        "B": "1 to 8",
+        "C": "0 to 8",
+        "D": "0 to 9",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Octal has base 8, so its digits are 0 through 7.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Constraints",
+      "concept": "DEFAULT constraint",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Which constraint assigns a value to a column automatically when no value is supplied?",
+      "options": {
+        "A": "UNIQUE",
+        "B": "CHECK",
+        "C": "DEFAULT",
+        "D": "NOT NULL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DEFAULT sets a default value if none is passed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Push operation",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q104",
+      "question": "The process of inserting an element into a stack is called:",
+      "options": {
+        "A": "Pop",
+        "B": "Create",
+        "C": "Evaluation",
+        "D": "Push",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Push adds an element at the top of the stack; pop removes the top element.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D08-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterms and Maxterms",
+      "concept": "Minterm to maxterm conversion",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q123",
+      "question": "For a 3-variable function, the minterm expression Σm(1,3,5,6) is equal to which maxterm expression?",
+      "options": {
+        "A": "ΠM(1,3,5,6)",
+        "B": "ΠM(0,2,4,7)",
+        "C": "ΠM(0,3,7)",
+        "D": "ΠM(0,3,4,7)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The maxterms are the indices missing from the minterm list among 0-7: 0, 2, 4, 7.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D08-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Basics",
+      "concept": "Standard RDBMS language",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q84",
+      "question": "Which is the standard language for relational database management systems?",
+      "options": {
+        "A": "C++",
+        "B": "C",
+        "C": "PHP",
+        "D": "SQL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SQL (Structured Query Language) is the ANSI/ISO standard language for defining and querying relational databases.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Node-to-node vs end-to-end",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Which statement is correct?",
+      "options": {
+        "A": "Node-to-node delivery is done by the Transport layer, while end-to-end delivery is done by the Data Link layer",
+        "B": "Both node-to-node and end-to-end delivery are done by the Network layer",
+        "C": "End-to-end delivery is done by the Physical layer",
+        "D": "Node-to-node delivery is done by the Data Link layer, while end-to-end delivery is done by the Transport layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Data Link layer moves frames between adjacent nodes, while the Transport layer provides end-to-end (host-to-host, process-to-process) communication.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D08-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "Not IoT protocol",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "Which of the following is NOT an IoT messaging protocol?",
+      "options": {
+        "A": "CoAP",
+        "B": "MQTT",
+        "C": "AMQP",
+        "D": "RARP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Common IoT messaging protocols include MQTT, HTTP, CoAP, DDS and AMQP; RARP is a Network layer address resolution protocol.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "HFS full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "What is the full form of HFS?",
+      "options": {
+        "A": "Hierarchical File System",
+        "B": "Hybrid Folder Structure",
+        "C": "High-speed File System",
+        "D": "Hard Format System",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "HFS stands for Hierarchical File System, used by Apple Mac OS.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D08-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Generations",
+      "concept": "Fifth generation ULSI",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Ultra Large Scale Integration (ULSI) and bio-chips are associated with which generation of computers?",
+      "options": {
+        "A": "Third",
+        "B": "Second",
+        "C": "Fourth",
+        "D": "Fifth",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Fifth-generation computers (present and future) are based on ULSI technology and bio-chips, aiming at AI.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "Heading levels",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "How many levels of headings are available in HTML?",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "6",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HTML provides six heading tags, <h1> to <h6>.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D08-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Data Types",
+      "concept": "Unsigned positive only",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "A variable declared as unsigned int can store:",
+      "options": {
+        "A": "Only negative values",
+        "B": "Both positive and negative values",
+        "C": "Only non-negative values",
+        "D": "Only floating point values",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "unsigned accepts only positive (non-negative) values; signed accepts both.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D08-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Physical data independence",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Codd's rule 8 and rule 9 respectively deal with:",
+      "options": {
+        "A": "Logical data independence and physical data independence",
+        "B": "Integrity independence and distribution independence",
+        "C": "Physical data independence and logical data independence",
+        "D": "View updating and null values",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Rule 8 is Physical Data Independence and Rule 9 is Logical Data Independence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D08-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "MICR",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "The MICR code printed at the bottom of a cheque stands for:",
+      "options": {
+        "A": "Magnetic Integrated Cheque Reader",
+        "B": "Magnetic Ink Character Recognition",
+        "C": "Machine Ink Character Recognition",
+        "D": "Magnetic Ink Code Reader",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "MICR is Magnetic Ink Character Recognition, which lets machines read cheque details printed in magnetic ink.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Protocols",
+      "concept": "TELNET remote terminal",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q72",
+      "question": "Which protocol provides a remote terminal connection service?",
+      "options": {
+        "A": "RARP",
+        "B": "TELNET",
+        "C": "FTP",
+        "D": "UDP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "TELNET lets a user log in to a remote host and use it as a terminal over TCP port 23.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Involution law",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q252",
+      "question": "According to the involution law of Boolean algebra, (A')' is equal to:",
+      "options": {
+        "A": "A'",
+        "B": "0",
+        "C": "1",
+        "D": "A",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Involution (double complement) law: complementing a variable twice gives back the variable, so (A')' = A.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design",
+      "concept": "Floyd-Warshall approach",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q188",
+      "question": "Which algorithmic approach is followed in the Floyd-Warshall algorithm?",
+      "options": {
+        "A": "Linear programming",
+        "B": "Greedy technique",
+        "C": "Dynamic programming",
+        "D": "Backtracking",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Floyd-Warshall builds all-pairs shortest paths by reusing solutions of subproblems (paths through intermediate vertices 1..k), which is dynamic programming.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D08-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Input/Output Devices",
+      "concept": "Input device identification",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "Which of the following is an INPUT device?",
+      "options": {
+        "A": "Light pen",
+        "B": "Speaker",
+        "C": "Plotter",
+        "D": "Projector",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A light pen is used to give input by pointing on the screen; plotters, projectors and speakers are output devices.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Banker's Algorithm",
+      "concept": "Banker's safe state",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "In the Banker's algorithm, a resource request is granted only if:",
+      "options": {
+        "A": "At least one resource is idle",
+        "B": "The resulting state is a safe state",
+        "C": "The process has already finished",
+        "D": "The requesting process has the highest priority",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The algorithm simulates the allocation and grants it only if a safe sequence for all processes still exists.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Encryption",
+      "concept": "Cipher text",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p44",
+      "question": "Data that has been encrypted is called:",
+      "options": {
+        "A": "Source text",
+        "B": "Cipher text",
+        "C": "Plain text",
+        "D": "Clear text",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Encryption converts plain text into unreadable cipher text.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D08-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Mutable list",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which of the following data types is mutable in Python?",
+      "options": {
+        "A": "str",
+        "B": "tuple",
+        "C": "list",
+        "D": "int",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Lists can be changed after creation, whereas tuple, str and int are immutable.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D08-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Interface testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Testing the GUI, look and mock-up screens of an application is called:",
+      "options": {
+        "A": "Interface testing",
+        "B": "Back-end testing",
+        "C": "Unit testing",
+        "D": "Boundary value testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Interface testing covers the GUI, look and feel and mock-up screens.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D08-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "Short-range network",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "Which of the following is a low-power, short-range IoT network?",
+      "options": {
+        "A": "LoRaWAN",
+        "B": "Zigbee",
+        "C": "Sigfox",
+        "D": "NB-IoT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Zigbee is short-range; Sigfox, LoRaWAN and NB-IoT are LPWAN technologies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

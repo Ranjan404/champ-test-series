@@ -1,0 +1,681 @@
+{
+  "setId": 19,
+  "title": "Daily Set 19",
+  "questions": [
+    {
+      "id": "D19-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Connectors",
+      "concept": "ST connector",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p16",
+      "question": "Among fibre optic connectors, 'ST' stands for:",
+      "options": {
+        "A": "Single Thread",
+        "B": "Shielded Terminal",
+        "C": "Straight Tip",
+        "D": "Standard Twist",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ST is the Straight Tip connector, a bayonet-style fibre connector.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D19-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "SOP to minterm/maxterm",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q143",
+      "question": "Convert Y = A'B'C' + A'BC' + A'BC + AB'C + ABC into minterm and maxterm lists.",
+      "options": {
+        "A": "Minterms 1,2,4,6,7; Maxterms 0,3,5",
+        "B": "Minterms 0,1,3,6,7; Maxterms 2,4,5",
+        "C": "Minterms 0,2,3,5,7; Maxterms 1,4,6",
+        "D": "Minterms 1,3,5,6,7; Maxterms 0,2,4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The terms are 000=0, 010=2, 011=3, 101=5, 111=7, so minterms are 0,2,3,5,7 and the remaining 1,4,6 are maxterms.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D19-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "NoSQL",
+      "concept": "NoSQL database identification",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which of the following is a NoSQL database?",
+      "options": {
+        "A": "MariaDB",
+        "B": "SQLite",
+        "C": "PostgreSQL",
+        "D": "MongoDB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MongoDB is a document-oriented NoSQL database; the others are relational.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D19-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Postorder rule",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "Postorder traversal visits nodes in which order?",
+      "options": {
+        "A": "Right, Left, Root",
+        "B": "Left, Right, Root",
+        "C": "Left, Root, Right",
+        "D": "Root, Left, Right",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Post means the root comes last: Left, Right, Root.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary to Decimal",
+      "concept": "111111 to decimal",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "What is the decimal value of (111111)2?",
+      "options": {
+        "A": "64",
+        "B": "31",
+        "C": "63",
+        "D": "127",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Six 1s give 2^6 - 1 = 63.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D19-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Nibble",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "A nibble is equal to:",
+      "options": {
+        "A": "16 bits",
+        "B": "8 bits",
+        "C": "4 bits",
+        "D": "2 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "1 nibble = 4 bits, which is half of a byte (8 bits).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D19-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Access Specifiers",
+      "concept": "Data hiding",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Access specifiers in C++ are primarily used to achieve:",
+      "options": {
+        "A": "Operator overloading",
+        "B": "Dynamic memory allocation",
+        "C": "Data hiding",
+        "D": "File handling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Public, private and protected control visibility, which provides data hiding.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Conversion",
+      "concept": "Infix to postfix",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q211",
+      "question": "What is the postfix form of the infix expression a + b*c + (d*e)?",
+      "options": {
+        "A": "abc*+de*+",
+        "B": "ab+c*de*+",
+        "C": "abc+*de*+",
+        "D": "a+bc*de+*",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "b*c becomes bc*, added to a gives abc*+, then d*e gives de* and the final addition yields abc*+de*+.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D19-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv6 interface ID",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "In the common IPv6 global unicast address structure (48-bit global routing prefix, 16-bit subnet ID), how many bits form the interface ID?",
+      "options": {
+        "A": "64 bits",
+        "B": "32 bits",
+        "C": "80 bits",
+        "D": "48 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "128 - 48 - 16 = 64 bits for the interface (client) ID.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D19-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "ROUND with negative precision",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q303",
+      "question": "What does the SQL statement SELECT ROUND(65.726, -1) FROM DUAL; return?",
+      "options": {
+        "A": "70",
+        "B": "60",
+        "C": "66",
+        "D": "65.73",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A negative precision rounds to the left of the decimal point: -1 rounds to the nearest ten, so 65.726 becomes 70.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Basics",
+      "concept": "Interpreted meaning",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Python is called an interpreted language. What does 'interpreted' mean here?",
+      "options": {
+        "A": "The code is executed line by line",
+        "B": "The whole program is converted to machine code before running",
+        "C": "The code must be linked with libraries before execution",
+        "D": "The code runs only on a virtual operating system",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Interpreted means the code is run line by line by the interpreter rather than compiled entirely into a native executable first.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D19-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "SaaS full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "In cloud computing, SaaS stands for:",
+      "options": {
+        "A": "System as a Service",
+        "B": "Security as a Service",
+        "C": "Software as a Service",
+        "D": "Storage as a Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SaaS is Software as a Service, which delivers ready-to-use applications such as email or games over the internet.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D19-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "Heading size pairs",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Which heading-size pair is correct by default (16px base font)?",
+      "options": {
+        "A": "<h4>: 18.72px",
+        "B": "<h1>: 24px",
+        "C": "<h2>: 32px",
+        "D": "<h5>: 13.28px",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Defaults are h1 32px, h2 24px, h3 18.72px, h4 16px and h5 13.28px.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "HTTPS port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "HTTPS (secure HTTP) uses which default port?",
+      "options": {
+        "A": "80",
+        "B": "443",
+        "C": "110",
+        "D": "143",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HTTPS runs on port 443; plain HTTP uses 80.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "TOC Basics",
+      "concept": "Automata theory scope",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "The study of abstract machines and the problems they can solve is called:",
+      "options": {
+        "A": "Information theory",
+        "B": "Queueing theory",
+        "C": "Complexity theory",
+        "D": "Automata theory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Automata theory is the study of abstract machines (automata) and the computational problems they can solve.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Software Types",
+      "concept": "Compiler classification",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "A compiler that converts a high-level language program into machine code belongs to which category of system software?",
+      "options": {
+        "A": "Firmware",
+        "B": "Device driver",
+        "C": "Utility",
+        "D": "Language translator",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Compilers, interpreters and assemblers are language translators, a type of system software.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Sequence types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "String, List and Tuple belong to which category of Python data types?",
+      "options": {
+        "A": "Set type",
+        "B": "Sequence type",
+        "C": "Boolean type",
+        "D": "Numeric type",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "str, list and tuple are ordered sequence types that support indexing and slicing.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Firewall",
+      "concept": "Firewall purpose",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p13",
+      "question": "What is the primary role of a firewall placed between the Internet and a home network?",
+      "options": {
+        "A": "Assigning IP addresses to devices",
+        "B": "Blocking unauthorized or bad traffic according to rules",
+        "C": "Converting digital signals to analog",
+        "D": "Translating domain names into IP addresses",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A firewall monitors incoming and outgoing traffic and blocks traffic that violates security rules.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Mutual exclusion meaning",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Which deadlock condition states that at least one resource must be non-shareable, usable by only one process at a time?",
+      "options": {
+        "A": "Circular wait",
+        "B": "Mutual exclusion",
+        "C": "No preemption",
+        "D": "Hold and wait",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Mutual exclusion requires that a resource be held in non-shareable mode by only one process at a time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "CVV",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "The three-digit CVV on the back of a debit or credit card stands for:",
+      "options": {
+        "A": "Card Verification Value",
+        "B": "Customer Verification Value",
+        "C": "Card Validation Version",
+        "D": "Credit Verification Code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "CVV stands for Card Verification Value, a security code used in card-not-present transactions.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D19-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Data Types",
+      "concept": "Type modifiers",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Which of the following is a type modifier in C++ rather than a basic data type?",
+      "options": {
+        "A": "unsigned",
+        "B": "char",
+        "C": "double",
+        "D": "float",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "short, long, signed and unsigned modify the range of basic types.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Hexadecimal Codes",
+      "concept": "Hex D decimal",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "The hexadecimal digit D represents which decimal value?",
+      "options": {
+        "A": "13",
+        "B": "12",
+        "C": "11",
+        "D": "14",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A=10, B=11, C=12, D=13, E=14, F=15.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D19-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Hash collision",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q159",
+      "question": "When several elements compete for the same bucket in a hash table, it is called a:",
+      "options": {
+        "A": "Duplication",
+        "B": "Collision",
+        "C": "Replication",
+        "D": "Diffusion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A collision occurs when two keys hash to the same bucket; it is resolved by chaining or open addressing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Hierarchy",
+      "concept": "Order of data hierarchy",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "Which option arranges the data hierarchy correctly from smallest to largest?",
+      "options": {
+        "A": "Byte, Bit, Field, Record, Database, File",
+        "B": "Bit, Field, Byte, Record, File, Database",
+        "C": "Bit, Byte, Record, Field, File, Database",
+        "D": "Bit, Byte, Field, Record, File, Database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Bits form bytes, bytes form fields, fields form records, records form files (tables) and files form a database.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D19-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Communication",
+      "concept": "NFC",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q145",
+      "question": "Which IoT technology lets users make secure transactions, exchange digital content and connect devices with a simple touch?",
+      "options": {
+        "A": "Wi-Fi",
+        "B": "Z-Wave",
+        "C": "Bluetooth",
+        "D": "NFC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Near Field Communication works over a few centimetres, enabling tap-to-pay and touch-based pairing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

@@ -10,8 +10,7 @@ const mistake = z.enum([
   "Memory/Fact",
 ]);
 
-export const questionSchema = z.object({
-  id: z.string().regex(/^S\d{2}-Q\d{2}$/),
+const baseQuestionSchema = z.object({
   type: z.enum(["single", "multiple"]),
   difficulty: z.enum(["Easy", "Medium", "Hard"]),
   topic: z.string().min(2),
@@ -32,6 +31,10 @@ export const questionSchema = z.object({
   distractorMistakeType: z.partialRecord(letter, mistake),
 });
 
+export const questionSchema = baseQuestionSchema.extend({ id: z.string().regex(/^S\d{2}-Q\d{2}$/) });
+/** Daily Question sets use D<set>-Q<n> ids so they can never collide with practice-set ids. */
+export const dailyQuestionSchema = baseQuestionSchema.extend({ id: z.string().regex(/^D\d{2}-Q\d{2}$/) });
+
 export const questionSetSchema = z.object({
   setId: z.number().int().min(1),
   title: z.string(),
@@ -46,4 +49,24 @@ export const loginSchema = z.object({
 export const answerSchema = z.object({
   questionId: z.string().regex(/^S\d{2}-Q\d{2}$/),
   answer: z.array(z.enum(["A", "B", "C", "D", "E"])).min(1).max(4),
+});
+
+export const dailySetSchema = z.object({
+  setId: z.number().int().min(1),
+  title: z.string(),
+  questions: z.array(dailyQuestionSchema).length(25),
+});
+
+const dailyQuestionId = z.string().regex(/^D\d{2}-Q\d{2}$/);
+const dailyAnswers = z.record(dailyQuestionId, z.enum(["A", "B", "C", "D", "E"]));
+
+export const dailySaveSchema = z.object({
+  answers: dailyAnswers,
+  marked: z.array(dailyQuestionId).max(25).default([]),
+  current: z.number().int().min(0).max(24).default(0),
+});
+
+export const dailySubmitSchema = z.object({
+  answers: dailyAnswers,
+  marked: z.array(dailyQuestionId).max(25).default([]),
 });

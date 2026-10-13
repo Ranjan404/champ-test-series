@@ -1,0 +1,681 @@
+{
+  "setId": 28,
+  "title": "Daily Set 28",
+  "questions": [
+    {
+      "id": "D28-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Minterms",
+      "concept": "Minterm for given inputs",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q77",
+      "question": "Which minterm corresponds to A = 0, B = 1?",
+      "options": {
+        "A": "A'B",
+        "B": "A'B'",
+        "C": "AB",
+        "D": "AB'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A = 0 appears complemented (A') and B = 1 appears uncomplemented (B), giving the minterm A'B.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D28-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "MAC Address",
+      "concept": "MAC size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "A MAC address is how long?",
+      "options": {
+        "A": "128 bits (16 bytes)",
+        "B": "32 bits (4 bytes)",
+        "C": "48 bits (6 bytes)",
+        "D": "64 bits (8 bytes)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A MAC (Media Access Control) address is 48 bits or 6 bytes, usually written as six hexadecimal pairs.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "TRUNCATE vs DELETE",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p21",
+      "question": "Which statement about TRUNCATE is correct?",
+      "options": {
+        "A": "It is a DML command that can be filtered row by row",
+        "B": "It removes only rows that match a WHERE condition",
+        "C": "It removes all rows, is faster than DELETE and cannot use a WHERE clause",
+        "D": "It removes the table structure along with its data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "TRUNCATE is a DDL command that quickly removes all rows without WHERE; the table structure remains.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Storage",
+      "concept": "Purpose of RAID",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "What is the main purpose of RAID?",
+      "options": {
+        "A": "Storing data across multiple disks to improve performance, redundancy or both",
+        "B": "Encrypting database tables for security",
+        "C": "Compressing data on a single disk to save space",
+        "D": "Converting a relational database into a NoSQL database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "RAID spreads data across several disks to enhance performance, increase data redundancy, or both.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D28-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Circular queue advantage",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "Which type of queue connects the last position back to the first, so that freed space at the front can be reused?",
+      "options": {
+        "A": "Input-restricted deque",
+        "B": "Circular queue",
+        "C": "Simple queue",
+        "D": "Priority queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A circular queue wraps the rear around to the front, avoiding the wasted space problem of a simple linear queue.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Character Encoding",
+      "concept": "Unicode full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "Unicode is best described as:",
+      "options": {
+        "A": "An IBM mainframe-only character code",
+        "B": "A compression format for images",
+        "C": "A 7-bit code for English characters only",
+        "D": "A universal character encoding standard covering most of the world's scripts",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Unicode (Universal Character Encoding) represents characters from almost all writing systems, unlike 7-bit ASCII.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "LoRaWAN full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "LoRaWAN stands for:",
+      "options": {
+        "A": "Long Range Wide Area Network",
+        "B": "Local Range Wireless Access Network",
+        "C": "Long Radio Wireless Area Node",
+        "D": "Low Radio Wide Area Network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "LoRaWAN is Long Range Wide Area Network, an LPWAN technology.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D28-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "Contents of main memory",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q36",
+      "question": "What does main memory (primary memory) store while a program is running?",
+      "options": {
+        "A": "Program instructions only",
+        "B": "Program instructions, data and results",
+        "C": "Data only",
+        "D": "Results only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Main memory holds the program instructions being executed along with the input data and the intermediate and final results being processed.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D28-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Basics",
+      "concept": "Elements of multimedia",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "Which of the following is NOT listed as an element (media type) of multimedia?",
+      "options": {
+        "A": "Animation",
+        "B": "Compiler",
+        "C": "Still images",
+        "D": "Audio",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The elements of multimedia are text, drawings, still images/graphics, moving images (video), audio and animation. A compiler is system software, not a media type.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D28-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XNOR equality",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "A 2-input XNOR gate outputs 1 when:",
+      "options": {
+        "A": "The inputs are equal",
+        "B": "The inputs are different",
+        "C": "Only A is 1",
+        "D": "Only B is 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "XNOR gives 1 for 00 and 11, so it acts as an equality detector.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D28-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Software",
+      "concept": "Proprietary DBMS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "Which of the following database systems is NOT open source?",
+      "options": {
+        "A": "MariaDB",
+        "B": "MySQL",
+        "C": "Microsoft Access",
+        "D": "SQLite",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Microsoft Access is a proprietary Microsoft product; MySQL, SQLite and MariaDB are open source.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D28-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Boolean type",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "The values True and False belong to which Python data type?",
+      "options": {
+        "A": "int only",
+        "B": "str",
+        "C": "bool",
+        "D": "NoneType",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "True and False are values of the bool data type, which is immutable.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D28-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Session Layer",
+      "concept": "NetBIOS layer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "NetBIOS (Network Basic Input Output System) is associated with which OSI layer?",
+      "options": {
+        "A": "Session layer",
+        "B": "Data Link layer",
+        "C": "Physical layer",
+        "D": "Network layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NetBIOS provides session services allowing applications on different computers to communicate, so it is placed at the Session layer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Circular queue name",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q154",
+      "question": "A circular queue is also called a:",
+      "options": {
+        "A": "Square buffer",
+        "B": "Curve buffer",
+        "C": "Rectangle buffer",
+        "D": "Ring buffer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A circular queue wraps around the end of the array like a ring, hence ring (circular) buffer.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D28-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Protocols",
+      "concept": "ARP function",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q28",
+      "question": "Which protocol finds the MAC address corresponding to a known IP address?",
+      "options": {
+        "A": "RARP",
+        "B": "ARP",
+        "C": "Telnet",
+        "D": "ICMP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "ARP (Address Resolution Protocol) resolves an IP address to a MAC address. RARP does the reverse, mapping a MAC address to an IP address.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Branches of AI",
+      "concept": "NLP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "In AI, NLP stands for:",
+      "options": {
+        "A": "Natural Learning Process",
+        "B": "Network Layer Protocol",
+        "C": "Natural Language Processing",
+        "D": "Neural Logic Programming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NLP is Natural Language Processing, the branch of AI that enables machines to understand human language.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D28-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Python Implementations",
+      "concept": "Jython",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which Python implementation runs on the Java platform (JVM)?",
+      "options": {
+        "A": "IronPython",
+        "B": "CPython",
+        "C": "PyPy",
+        "D": "Jython",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Jython is the Python implementation written for the Java Virtual Machine.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D28-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Diamond relationship",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "Which symbol represents a relationship in an ER diagram?",
+      "options": {
+        "A": "Diamond",
+        "B": "Double ellipse",
+        "C": "Ellipse",
+        "D": "Rectangle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A diamond denotes a relationship between entity sets.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Site-wide style",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "To apply the same look to all 50 pages of a website from a single file, the best type of CSS to use is:",
+      "options": {
+        "A": "Internal CSS",
+        "B": "External CSS",
+        "C": "Inline CSS",
+        "D": "No CSS; use <font> tags",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An external stylesheet can be linked by every page, so one file controls the style of the whole site.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D28-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "exFAT full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "exFAT stands for:",
+      "options": {
+        "A": "Executable FAT",
+        "B": "Extended File Allocation Table",
+        "C": "Expanded File Archive Table",
+        "D": "External File Access Table",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "exFAT means Extended File Allocation Table, designed by Microsoft for flash storage.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D28-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "De Morgan's Theorem",
+      "concept": "Bubbled AND",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "A NOR gate is equivalent to which of the following?",
+      "options": {
+        "A": "A NAND gate with output inverted",
+        "B": "An XOR gate with one input inverted",
+        "C": "An AND gate with both inputs inverted (negative-AND)",
+        "D": "An OR gate with both inputs inverted",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "(A + B)' = A'.B', so NOR equals a bubbled AND (negative-AND).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "TOC Basics",
+      "concept": "Complexity theory scope",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "The branch of TOC that studies what makes some problems computationally hard and others easy is:",
+      "options": {
+        "A": "Decidability theory",
+        "B": "Computability theory",
+        "C": "Automata theory",
+        "D": "Computational complexity theory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Computational complexity theory classifies problems by the resources (time, space) needed to solve them, explaining why some are hard and others easy.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Generations",
+      "concept": "First generation hardware",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "First-generation computers used which main electronic component?",
+      "options": {
+        "A": "Microprocessor",
+        "B": "Integrated circuit",
+        "C": "Transistor",
+        "D": "Vacuum tube",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "First-generation computers (around 1946-54) were built with vacuum tubes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Program Execution",
+      "concept": "Bytecode file extension",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Java bytecode produced by the compiler is stored in a file with which extension?",
+      "options": {
+        "A": ".exe",
+        "B": ".java",
+        "C": ".obj",
+        "D": ".class",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "javac produces bytecode in .class files, which are then executed by the JVM.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D28-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Notation",
+      "concept": "Precedence order",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "Which operator group has the highest priority among the following when evaluating an infix expression?",
+      "options": {
+        "A": "^",
+        "B": "* and /",
+        "C": "+ and -",
+        "D": "= (assignment)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "After brackets, exponent (^) has the highest priority, followed by * and /, and then + and -.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

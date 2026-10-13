@@ -1,0 +1,681 @@
+{
+  "setId": 24,
+  "title": "Daily Set 24",
+  "questions": [
+    {
+      "id": "D24-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversals",
+      "concept": "Post-order to pre-order",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q131",
+      "question": "The post-order traversal of a binary tree is DEBFCA, where A has left child B (with children D and E) and right child C (with left child F). What is its pre-order traversal?",
+      "options": {
+        "A": "ABDCEF",
+        "B": "ABDECF",
+        "C": "ABDEFC",
+        "D": "ABFCDE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Pre-order visits root, left, right: A, then B's subtree (B, D, E), then C's subtree (C, F), giving ABDECF.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D24-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "One to many example",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "One scientist can invent many inventions, but each invention belongs to one scientist. This is a:",
+      "options": {
+        "A": "One-to-many relationship",
+        "B": "Recursive relationship",
+        "C": "One-to-one relationship",
+        "D": "Many-to-many relationship",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "One scientist relates to many inventions, so it is a 1:M relationship.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D24-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Subnetting",
+      "concept": "Hosts with /30 mask",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q258",
+      "question": "How many usable hosts can be configured using the subnet mask 255.255.255.252?",
+      "options": {
+        "A": "2",
+        "B": "30",
+        "C": "6",
+        "D": "14",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "255.255.255.252 leaves 2 host bits, giving 2^2 = 4 addresses; minus network and broadcast addresses gives 2 usable hosts.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D24-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Binary search requirement",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Binary search can be applied only when the data is:",
+      "options": {
+        "A": "Stored in a linked list only",
+        "B": "Stored in a hash table",
+        "C": "Unsorted",
+        "D": "Already sorted",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Binary search repeatedly halves the search range, which works only on already sorted data.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "NOR output 1",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "A 2-input NOR gate gives output 1 only when:",
+      "options": {
+        "A": "Both inputs are 1",
+        "B": "At least one input is 1",
+        "C": "Both inputs are 0",
+        "D": "Exactly one input is 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NOR = (A+B)'; it is 1 only when A + B = 0, i.e., both inputs are 0.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Networking Types",
+      "concept": "Intranet",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "A private network accessible only to the employees of an organization is called a(n):",
+      "options": {
+        "A": "Internet",
+        "B": "Extranet",
+        "C": "Intranet",
+        "D": "Ethernet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An intranet is a private network for an organization's employees; the Internet is open to all.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Bubble sort average complexity",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q27",
+      "question": "What is the average-case time complexity of bubble sort?",
+      "options": {
+        "A": "O(n^2)",
+        "B": "O(n log n)",
+        "C": "O(n)",
+        "D": "O(log n)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bubble sort uses nested passes comparing adjacent elements, requiring about n(n-1)/2 comparisons on average, i.e. O(n^2). O(n) is only its best case with an early-exit check.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D24-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "Virtual memory",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q67",
+      "question": "A computer can address more memory than the amount physically installed on the system. This extra memory is called:",
+      "options": {
+        "A": "Virtual memory",
+        "B": "Physical memory",
+        "C": "Logical memory",
+        "D": "Secondary memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Virtual memory uses part of the disk as an extension of RAM, giving programs the illusion of a larger main memory than is physically installed.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Python Basics",
+      "concept": "Input function",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which built-in function is used to take input from the user in Python?",
+      "options": {
+        "A": "input()",
+        "B": "scanf()",
+        "C": "read()",
+        "D": "cin()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Python uses input() to read a line of input from the user; scanf and cin belong to C and C++.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "LPWAN full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p18",
+      "question": "LPWAN stands for:",
+      "options": {
+        "A": "Low-Power Wide-Area Network",
+        "B": "Local Personal Wireless Area Network",
+        "C": "Long-Power Wireless Access Network",
+        "D": "Low-Priority Wide Access Network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "LPWAN means Low-Power Wide-Area Network, used for long-range, low-energy IoT communication.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D24-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "Not a whole-number type",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Which of the following Java data types does NOT store whole numbers?",
+      "options": {
+        "A": "long",
+        "B": "boolean",
+        "C": "short",
+        "D": "byte",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "byte, short, int and long store whole numbers; boolean stores only true or false.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D24-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "Basic DML commands",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q168",
+      "question": "Which of the following represents the three basic SQL DML commands?",
+      "options": {
+        "A": "INSERT, ALTER, DELETE",
+        "B": "INSERT, UPDATE, CREATE",
+        "C": "INSERT, UPDATE, DELETE",
+        "D": "DROP, UPDATE, DELETE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DML (Data Manipulation Language) commands change table data: INSERT, UPDATE and DELETE. DROP, ALTER and CREATE are DDL commands.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "External link",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p43",
+      "question": "External CSS is stored in a separate .css file and attached to an HTML page using which tag?",
+      "options": {
+        "A": "<script>",
+        "B": "<meta>",
+        "C": "<style>",
+        "D": "<link>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An external stylesheet is connected with <link rel=\"stylesheet\" href=\"file.css\">.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Truth Tables",
+      "concept": "Truth table rows",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q46",
+      "question": "How many entries (rows) will be in the truth table of a 4-input NAND gate?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "32",
+        "D": "16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A truth table for n inputs has 2^n rows, so a 4-input gate has 2^4 = 16 entries.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D24-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer History",
+      "concept": "Von Neumann architecture",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "The basic stored-program architecture of computers (1947-49) is credited to:",
+      "options": {
+        "A": "Lady Ada Lovelace",
+        "B": "John Von Neumann",
+        "C": "Alan Turing",
+        "D": "Charles Babbage",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "John Von Neumann proposed the stored-program architecture in which program and data share the same memory; it is the basic architecture of most computers.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process States",
+      "concept": "New to ready",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "The transition of a newly created process from New to Ready is called:",
+      "options": {
+        "A": "Dispatch",
+        "B": "Admitted",
+        "C": "Exit",
+        "D": "Interrupt",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The OS admits a new process into the ready queue: New -> Ready is labelled 'admitted'.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "SWIFT",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "SWIFT, the network used for international bank messaging, stands for:",
+      "options": {
+        "A": "Society for Worldwide International Fund Transfer",
+        "B": "Secure Worldwide Interbank Fund Telecommunication",
+        "C": "Society for Worldwide Interbank Financial Telecommunication",
+        "D": "System for Worldwide Interbank Financial Transactions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SWIFT is the Society for Worldwide Interbank Financial Telecommunication.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D24-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Constraints",
+      "concept": "Primary key = unique + not null",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Which statement about SQL constraints is correct?",
+      "options": {
+        "A": "A UNIQUE constraint can be defined only once per table",
+        "B": "A PRIMARY KEY uniquely identifies each row and cannot contain NULL values",
+        "C": "A FOREIGN KEY must always reference a column in the same table",
+        "D": "NOT NULL prevents duplicate values in a column",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "PRIMARY KEY combines uniqueness with NOT NULL; a table may have many UNIQUE constraints.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Nested hierarchy containment",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "In the nested-circle diagram of the Chomsky hierarchy, which class is the innermost (smallest) set of languages?",
+      "options": {
+        "A": "Recursively enumerable",
+        "B": "Context-free",
+        "C": "Context-sensitive",
+        "D": "Regular",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Every regular language is context-free, every CFL is context-sensitive, and every CSL is recursively enumerable, so regular languages form the innermost set.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Stack operation sequence",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q157",
+      "question": "What sequence of values is popped when these stack operations are performed: PUSH(5), PUSH(7), POP(), PUSH(8), PUSH(6), POP(), POP(), POP()?",
+      "options": {
+        "A": "5,8,6,7",
+        "B": "7,6,5,8",
+        "C": "7,6,8,5",
+        "D": "6,7,8,5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "POP removes 7; then stack is 5,8,6 and the three POPs return 6, 8, 5, giving 7,6,8,5.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D24-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "Data link responsibilities",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "Error-free transfer of data frames, flow control and error control are responsibilities of which OSI layer?",
+      "options": {
+        "A": "Data Link layer",
+        "B": "Presentation layer",
+        "C": "Session layer",
+        "D": "Application layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Data Link layer ensures error-free node-to-node transfer of frames with flow control and error control.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Implementations",
+      "concept": "Not an implementation",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p38",
+      "question": "Which of the following is NOT a Python interpreter/implementation?",
+      "options": {
+        "A": "Stackless Python",
+        "B": "CPython",
+        "C": "PyPy",
+        "D": "JRuby",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "CPython, PyPy, Stackless Python, Jython and IronPython are Python implementations; JRuby is an implementation of the Ruby language.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D24-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Strings",
+      "concept": "String definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q68",
+      "question": "What is a string?",
+      "options": {
+        "A": "A numeric data type",
+        "B": "A series of characters",
+        "C": "A single character",
+        "D": "A special type of character",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A string is a sequence (series) of characters, such as \"hello\"; in C it is a character array terminated by '\\0'.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D24-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Languages",
+      "concept": "Python for AI",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q326",
+      "question": "Which programming language is the most widely used choice for AI development?",
+      "options": {
+        "A": "MATLAB",
+        "B": ".NET",
+        "C": "Java",
+        "D": "Python",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Python dominates AI development thanks to libraries such as TensorFlow, PyTorch and scikit-learn and its simple syntax.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D24-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Maxterm for an input combination",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q180",
+      "question": "What is the maxterm corresponding to the input combination A = 0, B = 0?",
+      "options": {
+        "A": "A + B'",
+        "B": "A' + B",
+        "C": "A + B",
+        "D": "A' + B'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a maxterm, a variable that is 0 appears uncomplemented and a variable that is 1 appears complemented, so A = 0, B = 0 gives M0 = A + B.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

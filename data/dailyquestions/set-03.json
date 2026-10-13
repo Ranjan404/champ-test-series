@@ -1,0 +1,681 @@
+{
+  "setId": 3,
+  "title": "Daily Set 3",
+  "questions": [
+    {
+      "id": "D03-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Connectors",
+      "concept": "RJ full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "In RJ-45, the letters 'RJ' stand for:",
+      "options": {
+        "A": "Registered Joint",
+        "B": "Registered Jack",
+        "C": "Router Jack",
+        "D": "Remote Junction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RJ means Registered Jack; RJ-45 is used for Ethernet and RJ-11 for telephones.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D03-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting Algorithms",
+      "concept": "Sorted output",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Sorting the array [10, 3, 5, 2, 11] in ascending order gives:",
+      "options": {
+        "A": "[11, 10, 5, 3, 2]",
+        "B": "[3, 2, 5, 10, 11]",
+        "C": "[2, 3, 5, 10, 11]",
+        "D": "[2, 3, 10, 5, 11]",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Ascending order arranges elements from smallest to largest: 2, 3, 5, 10, 11.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D03-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "3NF transitive dependency",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "Which normal form removes transitive dependency?",
+      "options": {
+        "A": "1NF",
+        "B": "4NF",
+        "C": "3NF",
+        "D": "2NF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "3NF requires that no non-key attribute be transitively dependent on the primary key.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Octal to Binary",
+      "concept": "Bits per octal digit",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "Each octal digit is represented by how many binary bits?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Since 8 = 2^3, each octal digit corresponds to exactly 3 binary bits.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Connectors",
+      "concept": "LC connector",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p16",
+      "question": "In fibre optic cabling, the LC connector stands for:",
+      "options": {
+        "A": "Light Cable connector",
+        "B": "Linear Coupler",
+        "C": "Local Connector",
+        "D": "Lucent Connector",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "LC stands for Lucent Connector (developed by Lucent Technologies), a small form-factor fibre connector.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D03-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Supervised predicts",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Predicting the next value (e.g. a house price) from labelled training data is an example of:",
+      "options": {
+        "A": "Supervised learning",
+        "B": "Fuzzy logic",
+        "C": "Unsupervised learning",
+        "D": "Reinforcement learning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Supervised learning uses labelled data to predict the next value/output.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Queue underflow",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q225",
+      "question": "In an array implementation of a queue where front is initialised to -1, which condition indicates underflow (empty queue)?",
+      "options": {
+        "A": "front = 0",
+        "B": "front = -2",
+        "C": "front = -1",
+        "D": "front = 2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "With front initialised to -1, front == -1 means no element is present, so a deletion would cause underflow.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D03-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "Control order",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "Which option correctly orders the cloud service models from LEAST to MOST user control?",
+      "options": {
+        "A": "SaaS < PaaS < IaaS",
+        "B": "SaaS < IaaS < PaaS",
+        "C": "PaaS < SaaS < IaaS",
+        "D": "IaaS < PaaS < SaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SaaS gives the least control and IaaS the most, with PaaS in between.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "NEFT",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "What is the full form of NEFT?",
+      "options": {
+        "A": "National Electronic Funds Transfer",
+        "B": "National Encrypted Funds Transfer",
+        "C": "National Electronic Fast Transfer",
+        "D": "Net Electronic Funds Transaction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NEFT stands for National Electronic Funds Transfer, an RBI-run system for transferring money between bank accounts.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D03-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary Arithmetic",
+      "concept": "Binary subtraction example",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "What is (11001)2 - (01110)2?",
+      "options": {
+        "A": "01011",
+        "B": "01101",
+        "C": "00111",
+        "D": "01010",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "11001 = 25 and 01110 = 14; 25 - 14 = 11 = (01011)2.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D03-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual Memory",
+      "concept": "Demand paging",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q255",
+      "question": "The mechanism that brings a page into memory only when it is needed is called:",
+      "options": {
+        "A": "Page replacement",
+        "B": "Demand paging",
+        "C": "Fragmentation",
+        "D": "Segmentation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In demand paging a page is loaded only when a page fault shows it is actually referenced, instead of loading the whole process up front.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Joins",
+      "concept": "Types of outer joins",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q95",
+      "question": "How many types of outer joins are there in SQL?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "2",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The three outer joins are LEFT OUTER, RIGHT OUTER and FULL OUTER JOIN.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D03-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Generations",
+      "concept": "Fifth generation AI languages",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Languages such as LISP and Prolog, used for AI, robotics and machine intelligence, are linked to which generation?",
+      "options": {
+        "A": "Fifth",
+        "B": "Third",
+        "C": "Second",
+        "D": "Fourth",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Fifth-generation computing focuses on artificial intelligence; LISP and Prolog are the classic AI languages associated with it.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Commands",
+      "concept": "getmac command",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q183",
+      "question": "Which Windows command displays the MAC address of a computer?",
+      "options": {
+        "A": "getmac",
+        "B": "getmacid",
+        "C": "getmacaddress",
+        "D": "macget",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The getmac command lists the MAC (physical) addresses of the network adapters on a Windows system.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D03-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Invalid octal",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p3",
+      "question": "Which of the following is NOT a valid octal number?",
+      "options": {
+        "A": "(1027)8",
+        "B": "(745)8",
+        "C": "(377)8",
+        "D": "(658)8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Octal digits go from 0 to 7; (658)8 contains the digit 8, which is invalid in base 8.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D03-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Hierarchy",
+      "concept": "Byte equals 8 bits",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "In the data hierarchy, a byte (character) is made up of how many bits?",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "2",
+        "D": "16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A byte, which stores one character, is a group of 8 bits.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D03-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Storage",
+      "concept": "RAID full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "What does RAID stand for?",
+      "options": {
+        "A": "Random Access Integrated Disks",
+        "B": "Redundant Array of Independent Disks",
+        "C": "Rapid Array of Internal Drives",
+        "D": "Redundant Allocation of Indexed Data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RAID stands for Redundant Array of Independent (originally Inexpensive) Disks.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D03-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv4 size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "An IPv4 address is how many bits long?",
+      "options": {
+        "A": "128 bits",
+        "B": "64 bits",
+        "C": "48 bits",
+        "D": "32 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IPv4 addresses are 32 bits (4 bytes), written as four decimal octets such as 192.168.2.33.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "short range",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Which Java primitive type has the range -32,768 to 32,767?",
+      "options": {
+        "A": "char",
+        "B": "short",
+        "C": "int",
+        "D": "byte",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "short is a 16-bit signed integer: -2^15 to 2^15 - 1 = -32,768 to 32,767.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Generative AI",
+      "concept": "ChatGPT",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q175",
+      "question": "Which AI chatbot was developed by the San Francisco-based company OpenAI?",
+      "options": {
+        "A": "Sophia",
+        "B": "Bard",
+        "C": "Fred",
+        "D": "ChatGPT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ChatGPT was developed by OpenAI. Bard was Google's chatbot and Sophia is a humanoid robot by Hanson Robotics.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D03-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Back-end testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Back-end testing mainly focuses on:",
+      "options": {
+        "A": "Browser compatibility",
+        "B": "The GUI look and feel",
+        "C": "Customer feedback",
+        "D": "The database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Back-end (database) testing verifies data storage, integrity, schemas and queries in the database.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "None vs null",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which of the following is NOT a keyword in Python?",
+      "options": {
+        "A": "None",
+        "B": "pass",
+        "C": "null",
+        "D": "del",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Python represents the null value with None; 'null' is used in languages like Java and JavaScript, not Python.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D03-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "Single-user multitasking",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "A desktop OS that lets one user run a browser, a music player and a word processor simultaneously is classified as:",
+      "options": {
+        "A": "Single-user, single-task",
+        "B": "Single-user, multi-tasking",
+        "C": "Batch OS",
+        "D": "Real-time OS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "One user running many programs at once is single-user, multi-tasking, as in desktop Windows and macOS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Models",
+      "concept": "G2G scenario",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "The central government electronically shares data and funds with a state government department. Which e-commerce model is this?",
+      "options": {
+        "A": "G2C",
+        "B": "C2G",
+        "C": "G2G",
+        "D": "B2G",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Transactions between two government bodies are Government-to-Government (G2G).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D03-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Number of queue types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "In standard data structure classification, queues are divided into how many main types?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The four types are linear (simple) queue, circular queue, priority queue and deque (double-ended queue).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

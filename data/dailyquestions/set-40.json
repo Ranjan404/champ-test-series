@@ -1,0 +1,681 @@
+{
+  "setId": 40,
+  "title": "Daily Set 40",
+  "questions": [
+    {
+      "id": "D40-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "Clock speed unit",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q133",
+      "question": "The clock speed of a modern CPU is commonly measured in:",
+      "options": {
+        "A": "Gigahertz",
+        "B": "Bytes per second",
+        "C": "Dots per inch",
+        "D": "Gigabytes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Clock speed is a frequency (cycles per second), so it is measured in hertz, typically gigahertz for modern CPUs.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Queue definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q171",
+      "question": "A linear list in which deletion is done at one end (front) and insertion only at the other end (rear) is called a:",
+      "options": {
+        "A": "Queue",
+        "B": "Tree",
+        "C": "Linked list",
+        "D": "Stack",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A queue is a FIFO structure: elements are inserted at the rear and removed from the front.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Modulation direction",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p12",
+      "question": "The modulator part of a modem performs which conversion?",
+      "options": {
+        "A": "Digital signal to analog signal",
+        "B": "Digital signal to digital signal of higher rate",
+        "C": "Analog signal to digital signal",
+        "D": "Analog signal to optical signal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Modulation converts the computer's digital signal into an analog signal for transmission over telephone lines.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "AVI full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "AVI stands for:",
+      "options": {
+        "A": "Audio Visual Integration",
+        "B": "Animated Video Image",
+        "C": "Audio Video Interleave",
+        "D": "Advanced Video Interface",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "AVI is Audio Video Interleave, a Microsoft multimedia container format.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D40-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Hierarchy",
+      "concept": "File is group of records",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "In the data hierarchy, a file (table) is a collection of:",
+      "options": {
+        "A": "Bits",
+        "B": "Databases",
+        "C": "Records",
+        "D": "Schemas",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A file or table is a group of related records.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D40-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XOR output",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "A 2-input XOR gate gives output 1 when:",
+      "options": {
+        "A": "At least one input is 0",
+        "B": "Both inputs are 1",
+        "C": "Both inputs are 0",
+        "D": "The inputs are different",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "XOR outputs 1 only for 01 and 10, i.e., when its inputs differ.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "File Formats and Extensions",
+      "concept": "Audio vs video extensions",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Which of the following is an AUDIO file extension?",
+      "options": {
+        "A": "MOV",
+        "B": "WAV",
+        "C": "FLV",
+        "D": "AVI",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "WAV (Waveform Audio File) is an audio format; AVI, MOV and FLV are video formats.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Constraints",
+      "concept": "CHECK constraint",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "To ensure that age entered in a table is always 18 or above, which constraint should be used?",
+      "options": {
+        "A": "DEFAULT",
+        "B": "CHECK",
+        "C": "UNIQUE",
+        "D": "PRIMARY KEY",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "CHECK validates that new values satisfy a given condition.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Simplex example",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "Communication from a keyboard to a computer, where data flows in only one direction, is an example of:",
+      "options": {
+        "A": "Multiplex mode",
+        "B": "Simplex mode",
+        "C": "Half duplex mode",
+        "D": "Full duplex mode",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In simplex mode data travels in only one direction, as from keyboard to computer or computer to monitor.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "Zigbee standard",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p17",
+      "question": "Zigbee is based on which IEEE standard?",
+      "options": {
+        "A": "IEEE 802.11",
+        "B": "IEEE 802.3",
+        "C": "IEEE 802.16",
+        "D": "IEEE 802.15.4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Zigbee is built on IEEE 802.15.4; Wi-Fi is 802.11 and Ethernet 802.3.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D40-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "EXT for Linux",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "The Extended file systems EXT2, EXT3 and EXT4 are mainly used by:",
+      "options": {
+        "A": "Windows",
+        "B": "MS-DOS",
+        "C": "Mac OS",
+        "D": "Unix and Linux",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "EXT2/EXT3/EXT4 (Extended file systems) are native to Linux and Unix-like systems.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Translators",
+      "concept": "Compiler vs interpreter",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "Which statement about translators is correct?",
+      "options": {
+        "A": "An interpreter translates the whole program at once",
+        "B": "A compiler translates the whole program at once, while an interpreter translates line by line",
+        "C": "A compiler executes code line by line without producing object code",
+        "D": "An assembler translates high-level code into assembly",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A compiler converts the complete source program into object code; an interpreter translates and executes one statement at a time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Meaning of literal",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q309",
+      "question": "In Boolean algebra, the word 'literal' means:",
+      "options": {
+        "A": "A product term",
+        "B": "An inverse function",
+        "C": "All the variables in a Boolean expression",
+        "D": "A variable or its complement",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A literal is a single variable in true or complemented form, such as A or A'. Product terms are made of literals.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting Algorithms",
+      "concept": "Heap sort complexity",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p36",
+      "question": "Heap sort has which time complexity in the best, average and worst cases?",
+      "options": {
+        "A": "O(n) best, O(n^2) worst",
+        "B": "O(n log n) in all cases",
+        "C": "O(n^2) in all cases",
+        "D": "O(log n) in all cases",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Building the heap takes O(n) and each of the n deletions takes O(log n), so heap sort is O(n log n) in every case.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D40-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "DIMM voltage",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q224",
+      "question": "What is the standard operating voltage of an SDR SDRAM DIMM?",
+      "options": {
+        "A": "5 V",
+        "B": "2.2 V",
+        "C": "3.3 V",
+        "D": "2 V",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "168-pin SDR SDRAM DIMMs operate at 3.3 V; later DDR generations use lower voltages (2.5 V, 1.8 V, etc.).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D40-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Robotics",
+      "concept": "Robot arm",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q107",
+      "question": "In robotics, the robot's 'arm' is called the:",
+      "options": {
+        "A": "Sensor",
+        "B": "Manipulator",
+        "C": "Effector",
+        "D": "Actuator",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The manipulator is the arm-like mechanism of links and joints; the end effector is the tool at its tip and actuators are the motors driving it.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "Singly linked list last node",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q29",
+      "question": "In a (non-circular) singly linked list, what does the last node's next pointer point to?",
+      "options": {
+        "A": "The second last node",
+        "B": "Itself",
+        "C": "NULL",
+        "D": "The first node",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The last node of a singly linked list has its next pointer set to NULL to mark the end of the list. Pointing to the first node happens only in a circular list.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Complex category",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "In the classification of Python data types, complex numbers fall under which category?",
+      "options": {
+        "A": "Numeric",
+        "B": "Mapping (Dictionary)",
+        "C": "Set",
+        "D": "Sequence",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Numeric types in Python are int, float and complex.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C Arrays",
+      "concept": "Array initialization syntax",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q6",
+      "question": "Which of the following correctly initializes an array in C?",
+      "options": {
+        "A": "int arr[3] = {1,2,3};",
+        "B": "int arr(3) = (1,2,3);",
+        "C": "int arr[3] = (1,2,3);",
+        "D": "int arr(3) = {1,2,3};",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In C the size goes in square brackets and the initializer list in curly braces: int arr[3] = {1,2,3};",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "D40-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Rasterization",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "The process of transforming a vector (curve-based) image into a pixel-based image is called:",
+      "options": {
+        "A": "Morphing",
+        "B": "Vectorization",
+        "C": "Tracing",
+        "D": "Rasterization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Rasterization converts vector image to raster image (curves to pixels).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Session Layer",
+      "concept": "PAP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "In networking, PAP stands for:",
+      "options": {
+        "A": "Password Authentication Protocol",
+        "B": "Packet Access Protocol",
+        "C": "Public Authorization Process",
+        "D": "Primary Address Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "PAP is the Password Authentication Protocol, which sends a username and password for authentication.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D40-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Codes",
+      "concept": "ASCII-7 character count",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q305",
+      "question": "How many characters can be represented in 7-bit ASCII?",
+      "options": {
+        "A": "256",
+        "B": "32",
+        "C": "128",
+        "D": "64",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "7 bits give 2^7 = 128 distinct codes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D40-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Only one primary key per table",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q321",
+      "question": "Which statement about the PRIMARY KEY constraint in SQL is wrong?",
+      "options": {
+        "A": "Primary key values cannot be duplicated",
+        "B": "It is one of the candidate keys",
+        "C": "A primary key field cannot be NULL",
+        "D": "A table can have more than one primary key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A table can have only one primary key (which may be composite over several columns). It is chosen from the candidate keys and must be unique and NOT NULL.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D40-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "32-bit vs 64-bit OS",
+      "concept": "32-bit only Windows",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "Which of the following Windows versions was available only as a 32-bit operating system?",
+      "options": {
+        "A": "Windows 7",
+        "B": "Windows 11",
+        "C": "Windows 98",
+        "D": "Windows 10",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Windows 95 and Windows 98 were 32-bit only; Windows 7 and 10 had 64-bit editions and Windows 11 is 64-bit only.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D40-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Big Bang model",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Which SDLC model involves very little planning, with resources thrown into coding and requirements understood as development proceeds?",
+      "options": {
+        "A": "Big Bang model",
+        "B": "Spiral model",
+        "C": "V-shaped model",
+        "D": "Waterfall model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Big Bang model starts coding with minimal planning and is suited only to small projects.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

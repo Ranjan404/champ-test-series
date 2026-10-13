@@ -1,0 +1,681 @@
+{
+  "setId": 2,
+  "title": "Daily Set 2",
+  "questions": [
+    {
+      "id": "D02-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Mesh links calculation",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q76",
+      "question": "How many links are required to connect 12 devices in a fully connected mesh network?",
+      "options": {
+        "A": "144",
+        "B": "132",
+        "C": "66",
+        "D": "72",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Links = n(n-1)/2 = 12 x 11 / 2 = 66.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D02-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Inorder rule",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "Inorder traversal visits nodes in which order?",
+      "options": {
+        "A": "Root, Right, Left",
+        "B": "Left, Right, Root",
+        "C": "Left, Root, Right",
+        "D": "Root, Left, Right",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In inorder, the root is visited in between: Left, Root, Right.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Minterms and maxterms",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q240",
+      "question": "For the SOP expression A'BC + AB'C' + AB'C + ABC' + ABC, which gives the correct minterm and maxterm lists?",
+      "options": {
+        "A": "Minterms = 1, 3, 5, 6, 7; Maxterms = 0, 2, 4",
+        "B": "Minterms = 0, 1, 3, 6, 7; Maxterms = 2, 4, 5",
+        "C": "Minterms = 3, 4, 5, 6, 7; Maxterms = 0, 1, 2",
+        "D": "Minterms = 1, 2, 4, 6, 7; Maxterms = 0, 3, 5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A'BC = 011 = 3, AB'C' = 100 = 4, AB'C = 101 = 5, ABC' = 110 = 6, ABC = 111 = 7; the remaining 0, 1, 2 are the maxterms.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D02-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Commands",
+      "concept": "netstat command",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q65",
+      "question": "Which command is used to display network statistics?",
+      "options": {
+        "A": "NetInfo",
+        "B": "NetSTATIS",
+        "C": "NetAllStat",
+        "D": "NetStat",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "netstat (network statistics) displays active connections, listening ports, routing tables and interface statistics.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Careless Error",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D02-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "PaaS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "What is the full form of PaaS?",
+      "options": {
+        "A": "Programming as a Service",
+        "B": "Protocol as a Service",
+        "C": "Platform as a Service",
+        "D": "Processing as a Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "PaaS stands for Platform as a Service.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D02-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Types of cardinality",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "How many types of cardinality relationships are there in an ER model (one-to-one, one-to-many, many-to-many)?",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The three cardinality types are one-to-one, one-to-many and many-to-many.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D02-Q07",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Array address calculation",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q195",
+      "question": "If a float occupies 4 bytes and the base address of a float array is 100, what is the address of the 4th element?",
+      "options": {
+        "A": "112",
+        "B": "400",
+        "C": "116",
+        "D": "104",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The 4th element has index 3, so its address = 100 + 3 x 4 = 112.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D02-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "Equi join is inner join",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "An inner join is also known as a:",
+      "options": {
+        "A": "Outer join",
+        "B": "Full join",
+        "C": "Cartesian join",
+        "D": "Simple join or equi join",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Inner join is also called simple join or equi join.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "IaaS provides infrastructure",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p19",
+      "question": "Which cloud model provides basic computing infrastructure such as servers, storage and networking?",
+      "options": {
+        "A": "IaaS",
+        "B": "FaaS",
+        "C": "PaaS",
+        "D": "SaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IaaS (Infrastructure as a Service) offers raw infrastructure and network support, e.g. Amazon Web Services, Rackspace.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Types",
+      "concept": "Network types by size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "Arrange the network types in increasing order of geographic coverage.",
+      "options": {
+        "A": "PAN, LAN, MAN, WAN",
+        "B": "PAN, MAN, LAN, WAN",
+        "C": "LAN, MAN, PAN, WAN",
+        "D": "LAN, PAN, MAN, WAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "PAN (personal) < LAN (building/campus) < MAN (city) < WAN (country/world).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "Starvation in priority",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Which scheduling algorithm is most prone to starvation of low-priority processes?",
+      "options": {
+        "A": "Time-sharing with equal quanta",
+        "B": "FCFS",
+        "C": "Round Robin",
+        "D": "Priority scheduling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In priority scheduling, low-priority processes may wait indefinitely if higher-priority ones keep arriving (solved by aging).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Photoshop is pixel-based",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Adobe Photoshop is primarily based on which type of graphics?",
+      "options": {
+        "A": "ASCII art",
+        "B": "Raster (pixel-based)",
+        "C": "3-D wireframe",
+        "D": "Vector (path-based)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Photoshop edits pixel-based (raster) images, whereas Illustrator and CorelDRAW are vector tools.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "ALU executes instructions",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q73",
+      "question": "In which part of a computer system does the actual execution of arithmetic and logical instructions take place during processing?",
+      "options": {
+        "A": "ALU",
+        "B": "RAM",
+        "C": "Control unit",
+        "D": "Registers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Arithmetic Logic Unit carries out the actual arithmetic and logical operations; the control unit only directs and coordinates the execution.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gate Characteristics",
+      "concept": "Propagation delay",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q260",
+      "question": "The time required for a gate or inverter to change its output state after its input changes is called:",
+      "options": {
+        "A": "Rise time",
+        "B": "Propagation time",
+        "C": "Decay time",
+        "D": "Charging time",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Propagation time (propagation delay) is the delay between an input change and the resulting output change of a gate. Rise time is only the 10%-90% transition of a signal edge.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D02-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Composite key",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "A primary key made up of two or more attributes is called a:",
+      "options": {
+        "A": "Composite key",
+        "B": "Super key",
+        "C": "Alternate key",
+        "D": "Foreign key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A composite key combines multiple columns to uniquely identify a row.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Mesh topology link count",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q9",
+      "question": "How many links are needed in a fully connected mesh network of n nodes?",
+      "options": {
+        "A": "n(n+1)/2",
+        "B": "n-1",
+        "C": "n",
+        "D": "n(n-1)/2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Every pair of nodes needs a dedicated link, so the number of links is nC2 = n(n-1)/2.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D02-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "Control level",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "Among the cloud service models, which one gives the user the MOST control over the computing resources?",
+      "options": {
+        "A": "PaaS",
+        "B": "Equal control in all three",
+        "C": "SaaS",
+        "D": "IaaS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IaaS sits at the base of the pyramid: users manage OS, middleware and applications themselves, so they get the most control.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Vector software",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Which pair of software is used to create vector graphics?",
+      "options": {
+        "A": "VLC and Windows Media Player",
+        "B": "Adobe Illustrator and CorelDRAW",
+        "C": "MS Word and Notepad",
+        "D": "Adobe Photoshop and MS Paint",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Adobe Illustrator and CorelDRAW are vector drawing programs; Photoshop and Paint are pixel based.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Balanced Trees",
+      "concept": "AVL tree balance factor",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q278",
+      "question": "Which tree obeys the binary search tree property and also keeps a balance factor of -1, 0 or +1 at every node?",
+      "options": {
+        "A": "AVL tree",
+        "B": "Extended binary tree",
+        "C": "Red-black tree",
+        "D": "B-tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An AVL tree is a self-balancing BST where the balance factor (left height minus right height) of every node is -1, 0 or +1. Red-black trees balance using node colours instead.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "Intel 8008 fabrication technology",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q2",
+      "question": "Which technology was used by Intel to design its first 8-bit microprocessor (the 8008)?",
+      "options": {
+        "A": "NMOS",
+        "B": "TTL",
+        "C": "PMOS",
+        "D": "HMOS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Intel's first 8-bit microprocessor, the 8008 (1972), was fabricated using PMOS technology; NMOS came with the 8080 and HMOS later.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D02-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "OS Functions",
+      "concept": "OS function list",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "Which of the following is NOT a function of an operating system?",
+      "options": {
+        "A": "File management",
+        "B": "Device management",
+        "C": "Spell checking of documents",
+        "D": "Memory management",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Spell checking is a feature of application software such as word processors; memory, file and device management are OS functions.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D02-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Integration testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Testing that combined modules work correctly together is called:",
+      "options": {
+        "A": "Integration testing",
+        "B": "Alpha testing",
+        "C": "Accessibility testing",
+        "D": "Unit testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Integration testing tests a collection of modules together to find interface defects.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D02-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Arrays in C",
+      "concept": "Array size",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q140",
+      "question": "Assuming int is 4 bytes, what is the size of int arr[15]; ?",
+      "options": {
+        "A": "11",
+        "B": "15",
+        "C": "19",
+        "D": "60",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Size = number of elements x element size = 15 x 4 = 60 bytes.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Question Misread",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D02-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "Match keyword purpose",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "Which keyword-purpose pair is correctly matched?",
+      "options": {
+        "A": "del: defines a class",
+        "B": "try: begins a block to handle exceptions",
+        "C": "for: defines a function",
+        "D": "import: exits a loop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "try starts an exception-handling block used with except; the other pairs are mismatched.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D02-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "SOP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "SOP stands for:",
+      "options": {
+        "A": "Sum of Parities",
+        "B": "Sum of Products",
+        "C": "Sequence of Programs",
+        "D": "Set of Products",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SOP = Sum of Products: AND terms joined by OR, e.g., AB + AB'C.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    }
+  ]
+}

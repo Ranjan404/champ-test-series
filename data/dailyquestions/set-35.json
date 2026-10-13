@@ -1,0 +1,681 @@
+{
+  "setId": 35,
+  "title": "Daily Set 35",
+  "questions": [
+    {
+      "id": "D35-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "Join types",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q230",
+      "question": "Which of the following is NOT a type of SQL join?",
+      "options": {
+        "A": "Inner join",
+        "B": "Full outer join",
+        "C": "Partial join",
+        "D": "Left outer join",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SQL supports inner, left/right/full outer, cross and self joins; there is no \"partial join\".",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D35-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "Fourth-generation microprocessors",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q155",
+      "question": "According to the usual generation-wise classification, fourth-generation microprocessors are ______ microprocessors.",
+      "options": {
+        "A": "8-bit",
+        "B": "16-bit",
+        "C": "32-bit",
+        "D": "4-bit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Generations: 1st 4-bit, 2nd 8-bit, 3rd 16-bit, 4th 32-bit (e.g. Intel 80386), 5th 64-bit.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D35-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Time Complexity",
+      "concept": "Sorting cases",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Which of the following is NOT one of the three cases used to analyse sorting algorithms?",
+      "options": {
+        "A": "Best case",
+        "B": "Random case",
+        "C": "Worst case",
+        "D": "Average case",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Algorithms are analysed for the best case, average case and worst case.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D35-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "Canonical form identification",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p7",
+      "question": "Which of the following Boolean functions of A, B, C is in canonical form?",
+      "options": {
+        "A": "F = ABC + A'BC + AB'C'",
+        "B": "F = AB + C",
+        "C": "F = AB + BC + AC",
+        "D": "F = A + BC",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In canonical form each term contains every variable (A, B and C) in true or complemented form; only ABC + A'BC + AB'C' satisfies this.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Subnetting",
+      "concept": "Hosts per subnet",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q217",
+      "question": "How many usable hosts can be configured in a subnet with mask 255.255.255.240?",
+      "options": {
+        "A": "14",
+        "B": "2",
+        "C": "30",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "255.255.255.240 is /28, leaving 4 host bits: 2^4 - 2 = 14 usable hosts.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D35-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Back-end tasks",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Database interactions, user authentication and server configuration are responsibilities of:",
+      "options": {
+        "A": "Front-end development",
+        "B": "Back-end development",
+        "C": "Graphic design",
+        "D": "SEO only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "These server-side tasks belong to back-end development.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D35-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Software Types",
+      "concept": "OS is system software",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p47",
+      "question": "An operating system is an example of:",
+      "options": {
+        "A": "System software",
+        "B": "Multimedia software",
+        "C": "Application software",
+        "D": "Utility hardware",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The operating system is the core system software that manages hardware and provides services to applications.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Port Numbers",
+      "concept": "HTTP port",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "What is the default port number of HTTP?",
+      "options": {
+        "A": "21",
+        "B": "80",
+        "C": "25",
+        "D": "443",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HTTP uses port 80; HTTPS uses 443, SMTP 25 and FTP control 21.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XOR other name",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "The XOR gate is also called:",
+      "options": {
+        "A": "Inverted OR gate",
+        "B": "Extended OR gate",
+        "C": "Exclusive OR (Ex-OR) gate",
+        "D": "Inclusive OR gate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "XOR stands for Exclusive OR and is also written Ex-OR.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Effects",
+      "concept": "Warping definition",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "In multimedia, the distortion of one static image to produce another static image is called:",
+      "options": {
+        "A": "Warping",
+        "B": "Dithering",
+        "C": "Rendering",
+        "D": "Morphing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Warping digitally manipulates (distorts or stretches) a single static image to produce another static image.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "Hybrid cloud",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p41",
+      "question": "A hybrid cloud is best described as:",
+      "options": {
+        "A": "A combination of public and private clouds",
+        "B": "A cloud that offers only software services",
+        "C": "A cloud with no internet connectivity",
+        "D": "A cloud used only by the government",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A hybrid cloud combines public and private cloud environments.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Types of queue",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q108",
+      "question": "How many different types of queue are commonly identified (simple, circular, priority and double-ended)?",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "2",
+        "D": "4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The four common types are simple (linear) queue, circular queue, priority queue and deque (double-ended queue).",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "D35-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "Round robin time quantum",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Which CPU scheduling algorithm gives each process a fixed time quantum in cyclic order?",
+      "options": {
+        "A": "FCFS",
+        "B": "Round Robin",
+        "C": "SJF",
+        "D": "Priority",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Round Robin allocates a fixed time slice to each ready process in turn, making it suitable for time-sharing systems.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Double ellipse multivalued",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "In an ER diagram, a double ellipse represents a:",
+      "options": {
+        "A": "Derived relationship",
+        "B": "Key attribute",
+        "C": "Multivalued attribute",
+        "D": "Weak entity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A double ellipse shows a multivalued attribute, such as a person having several phone numbers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Distributive OR over AND",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "Which form of the distributive law is correct in Boolean algebra?",
+      "options": {
+        "A": "A + (B.C) = A.B + A.C",
+        "B": "A + (B.C) = (A + B) + C",
+        "C": "A.(B + C) = (A.B).(A.C)",
+        "D": "A + (B.C) = (A + B).(A + C)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Boolean algebra has two distributive laws: A.(B + C) = AB + AC and A + BC = (A + B)(A + C).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D35-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Not sequence",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which of the following is NOT a sequence type in Python?",
+      "options": {
+        "A": "Tuple",
+        "B": "Set",
+        "C": "String",
+        "D": "List",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A set is unordered and does not support indexing, so it is not a sequence type.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D35-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Primary key rules",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q162",
+      "question": "Which statement about the primary key of a table is correct?",
+      "options": {
+        "A": "A table can have only one primary key, which may consist of one or more fields, and it cannot contain NULL values",
+        "B": "Primary key columns can contain NULL values",
+        "C": "A table can have several primary keys",
+        "D": "Primary key values may be duplicated",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A primary key must be unique and NOT NULL, and each table has only one primary key (possibly composite).",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D35-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Languages",
+      "concept": "Popular AI language",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "Which language is currently the most widely used for AI and machine learning work?",
+      "options": {
+        "A": "SQL",
+        "B": "HTML",
+        "C": "Assembly",
+        "D": "Python",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Python, with libraries like TensorFlow and scikit-learn, is the most popular language for AI.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D35-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Gateway",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q100",
+      "question": "Which device is used to connect two systems, especially when they use different protocols?",
+      "options": {
+        "A": "Hub",
+        "B": "Repeater",
+        "C": "Gateway",
+        "D": "Bridge",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A gateway performs protocol conversion so networks using different protocols can communicate.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "COCOMO is estimation",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "COCOMO is mainly used for:",
+      "options": {
+        "A": "Database normalisation",
+        "B": "Network routing",
+        "C": "GUI design",
+        "D": "Software cost and effort estimation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "COCOMO (Constructive Cost Model, Barry Boehm) estimates software effort, cost and schedule from project size (KLOC).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q21",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Data Types",
+      "concept": "int range",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "What is the correct range of the Java int data type?",
+      "options": {
+        "A": "-32,768 to 32,767",
+        "B": "-2,147,483,647 to 2,147,483,648",
+        "C": "0 to 4,294,967,295",
+        "D": "-2,147,483,648 to 2,147,483,647",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "int is a 32-bit signed integer, so its range is -2^31 to 2^31 - 1 = -2,147,483,648 to 2,147,483,647.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "Control unit function",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q129",
+      "question": "What is the function of the Control Unit in the CPU?",
+      "options": {
+        "A": "To decode program instructions",
+        "B": "To perform arithmetic and logical operations",
+        "C": "To transfer data to primary storage",
+        "D": "To store program instructions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The control unit fetches and decodes instructions and generates control signals; the ALU performs arithmetic and logic.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Front-end focus",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Front-end web development mainly deals with:",
+      "options": {
+        "A": "Server and hosting configuration",
+        "B": "User authentication logic on the server",
+        "C": "Database interactions",
+        "D": "The look and feel of a website that users interact with",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Front-end development builds the visible part of a site: layout, design, responsiveness.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "OS Types",
+      "concept": "RTOS example",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p48",
+      "question": "Which device typically uses a Real-Time Operating System (embedded OS)?",
+      "options": {
+        "A": "Web server farm",
+        "B": "Network router",
+        "C": "Office desktop PC",
+        "D": "Spreadsheet workstation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Routers, fax machines, printers, scanners and robots use real-time/embedded operating systems.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D35-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Types",
+      "concept": "Primitive data structures",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q144",
+      "question": "Integer, float, character and boolean come under which category of data structures?",
+      "options": {
+        "A": "Non-primitive",
+        "B": "Non-linear",
+        "C": "Primitive",
+        "D": "Linear",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Primitive data structures are the basic built-in types directly operated on by machine instructions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

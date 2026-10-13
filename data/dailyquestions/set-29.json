@@ -1,0 +1,681 @@
+{
+  "setId": 29,
+  "title": "Daily Set 29",
+  "questions": [
+    {
+      "id": "D29-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary to Octal",
+      "concept": "Grouping direction",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "To convert a binary integer into octal, bits are grouped in sets of three starting from the:",
+      "options": {
+        "A": "Bit with the largest weight only",
+        "B": "Middle of the number",
+        "C": "Leftmost (most significant) bit",
+        "D": "Rightmost (least significant) bit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Grouping starts at the right (LSB) for the integer part; extra zeros are added on the left if needed.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D29-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Preorder numeric tree",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "A tree has root 1 with left child 2 and right child 3. Node 2 has children 4 and 5; node 3 has only a right child 6. What is the preorder traversal?",
+      "options": {
+        "A": "1 2 3 4 5 6",
+        "B": "4 5 2 6 3 1",
+        "C": "4 2 5 1 3 6",
+        "D": "1 2 4 5 3 6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Root, Left, Right: 1, then left subtree 2 4 5, then right subtree 3 6.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Router essential for WAN",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q273",
+      "question": "Which of the following devices is essential for WAN connectivity?",
+      "options": {
+        "A": "Bridge",
+        "B": "Switch",
+        "C": "Router",
+        "D": "Firewall",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A WAN joins separate networks, and routers forward packets between networks using IP addresses. Bridges and switches work within a LAN.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "Aggregate vs scalar identification",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "Which of the following is an aggregate function in SQL?",
+      "options": {
+        "A": "UCASE()",
+        "B": "NOW()",
+        "C": "LEN()",
+        "D": "AVG()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "AVG() is an aggregate function; UCASE, LEN and NOW are scalar functions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Generations",
+      "concept": "Fourth generation microprocessor",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "The microprocessor, based on VLSI (Very Large Scale Integration), is the defining hardware of which generation?",
+      "options": {
+        "A": "Fourth",
+        "B": "Third",
+        "C": "Fifth",
+        "D": "Second",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Fourth-generation computers (around 1978-89) used VLSI-based microprocessors.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D29-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "Universal gates",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q301",
+      "question": "Which of the following are known as universal gates?",
+      "options": {
+        "A": "AND and OR",
+        "B": "XOR and OR",
+        "C": "NAND and NOR",
+        "D": "NOT and XOR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NAND and NOR are universal because any Boolean function (and every other gate) can be built using only NAND gates or only NOR gates.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Time Complexity",
+      "concept": "Omega lower bound",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p35",
+      "question": "Which asymptotic notation represents the lower bound?",
+      "options": {
+        "A": "Little-o (o)",
+        "B": "Omega (Ω)",
+        "C": "Big-O (O)",
+        "D": "Theta (Θ)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Omega notation describes the lower bound on the growth of a function.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Weak entity symbol",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "How is a weak entity shown in an ER diagram?",
+      "options": {
+        "A": "Single diamond",
+        "B": "Double rectangle",
+        "C": "Dashed ellipse",
+        "D": "Double ellipse",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A weak entity is drawn as a double rectangle; its identifying relationship is a double diamond.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Adders",
+      "concept": "Half adder gates",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p9",
+      "question": "A half adder is built using which gates?",
+      "options": {
+        "A": "OR and NOT",
+        "B": "Two XOR gates and an OR gate",
+        "C": "XOR and AND",
+        "D": "NAND and NOR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A half adder uses an XOR gate for the sum and an AND gate for the carry.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Not back-end language",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "Which of the following is NOT a back-end (server-side) language?",
+      "options": {
+        "A": "CSS",
+        "B": "Golang",
+        "C": "Ruby",
+        "D": "PHP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "CSS is a style sheet language for presentation; PHP, Ruby and Golang are server-side languages.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Recommendation systems use ML",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q264",
+      "question": "Google's personalized recommendations (such as YouTube video suggestions) are mainly generated using which technique?",
+      "options": {
+        "A": "Machine learning",
+        "B": "Compiler optimization",
+        "C": "Disk defragmentation",
+        "D": "Data warehousing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Recommendation systems use machine learning models trained on user behaviour to predict what a user is likely to want next.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "RAM characteristics",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q160",
+      "question": "RAM is ______ and ______.",
+      "options": {
+        "A": "Volatile, permanent",
+        "B": "Volatile, temporary",
+        "C": "Non-volatile, temporary",
+        "D": "Non-volatile, permanent",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RAM loses its data without power (volatile) and holds data only temporarily while programs run.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D29-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Layers whose PDU is data",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "In the OSI model, the PDU is simply called 'Data' at which group of layers?",
+      "options": {
+        "A": "Application, Presentation and Session",
+        "B": "Transport, Network and Data Link",
+        "C": "Physical, Data Link and Network",
+        "D": "Session, Transport and Network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The three upper layers (Application, Presentation, Session) work with data; segments, packets, frames and bits belong to the lower four layers.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Raster and Vector Graphics",
+      "concept": "Raster vs vector statement",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p29",
+      "question": "Which statement is correct?",
+      "options": {
+        "A": "Raster images are defined by mathematical equations",
+        "B": "Raster and vector images lose quality equally on enlargement",
+        "C": "Enlarging a vector image makes it look blocky, while a raster image stays smooth",
+        "D": "Enlarging a raster image too much makes it look blocky, while a vector image stays smooth",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Raster images have a fixed number of pixels, so enlarging them shows individual squares; vector images are recomputed from equations and stay smooth.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Comments",
+      "concept": "Number of comment types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "How many types of comments does Java support?",
+      "options": {
+        "A": "Three",
+        "B": "Two",
+        "C": "One",
+        "D": "Four",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Java supports three types: single-line (//), multi-line (/* */) and documentation (/** */) comments.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D29-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queues",
+      "concept": "Deque definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q56",
+      "question": "A data structure in which elements can be inserted or deleted at both ends but not in the middle is a:",
+      "options": {
+        "A": "Priority queue",
+        "B": "Queue",
+        "C": "Circular queue",
+        "D": "Deque (double-ended queue)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A deque (double-ended queue) allows insertion and deletion at both the front and the rear, but not in the middle.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Banker's Algorithm",
+      "concept": "Banker's purpose",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "The Banker's algorithm is primarily used for deadlock:",
+      "options": {
+        "A": "Avoidance",
+        "B": "Detection by killing processes",
+        "C": "Ignorance",
+        "D": "Recovery",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Banker's algorithm grants a request only if the system stays in a safe state, so it is a deadlock avoidance algorithm (its safety check is also used in detection).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q18",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Mutability statement",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which statement about Python data types is correct?",
+      "options": {
+        "A": "dict is immutable because its keys are fixed",
+        "B": "str is mutable but tuple is immutable",
+        "C": "set is immutable because it has no duplicates",
+        "D": "bool, int, float, complex, str and tuple are all immutable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The immutable built-in types include bool, int, float, complex, str and tuple; list, dict and set are mutable.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D29-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Geopbyte",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p2",
+      "question": "Which unit is equal to 1024 Brontobytes?",
+      "options": {
+        "A": "Zettabyte",
+        "B": "Geopbyte",
+        "C": "Exabyte",
+        "D": "Yottabyte",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "1 Geopbyte = 1024 Brontobytes = 2^100 bytes; it is the unit that comes after Brontobyte.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "UTP use",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p15",
+      "question": "Which cable is most commonly used for LAN connections?",
+      "options": {
+        "A": "Unshielded Twisted Pair (UTP)",
+        "B": "Coaxial cable",
+        "C": "Undersea fibre cable",
+        "D": "Shielded Twisted Pair (STP)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "UTP is cheap and flexible and is the standard cable for LAN connections.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Networks",
+      "concept": "Sigfox",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q196",
+      "question": "Which global IoT network provider offers low-power wireless networks to connect objects that emit small amounts of data continuously?",
+      "options": {
+        "A": "Wi-Fi",
+        "B": "NFC",
+        "C": "Sigfox",
+        "D": "Bluetooth",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Sigfox is a global LPWAN (low-power wide-area network) operator designed for low-power IoT devices sending small messages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Canonical Forms",
+      "concept": "SOP to POS conversion",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q220",
+      "question": "Convert the SOP expression Y = A'B'C' + A'BC' + A'BC + AB'C + ABC into POS form.",
+      "options": {
+        "A": "(A' + B + C')(A' + B' + C)(A + B' + C')",
+        "B": "(A' + B' + C')(A' + B + C')(A + B + C)",
+        "C": "(A + B + C')(A' + B + C)(A' + B' + C)",
+        "D": "(A + B + C)(A + B' + C')(A + B' + C)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The minterms are 0, 2, 3, 5, 7, so the missing ones are 1, 4, 6. Their maxterms are M1 = A + B + C', M4 = A' + B + C and M6 = A' + B' + C.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D29-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "Aggregate returns single value",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p22",
+      "question": "SQL aggregate functions:",
+      "options": {
+        "A": "Create new tables from existing ones",
+        "B": "Return a single value calculated from the values in a column",
+        "C": "Convert text fields to upper case",
+        "D": "Return one value for each row of the table",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Aggregate functions compute one value from many values in a column, e.g. SUM, AVG.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Accessibility testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "Testing that software can be used by persons with disabilities is called:",
+      "options": {
+        "A": "Sanity testing",
+        "B": "Usability load testing",
+        "C": "Accessibility testing",
+        "D": "Back-end testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Accessibility testing checks that people with disabilities (e.g. visual impairment) can use the software.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D29-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Machine-type mapping",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p45",
+      "question": "Which pairing of machine and Chomsky type is INCORRECT?",
+      "options": {
+        "A": "Linear bounded automaton: Type 1",
+        "B": "Pushdown automaton: Type 3",
+        "C": "Finite automaton: Type 3",
+        "D": "Turing machine: Type 0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A pushdown automaton corresponds to Type 2 (context-free), not Type 3; Type 3 (regular) corresponds to finite automata.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

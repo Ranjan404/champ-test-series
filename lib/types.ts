@@ -84,6 +84,44 @@ export interface Progress {
   unlockedUpTo: number;
   sets: Record<string, SetProgress>;
   history: HistoryEntry[];
+  /** Daily Question tests. Missing in progress saved before the feature existed. */
+  daily?: DailyProgress;
+}
+
+/** Daily Question: one set per day (IST), 25 questions, 25 minutes, unlimited attempts. */
+export const DAILY_QUESTIONS_PER_SET = 25;
+export const DAILY_DURATION_SECONDS = 25 * 60;
+
+/** The daily attempt being written. Answers are saved on Save & Next / Previous / palette jumps. */
+export interface DailyAttempt {
+  /** IST date (YYYY-MM-DD) the attempt was started on. */
+  date: string;
+  setId: number;
+  attemptNo: number;
+  answers: Record<string, OptionKey>;
+  marked: string[];
+  current: number;
+  startedAt: string;
+}
+
+export interface DailyHistoryEntry {
+  date: string;
+  setId: number;
+  attemptNo: number;
+  score: number;
+  correct: number;
+  incorrect: number;
+  notAttempted: number;
+  answers: Record<string, OptionKey>;
+  startedAt: string;
+  submittedAt: string;
+  /** Submitted by the timer rather than the candidate. */
+  timedOut: boolean;
+}
+
+export interface DailyProgress {
+  attempt: DailyAttempt | null;
+  history: DailyHistoryEntry[];
 }
 
 export type AnswerResult = "correct" | "incorrect" | "not_attempted";

@@ -1,0 +1,681 @@
+{
+  "setId": 27,
+  "title": "Daily Set 27",
+  "questions": [
+    {
+      "id": "D27-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Complement law",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "According to the complement law, A.A' equals:",
+      "options": {
+        "A": "A",
+        "B": "0",
+        "C": "1",
+        "D": "A'",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Complement law: A + A' = 1 and A.A' = 0, because a variable and its complement can never both be 1.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Composite attribute",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q200",
+      "question": "Which of the following is a composite attribute?",
+      "options": {
+        "A": "Date of birth",
+        "B": "Age",
+        "C": "Number of dependents",
+        "D": "Gender",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Date of birth can be divided into day, month and year, so it is composite. Age is derived and gender is simple.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D27-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer History",
+      "concept": "Father of the modern computer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Who is regarded as the 'Father of the Modern Computer'?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "Blaise Pascal",
+        "C": "J.P. Eckert",
+        "D": "Herman Hollerith",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Alan Turing, through the concept of the Turing machine, laid the theoretical foundation of modern computing and is called the Father of the Modern Computer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D27-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "Application layer protocol",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p11",
+      "question": "Which of the following is an Application layer protocol?",
+      "options": {
+        "A": "TCP",
+        "B": "SMTP",
+        "C": "PPP",
+        "D": "ARP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) works at the Application layer along with HTTP, FTP, POP and DNS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Sequential Circuits",
+      "concept": "Register made of flip-flops",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q314",
+      "question": "A register is built from a group of:",
+      "options": {
+        "A": "Flip-flops",
+        "B": "Multiplexers",
+        "C": "Decoders",
+        "D": "Encoders",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each flip-flop stores one bit, so an n-bit register is a group of n flip-flops sharing a common clock.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Full binary tree",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q87",
+      "question": "A binary tree in which every node has either zero or two children is called a:",
+      "options": {
+        "A": "Degenerate binary tree",
+        "B": "Perfect binary tree",
+        "C": "Complete binary tree",
+        "D": "Full binary tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A full (strict) binary tree is one where each node has 0 or 2 children; a perfect tree additionally has all leaves at the same level.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessors",
+      "concept": "8086 address bus",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q63",
+      "question": "What is the address bus size of the 8086 microprocessor?",
+      "options": {
+        "A": "8 bits",
+        "B": "4 bits",
+        "C": "20 bits",
+        "D": "16 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The 8086 has a 16-bit data bus but a 20-bit address bus, allowing it to address 2^20 = 1 MB of memory.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Data Science",
+      "concept": "Data mining definition",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q291",
+      "question": "Applying machine learning methods to large databases is called:",
+      "options": {
+        "A": "Data mining",
+        "B": "Artificial intelligence",
+        "C": "Big data computing",
+        "D": "Internet of Things",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Data mining discovers patterns and knowledge in large databases, often using machine learning techniques.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Comments",
+      "concept": "Comment types",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "Which of the following is NOT one of the three types of comments in Python?",
+      "options": {
+        "A": "Docstring comments",
+        "B": "Single-line comments",
+        "C": "Multiple-line comments",
+        "D": "Inline-block comments with /* */",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Python comments are classified as single-line (#), multiple-line (# on each line) and docstring (triple quotes); /* */ belongs to C-style languages.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D27-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Codes",
+      "concept": "Unicode encoding forms",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q90",
+      "question": "Besides UTF-16, which of the following is a standard encoding form of Unicode?",
+      "options": {
+        "A": "UTF-64",
+        "B": "UTF-256",
+        "C": "UTF-32",
+        "D": "UTF-128",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Unicode defines three encoding forms: UTF-8, UTF-16 and UTF-32; UTF-64 and larger do not exist.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D27-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Row is tuple",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p20",
+      "question": "In relational database terminology, a row of a table is called a:",
+      "options": {
+        "A": "Schema",
+        "B": "Attribute",
+        "C": "Tuple",
+        "D": "Domain",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In RDBMS, rows are called tuples and columns are called attributes (fields).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Classification",
+      "concept": "Classification statement",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "Which statement about the classification of data structures is correct?",
+      "options": {
+        "A": "Float and boolean are non-primitive data structures",
+        "B": "Graphs are linear data structures",
+        "C": "Arrays are primitive data structures",
+        "D": "Linked lists and stacks are linear non-primitive data structures",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Non-primitive structures are divided into linear (arrays, linked lists, stacks, queues) and non-linear (trees, graphs). Float and boolean are primitive.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Mesh link count",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "How many dedicated links are needed to connect 6 devices in a fully connected mesh topology?",
+      "options": {
+        "A": "36",
+        "B": "15",
+        "C": "6",
+        "D": "30",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Links = n(n-1)/2 = 6 x 5 / 2 = 15.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D27-Q14",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Protocols",
+      "concept": "RTP vs RTSP",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "Which statement correctly distinguishes RTP and RTSP?",
+      "options": {
+        "A": "RTP and RTSP are used only for sending e-mail with attachments",
+        "B": "RTSP carries media data, while RTP only controls the session",
+        "C": "RTP is used for file downloads and RTSP for web page browsing",
+        "D": "RTP carries real-time media data, while RTSP controls the media session (play, pause, seek)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "RTP transports the actual real-time audio/video (video conferencing, live streaming), whereas RTSP acts like a remote control for streaming sessions.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "D27-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Types",
+      "concept": "Smallest network",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "Which type of network covers the smallest area, such as devices around one person?",
+      "options": {
+        "A": "PAN",
+        "B": "LAN",
+        "C": "MAN",
+        "D": "WAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A Personal Area Network (PAN) spans a few metres around an individual; LAN, MAN and WAN cover progressively larger areas.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Languages",
+      "concept": "LISP full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p31",
+      "question": "The AI language LISP stands for:",
+      "options": {
+        "A": "Language for Intelligent Systems Programming",
+        "B": "Logical Instruction Set Programming",
+        "C": "List Processing",
+        "D": "Linked Integer Search Program",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "LISP stands for List Processing; it was developed by John McCarthy and is one of the oldest AI languages.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D27-Q17",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Rule 3 null values",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Which of Codd's rules deals with the systematic treatment of NULL values?",
+      "options": {
+        "A": "Rule 3",
+        "B": "Rule 10",
+        "C": "Rule 6",
+        "D": "Rule 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Rule 3 is Systematic Treatment of Null Values.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D27-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Payment Terms",
+      "concept": "ECS",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p37",
+      "question": "In banking, what does ECS stand for?",
+      "options": {
+        "A": "Electronic Credit Scheme",
+        "B": "Encrypted Card Security",
+        "C": "Electric Cash Settlement",
+        "D": "Electronic Clearing System",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ECS is the Electronic Clearing System (Service), used for bulk repetitive payments such as salary or EMI.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D27-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Storage Devices",
+      "concept": "Pen drive names",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q96",
+      "question": "Which of the following is NOT another name for a pen drive?",
+      "options": {
+        "A": "Data stick",
+        "B": "Flash drive",
+        "C": "Thumb drive",
+        "D": "Hard disk drive",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A pen drive is a USB flash memory device also called a flash drive, thumb drive or data stick; a hard disk drive is magnetic storage.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "D27-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Every regular is CFL",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p46",
+      "question": "Which statement about the Chomsky hierarchy is correct?",
+      "options": {
+        "A": "Every context-free language is regular",
+        "B": "Every regular language is also context-free",
+        "C": "Context-sensitive languages are a subset of regular languages",
+        "D": "Every recursively enumerable language is context-sensitive",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The classes are nested: Regular is a subset of CFL, which is a subset of CSL, which is a subset of RE. So every regular language is context-free.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D27-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Python Keywords",
+      "concept": "as alias",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p39",
+      "question": "In the statement 'import numpy as np', what is the purpose of the keyword 'as'?",
+      "options": {
+        "A": "To declare a global variable",
+        "B": "To define an anonymous function",
+        "C": "To create an alias",
+        "D": "To import a specific function",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'as' creates an alias, so numpy can be referred to by the shorter name np.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Laws",
+      "concept": "Absorption A+A'B",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p6",
+      "question": "Using the absorption law, A + A'B simplifies to:",
+      "options": {
+        "A": "B",
+        "B": "A + B",
+        "C": "A",
+        "D": "AB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A + A'B = (A + A')(A + B) = 1.(A + B) = A + B.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "D27-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "C++ designer",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p25",
+      "question": "C++ was designed by:",
+      "options": {
+        "A": "James Gosling",
+        "B": "Bjarne Stroustrup",
+        "C": "Dennis Ritchie",
+        "D": "Guido van Rossum",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bjarne Stroustrup created C++; Dennis Ritchie created C and James Gosling created Java.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D27-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Circular wait scenario",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p50",
+      "question": "Process P1 holds Resource 1 and waits for Resource 2, while P2 holds Resource 2 and waits for Resource 1. Which deadlock condition does this cycle illustrate?",
+      "options": {
+        "A": "Starvation",
+        "B": "Mutual exclusion",
+        "C": "Circular wait",
+        "D": "No preemption",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A closed chain where each process waits for a resource held by the next is circular wait.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D27-Q25",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Edges in tree",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p33",
+      "question": "A tree contains 10 nodes. How many edges does it have?",
+      "options": {
+        "A": "9",
+        "B": "20",
+        "C": "11",
+        "D": "10",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Every node except the root has exactly one incoming edge from its parent, so a tree with n nodes has n - 1 edges.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    }
+  ]
+}

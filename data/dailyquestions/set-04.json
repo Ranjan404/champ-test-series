@@ -1,0 +1,681 @@
+{
+  "setId": 4,
+  "title": "Daily Set 4",
+  "questions": [
+    {
+      "id": "D04-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Internet Connections",
+      "concept": "DSL full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p13",
+      "question": "DSL, a broadband connection technology, stands for:",
+      "options": {
+        "A": "Data Service Link",
+        "B": "Digital Subscriber Line",
+        "C": "Digital Signal Loop",
+        "D": "Direct Subscriber Link",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DSL means Digital Subscriber Line; it provides broadband over telephone wires and is much faster than dial-up.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Hexadecimal to Decimal",
+      "concept": "5AD to decimal",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p4",
+      "question": "What is (5AD)16 in decimal?",
+      "options": {
+        "A": "1197",
+        "B": "1461",
+        "C": "1453",
+        "D": "1450",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "5 x 256 + 10 x 16 + 13 = 1280 + 160 + 13 = 1453.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D04-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Preorder BST sequence",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p34",
+      "question": "A tree has root 40 with children 30 and 50. Node 30 has children 25 and 35, and 25 has children 15 and 28. Node 50 has children 45 and 60, and 60 has children 55 and 70. What is the preorder traversal?",
+      "options": {
+        "A": "15 25 28 30 35 40 45 50 55 60 70",
+        "B": "15 28 25 35 30 45 55 70 60 50 40",
+        "C": "40 30 25 15 28 35 50 45 60 55 70",
+        "D": "40 30 50 25 35 45 60 15 28 55 70",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Preorder visits Root, Left, Right recursively. The inorder of this BST would be sorted, the postorder ends with 40, and the last option is level order.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Languages",
+      "concept": "Languages used for AI",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q270",
+      "question": "Which of the following languages is NOT commonly used for AI development?",
+      "options": {
+        "A": "Perl",
+        "B": "Python",
+        "C": "LISP",
+        "D": "PROLOG",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "PROLOG and LISP are classic AI languages and Python dominates modern AI. Perl is mainly a text-processing and scripting language.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "Physical Layer",
+      "concept": "ISDN full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p10",
+      "question": "ISDN, a technology associated with the Physical layer, stands for:",
+      "options": {
+        "A": "Integrated System Data Node",
+        "B": "Internal Switched Data Network",
+        "C": "International Standard Digital Network",
+        "D": "Integrated Services Digital Network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ISDN means Integrated Services Digital Network, a set of standards for digital transmission over telephone lines.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "BCNF full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p23",
+      "question": "BCNF stands for:",
+      "options": {
+        "A": "Binary Coded Normal Form",
+        "B": "Basic Codd Normal Form",
+        "C": "Boyce-Codd Normal Form",
+        "D": "Boyce-Chen Normal Form",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "BCNF is Boyce-Codd Normal Form, named after Raymond Boyce and Edgar F. Codd.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Bus multipoint",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "Which topology uses a single backbone cable with a multipoint connection and terminators at both ends?",
+      "options": {
+        "A": "Ring",
+        "B": "Star",
+        "C": "Mesh",
+        "D": "Bus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Bus topology connects all nodes to one shared backbone cable (multipoint), with terminators at the ends; fault tolerance is difficult.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Codd rules count",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Codd's 12 rules are numbered from Rule 0 to Rule 12. How many rules are there in total?",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Numbering from 0 to 12 gives 13 rules; Rule 0 is the Foundation Rule.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Question Misread",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "D04-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Cache Memory",
+      "concept": "Cache hit",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q274",
+      "question": "When the data requested by the CPU is found in the cache memory, it is called a:",
+      "options": {
+        "A": "Hit",
+        "B": "Found",
+        "C": "Error",
+        "D": "Miss",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A cache hit happens when the requested data is in the cache; a miss happens when it must be fetched from a lower level.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D04-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Architecture",
+      "concept": "Open IoT architecture elements",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q126",
+      "question": "How many elements are there in the open IoT architecture?",
+      "options": {
+        "A": "Four elements",
+        "B": "Six elements",
+        "C": "Seven elements",
+        "D": "Five elements",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The open IoT reference architecture is described as having seven elements (layers) from devices up to applications.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "OR truth table",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p5",
+      "question": "For a 2-input OR gate, the output is 0 for which input combination?",
+      "options": {
+        "A": "A=1, B=1",
+        "B": "A=0, B=0",
+        "C": "A=1, B=0",
+        "D": "A=0, B=1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "OR (Q = A + B) is 1 if any input is 1, so it is 0 only when both inputs are 0.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "h1 size",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p42",
+      "question": "With the default 16px base font, what is the default font size of an <h1> heading?",
+      "options": {
+        "A": "32px",
+        "B": "48px",
+        "C": "16px",
+        "D": "24px",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "<h1> is 2em by default, i.e. 32px with a 16px base.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design Paradigms",
+      "concept": "Dijkstra is greedy",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q317",
+      "question": "Dijkstra's algorithm is a prime example of which approach?",
+      "options": {
+        "A": "Dynamic programming",
+        "B": "Backtracking",
+        "C": "Greedy algorithm",
+        "D": "Branch and bound",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Dijkstra's algorithm always picks the unvisited vertex with the smallest tentative distance, a locally optimal (greedy) choice.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Threads",
+      "concept": "Thread lightweight process",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "A thread is also called a:",
+      "options": {
+        "A": "Kernel module",
+        "B": "Lightweight process",
+        "C": "Heavyweight process",
+        "D": "Daemon file",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A thread is called a lightweight process because threads of a process share its code, data and resources.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Comments",
+      "concept": "Multi-line comment",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p40",
+      "question": "How is a multiple-line comment typically written in Python using comment symbols?",
+      "options": {
+        "A": "By using <!-- and -->",
+        "B": "By placing # at the start of each line",
+        "C": "By starting the block with //",
+        "D": "By enclosing lines in /* and */",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python has no block-comment token like /* */; multiple lines are commented by prefixing each with #.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Threads",
+      "concept": "MS Word multithreading",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p49",
+      "question": "In MS Word, spell checking, auto-saving and text styling happen at the same time within one running application. This is an example of:",
+      "options": {
+        "A": "Multithreading",
+        "B": "Spooling",
+        "C": "Batch processing",
+        "D": "Multiprogramming of separate processes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "One process (the running Word application) has multiple threads (spell check, saving, styling) executing concurrently: multithreading.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Codd's Rules",
+      "concept": "Codd rule 7 high level",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p24",
+      "question": "Which Codd's rule requires high-level insert, update and delete operations on sets of rows?",
+      "options": {
+        "A": "Rule 7",
+        "B": "Rule 5",
+        "C": "Rule 10",
+        "D": "Rule 2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Rule 7 is the Relational Level Operation (high-level insert, update and delete) rule.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Classification",
+      "concept": "Primitive data structure",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p32",
+      "question": "Which of the following is a primitive data structure?",
+      "options": {
+        "A": "Stack",
+        "B": "Integer",
+        "C": "Array",
+        "D": "Tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Primitive data structures are basic types such as integer, character, float and boolean; arrays, stacks and trees are non-primitive.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Types",
+      "concept": "MAN full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p14",
+      "question": "MAN stands for:",
+      "options": {
+        "A": "Municipal Access Network",
+        "B": "Main Area Network",
+        "C": "Multiple Access Network",
+        "D": "Metropolitan Area Network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MAN is a Metropolitan Area Network covering a city; the others are LAN, WAN and PAN.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer History",
+      "concept": "Match pioneers",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p1",
+      "question": "Which pairing of pioneer and contribution is INCORRECT?",
+      "options": {
+        "A": "Alan Turing : Basic architecture of the computer",
+        "B": "Eckert and Mauchly : ENIAC",
+        "C": "Ada Lovelace : First programmer",
+        "D": "Charles Babbage : Father of the Computer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The basic (stored-program) architecture of the computer is credited to John Von Neumann, not Alan Turing; Turing is called the Father of the Modern Computer.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "D04-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "White box testing",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p51",
+      "question": "White box testing is also known as:",
+      "options": {
+        "A": "Beta testing",
+        "B": "Behavioural testing",
+        "C": "Closed box testing",
+        "D": "Glass box (clear box) testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In white box (glass/clear box) testing, the code is visible to the tester, who tests internal paths and logic.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "MQTT purpose",
+      "source": "Generated",
+      "sourceRef": "MARATHON_328#Q93",
+      "question": "What is MQTT primarily used for?",
+      "options": {
+        "A": "High-definition video streaming",
+        "B": "User-to-user chat",
+        "C": "System file transfer",
+        "D": "Machine-to-machine communication",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MQTT is a lightweight publish/subscribe messaging protocol designed for machine-to-machine (M2M) and IoT communication.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Access Specifiers",
+      "concept": "Protected members",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p26",
+      "question": "Which access specifier allows members to be accessed by derived classes but not by outside code?",
+      "options": {
+        "A": "public",
+        "B": "protected",
+        "C": "private",
+        "D": "friend",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Protected members are accessible inside the class and its derived classes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "D04-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Character Encoding",
+      "concept": "ASCII full form",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p27",
+      "question": "ASCII stands for:",
+      "options": {
+        "A": "American Simple Code for Information Interchange",
+        "B": "American Standard Code for Internal Information",
+        "C": "Advanced Standard Code for Information Interchange",
+        "D": "American Standard Code for Information Interchange",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ASCII is the American Standard Code for Information Interchange.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "D04-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Protocols",
+      "concept": "RTP application",
+      "source": "Generated",
+      "sourceRef": "STET_NOTES#p28",
+      "question": "A school conducts live online classes over Zoom. Which protocol is chiefly responsible for transporting the real-time audio and video?",
+      "options": {
+        "A": "RTP",
+        "B": "FTP",
+        "C": "POP3",
+        "D": "Telnet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Video conferencing and live streaming apps like Zoom and Skype use RTP (Real-Time Transport Protocol) to deliver real-time media.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}
