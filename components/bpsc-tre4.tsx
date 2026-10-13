@@ -40,6 +40,8 @@ function save(v: Saved | null) {
   }
 }
 
+const CLIENT_TIMEOUT_MS = 130_000;
+
 export function BpscTre4() {
   const [topic, setTopic] = useState<BpscTopicId>("full");
   const [count, setCount] = useState<BpscCount>(25);
@@ -75,6 +77,8 @@ export function BpscTre4() {
     setError(null);
     const ctrl = new AbortController();
     abortRef.current = ctrl;
+    // The route answers within its 120 s maxDuration; never keep the spinner past that if the connection stalls.
+    const timer = setTimeout(() => ctrl.abort(new DOMException("Timed out", "TimeoutError")), CLIENT_TIMEOUT_MS);
     try {
       const res = await fetch("/api/bpsc-test/generate", {
         method: "POST",
@@ -94,8 +98,11 @@ export function BpscTre4() {
       setAttempt((n) => n + 1);
       window.scrollTo({ top: 0 });
     } catch (e) {
-      if ((e as Error).name !== "AbortError") setError("Network error. Check your connection and try again.");
+      const name = (e as Error).name;
+      if (name === "TimeoutError") setError("Generating the test took too long. Try fewer questions or try again.");
+      else if (name !== "AbortError") setError("Network error. Check your connection and try again.");
     } finally {
+      clearTimeout(timer);
       setLoading(false);
       abortRef.current = null;
     }

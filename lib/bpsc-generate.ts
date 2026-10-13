@@ -7,19 +7,31 @@ import {
   type GenerateRequest,
 } from "./bpsc";
 
-// Gemini REST call for BPSC TRE 4.0 question generation. Server-only: reads GEMINI_API_KEY.
+// Gemini REST call for BPSC TRE 4.0 question generation. Server-only: reads GEMINI_API_KEY,
+// GEMINI_MODEL (primary, optional) and GEMINI_FALLBACK_MODEL (used after the primary keeps failing, optional).
 
 /** Older Flash models are closed to new Google accounts; override with GEMINI_MODEL if needed. */
 const DEFAULT_MODEL = "gemini-3.8-flash";
 const API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
-/** Leaves headroom under the route's 60 s maxDuration to answer with a proper JSON error. */
-const TIMEOUT_MS = 52_000;
+/** Cap for one Gemini call: 36 s for 10 questions up to 60 s for 25 (a 25-question Hindi set normally takes 20-40 s).
+ * Under heavy load Gemini can hang instead of answering 503, so a call must not be allowed to eat the whole budget. */
+const attemptTimeoutMs = (count: number) => 20_000 + count * 1_600;
+/** No attempt (or backoff before one) starts unless at least this much of the budget is left. */
+const MIN_ATTEMPT_MS = 15_000;
+/** Retries per model after its first attempt, on temporary errors only and only while the budget allows. */
+const MAX_RETRIES = 2;
+const BACKOFF_BASE_MS = 2_000;
+const BACKOFF_MAX_MS = 8_000;
+/** Used when the caller passes no deadline. */
+const DEFAULT_BUDGET_MS = 50_000;
 
 export class GenerationError extends Error {
   constructor(
     message: string,
     public status: number,
-    public code: "config" | "rate_limited" | "timeout" | "upstream" | "blocked" | "invalid_output",
+    public code: "config" | "rate_limited" | "timeout" | "upstream" | "blocked" | "invalid_output" | "cancelled",
+    /** Seconds the client should wait before retrying, sent as Retry-After. */
+    public retryAfter?: number,
   ) {
     super(message);
   }
@@ -102,14 +114,81 @@ const responseSchema = {
 interface GeminiResponse {
   candidates?: { content?: { parts?: { text?: string }[] }; finishReason?: string }[];
   promptFeedback?: { blockReason?: string };
-  error?: { message?: string; status?: string };
+  error?: { message?: string; status?: string; details?: { "@type"?: string; retryDelay?: string }[] };
 }
 
-export async function generateBpscQuestions(req: GenerateRequest): Promise<BpscQuestion[]> {
-  const key = process.env.GEMINI_API_KEY;
-  if (!key) throw new GenerationError("Question generation is not configured (GEMINI_API_KEY is missing).", 500, "config");
-  const model = process.env.GEMINI_MODEL || DEFAULT_MODEL;
+type FailureCategory =
+  | "timeout"
+  | "network"
+  | "overloaded"
+  | "rate_limited"
+  | "server_error"
+  | "model_unavailable"
+  | "rejected"
+  | "auth"
+  | "blocked"
+  | "invalid_output"
+  | "cancelled";
 
+/** Temporary provider trouble: worth another try on the same model after a backoff. */
+const RETRY_SAME_MODEL = new Set<FailureCategory>(["overloaded", "rate_limited", "server_error", "network"]);
+/** Model-specific trouble: the fallback model may still work. Timeouts skip straight here; a model that is too slow
+ * under load rarely speeds up within seconds, and a second 60 s wait would use up the request. */
+const TRY_FALLBACK = new Set<FailureCategory>([...RETRY_SAME_MODEL, "timeout", "model_unavailable", "rejected"]);
+
+class AttemptFailure extends Error {
+  constructor(
+    public category: FailureCategory,
+    public status: number | null,
+    /** Provider-suggested wait (Retry-After header or RetryInfo), in ms. */
+    public retryAfterMs?: number,
+    /** Set for failures that already have their user-facing error (blocked, invalid output). */
+    public final?: GenerationError,
+  ) {
+    super(category);
+  }
+}
+
+export interface GenerateOptions {
+  /** Epoch ms by which generation must have finished, so the route can still answer before the platform cuts it off. */
+  deadline?: number;
+  /** Aborts in-flight calls and skips further attempts, e.g. when the client disconnects. */
+  signal?: AbortSignal;
+  /** Injected in tests. */
+  sleep?: (ms: number) => Promise<void>;
+  random?: () => number;
+}
+
+function categorize(status: number, message = ""): FailureCategory {
+  if (status === 429) return "rate_limited";
+  if (status === 503) return "overloaded";
+  if (status === 500 || status === 502 || status === 504) return "server_error";
+  if (status === 404) return "model_unavailable";
+  if (status === 401 || status === 403 || (status === 400 && /api key/i.test(message))) return "auth";
+  return "rejected";
+}
+
+function retryAfterMs(res: Response, body: GeminiResponse | null) {
+  const header = Number(res.headers.get("retry-after"));
+  if (Number.isFinite(header) && header > 0) return header * 1000;
+  const delay = body?.error?.details?.find((d) => d["@type"]?.endsWith("RetryInfo"))?.retryDelay;
+  const secs = delay ? parseFloat(delay) : NaN;
+  return Number.isFinite(secs) && secs > 0 ? secs * 1000 : undefined;
+}
+
+/** Exponential backoff with equal jitter (half fixed, half random), never shorter than the provider asks for. */
+function backoffMs(retry: number, random: () => number, providerMs = 0) {
+  const exp = Math.min(BACKOFF_MAX_MS, BACKOFF_BASE_MS * 2 ** (retry - 1));
+  return Math.max(providerMs, Math.round(exp / 2 + (random() * exp) / 2));
+}
+
+function log(fields: Record<string, unknown>) {
+  const line = JSON.stringify({ event: "bpsc_generate", ...fields });
+  if (fields.outcome === "success") console.info(line);
+  else console.warn(line);
+}
+
+function generationConfigFor(model: string) {
   const generationConfig: Record<string, unknown> = {
     responseMimeType: "application/json",
     responseSchema,
@@ -120,8 +199,19 @@ export async function generateBpscQuestions(req: GenerateRequest): Promise<BpscQ
   if (/^gemini-2\.5-flash/.test(model)) generationConfig.thinkingConfig = { thinkingBudget: 0 };
   // Gemini 3 Flash models take a level instead of a budget; "low" is the lowest 3.8 Flash accepts.
   else if (/^gemini-3(\.\d+)?-flash/.test(model)) generationConfig.thinkingConfig = { thinkingLevel: "low" };
+  return generationConfig;
+}
 
+/** One Gemini call. Resolves with validated questions or throws an AttemptFailure. */
+async function attemptGeneration(
+  model: string,
+  key: string,
+  req: GenerateRequest,
+  timeoutMs: number,
+  signal?: AbortSignal,
+): Promise<BpscQuestion[]> {
   let res: Response;
+  let body: GeminiResponse | null;
   try {
     res = await fetch(`${API_BASE}/${encodeURIComponent(model)}:generateContent`, {
       method: "POST",
@@ -129,42 +219,133 @@ export async function generateBpscQuestions(req: GenerateRequest): Promise<BpscQ
       body: JSON.stringify({
         systemInstruction: { parts: [{ text: systemPrompt() }] },
         contents: [{ role: "user", parts: [{ text: userPrompt(req) }] }],
-        generationConfig,
+        generationConfig: generationConfigFor(model),
       }),
-      signal: AbortSignal.timeout(TIMEOUT_MS),
+      signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(timeoutMs)]) : AbortSignal.timeout(timeoutMs),
       cache: "no-store",
     });
+    // Read the body under the same signal: a stalled stream must time out too.
+    const raw = await res.text();
+    try {
+      body = JSON.parse(raw) as GeminiResponse;
+    } catch {
+      body = null;
+    }
   } catch (e) {
-    if (e instanceof DOMException && (e.name === "TimeoutError" || e.name === "AbortError")) {
-      throw new GenerationError("Generating the test took too long. Try fewer questions or try again.", 504, "timeout");
-    }
-    throw new GenerationError("Could not reach the question generator. Check your connection and try again.", 502, "upstream");
+    if (signal?.aborted) throw new AttemptFailure("cancelled", null);
+    const name = (e as Error)?.name;
+    throw new AttemptFailure(name === "TimeoutError" || name === "AbortError" ? "timeout" : "network", null);
   }
 
-  const body = (await res.json().catch(() => null)) as GeminiResponse | null;
-  if (!res.ok) {
-    console.error(`Gemini ${model} ${res.status}:`, body?.error?.message);
-    if (res.status === 429) {
-      throw new GenerationError("The AI question generator is busy (rate limit reached). Wait a minute and try again.", 429, "rate_limited");
-    }
-    if (res.status === 503 || res.status === 500) {
-      throw new GenerationError("The AI question generator is temporarily unavailable. Try again shortly.", 503, "upstream");
-    }
-    if (res.status === 504) throw new GenerationError("Generating the test took too long. Try again.", 504, "timeout");
-    throw new GenerationError("The question generator rejected the request. Contact support if this keeps happening.", 502, "upstream");
-  }
+  if (!res.ok) throw new AttemptFailure(categorize(res.status, body?.error?.message), res.status, retryAfterMs(res, body));
 
+  const invalid = (err: GenerationError, category: FailureCategory = "invalid_output") =>
+    new AttemptFailure(category, res.status, undefined, err);
   if (body?.promptFeedback?.blockReason) {
-    throw new GenerationError("The generator declined this request. Try a different topic.", 502, "blocked");
+    throw invalid(new GenerationError("The generator declined this request. Try a different topic.", 502, "blocked"), "blocked");
   }
   const candidate = body?.candidates?.[0];
   const text = candidate?.content?.parts?.map((p) => p.text ?? "").join("") ?? "";
-  if (!text) throw new GenerationError("The generator returned an empty response. Try again.", 502, "invalid_output");
+  if (!text) throw invalid(new GenerationError("The generator returned an empty response. Try again.", 502, "invalid_output"));
   if (candidate?.finishReason === "MAX_TOKENS") {
-    throw new GenerationError("The generated test was cut off. Try fewer questions.", 502, "invalid_output");
+    throw invalid(new GenerationError("The generated test was cut off. Try fewer questions.", 502, "invalid_output"));
+  }
+  try {
+    return parseQuestions(text, req.count);
+  } catch (e) {
+    if (e instanceof GenerationError) throw invalid(e);
+    throw e;
+  }
+}
+
+/** The user-facing error for the failure that ended generation. */
+function toGenerationError(f: AttemptFailure | undefined): GenerationError {
+  if (f?.final) return f.final;
+  const retryAfter = f?.retryAfterMs ? Math.ceil(f.retryAfterMs / 1000) : undefined;
+  switch (f?.category) {
+    case "overloaded":
+    case "server_error":
+    case "network":
+      return new GenerationError("The AI question generator is overloaded right now. Please try again in a minute.", 503, "upstream", retryAfter ?? 30);
+    case "rate_limited":
+      return new GenerationError("The AI question generator is busy (rate limit reached). Wait a minute and try again.", 429, "rate_limited", retryAfter ?? 60);
+    case "model_unavailable":
+    case "rejected":
+      return new GenerationError("The question generator rejected the request. Contact support if this keeps happening.", 502, "upstream");
+    case "auth":
+      return new GenerationError("Question generation is not configured correctly (the Gemini API key was rejected).", 500, "config");
+    case "cancelled":
+      return new GenerationError("Generation was cancelled.", 499, "cancelled");
+    default:
+      // Timed out, or the budget ran out before an attempt could start.
+      return new GenerationError("Generating the test took too long. Try fewer questions or try again.", 504, "timeout");
+  }
+}
+
+/**
+ * Generates and validates `req.count` questions. Each model gets up to MAX_RETRIES retries on temporary errors
+ * (503, 429, other 5xx, network) with jittered exponential backoff; if it still fails, GEMINI_FALLBACK_MODEL is tried
+ * under the same policy. Every call and wait fits inside `deadline`, so the caller always gets a result or a
+ * GenerationError in time.
+ */
+export async function generateBpscQuestions(req: GenerateRequest, opts: GenerateOptions = {}): Promise<BpscQuestion[]> {
+  const key = process.env.GEMINI_API_KEY;
+  if (!key) throw new GenerationError("Question generation is not configured (GEMINI_API_KEY is missing).", 500, "config");
+  const primary = process.env.GEMINI_MODEL?.trim() || DEFAULT_MODEL;
+  const fallback = process.env.GEMINI_FALLBACK_MODEL?.trim();
+  const models = fallback && fallback !== primary ? [primary, fallback] : [primary];
+
+  const sleep = opts.sleep ?? ((ms: number) => new Promise<void>((r) => setTimeout(r, ms)));
+  const random = opts.random ?? Math.random;
+  const started = Date.now();
+  const deadline = opts.deadline ?? started + DEFAULT_BUDGET_MS;
+  const failures: AttemptFailure[] = [];
+  let attempt = 0;
+
+  for (const [i, model] of models.entries()) {
+    for (let n = 1; n <= 1 + MAX_RETRIES; n++) {
+      const prev = failures.at(-1);
+      if (n > 1 && prev) {
+        const wait = backoffMs(n - 1, random, prev.retryAfterMs);
+        if (deadline - Date.now() - wait < MIN_ATTEMPT_MS) {
+          log({ model, attempt: attempt + 1, elapsedMs: Date.now() - started, status: null, category: "budget_exhausted", outcome: "skipped" });
+          break;
+        }
+        await sleep(wait);
+      }
+      const remaining = deadline - Date.now();
+      if (remaining < MIN_ATTEMPT_MS) {
+        log({ model, attempt: attempt + 1, elapsedMs: Date.now() - started, status: null, category: "budget_exhausted", outcome: "skipped" });
+        break;
+      }
+      if (opts.signal?.aborted) throw toGenerationError(new AttemptFailure("cancelled", null));
+
+      attempt++;
+      const t0 = Date.now();
+      try {
+        const questions = await attemptGeneration(model, key, req, Math.min(attemptTimeoutMs(req.count), remaining), opts.signal);
+        log({ model, attempt, elapsedMs: Date.now() - started, durationMs: Date.now() - t0, status: 200, category: null, outcome: "success" });
+        return questions;
+      } catch (e) {
+        if (!(e instanceof AttemptFailure)) throw e;
+        failures.push(e);
+        const retry = n <= MAX_RETRIES && RETRY_SAME_MODEL.has(e.category);
+        const next = retry ? "retry" : i < models.length - 1 && TRY_FALLBACK.has(e.category) ? "fallback" : "give_up";
+        log({ model, attempt, elapsedMs: Date.now() - started, durationMs: Date.now() - t0, status: e.status, category: e.category, outcome: next });
+        if (next !== "retry") break;
+      }
+    }
+    const last = failures.at(-1);
+    if (last && !TRY_FALLBACK.has(last.category)) break;
   }
 
-  return parseQuestions(text, req.count);
+  // Report the provider trouble rather than "fallback model unavailable" when the fallback could not even be used.
+  const last = failures.at(-1);
+  const cause =
+    last && (last.category === "model_unavailable" || last.category === "rejected") && failures.length > 1
+      ? failures.findLast((f) => f.category !== "model_unavailable" && f.category !== "rejected") ?? last
+      : last;
+  throw toGenerationError(cause);
 }
 
 /** Parses and validates model output; drops malformed questions and fails if fewer than `count` remain. */

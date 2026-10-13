@@ -2,8 +2,11 @@ import { authed, json } from "@/lib/api";
 import { generateRequestSchema, type BpscTest } from "@/lib/bpsc";
 import { generateBpscQuestions, GenerationError } from "@/lib/bpsc-generate";
 
-// Generation of a 25-question Hindi set can take 20-40 s; Vercel's default would cut it off.
-export const maxDuration = 300;
+// Generation of a 25-question Hindi set can take 20-40 s, plus retries/fallback when Gemini is overloaded.
+// 120 s fits every Vercel plan with Fluid compute (Hobby max 300 s). Generation is budgeted to finish
+// HEADROOM_MS before this limit, so a Gemini outage ends in a JSON error instead of a platform 504.
+export const maxDuration = 120;
+const HEADROOM_MS = 15_000;
 
 const WINDOW_MS = 10 * 60_000;
 const MAX_PER_WINDOW = 6;
@@ -34,6 +37,7 @@ const error = (
 };
 
 export const POST = authed(async (req, user) => {
+  const deadline = Date.now() + maxDuration * 1000 - HEADROOM_MS;
   const parsed = generateRequestSchema.safeParse(
     await req.json().catch(() => null),
   );
@@ -57,7 +61,7 @@ export const POST = authed(async (req, user) => {
   }
 
   try {
-    const questions = await generateBpscQuestions(parsed.data);
+    const questions = await generateBpscQuestions(parsed.data, { deadline, signal: req.signal });
     const test: BpscTest = {
       topic: parsed.data.topic,
       language: parsed.data.language,
@@ -66,7 +70,9 @@ export const POST = authed(async (req, user) => {
     };
     return json(test);
   } catch (e) {
-    if (e instanceof GenerationError) return error(e.message, e.code, e.status);
+    if (e instanceof GenerationError) {
+      return error(e.message, e.code, e.status, e.retryAfter ? { "Retry-After": String(e.retryAfter) } : undefined);
+    }
     throw e;
   }
 });
