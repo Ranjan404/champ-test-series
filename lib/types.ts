@@ -92,12 +92,18 @@ export interface HistoryEntry {
   date: string;
 }
 
-export interface Progress {
+/** One sequence of unlockable timed sets: the practice sets, or the PYQ sets. */
+export interface PracticeTrack {
   unlockedUpTo: number;
   sets: Record<string, SetProgress>;
   history: HistoryEntry[];
+}
+
+export interface Progress extends PracticeTrack {
   /** Daily Question tests. Missing in progress saved before the feature existed. */
   daily?: DailyProgress;
+  /** PYQ sets (same rules as practice sets). Missing in progress saved before the feature existed. */
+  pyq?: PracticeTrack;
 }
 
 /** Daily Question: one set per day (IST), 25 questions, 25 minutes, unlimited attempts. */

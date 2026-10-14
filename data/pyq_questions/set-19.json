@@ -1,0 +1,681 @@
+{
+  "setId": 19,
+  "title": "PYQ Set 19",
+  "questions": [
+    {
+      "id": "P19-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Character Codes",
+      "concept": "EBCDIC used in IBM mainframes",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q65",
+      "question": "Which type of computer uses the 8-bit code called EBCDIC?",
+      "options": {
+        "A": "Minicomputers",
+        "B": "Microcomputers",
+        "C": "Mainframe computers",
+        "D": "Supercomputer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "EBCDIC is an 8-bit code developed by IBM and used mainly on IBM mainframe computers; microcomputers use ASCII.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P19-Q02",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "concept": "Conditional asymptotic notation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q40",
+      "question": "In conditional asymptotic notation, \"Θ(f(n)) if g(n)\" indicates that the algorithm's complexity is both upper and lower bounded by f(n) when:",
+      "options": {
+        "A": "g(n) is a lower bound on f(n)",
+        "B": "g(n) is an upper bound on f(n)",
+        "C": "g(n) is true",
+        "D": "g(n) is false",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Conditional notation Θ(f(n) | P(n)) means the bound holds for all sufficiently large n for which the condition P(n) is true (e.g. n is a power of 2). It is not about g(n) being a lower or upper bound.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "System Bus",
+      "concept": "Data bus width",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q83",
+      "question": "How is the width of the data bus typically measured in a microcomputer system?",
+      "options": {
+        "A": "In kilobytes (KB)",
+        "B": "In megahertz (MHz)",
+        "C": "In bits",
+        "D": "In address lines",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Data bus width is the number of bits transferred in parallel (e.g. 8, 16, 32 or 64 bits). MHz measures clock speed, not width.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P19-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Backtracking",
+      "concept": "N-Queens all solutions",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q39",
+      "question": "In the backtracking approach for the 8-Queens problem, once a feasible solution is found, the algorithm:",
+      "options": {
+        "A": "Stops and returns the solution",
+        "B": "Continues searching for more solutions",
+        "C": "Iterates through all possibilities",
+        "D": "Rearranges the queens to optimize the solution",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The standard backtracking algorithm for 8-Queens records a solution and then backtracks to continue searching for all remaining solutions. It does not simply stop, and it prunes rather than iterating through all possibilities.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P19-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Organization",
+      "concept": "Physical memory organization",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q47",
+      "question": "Secondary memory is the long-term store for programs and data while main memory holds program and data currently in use. What kind of an organization is this?",
+      "options": {
+        "A": "Physical",
+        "B": "Logical",
+        "C": "Structural",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Dividing storage into main memory and secondary memory is a physical organization of memory, based on the actual hardware devices. Logical organization concerns how programs view and address memory.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Images",
+      "concept": "Pixel value",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q99",
+      "question": "Each ___ represents a particular colour.",
+      "options": {
+        "A": "Frame",
+        "B": "Character",
+        "C": "Pixel value",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Each pixel value encodes a particular colour (or intensity) in a digital image. A frame is a whole image and a character is text.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Buses",
+      "concept": "PCI bus",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q56",
+      "question": "What do we use to extend the connectivity of the processor bus?",
+      "options": {
+        "A": "PCI bus",
+        "B": "Multiple bus",
+        "C": "SCSI bus",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The PCI bus is connected to the processor bus through a bridge and extends its connectivity to other devices. SCSI is a separate peripheral bus for disks and similar devices.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Role of CSS",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q48",
+      "question": "This is an Assertion and Reason type question. Select the most suitable option considering the Assertion and Reason.\nAssertion (A): CSS is an attribute of the table tag and is used to style tables on a web page.\nReason (R): CSS is used to apply styles, such as fonts, colors, and spacing in an HTML document.",
+      "options": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "C": "Assertion (A) is true, but Reason (R) is false.",
+        "D": "Assertion (A) is false, but Reason (R) is true.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "CSS is a separate style sheet language, not an attribute of the table tag, so A is false. R is true: CSS applies fonts, colours and spacing to HTML documents.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P19-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Context-Free Grammars",
+      "concept": "Palindrome grammar",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q57",
+      "question": "The minimum number of productions required to produce a language consisting of palindrome strings over Σ = {a, b} is",
+      "options": {
+        "A": "3",
+        "B": "7",
+        "C": "5",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The minimal grammar is S -> aSa | bSb | a | b | epsilon, i.e. 5 productions: two for wrapping, two for odd-length centres and one for even-length strings.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P19-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Basics",
+      "concept": "URL and web address",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q47",
+      "question": "What is the difference between a URL and a web address?",
+      "options": {
+        "A": "A URL is a Uniform Resource Locator, while a web address is a way to identify a website on the internet.",
+        "B": "A URL is a software program, while a web address is a hardware device.",
+        "C": "A URL is a physical object, while a web address is a logical object.",
+        "D": "All of the above.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A URL (Uniform Resource Locator) is the formal address of a resource, while 'web address' is the everyday term used to identify a website. Neither is a software program, hardware device or physical object.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Circular Queue",
+      "concept": "Memory wastage in linear queue",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q115",
+      "question": "Which of the following determines the need for the circular queue?",
+      "options": {
+        "A": "Access the queue using priority",
+        "B": "Avoid wastage of memory",
+        "C": "Follow the FIFO principle",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a linear array queue, freed front positions cannot be reused; a circular queue reuses them, avoiding memory wastage. FIFO is followed by every queue, so it is not the reason.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P19-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Operating Systems Basics",
+      "concept": "DOS full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q55",
+      "question": "DOS stands for",
+      "options": {
+        "A": "Disk Operating System",
+        "B": "Disk Operating Session",
+        "C": "Digital Operating System",
+        "D": "Digital Open System",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DOS stands for Disk Operating System, e.g. MS-DOS.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P19-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "De Morgan's theorem",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q86",
+      "question": "What is De Morgan's theorem used for in digital logic?",
+      "options": {
+        "A": "Simplifying Boolean expressions",
+        "B": "Implementing NAND gates",
+        "C": "Performing binary addition",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "De Morgan's theorem converts the complement of a product into a sum of complements (and vice versa), which is mainly used to simplify and transform Boolean expressions. It is not a method for binary addition.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Game Playing",
+      "concept": "Minimax",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q83",
+      "question": "The algorithm used in the Game tree to make decisions of Win/Lose is ________________?",
+      "options": {
+        "A": "Heuristic Search Algorithm",
+        "B": "DFS/BFS algorithm",
+        "C": "Greedy Search algorithm",
+        "D": "Min/Max algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Minimax evaluates a game tree by assuming the opponent plays optimally, maximising at the player's levels and minimising at the opponent's, to decide win/lose moves. BFS/DFS and greedy search do not model an adversary.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P19-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Recursion",
+      "concept": "Call stack in recursion",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q21",
+      "question": "In the context of recursion, what is the purpose of the \"stack\" data structure?",
+      "options": {
+        "A": "To store variables and function calls for backtracking",
+        "B": "To store only variables",
+        "C": "To store only function calls",
+        "D": "To store loop counters",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each recursive call pushes an activation record holding local variables, parameters and the return address onto the stack, which lets execution unwind (backtrack) correctly. It stores both, not only one of them.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P19-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Concepts",
+      "concept": "Pillars of OOP",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q136",
+      "question": "Which of the following is a pillar of OOP?",
+      "options": {
+        "A": "Inheritance",
+        "B": "Encapsulation",
+        "C": "Abstraction",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The four pillars of OOP are encapsulation, abstraction, inheritance and polymorphism, so all three options are pillars.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Character Codes",
+      "concept": "EBCDIC",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q87",
+      "question": "EBCDIC is mainly used in which type of computer systems?",
+      "options": {
+        "A": "Mainframe computers",
+        "B": "Personal computers",
+        "C": "Supercomputers",
+        "D": "Mobile devices",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "EBCDIC is IBM's 8-bit character code used mainly on IBM mainframes. Personal computers use ASCII/Unicode.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P19-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Communication Services",
+      "concept": "SMS full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q30",
+      "question": "This is an Assertion and Reason type question. Select the most suitable option considering the Assertion and Reason.\nAssertion (A): SMS is an acronym for Smart Message Service.\nReason (R): SMS is the most common technology for delivering short, concise and important messages quickly.",
+      "options": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "C": "Assertion (A) is true, but Reason (R) is false.",
+        "D": "Assertion (A) is false, but Reason (R) is true.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SMS stands for Short Message Service, not Smart Message Service, so A is false. R is true because SMS is widely used for quick, short messages.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P19-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machines",
+      "concept": "Universal Turing machine",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q46",
+      "question": "A universal Turing machine is a ________",
+      "options": {
+        "A": "Single tape Turing machine",
+        "B": "Two-tape Turing machine",
+        "C": "Reprogrammable Turing machine",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A universal Turing machine takes the encoding of any other Turing machine and its input and simulates it, so it is a reprogrammable Turing machine. The number of tapes is not what makes it universal.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Universal Gates",
+      "concept": "NAND and NOR as universal gates",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q71",
+      "question": "Digital circuit can be made by the repeated use of the _________.",
+      "options": {
+        "A": "NAND gate",
+        "B": "NOR gate",
+        "C": "AND gate",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Both NAND and NOR are universal gates, so any digital circuit can be built by repeated use of either one. AND alone is not functionally complete because it cannot produce inversion.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P19-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL DML",
+      "concept": "INSERT command",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q123",
+      "question": "Which SQL command is used to add new rows to a database table?",
+      "options": {
+        "A": "ADD",
+        "B": "CREATE",
+        "C": "INSERT",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "INSERT INTO adds new rows to a table. CREATE defines new database objects such as tables, and ADD is used within ALTER TABLE to add columns.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "JavaScript",
+      "concept": "Asynchronous HTTP requests",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q34",
+      "question": "How can you make an asynchronous request to a server in JavaScript?",
+      "options": {
+        "A": "Using the \"async\" keyword",
+        "B": "Using the \"await\" keyword",
+        "C": "Using the fetch API or XMLHttpRequest",
+        "D": "By defining a callback function",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The request itself is made with the fetch API or XMLHttpRequest. async/await and callbacks only help handle the asynchronous result; they do not send a request by themselves.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P19-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Wireless",
+      "concept": "Bluetooth 5 data rate",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q130",
+      "question": "What is the maximum data rate of Bluetooth version 5.0?",
+      "options": {
+        "A": "1 Mbps",
+        "B": "2 Mbps",
+        "C": "5 Mbps",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bluetooth 5.0 (LE 2M PHY) supports a maximum data rate of 2 Mbps, double the 1 Mbps of Bluetooth 4.x LE.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P19-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Cost Estimation",
+      "concept": "Delphi and COCOMO",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q38",
+      "question": "Delphi and COCOMO are techniques used for estimating:",
+      "options": {
+        "A": "Software size",
+        "B": "Software reliability",
+        "C": "Software complexity",
+        "D": "Software development cost",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Both Delphi (expert consensus) and COCOMO (algorithmic) are used to estimate software development cost and effort. Size is an input to COCOMO, not what it estimates.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P19-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Pandas",
+      "concept": "DataFrame head()",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q53",
+      "question": "Which function should be used to get first n rows of a dataframe?",
+      "options": {
+        "A": "print(n)",
+        "B": "head(n)",
+        "C": "get(n)",
+        "D": "call(n)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "df.head(n) returns the first n rows of a pandas DataFrame (tail(n) returns the last n). print, get and call do not do this.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

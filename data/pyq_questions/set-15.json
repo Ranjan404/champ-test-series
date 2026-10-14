@@ -1,0 +1,681 @@
+{
+  "setId": 15,
+  "title": "PYQ Set 15",
+  "questions": [
+    {
+      "id": "P15-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversal",
+      "concept": "Binary tree traversals",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q85",
+      "question": "Which one of the following techniques is not used in the binary tree?",
+      "options": {
+        "A": "Randomized traversal",
+        "B": "Preorder traversal",
+        "C": "Postorder traversal",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Binary trees are traversed by preorder, inorder, postorder and level-order traversals; randomized traversal is not a standard binary tree technique.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P15-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "Routing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q46",
+      "question": "Routing involves:",
+      "options": {
+        "A": "Dividing data into frames",
+        "B": "Managing flow control",
+        "C": "Determining the best path for data packets",
+        "D": "Correcting errors in data transmission",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Routing is the process of determining the best path for data packets across networks. Framing, flow control and error correction are data link functions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search Tree",
+      "concept": "BST ordering property",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q90",
+      "question": "In a binary search tree, which subtree of a node contains elements that are greater than the node's value?",
+      "options": {
+        "A": "Left subtree",
+        "B": "Right subtree",
+        "C": "Both subtrees",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a BST, all keys in the right subtree are greater than the node, and all keys in the left subtree are smaller.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P15-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "concept": "HTTP full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q54",
+      "question": "The term HTTP stands for:",
+      "options": {
+        "A": "Hyper Terminal Tracing Program",
+        "B": "Hypertext Tracing Program",
+        "C": "Hypertext Transfer Protocol",
+        "D": "Hypertext Tracing Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HTTP stands for HyperText Transfer Protocol, used to transfer web pages between server and browser.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P15-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Recurrences",
+      "concept": "Binary search recurrence",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q18",
+      "question": "The recurrence equation T(n) = T(n/2) + 1 represents the time complexity of which algorithmic paradigm?",
+      "options": {
+        "A": "Divide and Conquer",
+        "B": "Greedy Algorithms",
+        "C": "Dynamic Programming",
+        "D": "Brute Force",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "T(n) = T(n/2) + 1 halves the problem at each step with constant combining work, as in binary search, a divide and conquer algorithm; it solves to O(log n). Greedy and brute force do not split the input recursively.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Classes and Objects",
+      "concept": "Object reference",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q24",
+      "question": "What is the term for a variable that references an instance of a class?",
+      "options": {
+        "A": "Property",
+        "B": "Method",
+        "C": "Object",
+        "D": "Constructor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A variable that refers to an instance of a class is an object (object reference). Properties and methods are members of a class, and a constructor initialises the object.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Conversion",
+      "concept": "Infix to prefix",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q107",
+      "question": "Which of the following is the prefix form of A+B*C?",
+      "options": {
+        "A": "+A*BC",
+        "B": "ABC+*",
+        "C": "+AB*C",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Since * has higher precedence, B*C becomes *BC, and then A + (*BC) becomes +A*BC. ABC*+ would be the postfix form.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process Synchronization",
+      "concept": "Semaphore and critical section",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q53",
+      "question": "The process of acquiring a semaphore and entering a critical section while ensuring mutual exclusion is often called:",
+      "options": {
+        "A": "Wait-free synchronization",
+        "B": "Lock-free synchronization",
+        "C": "Critical section synchronization",
+        "D": "Barrier synchronization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Acquiring a semaphore before entering a critical section to guarantee mutual exclusion is critical section synchronization. Lock-free and wait-free techniques avoid locks, and barriers make threads wait for each other at a point.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design Paradigms",
+      "concept": "Divide and conquer",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q8",
+      "question": "Divide and Conquer is an algorithmic paradigm that solves problems by:",
+      "options": {
+        "A": "Iteratively solving subproblems",
+        "B": "Recursively solving subproblems",
+        "C": "Using heuristics to find solutions",
+        "D": "Greedily combining solutions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Divide and conquer splits a problem into smaller subproblems, solves them recursively, and combines the results (e.g. merge sort). Greedy choice and heuristics belong to other paradigms.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "Subnetting",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q41",
+      "question": "Subnetting allows for:",
+      "options": {
+        "A": "Faster data transmission",
+        "B": "Improved error control",
+        "C": "Efficient use of IP addresses",
+        "D": "Increased network security",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Subnetting divides a network into smaller subnetworks so IP addresses are allocated more efficiently with less waste. Security and speed gains are side benefits, not its main purpose.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P15-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Divide and Conquer",
+      "concept": "MaxMin combine step",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q85",
+      "question": "In the Divide and Conquer algorithm for finding the maximum and minimum elements, how are the results from the left and right subarrays combined?",
+      "options": {
+        "A": "By taking the average of the maximum and minimum values",
+        "B": "By comparing the maximum of the left and right subarrays and the minimum of the left and right subarrays",
+        "C": "By adding the maximum of the left subarray to the minimum of the right subarray",
+        "D": "By multiplying the maximum of the left subarray with the minimum of the right subarray",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The overall max is the larger of the two sub-maxima and the overall min is the smaller of the two sub-minima, costing 2 comparisons. Averaging, adding or multiplying values does not give extremes.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P15-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Tags",
+      "concept": "<body> tag attributes",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q24",
+      "question": "Which of the following attributes is not a valid attribute of the <body> tag in HTML?",
+      "options": {
+        "A": "text",
+        "B": "background",
+        "C": "bgcolor",
+        "D": "width",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The (legacy) <body> tag supports text, background, bgcolor, link, alink and vlink, but not width.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P15-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Services",
+      "concept": "Blog",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q21",
+      "question": "Select the correct option to fill in the blank: A ___________ is an online platform or website where individuals or businesses regularly publish articles/journals, known as posts, on various topics.",
+      "options": {
+        "A": "Browser",
+        "B": "Blog",
+        "C": "News Group",
+        "D": "Web Server",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A blog is a website where an individual or business regularly publishes posts. A browser is software for viewing websites and a web server hosts them.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Deque",
+      "concept": "Deletion at rear in singly linked list",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q119",
+      "question": "In the deque implementation, using singly linked list, what would be the time complexity of deleting an element from the rear end?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(N log N)",
+        "C": "O(N)",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "To delete the rear node of a singly linked list we must find its predecessor by traversing from the head, which takes O(N). O(1) applies to deletion from the front.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Version Control",
+      "concept": "Git",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q80",
+      "question": "Which version control system is commonly used for collaborative web development projects?",
+      "options": {
+        "A": "SVN",
+        "B": "Git",
+        "C": "Mercurial",
+        "D": "CVS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Git is the most widely used distributed version control system for collaborative web development (e.g. via GitHub). SVN, Mercurial and CVS exist but are far less common today.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P15-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Knowledge Representation",
+      "concept": "Knowledge base and inference",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q9",
+      "question": "Statement A: Knowledge base (KB) consists of a set of statements.\nStatement B: Inference is deriving a new sentence from the KB.\nChoose the correct option.",
+      "options": {
+        "A": "A is True, B is True",
+        "B": "A is False, B is False",
+        "C": "A is True, B is false",
+        "D": "A is false, B is True",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A knowledge base is a set of sentences (statements) in a knowledge representation language, and inference is the process of deriving new sentences from the KB. Both statements are true.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P15-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Complexity Theory",
+      "concept": "Origin of NP-completeness",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q4",
+      "question": "The concept of NP-Completeness was introduced by:",
+      "options": {
+        "A": "Stephen Cook",
+        "B": "Richard Karp",
+        "C": "Donald Knuth",
+        "D": "John Nash",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Stephen Cook introduced NP-completeness in 1971 (Cook's theorem, proving SAT NP-complete). Richard Karp extended it in 1972 by showing 21 problems NP-complete, so he popularised but did not introduce the concept.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P15-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Paging",
+      "concept": "Page offset bits",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q112",
+      "question": "In a system with a page size of 4 KB and a physical address space of 64 GB, what is the number of bits required for the page offset?",
+      "options": {
+        "A": "10 bits",
+        "B": "12 bits",
+        "C": "14 bits",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The offset must address every byte within a page: 4 KB = 2^12 bytes, so 12 bits are needed. The physical memory size does not affect the offset width.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P15-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Protocols",
+      "concept": "DHCP assigns IP addresses",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q149",
+      "question": "Which protocol assigns IP address to the client connected in the internet?",
+      "options": {
+        "A": "DHCP",
+        "B": "IP",
+        "C": "RPC",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to clients. IP only carries packets.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P15-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Real-time Audio/Video",
+      "concept": "Jitter cause",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q96",
+      "question": "In Real Time Interactive Audio Video, Jitter is introduced in real-time data by delay between____",
+      "options": {
+        "A": "pixels",
+        "B": "layers",
+        "C": "frames",
+        "D": "packets",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Jitter arises because successive packets of real-time data experience different delays across the network. Pixels, layers and frames are not the unit of delay variation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expressions",
+      "concept": "Prefix and suffix constraint",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q31",
+      "question": "Regular expression for all strings that start with b and end with bba is:",
+      "options": {
+        "A": "aba*b*bba",
+        "B": "ab(ab)*bba",
+        "C": "b(a+b)*bba",
+        "D": "All of the mentioned",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "b(a+b)*bba starts with b, allows any string in the middle, and ends with bba. Options A and B start with a, so they cannot describe strings starting with b.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P15-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Concepts",
+      "concept": "Abstraction as hiding details",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q86",
+      "question": "Abstraction means",
+      "options": {
+        "A": "Summarization",
+        "B": "Elimination",
+        "C": "Hiding",
+        "D": "Casting",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Abstraction means showing only the essential features and hiding the background (implementation) details from the user. Summarization is a loose description, but the defining idea is hiding complexity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P15-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Protocols",
+      "concept": "Communication channel security protocols",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q43",
+      "question": "Which one is a communication channel security protocol?",
+      "options": {
+        "A": "SSL",
+        "B": "SET",
+        "C": "S-HTTP",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SSL secures the transport channel, S-HTTP secures HTTP messages, and SET secures card payment transactions; all three are communication channel security protocols in e-commerce.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P15-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "File Organization",
+      "concept": "Data hierarchy",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q13",
+      "question": "In general, a file is basically a collection of all related______.",
+      "options": {
+        "A": "Rows & Columns",
+        "B": "Database",
+        "C": "Fields",
+        "D": "Records",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In the data hierarchy, fields form records and a file is a collection of related records. Fields are one level below records.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "P15-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Editing",
+      "concept": "Cut marks cells with marquee",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q96",
+      "question": "What happens when you press Ctrl + X after selecting some cells in Excel?",
+      "options": {
+        "A": "The cell content of selected cells disappears from the cells and is stored in the clipboard",
+        "B": "The cells selected are marked for cutting",
+        "C": "The selected cells are deleted and the cells are shifted left",
+        "D": "The selected cells are deleted and cells are shifted up",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In Excel, Ctrl+X does not remove content immediately; the selected cells get a moving border (marquee) marking them for cutting until you paste.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

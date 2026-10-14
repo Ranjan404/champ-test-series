@@ -1,0 +1,681 @@
+{
+  "setId": 30,
+  "title": "PYQ Set 30",
+  "questions": [
+    {
+      "id": "P30-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topologies",
+      "concept": "Types of topology",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q87",
+      "question": "Which of the following is NOT a network topology?",
+      "options": {
+        "A": "Star",
+        "B": "Ring",
+        "C": "Disk",
+        "D": "Mesh",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Star, ring and mesh are network topologies; disk is a storage device.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P30-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Secondary Storage",
+      "concept": "Magnetic disk capacity factors",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q58",
+      "question": "Storage capacity of magnetic disk depends on",
+      "options": {
+        "A": "Tracks per inch of surface",
+        "B": "Bits per inch of tracks",
+        "C": "Disk pack in disk surface",
+        "D": "All of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Disk capacity depends on track density (tracks per inch), recording density (bits per inch along a track) and the number of disk surfaces in the pack, so all of these. Choosing only bits per inch ignores the other factors.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P30-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "TPDU",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q61",
+      "question": "TPDU (Transport Protocol Data Unit) refers to:",
+      "options": {
+        "A": "A unit of data in the physical layer",
+        "B": "A unit of data in the data link layer",
+        "C": "A unit of data in the transport layer",
+        "D": "A unit of data in the network layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A TPDU (Transport Protocol Data Unit) is the data unit exchanged at the transport layer (segment). Frames belong to the data link layer and packets to the network layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Industry 4.0",
+      "concept": "Fourth industrial revolution",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q95",
+      "question": "The Internet of Things (IoT), access to real-time data, and the introduction of cyber-physical systems mark the big changes for this era:",
+      "options": {
+        "A": "Industrial Revolution",
+        "B": "3rd Industrial Revolution",
+        "C": "Industry 4.0",
+        "D": "Manufacturing automation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Industry 4.0 (the fourth industrial revolution) is characterised by IoT, cyber-physical systems and real-time data. The 3rd industrial revolution was about electronics and computers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Topology definition",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q40",
+      "question": "Which term describes the way devices are interconnected in a network?",
+      "options": {
+        "A": "Topology",
+        "B": "Bandwidth",
+        "C": "Encoding",
+        "D": "Transmission",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Topology is the arrangement or interconnection pattern of devices in a network (bus, star, ring, mesh). Bandwidth is the data-carrying capacity.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Sessions",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q29",
+      "question": "What is a session in web development?",
+      "options": {
+        "A": "A type of HTTP request",
+        "B": "A way to store data on the client side",
+        "C": "A temporary storage for user-specific data during a browsing session",
+        "D": "A method to encrypt data for secure transmission",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A session temporarily stores user-specific data (usually on the server) across multiple requests during a browsing session. Client-side storage describes cookies, not sessions.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "History of AI",
+      "concept": "DARPA Strategic Computing Program",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q5",
+      "question": "Which of the following applications are included in the Strategic Computing Program?",
+      "options": {
+        "A": "Battle Management",
+        "B": "Autonomous systems",
+        "C": "Pilot's associate",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DARPA's Strategic Computing Program (1983) targeted three flagship applications: the Autonomous Land Vehicle, the Pilot's Associate and Battle Management. So all of the listed applications are included.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P30-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Type Traits",
+      "concept": "std::is_array",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q98",
+      "question": "Which one of the following is the correct definition of the \"is_array();\" function in C++?",
+      "options": {
+        "A": "It checks that the specified variable is of the array or not",
+        "B": "It checks that the specified array is of single dimension or not",
+        "C": "It checks that the array specified is of multidimension or not",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "std::is_array checks whether the given type is an array type. It does not check the number of dimensions (that is std::rank).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Internet Basics",
+      "concept": "Internet as network of networks",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q141",
+      "question": "What is internet?",
+      "options": {
+        "A": "A single network",
+        "B": "A vast collection of different networks",
+        "C": "Interconnection of local area networks",
+        "D": "none of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The internet is a vast global collection of different interconnected networks (a network of networks), not just LANs.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P30-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Document Object Model",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q90",
+      "question": "What does the DOM represent in web development?",
+      "options": {
+        "A": "Database of Objects and Models",
+        "B": "Document Oriented Middleware",
+        "C": "Data Object Model",
+        "D": "Document Object Model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DOM stands for Document Object Model, a tree representation of an HTML/XML document that scripts can read and modify.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P30-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Language Translators",
+      "concept": "Compiler input and output",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q44",
+      "question": "Select the true statement for compiler.",
+      "options": {
+        "A": "The input of the compiler is source program.",
+        "B": "It translates the source code into object code as a whole.",
+        "C": "The output of the compiler is object code.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "All three statements are true: a compiler takes the source program as input, translates it as a whole, and produces object code as output. Hence more than one option is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P30-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Threaded binary tree",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q100",
+      "question": "A threaded binary tree is a binary tree in which:",
+      "options": {
+        "A": "Each node has two children",
+        "B": "Each node has at most one child",
+        "C": "Each node is connected to its parent",
+        "D": "Each node has a thread connecting it to its predecessor or successor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a threaded binary tree, null child pointers are replaced by threads pointing to the in-order predecessor or successor, enabling traversal without a stack. Structure (number of children) is not changed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P30-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Modules",
+      "concept": "collections.deque",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q71",
+      "question": "In Python, ________ module needs to be imported for implementing a double-ended queue.",
+      "options": {
+        "A": "counter",
+        "B": "collections",
+        "C": "random",
+        "D": "numpy",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "deque is provided by the collections module (from collections import deque). Counter is itself a class in collections, not a module.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P30-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Word Hyperlinks",
+      "concept": "Hyperlink targets in Word",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q75",
+      "question": "Hyperlinks can be created between a Word document and",
+      "options": {
+        "A": "Another Word document",
+        "B": "A webpage on the WWW",
+        "C": "A webpage on a company intranet",
+        "D": "All of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A Word hyperlink can point to another document, a page on the WWW or a page on a company intranet, so all of these are valid targets.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P30-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Organization",
+      "concept": "ALU inside CPU",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q22",
+      "question": "In an ideal microcomputer, where is the Arithmetic Logic Unit (ALU) located?",
+      "options": {
+        "A": "CPU",
+        "B": "Memory",
+        "C": "Input devices",
+        "D": "Output devices",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The ALU is part of the CPU (microprocessor), along with the control unit and registers. Memory only stores data and instructions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P30-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stacks",
+      "concept": "Array vs linked stack",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q88",
+      "question": "Which implementation of a stack requires a fixed amount of memory allocated for a fixed number of elements?",
+      "options": {
+        "A": "Array implementation",
+        "B": "Linked implementation",
+        "C": "Dynamic implementation",
+        "D": "Static implementation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An array-based stack reserves a fixed-size block of memory, so it can hold only a fixed number of elements. A linked implementation grows dynamically node by node.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "History of C++",
+      "concept": "Creator of C++",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q92",
+      "question": "Which of the following is the original creator of the C++ language?",
+      "options": {
+        "A": "Dennis Ritchie/Brian Kernighan",
+        "B": "Ken Thompson",
+        "C": "Bjarne Stroustrup",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Bjarne Stroustrup created C++ at Bell Labs. Dennis Ritchie created C, and Ken Thompson created B and co-created Unix.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Views",
+      "concept": "View as virtual table",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q60",
+      "question": "SQL views are also known as",
+      "options": {
+        "A": "simple tables",
+        "B": "virtual tables",
+        "C": "complex tables",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A view is a stored query whose result looks like a table but does not physically store data, so it is called a virtual table.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P30-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Dual-Mode Operation",
+      "concept": "Kernel/supervisor mode",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q52",
+      "question": "The kernel operates in a privileged mode, also known as:",
+      "options": {
+        "A": "User mode",
+        "B": "Debug mode",
+        "C": "Supervisor mode",
+        "D": "Interrupt mode",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The kernel runs in kernel mode, also called supervisor (privileged) mode, where all instructions are allowed. User mode is the restricted mode for applications.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Audio Compression",
+      "concept": "Uses of audio compression",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q98",
+      "question": "Audio compression can be used for____________",
+      "options": {
+        "A": "voice and data",
+        "B": "video and voice",
+        "C": "speech or music",
+        "D": "picture and colors",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Audio compression is applied to speech or music. Video, pictures and colours are handled by video/image compression.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Corrective maintenance",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q48",
+      "question": "Which maintenance process model focuses on fixing defects as they are identified?",
+      "options": {
+        "A": "Waterfall Model",
+        "B": "Corrective Maintenance",
+        "C": "Perfective Maintenance",
+        "D": "Adaptive Maintenance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Corrective maintenance fixes faults reported after delivery. Adaptive maintenance adapts to environment changes and perfective maintenance adds improvements.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Technologies",
+      "concept": "RFID",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q15",
+      "question": "RFID is used for?",
+      "options": {
+        "A": "3G Connectivity",
+        "B": "Measuring WiFi strength",
+        "C": "Providing WiFi Connection",
+        "D": "Object Identification",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "RFID (Radio Frequency Identification) uses radio waves to automatically identify and track tagged objects. It does not provide Wi-Fi or 3G connectivity.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P30-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Half adder outputs",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q77",
+      "question": "In a half-adder circuit, what are the outputs?",
+      "options": {
+        "A": "Sum and Carry",
+        "B": "Difference and Borrow",
+        "C": "Sum and Difference",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A half adder adds two bits and produces a Sum (XOR) and a Carry (AND). Difference and Borrow are the outputs of a half subtractor.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P30-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Languages",
+      "concept": "Closure properties",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q61",
+      "question": "A regular language over an alphabet ∑ is closed under the following operation(s):",
+      "options": {
+        "A": "Union",
+        "B": "Concatenation",
+        "C": "Kleene*",
+        "D": "All of the mentioned",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Regular languages are closed under union, concatenation and Kleene star (and also intersection, complement, etc.).",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P30-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "Routing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q41",
+      "question": "What is the primary function of routing in the network layer?",
+      "options": {
+        "A": "Data framing",
+        "B": "Error correction",
+        "C": "Finding the best path for data",
+        "D": "Flow control",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Routing at the network layer determines the best path for packets from source to destination. Framing and flow control belong to the data link layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

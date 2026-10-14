@@ -1,0 +1,681 @@
+{
+  "setId": 26,
+  "title": "PYQ Set 26",
+  "questions": [
+    {
+      "id": "P26-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Internet Basics",
+      "concept": "ISP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q142",
+      "question": "To join the internet, the computer has to be connected to an",
+      "options": {
+        "A": "internet architecture board",
+        "B": "internet society",
+        "C": "internet service provider",
+        "D": "none of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A computer joins the internet through an Internet Service Provider. The IAB and Internet Society are standards/governance bodies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P26-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Traversal",
+      "concept": "BFS",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q84",
+      "question": "In BFS, vertices are explored level by level, starting from the:",
+      "options": {
+        "A": "Deepest level",
+        "B": "Shallowest level",
+        "C": "Middle level",
+        "D": "Highest degree vertex",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "BFS starts at the source (level 0, the shallowest level) and explores all vertices at distance 1, then 2, and so on. Going deep first is DFS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P26-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "Framing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q12",
+      "question": "Frame design in the Data Link Layer includes:",
+      "options": {
+        "A": "Deciding the routing path for data packets",
+        "B": "Defining the structure of data frames",
+        "C": "Assigning IP addresses to devices",
+        "D": "Setting the data transmission rate",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Framing in the data link layer defines how bits are grouped into frames, including headers, trailers and delimiters. Routing and IP addressing belong to the network layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P26-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL DDL",
+      "concept": "DROP TABLE",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q54",
+      "question": "Which command is used to remove a relation from an SQL database?",
+      "options": {
+        "A": "Drop table",
+        "B": "Delete",
+        "C": "Purge",
+        "D": "Remove",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DROP TABLE removes the relation together with its structure from the database. DELETE only removes rows and keeps the table; REMOVE is not an SQL command.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P26-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "Telnet",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q95",
+      "question": "Telnet is commonly used for:",
+      "options": {
+        "A": "Secure file transfers",
+        "B": "Remote terminal access",
+        "C": "Web browsing",
+        "D": "Email communication",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Telnet provides remote terminal (command-line) access to another host. It is insecure, so secure transfers and remote logins use SFTP/SSH instead.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P26-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Interrupts",
+      "concept": "Types of interrupts",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q110",
+      "question": "Which of the following is NOT a type of interrupt?",
+      "options": {
+        "A": "Hardware interrupt",
+        "B": "Memory interrupt",
+        "C": "Software interrupt",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Interrupts are classified as hardware and software interrupts (plus exceptions/traps). Memory interrupt is not a standard interrupt type.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P26-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "EDI",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q49",
+      "question": "In EDI, I stands for?",
+      "options": {
+        "A": "Indian",
+        "B": "India",
+        "C": "Interchange",
+        "D": "Interval",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "EDI stands for Electronic Data Interchange: computer-to-computer exchange of business documents in a standard format.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P26-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Generations of Computers",
+      "concept": "Vacuum tubes in first generation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q67",
+      "question": "Chief component of first generation computer was",
+      "options": {
+        "A": "Transistors",
+        "B": "Vacuum Tubes and Valves",
+        "C": "Integrated Circuits",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "First generation computers (1940s-1950s) used vacuum tubes (valves). Transistors came in the second generation and ICs in the third.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P26-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Router function",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q136",
+      "question": ".......... is a device that forwards packets between networks by processing the routing information included in the packet.",
+      "options": {
+        "A": "Bridge",
+        "B": "Firewall",
+        "C": "Router",
+        "D": "all of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A router forwards packets between networks using the routing (IP) information in the packet. A bridge works within a LAN at the data link layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P26-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Divide and Conquer",
+      "concept": "Steps of divide and conquer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q100",
+      "question": "Which of the following is NOT a step in the Divide and Conquer algorithm?",
+      "options": {
+        "A": "Combine",
+        "B": "Conquer",
+        "C": "Divide",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Divide and conquer has three steps: Divide, Conquer and Combine. All three listed options are steps, so none of them is NOT a step.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P26-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Templates and compile-time polymorphism",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q103",
+      "question": "How can one implement the compile-time polymorphism in the C++ programming language?",
+      "options": {
+        "A": "By using the template",
+        "B": "By using the concepts of inheritance",
+        "C": "By using both the virtual functions and inheritance",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Templates (like function overloading) are resolved by the compiler, giving compile-time polymorphism. Virtual functions with inheritance give runtime polymorphism.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P26-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "File System vs DBMS",
+      "concept": "Limitations of file-based systems",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q62",
+      "question": "Which of the following is not a limitation of file system?",
+      "options": {
+        "A": "Data Redundancy",
+        "B": "Data Inconsistency",
+        "C": "Data dependence",
+        "D": "Storing Space",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Traditional file systems suffer from data redundancy, inconsistency and program-data dependence. Storing space is not a listed limitation of a file system; it is simply a resource.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P26-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Traversal",
+      "concept": "Connected components",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q35",
+      "question": "Connected components in a graph can be found using which graph traversal algorithm?",
+      "options": {
+        "A": "DFS",
+        "B": "BFS",
+        "C": "Both DFS and BFS",
+        "D": "Neither DFS nor BFS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Starting a traversal from each unvisited vertex marks one whole connected component, and this works equally with DFS or BFS. Choosing only DFS ignores that BFS visits exactly the same reachable set.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P26-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Testing",
+      "concept": "Unit testing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q51",
+      "question": "Which testing approach involves testing individual components or units of code?",
+      "options": {
+        "A": "Integration Testing",
+        "B": "System Testing",
+        "C": "Unit Testing",
+        "D": "Acceptance Testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Unit testing checks individual components or units of code in isolation. Integration testing checks interactions between units.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P26-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary Arithmetic",
+      "concept": "Borrow in binary subtraction",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q88",
+      "question": "In binary subtraction using the simple method, if a borrow is needed from a digit and the borrowed digit is 1, what happens to the next digit's value?",
+      "options": {
+        "A": "It remains unchanged",
+        "B": "It is incremented by 1",
+        "C": "It is decremented by 1",
+        "D": "It becomes 0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "When a borrow is taken from a digit that is 1, that digit is decremented by 1 (becoming 0) and the current position gets 2 (binary 10).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P26-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Character Codes",
+      "concept": "EBCDIC full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q56",
+      "question": "ASCII and EBCDIC are the popular character coding systems. What does EBCDIC stand for?",
+      "options": {
+        "A": "Extended Binary Coded Decimal Interchange Code",
+        "B": "Extended Bit Code Decimal Interchange Code",
+        "C": "Extended Bit Case Decimal Interchange Code",
+        "D": "Extended Binary Case Decimal Interchange Code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "EBCDIC is Extended Binary Coded Decimal Interchange Code, an 8-bit code used by IBM mainframes.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P26-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Basics",
+      "concept": "HTTP full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q85",
+      "question": "What does the acronym \"HTTP\" stand for?",
+      "options": {
+        "A": "HyperText Transmission Protocol",
+        "B": "HyperText Transfer Protocol",
+        "C": "High-Tech Text Protocol",
+        "D": "HyperTransfer Text Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HTTP stands for HyperText Transfer Protocol, the application-layer protocol for transferring web pages.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P26-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Colour Models",
+      "concept": "Chromaticity",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q77",
+      "question": "Which characteristics are taken together in chromaticity?",
+      "options": {
+        "A": "Hue and Saturation",
+        "B": "Hue and Brightness",
+        "C": "Saturation, Hue, and Brightness",
+        "D": "Saturation and Brightness",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Chromaticity specifies colour quality independent of luminance, i.e. hue and saturation taken together. Adding brightness gives the full colour description.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P26-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Knowledge Representation",
+      "concept": "First-order predicate logic",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q32",
+      "question": "What does a first order predicate logic contain?",
+      "options": {
+        "A": "Predicate and a subject",
+        "B": "Predicate and a Preposition",
+        "C": "Subject and an object",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A sentence in first-order predicate logic consists of a predicate and the subject(s) (terms/objects) it applies to, e.g. Man(Socrates).",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P26-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Principles",
+      "concept": "CIA triad",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q100",
+      "question": "What does I stand for in CIA?",
+      "options": {
+        "A": "Indian",
+        "B": "Individual",
+        "C": "Income",
+        "D": "Integrity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The CIA triad of information security is Confidentiality, Integrity and Availability; I stands for Integrity.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Memory/Fact",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P26-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Basics",
+      "concept": "Definition of database",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q122",
+      "question": "What is a database?",
+      "options": {
+        "A": "Organized collection of information that cannot be accessed, updated and managed",
+        "B": "Organized collection of data or information that can be accessed, updated and managed",
+        "C": "Organized collection of data that cannot be updated",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A database is an organized collection of data or information that can be easily accessed, updated and managed.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P26-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Inheritance",
+      "concept": "Inheritance definition",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q73",
+      "question": "In OOP, which term refers to a mechanism by which a class can inherit properties and behaviors from another class?",
+      "options": {
+        "A": "Polymorphism",
+        "B": "Abstraction",
+        "C": "Encapsulation",
+        "D": "Inheritance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Inheritance is the mechanism by which a class acquires properties and behaviours of another class. Polymorphism is one interface with many forms, and encapsulation is bundling data with methods.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P26-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Threads",
+      "concept": "Shared resources among threads",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q119",
+      "question": "Thread shares with other threads belonging to the same process its",
+      "options": {
+        "A": "thread ID",
+        "B": "program counter",
+        "C": "code section and data section",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Threads of the same process share the code section, data section and OS resources such as open files. Each thread has its own thread ID, program counter, registers and stack.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P26-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Complexity Classes",
+      "concept": "P vs NP-complete",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q104",
+      "question": "Which of the following is NOT an NP-Complete problem?",
+      "options": {
+        "A": "Traveling Salesman Problem",
+        "B": "Boolean Satisfiability Problem",
+        "C": "Shortest Path Problem",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The shortest path problem is solvable in polynomial time (e.g. Dijkstra), so it is in P and is not NP-complete. TSP (decision version) and SAT are NP-complete.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P26-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4",
+      "concept": "Maximum IPv4 datagram size",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q19",
+      "question": "The maximum length (in bytes) of an IPv4 datagram is:",
+      "options": {
+        "A": "32",
+        "B": "256",
+        "C": "1024",
+        "D": "65535",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The IPv4 Total Length field is 16 bits, so the largest datagram is 2^16 - 1 = 65535 bytes including the header.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Memory/Fact"
+      }
+    }
+  ]
+}

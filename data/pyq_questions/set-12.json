@@ -1,0 +1,681 @@
+{
+  "setId": 12,
+  "title": "PYQ Set 12",
+  "questions": [
+    {
+      "id": "P12-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel AutoFill",
+      "concept": "Custom lists for AutoFill",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q92",
+      "question": "You want to set such that when you type Baishakh and drag the fill handle, Excel should produce Jaistha, Aashadh and so on. What will you set to effect that?",
+      "options": {
+        "A": "Custom List",
+        "B": "Auto Fill Options",
+        "C": "Fill Across Worksheet",
+        "D": "Fill Series",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Defining a Custom List (Tools > Options > Custom Lists) lets the fill handle extend Baishakh into Jaistha, Aashadh and so on. Fill Series only works on built-in or numeric/date patterns.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Separate chaining",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q96",
+      "question": "Separate chaining involves storing collided elements in separate data structures, typically in:",
+      "options": {
+        "A": "Linked lists",
+        "B": "Arrays",
+        "C": "Stacks",
+        "D": "Queues",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In separate chaining, each hash table slot points to a linked list holding all keys that hash to that slot.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Types of Databases",
+      "concept": "Database types",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q124",
+      "question": "Which of the following is not a type of database?",
+      "options": {
+        "A": "Network",
+        "B": "Distributed",
+        "C": "Decentralized",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Network and distributed databases are recognised database types, whereas 'decentralized' is not a standard database type in this classification.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management",
+      "concept": "Compaction",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q45",
+      "question": "_____ is used to shift processes so they are contiguous, and all free memory is in one block.",
+      "options": {
+        "A": "Fragmentation",
+        "B": "Compaction",
+        "C": "External Fragmentation",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Compaction shuffles memory contents so that processes are contiguous and all free memory forms one large block. Fragmentation is the problem that compaction solves, not the solution.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P12-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Utilities",
+      "concept": "Ping command",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q109",
+      "question": "Which of the following is true with regard to the ping command?",
+      "options": {
+        "A": "Ping stands for Packet Internet Generator.",
+        "B": "The ping command checks the port level connectivity between source destinations endpoints.",
+        "C": "Ping summarizes the packet loss and round-trip delay between two IP endpoints.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Ping uses ICMP echo messages and reports packet loss and round-trip time between two IP endpoints. It stands for Packet Internet Groper and does not test port-level connectivity.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P12-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Merge sort paradigm",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q101",
+      "question": "Merge Sort is an example of which algorithm design paradigm?",
+      "options": {
+        "A": "Greedy",
+        "B": "Divide and Conquer",
+        "C": "Dynamic Programming",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Merge sort divides the array into halves, sorts them recursively and merges the results, which is divide and conquer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P12-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Tags",
+      "concept": "bgcolor attribute",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q94",
+      "question": "Which attribute of the <body> tag is used to set the background color of a web page?",
+      "options": {
+        "A": "text",
+        "B": "bgcolor",
+        "C": "background",
+        "D": "color",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "bgcolor sets the page background colour in the <body> tag. background sets a background image and text sets the text colour.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P12-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Families",
+      "concept": "TTL supply voltage",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q36",
+      "question": "What is the typical operating voltage range for TTL logic family?",
+      "options": {
+        "A": "1.8 V to 3.3 V",
+        "B": "3.3 V to 5.0 V",
+        "C": "5.0 V to 12 V",
+        "D": "-5.0 V to 5.0 V",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Standard TTL runs from a 5 V supply (4.75 V to 5.25 V) and low-voltage TTL-compatible logic runs at 3.3 V, so 3.3 V to 5.0 V is the right range. 5 V to 12 V fits CMOS 4000-series, not TTL.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P12-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "ZigBee device roles",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q97",
+      "question": "Which ZigBee device is used to transfer data between ZigBee devices?",
+      "options": {
+        "A": "ZigBee Coordinator device",
+        "B": "ZigBee Router",
+        "C": "ZigBee start device",
+        "D": "ZigBee end device",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A ZigBee Router relays (routes) data between devices and extends the network. The coordinator forms and manages the network, and end devices only talk to their parent.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Quality Assurance",
+      "concept": "SQA goal",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q49",
+      "question": "What is the main goal of software quality assurance?",
+      "options": {
+        "A": "To eliminate all defects from the software",
+        "B": "To ensure the software is defect-free before release",
+        "C": "To establish and enforce standards and processes to improve software quality",
+        "D": "To test software under different conditions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SQA establishes and enforces standards and processes so that quality is built into development. Guaranteeing zero defects is impossible, and testing (D) is only one quality-control activity.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Open Systems",
+      "concept": "Open vs proprietary systems",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q47",
+      "question": "Open System ________ tends to evolve more quickly than proprietary systems?",
+      "options": {
+        "A": "Hardware",
+        "B": "Software",
+        "C": "Hardware and Software",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Open systems use publicly available standards, so many vendors contribute to both hardware and software, which lets them evolve faster than proprietary systems.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P12-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Basics",
+      "concept": "HTTPS meaning",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q7",
+      "question": "What does the 'https' in a web address indicate?",
+      "options": {
+        "A": "The website is hosted on a local server",
+        "B": "The website is a search engine",
+        "C": "The website uses standard HTTP protocol",
+        "D": "The website is secure using encryption",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "HTTPS is HTTP over TLS/SSL, so the 's' indicates a secure, encrypted connection. Plain HTTP is the unencrypted protocol.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q13",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "Inode contents",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q53",
+      "question": "The \"inode\" in a Unix-like file system is used to:",
+      "options": {
+        "A": "Store the contents of the file",
+        "B": "Store the file's name and location",
+        "C": "Store the attributes and metadata of the file",
+        "D": "Store the directory structure of the file system",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An inode stores a file's metadata: size, owner, permissions, timestamps and pointers to data blocks. The file name is stored in the directory entry, not in the inode.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "ROM vs RAM",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q5",
+      "question": "What is the primary difference between ROM and RAM?",
+      "options": {
+        "A": "ROM is faster than RAM",
+        "B": "ROM is volatile, while RAM is non-volatile",
+        "C": "ROM is used for data storage, while RAM is used for program execution",
+        "D": "ROM stores permanent data that cannot be changed, while RAM stores temporary data that can be read and written",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ROM holds permanent (non-volatile) data such as firmware that is normally not changed, while RAM is volatile read/write working memory. Option B reverses volatility.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "XML",
+      "concept": "ID attribute",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q43",
+      "question": "In XML, which attribute is used to uniquely identify an element?",
+      "options": {
+        "A": "id",
+        "B": "class",
+        "C": "name",
+        "D": "tag",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An attribute of type ID (conventionally named id) must have a unique value in the document, so it uniquely identifies an element. class groups elements and name need not be unique.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Malware",
+      "concept": "Antivirus",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q51",
+      "question": "The software developed to detect and remove viruses only is called ______________.",
+      "options": {
+        "A": "Malware",
+        "B": "Antivirus",
+        "C": "Spyware",
+        "D": "Adware",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Antivirus software detects and removes viruses. Malware, spyware and adware are types of malicious or unwanted software.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Random access in arrays",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q105",
+      "question": "Which of the following is an advantage of using arrays?",
+      "options": {
+        "A": "Constant time insertion and deletion",
+        "B": "Ability to store elements of different data types",
+        "C": "Random access to elements using an index",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Arrays allow O(1) random access by index. Insertion and deletion need shifting (O(n)), and arrays store elements of the same type.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P12-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Basics",
+      "concept": "Bottom-up approach of C++",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q78",
+      "question": "Which of the following approaches is used by C++?",
+      "options": {
+        "A": "Left-right",
+        "B": "Top-down",
+        "C": "Bottom-up",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Object-oriented languages like C++ follow the bottom-up approach (build classes first, then combine them). Top-down is used by procedural languages like C.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P12-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "ROUND with negative precision",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q71",
+      "question": "The SQL statement\nSELECT ROUND(65.726, -1) FROM DUAL;\nprints",
+      "options": {
+        "A": "70",
+        "B": "garbage",
+        "C": "726",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A negative second argument rounds to the left of the decimal point; ROUND(65.726, -1) rounds to the nearest ten, giving 70.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P12-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Truth Tables",
+      "concept": "Rows in a truth table = 2^n",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q74",
+      "question": "An OR gate has 4 inputs. The number of words in truth table will be _______.",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A truth table for n inputs has 2^n rows (words); with 4 inputs this is 2^4 = 16. 8 would be the count for 3 inputs.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P12-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Services",
+      "concept": "Blog",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q12",
+      "question": "A website or online platform where individuals or groups regularly publish written content, typically in reverse chronological order, is known as:",
+      "options": {
+        "A": "News Group",
+        "B": "Blog",
+        "C": "Chat Group",
+        "D": "Social Networking",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A blog (web log) is a site where posts are published regularly and shown newest first. A social networking site focuses on connecting users rather than serial articles.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocols",
+      "concept": "ARP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q27",
+      "question": "Which Internet Protocol is responsible for mapping IP addresses to MAC addresses?",
+      "options": {
+        "A": "ARP",
+        "B": "TCP",
+        "C": "ICMP",
+        "D": "DNS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ARP (Address Resolution Protocol) resolves an IP address to the corresponding MAC address on a local network. DNS maps names to IP addresses, not IP to MAC.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P12-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Analysis Tools",
+      "concept": "DFD full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q38",
+      "question": "The term \"DFD\" stands for?",
+      "options": {
+        "A": "Data file diagram",
+        "B": "Data flow document",
+        "C": "Data flow diagram",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DFD stands for Data Flow Diagram, a graphical model of how data moves through a system. The other expansions are wrong.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P12-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Industrial Systems",
+      "concept": "SCADA full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q15",
+      "question": "What is the full form of SCADA?",
+      "options": {
+        "A": "Supervisory Control and Document Acquisition",
+        "B": "Supervisory Control and Data Acquisition",
+        "C": "Supervisory Column and Data Assessment",
+        "D": "Supervisory Control and Data Assessment",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SCADA stands for Supervisory Control and Data Acquisition, used to monitor and control industrial processes.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P12-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 0 grammars",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q38",
+      "question": "According to Chomsky hierarchy, which of the following is recognized by Recursively Enumerable language?",
+      "options": {
+        "A": "Type 0",
+        "B": "Type 1",
+        "C": "Type 2",
+        "D": "Type 3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Recursively enumerable languages are generated by Type 0 (unrestricted) grammars and recognised by Turing machines. Types 1, 2 and 3 correspond to context-sensitive, context-free and regular languages.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

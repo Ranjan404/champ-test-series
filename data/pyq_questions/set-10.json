@@ -1,0 +1,681 @@
+{
+  "setId": 10,
+  "title": "PYQ Set 10",
+  "questions": [
+    {
+      "id": "P10-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Command Categories",
+      "concept": "DML vs DDL commands",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q2",
+      "question": "Which of the following is a DML command in SQL?",
+      "options": {
+        "A": "UPDATE",
+        "B": "CREATE",
+        "C": "ALTER",
+        "D": "DROP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "UPDATE modifies existing rows, so it is a Data Manipulation Language command. CREATE, ALTER and DROP change schema objects and belong to DDL.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P10-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "AJAX",
+      "concept": "AJAX full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q65",
+      "question": "What does AJAX stand for?",
+      "options": {
+        "A": "Asynchronous JavaScript and XML",
+        "B": "Automated JavaScript and XHTML",
+        "C": "Advanced JavaScript and XML",
+        "D": "Asynchronous JSON and XHTML",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "AJAX stands for Asynchronous JavaScript and XML, a technique for updating pages without a full reload. The other expansions are incorrect.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P10-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Classes and Objects",
+      "concept": "new keyword",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q87",
+      "question": "Which keyword is used to create an instance of a class in most programming languages?",
+      "options": {
+        "A": "alloc",
+        "B": "new",
+        "C": "create",
+        "D": "instance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In Java, C++, C# and JavaScript the new keyword creates an instance of a class. alloc is Objective-C specific.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P10-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "Types of ROM",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q78",
+      "question": "Which of the following is the type of Read Only Memory (ROM)?",
+      "options": {
+        "A": "PROM",
+        "B": "EPROM",
+        "C": "MROM",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "PROM, EPROM and MROM (mask ROM) are all types of read-only memory, so more than one option is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P10-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Word Editing",
+      "concept": "Drag and drop moves text",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q78",
+      "question": "When you drag selected text, you can",
+      "options": {
+        "A": "Delete text",
+        "B": "Link text",
+        "C": "Copy text",
+        "D": "Move text",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Dragging selected text moves it to the new location (drag and drop). Copying requires holding Ctrl while dragging.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P10-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Security",
+      "concept": "SQL Server fixed database roles",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q133",
+      "question": "The user IDs can be added or removed using which of the following fixed roles?",
+      "options": {
+        "A": "db_sysadmin",
+        "B": "db_accessadmin",
+        "C": "db_securityadmin",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The db_accessadmin fixed database role can add or remove access for Windows logins, groups and SQL Server logins (user IDs). db_securityadmin manages permissions and role membership.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P10-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Computer Graphics",
+      "concept": "Pixel storage in arrays",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q11",
+      "question": "In computer graphics, arrays can be used to store pixel values for images. Which type of array would be suitable for this purpose?",
+      "options": {
+        "A": "1-D array",
+        "B": "2-D array",
+        "C": "3-D array",
+        "D": "4-D array",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An image is a grid of rows and columns of pixels, so a 2-D array maps naturally to it. A 1-D array loses the row/column structure.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P10-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Basics",
+      "concept": "Origin of the term IoT",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q14",
+      "question": "Who first used the term \"IoT\"?",
+      "options": {
+        "A": "Steve Jobs",
+        "B": "Bill Simpson",
+        "C": "Kevin Ashton",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Kevin Ashton coined the term 'Internet of Things' in 1999 while working on RFID at Procter & Gamble / MIT Auto-ID Center.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P10-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Segmentation",
+      "concept": "Segment base and limit",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q113",
+      "question": "What is a segment base in segmentation?",
+      "options": {
+        "A": "The starting address of a segment in physical memory",
+        "B": "The starting address of a segment in virtual memory",
+        "C": "The ending address of a segment in physical memory",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In the segment table, the base holds the starting physical address of the segment, and the limit holds its length.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P10-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Types",
+      "concept": "Overlay network",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q133",
+      "question": "Which one of the following computer networks is built on the top of another network?",
+      "options": {
+        "A": "Prior network",
+        "B": "Chief network",
+        "C": "Prime network",
+        "D": "Overlay network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An overlay network is a virtual network built on top of another network (e.g. P2P networks over the internet).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P10-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graphs",
+      "concept": "Edges in a spanning tree",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q7",
+      "question": "The minimum number of edges in a spanning tree of a connected graph with \"n\" vertices is:",
+      "options": {
+        "A": "n",
+        "B": "n - 1",
+        "C": "n + 1",
+        "D": "n(n-1)/2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A spanning tree of a connected graph with n vertices is a tree on all n vertices, so it has exactly n - 1 edges. n(n-1)/2 is the edge count of a complete graph.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P10-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Abstraction",
+      "concept": "Physical level",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q14",
+      "question": "Which of the following refers to the level of data abstraction that describes exactly how the data is actually stored?",
+      "options": {
+        "A": "Conceptual Level",
+        "B": "Physical Level",
+        "C": "File Level",
+        "D": "Logical Level",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The physical (internal) level is the lowest level of abstraction and describes exactly how data is actually stored. The conceptual/logical level describes what data is stored, not how.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P10-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "File operations",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q29",
+      "question": "File manipulation operations in an operating system include:",
+      "options": {
+        "A": "Allocating memory to files",
+        "B": "Assigning file names to processes",
+        "C": "Loading files into CPU registers",
+        "D": "Reading, writing, and modifying file content",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "File manipulation system calls include reading, writing and repositioning/modifying file content. Loading files into CPU registers or naming processes are not file operations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P10-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Wireless Networks",
+      "concept": "Clustering in wireless networks",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q75",
+      "question": "The popular method of organizing wireless network topologies is:",
+      "options": {
+        "A": "Software",
+        "B": "Network",
+        "C": "Synchronization",
+        "D": "Cluster",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Wireless (sensor and ad hoc) networks are commonly organized into clusters, each managed by a cluster head, to improve scalability and energy use. The other options are not topology organization methods.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P10-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search Tree",
+      "concept": "BST properties",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q89",
+      "question": "Which of the following options is not true about the binary search tree?",
+      "options": {
+        "A": "The value of the left child should be less than the root node.",
+        "B": "The value of the right child should be greater than the root node.",
+        "C": "The left and right subtrees should also be a binary search tree.",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "All three statements are true properties of a BST (left smaller, right greater, subtrees also BSTs), so none of them is false.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P10-Q16",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "File Handling",
+      "concept": "read(n) and readline(n) file pointer movement",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q13",
+      "question": "A text file song.txt contains the following contents in it:\nLife goes on as it never ends\nWhat will be the output of the following code snippet?\nf1 = open(\"song.txt\", \"r\")\ns1 = f1.read(5)\ns2 = f1.readline(4)\ns3 = f1.read(3)\nprint(s1, s3, sep=\"#\")",
+      "options": {
+        "A": "goes# on",
+        "B": "Life #goes# on",
+        "C": "Life # on",
+        "D": "Error",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "read(5) returns 'Life ' (including the space), readline(4) reads the next 4 characters 'goes', and read(3) returns ' on'. Printing s1 and s3 with sep='#' gives 'Life # on'; s2 is read but not printed, so option B is wrong.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P10-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Concepts",
+      "concept": "Encapsulation and inheritance",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q119",
+      "question": "Which feature of OOP is indicated by the following code?\nclass student { int marks; };\nclass topper : public student {\n    int age;\n    topper(int age) { this.age = age; }\n};",
+      "options": {
+        "A": "Encapsulation and inheritance",
+        "B": "Inheritance and polymorphism",
+        "C": "Polymorphism",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Data members are bundled inside classes (encapsulation) and topper derives from student (inheritance). No overloading or overriding is shown, so polymorphism is not indicated.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P10-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Search Engines",
+      "concept": "Information retrieval",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q91",
+      "question": "The question below is an Assertion and Reason type question. Select the most suitable option considering the Assertion and Reason.\nAssertion (A): When you enter a query into a search engine, it retrieves and presents a list of web pages, documents, images, videos, or other types of content that are relevant to your search.\nReason (R): The goal of information retrieval is to effectively and efficiently find and present information that matches the user's search criteria.",
+      "options": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "C": "Assertion (A) is true, but Reason (R) is false.",
+        "D": "Assertion (A) is false, but Reason (R) is true.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A search engine returns relevant content for a query, and it does so because information retrieval aims to find and present information matching the user's criteria. Both are true and R explains A.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P10-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Hardware",
+      "concept": "Silicon in chips",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q120",
+      "question": "Which of the following natural elements is the primary element in computer chips?",
+      "options": {
+        "A": "Carbon",
+        "B": "Silicon",
+        "C": "Iron",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Computer chips (integrated circuits) are made primarily from silicon, a semiconductor.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P10-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Use of De Morgan's theorems",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q5",
+      "question": "De Morgan's Theorems are particularly useful in simplifying logic expressions that have a large number of ___________.",
+      "options": {
+        "A": "Variables",
+        "B": "Constants",
+        "C": "Terms",
+        "D": "Operators",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "De Morgan's theorems let complemented sums and products be broken into simpler terms, which is most useful when an expression contains many terms. The theorems are not about simplifying constants or the number of operator types.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P10-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Authentication",
+      "concept": "Biometrics",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q7",
+      "question": "All of the following are considered biometrics, except:",
+      "options": {
+        "A": "Fingerprint",
+        "B": "Password",
+        "C": "Voice",
+        "D": "Retina",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Biometrics use physical or behavioural traits such as fingerprint, voice or retina. A password is something you know, not a biometric trait.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P10-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Constraints",
+      "concept": "Constrained IoT devices",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q81",
+      "question": "Which among the following are the limiting factors of IoT?",
+      "options": {
+        "A": "Low power",
+        "B": "Low processing power",
+        "C": "Low memory",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IoT devices are typically constrained by low power (battery), low processing power and low memory, so all of the above apply.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P10-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "Line break tag",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q27",
+      "question": "Which tag is used to create a line break in an HTML document?",
+      "options": {
+        "A": "<lb>",
+        "B": "<break>",
+        "C": "<br>",
+        "D": "<newline>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The <br> tag inserts a line break in HTML. <lb>, <break> and <newline> are not HTML tags.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P10-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Cost Estimation",
+      "concept": "Delphi method",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q28",
+      "question": "The Cost Estimation technique that involves expert judgments and consensus is called:",
+      "options": {
+        "A": "COCOMO",
+        "B": "Delphi Method",
+        "C": "Waterfall Model",
+        "D": "Prototype Model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Delphi method gathers estimates from several experts anonymously and iterates until consensus. COCOMO is an algorithmic model, while Waterfall and Prototype are life cycle models.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P10-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Formal Languages",
+      "concept": "Complement relative to Sigma*",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q91",
+      "question": "The complement of a language will only be defined when and only when the _____ over the language is defined.",
+      "options": {
+        "A": "Alphabet",
+        "B": "Word",
+        "C": "String",
+        "D": "Grammar",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The complement of L is Sigma* - L, so it can be defined only when the alphabet Sigma is specified.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "setId": 3,
+  "title": "PYQ Set 3",
+  "questions": [
+    {
+      "id": "P03-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "concept": "SFTP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q66",
+      "question": "SFTP is used for:",
+      "options": {
+        "A": "Sending Files over the Internet in a secure manner",
+        "B": "Sending Mail over the Internet in a secure manner",
+        "C": "Video Conferencing",
+        "D": "Secure Chat Services",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SFTP (SSH File Transfer Protocol) transfers files securely over an encrypted SSH connection. It is not used for mail, video conferencing or chat.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual Memory",
+      "concept": "Swapped memory calculation",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q115",
+      "question": "Consider a system with a total physical memory of 8 GB and total virtual memory of 16 GB. If the system is using 6 GB of physical memory and 10 GB of virtual memory, how much memory is being swapped out?",
+      "options": {
+        "A": "2 GB",
+        "B": "4 GB",
+        "C": "6 GB",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Of the 10 GB of virtual memory in use, only 6 GB is resident in physical memory, so 10 - 6 = 4 GB must be swapped out to disk.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Basics",
+      "concept": "Definition of data structure",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q71",
+      "question": "Term, Data Structure refers to ........... and interrelationship between them.",
+      "options": {
+        "A": "organization of data",
+        "B": "programming standard",
+        "C": "coding",
+        "D": "program design",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A data structure is the logical organization of data and the relationships among data elements.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Variable Scope",
+      "concept": "Global variables",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q73",
+      "question": "Variables which can be accessed by all modules of the program is called",
+      "options": {
+        "A": "Global",
+        "B": "Auto",
+        "C": "Static",
+        "D": "Local",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A global variable is declared outside all functions and can be accessed by every module of the program. Local and auto variables are visible only within their block.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Conversion",
+      "concept": "Binary fraction to decimal",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q85",
+      "question": "Convert the binary number 1011.1101 to its decimal equivalent. Which of the following is the correct decimal value?",
+      "options": {
+        "A": "11.75",
+        "B": "12.125",
+        "C": "13.5",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "1011 = 11 and .1101 = 0.5 + 0.25 + 0 + 0.0625 = 0.8125, so the value is 11.8125. None of the listed values matches.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "P03-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Computer Graphics",
+      "concept": "Vector vs raster graphics",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q61",
+      "question": "The quality of ___ remains unchanged even if the size is increased or decreased.",
+      "options": {
+        "A": "Vector graphics",
+        "B": "Illustrations",
+        "C": "Photographs",
+        "D": "Line images",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Vector graphics are defined by mathematical shapes, so they scale without losing quality. Photographs and other raster images become pixelated when enlarged.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Layouts",
+      "concept": "Slide layout",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q119",
+      "question": "What would you choose to create a pre-formatted slide style?",
+      "options": {
+        "A": "Format",
+        "B": "Slide layout",
+        "C": "Slide sorter view",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A slide layout provides a pre-formatted arrangement of placeholders (title, text, content) for a slide. Slide sorter view is only for arranging slides.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P03-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Secondary Storage",
+      "concept": "CD-ROM as optical memory",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q63",
+      "question": "CD-ROM is a",
+      "options": {
+        "A": "Semiconductor memory",
+        "B": "Memory register",
+        "C": "Magnetic memory",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A CD-ROM is an optical storage medium read by a laser, so it is neither semiconductor nor magnetic memory; hence none of these. Magnetic memory is the tempting wrong choice (that is hard disk/tape).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Circular Queue",
+      "concept": "Empty circular queue condition",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q83",
+      "question": "If circular queue is implemented using array having size MAX_SIZE in which array index starts with 0, front points to the first element in the queue, and rear points to the last element in the queue. Which one of the following conditions is used to specify that the circular queue is empty? - (A) Front=rear= 1",
+      "options": {
+        "A": "Front=rear=-1",
+        "B": "Front=rear=0",
+        "C": "Front=rear+1",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "With front and rear pointing to actual elements, an empty queue is represented by front = rear = -1. front = rear = 0 means the queue holds exactly one element.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management",
+      "concept": "Paging",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q79",
+      "question": "Which memory management technique uses fixed-sized blocks of memory, allowing processes to be loaded into any available block?",
+      "options": {
+        "A": "Paging",
+        "B": "Segmentation",
+        "C": "Virtual memory",
+        "D": "Relocation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Paging divides memory into fixed-size frames, and any page can be loaded into any free frame. Segmentation uses variable-size segments.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Switching",
+      "concept": "Packet switching",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q147",
+      "question": "Internet works on",
+      "options": {
+        "A": "packet switching",
+        "B": "circuit switching",
+        "C": "both packet switching and circuit switching",
+        "D": "none of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The internet is a packet-switched network: data is split into packets routed independently. Circuit switching is used by traditional telephone networks.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P03-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Process models",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q131",
+      "question": "Which of the following is a software development life cycle model?",
+      "options": {
+        "A": "Waterfall model",
+        "B": "Agile model",
+        "C": "Spiral model",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Waterfall, Agile and Spiral are all software development life cycle models.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL DML",
+      "concept": "DELETE without WHERE",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q131",
+      "question": "Which of the following commands is correct to delete the values in the relation teaches?",
+      "options": {
+        "A": "Delete from teaches;",
+        "B": "Delete from teaches where Id = 'Null';",
+        "C": "Remove table teaches;",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "DELETE FROM teaches; removes all tuples while keeping the table. Option B deletes only rows whose Id is the string 'Null', and REMOVE TABLE is not SQL.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Method overriding",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q98",
+      "question": "Which concept allows a subclass to provide a specific implementation of a method that is already defined in the superclass?",
+      "options": {
+        "A": "Overloading",
+        "B": "Inheritance",
+        "C": "Polymorphism",
+        "D": "Overriding",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Overriding lets a subclass provide its own implementation of a method already defined in its superclass with the same signature. Overloading means same name with different parameters in the same scope.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Time-space tradeoff",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q14",
+      "question": "Which data structure often results in a time-space tradeoff by using extra memory to speed up operations?",
+      "options": {
+        "A": "Arrays",
+        "B": "Linked lists",
+        "C": "Hash tables",
+        "D": "Stacks",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Hash tables allocate extra (often sparse) memory slots to achieve average O(1) search, insertion and deletion, a classic time-space tradeoff. Arrays, linked lists and stacks do not trade memory for speed in this way.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Conditional Formatting",
+      "concept": "Cell Value Is and Formula Is",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q110",
+      "question": "You can check the conditions against ......... when applying conditional formatting.",
+      "options": {
+        "A": "Cell Value",
+        "B": "Formula",
+        "C": "Both (A) and (B)",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Conditional formatting conditions can be based on the cell value (Cell Value Is) or on a formula (Formula Is), so both.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P03-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "JavaScript DOM",
+      "concept": "document.createElement()",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q44",
+      "question": "Which JavaScript method is used to add a new HTML element to the DOM?",
+      "options": {
+        "A": "appendElement()",
+        "B": "createElement()",
+        "C": "newElement()",
+        "D": "addElement()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "document.createElement() creates the new element node (which is then attached with appendChild()). appendElement(), newElement() and addElement() are not DOM methods.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P03-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Threats",
+      "concept": "Physical vs logical threats",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q14",
+      "question": "Which one is not a physical threat?",
+      "options": {
+        "A": "Hacking",
+        "B": "Storm",
+        "C": "Fire",
+        "D": "Flood",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Hacking is a logical (cyber) threat carried out over software and networks. Storm, fire and flood are physical threats to computer systems.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Basics",
+      "concept": "Pure OOP language features",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q90",
+      "question": "Which of the following features must be supported by any programming language to become a pure object-oriented programming language?",
+      "options": {
+        "A": "Encapsulation",
+        "B": "Inheritance",
+        "C": "Polymorphism",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A pure object-oriented language must support encapsulation, inheritance and polymorphism (among others). Since all three are required, the answer is 'More than one of the above'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Data and Information",
+      "concept": "Data as raw facts",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q40",
+      "question": "The term \"Data\" refers to:",
+      "options": {
+        "A": "The electronic representation of the information(or data)",
+        "B": "Basic information",
+        "C": "Raw facts and figures",
+        "D": "Both A and C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Data are raw facts and figures that become information after processing. Option A describes information rather than data.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Licensing",
+      "concept": "Open source disadvantages",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q51",
+      "question": "Which of the following could be a disadvantage of 'open source' software?",
+      "options": {
+        "A": "High quality software with lots of features",
+        "B": "Not as customizable",
+        "C": "May not have been tested as much as proprietary software so might have bugs",
+        "D": "You can edit the source code to customize it",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A possible drawback of open source software is that it may not be tested as rigorously as commercial software and so may contain bugs. Being editable and customizable are advantages.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Basics",
+      "concept": "Devices in a network",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q132",
+      "question": "Two devices are in network, if",
+      "options": {
+        "A": "A process in one device is able to exchange information with a process in another device",
+        "B": "a process is running on both devices",
+        "C": "PIDs of the processes running on different devices are same",
+        "D": "none of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Two devices are said to be in a network if a process in one device can exchange information with a process in another device.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P03-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management",
+      "concept": "Segmentation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q33",
+      "question": "Segmentation is a memory management technique where memory is divided into segments, with each segment containing:",
+      "options": {
+        "A": "Fixed-sized blocks of memory",
+        "B": "Different types of data structures",
+        "C": "Variable-sized blocks of memory",
+        "D": "Non-contiguous blocks of memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Segmentation divides a program into logical segments (code, data, stack) of variable size. Fixed-size blocks describe paging.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P03-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "SELECT",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q74",
+      "question": "Which statement is used to retrieve data from a database in SQL?",
+      "options": {
+        "A": "SELECT",
+        "B": "UPDATE",
+        "C": "DELETE",
+        "D": "INSERT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SELECT retrieves (queries) data from tables. UPDATE, DELETE and INSERT modify data.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P03-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XNOR gate",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q140",
+      "question": "The logic gate that provides high output for same input is",
+      "options": {
+        "A": "NOT",
+        "B": "X-NOR",
+        "C": "XOR",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An XNOR gate gives output 1 when both inputs are equal. XOR gives 1 when inputs differ, and NOT has a single input.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

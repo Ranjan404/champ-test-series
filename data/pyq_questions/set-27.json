@@ -1,0 +1,681 @@
+{
+  "setId": 27,
+  "title": "PYQ Set 27",
+  "questions": [
+    {
+      "id": "P27-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Bubble sort",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q77",
+      "question": "________ compares neighbouring elements only and swaps them when necessary.",
+      "options": {
+        "A": "Selection Sort",
+        "B": "Bubble Sort",
+        "C": "Insertion Sort",
+        "D": "Quick Sort",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bubble sort repeatedly compares adjacent elements and swaps them if out of order. Selection sort finds the minimum of the unsorted part and swaps it into place.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "E-reservation portals",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q65",
+      "question": "Which of the following is not an e-Reservation portal in India?",
+      "options": {
+        "A": "https://www.amazon.in",
+        "B": "https://www.yatra.com",
+        "C": "https://www.makemytrip.com",
+        "D": "https://www.irctc.co.in",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Yatra, MakeMyTrip and IRCTC are travel and ticket reservation portals, while Amazon.in is primarily an online shopping (e-retail) site.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P27-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queues",
+      "concept": "Underflow check before deletion",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q80",
+      "question": "The necessary condition to be checked before deletion from the queue is",
+      "options": {
+        "A": "overflow",
+        "B": "underflow",
+        "C": "rear value",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Before deleting (dequeuing) we must check for underflow, i.e. whether the queue is empty. Overflow is checked before insertion.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P27-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Type Traits",
+      "concept": "std::is_array",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q115",
+      "question": "Which one of the following is the correct definition of \"is_array();\" function in C++?",
+      "options": {
+        "A": "It checks that the specified variable is of the array or not",
+        "B": "It checks that the specified array is of single dimension or not",
+        "C": "It checks that the specified array is of multi-dimension or not",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "std::is_array checks whether the given type is an array type or not, regardless of its number of dimensions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P27-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stacks",
+      "concept": "Postfix evaluation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q35",
+      "question": "Evaluate the given postfix expression:\n3 5 * 6 + 2 3 * -",
+      "options": {
+        "A": "39",
+        "B": "15",
+        "C": "-9",
+        "D": "-17",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "3 5 * gives 15; 15 6 + gives 21; 2 3 * gives 6; 21 6 - gives 15.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P27-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "I/O Organization",
+      "concept": "Program-controlled I/O (polling)",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q69",
+      "question": "The method of accessing the I/O devices by repeatedly checking the status flags is",
+      "options": {
+        "A": "program-controlled I/O",
+        "B": "memory-mapped I/O",
+        "C": "I/O-mapped I/O",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In program-controlled I/O the processor repeatedly checks (polls) device status flags to see if the device is ready. Memory-mapped and I/O-mapped refer to addressing schemes, not to polling.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P27-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Functions",
+      "concept": "Inline functions",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q86",
+      "question": "Pick the incorrect statement about inline functions in C++.",
+      "options": {
+        "A": "They save overhead of a return call from a function.",
+        "B": "They are generally very large and complicated function.",
+        "C": "These functions are inserted/substituted at the point of call.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Inline functions are meant to be small; their body is substituted at the call site, saving call/return overhead. Saying they are generally large and complicated is incorrect.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P27-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Network layer routing",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q126",
+      "question": "In the OSI model, which layer is responsible for routing and forwarding data packets?",
+      "options": {
+        "A": "Data Link Layer",
+        "B": "Transport Layer",
+        "C": "Physical Layer",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Routing and forwarding of packets is done by the Network layer (layer 3), which is not among the options, so the answer is None of the above.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Tags",
+      "concept": "<font> tag attributes",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q49",
+      "question": "Which of the following attributes is not a valid attribute of the <font> tag in HTML?",
+      "options": {
+        "A": "face",
+        "B": "type",
+        "C": "size",
+        "D": "color",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The (legacy) <font> tag takes face, size and color attributes; type is not one of them.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P27-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Queue underflow",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q110",
+      "question": "The necessary condition to be checked before deletion from the queue is",
+      "options": {
+        "A": "front value",
+        "B": "underflow",
+        "C": "overflow",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Before deleting (dequeue), we must check for underflow, i.e. whether the queue is empty. Overflow is checked before insertion.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Paste Special",
+      "concept": "Transpose",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q98",
+      "question": "Which command will you choose to convert a column of data into row?",
+      "options": {
+        "A": "Cut and Paste",
+        "B": "Edit >> Paste Special >> Transpose",
+        "C": "Both (A) and (B)",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Edit > Paste Special > Transpose converts a column into a row. Plain cut and paste keeps the same orientation.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P27-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Strings",
+      "concept": "str.find with start index",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q69",
+      "question": "Identify the output of the following code segment:\ns = \"an apple. a toy.\"\ns = s.find('a', 2)\nprint(s)",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "a",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In \"an apple. a toy.\", index 0 is 'a', 1 is 'n', 2 is a space and 3 is 'a'. find('a', 2) starts searching at index 2, so it returns 3.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P27-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Spiral model",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q68",
+      "question": "Which model considers risk assessment and incremental development in software projects?",
+      "options": {
+        "A": "Waterfall Model",
+        "B": "Agile Model",
+        "C": "Prototype Model",
+        "D": "Spiral Model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Boehm's Spiral model combines iterative, incremental development with explicit risk analysis in every cycle. Waterfall is sequential without risk-driven iteration.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Informed Search",
+      "concept": "A* search",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q62",
+      "question": "A* search algorithm is based on?",
+      "options": {
+        "A": "BFS",
+        "B": "DFS",
+        "C": "Uniform cost search",
+        "D": "Best first Search",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A* is a best-first search that selects nodes with the lowest f(n) = g(n) + h(n). It generalises uniform cost search by adding a heuristic, but it is classified as a best-first search.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Data Entry",
+      "concept": "Enter confirms entry",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q106",
+      "question": "If you press ..........., the cell accepts your typing as its contents.",
+      "options": {
+        "A": "Tab",
+        "B": "Ctrl+Enter",
+        "C": "Enter",
+        "D": "Alt+Enter",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Pressing Enter confirms the typing as the cell's contents and moves down. Alt+Enter only inserts a line break inside the cell.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Generations of Computers",
+      "concept": "Fifth generation computers",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q73",
+      "question": "What difference do the fifth generation computers have from other generation computers?",
+      "options": {
+        "A": "Technological advancement",
+        "B": "Object-oriented programming",
+        "C": "Scientific code",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Each generation of computers is distinguished by technological advancement (fifth generation: ULSI, AI, parallel processing). Object-oriented programming and scientific code are not what defines the generation.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P27-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Processing",
+      "concept": "Image acquisition",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q50",
+      "question": "Which of the following is the first and foremost step in Image Processing?",
+      "options": {
+        "A": "Image acquisition",
+        "B": "Segmentation",
+        "C": "Image enhancement",
+        "D": "Image restoration",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Image acquisition (capturing and digitizing the image) is the first step; enhancement, restoration and segmentation come later.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "3NF adequacy",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q137",
+      "question": "For designing a normal RDBMS, which of the following normal forms is considered adequate?",
+      "options": {
+        "A": "4NF",
+        "B": "3NF",
+        "C": "2NF",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "For most practical relational database designs, 3NF is considered adequate. 2NF still leaves transitive dependencies, and 4NF is rarely necessary.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Strings",
+      "concept": "Char arrays cannot be concatenated with +",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q62",
+      "question": "What will be the output of the following C++ code?\n#include<iostream>\n#include<string>\nusing namespace std;\nint main(int argc, char const *argv[])\n{\n    char s1[6] = \"Hello\";\n    char s2[6] = \"World\";\n    char s3[12] = s1 + \" \" + s2;\n    cout << s3;\n    return 0;\n}",
+      "options": {
+        "A": "Hello",
+        "B": "World",
+        "C": "Error",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "s1 and \" \" decay to pointers, and adding two pointers with + is not allowed, so the code fails to compile. Concatenation with + works only for std::string objects.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P27-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Traversal",
+      "concept": "DFS uses a stack",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q21",
+      "question": "Which traversal algorithm is typically implemented using a stack data structure?",
+      "options": {
+        "A": "DFS",
+        "B": "BFS",
+        "C": "Both DFS and BFS",
+        "D": "Neither DFS nor BFS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Depth-first search uses a stack (explicitly or via recursion) to go deep before backtracking, while BFS uses a queue. Hence only DFS fits.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management",
+      "concept": "Memory map",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q89",
+      "question": "The data structure used to represent the allocation status of main memory is known as:",
+      "options": {
+        "A": "Page table",
+        "B": "File allocation table",
+        "C": "Memory map",
+        "D": "Memory management unit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The OS keeps a memory map (e.g. bitmap or free list) recording which parts of main memory are allocated and which are free. A page table maps pages to frames for one process, and FAT tracks disk blocks.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Edge and Core",
+      "concept": "Switch is not an edge device",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q139",
+      "question": "Which of the following is not a network edge device?",
+      "options": {
+        "A": "PC",
+        "B": "Smartphones",
+        "C": "Servers",
+        "D": "Switch",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "End systems such as PCs, smartphones and servers are at the network edge; switches and routers are interconnecting (core) devices.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Protocols",
+      "concept": "SSL functions",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q86",
+      "question": "Which of the following is done by Secure Sockets Layer?",
+      "options": {
+        "A": "Creates a secure, private connection to a web server",
+        "B": "Encrypts information",
+        "C": "Sends information over the internet",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SSL establishes a secure, private connection to a web server, encrypts the information exchanged, and sends it over the internet, so all three apply.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P27-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Full adder",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q98",
+      "question": "How many inputs does a full-adder circuit have for each individual binary digit being added or subtracted?",
+      "options": {
+        "A": "1 input",
+        "B": "2 inputs",
+        "C": "3 inputs",
+        "D": "4 inputs",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A full adder takes three inputs per bit position: A, B and the carry-in. A half adder has only two inputs.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P27-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Pushdown Automata",
+      "concept": "Languages accepted by PDA",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q84",
+      "question": "The language accepted by Push down Automaton:",
+      "options": {
+        "A": "Recursive Language",
+        "B": "Context free language",
+        "C": "Linearly Bounded language",
+        "D": "All of the mentioned",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A pushdown automaton accepts exactly the context-free languages. Linear bounded automata accept context-sensitive languages and Turing machines (that halt) recursive ones.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

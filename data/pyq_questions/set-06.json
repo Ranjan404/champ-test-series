@@ -1,0 +1,681 @@
+{
+  "setId": 6,
+  "title": "PYQ Set 6",
+  "questions": [
+    {
+      "id": "P06-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv6 address length",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q105",
+      "question": "The length of an IPv6 address is",
+      "options": {
+        "A": "32 bits",
+        "B": "64 bits",
+        "C": "256 bits",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An IPv6 address is 128 bits long, which is not among options A-C. 32 bits is the IPv4 address length.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P06-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Warehousing",
+      "concept": "Data mining",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q78",
+      "question": "Which of the following can be used to extract or filter the data & information from the data warehouse?",
+      "options": {
+        "A": "Data redundancy",
+        "B": "Data recovery tool",
+        "C": "Data mining",
+        "D": "Both B and C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Data mining extracts useful patterns and information from data warehouses. A data recovery tool restores lost data, so 'Both B and C' is wrong.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P06-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Balanced Trees",
+      "concept": "Balance factor in AVL tree",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q92",
+      "question": "In a balanced binary tree, the height of two sub-trees of every node can not differ by more than",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a height-balanced (AVL) tree, the heights of the left and right subtrees of every node differ by at most 1.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P06-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Sockets",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q42",
+      "question": "What is a socket in the context of process-to-process communication?",
+      "options": {
+        "A": "A hardware device for data transmission",
+        "B": "A software interface for network communication",
+        "C": "A type of cable used for high-speed data transmission",
+        "D": "type of network topology",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A socket is a software endpoint (IP address plus port) through which processes communicate over a network. It is not hardware, a cable or a topology.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Primary key",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q42",
+      "question": "In a relational database, what is a primary key?",
+      "options": {
+        "A": "A key used for opening encrypted data",
+        "B": "A unique identifier for a record in a table",
+        "C": "A foreign key from another table",
+        "D": "An index for sorting data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A primary key uniquely identifies each record (row) in a table and cannot be null. A foreign key references another table's key, and an index is a separate access structure.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q3",
+      "question": "The term \"FAT\" stands for:",
+      "options": {
+        "A": "File Allocation Tree",
+        "B": "File Allocation Table",
+        "C": "File Allocation Graph",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "FAT stands for File Allocation Table, a table that records which clusters belong to each file on the disk. It is a table, not a tree or graph.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P06-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Process-to-process delivery",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q93",
+      "question": "Process-to-process communication involves communication between:",
+      "options": {
+        "A": "Different network layers",
+        "B": "Different devices on the same network",
+        "C": "Devices using different protocols",
+        "D": "Processes on different devices",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Process-to-process communication, provided by the transport layer using port numbers, is between application processes running on different hosts. Host-to-host delivery between devices is the network layer's job.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "concept": "Conditional asymptotic notation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q16",
+      "question": "Conditional asymptotic notation allows for a more nuanced analysis of algorithm behavior under specific conditions. This is particularly useful when:",
+      "options": {
+        "A": "Analyzing algorithms with constant time complexity",
+        "B": "The input size is fixed",
+        "C": "The input data is random",
+        "D": "Algorithm behavior varies based on certain input characteristics",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Conditional asymptotic notation states a bound that holds only when the input satisfies some condition (for example n is a power of 2), so it is useful when behaviour depends on input characteristics. Constant-time or fixed-size cases need no such condition.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P06-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Programming Paradigms",
+      "concept": "Procedural programming",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q25",
+      "question": "Which programming paradigm focuses on breaking down a program into smaller procedures or functions?",
+      "options": {
+        "A": "Object-Oriented Programming",
+        "B": "Procedural Programming",
+        "C": "Functional Programming",
+        "D": "Imperative Programming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Procedural programming structures a program as a sequence of procedures or functions. OOP organizes code around objects, and functional programming around pure functions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Uninformed Search",
+      "concept": "DFS space complexity",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q33",
+      "question": "Which among the following search algorithms requires the least memory?",
+      "options": {
+        "A": "Optimal Search",
+        "B": "Linear Search",
+        "C": "DFS",
+        "D": "BFS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DFS stores only the current path and unexplored siblings, giving O(bm) space, while BFS must keep the whole frontier, O(b^d). So DFS uses the least memory among the AI search strategies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Keyboard Shortcuts",
+      "concept": "Ctrl+Page Down",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q82",
+      "question": "\"Ctrl + Page Down\" is used to",
+      "options": {
+        "A": "move the cursor one paragraph down",
+        "B": "move the cursor one page down",
+        "C": "move the cursor one line down",
+        "D": "move the cursor one screen down",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In Word, Ctrl+Page Down moves the cursor to the top of the next page. Page Down alone moves one screen down.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Programming Languages",
+      "concept": "Assembly language level",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q76",
+      "question": "An assembly language is a/an",
+      "options": {
+        "A": "low-level programming language",
+        "B": "middle-level programming language",
+        "C": "Internet-based programming language",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Assembly language uses mnemonics that map almost one-to-one to machine instructions, so it is a low-level language. C is often called middle-level, not assembly.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P06-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "CSS full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q63",
+      "question": "What does CSS stand for?",
+      "options": {
+        "A": "Cascading Style System",
+        "B": "Creative Styling Script",
+        "C": "Computer Style Sheets",
+        "D": "Cascading Style Sheets",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "CSS stands for Cascading Style Sheets, used to style HTML documents. The other expansions are incorrect.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P06-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Queries",
+      "concept": "WITH clause (CTE)",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q70",
+      "question": "_____ clause creates temporary relation for the query on which it is defined.",
+      "options": {
+        "A": "WITH",
+        "B": "FROM",
+        "C": "WHERE",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The WITH clause defines a temporary relation (common table expression) that exists only for the query in which it is defined.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P06-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Animation",
+      "concept": "Animation as pictorial presentation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q100",
+      "question": "___________ is basically a form of pictorial presentation.",
+      "options": {
+        "A": "Photography",
+        "B": "Animations",
+        "C": "Drawing",
+        "D": "Creativity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Animation is a form of pictorial presentation in which a sequence of images creates the illusion of motion. Photography and drawing are static images and creativity is not a medium.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Hash table O(1) operations",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q89",
+      "question": "Which data structure is used for efficient searching, insertion, and deletion of elements?",
+      "options": {
+        "A": "Stack",
+        "B": "Queue",
+        "C": "Hash Table",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A hash table supports search, insertion and deletion in O(1) average time. Stacks and queues only give efficient access at their ends, and searching them is O(n).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P06-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Programmable Logic Devices",
+      "concept": "PLA full form",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q79",
+      "question": "What is a PLA?",
+      "options": {
+        "A": "Programmable Logic Application",
+        "B": "Programmable Logic Array",
+        "C": "Programmable Logic Architecture",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "PLA stands for Programmable Logic Array, a PLD with programmable AND and OR planes.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P06-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Intelligent Agents",
+      "concept": "Learning agents",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q87",
+      "question": "Which of the following can improve the performance of AI agent?",
+      "options": {
+        "A": "Precision",
+        "B": "Learning",
+        "C": "Observing",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Learning lets an agent improve its performance from experience. Precision and observing alone do not improve performance, so 'All of the above' is wrong.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P06-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Abstraction",
+      "concept": "Abstract methods",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q61",
+      "question": "What are abstract methods?",
+      "options": {
+        "A": "Methods that are inaccessible to the outside world",
+        "B": "Methods that have implementation details",
+        "C": "Methods without a body, defined in an abstract class",
+        "D": "Methods that cannot be inherited",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An abstract method is declared without a body in an abstract class (or interface) and must be implemented by subclasses. Methods with implementation are concrete methods.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P06-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Keyboard Shortcuts",
+      "concept": "Ctrl+Page Up",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q87",
+      "question": "\"Ctrl + Page Up\" is used to",
+      "options": {
+        "A": "move the cursor one page up",
+        "B": "move the cursor one paragraph up",
+        "C": "move the cursor one screen up",
+        "D": "move the cursor one line up",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In Word, Ctrl+Page Up moves the cursor to the top of the previous page. Page Up alone moves one screen up.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Design Principles",
+      "concept": "Modularity",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q105",
+      "question": "Among the following, which statement is correct about the modularity?",
+      "options": {
+        "A": "Modularity means hiding the parts of the program.",
+        "B": "Modularity refers to dividing a program into subsequent small modules or independent parts.",
+        "C": "It refers to overloading the program's part.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Modularity means dividing a program into smaller, independent modules. Hiding parts of the program describes abstraction/data hiding.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Simplex",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q142",
+      "question": "Communication between a computer and a keyboard involves _____ transmission.",
+      "options": {
+        "A": "simplex",
+        "B": "half-duplex",
+        "C": "full-duplex",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Data flows only from the keyboard to the computer, which is simplex (one-way) transmission.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Principles",
+      "concept": "Integrity breach",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q100",
+      "question": "Which one of the following would breach the integrity of a system?",
+      "options": {
+        "A": "Locking the room to prevent theft",
+        "B": "Full access rights for all users",
+        "C": "Fitting the system with an anti-theft device",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Giving full access rights to all users allows anyone to modify data, which breaches integrity. Locking rooms and anti-theft devices improve physical security.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P06-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Registers",
+      "concept": "Accumulator as working register",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q3",
+      "question": "Which type of register is primarily used to temporarily hold data during arithmetic and logical operations in a microprocessor?",
+      "options": {
+        "A": "Shift register",
+        "B": "Parallel register",
+        "C": "Accumulator register",
+        "D": "Counter register",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The accumulator holds one operand and the intermediate result of arithmetic and logical operations performed by the ALU. Shift and counter registers have specialised roles, not general operand storage.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P06-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Security",
+      "concept": "OS safeguards",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q92",
+      "question": "Safeguards in an operating system are mechanisms used to:",
+      "options": {
+        "A": "Ensure the efficient utilization of CPU time",
+        "B": "Prevent data loss during power outages",
+        "C": "Enhance the performance of I/O operations",
+        "D": "Protect against unauthorized access and security breaches",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "OS safeguards (authentication, access control, protection) are mechanisms that protect the system against unauthorized access and security breaches.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    }
+  ]
+}

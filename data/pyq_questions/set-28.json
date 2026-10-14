@@ -1,0 +1,681 @@
+{
+  "setId": 28,
+  "title": "PYQ Set 28",
+  "questions": [
+    {
+      "id": "P28-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Inheritance",
+      "concept": "super keyword",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q57",
+      "question": "What is the purpose of the \"super\" keyword in Java and other similar languages?",
+      "options": {
+        "A": "It refers to the superclass in inheritance",
+        "B": "It creates a new object instance",
+        "C": "It defines a new class",
+        "D": "It handles exceptions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "super refers to the immediate superclass, used to call its constructor or overridden methods. Objects are created with new.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "NIC",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q90",
+      "question": "Which of the following devices is essential to set up a wired LAN?",
+      "options": {
+        "A": "Modem",
+        "B": "NIC",
+        "C": "Repeater",
+        "D": "Firewall",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Every device on a wired LAN needs a Network Interface Card to connect to the network medium. A modem, repeater or firewall is not essential for a basic LAN.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Arrays",
+      "concept": "Zero-based indexing",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q94",
+      "question": "Which of the following gives the nth element of the Array?",
+      "options": {
+        "A": "array[n];",
+        "B": "array[n-1];",
+        "C": "array[n+1];",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Array indexing starts at 0, so the nth element is at index n-1. array[n] is actually the (n+1)th element.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Primary Memory",
+      "concept": "RAM and ROM as main memory",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q59",
+      "question": "The two kinds of main memory are",
+      "options": {
+        "A": "Primary and Secondary",
+        "B": "Random and Sequential",
+        "C": "ROM and RAM",
+        "D": "All of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Main (primary) memory is of two kinds: RAM (volatile, read/write) and ROM (non-volatile, read-only). Primary vs secondary is a classification of all storage, not of main memory.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P28-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Operators",
+      "concept": "Relational operators in SQL",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q25",
+      "question": "Which of the following is not a valid relational operator used with WHERE clause in SQL?",
+      "options": {
+        "A": ">",
+        "B": "<=",
+        "C": "=>",
+        "D": "<>",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SQL uses >, <, =, >=, <= and <> (or !=). '=>' is not a valid relational operator; the correct form is '>='.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P28-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "concept": "SFTP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q57",
+      "question": "Which of the following options is a network protocol that enables secure and encrypted file transfers between a client and a server?",
+      "options": {
+        "A": "SFTP",
+        "B": "Telnet",
+        "C": "SCP",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SFTP (SSH File Transfer Protocol) provides secure, encrypted file transfer and file management between a client and a server. Telnet and HTTP are unencrypted, and SCP is a simpler SSH-based copy command rather than a full client-server file transfer protocol.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "B-Trees",
+      "concept": "B-tree order",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q27",
+      "question": "In a B-tree of order m, each internal node can have up to ____ children.",
+      "options": {
+        "A": "m - 1",
+        "B": "m",
+        "C": "2m - 1",
+        "D": "2m",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a B-tree of order m, every node has at most m children and at most m-1 keys. m-1 is the maximum number of keys, not children.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P28-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Problem Formulation",
+      "concept": "Abstraction",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q85",
+      "question": "The process of removing detail from a given state representation is called ______",
+      "options": {
+        "A": "Extraction",
+        "B": "Abstraction",
+        "C": "Data Mining",
+        "D": "Information Retrieval",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Removing detail from a state representation is called abstraction. Extraction and data mining are unrelated terms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Design",
+      "concept": "Design template application",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q127",
+      "question": "The selected design template can be applied",
+      "options": {
+        "A": "to current slide only",
+        "B": "to all the slides",
+        "C": "To all the new presentations you create",
+        "D": "all of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A design template can be applied to selected slides only, to all slides, or set for all new presentations, so all of these.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P28-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "I/O Organization",
+      "concept": "Memory-mapped I/O",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q57",
+      "question": "In memory mapped I/O",
+      "options": {
+        "A": "the I/O devices and the memory share the same address space",
+        "B": "the I/O devices have a separate address space",
+        "C": "the memory and I/O devices have an associated address space",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In memory-mapped I/O, I/O device registers are given addresses in the same address space as memory and are accessed with ordinary memory instructions. A separate address space describes I/O-mapped (isolated) I/O.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P28-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Dynamic Memory",
+      "concept": "Deleting a null pointer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q80",
+      "question": "What happens if the following C++ statement is compiled and executed?\nint *ptr = NULL;\ndelete ptr;",
+      "options": {
+        "A": "The program is not semantically correct",
+        "B": "The program is compiled and executed successfully",
+        "C": "The program is compiled successfully but throws an error during runtime",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Applying delete to a null pointer is well defined in C++ and does nothing, so the program compiles and runs successfully. No runtime error occurs.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P28-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Integrity Constraints",
+      "concept": "Referential integrity",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q88",
+      "question": "The values appearing in given attributes of any tuple in the referencing relation must likewise occur in specified attributes of at least one tuple in the referenced relation, according to _____ integrity constraint.",
+      "options": {
+        "A": "referential",
+        "B": "primary",
+        "C": "referencing",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Referential integrity requires that foreign key values in the referencing relation appear in the referenced relation's key attributes.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P28-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Turing Test",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q76",
+      "question": "A technique that was developed to determine whether a machine could or could not demonstrate artificial intelligence is known as the ________?",
+      "options": {
+        "A": "Algorithm",
+        "B": "Logarithm",
+        "C": "Turing Test",
+        "D": "Boolean algebra",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Turing Test, proposed by Alan Turing in 1950, checks whether a machine can exhibit intelligent behaviour indistinguishable from a human.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P28-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia",
+      "concept": "Authoring tools",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q150",
+      "question": "Which of the following is a multimedia authoring tool?",
+      "options": {
+        "A": "Microsoft Word",
+        "B": "Adobe Photoshop",
+        "C": "Adobe Flash",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Adobe Flash was a multimedia authoring tool for creating interactive animations and content. Word is a word processor and Photoshop is an image editor.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P28-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Calculation",
+      "concept": "F9 recalculates",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q91",
+      "question": "How can you update the values of formula cells if Auto Calculate mode of Excel is disabled?",
+      "options": {
+        "A": "F8",
+        "B": "F9",
+        "C": "F10",
+        "D": "F11",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "F9 recalculates all formulas in open workbooks when calculation is set to manual. F8 is extend selection, F10 activates the menu bar, F11 creates a chart.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P28-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "concept": "Cut property of MST",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q2",
+      "question": "In the context of minimum spanning trees, the \"cut property\" is used to justify the correctness of Prim's algorithm. What does the cut property state?",
+      "options": {
+        "A": "The algorithm always cuts the maximum weight edge.",
+        "B": "The algorithm always cuts the minimum weight edge.",
+        "C": "The algorithm always cuts an edge crossing the cut with the minimum weight.",
+        "D": "The algorithm always cuts an edge crossing the cut with the maximum weight.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The cut property says that for any cut of the graph, the minimum-weight edge crossing that cut belongs to some MST; Prim's algorithm picks exactly this edge at each step. It is about edges crossing the cut, not just the globally minimum or maximum edge.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Aggregate Functions",
+      "concept": "HAVING vs WHERE with aggregates",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q3",
+      "question": "Aggregate functions can be used with ________ clause. They can not be used with ________ clause.",
+      "options": {
+        "A": "WHERE, HAVING",
+        "B": "HAVING, WHERE",
+        "C": "GROUP BY, HAVING",
+        "D": "SELECT, HAVING",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Aggregate functions such as SUM or COUNT can be used in the HAVING clause, which filters groups, but not in the WHERE clause, which filters individual rows before grouping.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P28-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Requirements Analysis",
+      "concept": "Structured analysis",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q90",
+      "question": "What does Structured Analysis focus on?",
+      "options": {
+        "A": "Hardware components",
+        "B": "Database management",
+        "C": "Data flow and processes",
+        "D": "User interfaces",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Structured analysis models a system in terms of data flow and processes, mainly using DFDs, data dictionaries and process specifications.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "Bitwise OR and bool promotion",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q83",
+      "question": "What is the value of 'p' in the following C++ code snippet?\n#include <iostream>\nusing namespace std;\nint main()\n{\n    int p;\n    bool a = true;\n    bool b = false;\n    int x = 10;\n    int y = 5;\n    p = ((x | y) + (a + b));\n    cout << p;\n    return 0;\n}",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "10 | 5 = 1010 | 0101 = 1111 = 15, and true + false = 1 + 0 = 1, so p = 15 + 1 = 16. Treating | as logical OR (giving 1) would lead to 2.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P28-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Grammars",
+      "concept": "Ambiguous grammar",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q72",
+      "question": "A grammar that produces more than one parse tree for the same sentence is called",
+      "options": {
+        "A": "Contiguous",
+        "B": "Ambiguous",
+        "C": "Unambiguous",
+        "D": "Regular",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A grammar is ambiguous if some string has more than one parse tree (or leftmost derivation).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Management",
+      "concept": "File operations",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q99",
+      "question": "File manipulation operations in an operating system include:",
+      "options": {
+        "A": "Allocating memory to files",
+        "B": "Assigning file names to processes",
+        "C": "Loading files into CPU registers",
+        "D": "Reading, writing, and modifying file content",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "File manipulation system calls include create, open, read, write, modify and delete files. Memory allocation and CPU register loading are not file operations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P28-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Bitwise Operations",
+      "concept": "AND, XOR, OR on binary numbers",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q26",
+      "question": "Given binary numbers A = 101010 and B = 111111, what is the result of (A AND B) OR (A XOR B)?",
+      "options": {
+        "A": "111111",
+        "B": "101111",
+        "C": "111010",
+        "D": "101010",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A AND B = 101010 and A XOR B = 010101. ORing them gives 111111.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P28-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Objects",
+      "concept": "Object identity id()",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q82",
+      "question": "Assertion (A) and Reason (R) based question. Mark the correct choice.\nAssertion (A): Every object in Python is assigned a unique identity (ID).\nReason (R): ID remains the same for the lifetime of that object.",
+      "options": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "C": "Assertion (A) is true, but Reason (R) is false.",
+        "D": "Assertion (A) is false, but Reason (R) is true.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Every Python object has a unique identity returned by id(), and this identity stays constant for the object's whole lifetime, which is what makes it a reliable unique identifier. So both statements are true and R explains A.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P28-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Access Networks",
+      "concept": "DSL",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q143",
+      "question": "Internet access by transmitting digital data over the wires of a local telephone network is provided by",
+      "options": {
+        "A": "leased line",
+        "B": "digital subscriber line",
+        "C": "digital signal line",
+        "D": "none of the mentioned",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Digital Subscriber Line (DSL) provides internet access by sending digital data over existing telephone wires.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P28-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Addressing Modes",
+      "concept": "Immediate addressing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q92",
+      "question": "Which addressing mode involves specifying a value within the instruction itself, rather than referencing a memory location?",
+      "options": {
+        "A": "Direct addressing",
+        "B": "Immediate addressing",
+        "C": "Indirect addressing",
+        "D": "Indexed addressing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In immediate addressing the operand value is part of the instruction (e.g. MVI A, 05H). Direct addressing gives the memory address of the operand.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

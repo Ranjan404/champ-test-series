@@ -1,0 +1,681 @@
+{
+  "setId": 5,
+  "title": "PYQ Set 5",
+  "questions": [
+    {
+      "id": "P05-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Abstraction",
+      "concept": "abstract keyword",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q3",
+      "question": "Which keyword is used to define an abstract method within an abstract class?",
+      "options": {
+        "A": "abstract",
+        "B": "virtual",
+        "C": "override",
+        "D": "implement",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In Java (and C#), an abstract method is declared with the abstract keyword and has no body. 'virtual' and 'override' relate to C++/C# overriding, and 'implement' is not a keyword.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P05-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Electromagnetic spectrum",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q100",
+      "question": "Arrange the following electromagnetic waves in increasing order of their frequency range.\n(A) Microwaves\n(B) Infrared Waves\n(C) Light Waves\n(D) Radio Waves\nChoose the correct answer from the options given below:",
+      "options": {
+        "A": "(A), (C), (D), (B)",
+        "B": "(D), (C), (B), (A)",
+        "C": "(B), (A), (D), (C)",
+        "D": "(D), (A), (B), (C)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In increasing frequency: radio waves < microwaves < infrared < visible light, i.e. (D), (A), (B), (C). Option B reverses part of the order.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "P05-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "Definition of e-commerce",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q33",
+      "question": "Which of the following describes e-commerce?",
+      "options": {
+        "A": "Doing business electronically",
+        "B": "Doing business",
+        "C": "Sale of goods",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "E-commerce means conducting business electronically, over the internet. Plain 'doing business' or 'sale of goods' omits the electronic aspect, so 'All of the above' is wrong.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P05-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Type Traits",
+      "concept": "std::rank",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q96",
+      "question": "In C++, for what purpose the \"rank()\" is used?",
+      "options": {
+        "A": "It returns the size of each dimension",
+        "B": "It returns the maximum number of elements that can be stored in the array",
+        "C": "It returns the dimension of the specified array",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "std::rank gives the number of dimensions of an array type. std::extent gives the size of a dimension, not rank.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P05-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "XML",
+      "concept": "ID attribute",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q67",
+      "question": "In XML, which attribute is used to uniquely identify an element?",
+      "options": {
+        "A": "id",
+        "B": "class",
+        "C": "name",
+        "D": "tag",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An attribute of type ID, conventionally named id, must be unique within an XML document and so uniquely identifies an element. class can be shared by many elements.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P05-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "OR as addition",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q120",
+      "question": "Which of the following logical operations is represented by the + sign in Boolean algebra?",
+      "options": {
+        "A": "OR",
+        "B": "NOT",
+        "C": "NOR",
+        "D": "AND",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The + sign in Boolean algebra denotes the OR operation; AND is denoted by a dot.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P05-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Backtracking",
+      "concept": "Hamiltonian cycle",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q73",
+      "question": "What is the primary goal of the Backtracking approach in solving the Hamiltonian Cycle problem?",
+      "options": {
+        "A": "To find a cycle with the fewest edges",
+        "B": "To find a cycle with the lowest weight",
+        "C": "To find a cycle that visits every vertex exactly once",
+        "D": "To find a cycle with the maximum number of edges",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A Hamiltonian cycle visits every vertex exactly once and returns to the start; backtracking searches for such a cycle. Lowest weight is the travelling salesman problem.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P05-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Concurrency Control",
+      "concept": "Locking for transaction integrity",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q35",
+      "question": "Which of the following is correct according to the technology deployed by DBMS?",
+      "options": {
+        "A": "Pointers are used to maintain transactional integrity and consistency",
+        "B": "Cursors are used to maintain transactional integrity and consistency",
+        "C": "Locks are used to maintain transactional integrity and consistency",
+        "D": "Triggers are used to maintain transactional integrity and consistency",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DBMSs use locks (e.g. shared/exclusive, two-phase locking) to keep concurrent transactions consistent and isolated. Cursors iterate rows and triggers run actions on events, but neither ensures transactional integrity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P05-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Addressing",
+      "concept": "MAC address",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q29",
+      "question": "Which of the following statement(s) is/are TRUE in respect of Media Access Control (MAC) Address?\n(A) It can be changed if a node is removed from one network and connected to another network.\n(B) Each MAC address is a 12-digit hexadecimal number.\n(C) It is a unique value associated with a network adapter called NIC.\n(D) It is provided by the Internet Service Provider to locate computers connected to the internet.\nChoose the correct answer from the options given below:",
+      "options": {
+        "A": "(B) and (C) only",
+        "B": "(A), (B) and (C) only",
+        "C": "(C) and (D) only",
+        "D": "(A) and (B) only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A MAC address is a 48-bit (12 hex digit) address burned into the NIC, so (B) and (C) are true. It does not change when a node moves between networks, and it is assigned by the manufacturer, not by the ISP (that is the IP address).",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P05-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Requirements",
+      "concept": "Types of requirements",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q132",
+      "question": "Which of the following is NOT a software development requirement?",
+      "options": {
+        "A": "Functional requirements",
+        "B": "System requirements",
+        "C": "Physical requirements",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Software requirements are classified as functional, non-functional, user and system requirements. Physical requirements is not a standard software requirement category.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P05-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Computer Arithmetic",
+      "concept": "Booth's multiplication algorithm",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q82",
+      "question": "What is Booth's algorithm used for?",
+      "options": {
+        "A": "Binary to decimal conversion",
+        "B": "Decimal to binary conversion",
+        "C": "Binary multiplication",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Booth's algorithm multiplies signed binary numbers in two's complement form efficiently. It is not a conversion method.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P05-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Pointers",
+      "concept": "Big plus selection pointer",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q100",
+      "question": "Which of the cell pointers indicates you that you can make selection?",
+      "options": {
+        "A": "Doctor's symbol (Big Plus)",
+        "B": "Small thin plus icon",
+        "C": "Mouse Pointer with anchor at the tip",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The thick white plus (doctor's symbol) pointer appears over cells and indicates you can select them. The small thin plus is the fill handle pointer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P05-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Data Science",
+      "concept": "Box plot",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q12",
+      "question": "___________ plot is used to show the spread and centers of a dataset.",
+      "options": {
+        "A": "box",
+        "B": "line",
+        "C": "bar",
+        "D": "histogram",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A box plot shows the median (center) and the spread through quartiles, IQR and whiskers. A histogram shows a distribution's shape, but the box plot is the standard summary of center and spread.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P05-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machines",
+      "concept": "Accept and reject states",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q70",
+      "question": "The halting states of a Turing machine are:",
+      "options": {
+        "A": "Start and stop",
+        "B": "Accept and reject",
+        "C": "Start and reject",
+        "D": "Reject and allow",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A Turing machine halts when it enters the accept state or the reject state. The start state is not a halting state.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P05-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Hardware",
+      "concept": "SPI MISO pin",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q69",
+      "question": "What is MISO pin in the RFID Module?",
+      "options": {
+        "A": "Master In Slave Out",
+        "B": "Manage Internal Slave Output",
+        "C": "Master Internal Search Optimization",
+        "D": "Manage Input Slave Op",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "RFID modules such as RC522 use SPI, where MISO means Master In Slave Out (data from the module to the microcontroller).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P05-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Bitwise Operations",
+      "concept": "Binary AND",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q76",
+      "question": "What is the result of the operation 1010 AND 1100 in binary?",
+      "options": {
+        "A": "1000",
+        "B": "1110",
+        "C": "100",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bitwise AND gives 1 only where both bits are 1: 1010 AND 1100 = 1000. 1110 is the OR result.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P05-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Basics",
+      "concept": "HTML comment syntax",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q18",
+      "question": "In HTML, we start a comment using:",
+      "options": {
+        "A": "<!--",
+        "B": "!-->",
+        "C": "--!>",
+        "D": "<--!",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An HTML comment starts with <!-- and ends with -->. The other options use the characters in the wrong order.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P05-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Data Types",
+      "concept": "Mapping type",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q54",
+      "question": "Which of the following is a mapped data type?",
+      "options": {
+        "A": "List",
+        "B": "Sets",
+        "C": "Dictionary",
+        "D": "Boolean",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A dictionary is Python's built-in mapping type, mapping keys to values. Lists are sequences, sets are unordered collections and bool is a scalar type.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P05-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "CPU as brain of computer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q71",
+      "question": "The brain of any computer system is",
+      "options": {
+        "A": "ALU",
+        "B": "memory",
+        "C": "CPU",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The CPU controls and coordinates all operations, so it is called the brain of the computer. The ALU is only one part of the CPU and memory only stores data.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P05-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Menus",
+      "concept": "Slide Show menu",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q130",
+      "question": "Which menu provides you the options like Animation Scheme, Custom Animation, Slide Transition?",
+      "options": {
+        "A": "Insert Menu",
+        "B": "Format Menu",
+        "C": "Tools Menu",
+        "D": "Slide Show Menu",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In PowerPoint 2003, Animation Schemes, Custom Animation and Slide Transition are in the Slide Show menu.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P05-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "HAVING Clause",
+      "concept": "HAVING filters groups",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q68",
+      "question": "Which of the following is true about the HAVING clause?",
+      "options": {
+        "A": "Similar to the WHERE clause but is used for columns rather than groups",
+        "B": "Similar to WHERE clause but is used for rows rather than columns",
+        "C": "Similar to WHERE clause but is used for groups rather than rows",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HAVING works like WHERE but filters groups produced by GROUP BY, whereas WHERE filters individual rows.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P05-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Testing",
+      "concept": "Verification vs validation",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q133",
+      "question": "What is the main difference between verification and validation in software testing?",
+      "options": {
+        "A": "Verification ensures that the software is bug-free, while validation ensures that it meets the requirements.",
+        "B": "Verification is done before coding, while validation is done after coding.",
+        "C": "Verification checks if the software is built right, while validation checks if the right software is built.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Verification asks \"Are we building the product right?\" (conformance to specification); validation asks \"Are we building the right product?\" (meets user needs). Verification does not guarantee bug-free software.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P05-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Internet Protocols",
+      "concept": "HTTP, DHCP, DNS all used",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q145",
+      "question": "Which one of the following protocols is not used in internet?",
+      "options": {
+        "A": "HTTP",
+        "B": "DHCP",
+        "C": "DNS",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "HTTP, DHCP and DNS are all protocols used on the internet, so none of these.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P05-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Constructors and Destructors",
+      "concept": "Destructor purpose",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q95",
+      "question": "What is the purpose of a destructor in OOP?",
+      "options": {
+        "A": "To create instances of classes",
+        "B": "To handle exceptions",
+        "C": "To free up resources when an object is destroyed",
+        "D": "To define default values for properties",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A destructor runs when an object is destroyed and releases resources such as memory, files or connections. Creating instances and setting defaults is the constructor's job.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P05-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "Doubly linked list properties",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q87",
+      "question": "Which of the following statements is not true about the doubly linked list?",
+      "options": {
+        "A": "We can traverse in both the directions.",
+        "B": "It requires extra space.",
+        "C": "Implementation of doubly linked list is easier than the singly linked list.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A doubly linked list is harder to implement than a singly linked list because each node keeps two pointers that must be updated. It does allow two-way traversal and needs extra space.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

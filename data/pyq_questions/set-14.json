@@ -1,0 +1,681 @@
+{
+  "setId": 14,
+  "title": "PYQ Set 14",
+  "questions": [
+    {
+      "id": "P14-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Simplex mode",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q138",
+      "question": "Communication between a computer and a keyboard involves ........... transmission.",
+      "options": {
+        "A": "Automatic",
+        "B": "Half-duplex",
+        "C": "Full-duplex",
+        "D": "Simplex",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Keyboard to computer communication is one-way only, which is simplex transmission.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Constraints",
+      "concept": "UNIQUE constraint",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q30",
+      "question": "While creating a table, which constraint does not allow insertion of duplicate values in the table?",
+      "options": {
+        "A": "UNIQUE",
+        "B": "DISTINCT",
+        "C": "NOT NULL",
+        "D": "HAVING",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The UNIQUE constraint prevents duplicate values in a column. DISTINCT only removes duplicates from query results, NOT NULL forbids nulls, and HAVING filters groups.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Sockets",
+      "concept": "Socket",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q149",
+      "question": "An endpoint of an inter-process communication flow across a computer network is called",
+      "options": {
+        "A": "socket",
+        "B": "pipe",
+        "C": "port",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A socket (IP address + port) is the endpoint of an inter-process communication flow across a network. A port alone is just a number, and a pipe is local IPC.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Storage Management",
+      "concept": "Secondary storage management",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q59",
+      "question": "Auxiliary storage space management in an operating system involves:",
+      "options": {
+        "A": "Allocating memory for CPU registers",
+        "B": "Managing input/output operations between processes and devices",
+        "C": "Managing the allocation of memory to processes",
+        "D": "Managing the allocation of space on secondary storage devices",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Auxiliary storage management handles free-space management and allocation of space on secondary storage such as disks. Allocating main memory to processes is memory management.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "FTP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q83",
+      "question": "What is the full form of FTP ?",
+      "options": {
+        "A": "File Transfer Protocol",
+        "B": "File Transmission Protocol",
+        "C": "Fast Transfer Protocol",
+        "D": "Fast Transmission Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "FTP stands for File Transfer Protocol, used to transfer files between client and server.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P14-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Recurrences",
+      "concept": "Divide and conquer recurrence",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q56",
+      "question": "The recurrence equation T(n) = T(n/2) + T(n/3) + n represents the time complexity of which algorithmic paradigm?",
+      "options": {
+        "A": "Divide and Conquer",
+        "B": "Dynamic Programming",
+        "C": "Greedy Algorithms",
+        "D": "Backtracking",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "T(n) = T(n/2) + T(n/3) + n splits the problem into smaller subproblems solved recursively and combines them in linear time, the hallmark of divide and conquer. Backtracking explores choices and undoes them, which this recurrence does not describe.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Mobile Communication",
+      "concept": "SMS full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q28",
+      "question": "Which of the following is the correct expansion of SMS?",
+      "options": {
+        "A": "Short Message Service",
+        "B": "Small Multimedia Service",
+        "C": "Short Multimedia Service",
+        "D": "Small Message Service",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SMS stands for Short Message Service, the text messaging service of mobile networks.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P14-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "History of Computers",
+      "concept": "Charles Babbage Difference Engine",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q53",
+      "question": "Who is the inventor of the \"Difference Engine\"?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "Charles Babbage",
+        "C": "Seymour Cray",
+        "D": "Augusta Ada King (Ada Lovelace)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Charles Babbage designed the Difference Engine (1822). Ada Lovelace wrote programs for his Analytical Engine; Turing and Cray came much later.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "MAC sublayer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q101",
+      "question": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+      "options": {
+        "A": "Logical link control sublayer",
+        "B": "Media access control sublayer",
+        "C": "Network interface control sublayer",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The MAC sublayer handles medium-dependent functions such as access control and framing for the specific medium. The LLC sublayer provides medium-independent functions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P14-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "SELECT to view data",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q124",
+      "question": "Which of the following SQL commands is used to view data?",
+      "options": {
+        "A": "CREATE",
+        "B": "INSERT",
+        "C": "SELECT",
+        "D": "UPDATE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SELECT retrieves (views) data from tables. CREATE defines objects, INSERT adds rows, UPDATE modifies rows.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "MAC protocols",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q150",
+      "question": "Which one of the following is not used in media access control?",
+      "options": {
+        "A": "Ethernet",
+        "B": "Digital subscriber line",
+        "C": "Fiber distributed data interface",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Ethernet, DSL and FDDI all use media access control mechanisms, so none of these is the answer.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P14-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Multiplexers",
+      "concept": "Select lines = log2(inputs)",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q80",
+      "question": "How many select lines are required for an 8-to-1 multiplexer?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An 8-to-1 MUX needs log2(8) = 3 select lines. 2 select lines handle only 4 inputs.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P14-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Switch in a LAN",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q127",
+      "question": "Which device is used to connect multiple devices within the same local area network (LAN)?",
+      "options": {
+        "A": "Router",
+        "B": "Switch",
+        "C": "Bridge",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A switch connects multiple devices within the same LAN and forwards frames using MAC addresses. A router connects different networks; a bridge typically joins two LAN segments.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P14-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Pushdown Automata",
+      "concept": "Representations of a PDA",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q97",
+      "question": "PDA can be represented with the help of",
+      "options": {
+        "A": "Instantaneous description",
+        "B": "Transition diagram",
+        "C": "Transition table",
+        "D": "All of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A PDA can be represented by a transition table, a transition diagram, and its configurations by instantaneous descriptions. All three are valid.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P14-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Inheritance",
+      "concept": "Purpose of inheritance",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q1",
+      "question": "What is the main purpose of inheritance in OOP?",
+      "options": {
+        "A": "To create instances of classes",
+        "B": "To prevent data abstraction",
+        "C": "To establish a parent-child relationship between classes",
+        "D": "To define exceptions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Inheritance lets a child (derived) class acquire the properties and methods of a parent (base) class, creating an is-a relationship. Creating instances is instantiation, not inheritance.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "Error control",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q89",
+      "question": "What is the purpose of error control in the Data Link Layer?",
+      "options": {
+        "A": "To prevent unauthorized access",
+        "B": "To correct errors in the physical layer",
+        "C": "To ensure reliable data transmission",
+        "D": "To manage network congestion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Error control (detection and retransmission, e.g. ARQ) ensures frames are delivered reliably between adjacent nodes. Congestion control and access control are separate functions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "NTFS full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q36",
+      "question": "The term \"NTFS\" refers to which one of the following?",
+      "options": {
+        "A": "New Technology File System",
+        "B": "New Tree File System",
+        "C": "New Table type File System",
+        "D": "Both A and C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NTFS stands for New Technology File System, the Windows NT family file system. The other expansions are invented.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P14-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Random access in arrays",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q76",
+      "question": "Which of the following is the advantage of the array data structure?",
+      "options": {
+        "A": "Elements of mixed data types can be stored",
+        "B": "Easier to access the elements in an array",
+        "C": "Index of the first element starts from 1",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Array elements are stored contiguously and accessed directly by index in O(1) time. Arrays hold elements of a single type, and in most languages indexing starts at 0.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P14-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Basics",
+      "concept": "Types of data in databases",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q123",
+      "question": "Which type of data can be stored in the database?",
+      "options": {
+        "A": "Image-oriented data",
+        "B": "Text, files containing data",
+        "C": "Data in the form of audio or video",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Modern databases can store text and files, images, and audio/video (e.g. as BLOBs). Since all of A, B and C are possible, the answer is 'More than one of the above'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P14-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Pointers",
+      "concept": "Fill handle pointer",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q101",
+      "question": "Which of the cell pointers indicates that you can fill series?",
+      "options": {
+        "A": "Doctor's symbol (Big Plus)",
+        "B": "Small thin plus icon",
+        "C": "Mouse Pointer with anchor at the tip",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The small thin black plus appears over the fill handle and indicates you can drag to fill a series. The big white plus is for selection.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P14-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Identifiers and Keywords",
+      "concept": "Case-sensitive keywords",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q77",
+      "question": "Which of the following is a correct identifier?",
+      "options": {
+        "A": "global",
+        "B": "Break",
+        "C": "def",
+        "D": "with",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Python keywords are case-sensitive, so 'Break' is a valid identifier while 'break' is not. 'global', 'def' and 'with' are reserved keywords.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P14-Q22",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Absorption and distributive laws",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q143",
+      "question": "The simplified form of the Boolean expression (X + Y + XY)(X + Z) is",
+      "options": {
+        "A": "XY + YZ",
+        "B": "X + YZ",
+        "C": "XZ + Y",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "X + Y + XY = X + Y (absorption). Then (X + Y)(X + Z) = X + YZ by the distributive law.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Reverse engineering",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q67",
+      "question": "Reverse engineering is primarily used for:",
+      "options": {
+        "A": "Creating new software from scratch",
+        "B": "Improving software performance",
+        "C": "Understanding and documenting existing software",
+        "D": "Testing software components",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Reverse engineering analyses existing software to understand its design and produce documentation or higher-level representations. Building new software from scratch is forward engineering.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P14-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Internet of Things",
+      "concept": "IPv6 for IoT",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q10",
+      "question": "Which version of IP address is most suitable for IoT?",
+      "options": {
+        "A": "IP V4",
+        "B": "IP V5",
+        "C": "IP V6",
+        "D": "IP V7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "IPv6 offers a 128-bit address space large enough to give every IoT device its own address. IPv5 and IPv7 are not deployed versions, and IPv4 addresses are exhausted.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P14-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "I/O Organization",
+      "concept": "Memory-mapped I/O",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q34",
+      "question": "What is the primary role of the memory-mapped I/O technique in a microcontroller?",
+      "options": {
+        "A": "It increases the speed of program execution",
+        "B": "It provides additional memory space for data storage",
+        "C": "It allows external devices to access the microcontroller's memory",
+        "D": "It eliminates the need for I/O operations",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In memory-mapped I/O, device registers share the same address space as memory, so devices and memory are accessed with the same load/store instructions; option C is the closest description. It does not add storage or remove I/O operations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    }
+  ]
+}

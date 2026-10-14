@@ -1,0 +1,681 @@
+{
+  "setId": 29,
+  "title": "PYQ Set 29",
+  "questions": [
+    {
+      "id": "P29-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Primary key",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q121",
+      "question": "In a relational database, what is a primary key?",
+      "options": {
+        "A": "A key used to uniquely identify each record in a table",
+        "B": "A key used to establish relationships between tables",
+        "C": "A key used to sort records in a table",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A primary key uniquely identifies each record (row) in a table and cannot be NULL. Relationships between tables are established by foreign keys.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTTP",
+      "concept": "HTTP GET method",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q49",
+      "question": "Which HTTP method is used for retrieving data from a server?",
+      "options": {
+        "A": "GET",
+        "B": "POST",
+        "C": "PUT",
+        "D": "DELETE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "GET requests retrieve data from a server. POST submits data, PUT replaces a resource and DELETE removes it.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "NoSQL",
+      "concept": "Non-relational databases",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q65",
+      "question": "What is a NoSQL database?",
+      "options": {
+        "A": "A NoSQL database is a database that does not use the relational model.",
+        "B": "A NoSQL database is a database that is not managed by a DBMS.",
+        "C": "A NoSQL database is a database that is not stored on a physical device.",
+        "D": "All of the above.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NoSQL databases (document, key-value, column, graph) store data without the relational table model. They are still managed by a DBMS and stored on physical devices.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P29-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Tree",
+      "concept": "Tree traversals",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q112",
+      "question": "Which one of the following techniques is not used in the binary tree?",
+      "options": {
+        "A": "Preorder traversal",
+        "B": "Inorder traversal",
+        "C": "Postorder traversal",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Preorder, inorder and postorder are all standard binary tree traversal techniques, so none of them is 'not used'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Views",
+      "concept": "Slide sorter for transitions",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q125",
+      "question": "Which of the following views is the best view to use when setting transition effects for all slides in a presentation?",
+      "options": {
+        "A": "Slide view",
+        "B": "Notes page view",
+        "C": "Outline view",
+        "D": "Slide sorter view",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Slide Sorter view shows all slides as thumbnails, making it the best view to apply transitions to all slides.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Header Files",
+      "concept": "User-defined header file extension",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q52",
+      "question": "Which of the following is userdefined header file extension used in C++?",
+      "options": {
+        "A": "hg",
+        "B": "cpp",
+        "C": "h",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "User-defined header files in C++ are conventionally saved with the .h extension and included with #include \"file.h\". The .cpp extension is used for source files.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Applications of queue",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q111",
+      "question": "Which one of the following is not the application of the queue data structure?",
+      "options": {
+        "A": "Data is transferred asynchronously",
+        "B": "Resource is shared between various systems",
+        "C": "Balancing of symbols",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Balancing of symbols (parentheses matching) is done with a stack. Asynchronous data transfer and resource sharing among systems are queue applications.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Services",
+      "concept": "Web-based services",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q64",
+      "question": "Which of the following is not a Web Service?",
+      "options": {
+        "A": "Using Diksha learning portal",
+        "B": "Sending and receiving email",
+        "C": "File transfer over Bluetooth",
+        "D": "Using a banking portal for online transaction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "File transfer over Bluetooth is a local wireless transfer and does not use the Web. Online learning portals, e-mail and banking portals are delivered over the Internet.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Specialization",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q23",
+      "question": "Which of the following is a top-down approach in which the entity's higher level can be divided into two lower sub-entities?",
+      "options": {
+        "A": "Aggregation",
+        "B": "Generalization",
+        "C": "Specialization",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Specialization is a top-down process that divides a higher-level entity into lower-level sub-entities. Generalization is the bottom-up reverse, and aggregation treats a relationship as an entity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "Role of HTML",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q140",
+      "question": "What is the purpose of HTML in a web application?",
+      "options": {
+        "A": "To define the structure of web pages",
+        "B": "To style web pages",
+        "C": "To add interactivity to web pages",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "HTML defines the structure and content of web pages. Styling is done with CSS and interactivity with JavaScript.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "TCP/IP Model",
+      "concept": "Host-to-host layer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q107",
+      "question": "Which layer of the TCP/IP stack corresponds to the OSI model transport layer?",
+      "options": {
+        "A": "Host-to-host",
+        "B": "Application",
+        "C": "Internet",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The host-to-host (transport) layer of the TCP/IP model corresponds to the OSI transport layer. The Internet layer corresponds to the OSI network layer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Interfaces",
+      "concept": "SPI MISO pin",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q80",
+      "question": "What is the role of the MISO pin in the RFID Module?",
+      "options": {
+        "A": "Master In Slave Out",
+        "B": "Manage Internal Slave Output",
+        "C": "Master Internal Search Optimization",
+        "D": "Manage Input Slave Op",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The RFID module (e.g. RC522) uses SPI, where MISO means Master In Slave Out, the line carrying data from the module to the controller. The other expansions are invented.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P29-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Basics",
+      "concept": "Web server",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q35",
+      "question": "A web server is ________.",
+      "options": {
+        "A": "A program that downloads files",
+        "B": "A type of web browser",
+        "C": "A protocol used for secure communication",
+        "D": "A computer that stores and delivers web pages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A web server is a computer (with server software) that stores web pages and delivers them to clients over HTTP. A browser is the client that requests them.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Public Key Cryptography",
+      "concept": "Private key ownership",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q111",
+      "question": "The private key in asymmetric key cryptography is kept by",
+      "options": {
+        "A": "sender",
+        "B": "receiver",
+        "C": "sender and receiver",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In asymmetric encryption the sender encrypts with the receiver's public key, and only the receiver holds the matching private key to decrypt.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Access Modifiers",
+      "concept": "Default (package-private) access",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q138",
+      "question": "What is the access specifier used to make members of a class accessible only within the same package?",
+      "options": {
+        "A": "private",
+        "B": "public",
+        "C": "package-private",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "When no access modifier is given in Java, members get default (package-private) access and are visible only within the same package. private restricts access to the class itself.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P29-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process Synchronization",
+      "concept": "Dining philosophers problem",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q22",
+      "question": "The dining philosophers problem is an example of a synchronization problem related to:",
+      "options": {
+        "A": "Process scheduling",
+        "B": "Mutual exclusion",
+        "C": "Memory allocation",
+        "D": "Interrupt handling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The dining philosophers must share forks so that no two neighbours use the same fork at once, which is a classic mutual exclusion (and deadlock) problem. It is not about CPU scheduling or memory allocation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "concept": "SMTP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q45",
+      "question": "The protocol that is used to send e-mails is:",
+      "options": {
+        "A": "HTTP",
+        "B": "POP",
+        "C": "SMTP",
+        "D": "FTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) sends/forwards e-mail. POP is used to retrieve mail from a server.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "XML",
+      "concept": "XML tag syntax",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q82",
+      "question": "Which symbol is used to define the start and end of XML tags?",
+      "options": {
+        "A": "< >",
+        "B": "{ }",
+        "C": "[ ]",
+        "D": "( )",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "XML tags are enclosed in angle brackets < >, e.g. <book> and </book>.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q19",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Language Classification",
+      "concept": "Language {a^p | p is prime}",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q13",
+      "question": "Which of the following is true for the language { a^p | p is a prime }?",
+      "options": {
+        "A": "It is regular but not context-free",
+        "B": "It is neither regular nor context-free, but accepted by a Turing machine",
+        "C": "It is not accepted by a Turing Machine",
+        "D": "It is context-free but not regular",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "By the pumping lemmas, {a^p | p is prime} is neither regular nor context-free, but primality can be checked by an algorithm, so a Turing machine decides (accepts) it. It is therefore recursive, not outside TM power.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P29-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Priority Queue",
+      "concept": "Binary heap",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q116",
+      "question": "Which data structure is the best for implementing a priority queue?",
+      "options": {
+        "A": "Linked list",
+        "B": "Array",
+        "C": "Binary heap",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A binary heap supports insert and delete-max/min in O(log n), making it the best choice. Arrays and linked lists need O(n) for one of these operations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Spiral model",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q63",
+      "question": "Which software life cycle model is based on iterative prototyping?",
+      "options": {
+        "A": "Waterfall model",
+        "B": "Spiral model",
+        "C": "Agile model",
+        "D": "Prototype model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The spiral model combines the iterative nature of prototyping with the systematic steps of the waterfall model, repeating loops that each include risk analysis and prototyping. The waterfall model is strictly linear.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "File Organization",
+      "concept": "Master file",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q50",
+      "question": "A large computer information system maintains many different computer files. Which amongst them is called a perpetual file?",
+      "options": {
+        "A": "Specialized File",
+        "B": "Master File",
+        "C": "Log File",
+        "D": "Update File",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A master file holds the relatively permanent (perpetual) core data of a system, such as customer or employee records, and is updated by transaction/update files.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "SELECT command",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q112",
+      "question": "Which of the following is a valid SQL command",
+      "options": {
+        "A": "cin",
+        "B": "cout",
+        "C": "tuple",
+        "D": "select",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SELECT is an SQL command used to query data. cin and cout are C++ stream objects and tuple is a relational term for a row.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P29-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "MQTT full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q16",
+      "question": "Full form of MQTT is",
+      "options": {
+        "A": "Multi-Queue Telemetry Things",
+        "B": "Multiple Queueing Telemetry Things",
+        "C": "Message Queue Telemetry Things",
+        "D": "Message Queue Telemetry Transport",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MQTT stands for Message Queuing Telemetry Transport, a lightweight publish-subscribe protocol for IoT. The other expansions end incorrectly in 'Things'.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P29-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Codes",
+      "concept": "Self-complementing Excess-3",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q93",
+      "question": "In Excess-3 Code, why is the code considered self-complementing?",
+      "options": {
+        "A": "Because it can be converted to ASCII directly",
+        "B": "Because the 9's complement of each digit can be obtained by inverting its bits",
+        "C": "Because it is used for financial calculations",
+        "D": "Because it is a form of Gray code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In Excess-3, inverting all bits of a digit's code gives the code of its 9's complement (e.g. 2 = 0101, inverted 1010 = 7). It is not a Gray code and is unrelated to ASCII.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

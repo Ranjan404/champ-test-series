@@ -1,0 +1,681 @@
+{
+  "setId": 31,
+  "title": "PYQ Set 31",
+  "questions": [
+    {
+      "id": "P31-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "Linked list traversal",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q73",
+      "question": "Which traversal technique is used to visit each node of a linked list exactly once?",
+      "options": {
+        "A": "Preorder traversal",
+        "B": "Inorder traversal",
+        "C": "Postorder traversal",
+        "D": "Linear traversal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A linked list is traversed linearly from the head following next pointers, visiting each node once. Preorder, inorder and postorder are tree traversals.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P31-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "CPU as brain of computer",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q48",
+      "question": "The brain of any computer is",
+      "options": {
+        "A": "ALU",
+        "B": "CPU",
+        "C": "Memory",
+        "D": "Control Unit (CU)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The CPU is called the brain of the computer because it executes instructions and controls all units. The ALU and CU are only parts of the CPU.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P31-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "Subnet mask",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q129",
+      "question": "What is the purpose of a subnet mask in TCP/IP networking?",
+      "options": {
+        "A": "To identify the network portion of an IP address",
+        "B": "To identify the host portion of an IP address",
+        "C": "To convert IP addresses into domain names",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A subnet mask marks which bits of an IP address belong to the network (subnet) portion. Converting names to IP addresses is done by DNS.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P31-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Keyboard Shortcuts",
+      "concept": "Ctrl+End",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q90",
+      "question": "\"Ctrl + End\" is used to",
+      "options": {
+        "A": "move the cursor to the end of line",
+        "B": "move the cursor to the end of document",
+        "C": "move the cursor to the end of paragraph",
+        "D": "none of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Ctrl+End moves the cursor to the end of the document. End alone moves to the end of the line.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P31-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Spatial locality",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q109",
+      "question": "Which of the following highly uses the concept of an array?",
+      "options": {
+        "A": "Binary search tree",
+        "B": "Scheduling of processes",
+        "C": "Spatial locality",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Array elements are stored in contiguous memory, so accessing them exploits spatial locality of reference. BSTs and process scheduling typically rely on linked structures and queues.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P31-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Menus",
+      "concept": "Format menu",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q129",
+      "question": "In which menu can you find features like Slide Design, Slide Layout etc.?",
+      "options": {
+        "A": "Insert Menu",
+        "B": "Format Menu",
+        "C": "Tools Menu",
+        "D": "Slide Show Menu",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In PowerPoint 2003, Slide Design and Slide Layout are found in the Format menu.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P31-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Generations of Computers",
+      "concept": "ICs in third generation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q62",
+      "question": "Integrated Circuits (ICs) are related to which generation of computers?",
+      "options": {
+        "A": "First generation",
+        "B": "Second generation",
+        "C": "Third generation",
+        "D": "Fourth generation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Third generation computers (1964-1971) used integrated circuits. Fourth generation used microprocessors (VLSI).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P31-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Broadcast network",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q135",
+      "question": "Communication channel is shared by all the machines on the network in",
+      "options": {
+        "A": "broadcast network",
+        "B": "unicast network",
+        "C": "multicast network",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In a broadcast network a single communication channel is shared by all machines; a packet sent by one is received by all.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P31-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Red-Black Tree",
+      "concept": "Colour of newly inserted node",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q118",
+      "question": "Which of the following satisfies the property of the red-black tree?",
+      "options": {
+        "A": "Black, if the new node is a root node",
+        "B": "Red, if the new node is not a root node",
+        "C": "Black, if the new node is not a root node",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a red-black tree the root is always black, and a newly inserted non-root node is coloured red. Both A and B are true, so the answer is 'More than one of the above'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P31-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Basics",
+      "concept": "DBMS examples",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q125",
+      "question": "Which of the following is not an example of DBMS?",
+      "options": {
+        "A": "Microsoft access",
+        "B": "IBM Db2",
+        "C": "Google",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Microsoft Access and IBM Db2 are DBMS software. Google is a search engine/company, not a DBMS.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P31-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Digital vs Analog",
+      "concept": "Characteristics of digital circuits",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q72",
+      "question": "Which of the following is correct for Digital Circuits?",
+      "options": {
+        "A": "They use analog signals for communication",
+        "B": "They process information using continuous voltage levels",
+        "C": "They are not suitable for high speed operations",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Digital circuits use discrete (binary) signals, not analog or continuous voltage levels, and they are well suited to high-speed operation. Since A, B and C are all false, the answer is None of the above.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P31-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "File Handling",
+      "concept": "Combining file modes",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q108",
+      "question": "Which of the following statements is/are correct?\n1. It is not possible to combine two or more file opening modes in open() method.\n2. It is possible to combine two or more file opening modes in open() method.\n3. ios::in and ios::out are input and output file opening modes respectively.",
+      "options": {
+        "A": "1, 3",
+        "B": "2, 3",
+        "C": "3 only",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "File modes can be combined with the bitwise OR operator, e.g. ios::in | ios::out, so statement 2 is true and 1 is false; statement 3 is also true.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P31-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Compression",
+      "concept": "Pixels",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q100",
+      "question": "In audio and video compression, each frame is divided into small grids, called picture elements or ________.",
+      "options": {
+        "A": "packets",
+        "B": "mega pixels",
+        "C": "frame",
+        "D": "pixels",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Each video frame is a grid of picture elements, called pixels. Mega pixel is a unit of a million pixels, not the name of a single element.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P31-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Types of OS",
+      "concept": "Multi-user OS",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q60",
+      "question": "The term \"multi-user\" in an OS context refers to:",
+      "options": {
+        "A": "An OS that can execute multiple programs simultaneously",
+        "B": "An OS that supports multiple users working on the same machine",
+        "C": "An OS that can only run on multiple computers",
+        "D": "An OS with a graphical user interface",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A multi-user OS allows multiple users to use the same computer's resources at the same time. Executing multiple programs is multitasking/multiprogramming.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P31-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Joins and Keys",
+      "concept": "Retrieving from multiple tables",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q60",
+      "question": "The question below is an Assertion (A) and Reason (R) based question. Mark the correct choice.\nAssertion (A): We can retrieve records from more than one table in MySQL.\nReason (R): Foreign key is used to establish a relationship between two tables.",
+      "options": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation for Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation for Assertion (A).",
+        "C": "Assertion (A) is true but Reason (R) is false.",
+        "D": "Assertion (A) is false but Reason (R) is true.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Both are true: records from multiple tables can be retrieved with joins or Cartesian products, and a foreign key links two tables. But multi-table retrieval does not depend on a foreign key, so R does not explain A.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P31-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Keyboard Shortcuts",
+      "concept": "Ctrl+Down Arrow",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q83",
+      "question": "\"Ctrl + Down Arrow\" is used to",
+      "options": {
+        "A": "move the cursor one paragraph down",
+        "B": "move the cursor one line down",
+        "C": "move the cursor one page down",
+        "D": "move the cursor one screen down",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Ctrl+Down Arrow moves the cursor to the beginning of the next paragraph. The Down Arrow alone moves one line down.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P31-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "RFID",
+      "concept": "RFID module read range",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q90",
+      "question": "Maximum read range of RFID module is?",
+      "options": {
+        "A": "10 CM",
+        "B": "5 CM",
+        "C": "15 CM",
+        "D": "2 CM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The common RC522 13.56 MHz RFID reader module used in IoT projects has a maximum read range of about 5 cm.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P31-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machines",
+      "concept": "Representations of a TM",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q6",
+      "question": "Turing machine can be represented using:",
+      "options": {
+        "A": "Transition table",
+        "B": "Transition diagram",
+        "C": "Instantaneous description",
+        "D": "All of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A Turing machine can be described by a transition table, by a transition diagram, and its configurations by instantaneous descriptions. All three are valid representations.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P31-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Threaded binary tree",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q66",
+      "question": "In a threaded binary tree, the space required for threads is usually:",
+      "options": {
+        "A": "Greater than the space required for regular pointers",
+        "B": "Equal to the space required for regular pointers",
+        "C": "Less than the space required for regular pointers",
+        "D": "Unpredictable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Threads reuse the otherwise null left/right pointer fields, so they need no extra pointer storage; only small tag bits are added. Hence the space for threads is less than that for regular pointers.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P31-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Exception Handling",
+      "concept": "Purpose of exception handling",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q71",
+      "question": "What is the main advantage of using exception handling in programming?",
+      "options": {
+        "A": "It prevents code from running",
+        "B": "It improves code readability",
+        "C": "It handles unexpected errors and allows graceful program termination",
+        "D": "It eliminates the need for classes and objects",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Exception handling lets a program catch unexpected runtime errors and respond gracefully (recover or terminate cleanly) instead of crashing abruptly.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P31-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cyber Ethics",
+      "concept": "Plagiarism",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q7",
+      "question": "Stealing someone's intellectual work and representing it as your own is known as:",
+      "options": {
+        "A": "Fraud",
+        "B": "Identity Theft",
+        "C": "Online Stealing",
+        "D": "Plagiarism",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Plagiarism is presenting someone else's ideas or work as one's own. Identity theft is stealing personal identity details, not intellectual work.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P31-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Generations of Computers",
+      "concept": "Microprocessor in fourth generation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q54",
+      "question": "Microprocessors as switching devices are for which generation computers",
+      "options": {
+        "A": "First Generation",
+        "B": "Second Generation",
+        "C": "Third Generation",
+        "D": "Fourth Generation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Fourth generation computers (1971 onwards) used VLSI microprocessors. Third generation used ICs, second transistors, first vacuum tubes.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P31-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Introduction",
+      "concept": "Software crisis",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q62",
+      "question": "Software engineering emerged due to:",
+      "options": {
+        "A": "The decline of computer technology",
+        "B": "The need for complex hardware systems",
+        "C": "The challenges posed by software development",
+        "D": "The focus on hardware-only solutions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Software engineering emerged as a response to the software crisis: late, over-budget and unreliable software. It was not caused by declining technology or a hardware focus.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P31-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Applications of Boolean algebra",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q141",
+      "question": "Boolean algebra can be used",
+      "options": {
+        "A": "for designing the digital computers",
+        "B": "in building logic symbols",
+        "C": "in circuit theory",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Boolean algebra is used for designing digital computers and in (switching) circuit theory, and it underlies logic symbols as well. Since more than one option is correct, the answer is D.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P31-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Data Communication",
+      "concept": "Data compression",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q23",
+      "question": "What is the primary purpose of data compression in data communication?",
+      "options": {
+        "A": "To increase latency",
+        "B": "To reduce bandwidth usage",
+        "C": "To decrease error rates",
+        "D": "To improve security",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Compression reduces the number of bits sent, so it reduces bandwidth usage and transmission time. It does not aim to increase latency, and it is not an error-control or security technique.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

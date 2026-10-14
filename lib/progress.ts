@@ -1,4 +1,4 @@
-import type { OptionKey, Progress, QuestionSet, SetProgress, SetStatus } from "./types";
+import type { OptionKey, PracticeTrack, QuestionSet, SetProgress, SetStatus } from "./types";
 import { PRACTICE_DURATION_SECONDS, TOTAL_SETS } from "./types";
 import { evaluate, netScore, normaliseAnswer } from "./scoring";
 
@@ -14,11 +14,15 @@ export class ProgressError extends Error {
 /** A submit that arrives this long after the deadline (slow network at auto-submit) still counts its answers. */
 export const PRACTICE_SUBMIT_GRACE_MS = 30_000;
 
-export function isUnlocked(p: Progress, setId: number) {
-  return setId >= 1 && setId <= Math.min(p.unlockedUpTo, TOTAL_SETS);
+/**
+ * The functions below work on one track of sets: `p` is the whole progress for practice sets, or `p.pyq` for PYQ sets
+ * (see pyqTrack). `total` is the number of sets in that track.
+ */
+export function isUnlocked(p: PracticeTrack, setId: number, total = TOTAL_SETS) {
+  return setId >= 1 && setId <= Math.min(p.unlockedUpTo, total);
 }
 
-export function setStatus(p: Progress, setId: number): SetStatus {
+export function setStatus(p: PracticeTrack, setId: number): SetStatus {
   return p.sets[setId]?.status ?? "not_started";
 }
 
@@ -41,9 +45,9 @@ function cleanAnswers(set: QuestionSet, raw: Record<string, OptionKey[]>) {
  * Starts a new attempt at the set, or resumes the one in progress (call finalizeIfExpired first).
  * Returns the completed attempt untouched if the set is already done. Mutates `p`.
  */
-export function startPractice(p: Progress, set: QuestionSet, now = Date.now()): SetProgress {
+export function startPractice(p: PracticeTrack, set: QuestionSet, now = Date.now(), total = TOTAL_SETS): SetProgress {
   const setId = set.setId;
-  if (!isUnlocked(p, setId)) throw new ProgressError("This set is locked.", 403);
+  if (!isUnlocked(p, setId, total)) throw new ProgressError("This set is locked.", 403);
   const sp = p.sets[setId];
   if (sp) {
     // Attempts from before practice sets were timed: keep their answers and start the clock now.
@@ -68,7 +72,7 @@ export function startPractice(p: Progress, set: QuestionSet, now = Date.now()): 
   });
 }
 
-function runningAttempt(p: Progress, set: QuestionSet) {
+function runningAttempt(p: PracticeTrack, set: QuestionSet) {
   const sp = p.sets[set.setId];
   if (sp?.status === "completed") throw new ProgressError("This set is already submitted. Retake it to try again.", 409);
   if (!sp) throw new ProgressError("This set has not been started. Reload to start it.", 409);
@@ -79,7 +83,7 @@ function runningAttempt(p: Progress, set: QuestionSet) {
  * Scores the attempt, records it in history and unlocks the next set. A retake replaces the set's
  * earlier result: its older history entries are dropped. Mutates `p`.
  */
-function finish(p: Progress, set: QuestionSet, submittedAt: number, timedOut: boolean) {
+function finish(p: PracticeTrack, set: QuestionSet, submittedAt: number, timedOut: boolean, total: number) {
   const setId = set.setId;
   const sp = runningAttempt(p, set);
   let correct = 0;
@@ -112,7 +116,7 @@ function finish(p: Progress, set: QuestionSet, submittedAt: number, timedOut: bo
 
   // Unlock only ever moves forward.
   let nextUnlocked: number | null = null;
-  if (setId < TOTAL_SETS && p.unlockedUpTo < setId + 1) {
+  if (setId < total && p.unlockedUpTo < setId + 1) {
     p.unlockedUpTo = setId + 1;
     nextUnlocked = setId + 1;
   }
@@ -123,15 +127,15 @@ function finish(p: Progress, set: QuestionSet, submittedAt: number, timedOut: bo
  * If the attempt's time (plus `graceMs`) is over, submits it with the answers saved so far.
  * Returns the outcome, or null when nothing expired. Mutates `p`.
  */
-export function finalizeIfExpired(p: Progress, set: QuestionSet, now = Date.now(), graceMs = PRACTICE_SUBMIT_GRACE_MS) {
+export function finalizeIfExpired(p: PracticeTrack, set: QuestionSet, now = Date.now(), graceMs = PRACTICE_SUBMIT_GRACE_MS, total = TOTAL_SETS) {
   const sp = p.sets[set.setId];
   if (sp?.status !== "in_progress" || !sp.marked || now < practiceDeadline(sp) + graceMs) return null;
-  return finish(p, set, practiceDeadline(sp), true);
+  return finish(p, set, practiceDeadline(sp), true, total);
 }
 
 /** Save & Next / Previous / palette jump: stores the answers so far. Rejected once time is up. Mutates `p`. */
 export function savePractice(
-  p: Progress,
+  p: PracticeTrack,
   set: QuestionSet,
   body: { answers: Record<string, OptionKey[]>; marked: string[]; current: number },
   now = Date.now(),
@@ -145,15 +149,15 @@ export function savePractice(
 }
 
 /** Submit: scores the attempt. Late submits (past the grace) keep only what was saved. Mutates `p`. */
-export function submitPractice(p: Progress, set: QuestionSet, answers: Record<string, OptionKey[]>, now = Date.now()) {
+export function submitPractice(p: PracticeTrack, set: QuestionSet, answers: Record<string, OptionKey[]>, now = Date.now(), total = TOTAL_SETS) {
   const sp = runningAttempt(p, set);
   const deadline = practiceDeadline(sp);
   if (now < deadline + PRACTICE_SUBMIT_GRACE_MS) sp.answers = cleanAnswers(set, answers);
-  return finish(p, set, Math.min(now, deadline), now >= deadline);
+  return finish(p, set, Math.min(now, deadline), now >= deadline, total);
 }
 
 /** Clears a set's current attempt so it can be retaken. Its result is replaced when the retake is submitted; unlocks are untouched. */
-export function applyReset(p: Progress, setId: number) {
-  if (!isUnlocked(p, setId)) throw new ProgressError("This set is locked.", 403);
+export function applyReset(p: PracticeTrack, setId: number, total = TOTAL_SETS) {
+  if (!isUnlocked(p, setId, total)) throw new ProgressError("This set is locked.", 403);
   delete p.sets[setId];
 }

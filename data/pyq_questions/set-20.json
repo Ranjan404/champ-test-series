@@ -1,0 +1,681 @@
+{
+  "setId": 20,
+  "title": "PYQ Set 20",
+  "questions": [
+    {
+      "id": "P20-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Comments",
+      "concept": "Cell comment",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q103",
+      "question": "What term describes explanatory text attached to a cell?",
+      "options": {
+        "A": "Context",
+        "B": "Callout",
+        "C": "Comment",
+        "D": "Dialog",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Explanatory text attached to a cell is a comment (Insert > Comment), shown with a red triangle indicator. A callout is a drawing shape.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P20-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Method overloading",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q46",
+      "question": "In OOP, what is method overloading?",
+      "options": {
+        "A": "Creating multiple constructors",
+        "B": "Using multiple inheritance",
+        "C": "Defining multiple methods with the same name but different parameters",
+        "D": "Inheriting multiple methods from a parent class",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Method overloading is defining multiple methods with the same name but different parameter lists in the same class. Inheriting methods relates to inheritance/overriding.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Services",
+      "concept": "Chat",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q93",
+      "question": "Which of the following is a service for real-time text communication on the internet ?",
+      "options": {
+        "A": "e-Learning",
+        "B": "FTP",
+        "C": "Video conferencing",
+        "D": "Chat",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Chat (instant messaging) is the internet service for real-time text communication. Video conferencing is real-time but audio/video based, and FTP transfers files.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "OSI layers",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q41",
+      "question": "The OSI model consists of how many layers?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The OSI reference model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation and Application. The TCP/IP model is usually given 4 or 5 layers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P20-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Mouse Operations",
+      "concept": "Dragging",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q123",
+      "question": "What is the term used when you press and hold the left mouse key and move the mouse around the slide?",
+      "options": {
+        "A": "Moving",
+        "B": "Dragging",
+        "C": "Monitoring",
+        "D": "Highlighting",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Pressing and holding the left mouse button while moving the mouse is called dragging.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Smart Cards",
+      "concept": "Smart card microchip",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q54",
+      "question": "The presence of ________ makes a card smart?",
+      "options": {
+        "A": "Memory",
+        "B": "Money",
+        "C": "Microchip",
+        "D": "Message Queue Telemetry Transport",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A smart card has an embedded microchip (processor and memory), which makes it 'smart'. A magnetic-stripe card only stores data and has no chip.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Gateway",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q30",
+      "question": "Which of the following device provides the necessary translation of data received from network into a format or protocol recognized by devices with the internal network?",
+      "options": {
+        "A": "Bridge",
+        "B": "Gateway",
+        "C": "Router",
+        "D": "Modem",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A gateway connects networks using different protocols and translates data into a format the internal network understands. Routers and bridges forward data but do not perform protocol translation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Applications",
+      "concept": "Applications of AI",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q55",
+      "question": "The applications of AI include:",
+      "options": {
+        "A": "Gaming",
+        "B": "Expert Systems",
+        "C": "ML and DL",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Gaming, expert systems and machine/deep learning are all application areas of AI.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P20-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Reliability",
+      "concept": "Musa's basic execution time model",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q76",
+      "question": "Musa's Basic Model is used for measuring:",
+      "options": {
+        "A": "Software complexity",
+        "B": "Software reliability",
+        "C": "Software performance",
+        "D": "Software size",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Musa's basic execution time model is a software reliability growth model that predicts failure intensity over execution time. It does not measure size or complexity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Classes and Objects",
+      "concept": "Object as instance of class",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q116",
+      "question": "Which of the following statements is correct about the class?",
+      "options": {
+        "A": "An object is an instance of its class.",
+        "B": "A class is an instance of its object.",
+        "C": "An object is the instance of the data type of that class.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An object is an instance of its class; the class is the blueprint. Saying a class is an instance of its object reverses the relationship.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P20-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Buses",
+      "concept": "Data bus width",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q12",
+      "question": "How is the width of the data bus typically measured in a microcomputer system?",
+      "options": {
+        "A": "In kilobytes (KB)",
+        "B": "In megahertz (MHz)",
+        "C": "In bits",
+        "D": "In address lines",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Data bus width is the number of parallel lines, expressed in bits (e.g. 8, 16, 32, 64 bits). MHz measures clock speed and address lines describe the address bus.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel View",
+      "concept": "Zoom range 10 to 400",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q109",
+      "question": "Which of the following is not a valid zoom percentage in Excel?",
+      "options": {
+        "A": "10",
+        "B": "100",
+        "C": "300",
+        "D": "500",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Excel's zoom range is 10% to 400%, so 500% is not valid; 10, 100 and 300 are within range.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Careless Error",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P20-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual Memory",
+      "concept": "Thrashing",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q114",
+      "question": "What causes thrashing to occur?",
+      "options": {
+        "A": "Excessive paging activity",
+        "B": "Insufficient disk space",
+        "C": "Hardware failures",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Thrashing occurs when processes do not have enough frames, so the system spends most of its time paging (excessive page faults and swapping) instead of executing.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P20-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "DNS",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q24",
+      "question": "What is the purpose of Domain Name System Server in networking?",
+      "options": {
+        "A": "To encrypt data during transmission.",
+        "B": "To convert domain names into IP addresses",
+        "C": "To regulate network traffic flow.",
+        "D": "To establish a secure connection between devices.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DNS translates human-readable domain names into IP addresses. Encryption and secure connections are handled by protocols such as TLS.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queues",
+      "concept": "Types of queues",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q79",
+      "question": "Which one of the following is not a type of queue?",
+      "options": {
+        "A": "Linear queue",
+        "B": "Circular queue",
+        "C": "Double-ended queue",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Linear queue, circular queue and double-ended queue (deque) are all types of queue, so none of the options is the answer.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P20-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "Browser markup language",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q43",
+      "question": "Which language does a browser use to display information from the World Wide Web?",
+      "options": {
+        "A": "Machine code",
+        "B": "Assembly language",
+        "C": "C++",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A browser renders web pages written in HTML (a markup language), which is not among options A-C, so 'None of the above' is correct.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P20-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Priority encoder",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q45",
+      "question": "A priority encoder is used to:",
+      "options": {
+        "A": "Convert binary information into a more compact form",
+        "B": "Assign priority to input lines based on their values",
+        "C": "Compare two binary numbers",
+        "D": "Combine multiple input signals into a single output",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A priority encoder assigns priorities to its inputs and outputs the binary code of the highest-priority active input when several are active. Comparing numbers is done by a comparator; combining signals into one output is a multiplexer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Sublanguages",
+      "concept": "DML",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q56",
+      "question": "The ability to query data, as well as insert, delete, and alter tuples, is offered by ________.",
+      "options": {
+        "A": "TCL (Transaction Control Language)",
+        "B": "DCL (Data Control Language)",
+        "C": "DDL (Data Definition Language)",
+        "D": "DML (Data Manipulation Language)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DML (SELECT, INSERT, UPDATE, DELETE) is used to query data and insert, delete and modify tuples. DDL defines schema, DCL manages permissions and TCL manages transactions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Resource Management",
+      "concept": "Protocols and algorithms for IoT resources",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q24",
+      "question": "Resource management in IoT can be done by implementing ________.",
+      "options": {
+        "A": "Protocols",
+        "B": "Algorithms",
+        "C": "Networks",
+        "D": "Protocols and Algorithms",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IoT resource management (energy, bandwidth, scheduling) is achieved by implementing suitable protocols together with algorithms, so the combined option is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P20-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Control Unit",
+      "concept": "Control signals",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q94",
+      "question": "What does the control unit generate to control other units?",
+      "options": {
+        "A": "Transfer signals",
+        "B": "Command signals",
+        "C": "Control signals",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The control unit generates control signals that direct the operation of the ALU, memory and I/O units.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P20-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "Turbo C++ shortcut keys",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q50",
+      "question": "Which shortcut key is used to compile and run the program in C++?",
+      "options": {
+        "A": "Alt+F9",
+        "B": "Alt+F5",
+        "C": "Ctrl+F9",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In Turbo C++, Ctrl+F9 compiles and runs the program. Alt+F9 only compiles, and Alt+F5 shows the output screen.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P20-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cryptography",
+      "concept": "Encryption algorithms",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q96",
+      "question": "Which one is not an encryption Technique?",
+      "options": {
+        "A": "AES",
+        "B": "DES",
+        "C": "RSA",
+        "D": "FTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "AES, DES and RSA are encryption algorithms; FTP is a file transfer protocol.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Process Synchronization",
+      "concept": "Producer-consumer problem",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q20",
+      "question": "The \"producer-consumer problem\" is a classic synchronization problem that involves:",
+      "options": {
+        "A": "Two processes competing for the same resources",
+        "B": "Two processes exchanging data through shared buffers",
+        "C": "Two processes competing for CPU time",
+        "D": "Two processes communicating over a network",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In the producer-consumer (bounded buffer) problem, a producer puts items into a shared buffer and a consumer removes them, requiring synchronization so they do not overflow or underflow the buffer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P20-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Design",
+      "concept": "AutoContent Wizard vs Slide Design",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q128",
+      "question": "The difference between Slide Design and Auto Content Wizard is",
+      "options": {
+        "A": "Both are same",
+        "B": "Auto Content Wizard is just the wizard version of Slide Design",
+        "C": "Slide Design does not provide sample content but Auto Content Wizard provides sample content too",
+        "D": "Slide Design asks your choice in steps but Auto Content Wizard does not let you make choices",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Slide Design only applies a visual design, while the AutoContent Wizard also provides sample content (suggested text) for the chosen presentation type.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P20-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Spiral model",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q48",
+      "question": "Which software life cycle model allows for iterative development and incorporates risk analysis?",
+      "options": {
+        "A": "Waterfall model",
+        "B": "Prototype model",
+        "C": "Spiral model",
+        "D": "Agile model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Boehm's spiral model is iterative and adds explicit risk analysis in every loop. Waterfall is linear and Agile, though iterative, has no formal risk-analysis phase.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

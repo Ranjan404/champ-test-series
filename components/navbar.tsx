@@ -2,13 +2,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { CalendarDays, GraduationCap, LayoutDashboard, ListChecks, LogOut, Menu, X } from "lucide-react";
+import { CalendarDays, FileClock, GraduationCap, LayoutDashboard, ListChecks, LogOut, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Logo } from "./logo";
 
 const links = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/practice", label: "Practice Sets", icon: ListChecks },
+  { href: "/pyq", label: "PYQs", icon: FileClock },
   { href: "/daily", label: "Daily Question", icon: CalendarDays },
   { href: "/dashboard/bpsc-tre4", label: "GK/GS", icon: GraduationCap },
 ];

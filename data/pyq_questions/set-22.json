@@ -1,0 +1,681 @@
+{
+  "setId": 22,
+  "title": "PYQ Set 22",
+  "questions": [
+    {
+      "id": "P22-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Protocol Elements",
+      "concept": "Syntax",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q137",
+      "question": "The structure or format of data is called",
+      "options": {
+        "A": "Syntax",
+        "B": "Semantics",
+        "C": "Struct",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Syntax refers to the structure or format of the data (order of fields). Semantics refers to the meaning of each section.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P22-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queues",
+      "concept": "Deque",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q46",
+      "question": "Which type of queue allows insertion and deletion of elements at both the front and rear ends?",
+      "options": {
+        "A": "Circular queue",
+        "B": "Linear queue",
+        "C": "Dequeue (Double-ended queue)",
+        "D": "Priority queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A deque (double-ended queue) supports insertion and deletion at both front and rear. A circular queue still inserts at the rear and deletes at the front.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Codes",
+      "concept": "Gray to binary conversion",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q47",
+      "question": "To convert a Gray Code to its binary equivalent, which technique is commonly used?",
+      "options": {
+        "A": "Subtraction method",
+        "B": "Addition method",
+        "C": "Exclusive OR (XOR) operation",
+        "D": "Division method",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The MSB is copied, and each next binary bit is the XOR of the previous binary bit and the current Gray bit. No subtraction, addition or division is involved.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P22-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI History",
+      "concept": "Father of AI",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q81",
+      "question": "Who is known as the father of AI?",
+      "options": {
+        "A": "Fisher Ada",
+        "B": "Alan Turing",
+        "C": "John McCarthy",
+        "D": "Allen Newell",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "John McCarthy coined the term Artificial Intelligence (Dartmouth, 1956) and is called the father of AI. Alan Turing is father of theoretical computer science.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P22-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Internet Services",
+      "concept": "VoIP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q83",
+      "question": "Which of the following options is the correct protocol used for phone calls over the internet?",
+      "options": {
+        "A": "PPP",
+        "B": "FTP",
+        "C": "HTTP",
+        "D": "VoIP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "VoIP (Voice over Internet Protocol) carries voice calls over IP networks. PPP is a point-to-point link protocol, and FTP and HTTP transfer files and web pages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Binary search complexity",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q95",
+      "question": "The order of the binary search algorithm is _______.",
+      "options": {
+        "A": "N",
+        "B": "N log n",
+        "C": "N^2",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Binary search halves the search space on each step, so its time complexity is O(log n). N is linear search, and none of the options gives log n.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Inheritance",
+      "concept": "Deriving a new class",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q72",
+      "question": "What is the term for creating a new class based on an existing class?",
+      "options": {
+        "A": "Overriding",
+        "B": "Implementing",
+        "C": "Inheriting",
+        "D": "Overloading",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Creating a new class from an existing one is inheriting (inheritance). Overriding and overloading concern methods, and implementing refers to interfaces.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Dynamic Programming",
+      "concept": "Optimal substructure in OBST",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q80",
+      "question": "Which property of dynamic programming is particularly useful for solving Optimal Binary Search Tree problems?",
+      "options": {
+        "A": "Optimal substructure",
+        "B": "Greedy choice property",
+        "C": "Divide and Conquer",
+        "D": "Linear programming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An optimal BST contains optimal subtrees for the key ranges on each side of its root, so optimal substructure lets DP build the solution from smaller ranges. The greedy choice property does not hold for OBST.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Seven-segment display decoder",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q95",
+      "question": "To display time in railway stations which digital circuit is used?",
+      "options": {
+        "A": "Seven-segment decoder",
+        "B": "Eight-segment encoder",
+        "C": "8 : 3 multiplexer",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Digital clocks in railway stations use seven-segment displays driven by BCD to seven-segment decoders.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P22-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Sockets",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q95",
+      "question": "A socket is used for:",
+      "options": {
+        "A": "Physical data transmission",
+        "B": "Process-to-process communication",
+        "C": "Storing network protocols",
+        "D": "Network management",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A socket (IP address + port) is an endpoint for process-to-process communication across a network. It does not perform physical transmission.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Licensing",
+      "concept": "Open source software",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q74",
+      "question": "Source code is available to view, modify and redistribute in",
+      "options": {
+        "A": "open source",
+        "B": "licensed",
+        "C": "proprietary",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Open source software makes its source code freely available to view, modify and redistribute. Proprietary and licensed software usually keep the source closed.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P22-Q12",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Knowledge Representation",
+      "concept": "Frames",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q32",
+      "question": "Building blocks of a frame structure are?",
+      "options": {
+        "A": "Facts and Data",
+        "B": "Procedure and Default values",
+        "C": "Frame names",
+        "D": "Frame inference in hierarchy",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A frame is a record-like structure whose slots are filled with facts and data about an object; these facts and data are its basic building blocks. Procedures, default values and hierarchy links are features attached to slots, not the fundamental blocks.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Inter-process Communication",
+      "concept": "Purpose of IPC",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q23",
+      "question": "Inter-process communication (IPC) is a mechanism used for:",
+      "options": {
+        "A": "Preventing processes from executing concurrently",
+        "B": "Allowing processes to run independently without communication",
+        "C": "Enabling processes to exchange information and synchronize their actions",
+        "D": "Enabling processes to execute in a random order",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "IPC mechanisms (pipes, message queues, shared memory) let processes exchange data and coordinate their actions. They do not prevent concurrency or randomize execution order.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P22-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Single primary key per table",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q61",
+      "question": "How many primary keys can be there in a table?",
+      "options": {
+        "A": "Only 1",
+        "B": "Only 2",
+        "C": "Depends on number of columns",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A table can have only one primary key, although that key may be composite (made of several columns).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P22-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Binary Arithmetic",
+      "concept": "End carry in 2's complement addition",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q94",
+      "question": "When adding two positive binary numbers using the 2's complement method, if the result has a carry-out from the most significant bit (MSB), what should be done?",
+      "options": {
+        "A": "Ignore the carry",
+        "B": "Add the carry to the least significant bit (LSB)",
+        "C": "Add the carry to the sign bit",
+        "D": "Subtract the carry from the MSB",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In 2's complement addition, any carry out of the MSB is simply discarded. Adding the end-around carry to the LSB is the rule for 1's complement arithmetic.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P22-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machines",
+      "concept": "Universal computation with binary symbols",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q29",
+      "question": "The \"Turing Machine\" showed that you could use a/an _____ system to program any algorithmic task.",
+      "options": {
+        "A": "binary",
+        "B": "electro-chemical",
+        "C": "recursive",
+        "D": "semantic",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Turing's machine showed that a simple system of symbols (essentially 0s and 1s on a tape) can carry out any algorithmic computation, which underlies binary digital computers.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Basics",
+      "concept": "Data vs information",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q77",
+      "question": "________ are the unorganized facts that can be processed to generate meaningful information.",
+      "options": {
+        "A": "Information",
+        "B": "Data",
+        "C": "Blog",
+        "D": "contexts",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Data are raw, unorganized facts; processing them produces meaningful information.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P22-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Streaming",
+      "concept": "Jitter",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q94",
+      "question": "The delay that occur during the playback of a stream is called ___________",
+      "options": {
+        "A": "Stream delay",
+        "B": "Playback delay",
+        "C": "Jitter",
+        "D": "Event delay",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Jitter is the variation in packet delay that disrupts smooth playback of a stream. The other terms are not standard.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C++ Basics",
+      "concept": "Turbo C++ error message for missing semicolon",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q48",
+      "question": "If a semicolon is not used at the end of the statement, what message will be displayed by C++?",
+      "options": {
+        "A": "Semicolon missing",
+        "B": "Statement missing",
+        "C": "Error in statements",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Turbo C++ compiler reports the error 'Statement missing ;' when a statement is not terminated with a semicolon.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P22-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Exception Handling",
+      "concept": "try-except-finally flow and print end",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q17",
+      "question": "Consider the statements given below and then choose the correct output from the given options:\nN = '5'\ntry:\n    print('WORD' + N, end='#')\nexcept:\n    print('ERROR', end='#')\nfinally:\n    print('OVER')",
+      "options": {
+        "A": "ERROR#",
+        "B": "WORD5#OVER",
+        "C": "WORD5#",
+        "D": "ERROR#OVER",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The try block runs without error and prints 'WORD5' followed by '#' (end='#', no newline). The except block is skipped, and finally always runs, printing 'OVER', giving WORD5#OVER.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P22-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Recursion",
+      "concept": "Tower of Hanoi moves",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q66",
+      "question": "The Tower of Hanoi problem is a classic example of a problem that can be solved using recursion. How many minimum moves are required to solve the Tower of Hanoi problem with 3 disks?",
+      "options": {
+        "A": "3",
+        "B": "7",
+        "C": "15",
+        "D": "63",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The minimum number of moves for n disks is 2^n - 1, so for 3 disks it is 2^3 - 1 = 7. 15 is for 4 disks and 63 for 6 disks.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P22-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "UDP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q50",
+      "question": "Which protocol provides connectionless communication with minimal overhead?",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "IP",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "UDP is connectionless, with no handshake, acknowledgements or flow control, so it has minimal header overhead (8 bytes). TCP is connection-oriented.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P22-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Calculation",
+      "concept": "Calculation mode setting",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q93",
+      "question": "Where can you change automatic or manual calculation mode in Excel?",
+      "options": {
+        "A": "Double CAL indicator on status bar",
+        "B": "Go to Tools >> Options >> Calculation and mark the corresponding radio button",
+        "C": "Both of (A) and (B)",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In Excel 2003 the calculation mode (Automatic/Manual) is set in Tools > Options > Calculation tab. The CAL/Calculate indicator on the status bar only signals pending recalculation; it does not switch the mode.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P22-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Analysis",
+      "concept": "DFD",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q81",
+      "question": "The term \"DFD\" stands for?",
+      "options": {
+        "A": "Data file diagram",
+        "B": "Data flow document",
+        "C": "Data flow diagram",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DFD stands for Data Flow Diagram, which models how data flows between processes, data stores and external entities.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P22-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Expert Systems",
+      "concept": "Expert system components",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q99",
+      "question": "Which of the following is/are components of Expert Systems?",
+      "options": {
+        "A": "Knowledge Base",
+        "B": "Inference logic",
+        "C": "User Interface",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An expert system consists of a knowledge base, an inference engine (inference logic) and a user interface. All listed parts are components.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    }
+  ]
+}

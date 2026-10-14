@@ -1,0 +1,681 @@
+{
+  "setId": 23,
+  "title": "PYQ Set 23",
+  "questions": [
+    {
+      "id": "P23-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Recursion",
+      "concept": "Infinite recursion stack overflow",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q112",
+      "question": "What will be the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nlong factorial(long a)\n{\n    if (a > 1)\n        return (a * factorial(a + 1));\n    else\n        return (1);\n}\nint main()\n{\n    long num = 3;\n    cout << num << \"!=\" << factorial(num);\n    return 0;\n}",
+      "options": {
+        "A": "6",
+        "B": "24",
+        "C": "Segmentation fault",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The recursive call uses a+1 instead of a-1, so a keeps increasing and the base case a <= 1 is never reached; the stack overflows, causing a segmentation fault. 6 would be printed only with factorial(a-1).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P23-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linked Lists",
+      "concept": "O(1) insertion at head",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q82",
+      "question": "In pointer implementation of linked lists, which operation can be performed in constant time (O(1)) when inserting or deleting nodes?",
+      "options": {
+        "A": "Inserting at the beginning",
+        "B": "Inserting at the end",
+        "C": "Inserting at a specific position",
+        "D": "Deleting a specific node",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Inserting at the beginning only requires updating the new node's next pointer and the head pointer, which is O(1). Inserting at the end (without a tail pointer) or at a position requires traversal, O(n).",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P23-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management",
+      "concept": "Overlays",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q92",
+      "question": "The main advantage of the overlay technique in memory management is that it allows:",
+      "options": {
+        "A": "Processes to be loaded into memory as a whole",
+        "B": "Processes to share memory partitions",
+        "C": "Large programs to be executed on systems with limited memory",
+        "D": "Processes to communicate directly with each other",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Overlays keep only the needed part of a program in memory and load other parts over it when required, so programs larger than available memory can run. They do not load the whole process at once.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Concepts",
+      "concept": "Encapsulation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q37",
+      "question": "What is encapsulation in OOP?",
+      "options": {
+        "A": "The ability to inherit properties from multiple classes",
+        "B": "The process of creating objects",
+        "C": "The bundling of data and methods that operate on the data",
+        "D": "The use of abstract classes only",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Encapsulation bundles data and the methods that operate on it into a single unit (class), usually hiding internal details. Inheriting from multiple classes is multiple inheritance.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Sparse matrix definition",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q72",
+      "question": "The matrix contains m rows and n columns. The matrix is called Sparse Matrix if",
+      "options": {
+        "A": "total number of zero elements > (m*n)/2",
+        "B": "total number of zero elements = m+n",
+        "C": "total number of zero elements = m/n",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A matrix is called sparse when most of its elements are zero, that is, the number of zero elements exceeds half of the total m*n elements.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P23-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Router function",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q125",
+      "question": "What is the primary function of a router in a computer network?",
+      "options": {
+        "A": "To connect devices within the same network",
+        "B": "To connect multiple networks together",
+        "C": "To filter incoming traffic based on IP addresses",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A router connects different networks and forwards packets between them using IP addresses. Connecting devices within the same network is the job of a switch.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P23-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Expressions",
+      "concept": "Sum of products form",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q90",
+      "question": "The expression Y=AB+BC+AC shows the _____ operation.",
+      "options": {
+        "A": "EX-OR",
+        "B": "SOP",
+        "C": "POS",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Y = AB + BC + AC is a sum (OR) of product (AND) terms, so it is in SOP form. POS would be a product of sum terms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P23-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Greedy Algorithms",
+      "concept": "Huffman coding",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q28",
+      "question": "In Huffman coding, which characters are usually assigned shorter codes?",
+      "options": {
+        "A": "Characters with higher frequency",
+        "B": "Characters with lower frequency",
+        "C": "Characters with longer ASCII values",
+        "D": "Characters with shorter ASCII values",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Huffman coding gives shorter codes to more frequent characters, minimising the total encoded length. Code length depends on frequency, not ASCII value.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Classes and Structures",
+      "concept": "Default access specifier",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q89",
+      "question": "How do structures and classes in C++ differ?",
+      "options": {
+        "A": "In structures, members are private by default whereas in classes, they are public by default",
+        "B": "In structures, members are public by default whereas in classes, they are private by default",
+        "C": "Structures cannot have private members whereas classes can have",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In C++, struct members are public by default and class members are private by default. Structures can still have private members.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Process Synchronization",
+      "concept": "Monitors",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q48",
+      "question": "Monitors are primarily used for achieving:",
+      "options": {
+        "A": "Deadlocks",
+        "B": "Starvation",
+        "C": "Mutual exclusion and synchronization",
+        "D": "Process termination",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A monitor is a high-level synchronization construct that guarantees mutual exclusion (only one process active inside) and supports condition synchronization. Deadlock and starvation are problems to be avoided.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P23-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "RSVP is not an application protocol",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q148",
+      "question": "Which one of the following is not an application layer protocol used in internet?",
+      "options": {
+        "A": "Remote procedure call",
+        "B": "Internet relay chat",
+        "C": "Resource reservation protocol",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Resource Reservation Protocol (RSVP) is a transport/network-level signalling protocol for reserving resources, not an application layer protocol. RPC and IRC operate at the application layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P23-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Superkey",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q130",
+      "question": "_____ is a set of one or more attribute(s) taken collectively to uniquely identify a record.",
+      "options": {
+        "A": "Primary key",
+        "B": "Foreign key",
+        "C": "Superkey",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A superkey is any set of one or more attributes that together uniquely identify a tuple. A primary key is a chosen minimal candidate key, and a foreign key references another relation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "Common file systems",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q109",
+      "question": "Which of the following is a file system commonly used in operating systems?",
+      "options": {
+        "A": "NTFS",
+        "B": "FAT32",
+        "C": "HFS+",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "NTFS and FAT32 (Windows) and HFS+ (macOS) are all widely used file systems.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P23-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Zigbee",
+      "concept": "IEEE 802.15.4 PAN",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q65",
+      "question": "Zigbee is a task group in ________",
+      "options": {
+        "A": "LAN",
+        "B": "PAN",
+        "C": "MAN",
+        "D": "WAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Zigbee is built on IEEE 802.15.4, the low-rate Wireless Personal Area Network (WPAN) standard.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Dynamic Memory",
+      "concept": "delete vs delete[]",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q81",
+      "question": "What is the difference between delete and delete[ ] in C++?",
+      "options": {
+        "A": "Delete is syntactically correct but delete[ ] is wrong and hence will give an error if used in any case",
+        "B": "Delete is used to delete normal objects whereas delete[ ] is used to delete pointer objects",
+        "C": "Delete is used to delete single object whereas delete[ ] is used to delete multiple (array/ pointer of) objects",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "delete frees a single object allocated with new, while delete[] frees an array of objects allocated with new[]. Both are valid syntax and both work on pointers.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P23-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "DFA for divisibility",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q53",
+      "question": "The minimum number of states required to recognize an octal number divisible by 3 is",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "1",
+        "D": "2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A DFA for divisibility by 3 only needs to track the remainder of the number read so far modulo 3, i.e. 0, 1 or 2, giving 3 states regardless of base (octal here).",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P23-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Programmable Logic Devices",
+      "concept": "PLA AND-OR array structure",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q2",
+      "question": "In a PLA, what components are used to implement the combinational logic functions?",
+      "options": {
+        "A": "AND gates and OR gates",
+        "B": "NAND gates and XOR gates",
+        "C": "NOR gates and XNOR gates",
+        "D": "NOT gates and multiplexers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A Programmable Logic Array has a programmable AND plane that forms product terms and a programmable OR plane that sums them, so it implements SOP functions with AND and OR gates. NAND/XOR or multiplexer combinations are not its structure.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Joins",
+      "concept": "Approaches to combining tables",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q74",
+      "question": "Which of the following is the basic approach for joining tables?",
+      "options": {
+        "A": "Union JOIN",
+        "B": "Natural JOIN",
+        "C": "Subqueries",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Tables can be combined using union joins, natural joins and subqueries, so more than one of the given approaches is a basic approach for joining tables.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P23-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Basics",
+      "concept": "Protocol definition",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q70",
+      "question": "________ is an agreement between the communicating parties on how communication is to proceed over a network.",
+      "options": {
+        "A": "Ethernet",
+        "B": "Protocol",
+        "C": "Operating System",
+        "D": "Antivirus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A protocol is a set of agreed rules governing how communication proceeds between parties over a network. Ethernet is one specific LAN technology.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P23-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Basics",
+      "concept": "Excel is a spreadsheet",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q107",
+      "question": "Which among the following is associated with Excel?",
+      "options": {
+        "A": "Graphic program",
+        "B": "Word Processor",
+        "C": "Presentation",
+        "D": "Spreadsheet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MS Excel is a spreadsheet program. Word is a word processor and PowerPoint a presentation program.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Generations of Computers",
+      "concept": "SSI and MSI in third generation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q70",
+      "question": "Which of the following IC was used in third generation of computers?",
+      "options": {
+        "A": "SSI",
+        "B": "MSI",
+        "C": "LSI",
+        "D": "Both (A) and (B)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Third generation computers used small-scale (SSI) and medium-scale (MSI) integrated circuits. LSI and VLSI belong to the fourth generation.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Applications of stack",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q106",
+      "question": "Which one of the following is not the application of the stack data structure?",
+      "options": {
+        "A": "Asynchronous data transfer",
+        "B": "String reversal",
+        "C": "Backtracking",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Asynchronous data transfer (e.g. buffers, pipes) uses a queue. String reversal and backtracking are classic stack applications.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Security Management",
+      "concept": "Risk management cycle",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q23",
+      "question": "What consists of the identification of risks or threats, the implementation of security measures, and the monitoring of those measures for effectiveness?",
+      "options": {
+        "A": "Risk assessment",
+        "B": "Security",
+        "C": "Risk Management",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Risk management is the full cycle of identifying risks, applying controls and monitoring them. Risk assessment is only the identification/analysis step.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P23-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "<font> tag attributes",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q59",
+      "question": "Which of the following is not an attribute of the <font> tag?",
+      "options": {
+        "A": "face",
+        "B": "height",
+        "C": "size",
+        "D": "color",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The HTML <font> tag supports face, size and color attributes. height is not an attribute of <font>.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P23-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Quality",
+      "concept": "ISO 9000 and SEI CMM",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q5",
+      "question": "ISO 9000 and SEI CMM are both frameworks related to:",
+      "options": {
+        "A": "Network protocols",
+        "B": "Software architecture",
+        "C": "Software quality standards and process improvement",
+        "D": "Software development languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ISO 9000 is a quality management standard and SEI CMM is a process maturity model; both deal with software quality and process improvement, not protocols, architecture or languages.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    }
+  ]
+}

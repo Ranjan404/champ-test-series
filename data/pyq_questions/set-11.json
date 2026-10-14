@@ -1,0 +1,681 @@
+{
+  "setId": 11,
+  "title": "PYQ Set 11",
+  "questions": [
+    {
+      "id": "P11-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Processor Architecture",
+      "concept": "IA-32 EFLAGS register",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q67",
+      "question": "In IA-32 architecture along with the general flags, which of the following conditional flags is provided?",
+      "options": {
+        "A": "TF",
+        "B": "IOPL",
+        "C": "IF",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Along with the condition flags, the IA-32 EFLAGS register also provides TF (trap flag), IF (interrupt enable flag) and the IOPL (I/O privilege level) field. Since all three are provided, more than one option is correct.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P11-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Internet Infrastructure",
+      "concept": "Internet exchange point",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q144",
+      "question": "ISP exchanges internet traffic between their networks by",
+      "options": {
+        "A": "internet exchange point",
+        "B": "subscriber end point",
+        "C": "isp end point",
+        "D": "none of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ISPs exchange traffic between their networks at an Internet Exchange Point (IXP).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P11-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Expert Systems",
+      "concept": "Components of an expert system",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q74",
+      "question": "The components of an expert system is/are:",
+      "options": {
+        "A": "Knowledge Base",
+        "B": "Inference Engine",
+        "C": "User Interface",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An expert system consists of a knowledge base, an inference engine that applies rules to the knowledge, and a user interface for interaction.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML",
+      "concept": "vlink default colour",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q87",
+      "question": "The default color of vlink is ________.",
+      "options": {
+        "A": "Green",
+        "B": "Purple",
+        "C": "Blue",
+        "D": "Yellow",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The vlink attribute of <body> sets the colour of visited links, which is purple by default. Unvisited links (link) are blue by default.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P11-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Context-Free Languages",
+      "concept": "Closure properties of CFLs",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q74",
+      "question": "The class of CFG is not closed under:",
+      "options": {
+        "A": "Concatenation",
+        "B": "Intersection",
+        "C": "Union",
+        "D": "Repeated Concatenation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "CFLs are closed under union, concatenation and Kleene star (repeated concatenation) but not under intersection, e.g. {a^n b^n c^m} intersect {a^m b^n c^n} = {a^n b^n c^n} is not context-free.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P11-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Command Types",
+      "concept": "DCL commands",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q122",
+      "question": "Which one is a DCL command in SQL?",
+      "options": {
+        "A": "UPDATE",
+        "B": "SELECT",
+        "C": "DELETE",
+        "D": "GRANT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "GRANT (and REVOKE) are Data Control Language commands. UPDATE and DELETE are DML and SELECT is DQL/DML.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P11-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Error Detection",
+      "concept": "Error detecting codes",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q83",
+      "question": "Which of the following is error detection code used in digital logic?",
+      "options": {
+        "A": "Hamming code",
+        "B": "Cyclic redundancy check (CRC)",
+        "C": "Checksum",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Hamming code, CRC and checksum are all used to detect errors (Hamming code can also correct single-bit errors), so more than one option is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Components",
+      "concept": "Control unit directs ALU",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q66",
+      "question": "The ALU of a computer responds to the commands coming from",
+      "options": {
+        "A": "Primary memory",
+        "B": "Control section",
+        "C": "External memory",
+        "D": "Cache memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The control unit (control section) decodes instructions and issues commands to the ALU. Memory supplies data, not commands.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P11-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Operations",
+      "concept": "Basic operations",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q106",
+      "question": "Which of the following is NOT a basic operation performed on a data structure?",
+      "options": {
+        "A": "Encryption",
+        "B": "Deletion",
+        "C": "Insertion",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Basic data structure operations are traversal, search, insertion, deletion, sorting and merging. Encryption is a security operation, not a data structure operation.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Inheritance",
+      "concept": "Virtual base class",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q79",
+      "question": "What is virtual inheritance in C++?",
+      "options": {
+        "A": "C++ technique to enhance multiple inheritance",
+        "B": "C++ technique to ensure that a private member of the base class can be accessed somehow",
+        "C": "C++ technique to avoid multiple copies of the base class into children/derived class",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Virtual inheritance ensures only one copy of a common base class is inherited in a diamond hierarchy. It does not merely 'enhance' multiple inheritance, nor give access to private members.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel View Options",
+      "concept": "Gridlines option",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q94",
+      "question": "How can you show or hide the grid lines in Excel Worksheet?",
+      "options": {
+        "A": "Go to Tools >> Options >> View tab and mark or remove the check box named Gridline",
+        "B": "Click Gridline tool on Forms toolbar",
+        "C": "Both (A) & (B)",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Gridlines are shown or hidden via Tools > Options > View tab > Gridlines check box. The Forms toolbar has no Gridline tool.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P11-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Applications",
+      "concept": "VoIP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q37",
+      "question": "_________________ uses packet switching technology to carry voice traffic over an IP network where each packet follows best route to reach its destination.",
+      "options": {
+        "A": "E-mail",
+        "B": "HTTP",
+        "C": "VoIP",
+        "D": "SMTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "VoIP carries voice as IP packets over a packet-switched network. E-mail, HTTP and SMTP are not voice-traffic technologies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P11-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "MySQL Data Types",
+      "concept": "Numeric literals",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q86",
+      "question": "In MySQL, which type of value should not be enclosed within quotation marks?",
+      "options": {
+        "A": "DATE",
+        "B": "VARCHAR",
+        "C": "FLOAT",
+        "D": "CHAR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Numeric values such as FLOAT are written without quotes. DATE, VARCHAR and CHAR values must be enclosed in quotation marks.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P11-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Text",
+      "concept": "Text overflow",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q99",
+      "question": "It is acceptable to let long text flow into adjacent cells on a worksheet when",
+      "options": {
+        "A": "data will be entered in the adjacent cells",
+        "B": "no data will be entered in the adjacent cells",
+        "C": "there is no suitable abbreviation for the text",
+        "D": "there is no time to format the text",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Long text visually overflows into adjacent cells only while those cells are empty, so it is acceptable when no data will be entered there.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P11-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Industrial IoT Protocols",
+      "concept": "Modbus TCP MBAP header",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q84",
+      "question": "The default value of the transaction identifier in a Modbus TCP packet is?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "As per the official key, the transaction identifier in the Modbus TCP (MBAP) header is commonly initialized to 1 and incremented by the client to match requests with responses. The protocol identifier field, by contrast, is always 0.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P11-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "Expression from cascaded gates",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q92",
+      "question": "Derive the Boolean expression for the logic circuit shown below:\nA and B are inputs to an OR gate; its output is ANDed with C; that result is ANDed with D; and that result is ANDed with E to give the output.",
+      "options": {
+        "A": "C(A+B)DE",
+        "B": "[C(A+B)D + E']",
+        "C": "[[C(A+B)D]E']",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "OR gives (A+B), then the cascaded AND gates give C(A+B), then C(A+B)D, then C(A+B)DE. There are no inverters, so E is not complemented.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graphs",
+      "concept": "Spanning tree edges",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q102",
+      "question": "How many edges does a spanning tree of a graph with N vertices have?",
+      "options": {
+        "A": "N",
+        "B": "N-1",
+        "C": "N(N-1)/2",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A spanning tree connects all N vertices without any cycle and therefore has exactly N-1 edges. N(N-1)/2 is the number of edges of a complete graph.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Tuples and Operators",
+      "concept": "Implicit tuple and float results",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q72",
+      "question": "What is the value of the following expression?\n3 + 3.00, 3**3.0",
+      "options": {
+        "A": "[6.0, 27.0]",
+        "B": "(6.0, 9.0)",
+        "C": "(6, 27)",
+        "D": "(6.0, 27.0)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The comma creates a tuple. 3 + 3.00 is 6.0 and 3**3.0 is 27.0 (a float operand gives a float result), so the value is (6.0, 27.0).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P11-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Arrays",
+      "concept": "Array declaration syntax",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q59",
+      "question": "Which of the following correctly declares an array in C++?",
+      "options": {
+        "A": "array{10};",
+        "B": "int array;",
+        "C": "int array[10];",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "int array[10]; declares an array of 10 integers. 'array{10};' has no type and 'int array;' declares a single int variable.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "History of Computers",
+      "concept": "UNIVAC full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q51",
+      "question": "UNIVAC is",
+      "options": {
+        "A": "Universal Automatic Computer",
+        "B": "Universal Array Computer",
+        "C": "Unique Automatic Computer",
+        "D": "Unvalued Automatic Computer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "UNIVAC stands for UNIVersal Automatic Computer, the first commercial computer in the USA (1951).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P11-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "Buffer cache",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q18",
+      "question": "In an operating system, a \"buffer cache\" is used to:",
+      "options": {
+        "A": "Store files in memory",
+        "B": "Store copies of frequently used files in memory",
+        "C": "Store the operating system kernel",
+        "D": "Store input/output devices",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The buffer cache keeps copies of recently or frequently used disk blocks in main memory to reduce slow disk I/O. It does not hold the original files, the kernel or devices.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machines",
+      "concept": "Variants of Turing machines",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q80",
+      "question": "Which of the following is an extension to the basic model of Turing machine:",
+      "options": {
+        "A": "Multi tape Turing machine",
+        "B": "Multi head Turing machine",
+        "C": "Nondeterministic Turing machine",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Multi-tape, multi-head and nondeterministic Turing machines are all extensions of the basic model, and all are equivalent in power to it.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Definition of maintenance",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q55",
+      "question": "What does the term \"Software Maintenance\" refer to?",
+      "options": {
+        "A": "Developing new software applications",
+        "B": "Enhancing software performance",
+        "C": "Managing hardware components",
+        "D": "Modifying and updating existing software",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Software maintenance means modifying and updating existing software after delivery to correct faults, adapt it or improve it. Developing new applications is development, not maintenance.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P11-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Optical fibre speed",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q140",
+      "question": "Which transmission media has the highest transmission speed in a network?",
+      "options": {
+        "A": "Coaxial cable",
+        "B": "Twisted pair cable",
+        "C": "Optical fibre",
+        "D": "Electrical cable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Optical fibre carries data as light and offers the highest bandwidth and speed among the listed media.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P11-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "E-commerce types",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q88",
+      "question": "Which of the following is part of the four main types for e-commerce?",
+      "options": {
+        "A": "B2B",
+        "B": "B2C",
+        "C": "C2B",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "B2B, B2C and C2B (with C2C) are among the four main e-commerce types, so all listed options are correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    }
+  ]
+}

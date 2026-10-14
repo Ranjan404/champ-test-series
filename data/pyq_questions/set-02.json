@@ -1,0 +1,681 @@
+{
+  "setId": 2,
+  "title": "PYQ Set 2",
+  "questions": [
+    {
+      "id": "P02-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "concept": "Removing the condition from a conditional bound",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q17",
+      "question": "If an algorithm's behavior is bounded by \"o(f(n)) if g(n)\", what notation does it become when the condition is removed?",
+      "options": {
+        "A": "o(f(n))",
+        "B": "o(g(n))",
+        "C": "o(f(n) + g(n))",
+        "D": "o(f(n) * g(n))",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A conditional bound o(f(n)) if g(n) states the bound o(f(n)) under condition g(n); dropping the condition (when f is smooth/well-behaved) leaves the unconditional bound o(f(n)). The condition g(n) is not part of the growth function.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q02",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "MAC Protocols",
+      "concept": "CSMA/CD in Ethernet",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q6",
+      "question": "Contention-based MAC protocols are commonly used in:",
+      "options": {
+        "A": "Ethernet networks",
+        "B": "Token Ring networks",
+        "C": "ATM networks",
+        "D": "Point-to-Point networks",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Ethernet uses CSMA/CD, a contention-based (random access) MAC protocol where stations compete for the medium. Token Ring uses controlled access with a token, so there is no contention.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P02-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Aggregate Functions",
+      "concept": "MIN aggregate",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q20",
+      "question": "Ginni has created a table, SCORES in MySQL to store runs scored by players in a cricket match. The table contains the following records:\nTable: Scores\nPLAYER | SCORE\nRanveer | 50\nSukesh | 35\nMirza | 10\nJohn | 51\nMurugan | 70\nWhich of the following statements will give 10 as output?",
+      "options": {
+        "A": "SELECT MAX(Score) FROM Scores;",
+        "B": "SELECT MIN(Score) FROM Scores;",
+        "C": "SELECT SUM(Score) FROM Scores;",
+        "D": "SELECT AVG(Score) FROM Scores;",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The smallest score is 10 (Mirza), so MIN(Score) returns 10. MAX gives 70, SUM gives 216 and AVG gives 43.2.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P02-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Data Units",
+      "concept": "Byte equals 8 bits",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q69",
+      "question": "1 Byte =?",
+      "options": {
+        "A": "8 bits",
+        "B": "4 bits",
+        "C": "2 bits",
+        "D": "9 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "One byte consists of 8 bits; 4 bits is a nibble.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P02-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design",
+      "concept": "Divide and conquer",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q19",
+      "question": "Divide and Conquer is an algorithmic paradigm that solves problems by:",
+      "options": {
+        "A": "Iteratively solving subproblems",
+        "B": "Recursively solving subproblems",
+        "C": "Using heuristics to find solutions",
+        "D": "Greedily combining solutions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Divide and conquer splits a problem into smaller subproblems, solves them recursively and combines their results. Greedy combination and heuristics belong to other paradigms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C Header Files",
+      "concept": "math.h",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q126",
+      "question": "Math.h is a",
+      "options": {
+        "A": "Derived data type",
+        "B": "Function",
+        "C": "Header file",
+        "D": "Built-in data type",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "math.h is a C standard library header file that declares mathematical functions such as sqrt() and pow().",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Duality principle",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q144",
+      "question": "The dual of a Boolean expression is obtained by",
+      "options": {
+        "A": "interchanging all 0s and 1s",
+        "B": "interchanging all 0s and 1s, all + and '.' signs",
+        "C": "interchanging all 0s and 1s, all + and '.' signs and complementing all the variables",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The dual is obtained by interchanging + with . and 0 with 1, leaving variables unchanged. Complementing the variables as well gives the complement of the expression, not the dual.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Audio Compression",
+      "concept": "PCM voice sampling",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q97",
+      "question": "In Audio and Video Compression, voice is sampled at 8000 samples per second with_____________",
+      "options": {
+        "A": "8 bits per sample",
+        "B": "5 bits per sample",
+        "C": "7 bits per sample",
+        "D": "6 bits per sample",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Telephone-quality voice is sampled at 8000 samples/s with 8 bits per sample, giving 64 kbps. The other bit depths are not the standard.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P02-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "NFA to DFA",
+      "concept": "Subset construction bound",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q73",
+      "question": "If NFA of 5 states excluding the initial state is converted into DFA, maximum possible number of states for the DFA is?",
+      "options": {
+        "A": "64",
+        "B": "32",
+        "C": "128",
+        "D": "187",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The NFA has 5 + 1 = 6 states, so subset construction can produce at most 2^6 = 64 DFA states. 32 = 2^5 forgets the initial state.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P02-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "ZigBee protocol stack",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q88",
+      "question": "ZigBee architecture has ________ layers.",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The ZigBee stack has 5 layers: Physical and MAC (from IEEE 802.15.4), Network, Application Support sublayer and Application layer. 4 omits the application support sublayer.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P02-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Sublanguages",
+      "concept": "DML",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q96",
+      "question": "Which of the following provides the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database?",
+      "options": {
+        "A": "DML (Data Manipulation Language)",
+        "B": "DDL (Data Definition Language)",
+        "C": "Query",
+        "D": "Relational Schema",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Data Manipulation Language covers querying and inserting, deleting and modifying tuples. DDL defines the schema.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "SMTP for email",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q62",
+      "question": "Which protocol is commonly used for sending emails?",
+      "options": {
+        "A": "HTTPS",
+        "B": "FTP",
+        "C": "SMTP",
+        "D": "TCP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send email. HTTPS is for secure web access, FTP for file transfer and TCP is a transport protocol.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Programming Languages",
+      "concept": "Characteristics of machine language",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q75",
+      "question": "Machine language is",
+      "options": {
+        "A": "machine dependent",
+        "B": "difficult to program",
+        "C": "error prone",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Machine language is written in binary for a specific processor, so it is machine dependent, difficult to program and error prone. All of A, B and C are true, hence 'More than one of the above'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P02-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Classes and Structures",
+      "concept": "Default access in struct vs class",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q103",
+      "question": "How do structures and classes in C++ differ?",
+      "options": {
+        "A": "Structures by default hide every member whereas classes do not",
+        "B": "In structures, members are public by default, whereas, in classes, they are private by default",
+        "C": "Structures cannot have private members, whereas classes can have",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In C++ struct members are public by default while class members are private by default; otherwise they are equivalent and structs can have private members.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Protocols",
+      "concept": "HTTP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q19",
+      "question": "________ is the set of rules that governs how data can be transmitted over the World Wide Web.",
+      "options": {
+        "A": "Hyper Text Transfer Protocol",
+        "B": "Encryption Standards",
+        "C": "Cyber forensic",
+        "D": "Digital Certificates",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "HTTP (Hyper Text Transfer Protocol) is the set of rules governing how data is transferred over the World Wide Web. Encryption standards and digital certificates are security mechanisms, not the transfer rules themselves.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "DBA full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q8",
+      "question": "To which of the following the term \"DBA\" referred?",
+      "options": {
+        "A": "Data Bank Administrator",
+        "B": "Database Administrator",
+        "C": "Data Administrator",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DBA stands for Database Administrator, the person responsible for managing and maintaining a database system. 'Data Bank Administrator' is not the standard term.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P02-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Expression conversion using stack",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q108",
+      "question": "Which data structure is required to convert the infix to prefix notation?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Linked list",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Infix to prefix (or postfix) conversion uses a stack to hold operators and handle precedence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management",
+      "concept": "Fragmentation vs paging/segmentation",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q108",
+      "question": "Which of the following is NOT a memory management technique used by operating systems?",
+      "options": {
+        "A": "Paging",
+        "B": "Segmentation",
+        "C": "Fragmentation",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Paging and segmentation are memory management techniques. Fragmentation is a problem (wasted memory) that memory management tries to reduce, not a technique.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P02-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Operators",
+      "concept": "Identity operator is",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q67",
+      "question": "Which of the following operators evaluates to True if the variables on either side of the operator point to the same memory location and False otherwise?",
+      "options": {
+        "A": "is",
+        "B": "is not",
+        "C": "and",
+        "D": "or",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The identity operator 'is' returns True when both operands refer to the same object in memory. 'is not' returns the opposite.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU Registers",
+      "concept": "Accumulator",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q91",
+      "question": "Which type of register is primarily used to temporarily hold data during arithmetic and logical operations in a microprocessor?",
+      "options": {
+        "A": "Shift register",
+        "B": "Parallel register",
+        "C": "Accumulator register",
+        "D": "Counter register",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The accumulator holds an operand and the result of arithmetic and logical operations in the ALU. Shift and counter registers have specialised purposes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Data Transmission",
+      "concept": "Parallel transmission",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q43",
+      "question": "Data transmission using multiple pathways simultaneously is known as:",
+      "options": {
+        "A": "Parallel Transmission",
+        "B": "Serial Transmission",
+        "C": "Duplex Transmission",
+        "D": "Half-duplex Transmission",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Parallel transmission sends several bits simultaneously over multiple lines. Serial uses one line, and duplex/half-duplex describe direction, not number of paths.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Metrics",
+      "concept": "Function points for size",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q53",
+      "question": "Which metric is used for estimating the size of a software project?",
+      "options": {
+        "A": "Cyclomatic Complexity",
+        "B": "Function Points (FP)",
+        "C": "Defect Density",
+        "D": "Software Reliability Index",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Function Points estimate software size from inputs, outputs, inquiries, files and interfaces. Cyclomatic complexity measures control-flow complexity and defect density measures quality.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Adders",
+      "concept": "Carry-lookahead adder",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q16",
+      "question": "What is the key advantage of using a carry-lookahead adder instead of a ripple-carry adder?",
+      "options": {
+        "A": "Simplicity of design",
+        "B": "Faster propagation delay",
+        "C": "Lower power consumption",
+        "D": "Reduced gate count",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A carry-lookahead adder computes carries in parallel from generate and propagate signals, so it has much lower propagation delay than a ripple-carry adder. It actually uses more gates, is more complex and consumes more power.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Closure Properties",
+      "concept": "CFL not closed under intersection",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q86",
+      "question": "The class of CFG is not closed under:",
+      "options": {
+        "A": "Concatenation",
+        "B": "Intersection",
+        "C": "Union",
+        "D": "Repeated Concatenation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Context-free languages are closed under union, concatenation and Kleene star (repeated concatenation) but not under intersection, e.g. {a^n b^n c^m} intersected with {a^m b^n c^n} gives {a^n b^n c^n}, which is not context-free.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P02-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "ZigBee characteristics",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q6",
+      "question": "Which among the following is/are true as per the ZigBee standards?",
+      "options": {
+        "A": "Low power consumption",
+        "B": "Low data rate",
+        "C": "Low range",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ZigBee (IEEE 802.15.4 based) is designed for low-power, low-data-rate (up to 250 kbps), short-range wireless sensor networks, so all three statements are true.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    }
+  ]
+}

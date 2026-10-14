@@ -1,0 +1,681 @@
+{
+  "setId": 25,
+  "title": "PYQ Set 25",
+  "questions": [
+    {
+      "id": "P25-Q01",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Operators",
+      "concept": "sizeof does not evaluate its operand",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q98",
+      "question": "#include <stdio.h>\nint main()\n{\n    int i = 5, j = 10, k = 15;\n    printf(\"%d \", sizeof(k /= i + j));\n    printf(\"%d\", k);\n    return 0;\n}\nAssume size of an integer as 4 bytes. What is the output of above program?",
+      "options": {
+        "A": "2 1",
+        "B": "4 1",
+        "C": "4 15",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "sizeof is evaluated at compile time and its operand expression is not executed, so k /= i+j never runs. sizeof(int) prints 4 and k stays 15.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P25-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Merge sort complexity",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q89",
+      "question": "What is the time complexity of Merge Sort for sorting an array of size \"n\"?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(log n)",
+        "C": "O(n log n)",
+        "D": "O(n^2)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Merge sort halves the array (log n levels) and merges in O(n) per level, giving O(n log n) in all cases.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Strategy",
+      "concept": "Threat of new entrants",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q90",
+      "question": "If it is easy for competitors to enter the market, the threat of new entrants is considered:",
+      "options": {
+        "A": "Low",
+        "B": "High",
+        "C": "Moderate",
+        "D": "Negligible",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In Porter's five forces, low entry barriers mean competitors can enter easily, so the threat of new entrants is high. Low or negligible threat corresponds to high entry barriers.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P25-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Primary key choice",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q111",
+      "question": "Which of the following is a primary key in a student table?",
+      "options": {
+        "A": "UID number",
+        "B": "Admission number",
+        "C": "Account number",
+        "D": "PAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Admission number is unique for every student and always present, so it is the natural primary key. Students may lack a PAN or account number, and UID is not managed by the school.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P25-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Basics",
+      "concept": "Network nodes",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q134",
+      "question": "In computer network nodes are",
+      "options": {
+        "A": "the computer that originates the data",
+        "B": "the computer that routes the data",
+        "C": "the computer that terminates the data",
+        "D": "all of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Any device that originates, routes or terminates data is a node in a computer network, so all of these.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P25-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Addressing Modes",
+      "concept": "Absolute (direct) addressing",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q58",
+      "question": "What is the addressing called that is used in an instruction of the form ADD X Y?",
+      "options": {
+        "A": "Indirect",
+        "B": "Index",
+        "C": "Absolute",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In ADD X Y the operands are given by their memory addresses X and Y directly in the instruction, which is absolute (direct) addressing. Indirect and index modes would need a pointer or index register.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P25-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Internet Basics",
+      "concept": "World Wide Web",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q98",
+      "question": "A collection of hyperlinked documents on the Internet forms the",
+      "options": {
+        "A": "World Wide Web (WWW)",
+        "B": "e-mail system",
+        "C": "mailing list",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The World Wide Web is the collection of hyperlinked documents (web pages) accessed over the Internet.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P25-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Divide and Conquer",
+      "concept": "MaxMin complexity",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q78",
+      "question": "What is the time complexity of the Divide and Conquer algorithm for finding the maximum and minimum elements in an array of size \"n\"?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(log n)",
+        "C": "O(n log n)",
+        "D": "O(n^2)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "T(n) = 2T(n/2) + 2 solves to 3n/2 - 2 comparisons, which is O(n). The halving suggests O(log n) or O(n log n), but every element must still be examined.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P25-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Scope",
+      "concept": "Local variable scope",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q97",
+      "question": "What is the scope of the variable declared in the user-defined function?",
+      "options": {
+        "A": "Whole program",
+        "B": "Only inside the { } block",
+        "C": "Inside the main function",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A variable declared inside a function is local; it is visible only inside the { } block in which it is declared, not the whole program or main.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "POWER function",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q69",
+      "question": "Which of the following expression in SQL would calculate the square root of 16?",
+      "options": {
+        "A": "POWER (16,2)",
+        "B": "POWER (16, 0.5)",
+        "C": "POWER (16, 1)",
+        "D": "MOD (16)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The square root of 16 is 16^0.5, so POWER(16, 0.5) = 4. POWER(16, 2) = 256 and POWER(16, 1) = 16.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer",
+      "concept": "Hierarchical addressing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q37",
+      "question": "Hierarchical addressing in the Network Layer allows for:",
+      "options": {
+        "A": "More efficient use of IP addresses",
+        "B": "Dynamic allocation of MAC addresses",
+        "C": "Faster data transmission rates",
+        "D": "Reduced latency in data communication",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Hierarchical (network/host) addressing allows address blocks to be allocated and aggregated efficiently, giving efficient use of IP addresses and smaller routing tables. MAC addresses are not dynamically allocated by the network layer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P25-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Testing and Debugging",
+      "concept": "Debugging definition",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q14",
+      "question": "Debugging is the process of:",
+      "options": {
+        "A": "Creating new software modules",
+        "B": "Removing defects from software",
+        "C": "Analysing software requirements",
+        "D": "Generating test cases",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Debugging is locating and removing defects (bugs) from software after they have been detected. Generating test cases is part of testing, which finds failures but does not fix them.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Digital Devices",
+      "concept": "Examples of digital electronics",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q73",
+      "question": "Which of the following is an example of a digital Electronic?",
+      "options": {
+        "A": "Computers",
+        "B": "Mobile phones",
+        "C": "Digital cameras",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Computers, mobile phones and digital cameras all process information as discrete digital signals, so all three options are examples of digital electronics.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P25-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Protection",
+      "concept": "Formal protection models",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q52",
+      "question": "A formal model of protection in an operating system provides:",
+      "options": {
+        "A": "A mathematical framework for analyzing resource allocation",
+        "B": "Guidelines for designing user interfaces",
+        "C": "Methods for optimizing memory management",
+        "D": "Techniques for improving CPU utilization",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A formal protection model (e.g. the access matrix or HRU model) gives a mathematical framework for reasoning about which subjects may access which resources. It is not about UI design, memory optimisation or CPU utilisation.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P25-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "DFA Design",
+      "concept": "Divisibility-by-3 DFA states",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q71",
+      "question": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders?",
+      "options": {
+        "A": "0",
+        "B": "0,2",
+        "C": "0,1,2",
+        "D": "0,1,2,3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Reading a binary number modulo 3 can leave remainder 0, 1 or 2, so the DFA has three states with remainder 0 as final. Remainder 3 is impossible modulo 3.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P25-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "Reverse auction",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q89",
+      "question": "What is the process in which a buyer posts its interest in buying a certain quantity of items, and sellers compete for the business by submitting successively lower bids until there is only one seller left?",
+      "options": {
+        "A": "B2B Marketplace",
+        "B": "Auction",
+        "C": "Reverse Auction",
+        "D": "Intranet",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a reverse auction the buyer posts a requirement and sellers bid successively lower prices. In a normal auction buyers bid prices up.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv6 address length",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q11",
+      "question": "The length of an IPv6 address is:",
+      "options": {
+        "A": "32 bits",
+        "B": "64 bits",
+        "C": "128 bits",
+        "D": "256 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An IPv6 address is 128 bits long, written as eight groups of 16-bit hexadecimal values. 32 bits is the IPv4 address length.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P25-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Strings",
+      "concept": "str.index() exception",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q26",
+      "question": "Identify the correct output of the following code snippet:\ngame = \"olympic2024\"\nprint(game.index(\"C\"))",
+      "options": {
+        "A": "0",
+        "B": "6",
+        "C": "-1",
+        "D": "ValueError",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "str.index() is case-sensitive and raises ValueError when the substring is not found. 'olympic2024' contains lowercase 'c' but no uppercase 'C', so an error results; -1 is what str.find() would return.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Queue reordering",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q94",
+      "question": "A queue has configuration a, b, c, d. If you want to get the configuration d, c, b, a, you need a minimum of _______.",
+      "options": {
+        "A": "2 deletions and 3 additions",
+        "B": "3 deletions and 3 additions",
+        "C": "4 deletions and 4 additions",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Delete a, b and c (3 deletions) and add them back in the order c, b, a (3 additions); the queue becomes d, c, b, a. Fewer operations cannot reverse the first three elements.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P25-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Expert Systems",
+      "concept": "Expert system shells",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q38",
+      "question": "The advantage of using an expert system development tool is:",
+      "options": {
+        "A": "imposed structure",
+        "B": "knowledge engineering assistance",
+        "C": "rapid prototyping",
+        "D": "all of the mentioned",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Expert system tools (shells) impose a structure, assist knowledge engineering and allow rapid prototyping, so all the listed points are advantages.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P25-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Word Versions",
+      "concept": "Saved versions are read-only",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q77",
+      "question": "Which of the following cannot be done with a document version?",
+      "options": {
+        "A": "Modifying a version",
+        "B": "Deleting a version",
+        "C": "Opening a version",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Saved document versions in Word can be opened, viewed and deleted, but a saved version itself cannot be modified; changes must be saved as a new version or file.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P25-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Karnaugh Maps",
+      "concept": "Grouping adjacent cells",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q20",
+      "question": "In Karnaugh Maps, which of the following terms refers to a group of adjacent cells that can be combined to simplify a logic expression?",
+      "options": {
+        "A": "Block",
+        "B": "Cluster",
+        "C": "Pair",
+        "D": "Group",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In K-map simplification, adjacent 1-cells (in sizes of powers of 2) are combined into a group. A pair is only a group of exactly two cells, and block/cluster are not the standard terms.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing Tools",
+      "concept": "Static and dynamic analysis tools",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q58",
+      "question": "Program Analysis Tools are used for:",
+      "options": {
+        "A": "Designing software architecture",
+        "B": "Measuring software reliability",
+        "C": "Automatically generating test cases",
+        "D": "Analysing code for errors and performance bottlenecks",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Program analysis tools (static and dynamic analysers) examine code to find errors, standards violations and performance bottlenecks. Test case generation and reliability measurement are separate activities.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Concepts",
+      "concept": "Polymorphism in OOP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q88",
+      "question": "Polymorphism is feature of",
+      "options": {
+        "A": "Procedural programming",
+        "B": "SQL",
+        "C": "Non-procedural programming",
+        "D": "Object Oriented Programming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Polymorphism (one interface, many forms, e.g. overloading/overriding) is a core feature of object oriented programming.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P25-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "Definition of DBMS",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q76",
+      "question": "What is DBMS?",
+      "options": {
+        "A": "DBMS is a collection of queries",
+        "B": "DBMS is a high-level language",
+        "C": "DBMS is a programming language",
+        "D": "DBMS stores, modifies and retrieves data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A DBMS is software that stores, modifies and retrieves data in a database. It is not itself a language; SQL is the language used with it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

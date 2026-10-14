@@ -1,0 +1,681 @@
+{
+  "setId": 24,
+  "title": "PYQ Set 24",
+  "questions": [
+    {
+      "id": "P24-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Arrays",
+      "concept": "Types of arrays",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q95",
+      "question": "How many types of the array are there in the C++ programming language?",
+      "options": {
+        "A": "There are three types of arrays",
+        "B": "There are four types of arrays",
+        "C": "There are two types of arrays",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Arrays in C++ are broadly of two types: single-dimensional and multi-dimensional arrays.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P24-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL DML",
+      "concept": "UPDATE statement",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q39",
+      "question": "Which SQL statement is used to update data in a database?",
+      "options": {
+        "A": "ALTER",
+        "B": "CHANGE",
+        "C": "UPDATE",
+        "D": "MODIFY",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "UPDATE modifies existing rows in a table. ALTER changes the table structure (DDL), and CHANGE/MODIFY are clauses used with ALTER TABLE.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P24-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Implementing stack, queue and list with arrays",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q74",
+      "question": "Stack, Queue and Linked list can be implemented using",
+      "options": {
+        "A": "numeric variable",
+        "B": "string variable",
+        "C": "logical function",
+        "D": "array",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Stack, queue and linked list can all be implemented using an array (linked list via index-linked nodes). Simple variables cannot hold a collection.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P24-Q04",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Upward multiplexing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q16",
+      "question": "Upward multiplexing involves:",
+      "options": {
+        "A": "Combining multiple data streams into one",
+        "B": "Distributing data to different physical channels",
+        "C": "Separating data into smaller units",
+        "D": "Reordering data packets",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Upward multiplexing maps several transport connections (data streams) onto a single network connection. Spreading one connection across several network paths is downward (inverse) multiplexing.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P24-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "Palindromes are not regular",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q48",
+      "question": "Can a DFA recognize a palindrome number?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Yes, with input alphabet as ∑*",
+        "D": "Can't be determined",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The set of palindromes is not regular (pumping lemma); recognising them requires unbounded memory to match the first half with the second. A DFA has finite memory, so it cannot recognise palindromes in general.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P24-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "Buffer cache",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q28",
+      "question": "In an operating system, a \"buffer cache\" is used to:",
+      "options": {
+        "A": "Store files in memory",
+        "B": "Store copies of frequently used files in memory",
+        "C": "Store the operating system kernel",
+        "D": "Store input/output devices",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The buffer cache keeps in main memory copies of recently or frequently used disk blocks so repeated accesses avoid slow disk I/O. It does not hold whole file systems, the kernel, or devices.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P24-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C++ Features",
+      "concept": "Type checking and const member functions",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q118",
+      "question": "Which of the following statements is correct about the C++ programming language?",
+      "options": {
+        "A": "In C++, both the static and dynamic types checking are allowed.",
+        "B": "In C++, member function are allowed to be of the type const.",
+        "C": "In C++, dynamic checking is allowed.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "C++ performs static type checking and also dynamic checking (e.g. dynamic_cast, RTTI), and member functions can be declared const. Since all statements are true, more than one option is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P24-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Queries",
+      "concept": "SELECT statement",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q39",
+      "question": "Which SQL clause is used to retrieve specific rows from a table?",
+      "options": {
+        "A": "SEARCH",
+        "B": "FETCH",
+        "C": "SELECT",
+        "D": "FIND",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SELECT (with a WHERE clause) retrieves specific rows from a table. SEARCH and FIND are not SQL clauses, and FETCH is used with cursors or to limit rows, not as the retrieval statement.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P24-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "Floyd-Warshall complexity",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q4",
+      "question": "The Floyd-Warshall algorithm is a popular method for solving the All-Pair Shortest Paths problem. What is the time complexity of the Floyd-Warshall algorithm for a graph with \"n\" vertices?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(n^2)",
+        "D": "O(n^3)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Floyd-Warshall uses three nested loops over the n vertices (intermediate, source, destination), giving O(n^3). O(n^2) is only the space needed for the distance matrix.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P24-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Separation of presentation and content",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q97",
+      "question": "This is an Assertion and Reason type question. Select the most suitable option considering the Assertion and Reason.\nAssertion (A): It becomes difficult to update and maintain a website's design using CSS.\nReason (R): CSS allows web developers to separate the presentation layer (styles and layout) from the content layer (HTML).",
+      "options": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "C": "Assertion (A) is true, but Reason (R) is false.",
+        "D": "Assertion (A) is false, but Reason (R) is true.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Because CSS separates presentation from content (R true), it makes a website's design easier, not harder, to update and maintain, so A is false.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P24-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "concept": "FTP vs HTTP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q42",
+      "question": "This is an Assertion and Reason type question. Select the most suitable option considering the Assertion and Reason.\nAssertion (A): FTP is a networking protocol used for transferring files.\nReason (R): FTP is used when we want to view some data from a website.",
+      "options": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)",
+        "C": "Assertion (A) is true, but Reason (R) is false.",
+        "D": "Assertion (A) is false, but Reason (R) is true.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "FTP is indeed a protocol for transferring files, so A is true. Viewing data from a website is done through HTTP/HTTPS, so R is false.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P24-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microcontrollers",
+      "concept": "Embedded applications of microcontrollers",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q2",
+      "question": "Microcontrollers find application in various fields. What is a typical application of microcontrollers in the automotive industry?",
+      "options": {
+        "A": "Operating systems for computers",
+        "B": "Entertainment systems in airplanes",
+        "C": "Engine control in cars",
+        "D": "Weather forecasting systems",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Cars use microcontroller-based Engine Control Units (ECUs) to manage fuel injection, ignition timing and similar functions. Airplane entertainment systems are not automotive.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P24-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Python Programming",
+      "subtopic": "Functions and Scope",
+      "concept": "global keyword",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q43",
+      "question": "What will be the output of the following code segment?\na = 5\ndef func_1(b=10):\n    global a\n    a = b - 10\n    b += a\n    print(a, b)\nfunc_1(a)",
+      "options": {
+        "A": "0 5",
+        "B": "5 0",
+        "C": "0 -5",
+        "D": "-5 0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "func_1(5) sets the global a = 5 - 10 = -5, then b = 5 + (-5) = 0, so it prints -5 0. The default b=10 is not used because 5 is passed.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "P24-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Digital Images",
+      "concept": "Pixel value",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q60",
+      "question": "Each ___ represents a particular colour.",
+      "options": {
+        "A": "Frame",
+        "B": "Character",
+        "C": "Pixel value",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Each pixel value encodes the colour (or intensity) of one point in an image. A frame is a whole image in a video sequence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P24-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Static vs dynamic binding",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q101",
+      "question": "Which of the following statements is completely true?\nI. In an object-oriented programming language, all the function calls are resolved at compile-time.\nII. In a procedure programming language, all the function calls are resolved at compile-time.",
+      "options": {
+        "A": "Only II",
+        "B": "Only I",
+        "C": "Both I and II",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In procedural languages function calls are bound at compile time, but in OOP languages virtual function calls are resolved at runtime (dynamic binding), so statement I is false. Only II is true.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P24-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cryptography",
+      "concept": "Asymmetric encryption",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q85",
+      "question": "What is an encryption system that uses two keys: a public key that everyone can have and a private key for only the recipient?",
+      "options": {
+        "A": "Encryption",
+        "B": "IDS",
+        "C": "Security Audit software",
+        "D": "Public key Encryption",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Public key (asymmetric) encryption uses a public key for encryption and a private key, held only by the recipient, for decryption. 'Encryption' alone is too general.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P24-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "Multi-user access in DBMS",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q86",
+      "question": "Which of the following is not a feature of DBMS?",
+      "options": {
+        "A": "Minimum duplication and redundancy of data",
+        "B": "High-level of security",
+        "C": "Single-user access only",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A DBMS supports concurrent multi-user access, so 'single-user access only' is not a feature. Reduced redundancy and high security are DBMS features.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P24-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SE Basics",
+      "concept": "Goal of software engineering",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q135",
+      "question": "What is the primary goal of software engineering?",
+      "options": {
+        "A": "To write code efficiently",
+        "B": "To develop software that meets user requirements within budget and schedule constraints",
+        "C": "To develop software with the latest technologies",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Software engineering aims to deliver quality software that meets user requirements within budget and schedule. Efficient coding and new technologies are only means, not the primary goal.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P24-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Robotics",
+      "concept": "Intelligent robots",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q1",
+      "question": "If a robot is able to change its own trajectory as per the external conditions, then the robot is considered as the ____ robot.",
+      "options": {
+        "A": "Intelligent",
+        "B": "Open loop",
+        "C": "Mobile",
+        "D": "Non-servo",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A robot that senses external conditions and adapts its own trajectory is an intelligent robot. Open-loop and non-servo robots follow fixed motions without feedback, and 'mobile' only describes locomotion.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P24-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Interface",
+      "concept": "Toggling screen components",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q95",
+      "question": "Which of the following Excel screen components cannot be turned on or off?",
+      "options": {
+        "A": "Formula Bar",
+        "B": "Status Bar",
+        "C": "Tool Bar",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Formula bar, status bar and toolbars can all be turned on or off from the View menu, so none of these is the answer.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P24-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stacks",
+      "concept": "LIFO",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q65",
+      "question": "Stack works on the principle of:",
+      "options": {
+        "A": "Mid Element First",
+        "B": "First In First Out",
+        "C": "Last In First Out",
+        "D": "Last In Last Out",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A stack inserts and removes elements at the same end (top), so the last element in is the first out. FIFO describes a queue.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P24-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "DFA and regular languages",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q69",
+      "question": "A Language for which DFA exist is a________",
+      "options": {
+        "A": "Regular Language",
+        "B": "Non-Regular Language",
+        "C": "Any language",
+        "D": "Cannot be said",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A language is regular if and only if some DFA accepts it. Non-regular languages have no DFA.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P24-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Idempotent law",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q116",
+      "question": "In Boolean algebra A.A is equal to",
+      "options": {
+        "A": "A",
+        "B": "2A",
+        "C": "A^2",
+        "D": "1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "By the idempotent law A.A = A (AND of a variable with itself). Boolean algebra has no 2A or A^2 terms, and A.A = 1 only if A = 1.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P24-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Operations",
+      "concept": "Basic file operations",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q117",
+      "question": "Which of the following is a common file operation?",
+      "options": {
+        "A": "Create",
+        "B": "Delete",
+        "C": "Rename",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Create, delete and rename are all common file operations provided by the operating system.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P24-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Gateway",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q25",
+      "question": "Which network device serves as the entry and exit point of a network, as all data coming in or going out of a network must first pass through it?",
+      "options": {
+        "A": "Modem",
+        "B": "Gateway",
+        "C": "Switch",
+        "D": "Repeater",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A gateway is the entry and exit point of a network; all traffic entering or leaving passes through it, and it can translate between different networks. A repeater only regenerates signals within a segment.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

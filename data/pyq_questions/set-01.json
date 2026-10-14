@@ -1,0 +1,681 @@
+{
+  "setId": 1,
+  "title": "PYQ Set 1",
+  "questions": [
+    {
+      "id": "P01-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "C vs C++",
+      "concept": "Keyword new as identifier",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q82",
+      "question": "What happens if the following program is executed in C and C++?\n#include<stdio.h>\nint main(void)\n{\n    int new = 5;\n    printf(\"%d\", new);\n}",
+      "options": {
+        "A": "Error in C and successful execution in C++",
+        "B": "Error in both C and C++",
+        "C": "Error in C++ and successful execution in C",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "new is a keyword in C++ so it cannot be a variable name, giving a compile error in C++. In C, new is an ordinary identifier, so the program prints 5.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P01-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocols",
+      "concept": "ARP address mapping",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q47",
+      "question": "What is the purpose of ARP (Address Resolution Protocol)?",
+      "options": {
+        "A": "To assign IP addresses to devices",
+        "B": "To resolve domain names to IP addresses",
+        "C": "To map MAC addresses to IP addresses",
+        "D": "To manage network congestion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ARP provides the mapping between IP addresses and MAC addresses on a LAN (given an IP it finds the matching MAC). DHCP assigns IP addresses and DNS resolves domain names.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P01-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Inheritance",
+      "concept": "Inheritance and method overriding",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q139",
+      "question": "Inheritance in OOP allows a class to:",
+      "options": {
+        "A": "Inherit properties and behavior from another class",
+        "B": "Create instances of another class",
+        "C": "Override methods of another class",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Inheritance lets a subclass acquire the properties and behavior of a superclass, and it also lets the subclass override inherited methods. Creating instances of a class does not need inheritance.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P01-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Knowledge Representation",
+      "concept": "Logic-based representation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q46",
+      "question": "In AI systems, knowledge can be represented in two ways. What are these two ways?\n(i) Machine Logic\n(ii) Predicate Logic\n(iii) Propositional Logic\n(iv) Compound Logic",
+      "options": {
+        "A": "(i) and (ii)",
+        "B": "(i) and (iii)",
+        "C": "(ii) and (iii)",
+        "D": "(iii) and (iv)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Logical knowledge representation in AI uses propositional logic and predicate (first-order) logic. 'Machine logic' and 'compound logic' are not knowledge representation schemes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P01-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Row-major address calculation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q61",
+      "question": "For a 2-D array represented in row-major order, the index formula to access the element at row \"i\" and column \"j\" using the base address \"B\" is:",
+      "options": {
+        "A": "Index = B + (i * n + j)",
+        "B": "Index = B + (j * n + i)",
+        "C": "Index = B + (i + j)",
+        "D": "Index = B + (i * m + j)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In row-major order, i complete rows of n columns precede row i, then j elements in that row, so the offset is i*n + j (n = number of columns, unit element size). Swapping i and j gives column-major order, and using m (number of rows) is wrong.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P01-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Selection",
+      "concept": "Select all methods",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q104",
+      "question": "Which of the following will not select all the cells in a document?",
+      "options": {
+        "A": "Using the Edit - Select All menu",
+        "B": "Pressing Ctrl + A on the keyboard",
+        "C": "Clicking three times with the right mouse button in the spreadsheet",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Edit > Select All and Ctrl+A both select all cells; triple-clicking the right mouse button does nothing of the kind (right-click opens the shortcut menu).",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P01-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Optical fiber",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q150",
+      "question": "Which transmission media provides the highest transmission speed in a network?",
+      "options": {
+        "A": "Coaxial cable",
+        "B": "Twisted-pair cable",
+        "C": "Optical fiber",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Optical fiber transmits data as light and offers the highest bandwidth and speed, far more than coaxial or twisted-pair cable.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P01-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Subfields of AI",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q146",
+      "question": "Which of the following is a subfield of AI?",
+      "options": {
+        "A": "Machine Learning",
+        "B": "Robotics",
+        "C": "Natural Language Processing",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Machine learning, robotics and natural language processing are all subfields of artificial intelligence.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P01-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "XML and DTD",
+      "concept": "DTD entity",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q8",
+      "question": "What is an entity in DTD?",
+      "options": {
+        "A": "A reference to an external resource",
+        "B": "A mathematical equation",
+        "C": "A special XML tag",
+        "D": "A function in JavaScript",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In a DTD, an entity is a named reference that stands for text or an external resource, used as &name; in the document. It is not a tag, equation or JavaScript function.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P01-Q10",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Disk Scheduling",
+      "concept": "FCFS head movement",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q118",
+      "question": "Consider a disk queue with requests for I/O to blocks on cylinders. 98 183 37 122 14 124 65 67 considering FCFS (First Come First Served) scheduling, the total number of head movements is, if the disk head is initially at 53 is?",
+      "options": {
+        "A": "640",
+        "B": "620",
+        "C": "630",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "From 53: 45 (to 98) + 85 (183) + 146 (37) + 85 (122) + 108 (14) + 110 (124) + 59 (65) + 2 (67) = 640 cylinders.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P01-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Basics",
+      "concept": "Metadata",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q128",
+      "question": "What is information about data called?",
+      "options": {
+        "A": "Teradata",
+        "B": "Metadata",
+        "C": "Relations",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Data about data is called metadata. Teradata is a DBMS product and relations are tables.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P01-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Abstract Classes",
+      "concept": "Pure virtual function",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q87",
+      "question": "What is abstract class in C++?",
+      "options": {
+        "A": "Any class in C++ is an abstract class/Class from which any class is derived",
+        "B": "Class specifically used as a base class with at least one virtual function",
+        "C": "Class specifically used as a base class with at least one pure virtual function",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A class becomes abstract when it has at least one pure virtual function (= 0). Having just an ordinary virtual function does not make a class abstract.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P01-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Paste Special",
+      "concept": "Paste Special operations",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q97",
+      "question": "Which of the following options is not available in Paste Special dialog box?",
+      "options": {
+        "A": "Add",
+        "B": "Subtract",
+        "C": "Divide",
+        "D": "SQRT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Paste Special offers None, Add, Subtract, Multiply and Divide operations; SQRT is not available.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P01-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Inheritance",
+      "concept": "Private members in inheritance",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q100",
+      "question": "Which of the following can be considered as the members that can be inherited but not accessible in any class?",
+      "options": {
+        "A": "Public",
+        "B": "Protected",
+        "C": "Private",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Private members of a base class are inherited (they exist in the derived object) but cannot be accessed directly by the derived class. Public and protected members are accessible.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P01-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "NFA to DFA",
+      "concept": "Subset construction state bound",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q74",
+      "question": "If an NFA of 5 states excluding the initial state is converted into a DFA, the maximum possible number of states for the DFA is?",
+      "options": {
+        "A": "64",
+        "B": "32",
+        "C": "128",
+        "D": "187",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The NFA has 5 + 1 = 6 states, and subset construction can produce at most 2^6 = 64 DFA states. Using only 5 states gives 32, the tempting wrong answer.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P01-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Programmable Logic Devices",
+      "concept": "PLA structure",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q75",
+      "question": "In a PLA, what components are used to implement the combinational logic functions?",
+      "options": {
+        "A": "AND gates and OR gates",
+        "B": "NAND gates and XOR gates",
+        "C": "NOR gates and XNOR gates",
+        "D": "NOT gates and multiplexers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A PLA has a programmable AND array that forms product terms followed by a programmable OR array that sums them, implementing SOP functions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P01-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Components",
+      "concept": "Sensors in IoT",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q19",
+      "question": "To capture data from the real world, IoT uses ________.",
+      "options": {
+        "A": "Sensors",
+        "B": "Actuators",
+        "C": "Microprocessor",
+        "D": "Microcontroller",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Sensors capture physical data (temperature, motion, light) from the real world for IoT systems. Actuators do the opposite: they act on the environment.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P01-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cyber Ethics",
+      "concept": "Plagiarism",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q11",
+      "question": "Sangeeta asks her colleague for her project work and then copies the entire work and submits it to her team leader claiming it to be her own work. The act performed by Sangeeta is known as ________.",
+      "options": {
+        "A": "Phishing",
+        "B": "Plagiarism",
+        "C": "Spamming",
+        "D": "Virus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Copying someone else's work and presenting it as one's own is plagiarism. Phishing is fraudulently obtaining credentials, and spamming is sending unsolicited bulk messages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P01-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Environment",
+      "concept": "Catalogs and schemas",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q132",
+      "question": "The top level of the hierarchy consists of _____ each of which can contain _____.",
+      "options": {
+        "A": "schemas, catalogs",
+        "B": "schemas, environment",
+        "C": "catalogs, schemas",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In the SQL environment hierarchy, the top level consists of catalogs, each of which can contain schemas; schemas in turn contain tables and views.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P01-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process Synchronization",
+      "concept": "Purpose of synchronization",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q10",
+      "question": "The goal of synchronization mechanisms in parallel programming is to:",
+      "options": {
+        "A": "Speed up the execution of processes",
+        "B": "Eliminate parallelism",
+        "C": "Avoid deadlock situations",
+        "D": "Increase the number of race conditions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Synchronization mechanisms coordinate concurrent processes so that shared resources are accessed safely, avoiding problems such as race conditions and deadlocks. They do not exist to speed up execution, remove parallelism or increase race conditions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P01-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "concept": "SMTP",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q128",
+      "question": "Which protocol is used to send email over the Internet?",
+      "options": {
+        "A": "FTP",
+        "B": "SMTP",
+        "C": "HTTP",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send email. FTP transfers files and HTTP transfers web pages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P01-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "Recursion and call stack",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q117",
+      "question": "Which of the following data structures finds its use in recursion?",
+      "options": {
+        "A": "Stack",
+        "B": "Linked list",
+        "C": "Array",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Recursive calls are managed using a stack (the call stack), which stores the activation records of pending calls.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P01-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-marketplaces",
+      "concept": "Vertical marketplace",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q92",
+      "question": "Which form of e-marketplace brings together buyers and sellers from the same industry?",
+      "options": {
+        "A": "Horizontal",
+        "B": "Vertical",
+        "C": "integrated",
+        "D": "isolated",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A vertical e-marketplace serves buyers and sellers within one industry; a horizontal one serves many industries with common goods/services.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P01-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Metrics",
+      "concept": "LOC metric",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q97",
+      "question": "In the context of software project management, what is LOC an acronym for?",
+      "options": {
+        "A": "Line of Change",
+        "B": "Level of Complexity",
+        "C": "Lines of Code",
+        "D": "List of Components",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "LOC stands for Lines of Code, a size metric used for effort and cost estimation in software project management.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P01-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "History of Computing",
+      "concept": "Father of computer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q65",
+      "question": "Who is the father of computer?",
+      "options": {
+        "A": "James Gosling",
+        "B": "Charles Babbage",
+        "C": "Dennis Ritchie",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Charles Babbage, who designed the Analytical Engine, is called the father of the computer. James Gosling created Java and Dennis Ritchie created C.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

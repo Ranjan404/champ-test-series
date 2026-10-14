@@ -18,8 +18,10 @@ export function ResetButton({
   setId,
   label = "Reset & Retry",
   goToTest = false,
+  apiBase = "/api/sets",
+  pageBase = "/practice",
   ...btn
-}: { setId: number; label?: string; goToTest?: boolean } & Omit<ButtonProps, "onClick">) {
+}: { setId: number; label?: string; goToTest?: boolean; apiBase?: string; pageBase?: string } & Omit<ButtonProps, "onClick">) {
   const router = useRouter();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -27,13 +29,13 @@ export function ResetButton({
   async function reset() {
     setBusy(true);
     setError(null);
-    const res = await fetch(`/api/sets/${setId}/reset`, { method: "POST" }).catch(() => null);
+    const res = await fetch(`${apiBase}/${setId}/reset`, { method: "POST" }).catch(() => null);
     if (!res?.ok) {
       setError((await res?.json().catch(() => null))?.error ?? "Could not reset. Try again.");
       setBusy(false);
       return;
     }
-    if (goToTest) router.push(`/practice/${setId}`);
+    if (goToTest) router.push(`${pageBase}/${setId}`);
     else router.refresh();
     setBusy(false);
   }

@@ -13,10 +13,18 @@ import { MarkingBanner, Palette, SaveStatus, SubmitButton, TimerChip } from "./e
 
 type Answers = Record<string, OptionKey[]>;
 
-const resultUrl = (setId: number) => `/practice/${setId}/result`;
+/** Where a set's API and pages live: practice sets by default, PYQ sets with `/api/pyq` and `/pyq`. */
+export interface SetRoutes {
+  apiBase: string;
+  pageBase: string;
+  /** Section name shown in the header and the back link. */
+  label: string;
+}
+const PRACTICE_ROUTES: SetRoutes = { apiBase: "/api/sets", pageBase: "/practice", label: "Practice" };
 
 /** Starts (or resumes) the set's timed attempt on the server, then hands it to the runner. */
-export function PracticeTest({ setId }: { setId: number }) {
+export function PracticeTest({ setId, routes = PRACTICE_ROUTES }: { setId: number; routes?: SetRoutes }) {
+  const { apiBase, pageBase } = routes;
   const router = useRouter();
   const [loaded, setLoaded] = useState<{ attempt: PracticeAttemptState; clockOffset: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -26,12 +34,12 @@ export function PracticeTest({ setId }: { setId: number }) {
     (async () => {
       try {
         const sent = Date.now();
-        const res = await fetch(`/api/sets/${setId}/start`, { method: "POST" });
-        if (res.status === 401) return window.location.assign(`/login?next=/practice/${setId}`);
+        const res = await fetch(`${apiBase}/${setId}/start`, { method: "POST" });
+        if (res.status === 401) return window.location.assign(`/login?next=${pageBase}/${setId}`);
         const data = await res.json().catch(() => null);
         if (!res.ok) throw new Error(data?.error ?? "Could not start the test.");
         const state = data as PracticeStart;
-        if (state.status === "completed") return router.replace(resultUrl(setId));
+        if (state.status === "completed") return router.replace(`${pageBase}/${setId}/result`);
         // Assume the server stamped its clock halfway through the round trip.
         const clockOffset = state.serverNow - (sent + Date.now()) / 2;
         if (!cancelled) setLoaded({ attempt: state.attempt, clockOffset });
@@ -42,7 +50,7 @@ export function PracticeTest({ setId }: { setId: number }) {
     return () => {
       cancelled = true;
     };
-  }, [setId, router]);
+  }, [setId, router, apiBase, pageBase]);
 
   if (error) {
     return (
@@ -52,7 +60,7 @@ export function PracticeTest({ setId }: { setId: number }) {
           {error}
         </p>
         <Button asChild variant="outline" className="mt-6">
-          <Link href="/practice">Back to Practice</Link>
+          <Link href={pageBase}>Back to {routes.label}</Link>
         </Button>
       </div>
     );
@@ -65,14 +73,16 @@ export function PracticeTest({ setId }: { setId: number }) {
       </div>
     );
   }
-  return <PracticeTestRunner attempt={loaded.attempt} clockOffset={loaded.clockOffset} />;
+  return <PracticeTestRunner attempt={loaded.attempt} clockOffset={loaded.clockOffset} routes={routes} />;
 }
 
 /** Drops empty selections (a multi-select with every box unticked counts as not answered). */
 const compact = (a: Answers): Answers => Object.fromEntries(Object.entries(a).filter(([, v]) => v.length));
 
-function PracticeTestRunner({ attempt, clockOffset }: { attempt: PracticeAttemptState; clockOffset: number }) {
+function PracticeTestRunner({ attempt, clockOffset, routes }: { attempt: PracticeAttemptState; clockOffset: number; routes: SetRoutes }) {
   const router = useRouter();
+  const { apiBase, pageBase } = routes;
+  const resultUrl = useCallback((id: number) => `${pageBase}/${id}/result`, [pageBase]);
   const qs = attempt.questions;
   const total = qs.length;
   const setId = attempt.setId;
@@ -97,12 +107,12 @@ function PracticeTestRunner({ attempt, clockOffset }: { attempt: PracticeAttempt
       if (submittedRef.current) return;
       setSaving("saving");
       try {
-        const res = await fetch(`/api/sets/${setId}/save`, {
+        const res = await fetch(`${apiBase}/${setId}/save`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ answers: compact(next.answers), marked: [...next.marked], current: next.current }),
         });
-        if (res.status === 401) return window.location.assign(`/login?next=/practice/${setId}`);
+        if (res.status === 401) return window.location.assign(`/login?next=${pageBase}/${setId}`);
         const data = await res.json().catch(() => null);
         if (data?.expired) {
           submittedRef.current = true;
@@ -114,7 +124,7 @@ function PracticeTestRunner({ attempt, clockOffset }: { attempt: PracticeAttempt
         setSaving("error");
       }
     },
-    [router, setId],
+    [router, setId, apiBase, pageBase, resultUrl],
   );
 
   const submit = useCallback(async () => {
@@ -123,12 +133,12 @@ function PracticeTestRunner({ attempt, clockOffset }: { attempt: PracticeAttempt
     setSubmitting(true);
     setError(null);
     try {
-      const res = await fetch(`/api/sets/${setId}/submit`, {
+      const res = await fetch(`${apiBase}/${setId}/submit`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ answers: compact(snap.current.answers) }),
       });
-      if (res.status === 401) return window.location.assign(`/login?next=/practice/${setId}`);
+      if (res.status === 401) return window.location.assign(`/login?next=${pageBase}/${setId}`);
       const data = await res.json().catch(() => null);
       // 409: already submitted (another tab, or the timer on the server).
       if (!res.ok && res.status !== 409) throw new Error(data?.error ?? "Could not submit");
@@ -138,7 +148,7 @@ function PracticeTestRunner({ attempt, clockOffset }: { attempt: PracticeAttempt
       setSubmitting(false);
       setError(`${(e as Error).message || "Network error"}. Check your connection and press Submit again.`);
     }
-  }, [router, setId]);
+  }, [router, setId, apiBase, pageBase, resultUrl]);
 
   // Countdown; auto-submits at zero.
   useEffect(() => {
@@ -154,7 +164,7 @@ function PracticeTestRunner({ attempt, clockOffset }: { attempt: PracticeAttempt
     const flush = () => {
       if (submittedRef.current || document.visibilityState === "visible") return;
       const s = snap.current;
-      navigator.sendBeacon?.(`/api/sets/${setId}/save`, JSON.stringify({ answers: compact(s.answers), marked: [...s.marked], current: s.current }));
+      navigator.sendBeacon?.(`${apiBase}/${setId}/save`, JSON.stringify({ answers: compact(s.answers), marked: [...s.marked], current: s.current }));
     };
     document.addEventListener("visibilitychange", flush);
     window.addEventListener("pagehide", flush);
@@ -162,7 +172,7 @@ function PracticeTestRunner({ attempt, clockOffset }: { attempt: PracticeAttempt
       document.removeEventListener("visibilitychange", flush);
       window.removeEventListener("pagehide", flush);
     };
-  }, [setId]);
+  }, [setId, apiBase]);
 
   const q = qs[current];
   const selected = answers[q.id] ?? [];
@@ -215,7 +225,7 @@ function PracticeTestRunner({ attempt, clockOffset }: { attempt: PracticeAttempt
       <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
         <div className="min-w-0">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-primary">
-            Practice · {attempt.title}
+            {routes.label} · {attempt.title}
             {attempt.attemptNo > 1 ? ` · Attempt ${attempt.attemptNo}` : ""}
           </p>
           <h1 className="text-xl font-extrabold tracking-tight sm:text-2xl">

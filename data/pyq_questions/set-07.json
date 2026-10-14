@@ -1,0 +1,681 @@
+{
+  "setId": 7,
+  "title": "PYQ Set 7",
+  "questions": [
+    {
+      "id": "P07-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Analysis",
+      "concept": "Space-time tradeoff",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q15",
+      "question": "Which term refers to the strategy of optimizing an algorithm's use of resources, often by making sacrifices in one aspect for improvements in another?",
+      "options": {
+        "A": "Greedy algorithm",
+        "B": "Divide and conquer",
+        "C": "Dynamic programming",
+        "D": "Tradeoff",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A tradeoff is the deliberate sacrifice of one resource (e.g. memory) to improve another (e.g. time). Greedy, divide and conquer and dynamic programming are design paradigms, not this strategy.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P07-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Classes and Objects",
+      "concept": "Object as instance of class",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q114",
+      "question": "Objects are",
+      "options": {
+        "A": "Design of function",
+        "B": "Creator of data",
+        "C": "Instances of classes",
+        "D": "Program block",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An object is an instance of a class: the class is the blueprint and objects are its concrete instances.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P07-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Repeater",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q18",
+      "question": "Which of the following networking devices is used to regenerate and transmit the weakened signal ahead?",
+      "options": {
+        "A": "Hub",
+        "B": "Ethernet Card",
+        "C": "Repeater",
+        "D": "Modem",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A repeater works at the physical layer and regenerates a weakened signal so it can travel further. A hub broadcasts to all ports, and a modem converts between digital and analog signals.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P07-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "AVL Trees",
+      "concept": "Balance factor",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q75",
+      "question": "In an AVL tree, the balance factor of a node is the difference between the heights of its:",
+      "options": {
+        "A": "Left and right subtrees",
+        "B": "Left subtree and parent",
+        "C": "Right subtree and parent",
+        "D": "Left and right children",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In an AVL tree, balance factor = height(left subtree) - height(right subtree), and it must be -1, 0 or 1. It is about subtree heights, not just the immediate children.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P07-Q05",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4 to IPv6 Transition",
+      "concept": "IPv6 to IPv4 header translation",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q99",
+      "question": "Which of the following is not a step in the Header translation procedure?",
+      "options": {
+        "A": "The IPv6 mapped address is changed to an IPv4 address by extracting the rightmost 32 bits",
+        "B": "The value of the IPv6 priority field is discarded",
+        "C": "The IPv6 flow label is considered",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In header translation from IPv6 to IPv4, the mapped address yields the IPv4 address from its rightmost 32 bits and the priority field is discarded; the flow label is ignored, not considered.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Basics",
+      "concept": "Website vs web page",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q28",
+      "question": "What is the difference between a website and a web page?",
+      "options": {
+        "A": "A website is a collection of web pages, while a web page is a single document that is displayed on the web.",
+        "B": "A website is a software program, while a web page is a hardware device.",
+        "C": "A website is a physical object, while a web page is a logical object.",
+        "D": "All of the above.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A website is a collection of related web pages under a domain, while a web page is a single document displayed in a browser. The other statements are false, so 'All of the above' is wrong.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P07-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Deque",
+      "concept": "Deque operations trace",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q81",
+      "question": "After performing the following set of operations, what does the final list contain?\nInsertFront(10);\nInsertFront(20);\nInsertRear(30);\nDeleteFront();\nInsertRear(40);\nInsertRear(10);\nDeleteRear();\nInsertRear(15);\ndisplay();",
+      "options": {
+        "A": "10 30 10 15",
+        "B": "20 30 40 15",
+        "C": "10 30 40 15",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Trace: [10] -> [20,10] -> [20,10,30] -> [10,30] -> [10,30,40] -> [10,30,40,10] -> [10,30,40] -> [10,30,40,15]. Option B forgets that DeleteFront removed 20.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Software",
+      "concept": "Examples of RDBMS",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q55",
+      "question": "Which of the following is a database?",
+      "options": {
+        "A": "MySQL",
+        "B": "Informix",
+        "C": "SQL Server",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "MySQL, IBM Informix and Microsoft SQL Server are all relational database management systems.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "DOM",
+      "concept": "DOM tree hierarchy",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q66",
+      "question": "How does the DOM tree structure reflect the hierarchy of HTML elements?",
+      "options": {
+        "A": "In alphabetical order",
+        "B": "Based on the element's size",
+        "C": "In a parent-child relationship",
+        "D": "According to the element's color",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The DOM represents nested HTML elements as a tree of parent, child and sibling nodes. Order, size and colour play no role.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microcontroller Architecture",
+      "concept": "Harvard architecture",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q57",
+      "question": "What does the term \"harvard architecture\" refer to in the context of microcontrollers?",
+      "options": {
+        "A": "A type of microcontroller with high processing speed",
+        "B": "A microcontroller architecture that uses a separate memory space for instructions and data",
+        "C": "A microcontroller with advanced addressing modes",
+        "D": "A microcontroller with a large number of I/O ports",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Harvard architecture uses separate memories and buses for instructions and data, allowing simultaneous fetches. Von Neumann architecture shares one memory for both.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P07-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Identifiers",
+      "concept": "Identifier naming rules",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q46",
+      "question": "Which of the following is not a valid variable name in most programming languages?",
+      "options": {
+        "A": "myVariable",
+        "B": "123Variable",
+        "C": "_myVariable",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Identifiers cannot begin with a digit, so 123Variable is invalid. Names starting with a letter or underscore, like myVariable and _myVariable, are valid.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machines",
+      "concept": "Church-Turing thesis",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q44",
+      "question": "Church's Thesis supports ________.",
+      "options": {
+        "A": "Both: TM is a general-purpose computer, and TM is an algorithm and vice versa",
+        "B": "A Turing machine as an algorithm and an algorithm as a Turing machine",
+        "C": "A Turing machine as a general-purpose computer system",
+        "D": "None of them is correct",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Church's thesis states that any algorithm can be carried out by a Turing machine and vice versa, so a TM models both a general-purpose computer and an algorithm. Options B and C each state only one part.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P07-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "I/O Management",
+      "concept": "I/O subsystem role",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q30",
+      "question": "The I/O subsystem in an operating system is responsible for:",
+      "options": {
+        "A": "Allocating memory for processes",
+        "B": "Managing the file system",
+        "C": "Managing input/output operations between processes and input/output devices",
+        "D": "Allocating CPU time to processes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The I/O subsystem manages I/O between processes and devices through device drivers, buffering, caching and scheduling. Memory allocation and CPU scheduling are other OS modules.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P07-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "DFA for a fixed string",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q85",
+      "question": "Let the word be \"automata\". The total number of states required to recognize the word using DFA would be __________",
+      "options": {
+        "A": "9 states",
+        "B": "8 states",
+        "C": "10 states",
+        "D": "word cannot be recognized using DFA",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "'automata' has 8 characters, so a DFA recognizing it needs a start state plus one state per character: 9 states (excluding a dead state). 8 states forgets the start state.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P07-Q15",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Classes",
+      "concept": "Anonymous class",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q102",
+      "question": "What will happen if in a C++ program, a class has no name?",
+      "options": {
+        "A": "It is not even allowed in C++",
+        "B": "It will not have the constructor",
+        "C": "It will not have the destructor",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An unnamed (anonymous) class is allowed in C++, but since constructors and destructors must carry the class name, it cannot have a user-defined constructor or destructor. Both B and C are true.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Web Security",
+      "concept": "SSL functions",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q93",
+      "question": "Which of the following is done by Secure Sockets Layers?",
+      "options": {
+        "A": "creates a secure, private connection to a web server",
+        "B": "Encrypts information",
+        "C": "Sends information over the internet",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "SSL establishes a secure, private connection with a web server, encrypts the data and transmits it over the internet, so all statements apply.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Clauses",
+      "concept": "HAVING vs WHERE",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q25",
+      "question": "SQL applies conditions on the groups through _____ clause after groups have been formed.",
+      "options": {
+        "A": "where",
+        "B": "having",
+        "C": "new",
+        "D": "all",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HAVING filters groups produced by GROUP BY. WHERE filters individual rows before grouping.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P07-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "E-waste",
+      "concept": "Types of e-waste",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q68",
+      "question": "Which of the following is not considered as a type of e-waste?",
+      "options": {
+        "A": "Televisions",
+        "B": "Personal Electronic Devices",
+        "C": "Scanner and Copier",
+        "D": "Newspaper",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "E-waste is discarded electrical or electronic equipment such as TVs, personal devices, scanners and copiers. A newspaper is paper waste.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "History of AI",
+      "concept": "Father of AI",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q69",
+      "question": "Who is known as the father of AI?",
+      "options": {
+        "A": "Fisher Ada",
+        "B": "Alan Turing",
+        "C": "John McCarthy",
+        "D": "Allen Newell",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "John McCarthy coined the term 'Artificial Intelligence' in 1956 and is called the father of AI. Alan Turing is known as the father of computer science.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P07-Q20",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Conversion",
+      "concept": "Decimal to binary, octal and hex",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q81",
+      "question": "Convert the decimal number 1234 to binary, octal, and hexadecimal. Which of the following options correctly represents these conversions?",
+      "options": {
+        "A": "Binary: 10011010010, Octal: 2322, Hexadecimal: 4D2",
+        "B": "Binary: 11001110010, Octal: 1712, Hexadecimal: 72A",
+        "C": "Binary: 11100110010, Octal: 1642, Hexadecimal: 3CD",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "1234 = 1024 + 128 + 64 + 16 + 2 = 10011010010 in binary; grouping by 3 gives octal 2322 and grouping by 4 gives hex 4D2. The other options do not equal 1234.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P07-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "PHP",
+      "concept": "PHP-MySQL connection",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q13",
+      "question": "How can you establish a connection between PHP and MySQL?",
+      "options": {
+        "A": "Using the \"connect()\" function in PHP",
+        "B": "By including a PHP library",
+        "C": "By embedding MySQL queries directly in PHP code",
+        "D": "By using the \"mysqli_connect()\" function in PHP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In PHP a MySQL connection is opened with mysqli_connect() (or the mysqli/PDO objects). There is no generic connect() function, and queries cannot run without first establishing a connection.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P07-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Styles",
+      "concept": "Normal style default",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q105",
+      "question": "The default style for new data keyed in a new workbook is?",
+      "options": {
+        "A": "Comma",
+        "B": "Normal",
+        "C": "Currency",
+        "D": "Per cent",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "New data in a new workbook uses the Normal style; Comma, Currency and Percent are optional number styles.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P07-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Modes",
+      "concept": "Full-duplex",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q37",
+      "question": "Communication over mobile phone is an example of which type of communication mode?",
+      "options": {
+        "A": "Simplex",
+        "B": "Half-Duplex",
+        "C": "Full-Duplex",
+        "D": "Double-Duplex",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "On a mobile phone call both parties can talk and listen at the same time, which is full-duplex. A walkie-talkie is half-duplex.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P07-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Pandas",
+      "concept": "DataFrame",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q40",
+      "question": "_____ is a two-dimensional data structure in Python with row index and column index.",
+      "options": {
+        "A": "DataFrame",
+        "B": "List",
+        "C": "Tuple",
+        "D": "Series",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A pandas DataFrame is a 2-D labelled structure with a row index and column labels. A Series is one-dimensional.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P07-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Deque",
+      "concept": "Double-ended queue",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q82",
+      "question": "A linear data structure in which insertion and deletion operations can be performed from both the ends is",
+      "options": {
+        "A": "queue",
+        "B": "circular queue",
+        "C": "deque",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A deque (double-ended queue) allows insertion and deletion at both front and rear. A normal or circular queue inserts at the rear and deletes from the front only.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

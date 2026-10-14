@@ -1,0 +1,681 @@
+{
+  "setId": 18,
+  "title": "PYQ Set 18",
+  "questions": [
+    {
+      "id": "P18-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-Commerce Models",
+      "concept": "B2C example",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q149",
+      "question": "Which of the following is an example of a B2C E-Commerce website?",
+      "options": {
+        "A": "Alibaba",
+        "B": "Amazon",
+        "C": "Google",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Amazon sells directly to individual consumers, which is B2C. Alibaba is mainly B2B, and Google is a search/services company.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Basics",
+      "concept": "Definition of network",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q68",
+      "question": "........ is a combination of hardware and software that facilitates the sharing of information between computing devices.",
+      "options": {
+        "A": "Network",
+        "B": "Peripheral",
+        "C": "Expansion board",
+        "D": "Digital device",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A network is a combination of hardware and software that lets computing devices share information and resources. A peripheral is just an attached input/output device.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-Commerce Models",
+      "concept": "B2C, C2B, C2C",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q148",
+      "question": "Which of the following is NOT a common type of E-Commerce model?",
+      "options": {
+        "A": "Business-to-Consumer (B2C)",
+        "B": "Consumer-to-Business (C2B)",
+        "C": "Consumer-to-Consumer (C2C)",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "B2C, C2B and C2C are all recognized e-commerce models (along with B2B), so none of the options is NOT a model.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "COMMIT",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q73",
+      "question": "_____ command makes the updates performed by the transaction permanent in the database.",
+      "options": {
+        "A": "ROLLBACK",
+        "B": "COMMIT",
+        "C": "TRUNCATE",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "COMMIT makes all changes made by the current transaction permanent. ROLLBACK undoes them, and TRUNCATE is a DDL command that removes all rows.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Animation",
+      "concept": "Thaumatrope",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q59",
+      "question": "A ________ (invented by Paul Roget in 1828) is a simple mechanical toy which creates the illusion of movement.",
+      "options": {
+        "A": "Binocular",
+        "B": "Zoetrope",
+        "C": "Thaumatrope",
+        "D": "BOOM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A thaumatrope is a disc with different pictures on each side; spinning it on strings merges the images into one, illustrating persistence of vision. The zoetrope is a later rotating drum device.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P18-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "concept": "Data link control functions",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q96",
+      "question": "What is the main purpose of the Data Link Control in the data link layer?",
+      "options": {
+        "A": "Error correction",
+        "B": "Data encryption",
+        "C": "Data routing",
+        "D": "Data framing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Data link control handles framing, flow control and error control between adjacent nodes; framing (packaging bits into frames) is its basic function. Routing is a network layer job and encryption is not a DLC function.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P18-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Computer Graphics",
+      "concept": "Graphics package",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q49",
+      "question": "A set of libraries that provides programmatically access to some kind of graphics 2D functions is",
+      "options": {
+        "A": "Graphics package",
+        "B": "Formatting package",
+        "C": "Animation package",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A graphics package is a set of libraries giving programmatic access to 2D graphics functions such as drawing lines, shapes and filling regions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Email Protocols",
+      "concept": "SMTP client role",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q104",
+      "question": "When the mail server sends mail to other mail servers it becomes",
+      "options": {
+        "A": "SMTP client",
+        "B": "SMTP server",
+        "C": "peer",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "When a mail server forwards mail to another mail server, it initiates the SMTP connection and therefore acts as an SMTP client.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Basics",
+      "concept": "IoT security",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q68",
+      "question": "Which among the following is not true about IoT?",
+      "options": {
+        "A": "IoT uses Micro Controllers",
+        "B": "IoT is fully safe",
+        "C": "IoT uses Sensors and Actuators",
+        "D": "IoT uses wireless technology",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IoT devices are often vulnerable to attacks, so the claim that IoT is fully safe is false. The other statements (microcontrollers, sensors and actuators, wireless technology) are true.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "ER Model",
+      "concept": "Entity set",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q88",
+      "question": "Which of the following is known as a set of entities of the same type that share same properties, or attributes?",
+      "options": {
+        "A": "Relation set",
+        "B": "Tuples",
+        "C": "Entity set",
+        "D": "Entity Relation model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An entity set is a collection of entities of the same type sharing the same attributes. A relationship set groups relationships, and tuples are rows of a relation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P18-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "FAT full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q39",
+      "question": "The term \"FAT\" is stands for_____",
+      "options": {
+        "A": "File Allocation Tree",
+        "B": "File Allocation Table",
+        "C": "File Allocation Graph",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "FAT stands for File Allocation Table, the table recording which clusters belong to each file. It is a table, not a tree or graph.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P18-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Basic Computer Organisation",
+      "concept": "Memory unit function",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q11",
+      "question": "Which component of an ideal microcomputer is responsible for temporarily holding data and instructions during processing?",
+      "options": {
+        "A": "CPU",
+        "B": "ALU",
+        "C": "Memory",
+        "D": "Output devices",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The memory (main memory) temporarily stores the data and instructions while a program is being processed. The CPU and ALU process data, and output devices only present results.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Devices",
+      "concept": "Scanner digitization",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q43",
+      "question": "A photograph is an analog image and a _____ can convert it into a digital image.",
+      "options": {
+        "A": "Printer",
+        "B": "Scanner",
+        "C": "Webcam",
+        "D": "Camera",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A scanner digitizes an existing printed photograph into a digital image. A printer does the reverse.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Topology",
+      "concept": "Star topology",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q97",
+      "question": "Which network topology requires a central controller or hub?",
+      "options": {
+        "A": "Star",
+        "B": "Mesh",
+        "C": "Ring",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In a star topology every node connects to a central hub or controller. Mesh and ring topologies have no central device.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Cryptography",
+      "concept": "Symmetric key cryptography",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q47",
+      "question": "Private key cryptography is also known as _____ cryptography.",
+      "options": {
+        "A": "Private key",
+        "B": "Symmetric",
+        "C": "Asymmetric",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In private (secret) key cryptography the same key is used to encrypt and decrypt, so it is symmetric. Public key cryptography is asymmetric.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P18-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Aggregate Functions",
+      "concept": "Standard SQL aggregate functions",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q64",
+      "question": "Which of the following is not a valid aggregate function?",
+      "options": {
+        "A": "COUNT",
+        "B": "COMPUTE",
+        "C": "SUM",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "COUNT and SUM are standard SQL aggregate functions, while COMPUTE is not an aggregate function.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Character Encoding",
+      "concept": "ASCII keystroke encoding",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q72",
+      "question": "When a key is pressed on keyboard, which standard is used for converting the keystroke into the corresponding bits?",
+      "options": {
+        "A": "ANSI",
+        "B": "ASCII",
+        "C": "EBCDIC",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Keyboards encode keystrokes using ASCII codes. EBCDIC is an IBM mainframe code and ANSI is a standards body, not the keyboard character code.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P18-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Pointers",
+      "concept": "Function declaration with pointers",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q110",
+      "question": "The correct statement for a function that takes pointer to a float, a pointer to a pointer to a char and returns a pointer to a pointer to an integer is",
+      "options": {
+        "A": "int **fun(float **, char **)",
+        "B": "int *fun(float *, char *)",
+        "C": "int **fun(float *, char **)",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Return type pointer to pointer to int is int **, the first parameter pointer to float is float *, and the second pointer to pointer to char is char **, giving int **fun(float *, char **).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Types of OS",
+      "concept": "Real-time, embedded and network OS",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q107",
+      "question": "Which of the following is a type of operating system?",
+      "options": {
+        "A": "Real-time operating system",
+        "B": "Embedded operating system",
+        "C": "Network operating system",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Real-time, embedded and network operating systems are all recognized types of operating systems.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Word Date and Time",
+      "concept": "Inserting dates",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q80",
+      "question": "You can add a date to a document by",
+      "options": {
+        "A": "Inserting a text date",
+        "B": "Inserting a date field that will update automatically",
+        "C": "Typing the date manually",
+        "D": "All of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A date can be typed manually, inserted as static text, or inserted as a field that updates automatically (Insert > Date and Time), so all are possible.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P18-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Data Structures in Python",
+      "concept": "Queue using list",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q21",
+      "question": "_____ data type is used to implement Queue data structure in Python.",
+      "options": {
+        "A": "Sets",
+        "B": "Dictionary",
+        "C": "Tuple",
+        "D": "List",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A list is ordered and mutable, so elements can be appended at the rear and removed with pop(0) at the front. Tuples are immutable, and sets/dictionaries do not maintain a FIFO order of arbitrary items.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P18-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "Mass customization",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q10",
+      "question": "Which of the following refers to creating products tailored to individual customers?",
+      "options": {
+        "A": "Customization",
+        "B": "Adaptation",
+        "C": "Direct material",
+        "D": "Auction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Customization means building or tailoring a product to an individual customer's requirements, a key e-commerce capability. Adaptation is a general change, and auction is a pricing mechanism.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P18-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "DFA recognizes regular languages",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q27",
+      "question": "A language for which a DFA exists is a:",
+      "options": {
+        "A": "Regular Language",
+        "B": "Non-Regular Language",
+        "C": "Any language",
+        "D": "Cannot be said",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A language is regular if and only if some DFA (equivalently NFA or regular expression) accepts it.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P18-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Introduction to AI",
+      "concept": "Definition of AI",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q81",
+      "question": "AI is about",
+      "options": {
+        "A": "Playing games on Computer",
+        "B": "Making a machine intelligent",
+        "C": "putting human intelligence into computer",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "AI is the science of making machines intelligent, able to reason, learn and solve problems. Playing games is only one application.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P18-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stacks",
+      "concept": "Infix to postfix complexity",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q75",
+      "question": "What is the time complexity of an infix to postfix conversion algorithm?",
+      "options": {
+        "A": "O(N log N)",
+        "B": "O(N)",
+        "C": "O(N^2)",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Each symbol of the infix expression is scanned once and pushed and popped from the stack at most once, so the conversion runs in O(N) time.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

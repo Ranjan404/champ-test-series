@@ -1,4 +1,4 @@
-import type { Difficulty, Letter, OptionKey, Progress, Question, QuestionSet, SetStatus } from "./types";
+import type { Difficulty, Letter, OptionKey, PracticeTrack, Progress, Question, QuestionSet, SetStatus } from "./types";
 import { PRACTICE_DURATION_SECONDS, TOTAL_SETS } from "./types";
 import { evaluate, netScore, round2, wrongLetters } from "./scoring";
 import { isUnlocked, setStatus } from "./progress";
@@ -73,7 +73,8 @@ export type ReviewItem = {
 
 export type SetReport = ReturnType<typeof buildSetReport>;
 
-export function buildSetReport(set: QuestionSet, progress: Progress, allSets: QuestionSet[]) {
+/** `progress` is the track the set belongs to (see lib/progress.ts) and `total` its number of sets. */
+export function buildSetReport(set: QuestionSet, progress: PracticeTrack, allSets: QuestionSet[], total = TOTAL_SETS) {
   const sp = progress.sets[set.setId];
   const rows = rowsFor(set, sp?.answers ?? {});
   const correct = rows.filter((r) => r.outcome === "correct").length;
@@ -215,13 +216,13 @@ export function buildSetReport(set: QuestionSet, progress: Progress, allSets: Qu
     pyq,
     revisionPlan,
     review,
-    hasNextSet: set.setId < TOTAL_SETS,
-    nextUnlocked: isUnlocked(progress, set.setId + 1),
+    hasNextSet: set.setId < total,
+    nextUnlocked: isUnlocked(progress, set.setId + 1, total),
   };
 }
 
 /** Questions answered wrong in other sets' current attempts and in earlier attempts of any set. */
-function pastWrongQuestions(progress: Progress, allSets: QuestionSet[], excludeSetId: number) {
+function pastWrongQuestions(progress: PracticeTrack, allSets: QuestionSet[], excludeSetId: number) {
   const byId = new Map<string, Question>();
   allSets.forEach((s) => s.questions.forEach((q) => byId.set(q.id, q)));
   const ids: string[] = [];
@@ -257,8 +258,8 @@ export type SetSummary = {
   attemptNo: number;
 };
 
-export function buildSetList(progress: Progress, allSets: QuestionSet[]): SetSummary[] {
-  return Array.from({ length: TOTAL_SETS }, (_, i) => {
+export function buildSetList(progress: PracticeTrack, allSets: QuestionSet[], total = TOTAL_SETS): SetSummary[] {
+  return Array.from({ length: total }, (_, i) => {
     const setId = i + 1;
     const set = allSets.find((s) => s.setId === setId);
     const sp = progress.sets[setId];
@@ -266,7 +267,7 @@ export function buildSetList(progress: Progress, allSets: QuestionSet[]): SetSum
       setId,
       title: set?.title ?? `Set ${setId}`,
       status: setStatus(progress, setId),
-      unlocked: isUnlocked(progress, setId),
+      unlocked: isUnlocked(progress, setId, total),
       available: !!set,
       answered: sp ? Object.keys(sp.answers).length : 0,
       total: set?.questions.length ?? 25,

@@ -1,0 +1,681 @@
+{
+  "setId": 8,
+  "title": "PYQ Set 8",
+  "questions": [
+    {
+      "id": "P08-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Abstract method",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q1",
+      "question": "Which type of method does not have an implementation in the base class and must be overridden by derived classes?",
+      "options": {
+        "A": "Virtual method",
+        "B": "Abstract method",
+        "C": "Sealed method",
+        "D": "Static method",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An abstract method is only declared in the base class, has no body, and must be overridden by every concrete derived class. A virtual method has a default implementation that may optionally be overridden.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P08-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "UTP cable categories",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q1",
+      "question": "Cat-5, Cat-5E and Cat-6 are examples of which of the following cables?",
+      "options": {
+        "A": "Coaxial Cable",
+        "B": "Shielded Twisted Pair Cable",
+        "C": "Fiber Optic cable",
+        "D": "Unshielded Twisted Pair Cable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Cat-5, Cat-5e and Cat-6 are categories of Unshielded Twisted Pair (UTP) cable used in Ethernet LANs. STP adds metallic shielding and is a different cable type.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P08-Q03",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack using Queues",
+      "concept": "Stack with costly pop",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q84",
+      "question": "What is the functionality of the following piece of code?\npublic void fun(int x)\n{\n    q1.offer(x);\n}",
+      "options": {
+        "A": "Perform push( ) with push as the costlier operation",
+        "B": "Perform push( ) with pop as the costlier operation",
+        "C": "Perform pop( ) with push as the costlier operation",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "When a stack is implemented using two queues, a push that simply offers the element to q1 is the cheap O(1) operation, so pop becomes the costlier operation that must move elements between queues.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P08-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Classes",
+      "concept": "Class as blueprint",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q58",
+      "question": "Which of the following best defines a class?",
+      "options": {
+        "A": "An instance of an object",
+        "B": "A blueprint for creating objects",
+        "C": "A variable holding data",
+        "D": "A function with a return value",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A class is a blueprint or template from which objects are created. An instance of a class is an object.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Sublanguages",
+      "concept": "DML",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q57",
+      "question": "_____ offers the ability to query the data and insert, alter, and delete tuples.",
+      "options": {
+        "A": "Transaction Control Language (TCL)",
+        "B": "Data Control Language (DCL)",
+        "C": "Data Definition Language (DDL)",
+        "D": "Data Manipulation Language (DML)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DML (SELECT, INSERT, UPDATE, DELETE) queries and modifies the data in tables. DDL defines/changes the schema itself.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Sensors",
+      "concept": "Analog vs digital sensors",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q76",
+      "question": "About IoT, which among the following is not correct?",
+      "options": {
+        "A": "Light sensor is analog",
+        "B": "microphone is a digital sensor",
+        "C": "Keyboard is a digital sensor",
+        "D": "Push button is a digital Sensor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A microphone outputs a continuously varying voltage, so it is an analog sensor, making B the incorrect statement. A keyboard and push button give discrete on/off signals (digital).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Data and Information",
+      "concept": "Data as raw facts",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q31",
+      "question": "The term \"Data\" refers to:",
+      "options": {
+        "A": "The electronic representation of the information(or data)",
+        "B": "Basic information",
+        "C": "Raw Facts and figures",
+        "D": "Both A and C",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Data means raw, unprocessed facts and figures; processed data becomes information. Option A describes digital representation of information, so 'Both A and C' is wrong.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Analysis",
+      "concept": "Purpose of algorithm analysis",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q34",
+      "question": "Algorithm analysis is primarily concerned with:",
+      "options": {
+        "A": "Determining the best algorithm for a specific problem",
+        "B": "Measuring the time and space efficiency of an algorithm",
+        "C": "Creating new algorithms from scratch",
+        "D": "Solving algorithmic problems using any available approach",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Algorithm analysis estimates the time and space resources an algorithm requires (its efficiency), typically using asymptotic notation.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P08-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Mobile Communication",
+      "concept": "Generations of mobile technology",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q68",
+      "question": "In 3G and 4G mobile technologies, the character 'G' stands for:",
+      "options": {
+        "A": "Generation",
+        "B": "GPRS",
+        "C": "Grid",
+        "D": "Google",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "G stands for Generation; 3G and 4G are the third and fourth generations of mobile network standards.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P08-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia Streaming",
+      "concept": "RTSP TEARDOWN",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q95",
+      "question": "In teardown state of real time streaming protocol is ___________",
+      "options": {
+        "A": "the server resources for client",
+        "B": "server delivers the stream to client",
+        "C": "server suspends delivery of stream",
+        "D": "server breaks down the connection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The RTSP TEARDOWN request stops the stream and the server breaks down the session/connection, freeing resources. SETUP allocates resources, PLAY delivers the stream and PAUSE suspends it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Levels of Testing",
+      "concept": "Unit testing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q60",
+      "question": "Which testing approach involves testing individual components or units of code?",
+      "options": {
+        "A": "Integration Testing",
+        "B": "System Testing",
+        "C": "Unit Testing",
+        "D": "Acceptance Testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Unit testing checks individual modules/functions in isolation. Integration testing checks how units work together.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Exception Handling",
+      "concept": "Definition of exception",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q30",
+      "question": "What is the term for a condition that occurs during program execution that disrupts the normal flow of instructions?",
+      "options": {
+        "A": "Abstraction",
+        "B": "Inheritance",
+        "C": "Exception",
+        "D": "Encapsulation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An exception is a run-time event (like division by zero) that disrupts the normal flow of a program and can be handled with try/catch.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Adaptive maintenance",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q51",
+      "question": "Which maintenance activity involves updating software to work with new hardware or software environments?",
+      "options": {
+        "A": "Corrective Maintenance",
+        "B": "Adaptive Maintenance",
+        "C": "Perfective Maintenance",
+        "D": "Preventive Maintenance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Adaptive maintenance modifies software to keep it working in a changed environment such as new hardware, OS or platforms. Corrective fixes bugs, perfective adds improvements and preventive improves future maintainability.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Topology",
+      "concept": "Topology vs network model",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q102",
+      "question": "Which one of the following is not a network topology?",
+      "options": {
+        "A": "Peer-to-peer",
+        "B": "Ring",
+        "C": "Bus",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Peer-to-peer is a network architecture (model of interaction), not a physical topology. Ring and bus are topologies.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P08-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Operators",
+      "concept": "Operator precedence",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q42",
+      "question": "What will be the output of the following statement?\nprint(14 % 3**2 * 4)",
+      "options": {
+        "A": "16",
+        "B": "64",
+        "C": "20",
+        "D": "256",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "** has the highest precedence: 3**2 = 9. Then % and * are evaluated left to right: 14 % 9 = 5, and 5 * 4 = 20.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P08-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "JavaScript Libraries",
+      "concept": "jQuery",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q64",
+      "question": "Which library simplifies JavaScript tasks like HTML document traversal and manipulation?",
+      "options": {
+        "A": "JavaFX",
+        "B": "Bootstrap",
+        "C": "React",
+        "D": "jQuery",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "jQuery simplifies HTML DOM traversal, manipulation, event handling and AJAX. Bootstrap is a CSS framework, React a UI library and JavaFX a Java GUI toolkit.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Units",
+      "concept": "Gigabyte as 10^9 bytes",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q33",
+      "question": "Which of the following represents a billion characters?",
+      "options": {
+        "A": "Kilobytes",
+        "B": "Gigabytes",
+        "C": "Terabytes",
+        "D": "Megabytes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "One character occupies one byte, so a billion (10^9) characters is about one gigabyte. A megabyte is a million and a terabyte is a trillion bytes.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "TLB",
+      "concept": "TLB organization",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q116",
+      "question": "How is the TLB typically organized?",
+      "options": {
+        "A": "As a direct-mapped cache",
+        "B": "As an associative cache",
+        "C": "As a set-associative cache",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A TLB is typically a small, fully associative cache, so all entries are searched in parallel for a page number match.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P08-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Carry look-ahead adder",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q29",
+      "question": "Which type of adder is designed to overcome the propagation delay issues in ripple carry adders and generate carry signals more efficiently?",
+      "options": {
+        "A": "Ripple Carry Adder",
+        "B": "Carry Look-Ahead Adder",
+        "C": "Binary Adder",
+        "D": "Half Adder",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A carry look-ahead adder computes carries in parallel from generate and propagate signals, avoiding the ripple delay. A ripple carry adder is the slow design it improves on.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Basics",
+      "concept": "DBMS as interface",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q129",
+      "question": "The DBMS acts as an interface between _____ and _____ of an enterprise-class system.",
+      "options": {
+        "A": "data, the DBMS",
+        "B": "database application, the database",
+        "C": "the user, the software",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The DBMS sits between database applications and the physical database, handling all requests between them.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Word Find",
+      "concept": "Find options in Word",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q79",
+      "question": "You can search in a word document for",
+      "options": {
+        "A": "Formatting",
+        "B": "Special characters",
+        "C": "Phrases",
+        "D": "All of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Word's Find can search for words and phrases, for formatting and for special characters (e.g. paragraph marks), so all of these.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P08-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Containment of language classes",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q26",
+      "question": "Which of the following statement is false?",
+      "options": {
+        "A": "A recursive language is also a regular language",
+        "B": "A context free language is also a regular language",
+        "C": "A context free language is also recursive enumerable language",
+        "D": "Both A and B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Regular is a subset of CFL, which is a subset of recursive, which is a subset of recursively enumerable. So 'every recursive language is regular' (A) and 'every CFL is regular' (B) are both false, while C is true; hence 'Both A and B'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P08-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Resource Management",
+      "concept": "IoT resource management techniques",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q71",
+      "question": "_____ are used to overcome the challenges of managing the resources of the IoT.",
+      "options": {
+        "A": "Clustering",
+        "B": "Software agents",
+        "C": "Synchronization techniques",
+        "D": "Cluster, Software agent, and Synchronization techniques",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Clustering, software agents and synchronization techniques are all used to manage IoT resources, so the combined option is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P08-Q24",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Tree Traversals",
+      "concept": "BST from preorder to postorder",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q96",
+      "question": "The preorder traversal of a binary search tree is 15, 10, 12, 11,20, 18, 16, 19. Which one of the following is the postorder traversal of the tree?",
+      "options": {
+        "A": "20, 19, 18, 16, 15, 12, 11,10",
+        "B": "11, 12, 10, 16,19,18,20,15",
+        "C": "19, 16, 18,20,11,12,10,15",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Root 15; left subtree 10 -> right 12 -> left 11; right subtree 20 -> left 18 with children 16 and 19. Postorder (left, right, root) is 11, 12, 10, 16, 19, 18, 20, 15.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P08-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Basics",
+      "concept": "Encapsulation",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q104",
+      "question": "Which of the following refers to the wrapping of data and its functionality into a single individual entity?",
+      "options": {
+        "A": "Modularity",
+        "B": "Abstraction",
+        "C": "Encapsulation",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Encapsulation binds data and the functions operating on it into one unit (a class). Abstraction is about hiding details, and modularity about splitting a program.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

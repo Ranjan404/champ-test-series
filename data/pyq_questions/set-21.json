@@ -1,0 +1,681 @@
+{
+  "setId": 21,
+  "title": "PYQ Set 21",
+  "questions": [
+    {
+      "id": "P21-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "HTTPS",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q79",
+      "question": "The letter S in the abbreviation HTTPS, in the context of networking protocols, stands for:",
+      "options": {
+        "A": "Single",
+        "B": "Static",
+        "C": "Secure",
+        "D": "Sensitive",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "HTTPS is HTTP Secure: HTTP over TLS/SSL encryption.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P21-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Search Algorithms",
+      "concept": "Uniform-cost search",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q52",
+      "question": "Uniform-cost search expands the node n with the ________.",
+      "options": {
+        "A": "Lowest path cost",
+        "B": "Heuristic cost",
+        "C": "Highest path cost",
+        "D": "Average path cost",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Uniform-cost search expands the node with the lowest path cost g(n) from the start. Using heuristic cost is greedy best-first or A* search.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P21-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "concept": "HTTP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q78",
+      "question": "Which of the following protocol defines how the data is formatted and transmitted over the network?",
+      "options": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "FTP",
+        "D": "POP3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "HTTP defines how web messages are formatted and transmitted between clients and servers and how they respond to commands. SMTP and POP3 deal with email and FTP with file transfer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P21-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Web Browsers",
+      "concept": "Early web browsers",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q32",
+      "question": "Which among the following was the first web browser?",
+      "options": {
+        "A": "Internet Explorer",
+        "B": "Mosaic",
+        "C": "Google Chrome",
+        "D": "Opera",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Among the options, NCSA Mosaic (1993) came first and was the first widely popular graphical browser. (The very first browser, WorldWideWeb by Tim Berners-Lee, is not listed.) Internet Explorer, Opera and Chrome came later.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P21-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Zigbee",
+      "concept": "Zigbee device types",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q64",
+      "question": "Which among the following is not a type of Zigbee device?",
+      "options": {
+        "A": "Zigbee Coordinator device",
+        "B": "Zigbee Router",
+        "C": "Zigbee start device",
+        "D": "Zigbee end device",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Zigbee defines three device types: Coordinator, Router and End Device. There is no 'start device'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P21-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Binary Search Tree",
+      "concept": "Catalan number for BSTs",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q97",
+      "question": "How many distinct binary search trees can be created out of 4 distinct keys?",
+      "options": {
+        "A": "8",
+        "B": "24",
+        "C": "14",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The number of distinct BSTs on n keys is the Catalan number C(n) = (2n)! / ((n+1)! n!); for n = 4 this is 14. 24 = 4! counts insertion orders, not distinct trees.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P21-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "Mod-3 DFA states",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q3",
+      "question": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders?",
+      "options": {
+        "A": "0",
+        "B": "0,2",
+        "C": "0,1,2",
+        "D": "0,1,2,3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Any integer divided by 3 leaves a remainder of 0, 1 or 2, so the DFA needs exactly these three states, with 0 as the accepting state. A remainder of 3 is impossible.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P21-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Distributed Systems",
+      "concept": "Distributed system definition",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q131",
+      "question": "When a collection of various computers seems a single coherent system to its client, then it is called",
+      "options": {
+        "A": "computer network",
+        "B": "distributed system",
+        "C": "both (A) and (B)",
+        "D": "none of the mentioned",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A distributed system is a collection of independent computers that appears to its users as a single coherent system. A computer network is just interconnected autonomous computers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P21-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "DBMS & SQL",
+      "subtopic": "Recovery",
+      "concept": "Remote backup control transfer",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q56",
+      "question": "The easiest way in which we can transfer control is when the old backup site sends __________ to the old primary.",
+      "options": {
+        "A": "Redo logs",
+        "B": "Primary Logs",
+        "C": "Undo Logs",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "When the old primary recovers, the simplest way to transfer control back is for the old backup site to send it the redo logs so it can catch up on updates. Undo logs are used for rolling back, and 'primary logs' is not a standard term.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P21-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Functions",
+      "concept": "IF returns custom values",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q108",
+      "question": "Except which of the following functions does a formula with a logical function show the words \"TRUE\" or \"FALSE\" as a result?",
+      "options": {
+        "A": "NOT",
+        "B": "OR",
+        "C": "IF",
+        "D": "AND",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "NOT, OR and AND always return TRUE or FALSE, but IF returns whatever value_if_true / value_if_false you specify, so it need not show TRUE/FALSE.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P21-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Protocols",
+      "concept": "MQTT",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q145",
+      "question": "Which of the following is an example of an IoT protocol used for device communication?",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "MQTT",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MQTT is a lightweight publish/subscribe messaging protocol designed for IoT device communication. FTP is for file transfer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P21-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linear vs Non-linear",
+      "concept": "Tree as non-linear structure",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q84",
+      "question": "Which one is a non-linear data structure?",
+      "options": {
+        "A": "Stack",
+        "B": "Queue",
+        "C": "Linked list",
+        "D": "Tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A tree is non-linear because elements are arranged hierarchically. Stack, queue and linked list store elements in a sequence (linear).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P21-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Types of Computers",
+      "concept": "Hybrid computer",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q64",
+      "question": "A hybrid computer",
+      "options": {
+        "A": "Resembles digital computer",
+        "B": "Resembles analogue computer",
+        "C": "Resembles both digital and analogue computer",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A hybrid computer combines features of both analog and digital computers, e.g. in hospital ICU equipment.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P21-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Word Clip Art",
+      "concept": "Ways to insert clip art",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q76",
+      "question": "You can insert the clip art from",
+      "options": {
+        "A": "Insert, choose Picture, then Clip Art",
+        "B": "Clip Art icon on the Drawing toolbar",
+        "C": "All of these",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In Word you can insert clip art from Insert > Picture > Clip Art and also from the Insert Clip Art button on the Drawing toolbar, so both methods work.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P21-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Functions",
+      "concept": "Local scope of parameters",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q39",
+      "question": "Consider the statements given below and then choose the correct output from the given options:\ndef Change(N):\n    N = N + 10\n    print(N, end='$$')\nN = 15\nChange(N)\nprint(N)",
+      "options": {
+        "A": "25$$15",
+        "B": "15$$25",
+        "C": "25$$25",
+        "D": "2525$$",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Inside Change, the local N becomes 25 and is printed followed by '$$'. The global N is unchanged (integers are immutable and N is local), so the second print shows 15: 25$$15.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P21-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Decidability",
+      "concept": "Halting problem",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q142",
+      "question": "What is the computational complexity of the halting problem?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "Not computable",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The halting problem is undecidable: no Turing machine can decide it for all inputs, so it has no computational complexity bound at all.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P21-Q17",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Industry 4.0",
+      "concept": "Benefits of Industry 4.0",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q36",
+      "question": "Why do we need Industry 4.0?",
+      "options": {
+        "A": "Detecting machine failures",
+        "B": "Preventing machine failures",
+        "C": "Improving safety",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Industry 4.0 uses IoT sensors and analytics for predictive maintenance, which detects and prevents machine failures, and also improves safety. So all the listed reasons apply.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P21-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv6 address size",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q146",
+      "question": "IPv6 address has a size of",
+      "options": {
+        "A": "32 bits",
+        "B": "64 bits",
+        "C": "128 bits",
+        "D": "265 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An IPv6 address is 128 bits long; IPv4 addresses are 32 bits.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P21-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Programmable Logic Devices",
+      "concept": "FPGA",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q64",
+      "question": "Which technology offers the highest level of customization for implementing digital logic circuits?",
+      "options": {
+        "A": "ROM-based design",
+        "B": "PLA-based design",
+        "C": "FPGA-based design",
+        "D": "Gate Array-based design",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "FPGAs contain configurable logic blocks and programmable interconnect that can be reprogrammed to implement almost any digital circuit, giving the most flexibility among the options. ROMs and PLAs only implement fixed two-level logic structures.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P21-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Operations",
+      "concept": "CRUD operations",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q4",
+      "question": "What is CRUD an acronym for in database operations?",
+      "options": {
+        "A": "Create, Read, Update, Delete",
+        "B": "Cache, Read, Update, Delete",
+        "C": "Copy, Replace, Update, Delete",
+        "D": "Collect, Read, Use, Discard",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "CRUD stands for Create, Read, Update and Delete, the four basic operations performed on stored data.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P21-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Payments",
+      "concept": "Online money transfer methods",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q99",
+      "question": "If you need to transfer money to another person via the internet, which of the following methods could you use?",
+      "options": {
+        "A": "Financial Cybermediary",
+        "B": "E Bill Presentation and payment",
+        "C": "E Check",
+        "D": "Any of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Financial cybermediaries (e.g. PayPal), electronic bill presentment and payment, and e-cheques are all methods to transfer money over the internet.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P21-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Paging",
+      "concept": "Page table purpose",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q32",
+      "question": "The purpose of a page table in a paging system is to:",
+      "options": {
+        "A": "Store pages of memory",
+        "B": "Manage input/output operations",
+        "C": "Translate virtual addresses to physical addresses",
+        "D": "Store program instructions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A page table maps each virtual page number to a physical frame number, translating virtual addresses into physical addresses. It does not store the pages themselves.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P21-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Expression Conversion",
+      "concept": "Infix to postfix",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q78",
+      "question": "What is the postfix expression for the corresponding infix expression?\na + b * c + (d * e)",
+      "options": {
+        "A": "abc*+de*+",
+        "B": "abc+*de*+",
+        "C": "a+bc*de+*",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "b*c is evaluated first giving bc*, then a + (b*c) gives abc*+, and adding (d*e) gives abc*+de*+. Option B wrongly applies + before *.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Careless Error",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P21-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Firewalls",
+      "concept": "Firewall function",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q45",
+      "question": "The primary function of a firewall in network security is",
+      "options": {
+        "A": "To monitor network traffic and detect anomalies.",
+        "B": "To create virtual private networks for secure communication.",
+        "C": "To filter incoming and outgoing network traffic based on security rules",
+        "D": "To encrypt data before Transmission.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A firewall filters incoming and outgoing traffic according to predefined security rules. Monitoring and detecting anomalies is the job of an IDS, VPNs provide secure tunnels, and encryption is separate.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P21-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Basics",
+      "concept": "Extensible language",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q91",
+      "question": "The programming language that has the ability to create new data types is called",
+      "options": {
+        "A": "overloaded",
+        "B": "encapsulated",
+        "C": "extensible",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A language that lets the programmer create new data types (e.g. classes) is called extensible. Overloading and encapsulation are different OOP features.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

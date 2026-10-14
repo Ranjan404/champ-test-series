@@ -1,0 +1,681 @@
+{
+  "setId": 9,
+  "title": "PYQ Set 9",
+  "questions": [
+    {
+      "id": "P09-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Relation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q70",
+      "question": "A relation in a relational database is also known as:",
+      "options": {
+        "A": "A data type",
+        "B": "An attribute",
+        "C": "A schema",
+        "D": "A table",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In the relational model a relation is a table of rows (tuples) and columns (attributes). A schema is the relation's structure, not the relation itself.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P09-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "concept": "Big-O as upper bound",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q99",
+      "question": "Which of the following statements is true about Big-O notation?",
+      "options": {
+        "A": "It represents the lower bound of an algorithm's runtime.",
+        "B": "It represents the upper bound of an algorithm's runtime",
+        "C": "It represents the average runtime of an algorithm.",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Big-O gives an asymptotic upper bound on growth (commonly used for worst-case runtime). The lower bound is Big-Omega, and a tight bound is Big-Theta.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q03",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Types",
+      "concept": "RAW data type",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q139",
+      "question": "Which data type can store unstructured data in a column?",
+      "options": {
+        "A": "RAW",
+        "B": "Numeric",
+        "C": "VARCHAR",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The RAW data type stores binary or byte-oriented (unstructured) data that is not interpreted by the database. Numeric and VARCHAR store structured numbers and text.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P09-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Abstract Classes",
+      "concept": "Pure virtual function",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q117",
+      "question": "Which of the following can be used to create an abstract class in the C++ programming language?",
+      "options": {
+        "A": "By using the pure virtual function in the class",
+        "B": "By declaring a virtual function in the base class",
+        "C": "By declaring the virtual keyword afterward the class declaration",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A class becomes abstract in C++ when it contains at least one pure virtual function (virtual void f() = 0;). Merely declaring a virtual function does not make it abstract.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Optical fiber immunity",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q96",
+      "question": "What kind of transmission medium is most appropriate to carry data in a computer network that is exposed to electrical interference?",
+      "options": {
+        "A": "Unshielded twisted pair",
+        "B": "Optical fiber",
+        "C": "Coaxial cable",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Optical fiber carries light signals, so it is immune to electrical (electromagnetic) interference. UTP is the most susceptible to interference.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Server-side Scripting",
+      "concept": "Server-side languages",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q141",
+      "question": "Which of the following is an example of a server-side scripting language commonly used in web applications?",
+      "options": {
+        "A": "HTML",
+        "B": "CSS",
+        "C": "C++",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Common server-side scripting languages are PHP, Python, Node.js (JavaScript), Ruby, etc. HTML and CSS are client-side markup/style languages and C++ is not a web scripting language, so none is correct.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P09-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Method overloading",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q9",
+      "question": "What is the term for the ability of a class to provide different implementations of a method based on the input parameters?",
+      "options": {
+        "A": "Overloading",
+        "B": "Polymorphism",
+        "C": "Inheritance",
+        "D": "Encapsulation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Overloading means defining several methods with the same name but different parameter lists, with the version chosen by the arguments passed. Polymorphism is the broader idea; the specific term for choosing by input parameters is overloading.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P09-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "ORDER BY",
+      "concept": "Default sort order",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q66",
+      "question": "If we have not specified ASC or DESC after an SQL ORDER BY clause, which of the following is used by default?",
+      "options": {
+        "A": "DESC",
+        "B": "ASC",
+        "C": "There is no default value",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "ORDER BY sorts in ascending order (ASC) by default when neither ASC nor DESC is specified.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q09",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack Applications",
+      "concept": "Postfix evaluation",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q91",
+      "question": "What is the result of evaluating the postfix expression\n10 5 + 60 6 / * 8 -",
+      "options": {
+        "A": "142",
+        "B": "213",
+        "C": "284",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "10 5 + gives 15; 60 6 / gives 10; * gives 150; then 150 8 - gives 142. The final operator is missing in the printed paper, so it is restored here.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS Excel Interface",
+      "concept": "Active cell border",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q102",
+      "question": "On an Excel sheet the active cell is indicated by",
+      "options": {
+        "A": "a dotted border",
+        "B": "a dark wide border",
+        "C": "a blinking border",
+        "D": "Italic text",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The active cell is shown with a dark, thick border. A dotted (moving) border marks copied/cut cells.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P09-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Codes",
+      "concept": "Gray to binary conversion",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q10",
+      "question": "To convert a Gray Code to its binary equivalent, which technique is commonly used?",
+      "options": {
+        "A": "Subtraction method",
+        "B": "Addition method",
+        "C": "Exclusive OR (XOR) operation",
+        "D": "Division method",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Binary bits are obtained from Gray code by keeping the MSB and XOR-ing each next Gray bit with the previously obtained binary bit. No subtraction, addition or division is involved.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P09-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "Buffer for speed mismatch",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q60",
+      "question": "A storage area used to store data to compensate for the difference in speed at which the different units can handle data is",
+      "options": {
+        "A": "Memory",
+        "B": "Buffer",
+        "C": "Accumulator",
+        "D": "Address",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A buffer temporarily holds data to smooth out the speed difference between devices (e.g. CPU and printer). An accumulator is a CPU register for arithmetic results.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P09-Q13",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Operating Systems",
+      "subtopic": "Multimedia Systems",
+      "concept": "Disk scheduling for continuous media",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q94",
+      "question": "Which algorithm can be optimized to meet the timing deadlines and rate requirements of continuous media?",
+      "options": {
+        "A": "Earliest-Deadline-First scheduling",
+        "B": "SCAN-EDF scheduling",
+        "C": "Both Earliest-Deadline-First scheduling & SCAN-EDF scheduling",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "EDF scheduling and SCAN-EDF (EDF with SCAN ordering for requests with equal deadlines) are both used to meet the deadlines and rate requirements of continuous media.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P09-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Knowledge Representation",
+      "concept": "Properties of KR systems",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q32",
+      "question": "Which among the followings is not a property of knowledge representation?",
+      "options": {
+        "A": "Representational Verification",
+        "B": "Representational Adequacy",
+        "C": "Inferential Adequacy",
+        "D": "Inferential Efficiency",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The four properties of a knowledge representation system are representational adequacy, inferential adequacy, inferential efficiency and acquisitional efficiency. Representational verification is not one of them.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P09-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "TCP full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q51",
+      "question": "What is the expanded form of TCP in TCP/IP?",
+      "options": {
+        "A": "Transmission Control Protocol",
+        "B": "Transmission Central Protocol",
+        "C": "Transfer Control Protocol",
+        "D": "Transport Central Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "TCP stands for Transmission Control Protocol, the connection-oriented transport layer protocol.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P09-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Distributed Databases",
+      "concept": "Disadvantages of distributed DB",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q124",
+      "question": "Which of the following is a disadvantage of using a distributed database system?",
+      "options": {
+        "A": "Improved data accessibility",
+        "B": "Increased data security",
+        "C": "Data inconsistency",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "With data replicated across sites, keeping copies consistent is difficult, so data inconsistency is a disadvantage. Improved accessibility is an advantage.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Addressing Modes",
+      "concept": "Common addressing modes",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q53",
+      "question": "The most common addressing technique employed by a CPU is",
+      "options": {
+        "A": "direct",
+        "B": "indirect",
+        "C": "immediate",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Direct, indirect and immediate addressing are all among the most commonly employed addressing techniques of a CPU, so more than one of the options is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "AND as multiplication",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q118",
+      "question": "In Boolean algebra the function of AND operator is",
+      "options": {
+        "A": "+",
+        "B": "-",
+        "C": "/",
+        "D": "*",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In Boolean algebra AND is represented by multiplication (dot or *), while + represents OR.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P09-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Web Attacks",
+      "concept": "SQL injection",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q22",
+      "question": "What is the purpose of SQL injection attacks?",
+      "options": {
+        "A": "To increase the performance of database queries",
+        "B": "To bypass authentication systems",
+        "C": "To improve database security",
+        "D": "To enhance data encryption",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SQL injection inserts malicious SQL into input fields to manipulate queries, commonly to bypass login/authentication or extract data. It never improves performance, security or encryption.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Programming Languages",
+      "concept": "Structured programming language",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q42",
+      "question": "Which language is better for writing structured code?",
+      "options": {
+        "A": "PASCAL",
+        "B": "FORTRAN",
+        "C": "BASIC",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "PASCAL was designed specifically to teach and enforce structured programming. FORTRAN and early BASIC relied heavily on GOTO-based unstructured code.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P09-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Cloud Web Applications",
+      "concept": "MobileMe and DHTML",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q38",
+      "question": "Which of the following programming medium is used by MobileMe to create the appearance of desktop application inside a browser?",
+      "options": {
+        "A": "HTML",
+        "B": "DHTML",
+        "C": "Jquery",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "MobileMe used DHTML (HTML plus JavaScript, CSS and DOM scripting) to make web apps look and behave like desktop applications inside the browser. Plain HTML is static.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Project Management",
+      "concept": "Staffing level estimation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q54",
+      "question": "What is the purpose of staffing level estimation in software project management?",
+      "options": {
+        "A": "To determine the number of hardware components required",
+        "B": "To identify potential risks in the project",
+        "C": "To allocate appropriate resources to the project",
+        "D": "To estimate the maintenance costs of the software",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Staffing level estimation (e.g. Putnam/Norden's Rayleigh curve) determines how many people are needed over the project's phases so resources can be allocated properly. Risk identification is a separate risk-management activity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P09-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Internet Services",
+      "concept": "Search engines",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q74",
+      "question": "Which of the following is not a Search Engine available over the Internet ?",
+      "options": {
+        "A": "Google",
+        "B": "Bing",
+        "C": "Diksha",
+        "D": "Yahoo",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DIKSHA is a Government of India digital learning platform for school education, not a search engine. Google, Bing and Yahoo are search engines.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P09-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Strings",
+      "concept": "Identity for concatenation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q70",
+      "question": "Let u = '1101', v = '0001', then uv = 11010001 and vu = 00011101. Using the given information, what is the identity element for the string?",
+      "options": {
+        "A": "u-1",
+        "B": "v-1",
+        "C": "u-1v-1",
+        "D": "ε",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The empty string epsilon is the identity for concatenation: s.epsilon = epsilon.s = s. Inverses like u-1 do not exist in the free monoid of strings.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P09-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stacks",
+      "concept": "Stack in recursion",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q77",
+      "question": "Which data structure is mainly used for implementing the recursive algorithm?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Binary tree",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Recursion is implemented with a stack (the call stack), which stores each call's activation record in LIFO order.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

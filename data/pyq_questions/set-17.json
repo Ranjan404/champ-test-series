@@ -1,0 +1,681 @@
+{
+  "setId": 17,
+  "title": "PYQ Set 17",
+  "questions": [
+    {
+      "id": "P17-Q01",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Basics",
+      "concept": "Functions of DBMS",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q127",
+      "question": "Which of the following is not a function of the database?",
+      "options": {
+        "A": "Manipulating data",
+        "B": "Security for stored data",
+        "C": "Analysing code",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Databases manipulate data and provide security for stored data. Analysing code is not a database function.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Objects",
+      "concept": "new keyword",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q55",
+      "question": "Which keyword is used to create an instance of a class in most programming languages?",
+      "options": {
+        "A": "alloc",
+        "B": "new",
+        "C": "create",
+        "D": "instance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In C++, Java, C# and JavaScript the new keyword creates an instance of a class. alloc is Objective-C specific; create and instance are not keywords.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P17-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Queries",
+      "concept": "HAVING clause",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q135",
+      "question": "After groups have been established, SQL applies predicates in the _____ clause, allowing aggregate functions to be used.",
+      "options": {
+        "A": "HAVING",
+        "B": "GROUP BY",
+        "C": "WITH",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The HAVING clause is applied after grouping, so its predicates can use aggregate functions. WHERE filters rows before grouping.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Abstraction",
+      "concept": "Abstract class",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q56",
+      "question": "What is an abstract class in OOP?",
+      "options": {
+        "A": "A class with no methods",
+        "B": "A class that cannot be instantiated",
+        "C": "A class that can only have private members",
+        "D": "A class that cannot have methods with parameters",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An abstract class cannot be instantiated; it is meant to be subclassed and may contain abstract and concrete methods. It can have methods and parameters.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P17-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Basics",
+      "concept": "Full form of SQL",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q6",
+      "question": "What does SQL stand for?",
+      "options": {
+        "A": "Structured Query Language",
+        "B": "Simple Query Language",
+        "C": "Systematic Query Logic",
+        "D": "Standard Query Level",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SQL stands for Structured Query Language, the standard language for relational databases. The other expansions are invented.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P17-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Expressions",
+      "concept": "Canonical forms",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q91",
+      "question": "What are the canonical forms of Boolean expressions?",
+      "options": {
+        "A": "OR and XOR",
+        "B": "NOR and XNOR",
+        "C": "SOM and POM",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The canonical forms of Boolean expressions are the sum of minterms (SOM) and product of maxterms (POM).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "2NF full functional dependency",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q122",
+      "question": "Which normal form ensures that every non-prime attribute in a table is fully functionally dependent on the primary key?",
+      "options": {
+        "A": "First Normal Form (1NF)",
+        "B": "Second Normal Form (2NF)",
+        "C": "Third Normal Form (3NF)",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "2NF requires 1NF and that every non-prime attribute is fully functionally dependent on the whole primary key (no partial dependency). 3NF additionally removes transitive dependencies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q08",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Java Inheritance",
+      "concept": "extends keyword",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q137",
+      "question": "Which keyword is used in Java to implement inheritance?",
+      "options": {
+        "A": "extends",
+        "B": "inherits",
+        "C": "implements",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In Java, a class inherits from another class using extends. implements is used for interfaces, and inherits is not a Java keyword.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Models",
+      "concept": "Hierarchical model",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q134",
+      "question": "The traditional storage of data organized by the customer, stored in separate folders in filing cabinets is an example of",
+      "options": {
+        "A": "relational database management system",
+        "B": "network database management system",
+        "C": "hierarchical database management system",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Filing cabinets holding folders per customer, each containing documents, form a tree-like structure, which is the hierarchical model.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "B2B benefits",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q56",
+      "question": "Which of the following are advantages normally associated with B2B e-commerce?",
+      "options": {
+        "A": "Wide Reach",
+        "B": "Shorter Cycle Time",
+        "C": "Reduced Cost",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "B2B e-commerce gives wider reach to suppliers and buyers, shorter procurement cycle times and reduced transaction costs, so all listed options apply.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Keyboard Shortcuts",
+      "concept": "End key",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q81",
+      "question": "End Key",
+      "options": {
+        "A": "Moves the cursor to the end of the line",
+        "B": "Moves the cursor to the end of the document",
+        "C": "Moves the cursor to the end of the paragraph",
+        "D": "Moves the cursor to the end of the screen",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The End key moves the cursor to the end of the current line. Ctrl+End moves to the end of the document.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P17-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Requirements Engineering",
+      "concept": "SRS",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q83",
+      "question": "What is the primary purpose of Software Requirements Specification (SRS) documents?",
+      "options": {
+        "A": "To list the programming languages used",
+        "B": "To describe the user interface design",
+        "C": "To define the software's functional and non-functional requirements",
+        "D": "To specify the hardware components required",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The SRS document defines what the software must do (functional requirements) and the constraints it must meet (non-functional requirements). UI and hardware details are only parts of it at most.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Constraints",
+      "concept": "SQL constraints vs set operators",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q63",
+      "question": "Which of the following is not a constraint in SQL?",
+      "options": {
+        "A": "Primary key",
+        "B": "Not null",
+        "C": "Union",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "UNION is a set operator that combines query results, not a constraint. PRIMARY KEY and NOT NULL are integrity constraints.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Recursion",
+      "concept": "Tower of Hanoi moves",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q25",
+      "question": "In the Tower of Hanoi problem with \"n\" disks, how many moves are required to solve the problem?",
+      "options": {
+        "A": "n",
+        "B": "2n",
+        "C": "2^n - 1",
+        "D": "2^n",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The recurrence M(n) = 2M(n-1) + 1 with M(1) = 1 gives M(n) = 2^n - 1 moves. 2^n overcounts by one.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P17-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Input/Output",
+      "concept": "cin.get(ch)",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q93",
+      "question": "Which of the following is the correct syntax to read the single character to console in the C++ language?",
+      "options": {
+        "A": "read ch()",
+        "B": "getlinech()",
+        "C": "get(ch)",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A single character is read using cin.get(ch). read ch() and getlinech() are not valid C++ syntax.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "History of Computers",
+      "concept": "Father of computer",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q57",
+      "question": "Who is the father of the computer?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "Seymour Cray",
+        "C": "Augusta Ada King (Ada Lovelace)",
+        "D": "Charles Babbage",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Charles Babbage is called the father of the computer for designing the Analytical Engine. Alan Turing is the father of theoretical computer science.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "K-Map",
+      "concept": "Don't care conditions",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q87",
+      "question": "What is the purpose of the \"don't care\" condition in digital logic?",
+      "options": {
+        "A": "To indicate that the value of a variable does not affect the output",
+        "B": "To prioritize certain inputs over others",
+        "C": "To ensure that all possible input combinations are covered in truth tables",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A don't care condition marks input combinations whose output value does not matter (or that never occur), so it can be taken as 0 or 1 to simplify the expression. It does not prioritize inputs.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Authoring Tools",
+      "concept": "Dreamweaver languages",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q15",
+      "question": "Which programming languages are commonly supported by Dreamweaver for web development?",
+      "options": {
+        "A": "Python and Ruby",
+        "B": "HTML and CSS",
+        "C": "C++ and Java",
+        "D": "PHP and MySQL",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Adobe Dreamweaver is a web page editor centred on HTML and CSS (with JavaScript). MySQL is a database, not a language Dreamweaver authors pages in.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Database Basics",
+      "concept": "Features of DBMS",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q126",
+      "question": "Which of the following is not a feature of DBMS?",
+      "options": {
+        "A": "Minimum duplication and redundancy of data",
+        "B": "Single-user access only",
+        "C": "Support ACID property",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A DBMS supports multi-user concurrent access, so 'single-user access only' is not a feature. Minimal redundancy and ACID support are DBMS features.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Prototyping",
+      "concept": "Purpose of a prototype",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q134",
+      "question": "What is the purpose of a software prototype?",
+      "options": {
+        "A": "To serve as the final version of the software",
+        "B": "To replace detailed documentation",
+        "C": "To speed up the software development process",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A prototype is an early working model used to clarify requirements and get quick feedback, which speeds up development. It is not the final product and does not replace documentation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Client-Server",
+      "concept": "File server resources",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q78",
+      "question": "Which one of the following resources is not necessarily required on a file server?",
+      "options": {
+        "A": "secondary storage",
+        "B": "processor",
+        "C": "network",
+        "D": "monitor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A file server needs a processor, secondary storage and a network connection to serve files, but it can run headless without a monitor.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Linear vs Non-linear",
+      "concept": "Linear data structures",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q88",
+      "question": "Which of the following data structures stores elements in a non-linear relationship?",
+      "options": {
+        "A": "Stack",
+        "B": "Queue",
+        "C": "Array",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Stack, queue and array are all linear data structures; non-linear structures are trees and graphs. So none of the options is correct.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Keyboard Shortcuts",
+      "concept": "Ctrl+Home",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q89",
+      "question": "\"Ctrl + Home\" is used to",
+      "options": {
+        "A": "move the cursor to the beginning of Document",
+        "B": "move the cursor to the beginning of Line",
+        "C": "move the cursor to the beginning of Paragraph",
+        "D": "all of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Ctrl+Home moves the cursor to the beginning of the document. Home alone moves to the beginning of the line.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P17-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Public Key Cryptography",
+      "concept": "Public and private keys",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q79",
+      "question": "Public key encryption uses multiple keys. One key is used to encrypt data, while another is used to decrypt data. The key used to encrypt data is called the ________ key, while the key used to decrypt data is called the ________ key.",
+      "options": {
+        "A": "Encryption, decryption",
+        "B": "Encryption, public",
+        "C": "Public, private",
+        "D": "Private, public",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In public key encryption, data is encrypted with the recipient's public key and decrypted with the matching private key. Option D reverses the roles (that pattern is used for digital signatures).",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P17-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "I/O Management",
+      "concept": "I/O subsystem",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q63",
+      "question": "The I/O subsystem in an operating system is responsible for:",
+      "options": {
+        "A": "Allocating memory for processes",
+        "B": "Managing the file system",
+        "C": "Managing input/output operations between processes and input/output devices",
+        "D": "Allocating CPU time to processes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The I/O subsystem manages input/output operations between processes and devices (buffering, caching, spooling, device drivers). Memory and CPU allocation are handled by other OS components.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

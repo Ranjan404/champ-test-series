@@ -42,6 +42,7 @@ Questions always stay in `data/questions/`. Setting `DATA_DIR` forces the JSON f
 | `npm run create-user -- <name> [password]` | Add a user, or reset an existing user's password |
 | `npm run validate` | Check every question set against `syllabus/TEST_RULES.md` |
 | `npm run validate:daily` | Check the Daily Question sets in `data/dailyquestions/` |
+| `npm run validate:pyq` | Check the PYQ sets in `data/pyq_questions/` |
 | `npm test` | Unit tests: scoring, unlock, reset, report |
 | `npm run test:e2e` | Build + Playwright run on phone and desktop sizes |
 | `npm run lint` | TypeScript type check |
@@ -53,6 +54,7 @@ data/
   users.json              # [{ id, username, passwordHash, createdAt }]  (bcrypt hashes)
   questions/set-01..50.json
   dailyquestions/set-01..40.json  # Daily Question rotation (ids D01-Q01...)
+  pyq_questions/set-01..31.json   # PYQ sets (ids P01-Q01...)
   progress/<userId>.json  # { unlockedUpTo, sets: { "<n>": current attempt }, history: [completed attempts] }
 ```
 
@@ -85,3 +87,12 @@ attempt. The 25 minutes are timed on the server. Correct answers only reach the 
 The 1,000 questions come from two PDFs: the 328-question "Marathon" paper (answer key checked, questions with
 "all/none of the above" rewritten to one correct option) and the "STET Computer Selected Topic" notes (questions
 written from the slides). `sourceRef` says which PDF each question came from (`MARATHON_328#Q<n>` or `STET_NOTES#p<page>`).
+
+## PYQs
+
+The PYQs page (`/pyq`) has 31 sets of 25 Computer Science questions taken from previous papers (Bihar STET 2019,
+2023 and 2025, and BPSC TRE 1.0, 2.0 and 3.0). Non-CS questions from those papers are not included. The sets work like
+practice sets: same 25-minute timer, marking, sequential unlocking, retake and result report. Their progress is kept
+separately in `progress.pyq`. Every question is tagged `PYQ`, and its `sourceRef` names the paper and question number.
+Adding `set-32.json` adds a set. The same question sometimes appears in more than one paper, and `npm run validate:pyq`
+lists those repeats.

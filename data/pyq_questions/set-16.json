@@ -1,0 +1,681 @@
+{
+  "setId": 16,
+  "title": "PYQ Set 16",
+  "questions": [
+    {
+      "id": "P16-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Concepts",
+      "concept": "Pure object-oriented language features",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q113",
+      "question": "Which of the following features must be supported by any programming language to become a pure object-oriented programming language?",
+      "options": {
+        "A": "Encapsulation",
+        "B": "Inheritance",
+        "C": "Polymorphism",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A pure object-oriented language must support encapsulation, inheritance and polymorphism (along with abstraction), so more than one option is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P16-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Linear probing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q24",
+      "question": "Which collision resolution technique involves placing collided elements in the next available empty slot in the hash table?",
+      "options": {
+        "A": "Linear probing",
+        "B": "Quadratic probing",
+        "C": "Separate chaining",
+        "D": "Double hashing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Linear probing resolves a collision by checking the next slots one by one (h+1, h+2, ...) until an empty one is found. Quadratic probing jumps by squares and double hashing uses a second hash function.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Inheritance",
+      "concept": "Multiple inheritance",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q10",
+      "question": "Which concept allows a class to inherit properties and behaviors from multiple classes?",
+      "options": {
+        "A": "Encapsulation",
+        "B": "Inheritance",
+        "C": "Polymorphism",
+        "D": "Multiple Inheritance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Multiple inheritance is the specific form of inheritance in which one class derives from more than one base class. Plain 'Inheritance' is the general concept, not specifically from multiple classes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Threaded binary tree",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q20",
+      "question": "A threaded binary tree is a binary tree in which:",
+      "options": {
+        "A": "Each node has two children",
+        "B": "Each node has at most one child",
+        "C": "Each node is connected to its parent",
+        "D": "Each node has a thread connecting it to its predecessor or successor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a threaded binary tree the otherwise NULL left/right pointers are replaced by threads to the inorder predecessor or successor, enabling traversal without a stack. It does not require every node to have two children.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P16-Q05",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Methods",
+      "concept": "Method signature",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q59",
+      "question": "In OOP, what does the term \"method signature\" refer to?",
+      "options": {
+        "A": "The name of the method",
+        "B": "The return type of the method",
+        "C": "The parameters of the method",
+        "D": "The combination of method name and parameter types",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A method signature is the method name together with its parameter types (number, type and order). The return type is not part of the signature in Java/C++ overloading rules.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P16-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Indexing",
+      "concept": "Clustered index",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q81",
+      "question": "An index is clustered, if",
+      "options": {
+        "A": "it is on a set of fields that form a candidate key.",
+        "B": "it is on a set of fields that include the primary key.",
+        "C": "the data records of the file are organized in the same order as the data entries of the index.",
+        "D": "the data records of the file are organized not in the same order as the data entries of the index.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An index is clustered when the data records are physically stored in the same order as the index's data entries. Being on a key or primary key does not by itself make an index clustered.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Dynamic Memory",
+      "concept": "Deleting a null pointer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q54",
+      "question": "What will happen if the following C++ statement is compiled and executed?\nint *ptr = NULL;\ndelete ptr;",
+      "options": {
+        "A": "The program is not semantically correct",
+        "B": "The program is compiled and executed successfully",
+        "C": "The program gives a compile-time error",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Applying delete to a null pointer is defined in C++ as a no-op, so the program compiles and runs successfully. There is neither a compile-time error nor undefined behaviour.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P16-Q08",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Theory of Computation",
+      "subtopic": "Pushdown Automata",
+      "concept": "PDA transition function",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q42",
+      "question": "A PDA chooses the next move based on:",
+      "options": {
+        "A": "Current state",
+        "B": "Next input symbol",
+        "C": "Both (A) and (B)",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A PDA's transition depends on the current state, the next input symbol (or epsilon) and the top-of-stack symbol. Since the stack top is not included, none of the options is complete.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P16-Q09",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Subtype polymorphism",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q31",
+      "question": "Which term is used to describe the ability of different classes to be treated as objects of the same parent class?",
+      "options": {
+        "A": "Overloading",
+        "B": "Polymorphism",
+        "C": "Abstraction",
+        "D": "Encapsulation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Polymorphism lets objects of different subclasses be treated as objects of a common parent class and respond to the same call in their own way. Overloading is only same-name methods with different parameters.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "Valid IPv4 address",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q11",
+      "question": "Which of the following IP addresses is valid?",
+      "options": {
+        "A": "122.94.96.212",
+        "B": "212.254.258.210",
+        "C": "210.10.12.156.209",
+        "D": "122.294.56.68",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An IPv4 address has four octets, each in 0-255. Only 122.94.96.212 qualifies; 258 and 294 exceed 255 and 210.10.12.156.209 has five octets.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Conceptual",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P16-Q11",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Recursion",
+      "concept": "Recursion removal",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q26",
+      "question": "The process of removing recursion involves replacing recursive function calls with:",
+      "options": {
+        "A": "More recursive function calls",
+        "B": "Loops",
+        "C": "Additional memory allocation",
+        "D": "Non-recursive function calls",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Recursion is removed by converting it into iteration (loops, often with an explicit stack). Adding more recursive calls does the opposite.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Exception Handling",
+      "concept": "try block",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q84",
+      "question": "The C++ code which causes abnormal termination/behaviour of a program should be written under _____ block.",
+      "options": {
+        "A": "catch",
+        "B": "throw",
+        "C": "try",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Code that may raise an exception is placed inside a try block; catch handles the exception and throw raises it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "I/O Organization",
+      "concept": "Buffer registers",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q55",
+      "question": "In various devices, _____ are used to overcome the difference in data transfer speed.",
+      "options": {
+        "A": "multiple buses",
+        "B": "buffer registers",
+        "C": "speed-enhancing circuitries",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Buffer registers temporarily hold data so that devices of different speeds (for example processor and I/O devices) can exchange data despite the speed mismatch.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P16-Q14",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Natural Language Processing",
+      "concept": "Synonymy relation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q18",
+      "question": "What is synonymy relation?",
+      "options": {
+        "A": "A is part of B",
+        "B": "A denotes same as B",
+        "C": "A is a kind of B",
+        "D": "A is superordinate of B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Synonymy holds when two words denote the same meaning (A denotes the same as B). 'A is part of B' is meronymy and 'A is a kind of B' is hyponymy.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "String Methods",
+      "concept": "str.split returns list without separator",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q41",
+      "question": "What is the output of the following code?\nSports = \"Paralympic Games\"\nprint(Sports.split(\"m\"))",
+      "options": {
+        "A": "['Paraly', 'm', 'pic Ga', 'm', 'es']",
+        "B": "('Paraly', 'm', 'pic Games')",
+        "C": "('Paraly', 'pic Ga', 'es')",
+        "D": "['Paraly', 'pic Ga', 'es']",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "split('m') splits at every 'm', drops the separator and returns a list: ['Paraly', 'pic Ga', 'es']. partition() would keep the separator and return a tuple, which is the trap in option B.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P16-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Dynamic Programming",
+      "concept": "Memoization",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q82",
+      "question": "In the context of dynamic programming for solving multistage graph problems, what is memoization used for?",
+      "options": {
+        "A": "Dividing the graph into stages",
+        "B": "Sorting the vertices in the graph",
+        "C": "Storing solutions to overlapping subproblems",
+        "D": "Finding the shortest path",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Memoization stores the results of already-solved subproblems (e.g. cost from a vertex to the sink) so they are reused instead of recomputed. Finding the shortest path is the overall goal, not the role of memoization.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Industrial IoT",
+      "concept": "Modbus RTU baud rate",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q9",
+      "question": "The default baud rate of Modbus RTU is?",
+      "options": {
+        "A": "19600",
+        "B": "19200",
+        "C": "38400",
+        "D": "57600",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Modbus serial line specification requires 19200 bps as the default baud rate for RTU mode. 19600 is not a standard baud rate at all.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P16-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Interfaces",
+      "concept": "Purpose of an interface",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q80",
+      "question": "What is the primary purpose of an interface in OOP?",
+      "options": {
+        "A": "To provide a blueprint for creating objects",
+        "B": "To define a set of methods that must be implemented by implementing classes",
+        "C": "To define constructors for classes",
+        "D": "To create static methods",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An interface declares a set of methods (a contract) that every implementing class must define. A class, not an interface, is the blueprint for creating objects.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P16-Q19",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Type 1 grammar",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q44",
+      "question": "Which of the following is type 1 language or Type 1 grammar?",
+      "options": {
+        "A": "Regular grammar/ Regular language",
+        "B": "Context Free Grammar / Context Free language",
+        "C": "Context Sensitive Grammar / Context Sensitive language",
+        "D": "Recursively Enumerable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In the Chomsky hierarchy, Type 0 is recursively enumerable, Type 1 context-sensitive, Type 2 context-free and Type 3 regular.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P16-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Processing",
+      "concept": "Anti-aliasing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q9",
+      "question": "The aliasing effect on an image can be reduced using which of the following methods?",
+      "options": {
+        "A": "By reducing the high-frequency components of image by clarifying the image",
+        "B": "By increasing the high-frequency components of image by clarifying the image",
+        "C": "By increasing the high-frequency components of image by blurring the image",
+        "D": "By reducing the high-frequency components of image by blurring the image",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Aliasing comes from high-frequency content that the sampling rate cannot capture, so blurring (low-pass filtering) the image before sampling reduces those components. Sharpening would increase them.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "BCD",
+      "concept": "Valid BCD digit range",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q84",
+      "question": "When performing BCD addition, what is the maximum value that can be represented in a single BCD digit?",
+      "options": {
+        "A": "2",
+        "B": "10",
+        "C": "15",
+        "D": "None of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A BCD digit represents decimal 0-9, so its maximum value is 9 (1001). 15 is the maximum of a 4-bit binary nibble, which BCD does not use; none of the given values is correct.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Aggregate Functions",
+      "concept": "COUNT(column) ignores NULLs",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q22",
+      "question": "Which aggregate function in SQL displays the number of values in the specified column ignoring the NULL values?",
+      "options": {
+        "A": "len()",
+        "B": "count()",
+        "C": "number()",
+        "D": "num()",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "COUNT(column) returns the number of non-NULL values in that column. len(), number() and num() are not SQL aggregate functions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P16-Q23",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Testing",
+      "concept": "System testing",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q52",
+      "question": "What is the main goal of System Testing?",
+      "options": {
+        "A": "Testing individual components in isolation",
+        "B": "Testing the integration between different software components",
+        "C": "Testing software functionality from the user's perspective",
+        "D": "Identifying defects in the source code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "System testing tests the complete integrated system against its requirements, i.e. its functionality as a whole as seen by the user. Testing isolated units is unit testing and interfaces between components is integration testing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q24",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Data Transmission",
+      "concept": "Bandwidth",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q41",
+      "question": "The term used to describe the maximum amount of data that can be transmitted over a communication channel in a given time period is:",
+      "options": {
+        "A": "Bandwidth",
+        "B": "Data Rate",
+        "C": "Latency",
+        "D": "Protocol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bandwidth (channel capacity) is the maximum amount of data a channel can carry per unit time. Data rate is the actual rate at which data is being sent, which can be lower than this maximum.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P16-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microcontrollers",
+      "concept": "Home automation applications",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q21",
+      "question": "Which of the following applications is a typical use of microcontrollers in the field of home automation?",
+      "options": {
+        "A": "Satellite communication",
+        "B": "Air traffic control",
+        "C": "Temperature and lighting control",
+        "D": "Space exploration",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In home automation, microcontrollers typically control temperature (thermostats) and lighting. The other options are large specialised systems, not typical home automation uses.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

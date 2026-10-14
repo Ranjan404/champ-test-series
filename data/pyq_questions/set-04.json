@@ -1,0 +1,681 @@
+{
+  "setId": 4,
+  "title": "PYQ Set 4",
+  "questions": [
+    {
+      "id": "P04-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Queue overflow condition",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q120",
+      "question": "Which one of the following is the overflow condition if linear queue is implemented using an array with a size MAX_SIZE?",
+      "options": {
+        "A": "rear = MAX_SIZE - 1",
+        "B": "rear = MAX_SIZE",
+        "C": "rear = front + 1",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "With 0-based indexing the last valid index is MAX_SIZE - 1, so the queue is full (overflow) when rear = MAX_SIZE - 1. rear = MAX_SIZE is already out of bounds.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Operators",
+      "concept": "LIKE with wildcards",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q15",
+      "question": "The SQL keyword ________ is used with wildcards.",
+      "options": {
+        "A": "LIKE",
+        "B": "IN",
+        "C": "NOT IN",
+        "D": "DISTINCT",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The LIKE operator is used with the wildcards % and _ for pattern matching. IN and NOT IN test membership in a list and DISTINCT removes duplicates.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Constructors",
+      "concept": "Role of constructor",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q16",
+      "question": "What is the purpose of a constructor in OOP?",
+      "options": {
+        "A": "To destroy objects",
+        "B": "To create instances of abstract classes",
+        "C": "To initialize object properties",
+        "D": "To define abstract methods",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A constructor runs automatically when an object is created and initializes its data members. Destroying objects is the job of a destructor.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Divide and conquer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q121",
+      "question": "Which of the following is a divide-and-conquer algorithm?",
+      "options": {
+        "A": "Merge sort",
+        "B": "Heap sort",
+        "C": "Bubble sort",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Merge sort divides the array into halves, sorts them recursively and merges them, which is divide and conquer. Heap sort and bubble sort are not.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Characteristics of Computers",
+      "concept": "Diligence",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q61",
+      "question": "Computer is free from tiredness and boredom. We call it",
+      "options": {
+        "A": "Accuracy",
+        "B": "Reliability",
+        "C": "Diligence",
+        "D": "Versatility",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Diligence means a computer can work for long hours without tiredness, boredom or loss of concentration. Reliability refers to consistent correct results.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q06",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Abstraction",
+      "concept": "Physical level",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q52",
+      "question": "Which of the following refers to the level of data abstraction that describes exactly how the data is stored?",
+      "options": {
+        "A": "Conceptual Level",
+        "B": "Physical Level",
+        "C": "File Level",
+        "D": "Logical Level",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The physical level is the lowest level of abstraction and describes how data is actually stored. The conceptual/logical level describes what data is stored and its relationships.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q07",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Pushdown Automata",
+      "concept": "NPDA vs DPDA power",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q31",
+      "question": "Which of the following conversion is not possible (algorithmically)?",
+      "options": {
+        "A": "Regular grammar to context-free grammar",
+        "B": "Non-deterministic pushdown automata to deterministic pushdown automata",
+        "C": "Non-deterministic finite state automata to deterministic finite state automata",
+        "D": "Non deterministic Turing machine to deterministic Turing machine",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "NPDAs accept all context-free languages but DPDAs accept only deterministic CFLs, so there is no general NPDA to DPDA conversion. NFA to DFA (subset construction) and NTM to DTM conversions always exist.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Sensors",
+      "concept": "Analog vs digital sensors",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q34",
+      "question": "About IoT, which among the following is not correct?",
+      "options": {
+        "A": "Light sensor is analog",
+        "B": "microphone is a digital sensor",
+        "C": "Keyboard is a digital sensor",
+        "D": "Push button is a digital Sensor",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A microphone produces a continuously varying voltage, so it is an analog sensor; the statement calling it digital is incorrect. A light sensor (LDR) is analog, while keyboards and push buttons give discrete on/off signals.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P04-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "Horizontal e-marketplace",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q26",
+      "question": "Which form of e-marketplace brings together buyers and sellers from multiple industries, often for MRO materials?",
+      "options": {
+        "A": "Horizontal",
+        "B": "Vertical",
+        "C": "Integrated",
+        "D": "Isolated",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A horizontal e-marketplace serves buyers and sellers across many industries, typically for common MRO supplies. A vertical marketplace focuses on a single industry.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P04-Q10",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocols",
+      "concept": "ARP address mapping",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q63",
+      "question": "What is the purpose of ARP (Address Resolution Protocol)?",
+      "options": {
+        "A": "To assign IP addresses to devices",
+        "B": "To resolve domain names to IP addresses",
+        "C": "To map MAC addresses to IP addresses",
+        "D": "To manage network congestion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ARP maps (resolves) between IP and MAC addresses: given a known IP address it finds the corresponding MAC address on the LAN. Resolving domain names is DNS and assigning IPs is DHCP.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P04-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "OOP Principles",
+      "concept": "Information hiding",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q5",
+      "question": "Which principle ensures that only essential information is visible to the outside world?",
+      "options": {
+        "A": "Polymorphism",
+        "B": "Information hiding",
+        "C": "Encapsulation",
+        "D": "Abstraction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The information hiding principle states that a module exposes only what others need (its interface) and hides its internal details. Encapsulation is the mechanism (bundling data with methods) and abstraction is about modelling essential features, so they are close but the principle named for restricting visibility is information hiding.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q12",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Views",
+      "concept": "Slide Sorter in View menu",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q117",
+      "question": "Slide sorter can be accessed from which menu?",
+      "options": {
+        "A": "View",
+        "B": "Edit",
+        "C": "File",
+        "D": "Insert",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Slide Sorter is a view, so it is accessed from the View menu (View > Slide Sorter).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P04-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Process Management",
+      "concept": "Context switch",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q35",
+      "question": "Context switching in an operating system refers to the process of:",
+      "options": {
+        "A": "Switching between user and kernel modes",
+        "B": "Switching between processes to allow multitasking",
+        "C": "Switching between different file systems",
+        "D": "Switching between different operating systems",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A context switch saves the state (PCB) of the running process and loads that of another so the CPU can be shared among processes. A user-to-kernel mode switch is a mode switch, not a context switch.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P04-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Authentication Attacks",
+      "concept": "Man-in-the-middle bypassing 2FA",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q8",
+      "question": "Even with two-factor authentication, users may still be vulnerable to _____ attacks.",
+      "options": {
+        "A": "Scripting",
+        "B": "Cross attack",
+        "C": "Man-in-the-middle",
+        "D": "Radiant",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A man-in-the-middle (e.g. real-time phishing proxy) attacker can intercept both the password and the one-time code or the session cookie, so 2FA alone does not stop it. The other options are not standard attack names in this context.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P04-Q15",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Lists",
+      "concept": "Default bullet of <ul>",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q64",
+      "question": "The default value for the type attribute of an Unordered List in HTML is:",
+      "options": {
+        "A": "circle",
+        "B": "disc",
+        "C": "square",
+        "D": "triangle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The default type (bullet) for an HTML unordered list is a filled disc. Circle and square must be set explicitly; triangle is not a valid type.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P04-Q16",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Method overloading",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q17",
+      "question": "What is the term for defining multiple methods in a class with the same name but different parameters?",
+      "options": {
+        "A": "Overriding",
+        "B": "Overloading",
+        "C": "Inheriting",
+        "D": "Inheritance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Overloading means several methods share a name but differ in parameter lists. Overriding redefines an inherited method with the same signature.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process Synchronization",
+      "concept": "History of monitors",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q4",
+      "question": "The concept of monitors was introduced by:",
+      "options": {
+        "A": "Edsger Dijkstra",
+        "B": "Alan Turing",
+        "C": "Tim Berners-Lee",
+        "D": "Linus Torvalds",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Among the options, Edsger Dijkstra is credited with the early idea of monitors (formalized later by Hoare and Brinch Hansen); he also introduced semaphores. Turing, Berners-Lee and Torvalds are known for computability, the WWW and Linux respectively.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P04-Q18",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Arrays",
+      "concept": "Definition of array",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q113",
+      "question": "How can we describe an array in the best possible way?",
+      "options": {
+        "A": "Arrays are immutable",
+        "B": "Container that stores the elements of similar types",
+        "C": "The array is not a data structure",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An array is a data structure that stores elements of the same (similar) type in contiguous locations. Arrays are mutable and are a data structure.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Strings",
+      "concept": "Identity for concatenation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q86",
+      "question": "Let u = '1101', v = '0001', then uv = 11010001 and vu = 00011101. Using the given information, what is the identity element for the string?",
+      "options": {
+        "A": "u^-1",
+        "B": "v^-1",
+        "C": "u^-1 v^-1",
+        "D": "ε",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Concatenation is not commutative (uv differs from vu), and its identity element is the empty string ε since εw = wε = w. Strings have no inverses like u^-1.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "P04-Q20",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Communication",
+      "concept": "Short-range wireless",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q144",
+      "question": "Which wireless communication technology is commonly used in IoT devices for short-range communication?",
+      "options": {
+        "A": "Bluetooth",
+        "B": "Wi-Fi",
+        "C": "4G LTE",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bluetooth (especially BLE) is the standard low-power, short-range technology for IoT devices. 4G LTE is a long-range cellular technology.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P04-Q21",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "SMTP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q76",
+      "question": "Which protocol is used for sending emails?",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "SMTP",
+        "D": "SNMP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send email. HTTP is for web pages, FTP for file transfer and SNMP for network management.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P04-Q22",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Types",
+      "concept": "Database models",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q120",
+      "question": "Which of the following is NOT a type of DBMS?",
+      "options": {
+        "A": "Relational DBMS",
+        "B": "Object-Oriented DBMS",
+        "C": "Sequential DBMS",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Common DBMS types are hierarchical, network, relational and object-oriented. Sequential refers to file organization, not a DBMS type.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P04-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Office Tools & Internet",
+      "subtopic": "Keyboard Shortcuts",
+      "concept": "Ctrl+Left Arrow",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q85",
+      "question": "\"Ctrl + Left Arrow\" is used to",
+      "options": {
+        "A": "move the cursor at the beginning of the line",
+        "B": "move the cursor one word left",
+        "C": "move the cursor one paragraph up",
+        "D": "move the cursor one paragraph down",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Ctrl+Left Arrow moves the cursor one word to the left. Home moves to the beginning of the line and Ctrl+Up moves one paragraph up.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P04-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "History of Computing",
+      "concept": "Time sharing and computer communication",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q41",
+      "question": "Which of the following is a technique that marks the beginning of computer communications?",
+      "options": {
+        "A": "User Environment",
+        "B": "Batch Environment",
+        "C": "Time Sharing",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Time sharing, where many users shared one computer through remote terminals, marked the beginning of computer communications. Batch processing involved no interactive communication with users.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P04-Q25",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Python Programming",
+      "subtopic": "Lists",
+      "concept": "Slicing with negative step",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q58",
+      "question": "Consider the statements given below and then choose the correct output from the given options:\nL = ['TIC', 'TAC']\nprint(L[::-1])",
+      "options": {
+        "A": "['CIT', 'CAT']",
+        "B": "['TIC', 'TAC']",
+        "C": "['CAT', 'CIT']",
+        "D": "['TAC', 'TIC']",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "L[::-1] reverses the order of the list elements, not the characters of each string, giving ['TAC', 'TIC']. Option C reverses each string as well.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

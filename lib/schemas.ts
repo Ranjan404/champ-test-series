@@ -78,3 +78,25 @@ export const dailySubmitSchema = z.object({
   answers: dailyAnswers,
   marked: z.array(dailyQuestionId).max(25).default([]),
 });
+
+/** PYQ sets use P<set>-Q<n> ids so they can never collide with practice-set or daily ids. */
+export const pyqQuestionSchema = baseQuestionSchema.extend({ id: z.string().regex(/^P\d{2}-Q\d{2}$/) });
+
+export const pyqSetSchema = z.object({
+  setId: z.number().int().min(1),
+  title: z.string(),
+  questions: z.array(pyqQuestionSchema).length(25),
+});
+
+const pyqQuestionId = z.string().regex(/^P\d{2}-Q\d{2}$/);
+const pyqAnswers = z.record(pyqQuestionId, z.array(z.enum(["A", "B", "C", "D", "E"])).max(4));
+
+export const pyqSaveSchema = z.object({
+  answers: pyqAnswers,
+  marked: z.array(pyqQuestionId).max(25).default([]),
+  current: z.number().int().min(0).max(24).default(0),
+});
+
+export const pyqSubmitSchema = z.object({
+  answers: pyqAnswers,
+});

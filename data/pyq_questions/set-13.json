@@ -1,0 +1,681 @@
+{
+  "setId": 13,
+  "title": "PYQ Set 13",
+  "questions": [
+    {
+      "id": "P13-Q01",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Supervised vs unsupervised",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q147",
+      "question": "Which of the following is a supervised learning algorithm?",
+      "options": {
+        "A": "Decision Tree",
+        "B": "K-means Clustering",
+        "C": "Reinforcement Learning",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A decision tree learns from labeled data, so it is supervised. K-means is unsupervised clustering, and reinforcement learning is a separate paradigm based on rewards.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q02",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "File Handling",
+      "concept": "ios::trunc mode",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 1.0 (2023), Q106",
+      "question": "What is the use of ios::trunc mode?",
+      "options": {
+        "A": "To open a file in input mode",
+        "B": "To open a file in output mode",
+        "C": "To truncate an existing file to zero",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ios::trunc discards the existing contents of a file, truncating it to zero length when it is opened. ios::in and ios::out are the input and output modes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q03",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Unguided media",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q145",
+      "question": "Wireless transmission of signals can be done via",
+      "options": {
+        "A": "radio waves",
+        "B": "microwaves",
+        "C": "infrared",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Radio waves, microwaves and infrared are all unguided (wireless) media, so more than one option is correct.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q04",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Communication",
+      "concept": "BLE full form",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2023 (12 Sep), Q77",
+      "question": "BLE stands for",
+      "options": {
+        "A": "Bluetooth large energy",
+        "B": "Bluetooth low energy",
+        "C": "Bluetooth light energy",
+        "D": "Bluetooth long energy",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "BLE is Bluetooth Low Energy, a low-power Bluetooth variant widely used in IoT. The other expansions are invented.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "P13-Q05",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Development",
+      "concept": "Server-side languages",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q89",
+      "question": "Which programming language is often used for server-side web development?",
+      "options": {
+        "A": "HTML",
+        "B": "CSS",
+        "C": "JavaScript",
+        "D": "PHP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "PHP runs on the web server to generate dynamic pages. HTML and CSS are markup/styling languages, and JavaScript is traditionally client-side.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P13-Q06",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Language Translators",
+      "concept": "Compiler characteristics",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q77",
+      "question": "A compiler is a translating program which",
+      "options": {
+        "A": "translates instruction of a high-level language into machine language",
+        "B": "translates entire source program into machine language program",
+        "C": "is not involved in program's execution",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A compiler translates high-level instructions into machine language, translates the entire source program at once, and is not needed while the compiled program executes. Since A, B and C all hold, the answer is 'More than one of the above'.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q07",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Hexadecimal to binary",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q33",
+      "question": "The hexadecimal number F4 is equivalent to which binary number?",
+      "options": {
+        "A": "11111001",
+        "B": "11110100",
+        "C": "11111100",
+        "D": "11111010",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Each hex digit maps to 4 bits: F = 1111 and 4 = 0100, so F4 = 11110100.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "P13-Q08",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Objects",
+      "concept": "Editing org chart object",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q115",
+      "question": "You can edit an embedded organization chart object by",
+      "options": {
+        "A": "Double clicking the organization chart object",
+        "B": "Clicking edit object",
+        "C": "Right clicking the chart object, then clicking edit MS-Organization Chart object",
+        "D": "both (A) and (C)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An embedded organization chart can be opened for editing either by double-clicking it or by right-clicking and choosing Edit MS-Organization Chart Object, so both (A) and (C).",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q09",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Abstract Classes",
+      "concept": "Abstract class vs interface",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q17",
+      "question": "What is the main advantage of using abstract classes over interfaces?",
+      "options": {
+        "A": "Abstract classes can have multiple inheritance, unlike interfaces",
+        "B": "Interfaces can have constructors, while abstract classes cannot",
+        "C": "Abstract classes can provide default implementations of methods",
+        "D": "Interfaces allow for private access modifiers, unlike abstract classes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Abstract classes can contain concrete methods with default implementations (plus state and constructors). Classes cannot multiply-inherit abstract classes, and interfaces have no constructors, so A and B are false.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P13-Q10",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Circular Queue",
+      "concept": "Ring buffer",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q114",
+      "question": "What is another name for the circular queue among the following options?",
+      "options": {
+        "A": "Rectangle buffer",
+        "B": "Square buffer",
+        "C": "Ring buffer",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A circular queue is also called a ring buffer because the last position connects back to the first.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P13-Q11",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Paging",
+      "concept": "Page vs frame",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q111",
+      "question": "What is a page in paging?",
+      "options": {
+        "A": "A fixed-size block of virtual memory",
+        "B": "A fixed-size block of physical memory",
+        "C": "A type of memory allocation",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A page is a fixed-size block of the logical (virtual) address space. A fixed-size block of physical memory is called a frame.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q12",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Local Search",
+      "concept": "Hill climbing termination",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q66",
+      "question": "Where will the Hill Climbing Algorithm terminate?",
+      "options": {
+        "A": "Stopping Criterion met",
+        "B": "Global Min/Max is achieved",
+        "C": "No neighbor has higher value",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Hill climbing stops when no neighbouring state has a higher value than the current one, which may be only a local maximum. It does not guarantee reaching the global maximum.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P13-Q13",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "MySQL Data Types",
+      "concept": "MySQL DATE format",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 2), Q12",
+      "question": "What is the default format of date in MySQL?",
+      "options": {
+        "A": "DD-MM-YYYY",
+        "B": "MM-DD-YYYY",
+        "C": "YYYY-MM-DD",
+        "D": "YYYY-DD-MM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MySQL stores and displays DATE values in the ISO format 'YYYY-MM-DD'. Formats like DD-MM-YYYY are regional display conventions, not the MySQL default.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "P13-Q14",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "TCP features",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q148",
+      "question": "Transmission control protocol",
+      "options": {
+        "A": "is a connection-oriented protocol",
+        "B": "uses a three-way handshake to establish a connection",
+        "C": "receives data from application as a single stream",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "TCP is connection-oriented, establishes connections using a three-way handshake, and receives data from the application as a byte stream. All of A, B and C are true.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q15",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine",
+      "concept": "Components of a TM",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q143",
+      "question": "Which of the following is NOT a component of a Turing machine?",
+      "options": {
+        "A": "Input tape",
+        "B": "Output tape",
+        "C": "Control unit",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A standard Turing machine has an infinite tape (used for input and output), a read/write head and a finite control unit. There is no separate output tape.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q16",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Office Tools & Internet",
+      "subtopic": "MS PowerPoint Animation",
+      "concept": "Previewing animation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q121",
+      "question": "To preview a motion path effect using the custom animation task pane, we should",
+      "options": {
+        "A": "double click the motion path",
+        "B": "click the show effect button",
+        "C": "click the play button",
+        "D": "None of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In the Custom Animation task pane, clicking the Play button previews the selected animation effects, including motion paths.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "P13-Q17",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C, C++, Java & OOP",
+      "subtopic": "Constructors",
+      "concept": "Implicit constructors",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q88",
+      "question": "Which of the following constructors is provided by the C++ compiler if not defined in a class?",
+      "options": {
+        "A": "Copy constructor",
+        "B": "Default constructor",
+        "C": "Parameterized constructor",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "If not user-declared, the compiler implicitly provides a default constructor and a copy constructor. A parameterized constructor is never generated, so more than one of A-C (A and B) is correct.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P13-Q18",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Python Programming",
+      "subtopic": "Dictionaries",
+      "concept": "Iterating over dictionary keys",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (04 Nov, Shift 2), Q19",
+      "question": "Consider the statements given below and then choose the correct output from the given options:\nD = {'S01': 95, 'S02': 96}\nfor I in D:\n    print(I, end='#')",
+      "options": {
+        "A": "S01#S02#",
+        "B": "95#96#",
+        "C": "S01,95#S02,96#",
+        "D": "S01#95#S02#96#",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Looping directly over a dictionary yields its keys, so the code prints S01#S02#. The values 95 and 96 are printed only when iterating over D.values() or D.items().",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P13-Q19",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Cybersecurity & Cryptography",
+      "subtopic": "Network Attacks",
+      "concept": "Sniffing prevention",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 2.0 (2023), Q146",
+      "question": "Sniffers can be prevented by using",
+      "options": {
+        "A": "wired environment",
+        "B": "ethernet LAN",
+        "C": "switched network",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A switched network sends frames only to the destination port, unlike hubs that broadcast to all, making passive sniffing much harder. A wired or shared Ethernet LAN alone does not prevent sniffing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P13-Q20",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Multimedia Systems",
+      "concept": "Hard real-time scheduling",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (07 Nov, Shift 1), Q20",
+      "question": "Multimedia systems require hard real-time scheduling ________",
+      "options": {
+        "A": "to ensure critical tasks will be serviced within timing deadlines",
+        "B": "to deliver the media file to the client",
+        "C": "to minimize the delay",
+        "D": "for security",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Continuous media must be processed within strict deadlines, so hard real-time scheduling is used to guarantee that critical tasks are serviced within their timing deadlines. Merely minimizing delay is not a guarantee.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q21",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Complexity Classes",
+      "concept": "Definition of NP",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q44",
+      "question": "A problem is said to be in NP if:",
+      "options": {
+        "A": "Its solution can be verified in polynomial time",
+        "B": "It can be solved using a non-deterministic algorithm",
+        "C": "It is not solvable",
+        "D": "It has exponential complexity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "NP is the class of decision problems whose proposed solution (certificate) can be verified in polynomial time. Exponential complexity or being unsolvable does not define NP.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P13-Q22",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Flip-Flops",
+      "concept": "Level triggering",
+      "source": "PYQ",
+      "sourceRef": "BPSC TRE 3.0 (2024), Q75",
+      "question": "When does a negative level triggered flip-flop in Digital Electronics changes its state?",
+      "options": {
+        "A": "When the clock is Negative",
+        "B": "When the clock is Positive",
+        "C": "When the inputs are all zero",
+        "D": "More than one of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A negative (low) level triggered flip-flop responds to its inputs and can change state while the clock is at its low (negative) level. A positive level is the condition for a positive level triggered device.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q23",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTML Tags",
+      "concept": "<img> src attribute",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q73",
+      "question": "_____ attribute is used to specify the location of an image file.",
+      "options": {
+        "A": "alt",
+        "B": "src",
+        "C": "align",
+        "D": "name",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The src attribute of <img> gives the path/URL of the image file. alt only provides alternate text.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "P13-Q24",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Basic Operations",
+      "concept": "Arithmetic, logical and storage operations",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2019, Q52",
+      "question": "The basic operations performed by a computer are",
+      "options": {
+        "A": "Arithmetic operation",
+        "B": "Logical operation",
+        "C": "Storage and relative",
+        "D": "All of these",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A computer performs arithmetic operations, logical operations and stores/relates data, so all of these are basic operations.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "P13-Q25",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Project Management",
+      "concept": "Staffing estimation",
+      "source": "PYQ",
+      "sourceRef": "Bihar STET 2025 (03 Nov, Shift 1), Q75",
+      "question": "What is the purpose of staffing level estimation in software project management?",
+      "options": {
+        "A": "To determine the number of hardware components required",
+        "B": "To identify potential risks in the project",
+        "C": "To allocate appropriate resources to the project",
+        "D": "To estimate the maintenance costs of the software",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Staffing level estimation decides how many people are needed in each phase, so that appropriate human resources can be allocated (e.g. using the Rayleigh-Norden curve).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}
