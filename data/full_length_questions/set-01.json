@@ -1,0 +1,4076 @@
+{
+  "setId": 1,
+  "title": "Full Length Test 1",
+  "sections": [
+    {
+      "name": "Language (English & Hindi)",
+      "from": 1,
+      "to": 30,
+      "count": 30
+    },
+    {
+      "name": "GK & GS",
+      "from": 31,
+      "to": 70,
+      "count": 40
+    },
+    {
+      "name": "Computer Science",
+      "from": 71,
+      "to": 150,
+      "count": 80
+    }
+  ],
+  "questions": [
+    {
+      "id": "F01-Q001",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Idioms & Phrases",
+      "concept": "Meaning of 'pass the baton'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q1",
+      "question": "Select the most appropriate meaning of the given idiom:\n\"Pass the baton\"",
+      "options": {
+        "A": "share a reward with someone",
+        "B": "take part in a relay race",
+        "C": "shift responsibility to others",
+        "D": "give up a bad habit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'Pass the baton' means to hand over a duty or responsibility to someone else, just as a runner hands the baton to the next runner in a relay.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q002",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Sentence Improvement",
+      "concept": "Phrase 'in accordance with'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q2",
+      "question": "Select the option that will improve the underlined part of the sentence. In case no improvement is needed, select 'No improvement required':\n\"He acted in according to my instructions.\"",
+      "options": {
+        "A": "No improvement required",
+        "B": "in accordance with",
+        "C": "in spite of",
+        "D": "in according with",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The correct prepositional phrase is 'in accordance with', meaning 'in agreement with'. 'In according to' and 'in according with' are ungrammatical.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F01-Q003",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "English Language",
+      "subtopic": "Fill in the Blanks",
+      "concept": "Effect vs affect",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q3",
+      "question": "Select the most appropriate option to fill in the blank:\nThe ________ of the new legislation has sparked a heated debate among lawmakers.",
+      "options": {
+        "A": "effect",
+        "B": "effection",
+        "C": "affectation",
+        "D": "affect",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A noun meaning 'result or impact' is needed, which is 'effect'. 'Affect' is usually a verb, 'affectation' means artificial behaviour, and 'effection' is not a standard word.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q004",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Collocation: small team",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q4",
+      "question": "Read the passage and answer the question.\nOnce a severe epidemic broke out in Cuttack. Subhas Bose went there with a small (1) ______ to help the poor and sick people. Some people (2) ______ the work done by Subhas and his friends (3) ______ others made fun of them. Haider was one (4) ______ person who always ridiculed them. Once, when Haider fell ill, Subhas (5) ______ looked after him till he recovered.\n\nSelect the most appropriate option for blank no. (1).",
+      "options": {
+        "A": "body",
+        "B": "club",
+        "C": "crowd",
+        "D": "team",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Subhas went with a small group of helpers working together, so 'team' fits best.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q005",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Contrast in context",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q5",
+      "question": "Read the passage and answer the question.\nOnce a severe epidemic broke out in Cuttack. Subhas Bose went there with a small (1) ______ to help the poor and sick people. Some people (2) ______ the work done by Subhas and his friends (3) ______ others made fun of them. Haider was one (4) ______ person who always ridiculed them. Once, when Haider fell ill, Subhas (5) ______ looked after him till he recovered.\n\nSelect the most appropriate option for blank no. (2).",
+      "options": {
+        "A": "enjoyed",
+        "B": "obliged",
+        "C": "praised",
+        "D": "opposed",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The sentence contrasts some people with 'others' who made fun of them, so the first group must have 'praised' the work.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q006",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Contrastive conjunction",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q6",
+      "question": "Read the passage and answer the question.\nOnce a severe epidemic broke out in Cuttack. Subhas Bose went there with a small (1) ______ to help the poor and sick people. Some people (2) ______ the work done by Subhas and his friends (3) ______ others made fun of them. Haider was one (4) ______ person who always ridiculed them. Once, when Haider fell ill, Subhas (5) ______ looked after him till he recovered.\n\nSelect the most appropriate option for blank no. (3).",
+      "options": {
+        "A": "since",
+        "B": "while",
+        "C": "as long as",
+        "D": "because",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'While' joins two contrasting clauses: some praised the work while others made fun of them.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q007",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Use of 'such'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q7",
+      "question": "Read the passage and answer the question.\nOnce a severe epidemic broke out in Cuttack. Subhas Bose went there with a small (1) ______ to help the poor and sick people. Some people (2) ______ the work done by Subhas and his friends (3) ______ others made fun of them. Haider was one (4) ______ person who always ridiculed them. Once, when Haider fell ill, Subhas (5) ______ looked after him till he recovered.\n\nSelect the most appropriate option for blank no. (4).",
+      "options": {
+        "A": "such",
+        "B": "that",
+        "C": "so",
+        "D": "very",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "'One such person' is the correct idiomatic structure to refer to a person of the kind just described.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F01-Q008",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Adverb in context",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q8",
+      "question": "Read the passage and answer the question.\nOnce a severe epidemic broke out in Cuttack. Subhas Bose went there with a small (1) ______ to help the poor and sick people. Some people (2) ______ the work done by Subhas and his friends (3) ______ others made fun of them. Haider was one (4) ______ person who always ridiculed them. Once, when Haider fell ill, Subhas (5) ______ looked after him till he recovered.\n\nSelect the most appropriate option for blank no. (5).",
+      "options": {
+        "A": "freely",
+        "B": "smoothly",
+        "C": "politely",
+        "D": "personally",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The passage stresses Subhas's goodness: he himself took care of the man who ridiculed him, so 'personally looked after him' fits. The other adverbs do not suit the act of nursing someone.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q009",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Varna Vichar (Phonetics)",
+      "concept": "Places of articulation",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q9",
+      "question": "उच्चारण स्थान के आधार पर निम्नलिखित में से कौन-सा वर्ण ध्वनि का प्रकार नहीं है?",
+      "options": {
+        "A": "कंठ्य ध्वनि",
+        "B": "दन्तोष्ठ्य ध्वनि",
+        "C": "ग्रीवा ध्वनि",
+        "D": "तालव्य ध्वनि",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Devanagari sounds are classified as kanthya, talavya, murdhanya, dantya, oshthya, dantoshthya etc. There is no 'greeva' (neck) category.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q010",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Karak (Case)",
+      "concept": "Karm karak",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q10",
+      "question": "'आजकल लेखक उपन्यास लिख रहा है' वाक्य में रेखांकित शब्द 'उपन्यास' में कौन-सा कारक है?",
+      "options": {
+        "A": "करण कारक",
+        "B": "कर्म कारक",
+        "C": "अपादान कारक",
+        "D": "कर्ता कारक",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The action of writing falls on 'उपन्यास', so it is the object of the verb and is in karm karak.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q011",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Sarvanam (Pronoun)",
+      "concept": "Types of purushvachak sarvanam",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q11",
+      "question": "हिंदी में पुरुषवाचक सर्वनाम के कितने भेद हैं?",
+      "options": {
+        "A": "तीन",
+        "B": "सात",
+        "C": "चार",
+        "D": "दो",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "There are three types: Uttam purush (first person), Madhyam purush (second person) and Anya purush (third person).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q012",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Vachya (Voice)",
+      "concept": "Kartrivachya vs karmavachya",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q12",
+      "question": "निम्नलिखित में से किस वाक्य में 'कर्मवाच्य' का प्रयोग नहीं हुआ है?",
+      "options": {
+        "A": "उससे खाना नहीं खाया गया।",
+        "B": "छात्र द्वारा पुस्तक पढ़ी गई।",
+        "C": "राम द्वारा पत्र लिखा गया।",
+        "D": "बालक खिलखिलाकर हँस रहा था।",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'बालक खिलखिलाकर हँस रहा था' is in kartrivachya (active voice) because the subject is the focus of the verb. The other sentences give importance to the object and use the passive form.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q013",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Kaal (Tense)",
+      "concept": "Apurna vartaman kaal",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q13",
+      "question": "'हम चूड़ियाँ पहन रहे हैं।' वाक्य में क्रिया का काल कौन-सा है?",
+      "options": {
+        "A": "पूर्ण वर्तमान काल",
+        "B": "संदिग्ध वर्तमान काल",
+        "C": "अपूर्ण वर्तमान काल",
+        "D": "सामान्य वर्तमान काल",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'Pahan rahe hain' shows an action going on at present and not yet complete, which is apurna (tatkalik) vartaman kaal.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q014",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Vakya Bhed (Sentence Types)",
+      "concept": "Sanyukt vakya",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q14",
+      "question": "निम्नलिखित में से कौन-सा वाक्य संयुक्त वाक्य का उदाहरण है?",
+      "options": {
+        "A": "जो परिश्रम करेगा, उसे सफलता मिलेगी।",
+        "B": "शाम हुई और गाय घर लौट आई।",
+        "C": "यह वही बच्चा है जो कल गिर गया था।",
+        "D": "वह बीमार होने के कारण विद्यालय नहीं गया।",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction such as 'और'. The first two are complex sentences (mishra vakya) and the last is a simple sentence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q015",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Vakyansh ke liye Ek Shabd",
+      "concept": "One word substitution",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q15",
+      "question": "'स्त्री जो अभिनय करती हो' वाक्यांश के लिए एक शब्द चुनिए:",
+      "options": {
+        "A": "अभिनेत्री",
+        "B": "नायिका",
+        "C": "नर्तकी",
+        "D": "गायिका",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A woman who acts is 'अभिनेत्री' (actress). Nayika is a heroine, nartaki is a dancer and gayika is a singer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q016",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Muhavare (Idioms)",
+      "concept": "Haath ko haath na soojhna",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q16",
+      "question": "'हाथ को हाथ न सूझना' मुहावरे का अर्थ क्या है?",
+      "options": {
+        "A": "दुविधा में पड़ना",
+        "B": "कोई काम न सूझना",
+        "C": "किसी की सहायता करने से मना करना",
+        "D": "घना अंधेरा होना",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'हाथ को हाथ न सूझना' means it is so dark that one cannot even see one's own hand, i.e. very dense darkness.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q017",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Hindi Language",
+      "subtopic": "Ashuddh Vakya (Sentence Correction)",
+      "concept": "Identifying incorrect sentences",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q17",
+      "question": "निम्नलिखित में से कौन-से वाक्य अशुद्ध हैं?\n(1) उसे मृत्यु दंड की सजा हुई।\n(2) विंध्याचल पर्वत पर घने जंगल हैं।\n(3) यहाँ शुद्ध भैंस का दूध मिलता है।\n(4) मेरे को उससे बात करना पसंद नहीं है।",
+      "options": {
+        "A": "पहला और तीसरा",
+        "B": "पहला, तीसरा और चौथा",
+        "C": "दूसरा, तीसरा और चौथा",
+        "D": "केवल चौथा",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "(1) is redundant: 'दंड' and 'सजा' mean the same, so it should be 'उसे मृत्युदंड मिला'. (3) misplaces the adjective; it should be 'भैंस का शुद्ध दूध'. (4) 'मेरे को' is wrong; it should be 'मुझे'. Sentence (2) is acceptable.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F01-Q018",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Muhavare (Idioms)",
+      "concept": "Sir uthana",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q18",
+      "question": "'सिर उठाना' मुहावरे का अर्थ क्या है?",
+      "options": {
+        "A": "लज्जा त्याग देना",
+        "B": "विद्रोह करना / विरोध करना",
+        "C": "आरंभ करना",
+        "D": "सम्मानित होना",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'सिर उठाना' means to rise in revolt or to oppose.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q019",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Lokoktiyan (Proverbs)",
+      "concept": "Thaka oont sarai takta hai",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q19",
+      "question": "'थका ऊँट सराय तकता है' लोकोक्ति का सही अर्थ है:",
+      "options": {
+        "A": "दिन भर के कठिन परिश्रम के बाद घर याद आता है",
+        "B": "असाध्य रोग से पीड़ित व्यक्ति मृत्यु की कामना करता है",
+        "C": "विश्राम जीवन की आवश्यकता है",
+        "D": "परिश्रम का फल सदा मीठा होता है",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A tired camel looks towards the inn: after a long day of toil, a person longs for home and rest.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q020",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Hindi Language",
+      "subtopic": "Hindi Sahitya (Sant Kavya)",
+      "concept": "Bankanali in sant literature",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q20",
+      "question": "संत साहित्य में निम्नलिखित में से कौन-सा 'बंकनालि' का पर्याय नहीं है?",
+      "options": {
+        "A": "त्रिकुटी",
+        "B": "सुषुम्ना नाड़ी",
+        "C": "राजदन्त",
+        "D": "वक्र नालि",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "As per the source answer key, 'वक्र नालि' is the option that is not treated as a synonym of 'बंकनालि' in sant literature.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q021",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Hindi Language",
+      "subtopic": "Hindi Sahitya (Chhayavad)",
+      "concept": "Nauka Vihar imagery",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q21",
+      "question": "'नौका विहार' कविता में गंगा की लहरों के बीच चंद्रमा के प्रतिबिंब के लिए किस नायिका का उल्लेख हुआ है?",
+      "options": {
+        "A": "वासकसज्जा",
+        "B": "नवोढ़ा",
+        "C": "मुग्धा",
+        "D": "प्रगल्भा",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In Sumitranandan Pant's 'Nauka Vihar', the moon's reflection among the waves is compared to a 'मुग्धा' nayika.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q022",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Hindi Language",
+      "subtopic": "Hindi Sahitya (Chhayavad)",
+      "concept": "Features of Chhayavad",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q22",
+      "question": "छायावाद के संदर्भ में निम्नलिखित में से कौन-सा कथन असत्य है?",
+      "options": {
+        "A": "छायावादी संवेदना का निर्माण आत्मानुभूति और सौंदर्यमूलक कल्पना से हुआ है।",
+        "B": "छायावादी कवियों ने मुख्य रूप से प्रणय की अनुभूतियों को अभिव्यक्त किया है।",
+        "C": "छायावादी कवि 'निराला' की अनुभूति क्रमशः शैव दर्शन में परिणत होती है।",
+        "D": "छायावादी काव्य में प्रकृति का मानवीकरण हुआ है और उसके प्रति गहरा प्रेम दिखाई देता है।",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "As per the source key, statement 1 is false: Chhayavad is not limited mainly to romantic love; it is marked by subjectivity, imagination, mysticism and love for nature.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Memory/Fact",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q023",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Hindi Language",
+      "subtopic": "Hindi Sahitya (Kavi aur Rachnayen)",
+      "concept": "Balkrishna Sharma 'Navin'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q23",
+      "question": "बालकृष्ण शर्मा 'नवीन' का प्रथम प्रकाशित काव्य-संग्रह है:",
+      "options": {
+        "A": "कुंकुम",
+        "B": "रश्मिरेखा",
+        "C": "क्वासि",
+        "D": "अपलक",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "'कुंकुम' (1936) was the first published collection of 'Navin'. Rashmirekha, Apalak and Kvasi came later.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q024",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Hindi Sahitya (Ritikal)",
+      "concept": "Features of Ritikal",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q24",
+      "question": "'रीतिकाल' की विशेषताओं के संदर्भ में निम्नलिखित में से एक कथन असत्य है। उसे चुनिए:",
+      "options": {
+        "A": "रीतिकाल में अलंकरण की प्रधानता है",
+        "B": "रीतिकाल की प्रमुख भाषा ब्रजभाषा है",
+        "C": "रीतिकालीन काव्य में शृंगार रस की प्रधानता है",
+        "D": "रीतिकाल में प्रकृति का चित्रण आलंबन रूप में हुआ है",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In Ritikal, nature was mostly described in the uddipan (stimulating) form, as a background to love, not as the alamban (main subject).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q025",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Hindi Language",
+      "subtopic": "Hindi Sahitya (Ras)",
+      "concept": "Veebhats ras in Ramcharitmanas",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q25",
+      "question": "'रामचरितमानस' के किन कांडों में वीभत्स रस का प्रयोग मिलता है?",
+      "options": {
+        "A": "बालकांड और अयोध्याकांड",
+        "B": "सुंदरकांड और उत्तरकांड",
+        "C": "अरण्यकांड और लंकाकांड",
+        "D": "किष्किंधाकांड और सुंदरकांड",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Veebhats ras appears in battle and demon scenes, found in Aranyakand and Lankakand.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q026",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Apathit Gadyansh (Comprehension)",
+      "concept": "Main subject of passage",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q26",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nस्त्रियों की समस्याएँ अनेक और गंभीर हैं। परंतु उनमें से एक भी ऐसी नहीं है जिसका समाधान 'शिक्षा' रूपी जादुई शब्द से न हो सके। पहले अपनी स्त्रियों को शिक्षित कीजिए, फिर उन्हें उनकी स्थिति पर छोड़ दीजिए, वे स्वयं बताएँगी कि उनके लिए कौन-से सुधार आवश्यक हैं। हमें स्त्रियों को ऐसी स्थिति में पहुँचाना चाहिए जहाँ वे अपनी समस्याओं का समाधान अपने ढंग से कर सकें।\n\nगद्यांश में किसकी समस्याओं का उल्लेख है?",
+      "options": {
+        "A": "बच्चों की",
+        "B": "स्त्रियों की",
+        "C": "आम जनता की",
+        "D": "किसानों की",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The passage opens with 'The problems of women are many and serious', so it talks about women's problems.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q027",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Apathit Gadyansh (Comprehension)",
+      "concept": "Inference: magical word",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q27",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nस्त्रियों की समस्याएँ अनेक और गंभीर हैं। परंतु उनमें से एक भी ऐसी नहीं है जिसका समाधान 'शिक्षा' रूपी जादुई शब्द से न हो सके। पहले अपनी स्त्रियों को शिक्षित कीजिए, फिर उन्हें उनकी स्थिति पर छोड़ दीजिए, वे स्वयं बताएँगी कि उनके लिए कौन-से सुधार आवश्यक हैं। हमें स्त्रियों को ऐसी स्थिति में पहुँचाना चाहिए जहाँ वे अपनी समस्याओं का समाधान अपने ढंग से कर सकें।\n\nशिक्षा को 'जादुई' क्यों कहा गया होगा?",
+      "options": {
+        "A": "शिक्षा समस्याओं का समाधान कर सकती है।",
+        "B": "शिक्षा समस्याओं को सदा के लिए समाप्त कर देती है।",
+        "C": "शिक्षित लोग जादूगर होते हैं।",
+        "D": "शिक्षा से तुरंत धन प्राप्त होता है।",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The passage says no problem exists that cannot be solved by education; that problem-solving power is why it is called magical.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q028",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Apathit Gadyansh (Comprehension)",
+      "concept": "Capability of women",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q28",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nस्त्रियों की समस्याएँ अनेक और गंभीर हैं। परंतु उनमें से एक भी ऐसी नहीं है जिसका समाधान 'शिक्षा' रूपी जादुई शब्द से न हो सके। पहले अपनी स्त्रियों को शिक्षित कीजिए, फिर उन्हें उनकी स्थिति पर छोड़ दीजिए, वे स्वयं बताएँगी कि उनके लिए कौन-से सुधार आवश्यक हैं। हमें स्त्रियों को ऐसी स्थिति में पहुँचाना चाहिए जहाँ वे अपनी समस्याओं का समाधान अपने ढंग से कर सकें।\n\nगद्यांश के अनुसार स्त्रियों में इतनी क्षमता है कि वे:",
+      "options": {
+        "A": "बिना किसी सुधार के ही रह सकती हैं।",
+        "B": "पुरुष समाज को पीछे छोड़ सकती हैं।",
+        "C": "स्वयं अपने पूरे समुदाय को शिक्षित कर सकती हैं।",
+        "D": "अपनी समस्याओं का समाधान स्वयं कर सकती हैं।",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The passage says women should be brought to a position where they can solve their problems in their own way.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q029",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Apathit Gadyansh (Comprehension)",
+      "concept": "Evaluating a statement",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q29",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nस्त्रियों की समस्याएँ अनेक और गंभीर हैं। परंतु उनमें से एक भी ऐसी नहीं है जिसका समाधान 'शिक्षा' रूपी जादुई शब्द से न हो सके। पहले अपनी स्त्रियों को शिक्षित कीजिए, फिर उन्हें उनकी स्थिति पर छोड़ दीजिए, वे स्वयं बताएँगी कि उनके लिए कौन-से सुधार आवश्यक हैं। हमें स्त्रियों को ऐसी स्थिति में पहुँचाना चाहिए जहाँ वे अपनी समस्याओं का समाधान अपने ढंग से कर सकें।\n\n'स्त्रियाँ अपने सुधार का दायित्व स्वयं ले सकती हैं' यह कथन है:",
+      "options": {
+        "A": "आंशिक रूप से प्रासंगिक",
+        "B": "पूर्णतः अप्रासंगिक",
+        "C": "पूर्णतः सटीक",
+        "D": "गद्यांश के विपरीत",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The passage says educated women will themselves tell what reforms they need and solve their problems their own way, so the statement is completely accurate.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q030",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Shabd Rachna (Word Formation)",
+      "concept": "Adjective from noun",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q30",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nस्त्रियों की समस्याएँ अनेक और गंभीर हैं। परंतु उनमें से एक भी ऐसी नहीं है जिसका समाधान 'शिक्षा' रूपी जादुई शब्द से न हो सके। पहले अपनी स्त्रियों को शिक्षित कीजिए, फिर उन्हें उनकी स्थिति पर छोड़ दीजिए, वे स्वयं बताएँगी कि उनके लिए कौन-से सुधार आवश्यक हैं। हमें स्त्रियों को ऐसी स्थिति में पहुँचाना चाहिए जहाँ वे अपनी समस्याओं का समाधान अपने ढंग से कर सकें।\n\n'शिक्षा' शब्द से बना विशेषण है:",
+      "options": {
+        "A": "शिक्षा क्रम",
+        "B": "शिक्षित",
+        "C": "सीखना",
+        "D": "शिक्षक",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'शिक्षित' (educated) is the adjective made by adding the suffix '-इत' to 'शिक्षा'. 'शिक्षक' is a noun and 'सीखना' is a verb.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q031",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Indian National Congress Sessions",
+      "concept": "1927 Madras session president",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q31",
+      "question": "Who was the president of the 1927 Madras session of the Congress, where the Indian National Congress adopted the resolution to boycott the 'Simon Commission'?",
+      "options": {
+        "A": "Dr. M.A. Ansari",
+        "B": "Motilal Nehru",
+        "C": "C.R. Das",
+        "D": "S. Srinivasa Iyengar",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Dr. M.A. Ansari presided over the 1927 Madras session, which resolved to boycott the Simon Commission and also passed a resolution for complete independence.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q032",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian History",
+      "subtopic": "Swadeshi Movement",
+      "concept": "Partition of Bengal observance",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q32",
+      "question": "On the suggestion of Rabindranath Tagore, the day of the Partition of Bengal (16 October 1905) was observed as:",
+      "options": {
+        "A": "Unity Day",
+        "B": "Swaraj Day",
+        "C": "Black Day",
+        "D": "Raksha Bandhan Day",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "On Tagore's call, people tied rakhis to one another on 16 October 1905 as a symbol of unity of Bengal, so the day was observed as Raksha Bandhan Day.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q033",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Quit India Movement",
+      "concept": "Gandhi's instructions in 1942",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q33",
+      "question": "Before his arrest during the Quit India Movement, which of the following instructions was NOT laid down by Mahatma Gandhi for the people?",
+      "options": {
+        "A": "Keep the nation alive even at the risk of death.",
+        "B": "Paralyse the government administration through a complete strike.",
+        "C": "Consider yourselves subjects of the British Emperor.",
+        "D": "Students may leave their studies if they are confident.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Gandhi asked people to regard themselves as free, not as subjects of the British Crown. Strikes, 'do or die' and students leaving studies were part of his instructions.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Question Misread",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q034",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Indian History",
+      "subtopic": "Pre-Congress Associations",
+      "concept": "Chronology of associations",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q34",
+      "question": "Consider the formation of the following associations before the establishment of the Indian National Congress:\n1. The Indian Association (1876)\n2. Madras Native Association (1852)\n3. Poona Sarvajanik Sabha (1870)\n4. Indian League (1875)\nFind the correct chronological order of their formation:",
+      "options": {
+        "A": "2, 3, 4, 1",
+        "B": "1, 2, 3, 4",
+        "C": "4, 3, 2, 1",
+        "D": "2, 4, 3, 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Madras Native Association (1852), Poona Sarvajanik Sabha (1870), Indian League (1875) and Indian Association (1876) gives the order 2, 3, 4, 1.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q035",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian History",
+      "subtopic": "Freedom Movement Leaders",
+      "concept": "Khudai Khidmatgar",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q35",
+      "question": "Frontier Gandhi (Khan Abdul Ghaffar Khan) formed a party of the Pathans. What was the name of that party?",
+      "options": {
+        "A": "Khudai Khidmatgar",
+        "B": "Pathan Dal",
+        "C": "Khaksar Party",
+        "D": "Muslim National Party",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Khan Abdul Ghaffar Khan founded the Khudai Khidmatgar ('Servants of God'), also known as the Red Shirts. The Khaksar movement was founded by Allama Mashriqi.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q036",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Freedom Movement Leaders",
+      "concept": "Tilak as ocean, Gokhale as Ganga",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q36",
+      "question": "Who compared Tilak to the 'ocean' and Gokhale to the river 'Ganga'?",
+      "options": {
+        "A": "Jawaharlal Nehru",
+        "B": "Dadabhai Naoroji",
+        "C": "Pherozeshah Mehta",
+        "D": "M.K. Gandhi",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Gandhi said Tilak was like the ocean, vast and hard to approach, while Gokhale was like the Ganga, inviting and easy to bathe in.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q037",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Indian History",
+      "subtopic": "Peasant Movements",
+      "concept": "Kisan Sabhas and leaders",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q37",
+      "question": "Which of the following statements about peasant movements in India is NOT correct?",
+      "options": {
+        "A": "Swami Sahajanand Saraswati formed the Bihar Provincial Kisan Sabha in 1929.",
+        "B": "Congress Socialist Party worker N.G. Ranga organised several peasant marches in Andhra in 1933-34 and demanded the abolition of zamindari.",
+        "C": "The Utkal Kisan Sangh was established by the Congress Socialists in 1938.",
+        "D": "The All India Kisan Sabha was formed at Lucknow in 1936.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Utkal Kisan Sangh was formed in 1935, not 1938. The other statements are correct.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q038",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Indian History",
+      "subtopic": "Impact of Western Ideas",
+      "concept": "Effects of English education",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q38",
+      "question": "With reference to the impact of Western ideas on India, which of the following statements is correct?\nA. English education opened the boundless doors of Western ideas, which initially overwhelmed them.\nB. Acceptance of Western ideas that came through English education was synonymous with acceptance of British rule.\nC. It immediately gave birth to political consciousness and resistance against political authority.\nD. It awakened the spirit of rationalism, leading to a mental revolt against the tyranny of dogma and traditional authorities, beliefs and customs.",
+      "options": {
+        "A": "Only A, B and C",
+        "B": "Only A and D",
+        "C": "Only B and C",
+        "D": "Only C and D",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "English education first overwhelmed Indians with Western ideas (A) and awakened rationalism against dogma (D). Accepting Western ideas did not mean accepting British rule (B), and political resistance came later, not immediately (C).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q039",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Mineral Resources",
+      "concept": "Leading manganese producer",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q39",
+      "question": "Which is the largest manganese producing state in India?",
+      "options": {
+        "A": "Madhya Pradesh",
+        "B": "Jharkhand",
+        "C": "Karnataka",
+        "D": "Maharashtra",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "As per the source key, Madhya Pradesh is the largest producer of manganese ore in India, followed by Maharashtra and Odisha.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q040",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "Mineral Resources",
+      "concept": "Ankleshwar oil field",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q40",
+      "question": "In which state is the Ankleshwar oil field located?",
+      "options": {
+        "A": "Assam",
+        "B": "Maharashtra",
+        "C": "Rajasthan",
+        "D": "Gujarat",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Ankleshwar oil field is in Bharuch district of Gujarat. Digboi in Assam and Mumbai High off Maharashtra are other oil fields.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q041",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Industries",
+      "concept": "Dalmianagar industries",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q41",
+      "question": "The main industries of Dalmianagar in Bihar are:",
+      "options": {
+        "A": "Paper, cement, silk textiles and jute",
+        "B": "Paper, chemicals, ceramics and vegetable oil",
+        "C": "Paper, cement, sugar and vegetable oil",
+        "D": "Steel, cement, glass and leather",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Dalmianagar (Rohtas) was known for paper, cement, sugar and vegetable oil industries set up by the Dalmia group.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q042",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "Physiography",
+      "concept": "Bundelkhand plateau",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q42",
+      "question": "The Bundelkhand plateau covers parts of which two of the following states?",
+      "options": {
+        "A": "Chhattisgarh and Jharkhand",
+        "B": "Uttar Pradesh and Madhya Pradesh",
+        "C": "Chhattisgarh and Uttar Pradesh",
+        "D": "Rajasthan and Madhya Pradesh",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Bundelkhand region and plateau lies across southern Uttar Pradesh and northern Madhya Pradesh.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q043",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Drainage System",
+      "concept": "Peninsular vs Himalayan rivers",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q43",
+      "question": "Which of the following is NOT a characteristic of the peninsular river system?",
+      "options": {
+        "A": "Antecedent and consequent drainage",
+        "B": "Relatively smaller basins",
+        "C": "Dependence on monsoon rainfall",
+        "D": "Fixed courses with broad, shallow valleys",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Antecedent drainage is a feature of Himalayan rivers. Peninsular rivers are seasonal (monsoon-fed), have smaller basins and fixed courses in old, graded valleys.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q044",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Natural Vegetation",
+      "concept": "Sal forests distribution",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q44",
+      "question": "Most of the Sal forests are spread over which part of India?",
+      "options": {
+        "A": "Shivalik ranges of North India",
+        "B": "Western part of India",
+        "C": "Southern Western Ghats",
+        "D": "Eastern part of peninsular India",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Sal (tropical moist deciduous) forests are found mostly in the eastern peninsular region: Jharkhand, Odisha, Chhattisgarh and eastern Madhya Pradesh.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q045",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Polity & Governance",
+      "subtopic": "Disaster Management",
+      "concept": "Nodal ministry for disaster management",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q45",
+      "question": "Which nodal ministry at the Centre coordinates disaster management activities in India?",
+      "options": {
+        "A": "Ministry of Civil Aviation",
+        "B": "Ministry of Health and Family Welfare",
+        "C": "Ministry of Home Affairs",
+        "D": "Ministry of Environment, Forest and Climate Change",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Ministry of Home Affairs is the nodal ministry for disaster management (except drought, which was earlier with Agriculture). NDMA is chaired by the Prime Minister.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q046",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Water Resources",
+      "concept": "Multipurpose river projects",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q46",
+      "question": "Which of the following statements regarding multipurpose river projects is NOT correct?",
+      "options": {
+        "A": "They are developed to control floods and divert surplus water to water-deficient areas.",
+        "B": "Reservoirs are constructed for water storage and the development of aquaculture.",
+        "C": "They are an integrated plan for the development of canal irrigation and hydroelectric power generation.",
+        "D": "They also help in inland navigation and fish breeding.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "As per the source key, statement 3 is not correct as framed; reservoirs of multipurpose projects are built mainly for water storage, irrigation and power, aquaculture is not the purpose of building them.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q047",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Climatology",
+      "concept": "Heat balance of the earth",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q47",
+      "question": "What is 'Heat balance'?",
+      "options": {
+        "A": "The balance between the incident heat absorbed by the Earth and the heat going out as radiation",
+        "B": "Solar radiation",
+        "C": "The balance between the heat emitted by the Sun and the incident heat absorbed by the Earth",
+        "D": "The balance between land and sea temperatures",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Heat balance (heat budget) means the Earth radiates back as much heat as it absorbs from insolation, so its average temperature stays constant.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q048",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "General Science",
+      "subtopic": "Physics: Light",
+      "concept": "Principal axis of spherical mirror",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q48",
+      "question": "Which of the following statements about the principal axis of a spherical mirror is correct?\n(i) It is normal to the mirror.\n(ii) The point of incidence always lies on the principal axis.\n(iii) The principal focus always lies on the principal axis.",
+      "options": {
+        "A": "Only (i)",
+        "B": "Both (i) and (ii)",
+        "C": "Both (i) and (iii)",
+        "D": "Both (ii) and (iii)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The principal axis passes through the pole and centre of curvature, is normal to the mirror at the pole, and contains the principal focus. The point of incidence can be anywhere on the mirror.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q049",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Physics: Astronomy",
+      "concept": "Solar eclipse",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q49",
+      "question": "A solar eclipse occurs when:",
+      "options": {
+        "A": "The Moon is not on the line joining the Sun and the Earth",
+        "B": "The Sun comes between the Moon and the Earth",
+        "C": "The Moon comes between the Sun and the Earth",
+        "D": "The Earth comes between the Sun and the Moon",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a solar eclipse the Moon comes between the Sun and the Earth and casts its shadow on the Earth. When the Earth comes between the Sun and the Moon, it is a lunar eclipse.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q050",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Chemistry: Compounds",
+      "concept": "Common name of sodium carbonate",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q50",
+      "question": "By what name is sodium carbonate commonly known?",
+      "options": {
+        "A": "Baking soda",
+        "B": "Washing soda",
+        "C": "Caustic soda",
+        "D": "Bleaching powder",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Sodium carbonate decahydrate (Na2CO3.10H2O) is washing soda. Baking soda is NaHCO3, caustic soda is NaOH and bleaching powder is CaOCl2.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q051",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Chemistry: Atomic Structure",
+      "concept": "Protons, neutrons, electrons in U-238",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q51",
+      "question": "An atom of uranium-238 (atomic number 92, mass number 238) contains:",
+      "options": {
+        "A": "92 protons, 146 neutrons, 92 electrons",
+        "B": "92 protons, 146 neutrons, 146 electrons",
+        "C": "146 protons, 92 neutrons, 92 electrons",
+        "D": "92 protons, 238 neutrons, 92 electrons",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Protons = atomic number = 92; electrons in a neutral atom = 92; neutrons = 238 - 92 = 146.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q052",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "General Science",
+      "subtopic": "Biology: Human Body",
+      "concept": "Muscles in the heart",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q52",
+      "question": "The heart is devoid of (does not contain):",
+      "options": {
+        "A": "Cardiac muscle",
+        "B": "Involuntary muscle",
+        "C": "Muscle fibres with intercalated discs",
+        "D": "Voluntary muscle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The heart is made of cardiac muscle, which is involuntary and has intercalated discs. It has no voluntary (skeletal) muscle.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q053",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Biology: Human Body",
+      "concept": "Hypoglycemia",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q53",
+      "question": "The condition in which the concentration of glucose in the blood is very low is called:",
+      "options": {
+        "A": "Malaria",
+        "B": "Typhoid",
+        "C": "Hypoglycemia",
+        "D": "Hyperglycemia",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Hypo means low and glycemia refers to blood sugar, so low blood glucose is hypoglycemia. Hyperglycemia is high blood glucose.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q054",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Biology: Nervous System",
+      "concept": "Centre of reflex action",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q54",
+      "question": "The centre of reflex action is:",
+      "options": {
+        "A": "Peripheral (surface) nervous system",
+        "B": "Spinal cord",
+        "C": "Motor nerve",
+        "D": "Cerebrum",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Reflex actions are controlled by the spinal cord through a reflex arc, without involving the brain's conscious centres.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q055",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Mathematics",
+      "subtopic": "Simplification",
+      "concept": "BODMAS",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q55 (expression was an image in the PDF; rebuilt to match the key answer 60)",
+      "question": "Simplify the expression: 25 + 5 x 9 - 30 / 3",
+      "options": {
+        "A": "60",
+        "B": "50",
+        "C": "80",
+        "D": "70",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "By BODMAS: 5 x 9 = 45 and 30 / 3 = 10. So 25 + 45 - 10 = 60.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q056",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "LCM & HCF",
+      "concept": "Smallest perfect square divisible by numbers",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q56",
+      "question": "Find the smallest perfect square number which is exactly divisible by 4, 5, 9 and 12.",
+      "options": {
+        "A": "3600",
+        "B": "400",
+        "C": "2500",
+        "D": "900",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "LCM(4, 5, 9, 12) = 180 = 2^2 x 3^2 x 5. To make it a perfect square multiply by 5: 180 x 5 = 900 = 30^2.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q057",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Mathematics",
+      "subtopic": "Ratio & Proportion",
+      "concept": "Sharing in ratio with difference",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q57",
+      "question": "An amount is to be divided among A, B and C in the ratio 5 : 2 : 8. If the difference between the shares of A and C is Rs. 7,740, what is the total amount?",
+      "options": {
+        "A": "Rs. 30,983",
+        "B": "Rs. 28,976",
+        "C": "Rs. 38,700",
+        "D": "Rs. 25,800",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "C - A = 8 - 5 = 3 parts = 7,740, so 1 part = 2,580. Total = 15 parts = 15 x 2,580 = Rs. 38,700.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q058",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Partnership",
+      "concept": "Profit ratio with withdrawal",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q58",
+      "question": "Mahesh and Harish invest Rs. 20,000 and Rs. 30,000 respectively in a business. If after 3 months Harish withdraws Rs. 5,000 from his investment, in what ratio will the profit be divided between them (at the end of the year)?",
+      "options": {
+        "A": "16 : 22",
+        "B": "16 : 21",
+        "C": "16 : 20",
+        "D": "4 : 5",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Mahesh: 20,000 x 12 = 2,40,000. Harish: 30,000 x 3 + 25,000 x 9 = 90,000 + 2,25,000 = 3,15,000. Ratio = 240 : 315 = 16 : 21.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q059",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Ages",
+      "concept": "Ratio of ages",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q59",
+      "question": "Five years ago, the ratio of the ages of a father and his son was 7 : 2. Five years hence, the ratio of their ages will be 9 : 4. After how many years will the father's age be twice his son's age?",
+      "options": {
+        "A": "10",
+        "B": "9",
+        "C": "8",
+        "D": "12",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Let ages 5 years ago be 7x and 2x. (7x + 10)/(2x + 10) = 9/4 gives x = 5. Present ages: 40 and 15. 40 + t = 2(15 + t) gives t = 10.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q060",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Mathematics",
+      "subtopic": "Percentage",
+      "concept": "Percentage less than",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q60",
+      "question": "In an examination, A's marks are 20% more than B's marks, and C's marks are equal to 85% of the total marks of A and B. By what percentage are A's marks less than C's marks?",
+      "options": {
+        "A": "55.8%",
+        "B": "37.2%",
+        "C": "32.4%",
+        "D": "35.8%",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Let B = 100, then A = 120 and C = 0.85 x 220 = 187. A is less than C by (187 - 120)/187 x 100 = 35.8%.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q061",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Profit & Loss",
+      "concept": "Marked price and discount",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q61",
+      "question": "A trader sells a shirt at 6% less than its marked price. He marks the shirt 15% above its cost price. What is the profit percentage earned by the trader?",
+      "options": {
+        "A": "13.5%",
+        "B": "21%",
+        "C": "8.1%",
+        "D": "9%",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Let CP = 100, then MP = 115 and SP = 115 x 0.94 = 108.1. Profit = 8.1%.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q062",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Mathematics",
+      "subtopic": "Pipes & Cisterns",
+      "concept": "Pipe closed midway",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q62",
+      "question": "Pipe A can fill an empty tank in 5 hours and pipe B takes 6.25 hours to fill it. When the tank was empty, both pipes were opened together, but after some time pipe B was closed, and the tank took 3.4 hours to fill. For how many hours was pipe B open?",
+      "options": {
+        "A": "1.5",
+        "B": "2",
+        "C": "2.5",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A works for all 3.4 hours: 3.4/5 = 0.68 of the tank. The remaining 0.32 is filled by B at 1/6.25 = 0.16 per hour, so B was open 0.32/0.16 = 2 hours.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q063",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Environment",
+      "concept": "58th tiger reserve of India",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q63",
+      "question": "Which national park has recently been declared India's 58th tiger reserve?",
+      "options": {
+        "A": "Madhav National Park",
+        "B": "Pench National Park",
+        "C": "Bandhavgarh National Park",
+        "D": "Kuno National Park",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Madhav National Park in Shivpuri, Madhya Pradesh, was notified as India's 58th tiger reserve in March 2025 (the 9th in Madhya Pradesh).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q064",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "International Relations",
+      "concept": "Cultural property agreement",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q64",
+      "question": "With which country has India recently signed a Cultural Property Agreement to prevent the smuggling of Indian antiquities?",
+      "options": {
+        "A": "United Kingdom",
+        "B": "Germany",
+        "C": "France",
+        "D": "United States of America",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "India and the USA signed the Cultural Property Agreement in July 2024 to prevent illicit trafficking of antiquities from India to the US.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q065",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "States",
+      "concept": "Bihar SEZ districts",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q65",
+      "question": "According to recent information, in which districts will the Bihar government set up Special Economic Zones (SEZ) in 2025?",
+      "options": {
+        "A": "Patna and Gaya",
+        "B": "Muzaffarpur and Bhagalpur",
+        "C": "Buxar and West Champaran",
+        "D": "Darbhanga and Purnia",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Bihar government announced SEZs in Buxar and West Champaran districts in 2025.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q066",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Current Affairs",
+      "subtopic": "Science & Technology",
+      "concept": "FireSat satellite",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q66",
+      "question": "Which company has recently launched the AI-powered 'FireSat' satellite?",
+      "options": {
+        "A": "Tesla",
+        "B": "Google",
+        "C": "Microsoft",
+        "D": "SpaceX",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Google (with Earth Fire Alliance and Muon Space) launched the first FireSat satellite in 2025 to detect wildfires using AI.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q067",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "National",
+      "concept": "Udan Yatri Cafe",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q67",
+      "question": "At which airport did Union Civil Aviation Minister Ram Mohan Naidu recently inaugurate the 'Udan Yatri Cafe'?",
+      "options": {
+        "A": "Chennai International Airport",
+        "B": "Chhatrapati Shivaji Maharaj International Airport",
+        "C": "Indira Gandhi International Airport",
+        "D": "Kempegowda International Airport",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "As per the source, the 'Udan Yatri Cafe' offering affordable food to passengers was inaugurated at Chennai International Airport (after the first one at Kolkata).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q068",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Defence",
+      "concept": "Exercise Dharma Guardian 2025",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q68",
+      "question": "Consider the following statements:\n1. India recently participated in the 6th edition of the joint military exercise 'Dharma Guardian' 2025 with Japan.\n2. The exercise was held from 24 February to 9 March 2025 at the East Fuji Manoeuvre Training Area in Japan.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "Only 1",
+        "B": "Only 2",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Both statements are correct: the 6th edition of the India-Japan exercise Dharma Guardian was held at East Fuji, Japan, from 24 February to 9 March 2025.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q069",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Economy",
+      "concept": "TEAM initiative of MSME",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q69",
+      "question": "What is the main objective of the TEAM initiative recently launched by the Ministry of MSME?",
+      "options": {
+        "A": "To provide financial assistance to small industries",
+        "B": "To promote entrepreneurship in rural areas",
+        "C": "To strengthen the digital presence of small businesses",
+        "D": "To provide skill training to traditional artisans",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "TEAM (Trade Enablement and Marketing) helps micro and small enterprises go online through ONDC, strengthening their digital presence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q070",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Current Affairs",
+      "subtopic": "National",
+      "concept": "First open-air art wall museum",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q70",
+      "question": "Where was India's first open-air art wall museum recently inaugurated?",
+      "options": {
+        "A": "Mumbai",
+        "B": "New Delhi",
+        "C": "Bengaluru",
+        "D": "Kolkata",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "India's first open-air art wall museum was inaugurated in New Delhi.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q071",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Decimal to binary",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q71",
+      "question": "The decimal number (95)10 is equal to:",
+      "options": {
+        "A": "(1011111)2",
+        "B": "(1011101)2",
+        "C": "(1110111)2",
+        "D": "(1011011)2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "95 = 64 + 16 + 8 + 4 + 2 + 1 = (1011111)2.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F01-Q072",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XOR gate",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q72",
+      "question": "Which logic gate gives a high output only when its inputs are different?",
+      "options": {
+        "A": "AND",
+        "B": "XNOR",
+        "C": "OR",
+        "D": "XOR",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A two-input XOR gate outputs 1 only when the inputs differ. XNOR outputs 1 when they are the same.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q073",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "No memory in combinational logic",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q73",
+      "question": "What is the memory element in a combinational logic circuit?",
+      "options": {
+        "A": "Flip-flop",
+        "B": "Latch",
+        "C": "It has no memory element",
+        "D": "Register",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The output of a combinational circuit depends only on its present inputs, so it has no memory element. Flip-flops, latches and registers belong to sequential circuits.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q074",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "8-to-3 encoder",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q74",
+      "question": "How many inputs and outputs does an 8-to-3 encoder have?",
+      "options": {
+        "A": "3 inputs, 8 outputs",
+        "B": "8 inputs, 3 outputs",
+        "C": "4 inputs, 2 outputs",
+        "D": "8 inputs, 8 outputs",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An encoder converts 2^n inputs into n outputs, so an 8-to-3 encoder has 8 inputs and 3 outputs. 3 inputs and 8 outputs describes a decoder.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F01-Q075",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Combinational Circuits",
+      "concept": "Half adder",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q75",
+      "question": "How many inputs and outputs does a Half Adder have?",
+      "options": {
+        "A": "2 inputs, 2 outputs",
+        "B": "2 inputs, 1 output",
+        "C": "3 inputs, 2 outputs",
+        "D": "1 input, 2 outputs",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A half adder adds two bits (A, B) and produces two outputs: Sum and Carry. A full adder has 3 inputs and 2 outputs.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F01-Q076",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Sequential Circuits",
+      "concept": "PIPO register",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q76",
+      "question": "Which register is used to transfer data in a parallel manner at one time?",
+      "options": {
+        "A": "Serial-in, serial-out register",
+        "B": "Parallel-in, serial-out register",
+        "C": "Serial-in, parallel-out register",
+        "D": "Parallel-in, parallel-out register",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A PIPO register loads all bits at once and outputs all bits at once, so data is transferred in parallel.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q077",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Processor Architecture",
+      "concept": "CISC full form",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q77",
+      "question": "What is the full form of CISC?",
+      "options": {
+        "A": "Compact Instruction Sequential Computer",
+        "B": "Common Instruction Set Computer",
+        "C": "Complex Instruction Set Computer",
+        "D": "Complex Integrated System Computer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "CISC stands for Complex Instruction Set Computer, as opposed to RISC (Reduced Instruction Set Computer).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q078",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Processor Architecture",
+      "concept": "Multi-core advantage",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q78",
+      "question": "What is the main advantage of multi-core processors in computer architecture?",
+      "options": {
+        "A": "Reduced power consumption",
+        "B": "Enhanced parallel processing capabilities",
+        "C": "Increased single-core performance",
+        "D": "Larger secondary storage",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Multiple cores can execute multiple threads or tasks simultaneously, giving better parallel processing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q079",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "RAM is volatile",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q79",
+      "question": "What type of memory is RAM?",
+      "options": {
+        "A": "Volatile memory",
+        "B": "Non-volatile memory",
+        "C": "Secondary memory",
+        "D": "Read-only memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "RAM loses its contents when power is switched off, so it is volatile primary memory.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q080",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "Function of ROM",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q80",
+      "question": "What is the main function of ROM?",
+      "options": {
+        "A": "Temporarily store user data",
+        "B": "Permanently store user documents",
+        "C": "Provide high-speed cache",
+        "D": "Store the bootstrap program and firmware",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ROM is non-volatile and stores firmware such as the BIOS and the bootstrap loader needed to start the computer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q081",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Data Structure Basics",
+      "concept": "Non-linear data structures",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q81",
+      "question": "Which of the following is a 'non-linear' data structure?",
+      "options": {
+        "A": "Array",
+        "B": "Linked List",
+        "C": "Graph",
+        "D": "Queue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Trees and graphs are non-linear because elements are not arranged in a single sequence. Arrays, linked lists and queues are linear.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q082",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Stack",
+      "concept": "LIFO principle",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q82",
+      "question": "On what principle does a Stack operate?",
+      "options": {
+        "A": "FIFO (First In, First Out)",
+        "B": "LIFO (Last In, First Out)",
+        "C": "Round-robin order",
+        "D": "Priority order",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a stack, insertion (push) and deletion (pop) happen at the top, so the last element inserted is removed first: LIFO.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q083",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Non-comparison sorting",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q83",
+      "question": "Which of the following is NOT a comparison-based sorting algorithm?",
+      "options": {
+        "A": "Counting Sort",
+        "B": "Selection Sort",
+        "C": "Quick Sort",
+        "D": "Merge Sort",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Counting Sort counts occurrences of key values instead of comparing elements. Quick, Selection and Merge Sort are comparison-based.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q084",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Worst case search in array",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q84",
+      "question": "What is the worst-case time complexity of searching for an element in an (unsorted) array?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n log n)",
+        "D": "O(n)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In the worst case every element must be checked, giving O(n). O(log n) needs a sorted array and binary search.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q085",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Searching",
+      "concept": "Linear search requirement",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q85",
+      "question": "What is the data requirement for a Linear Search algorithm?",
+      "options": {
+        "A": "Data must be sorted",
+        "B": "Data must be in a tree",
+        "C": "Data can be unsorted",
+        "D": "Data must be stored in a stack",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Linear search checks elements one by one, so it works on unsorted data. Sorting is required for binary search.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q086",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Traversal",
+      "concept": "DFS",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q86",
+      "question": "Which graph traversal algorithm explores as far as possible along each branch before backtracking?",
+      "options": {
+        "A": "Breadth-First Search (BFS)",
+        "B": "Depth-First Search (DFS)",
+        "C": "Prim's Algorithm",
+        "D": "Dijkstra's Algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "DFS goes deep along one branch (using a stack or recursion) before backtracking. BFS explores level by level.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q087",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Collision resolution techniques",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q87",
+      "question": "Which technique is used to resolve collisions in a hash table?",
+      "options": {
+        "A": "Only linear probing",
+        "B": "Only chaining",
+        "C": "Only quadratic probing",
+        "D": "Linear probing, chaining and quadratic probing can all be used",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Collisions can be resolved by separate chaining or by open addressing, which includes linear probing and quadratic probing. All three are valid techniques.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q088",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "Internal nodes in full binary tree",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q88",
+      "question": "In a full binary tree, if there are 'n' nodes, what is the number of internal nodes?",
+      "options": {
+        "A": "n/2",
+        "B": "n - 1",
+        "C": "(n + 1)/2",
+        "D": "(n - 1)/2",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a full binary tree, leaves L = I + 1 and n = I + L = 2I + 1, so I = (n - 1)/2. The number of leaves is (n + 1)/2.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q089",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queue",
+      "concept": "Enqueue and dequeue",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q89",
+      "question": "In data structures, 'enqueue' and 'dequeue' operations are related to:",
+      "options": {
+        "A": "Stack",
+        "B": "Linked List",
+        "C": "Queue",
+        "D": "Tree",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Enqueue inserts at the rear and dequeue removes from the front of a queue. Stacks use push and pop.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q090",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Merge sort complexity",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q90",
+      "question": "What is the worst-case time complexity of Merge Sort?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(n^2)",
+        "D": "O(log n)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Merge sort always divides the array into halves (log n levels) and merges in O(n) per level, giving O(n log n) in all cases.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q091",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design",
+      "concept": "Greedy algorithm example",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q91",
+      "question": "Which of the following is an example of a Greedy Algorithm?",
+      "options": {
+        "A": "Kruskal's Algorithm for MST",
+        "B": "Merge Sort",
+        "C": "Bubble Sort",
+        "D": "Binary Search",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Kruskal's algorithm greedily picks the smallest edge that does not form a cycle. Merge Sort and Binary Search are divide and conquer.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q092",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Shortest Path",
+      "concept": "Bellman-Ford with negative edges",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q92",
+      "question": "On what type of graph does the Bellman-Ford algorithm work for the single-source shortest path problem?",
+      "options": {
+        "A": "Only positive edge weights",
+        "B": "Only undirected graphs",
+        "C": "Only acyclic graphs",
+        "D": "Graphs with negative edge weights",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Bellman-Ford works even when edge weights are negative (and can detect negative cycles), unlike Dijkstra's algorithm.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q093",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design",
+      "concept": "Backtracking use",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q93",
+      "question": "Backtracking algorithms are typically used to solve problems that involve:",
+      "options": {
+        "A": "Finding the optimal solution only by greedy choice",
+        "B": "Only shortest paths",
+        "C": "Finding all possible solutions",
+        "D": "Sorting arrays",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Backtracking builds candidates step by step and abandons those that fail, which is used to explore all possible solutions (e.g. N-Queens, subset sum).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q094",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Spanning Trees",
+      "concept": "Prim's algorithm",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q94",
+      "question": "Prim's Algorithm is used to solve which problem?",
+      "options": {
+        "A": "Shortest path problem",
+        "B": "Minimum spanning tree",
+        "C": "Knapsack problem",
+        "D": "Topological sorting",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Prim's algorithm finds a minimum spanning tree of a connected weighted graph by growing it one vertex at a time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q095",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Traversal",
+      "concept": "Checking connectivity",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q95",
+      "question": "Which algorithm can be used to check connectivity in a graph?",
+      "options": {
+        "A": "Breadth-First Search (BFS)",
+        "B": "Dijkstra's Algorithm",
+        "C": "Floyd-Warshall Algorithm",
+        "D": "Binary Search",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Running BFS from any vertex and checking whether all vertices are visited tells whether the graph is connected.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q096",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "OS Components",
+      "concept": "File system",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q96",
+      "question": "Which part of the operating system manages files and directories?",
+      "options": {
+        "A": "Process Scheduler",
+        "B": "Device Driver",
+        "C": "Memory Manager",
+        "D": "File System",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The file system (file management component) organises, stores, names and retrieves files and directories.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q097",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "OS Basics",
+      "concept": "Goals of an operating system",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q97",
+      "question": "Which of the following is NOT a goal of an operating system?",
+      "options": {
+        "A": "Resource allocation",
+        "B": "User interface",
+        "C": "Hardware design",
+        "D": "Process management",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An OS manages resources, processes and provides a user interface. Designing hardware is not its function.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q098",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Types of OS",
+      "concept": "RTOS example",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q98",
+      "question": "Which of the following is an example of a Real-Time Operating System?",
+      "options": {
+        "A": "Windows",
+        "B": "VxWorks",
+        "C": "Linux",
+        "D": "macOS",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "VxWorks is a real-time OS used in embedded systems. Windows, Linux and macOS are general-purpose operating systems.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q099",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Inter-process Communication",
+      "concept": "IPC mechanisms",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q99",
+      "question": "Which mechanism is used for inter-process communication?",
+      "options": {
+        "A": "Shared memory and message passing",
+        "B": "Paging",
+        "C": "Thrashing",
+        "D": "Compaction",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The two basic IPC models are shared memory and message passing (with semaphores used for synchronisation). Paging and compaction are memory management techniques and thrashing is a performance problem.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q100",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock",
+      "concept": "Deadlock prevention",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q100",
+      "question": "Which strategy is used to prevent deadlock?",
+      "options": {
+        "A": "Allowing hold and wait",
+        "B": "Resource holding",
+        "C": "Increasing the time quantum",
+        "D": "Circular wait prevention",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Deadlock is prevented by denying one of the four necessary conditions; ordering resources to break circular wait is a standard method. Hold and wait is a condition that causes deadlock.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q101",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual Memory",
+      "concept": "Page fault",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q101",
+      "question": "When does a Page Fault occur?",
+      "options": {
+        "A": "When a page is found in main memory",
+        "B": "When a page is written to disk",
+        "C": "When a page is not found in main memory",
+        "D": "When a page is replaced using LRU",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A page fault occurs when a referenced page is not present in main memory and must be brought in from secondary storage.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q102",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Paging",
+      "concept": "Virtual address split",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q102",
+      "question": "In paging, a virtual address is divided into:",
+      "options": {
+        "A": "Segment number and offset",
+        "B": "Page number and page offset",
+        "C": "Frame number and frame offset",
+        "D": "Cylinder and sector",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The logical address in paging = page number (index into page table) + page offset. Segment number and offset is used in segmentation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q103",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Disk Scheduling",
+      "concept": "SSTF",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q103",
+      "question": "Which of the following is a disk scheduling algorithm?",
+      "options": {
+        "A": "SSTF (Shortest Seek Time First)",
+        "B": "Round Robin",
+        "C": "LRU",
+        "D": "Optimal (OPT) page replacement",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SSTF serves the request closest to the current head position. LRU and OPT are page replacement algorithms and Round Robin is a CPU scheduling algorithm.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q104",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "I/O Management",
+      "concept": "DMA",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q104",
+      "question": "Which method is used to reduce the burden on the CPU for completing Input/Output (I/O) operations?",
+      "options": {
+        "A": "Programmed I/O",
+        "B": "Busy waiting",
+        "C": "Polling I/O",
+        "D": "DMA (Direct Memory Access)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DMA lets a controller transfer data directly between memory and the device, so the CPU is free during the transfer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q105",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "File Allocation",
+      "concept": "Indexed allocation",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q105",
+      "question": "In a file system, what is the main advantage of 'indexed allocation'?",
+      "options": {
+        "A": "Simple implementation",
+        "B": "No index block overhead",
+        "C": "Direct access to any block",
+        "D": "Blocks must be contiguous",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Indexed allocation keeps all block pointers in an index block, so any block can be accessed directly. It does need extra space for the index block.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q106",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process Management",
+      "concept": "Concurrency",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q106",
+      "question": "What is 'Concurrency'?",
+      "options": {
+        "A": "Execution of only one process at a time.",
+        "B": "Multiple processes executing (or appearing to execute) at the same time.",
+        "C": "Sequential execution of processes.",
+        "D": "Running a process only on the GPU.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Concurrency means multiple processes make progress in overlapping time periods, either truly in parallel or by interleaving on one CPU.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q107",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Disk Structure",
+      "concept": "CHS addressing",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q107",
+      "question": "Which parameters are used together to identify the location of data on a disk?",
+      "options": {
+        "A": "Only the sector number",
+        "B": "Only the track number",
+        "C": "Only the cylinder number",
+        "D": "Cylinder, head (track) and sector together (CHS address)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Data on a disk is located by its CHS address: cylinder, head (track) and sector numbers are all needed together.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q108",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "Data hierarchy",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q108",
+      "question": "What is the largest logical unit of data in a DBMS?",
+      "options": {
+        "A": "Field",
+        "B": "Record",
+        "C": "File (table)",
+        "D": "Database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Data hierarchy: bit, byte, field, record, file (table), database. The database is the largest unit.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q109",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Integrity Constraints",
+      "concept": "Types of data integrity",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q109",
+      "question": "Which of the following is a type of 'Data Integrity' in DBMS?",
+      "options": {
+        "A": "Only entity integrity",
+        "B": "Only referential integrity",
+        "C": "Only domain integrity",
+        "D": "Entity, referential and domain integrity are all types",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Entity integrity (primary key not null and unique), referential integrity (valid foreign keys) and domain integrity (valid values for attributes) are all types of data integrity.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q110",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "Purpose of join",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q110",
+      "question": "What is the 'Join' operation used for in a database?",
+      "options": {
+        "A": "To delete data from two tables.",
+        "B": "To combine related data from two or more tables.",
+        "C": "To insert new data into a table.",
+        "D": "To create a backup of a table.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A JOIN combines rows from two or more tables based on a related column.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q111",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL DDL",
+      "concept": "ALTER TABLE ADD",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q111",
+      "question": "Which command is used to add a new column to an existing table in SQL?",
+      "options": {
+        "A": "ALTER TABLE ... ADD COLUMN",
+        "B": "INSERT COLUMN",
+        "C": "ADD COLUMN",
+        "D": "UPDATE TABLE ... ADD",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Structure changes use ALTER TABLE, e.g. ALTER TABLE student ADD COLUMN age INT. INSERT adds rows and UPDATE modifies values.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q112",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Primary key",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q112",
+      "question": "What is the main characteristic of a Primary Key for a relation in a database?",
+      "options": {
+        "A": "It allows duplicate values.",
+        "B": "It allows null values.",
+        "C": "A table can have many primary keys.",
+        "D": "It uniquely identifies each record in the table.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A primary key uniquely identifies each tuple; it cannot be NULL or duplicate, and a table has only one primary key.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q113",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "Data redundancy",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q113",
+      "question": "What does 'Data Redundancy' mean in a DBMS?",
+      "options": {
+        "A": "Accuracy and consistency of data.",
+        "B": "Removing unnecessary data from the database.",
+        "C": "Storing the same data in multiple places.",
+        "D": "Encrypting data for security.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Redundancy is duplication of the same data in many places, which wastes space and can cause inconsistency. Accuracy and consistency describes integrity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q114",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "ACID properties",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q114",
+      "question": "'ACID properties' in DBMS are related to:",
+      "options": {
+        "A": "Database Design",
+        "B": "Transaction Management",
+        "C": "Data Security",
+        "D": "Data Compression",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Atomicity, Consistency, Isolation and Durability are the properties that a reliable transaction must satisfy.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q115",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "DBMS Basics",
+      "concept": "Schema",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q115",
+      "question": "What is a 'Schema' in the context of a database?",
+      "options": {
+        "A": "The logical structure or design of the database.",
+        "B": "The actual data stored in the database.",
+        "C": "The number of users of the database.",
+        "D": "A query used to fetch data.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A schema is the overall logical design (tables, attributes, relationships). The actual data at a moment is an instance.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q116",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "TCP/IP Model",
+      "concept": "Network access layer mapping",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q116",
+      "question": "The Network Access Layer of the TCP/IP model is equivalent to which layers of the OSI model?",
+      "options": {
+        "A": "Data Link and Network layers",
+        "B": "Session and Presentation layers",
+        "C": "Transport and Application layers",
+        "D": "Physical and Data Link layers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The TCP/IP Network Access (Link) layer combines the OSI Physical and Data Link layers. The OSI Network layer maps to the TCP/IP Internet layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q117",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Router",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q117",
+      "question": "Which network device is used to connect different network segments and route data packets?",
+      "options": {
+        "A": "Hub",
+        "B": "Switch",
+        "C": "Router",
+        "D": "Repeater",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A router works at the network layer and forwards packets between different networks using IP addresses.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q118",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Types of Networks",
+      "concept": "LAN",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q118",
+      "question": "What is a network of computers located within the same small geographical area (like a building) called?",
+      "options": {
+        "A": "WAN",
+        "B": "LAN",
+        "C": "MAN",
+        "D": "PAN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A Local Area Network connects computers within a limited area such as a room, building or campus.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q119",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Data Transmission",
+      "concept": "Bandwidth",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q119",
+      "question": "What does 'Bandwidth' mean in data transmission?",
+      "options": {
+        "A": "The maximum amount of data that can be transmitted over a network in a given period.",
+        "B": "The time taken for data transmission.",
+        "C": "The physical length of the network cable.",
+        "D": "The number of devices on the network.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bandwidth is the maximum data transfer capacity of a channel, measured in bits per second. Time taken is latency.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q120",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Firewall",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q120",
+      "question": "Which network security device protects a network from unauthorised access and malicious activities?",
+      "options": {
+        "A": "DNS",
+        "B": "Repeater",
+        "C": "Proxy server",
+        "D": "Firewall",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A firewall filters incoming and outgoing traffic according to security rules to block unauthorised access.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q121",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Transport layer",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q121",
+      "question": "In the OSI model, which layer is responsible for ensuring end-to-end connectivity and data integrity?",
+      "options": {
+        "A": "Network layer",
+        "B": "Data Link layer",
+        "C": "Transport layer",
+        "D": "Session layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The transport layer (e.g. TCP) provides end-to-end delivery, error control, flow control and segmentation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q122",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transmission Media",
+      "concept": "Guided media security",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q122",
+      "question": "Which is the most secure way to transmit data from one device to another?",
+      "options": {
+        "A": "Wireless transmission",
+        "B": "Guided media (such as Ethernet cable)",
+        "C": "Unguided media (such as radio waves)",
+        "D": "Infrared transmission",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Guided (wired) media keep the signal inside a physical cable, making interception harder than with signals broadcast through the air.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q123",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Waterfall model drawback",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q123",
+      "question": "What is the main drawback of the 'Waterfall Model' in software engineering?",
+      "options": {
+        "A": "Phases are completed sequentially and it is difficult to go back to earlier phases.",
+        "B": "It easily accommodates changes.",
+        "C": "Customer involvement is very high.",
+        "D": "It has no documentation.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The waterfall model is linear and rigid; once a phase is complete, going back to change requirements or design is difficult and costly.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q124",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Maintenance",
+      "concept": "Maintenance activities",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q124",
+      "question": "Which activity is involved in 'Software Maintenance'?",
+      "options": {
+        "A": "Development of new software.",
+        "B": "Writing the initial requirements document.",
+        "C": "Only testing the quality of software.",
+        "D": "Improving existing software and fixing errors.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Maintenance means modifying delivered software to correct faults, improve performance or adapt to changes.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q125",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Agile objective",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q125",
+      "question": "What is the main objective of 'Agile Methodology'?",
+      "options": {
+        "A": "To prevent changes in customer requirements.",
+        "B": "To focus on detailed documentation.",
+        "C": "To enable rapid and adaptive development.",
+        "D": "To finish all phases strictly one after another.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Agile delivers software in short iterations and welcomes changing requirements, enabling rapid and adaptive development.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q126",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Types of testing",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q126",
+      "question": "Which of the following is NOT a type of software testing?",
+      "options": {
+        "A": "Unit Testing",
+        "B": "Manufacturing Testing",
+        "C": "Integration Testing",
+        "D": "System Testing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Unit, integration and system testing are software testing levels. Manufacturing testing relates to hardware production.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q127",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOP Concepts",
+      "concept": "Inheritance",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q127",
+      "question": "What does 'Inheritance' mean in Object-Oriented Programming (OOP)?",
+      "options": {
+        "A": "One class/object acquiring the properties and methods of another.",
+        "B": "Using different types of data under the same name.",
+        "C": "Hiding data from outside access.",
+        "D": "Binding a function call at run time.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Inheritance lets a derived class reuse properties and methods of a base class. Using one name for many forms is polymorphism and hiding data is encapsulation.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q128",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "C++ Access Specifiers",
+      "concept": "Private members",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q128",
+      "question": "In C++, members of a class that can be accessed only by members of the same class and its friend functions are defined under which access specifier?",
+      "options": {
+        "A": "Public",
+        "B": "Static",
+        "C": "Protected",
+        "D": "Private",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Private members are accessible only within the class and by its friends. Protected members are also accessible in derived classes.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q129",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Scripting",
+      "concept": "JavaScript client-side",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q129",
+      "question": "Which scripting language runs on the client side to make web pages interactive?",
+      "options": {
+        "A": "PHP",
+        "B": "Python",
+        "C": "JavaScript",
+        "D": "Perl",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "JavaScript runs in the browser (client side). PHP, Python and Perl are typically used on the server side.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q130",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Internet Protocols",
+      "concept": "HTTPS meaning",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q130",
+      "question": "What does the 'S' stand for in 'HTTPS'?",
+      "options": {
+        "A": "Simple",
+        "B": "Secure",
+        "C": "Standard",
+        "D": "Server",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "HTTPS is HyperText Transfer Protocol Secure; it encrypts traffic using SSL/TLS.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F01-Q131",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "PHP",
+      "concept": "Variable prefix",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q131",
+      "question": "Which symbol marks the beginning of a variable name in PHP?",
+      "options": {
+        "A": "$",
+        "B": "#",
+        "C": "@",
+        "D": "&",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "All PHP variables start with the $ sign, e.g. $name.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q132",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "PHP",
+      "concept": "foreach loop",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q132",
+      "question": "In PHP, which loop is specially used to iterate over all the values of an array?",
+      "options": {
+        "A": "for loop",
+        "B": "while loop",
+        "C": "switch statement",
+        "D": "foreach loop",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "foreach is designed for arrays: foreach ($arr as $value) visits every element without an index counter.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q133",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Scripting",
+      "concept": "Client-side scripting languages",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q133",
+      "question": "Which of the following is a client-side scripting language?",
+      "options": {
+        "A": "Python",
+        "B": "Ruby",
+        "C": "VBScript",
+        "D": "HTML",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "VBScript (like JavaScript) can run in the browser as a client-side scripting language. Python and Ruby are mainly server-side, and HTML is a markup language, not a scripting language.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q134",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "concept": "FA and regular languages",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q134",
+      "question": "'Finite Automata' are primarily used for which type of languages?",
+      "options": {
+        "A": "Context-free languages",
+        "B": "Regular languages",
+        "C": "Context-sensitive languages",
+        "D": "Recursively enumerable languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Finite automata recognise exactly the regular languages. Context-free languages need pushdown automata and recursively enumerable languages need Turing machines.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q135",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expressions",
+      "concept": "Meaning of a*b",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q135",
+      "question": "What does the regular expression a*b mean?",
+      "options": {
+        "A": "Any number of 'a's (zero or more), followed by exactly one 'b'.",
+        "B": "Strings containing only 'a' and 'b' in any order.",
+        "C": "Any number of 'a's and any number of 'b's.",
+        "D": "Exactly one 'a' followed by any number of 'b's.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "a* means zero or more a's and is followed by a single b, e.g. b, ab, aab.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q136",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Theory of Computation",
+      "subtopic": "Grammars",
+      "concept": "Context-free grammar definition",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q136",
+      "question": "When is a grammar called a 'Context-Free Grammar' (CFG)?",
+      "options": {
+        "A": "If its production rules are of the form xAy -> xzy, depending on the surrounding symbols.",
+        "B": "If its production rules are of the form aA -> B.",
+        "C": "If its production rules generate only terminals.",
+        "D": "If its production rules are of the form A -> B, where A is a single non-terminal and B is any string of terminals and non-terminals.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a CFG, the left side of every production is a single non-terminal, so it can be replaced regardless of context. A rule like xAy -> xzy is context-sensitive.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q137",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Compiler Design",
+      "subtopic": "Phases of Compiler",
+      "concept": "Lexical analysis",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q137",
+      "question": "What is the main function of 'Lexical Analysis' in compiler design?",
+      "options": {
+        "A": "Identifying syntax errors.",
+        "B": "Generating machine code.",
+        "C": "Breaking the input program into tokens.",
+        "D": "Optimising the code.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The lexical analyser (scanner) reads the source characters and groups them into tokens. Syntax errors are found in parsing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q138",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Basics",
+      "concept": "Components of IoT",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q138",
+      "question": "Which of the following is NOT a major component of IoT (Internet of Things)?",
+      "options": {
+        "A": "Sensors and actuators",
+        "B": "Traditional printer",
+        "C": "Connectivity",
+        "D": "Cloud / data processing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IoT systems consist of sensors/actuators, connectivity, data processing and a user interface. A traditional printer is not an IoT component.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q139",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Applications",
+      "concept": "Smart home example",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q139",
+      "question": "What is an example of a 'Smart Home' application in IoT?",
+      "options": {
+        "A": "Automated lighting and thermostat control.",
+        "B": "Playing games on a smartphone.",
+        "C": "Doing online shopping.",
+        "D": "Sending an email.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Smart home IoT uses connected devices to automate lights, temperature, security and appliances.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q140",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "IoT Sensors",
+      "concept": "Sensors in IoT",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q140",
+      "question": "What types of sensors are commonly used to collect data in IoT devices?",
+      "options": {
+        "A": "Only temperature sensors",
+        "B": "Only motion sensors",
+        "C": "Only pressure sensors",
+        "D": "Various sensors like temperature, humidity, light, etc.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "IoT devices use many kinds of sensors depending on the application, such as temperature, humidity, light, motion and pressure.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q141",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Edge Computing",
+      "concept": "Importance of edge computing",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q141",
+      "question": "What is the importance of 'Edge Computing' in IoT?",
+      "options": {
+        "A": "Sending all data immediately to a central cloud server.",
+        "B": "Increasing power consumption of IoT devices.",
+        "C": "Processing data closer to the source, reducing latency.",
+        "D": "Storing data only on local hard disks permanently.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Edge computing processes data near where it is generated, reducing latency and bandwidth needed to reach the cloud.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q142",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Definition of ML",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q142",
+      "question": "What does 'Machine Learning' mean in AI?",
+      "options": {
+        "A": "Only teaching a computer to follow instructions.",
+        "B": "The ability of computers to learn from data and make predictions without being explicitly programmed.",
+        "C": "Teaching a computer to talk like a human.",
+        "D": "Building faster computer hardware.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Machine learning lets systems learn patterns from data and improve without explicit rules for every case. Talking like humans is NLP.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q143",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "AI Basics",
+      "concept": "Subfields of AI",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q143",
+      "question": "Which of the following is NOT a subfield of AI?",
+      "options": {
+        "A": "Traditional web design",
+        "B": "Natural Language Processing (NLP)",
+        "C": "Robotics",
+        "D": "Computer vision",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Robotics, NLP and computer vision are AI subfields. Traditional web design is not.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q144",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Deep Learning",
+      "concept": "Multi-layer neural networks",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q144",
+      "question": "'Deep Learning' is based on what type of neural network?",
+      "options": {
+        "A": "Only single-layer perceptron",
+        "B": "Rule-based expert systems",
+        "C": "Decision trees only",
+        "D": "Multi-layer neural networks",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Deep learning uses neural networks with many hidden layers. A single-layer perceptron is not 'deep'.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q145",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "Advantage of e-commerce",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q145",
+      "question": "What is the main advantage of E-commerce?",
+      "options": {
+        "A": "Limited customer reach",
+        "B": "Operating only physical stores",
+        "C": "24/7 availability and global reach",
+        "D": "Higher need for physical presence of customers",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "E-commerce lets businesses sell round the clock to customers anywhere in the world.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q146",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce",
+      "concept": "B2C model",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q146",
+      "question": "What is an example of a 'B2C' e-commerce model?",
+      "options": {
+        "A": "A company selling products to another company.",
+        "B": "A business selling products directly to consumers.",
+        "C": "An individual selling products to another individual.",
+        "D": "A consumer selling services to a business.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "B2C (Business to Consumer) means a business sells directly to end consumers, e.g. an online retail store. The others describe B2B, C2C and C2B.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q147",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "E-commerce Security",
+      "concept": "SSL/TLS",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q147",
+      "question": "Which protocol is used to ensure security in e-commerce transactions?",
+      "options": {
+        "A": "SSL/TLS",
+        "B": "SMTP",
+        "C": "FTP",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SSL/TLS encrypts data between the browser and server, protecting payment details. FTP, SMTP and plain HTTP are not secure by themselves.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F01-Q148",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia",
+      "concept": "Audio in multimedia",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q148",
+      "question": "What does 'Audio' mean in multimedia?",
+      "options": {
+        "A": "Only graphics and images",
+        "B": "Only text content",
+        "C": "Only video content",
+        "D": "Sound and music",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Audio is the sound element of multimedia: speech, music and sound effects.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "F01-Q149",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia",
+      "concept": "Combining images with text",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_1.pdf, Q149 (answer key missing in PDF)",
+      "question": "What is the benefit of combining images with text in a multimedia presentation?",
+      "options": {
+        "A": "Focusing only on text information.",
+        "B": "Slowing down the presentation.",
+        "C": "Making information more engaging and easier to understand.",
+        "D": "Only increasing the file size.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Images with text improve attention and understanding. (The PDF does not print an answer key for this question; option 2 is the evident answer.)",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F01-Q150",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Multimedia",
+      "concept": "Lossy image format",
+      "source": "Generated",
+      "sourceRef": "Full_Length_Test_1.pdf, Q150 missing in PDF; added to complete 150",
+      "question": "Which of the following image file formats uses lossy compression and is commonly used for photographs in multimedia?",
+      "options": {
+        "A": "PNG",
+        "B": "JPEG",
+        "C": "BMP",
+        "D": "GIF",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "JPEG uses lossy compression, giving small file sizes for photos. PNG and GIF use lossless compression and BMP is usually uncompressed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

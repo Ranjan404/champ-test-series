@@ -1,0 +1,4076 @@
+{
+  "setId": 5,
+  "title": "Full Length Test 5",
+  "sections": [
+    {
+      "name": "Language (English & Hindi)",
+      "from": 1,
+      "to": 30,
+      "count": 30
+    },
+    {
+      "name": "GK & GS",
+      "from": 31,
+      "to": 70,
+      "count": 40
+    },
+    {
+      "name": "Computer Science",
+      "from": 71,
+      "to": 150,
+      "count": 80
+    }
+  ],
+  "questions": [
+    {
+      "id": "F05-Q001",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "One Word Substitution",
+      "concept": "Polyglot",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q1",
+      "question": "Select the option that can be used as a one-word substitute for the underlined group of words:\n\"Ravi got the job easily because he speaks many languages.\"",
+      "options": {
+        "A": "Polygamist",
+        "B": "Polycentric",
+        "C": "Polyglot",
+        "D": "Polynomial",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A polyglot is a person who knows and speaks several languages. A polynomial is a mathematical expression and polycentric means having many centres.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q002",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Idioms & Phrases",
+      "concept": "Tit for tat",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q2",
+      "question": "Select the most appropriate meaning of the given idiom:\n\"Tit for tat\"",
+      "options": {
+        "A": "A wild guess",
+        "B": "Counter attack",
+        "C": "A friendly exchange of gifts",
+        "D": "Prepare to leave",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'Tit for tat' means retaliating in the same way as one has been treated, i.e., a counter attack or blow for blow.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Question Misread",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q003",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "English Language",
+      "subtopic": "Synonyms",
+      "concept": "Perturbed",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q3",
+      "question": "Select the denotation of the underlined word:\n\"The archer doesn't get perturbed easily.\"",
+      "options": {
+        "A": "Animated",
+        "B": "Triumphed",
+        "C": "Composed",
+        "D": "Agitated",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'Perturbed' means anxious, unsettled or agitated. 'Composed' is its opposite.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "F05-Q004",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Process",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q4",
+      "question": "Tree plantation is the (I) ______ of transplanting saplings or seeds to maximise the amount of greenery and focus on promoting (II) ______. Planting trees can be a very rewarding and fruitful (III) ______! Not only is it (IV) ______ beneficial for this planet, but it also contributes to helping create an environmentally friendly place to live, as trees help reduce pollutant (V) ______.\n\nSelect the most appropriate option to fill in blank No. (I).",
+      "options": {
+        "A": "Aspect",
+        "B": "Mechanism",
+        "C": "Process",
+        "D": "Outcome",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Tree plantation is a process (a series of actions) of transplanting saplings or seeds.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q005",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Afforestation",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q5",
+      "question": "Tree plantation is the (I) ______ of transplanting saplings or seeds to maximise the amount of greenery and focus on promoting (II) ______. Planting trees can be a very rewarding and fruitful (III) ______! Not only is it (IV) ______ beneficial for this planet, but it also contributes to helping create an environmentally friendly place to live, as trees help reduce pollutant (V) ______.\n\nSelect the most appropriate option to fill in blank No. (II).",
+      "options": {
+        "A": "Urbanisation",
+        "B": "Land reservation",
+        "C": "Afforestation",
+        "D": "Deforestation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Planting trees promotes afforestation, i.e., creating forest cover. Deforestation is the opposite.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F05-Q006",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Endeavour",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q6",
+      "question": "Tree plantation is the (I) ______ of transplanting saplings or seeds to maximise the amount of greenery and focus on promoting (II) ______. Planting trees can be a very rewarding and fruitful (III) ______! Not only is it (IV) ______ beneficial for this planet, but it also contributes to helping create an environmentally friendly place to live, as trees help reduce pollutant (V) ______.\n\nSelect the most appropriate option to fill in blank No. (III).",
+      "options": {
+        "A": "Burden",
+        "B": "Endeavour",
+        "C": "Labour",
+        "D": "Order",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'A rewarding and fruitful endeavour' (an attempt or undertaking) is the natural collocation here.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q007",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Ecologically",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q7",
+      "question": "Tree plantation is the (I) ______ of transplanting saplings or seeds to maximise the amount of greenery and focus on promoting (II) ______. Planting trees can be a very rewarding and fruitful (III) ______! Not only is it (IV) ______ beneficial for this planet, but it also contributes to helping create an environmentally friendly place to live, as trees help reduce pollutant (V) ______.\n\nSelect the most appropriate option to fill in blank No. (IV).",
+      "options": {
+        "A": "Socially",
+        "B": "Economically",
+        "C": "Physically",
+        "D": "Ecologically",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Trees are ecologically beneficial for the planet as they maintain environmental balance.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q008",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Concentration",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q8",
+      "question": "Tree plantation is the (I) ______ of transplanting saplings or seeds to maximise the amount of greenery and focus on promoting (II) ______. Planting trees can be a very rewarding and fruitful (III) ______! Not only is it (IV) ______ beneficial for this planet, but it also contributes to helping create an environmentally friendly place to live, as trees help reduce pollutant (V) ______.\n\nSelect the most appropriate option to fill in blank No. (V).",
+      "options": {
+        "A": "Calculation",
+        "B": "Concentration",
+        "C": "Method",
+        "D": "Dispersion",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Trees help reduce the concentration (amount present) of pollutants in the air.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q009",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Boliyan",
+      "concept": "अवधी का अन्य नाम",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q9",
+      "question": "'अवधी बोली' का अन्य नाम है:",
+      "options": {
+        "A": "भोजपुरी",
+        "B": "बनाफरी",
+        "C": "कोसली",
+        "D": "बैगानी",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "अवधी को प्राचीन कोसल प्रदेश के नाम पर 'कोसली' भी कहा जाता है। बनाफरी बुंदेली की तथा बैगानी छत्तीसगढ़ी की उपबोली है।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q010",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Varn Vichar",
+      "concept": "अयोगवाह",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q10",
+      "question": "ऐसी कौन-सी दो मात्राएँ हैं जिनका प्रयोग तो किया जाता है किंतु उनका समावेश 'स्वर' में नहीं किया जाता है?",
+      "options": {
+        "A": "ऋ, उ",
+        "B": "अं, अः",
+        "C": "ए, ऐ",
+        "D": "अँ, ऑ",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "अं (अनुस्वार) और अः (विसर्ग) अयोगवाह कहलाते हैं। इनका प्रयोग होता है परंतु इन्हें न स्वर में गिना जाता है न व्यंजन में।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q011",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Varn Vichar",
+      "concept": "अनुनासिक",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q11",
+      "question": "अनुनासिक का संबंध होता है:",
+      "options": {
+        "A": "नाक और मुख से",
+        "B": "कंठ और तालु से",
+        "C": "केवल मुख से",
+        "D": "केवल नाक से",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "अनुनासिक (चंद्रबिंदु) ध्वनि के उच्चारण में वायु मुख और नासिका दोनों से निकलती है, जैसे: आँख, चाँद।",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q012",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Upsarg",
+      "concept": "प्रत्यक्ष में उपसर्ग",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q12",
+      "question": "'प्रत्यक्ष' शब्द में उपसर्ग है:",
+      "options": {
+        "A": "प्र",
+        "B": "प्रा",
+        "C": "प्रति",
+        "D": "प्रत्य",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "प्रत्यक्ष = प्रति + अक्ष (यण संधि)। अतः इसमें 'प्रति' उपसर्ग है।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q013",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Visheshan",
+      "concept": "स्थानबोधक विशेषण",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q13",
+      "question": "\"चीनी, मद्रासी, बिहारी\" आदि शब्द कौन-सा विशेषण हैं?",
+      "options": {
+        "A": "स्थानबोधक",
+        "B": "अवस्थाबोधक",
+        "C": "कालबोधक",
+        "D": "दिशाबोधक",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ये शब्द किसी स्थान (चीन, मद्रास, बिहार) से संबंध बताते हैं, अतः ये गुणवाचक विशेषण के स्थानबोधक भेद हैं।",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q014",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Sangya",
+      "concept": "संज्ञा की पहचान",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q14",
+      "question": "निम्नलिखित शब्दों में से संज्ञा को पहचानिए:",
+      "options": {
+        "A": "नियमित",
+        "B": "पाश्चात्य",
+        "C": "सामाजिक",
+        "D": "अनुशासन",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'अनुशासन' भाववाचक संज्ञा है। नियमित, पाश्चात्य और सामाजिक विशेषण हैं।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q015",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Ling",
+      "concept": "विधुर का स्त्रीलिंग",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q15",
+      "question": "दिए गए विकल्पों में से 'विधुर' का स्त्रीलिंग कौन-सा है?",
+      "options": {
+        "A": "विधुरनी",
+        "B": "विधुरा",
+        "C": "विधवा",
+        "D": "विधुरी",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'विधुर' (जिसकी पत्नी मर गई हो) का स्त्रीलिंग 'विधवा' है। यह नित्य पुल्लिंग-स्त्रीलिंग युग्म है।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q016",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Ling",
+      "concept": "स्त्रीलिंग शब्द",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q16",
+      "question": "इनमें स्त्रीलिंग शब्द कौन-सा है?",
+      "options": {
+        "A": "मोती",
+        "B": "ख्याति",
+        "C": "पर्वत",
+        "D": "पानी",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'ख्याति' स्त्रीलिंग है (उसकी ख्याति फैल गई)। पर्वत, मोती और पानी पुल्लिंग हैं; मोती और पानी ई-कारांत होने पर भी पुल्लिंग हैं।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q017",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Visheshan",
+      "concept": "आकाश से विशेषण",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q17",
+      "question": "निम्नलिखित में से \"आकाश\" शब्द से बनने वाला विशेषण क्या होगा?",
+      "options": {
+        "A": "आकाशगंगा",
+        "B": "आकाशी",
+        "C": "आकाशवत",
+        "D": "आकाशीय",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "आकाश + ईय प्रत्यय = आकाशीय (विशेषण)। आकाशगंगा संज्ञा (समस्त पद) है।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q018",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Kriya",
+      "concept": "सकर्मक क्रिया",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q18",
+      "question": "निम्नलिखित में सही सकर्मक क्रिया का उदाहरण पहचानिए:",
+      "options": {
+        "A": "सूरज उग रहा है",
+        "B": "बच्चा सो रहा है",
+        "C": "सीता वीणा बजा रही है",
+        "D": "कशिश हँस रही है",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'सीता वीणा बजा रही है' में क्रिया 'बजाना' का कर्म 'वीणा' है, अतः यह सकर्मक क्रिया है। उगना, हँसना, सोना अकर्मक हैं।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q019",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Kriya",
+      "concept": "अकर्मक क्रिया",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q19",
+      "question": "इनमें से किस वाक्य में अकर्मक क्रिया है?",
+      "options": {
+        "A": "माँ स्वेटर बुनती है",
+        "B": "रामू खाना खा रहा है",
+        "C": "श्याम हँसता है",
+        "D": "राधा पत्र लिखती है",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'हँसना' क्रिया का कोई कर्म नहीं है, अतः 'श्याम हँसता है' में अकर्मक क्रिया है। अन्य वाक्यों में स्वेटर, खाना, पत्र कर्म हैं।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q020",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Kriya Visheshan",
+      "concept": "कालवाचक क्रिया-विशेषण",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q20",
+      "question": "'वह एक सप्ताह बाद आया' इस वाक्य में कौन-सा शब्द क्रिया-विशेषण है?",
+      "options": {
+        "A": "आया",
+        "B": "एक",
+        "C": "वह",
+        "D": "बाद",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'बाद' शब्द 'आया' क्रिया के समय की विशेषता बताता है, अतः यह कालवाचक क्रिया-विशेषण है। 'वह' सर्वनाम, 'एक' विशेषण और 'आया' क्रिया है।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q021",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Vakya Bhed",
+      "concept": "इच्छावाचक वाक्य",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q21",
+      "question": "'सदा सच बोलना चाहिए' यह किस प्रकार का वाक्य भेद है?",
+      "options": {
+        "A": "इच्छावाचक",
+        "B": "संकेतवाचक",
+        "C": "संदेहवाचक",
+        "D": "आज्ञावाचक",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "दिए गए स्रोत के अनुसार उत्तर 'इच्छावाचक' है, क्योंकि वाक्य में वक्ता की इच्छा/कामना (सच बोलने की अपेक्षा) व्यक्त हो रही है।",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q022",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Hindi Language",
+      "subtopic": "Ek Shabd",
+      "concept": "प्रोषितपतिका",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q22",
+      "question": "'वह स्त्री जिसका पति परदेश (विदेश) गया हो' - वाक्यांश के लिए एक शब्द है:",
+      "options": {
+        "A": "नवोढ़ा",
+        "B": "प्रोषितपतिका",
+        "C": "आगतपतिका",
+        "D": "प्रवत्स्यत्पतिका",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "प्रोषितपतिका: जिसका पति परदेश गया हो। प्रवत्स्यत्पतिका: जिसका पति परदेश जाने वाला हो। आगतपतिका: जिसका पति परदेश से लौटा हो। नवोढ़ा: नवविवाहिता।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q023",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Lokokti",
+      "concept": "सावन हरे न भादों सूखे",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q23",
+      "question": "'सदा एक समान' रहने पर प्रयुक्त लोकोक्ति है:",
+      "options": {
+        "A": "जैसी करनी वैसी भरनी",
+        "B": "साँच को आँच नहीं",
+        "C": "सावन हरे न भादों सूखे",
+        "D": "भागते चोर की लंगोटी ही सही",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'सावन हरे न भादों सूखे' का अर्थ है सदा एक-सी स्थिति में रहना।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q024",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Muhavare",
+      "concept": "शुक्र करना",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q24",
+      "question": "'शुक्र करना' मुहावरे का अर्थ क्या है?",
+      "options": {
+        "A": "शक्ति संचित नहीं कर पाना",
+        "B": "शिकायत करना",
+        "C": "बरबाद होना",
+        "D": "एहसान मानना",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'शुक्र करना' का अर्थ है धन्यवाद देना या एहसान मानना।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q025",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Samas",
+      "concept": "तत्पुरुष समास",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q25",
+      "question": "इनमें से कौन-सा तत्पुरुष समास है?",
+      "options": {
+        "A": "नीलकंठ",
+        "B": "अष्टाध्यायी",
+        "C": "शीतोष्ण",
+        "D": "आशातीत",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "आशातीत = आशा से अतीत (अपादान तत्पुरुष)। शीतोष्ण द्वंद्व, अष्टाध्यायी द्विगु और नीलकंठ बहुव्रीहि/कर्मधारय है।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q026",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Gadyansh",
+      "concept": "रिक्त स्थान (26)",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q26",
+      "question": "बैंक में किसी भी प्रकार का खाता खोलने के लिए (26)______ जाकर एक फार्म भरना होता है। इस फार्म पर (27)______ के रूप में किसी ऐसे व्यक्ति के (28)______ भी करवाने पड़ते हैं जिसका पहले से बैंक में खाता हो। यदि ऐसा सम्भव न हो तो बैंक के (29)______ राशन कार्ड आदि देखकर सन्तुष्ट होने पर भी खाता खोल देते हैं। इसके अतिरिक्त इस फार्म या अलग से एक कार्ड पर खाता खोलने के लिए दो या तीन (30)______ हस्ताक्षर करवाये जाते हैं।\n\nरिक्त स्थान (26) के लिए उपयुक्त शब्द चुनिए:",
+      "options": {
+        "A": "स्वयं",
+        "B": "परोक्ष",
+        "C": "विशेषतः",
+        "D": "तत्र",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "खाता खोलने के लिए व्यक्ति को 'स्वयं' जाकर फार्म भरना होता है।",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q027",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Gadyansh",
+      "concept": "रिक्त स्थान (27)",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q27",
+      "question": "बैंक में किसी भी प्रकार का खाता खोलने के लिए (26)______ जाकर एक फार्म भरना होता है। इस फार्म पर (27)______ के रूप में किसी ऐसे व्यक्ति के (28)______ भी करवाने पड़ते हैं जिसका पहले से बैंक में खाता हो। यदि ऐसा सम्भव न हो तो बैंक के (29)______ राशन कार्ड आदि देखकर सन्तुष्ट होने पर भी खाता खोल देते हैं। इसके अतिरिक्त इस फार्म या अलग से एक कार्ड पर खाता खोलने के लिए दो या तीन (30)______ हस्ताक्षर करवाये जाते हैं।\n\nरिक्त स्थान (27) के लिए उपयुक्त शब्द चुनिए:",
+      "options": {
+        "A": "सुरक्षा",
+        "B": "गारण्टी",
+        "C": "जमानत",
+        "D": "गवाह",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "फार्म पर किसी खाताधारक को 'गवाह' (परिचयकर्ता) के रूप में हस्ताक्षर करने होते हैं।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q028",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Gadyansh",
+      "concept": "रिक्त स्थान (28)",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q28",
+      "question": "बैंक में किसी भी प्रकार का खाता खोलने के लिए (26)______ जाकर एक फार्म भरना होता है। इस फार्म पर (27)______ के रूप में किसी ऐसे व्यक्ति के (28)______ भी करवाने पड़ते हैं जिसका पहले से बैंक में खाता हो। यदि ऐसा सम्भव न हो तो बैंक के (29)______ राशन कार्ड आदि देखकर सन्तुष्ट होने पर भी खाता खोल देते हैं। इसके अतिरिक्त इस फार्म या अलग से एक कार्ड पर खाता खोलने के लिए दो या तीन (30)______ हस्ताक्षर करवाये जाते हैं।\n\nरिक्त स्थान (28) के लिए उपयुक्त शब्द चुनिए:",
+      "options": {
+        "A": "हस्तांतरण",
+        "B": "निर्देश",
+        "C": "हस्ताक्षर",
+        "D": "प्रमाण-पत्र",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "गवाह के 'हस्ताक्षर' करवाने पड़ते हैं; 'करवाने पड़ते हैं' के साथ यही शब्द उपयुक्त है।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q029",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Gadyansh",
+      "concept": "रिक्त स्थान (29)",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q29",
+      "question": "बैंक में किसी भी प्रकार का खाता खोलने के लिए (26)______ जाकर एक फार्म भरना होता है। इस फार्म पर (27)______ के रूप में किसी ऐसे व्यक्ति के (28)______ भी करवाने पड़ते हैं जिसका पहले से बैंक में खाता हो। यदि ऐसा सम्भव न हो तो बैंक के (29)______ राशन कार्ड आदि देखकर सन्तुष्ट होने पर भी खाता खोल देते हैं। इसके अतिरिक्त इस फार्म या अलग से एक कार्ड पर खाता खोलने के लिए दो या तीन (30)______ हस्ताक्षर करवाये जाते हैं।\n\nरिक्त स्थान (29) के लिए उपयुक्त शब्द चुनिए:",
+      "options": {
+        "A": "कार्यकर्ता",
+        "B": "अधिकारी",
+        "C": "कर्मचारी",
+        "D": "ग्राहक",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "राशन कार्ड आदि देखकर संतुष्ट होने और खाता खोलने का निर्णय बैंक के 'अधिकारी' लेते हैं।",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q030",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Gadyansh",
+      "concept": "रिक्त स्थान (30)",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q30",
+      "question": "बैंक में किसी भी प्रकार का खाता खोलने के लिए (26)______ जाकर एक फार्म भरना होता है। इस फार्म पर (27)______ के रूप में किसी ऐसे व्यक्ति के (28)______ भी करवाने पड़ते हैं जिसका पहले से बैंक में खाता हो। यदि ऐसा सम्भव न हो तो बैंक के (29)______ राशन कार्ड आदि देखकर सन्तुष्ट होने पर भी खाता खोल देते हैं। इसके अतिरिक्त इस फार्म या अलग से एक कार्ड पर खाता खोलने के लिए दो या तीन (30)______ हस्ताक्षर करवाये जाते हैं।\n\nरिक्त स्थान (30) के लिए उपयुक्त शब्द चुनिए:",
+      "options": {
+        "A": "प्रतिरूप",
+        "B": "प्रतिलिपि",
+        "C": "प्रतिबिम्ब",
+        "D": "अनुकूल",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "खाता खोलते समय दो या तीन नमूना (प्रतिरूप) हस्ताक्षर करवाये जाते हैं।",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q031",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Peasant Movements",
+      "concept": "Tebhaga movement",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q31",
+      "question": "What was the demand of the Tebhaga peasant movement of Bengal?",
+      "options": {
+        "A": "Reducing the share of landlords from half of the crop to one-third",
+        "B": "Grant of land ownership to the farmers as they are the actual cultivators of the land",
+        "C": "Waiver of all agricultural loans taken from moneylenders",
+        "D": "Abolition of zamindari system and abolition of agricultural slavery",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Tebhaga movement (1946-47), led by the Bengal Provincial Kisan Sabha, demanded that sharecroppers (bargadars) keep two-thirds of the crop, reducing the jotedar's share from one-half to one-third.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q032",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Indian History",
+      "subtopic": "Peasant Movements",
+      "concept": "Swami Sahajanand Saraswati",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q32",
+      "question": "When did Swami Sahajanand Saraswati form the All India United Kisan Sabha with the demand of 'nationalisation of land and waterways'?",
+      "options": {
+        "A": "In the 1930s",
+        "B": "At a very young age",
+        "C": "Just before his death",
+        "D": "Immediately after the Champaran Satyagraha",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Sahajanand Saraswati founded the Bihar Kisan Sabha (1929) and led the AIKS (1936), but formed the All India United Kisan Sabha in 1949, shortly before his death in 1950.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q033",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian History",
+      "subtopic": "National Movement",
+      "concept": "Jallianwala Bagh",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q33",
+      "question": "A large number of people gathered at Jallianwala Bagh in Amritsar on 13 April 1919 to protest against the arrest of:",
+      "options": {
+        "A": "Lala Lajpat Rai and Bal Gangadhar Tilak",
+        "B": "Madan Mohan Malaviya and Mohammad Ali Jinnah",
+        "C": "Swami Shraddhanand and Mazharul Haq",
+        "D": "Dr. Saifuddin Kitchlew and Dr. Satyapal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The crowd had gathered to protest against the arrest of local leaders Dr. Saifuddin Kitchlew and Dr. Satyapal under the Rowlatt Act.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q034",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "INC Sessions",
+      "concept": "Calcutta special session 1920",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q34",
+      "question": "Who presided over the special session of the Indian National Congress held in Calcutta in September 1920, where the Non-Cooperation resolution was passed?",
+      "options": {
+        "A": "Lala Lajpat Rai",
+        "B": "C. Vijayaraghavachariar",
+        "C": "Dadabhai Naoroji",
+        "D": "Maulana Abul Kalam Azad",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Lala Lajpat Rai presided over the Calcutta special session (Sept 1920). C. Vijayaraghavachariar presided over the regular Nagpur session (Dec 1920) that ratified the resolution.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q035",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "National Movement",
+      "concept": "Independence for India League",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q35",
+      "question": "The radical wing of the Congress, with Jawaharlal Nehru as one of its prominent leaders, founded the 'Independence for India League' in opposition to:",
+      "options": {
+        "A": "Home Rule Movement",
+        "B": "Gandhi-Irwin Pact",
+        "C": "Simon Commission",
+        "D": "Nehru Report",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In 1928 Jawaharlal Nehru and Subhas Chandra Bose formed the Independence for India League as they opposed the Nehru Report's goal of Dominion Status instead of complete independence.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q036",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Civil Disobedience",
+      "concept": "Women in Salt Satyagraha",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q36",
+      "question": "Who among the following participated in Gandhiji's Salt Satyagraha?",
+      "options": {
+        "A": "Sarojini Naidu",
+        "B": "Rajkumari Amrit Kaur",
+        "C": "Kamaladevi Chattopadhyay",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Sarojini Naidu led the Dharasana raid, Kamaladevi Chattopadhyay broke salt laws in Bombay, and Rajkumari Amrit Kaur was imprisoned for joining the Salt March. All three took part.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q037",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Chronology",
+      "concept": "Modern Indian history events",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q37",
+      "question": "Which of the following indicates the correct chronological order of events in modern Indian history?",
+      "options": {
+        "A": "Jallianwala Bagh tragedy, Morley-Minto Reforms, August Offer, Gandhi-Irwin Pact",
+        "B": "Morley-Minto Reforms, Gandhi-Irwin Pact, August Offer, Jallianwala Bagh tragedy",
+        "C": "August Offer, Morley-Minto Reforms, Jallianwala Bagh tragedy, Gandhi-Irwin Pact",
+        "D": "Morley-Minto Reforms, Jallianwala Bagh tragedy, Gandhi-Irwin Pact, August Offer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Morley-Minto Reforms (1909), Jallianwala Bagh tragedy (1919), Gandhi-Irwin Pact (1931), August Offer (1940).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Careless Error",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "F05-Q038",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Constitutional Developments",
+      "concept": "Communal Award",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q38",
+      "question": "Ramsay MacDonald's Communal Award (1932) did NOT provide separate electorates and reserved seats to:",
+      "options": {
+        "A": "Sikhs",
+        "B": "Depressed Classes",
+        "C": "Buddhists",
+        "D": "Muslims",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Communal Award gave separate electorates to Muslims, Sikhs, Europeans, Indian Christians, Anglo-Indians and the Depressed Classes, but not to Buddhists.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F05-Q039",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "Rivers",
+      "concept": "Chotanagpur rivers",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q39",
+      "question": "Damodar, Koel and Subarnarekha rivers originate from which of the following?",
+      "options": {
+        "A": "Deccan Plateau",
+        "B": "Chotanagpur Plateau",
+        "C": "Western Ghats",
+        "D": "Central Highlands",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Damodar, Koel and Subarnarekha rivers rise in the Chotanagpur Plateau of Jharkhand.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q040",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Lakes",
+      "concept": "Lakes and states",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q40",
+      "question": "Match List-I (Lake) with List-II (State):\nList-I: A. Sela Lake, B. Badkhal Lake, C. Loktak Lake, D. Kaliveli Lake\nList-II: 1. Arunachal Pradesh, 2. Haryana, 3. Manipur, 4. Tamil Nadu",
+      "options": {
+        "A": "A-1, B-2, C-4, D-3",
+        "B": "A-2, B-1, C-3, D-4",
+        "C": "A-1, B-2, C-3, D-4",
+        "D": "A-1, B-3, C-2, D-4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Sela Lake is near Sela Pass in Arunachal Pradesh, Badkhal Lake is in Faridabad (Haryana), Loktak Lake is in Manipur and Kaliveli Lake is in Tamil Nadu.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q041",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "Agriculture",
+      "concept": "Pusa Bold",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q41",
+      "question": "'Pusa Bold' is an improved variety of:",
+      "options": {
+        "A": "Wheat",
+        "B": "Chickpea",
+        "C": "Rice",
+        "D": "Mustard",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Pusa Bold is a high-yielding mustard (rapeseed-mustard) variety developed by IARI, New Delhi.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q042",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Minerals",
+      "concept": "Copper production",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q42",
+      "question": "Which of the following states is the largest producer of copper in India?",
+      "options": {
+        "A": "Madhya Pradesh",
+        "B": "Odisha",
+        "C": "Rajasthan",
+        "D": "Jharkhand",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Madhya Pradesh (Malanjkhand copper project in Balaghat) is the largest producer of copper ore in India, followed by Rajasthan (Khetri).",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q043",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Indian Geography",
+      "subtopic": "Energy Resources",
+      "concept": "Energy production and consumption",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q43",
+      "question": "Which one of the following statements is NOT correct regarding energy production and consumption in India?",
+      "options": {
+        "A": "Energy generation in India has shown a declining trend in the last decade.",
+        "B": "India has the lowest per capita energy consumption in the world.",
+        "C": "Coal is the largest source of commercial energy in India.",
+        "D": "Non-conventional energy sources contribute less than one percent to the total commercial energy produced in India.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "As per the source answer key, the statement about non-conventional sources contributing less than 1% is not correct; renewable sources contribute a far larger share of India's commercial energy. Coal remains the largest source of commercial energy.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "F05-Q044",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Ports",
+      "concept": "Indian ports",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q44",
+      "question": "Which of the following is NOT correctly matched?",
+      "options": {
+        "A": "Cochin - Natural port",
+        "B": "Chennai - India's deepest port",
+        "C": "Jawaharlal Nehru Port - India's first fully mechanised port",
+        "D": "Kandla - Tidal port",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Chennai is an artificial harbour and not the deepest port; Visakhapatnam is the deepest landlocked and protected port. Cochin is a natural harbour, JNPT is mechanised and Kandla is a tidal port.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F05-Q045",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Coastal Features",
+      "concept": "Chandipur beach",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q45",
+      "question": "There is a place in India where, if you stand on the shore, you will find that twice a day the sea water recedes by a few kilometres and then returns, and when the water recedes you can actually walk on the sea bed. Where is this unique phenomenon seen?",
+      "options": {
+        "A": "Bhavnagar",
+        "B": "Chandipur",
+        "C": "Bheemunipatnam",
+        "D": "Kovalam",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "At Chandipur beach in Balasore district (Odisha), the sea recedes up to about 5 km during ebb tide, letting visitors walk on the sea bed.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q046",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "Transport",
+      "concept": "Golden Quadrilateral",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q46",
+      "question": "The Golden Quadrilateral project is related to the development of:",
+      "options": {
+        "A": "Highways",
+        "B": "Power grid",
+        "C": "Railway freight corridors",
+        "D": "Ports",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Golden Quadrilateral, under NHDP, is a highway network connecting Delhi, Mumbai, Chennai and Kolkata.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q047",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "General Science",
+      "subtopic": "Physics - Thermal Expansion",
+      "concept": "Expansion of liquid in a flask",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q47",
+      "question": "On heating a mass of liquid filled in a glass flask:",
+      "options": {
+        "A": "The liquid level in the flask first falls slightly and then starts rising",
+        "B": "The density of the liquid remains unchanged",
+        "C": "The density of the liquid increases",
+        "D": "The liquid level rises continuously from the beginning",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The glass flask is heated first and expands, so the level falls slightly. Then the liquid, which expands more than glass, heats up and the level rises. The density of the liquid decreases on heating.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q048",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Physics - Gravitation",
+      "concept": "Mass and weight on the moon",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q48",
+      "question": "On the surface of the moon:",
+      "options": {
+        "A": "Mass and weight are both reduced",
+        "B": "Mass remains constant and only weight is reduced",
+        "C": "Both mass and weight remain unchanged",
+        "D": "Only mass decreases",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Mass is the quantity of matter and does not change. Weight = mg, and g on the moon is about 1/6 of Earth's, so weight decreases.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q049",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "General Science",
+      "subtopic": "Physics - Mechanics",
+      "concept": "Couple in steering",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q49",
+      "question": "Turning the steering wheel of a car involves:",
+      "options": {
+        "A": "A single force",
+        "B": "Two forces acting in the same direction",
+        "C": "Two forces acting along the same line in the same direction",
+        "D": "A pair of equal forces acting in opposite directions along parallel lines (a couple)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Steering is turned by a couple: two equal and opposite forces acting along parallel lines, producing rotation without translation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q050",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "General Science",
+      "subtopic": "Chemistry - Redox",
+      "concept": "Oxidation of hydrogen",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q50",
+      "question": "When copper oxide is heated with hydrogen, copper metal and water are formed. What happens to hydrogen in this process?",
+      "options": {
+        "A": "Dissolution",
+        "B": "Oxidation",
+        "C": "Reduction",
+        "D": "Decomposition",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "CuO + H2 -> Cu + H2O. Hydrogen gains oxygen to form water, so it is oxidised, while copper oxide is reduced.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q051",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Chemistry - States of Matter",
+      "concept": "Diffusion",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q51",
+      "question": "Which of the following diffuses the fastest?",
+      "options": {
+        "A": "All diffuse at the same rate",
+        "B": "Solid",
+        "C": "Liquid",
+        "D": "Gas",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Gas particles have the largest intermolecular spaces and highest kinetic energy, so gases diffuse fastest.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q052",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Biology - Reproduction",
+      "concept": "Uterus",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q52",
+      "question": "Which part of the female reproductive system prepares itself every month to receive and nurture the growing embryo?",
+      "options": {
+        "A": "Uterus",
+        "B": "Cervix",
+        "C": "Ovary",
+        "D": "Vagina",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Every month the uterine lining thickens to receive and nourish a fertilised egg; if no fertilisation occurs it breaks down as menstruation.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q053",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Biology - Human Body",
+      "concept": "Iodised salt",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q53",
+      "question": "What is the role of iodised salt in the human body?",
+      "options": {
+        "A": "Increasing haemoglobin in blood",
+        "B": "Regulating the function of the thyroid gland",
+        "C": "Making the pancreas active",
+        "D": "Accelerating the functioning of the kidneys",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Iodine is needed to synthesise thyroxine. Its deficiency causes goitre, so iodised salt helps regulate thyroid function.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q054",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Biology - Genetics",
+      "concept": "Genes",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q54",
+      "question": "Genetic traits are passed on from parents to offspring by:",
+      "options": {
+        "A": "Genes",
+        "B": "Gametes",
+        "C": "Stamen",
+        "D": "Ribosomes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Genes, the units of heredity located on chromosomes, carry traits from parents to offspring (as per the source key).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q055",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Fractions",
+      "concept": "Fraction of a journey",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q55",
+      "question": "A person covers 1/8 of his journey on foot, 1/4 by bicycle and 2/5 by bus. He covers the remaining 108 km by car. Find the total length of the journey.",
+      "options": {
+        "A": "540 km",
+        "B": "420 km",
+        "C": "480 km",
+        "D": "450 km",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Fraction covered before the car = 1/8 + 1/4 + 2/5 = (5 + 10 + 16)/40 = 31/40. Remaining = 9/40 of the journey = 108 km, so total = 108 x 40/9 = 480 km.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F05-Q056",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Fractions",
+      "concept": "Language choice problem",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q56",
+      "question": "In a class, 1/4 of the students chose to learn German. Of the remaining students, 4/5 chose Italian. Of the students left after that, 2/3 chose French and the rest chose Japanese. If 12 students chose Japanese, how many chose Italian?",
+      "options": {
+        "A": "132",
+        "B": "180",
+        "C": "120",
+        "D": "144",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Let total = N. Remaining after German = 3N/4. Italian = 4/5 x 3N/4 = 3N/5. Left = 3N/20. Japanese = 1/3 x 3N/20 = N/20 = 12, so N = 240. Italian = 3/5 x 240 = 144.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "F05-Q057",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Square Roots",
+      "concept": "Trees in rows",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q57",
+      "question": "In a garden, each row has as many trees as there are rows. After 111 trees were uprooted in a storm, 10,914 trees remained in the garden. The number of rows of trees in the garden is:",
+      "options": {
+        "A": "110",
+        "B": "105",
+        "C": "115",
+        "D": "100",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Total trees = 10914 + 111 = 11025 = x^2, so x = sqrt(11025) = 105 rows.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F05-Q058",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Approximation",
+      "concept": "Approximate value with powers",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q58",
+      "question": "Find the approximate value of:\n(9.99)^3.001 - (5.001)^2.999 + 4.997",
+      "options": {
+        "A": "985",
+        "B": "700",
+        "C": "880",
+        "D": "1130",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "(9.99)^3.001 ~ 10^3 = 1000, (5.001)^2.999 ~ 5^3 = 125, 4.997 ~ 5. Value ~ 1000 - 125 + 5 = 880.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F05-Q059",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "LCM & HCF",
+      "concept": "LCM with constant difference",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q59",
+      "question": "Find the least number which when divided by 8, 10, 12, 24 and 36 leaves remainders 6, 8, 10, 22 and 34 respectively.",
+      "options": {
+        "A": "358",
+        "B": "362",
+        "C": "500",
+        "D": "360",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In every case divisor - remainder = 2. LCM(8, 10, 12, 24, 36) = 360, so the required number = 360 - 2 = 358.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F05-Q060",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "LCM & HCF",
+      "concept": "Sum of numbers from LCM and HCF",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q60",
+      "question": "The LCM of two numbers is 120 and their HCF is 10. Which of the following can be the sum of the two numbers?",
+      "options": {
+        "A": "70",
+        "B": "140",
+        "C": "80",
+        "D": "100",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Let the numbers be 10a and 10b with a, b co-prime and ab = 120/10 = 12. Co-prime pairs: (1, 12) or (3, 4). Numbers 30 and 40 give sum 70 (the other pair gives 130).",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F05-Q061",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Ratio & Proportion",
+      "concept": "Ratio after addition",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q61",
+      "question": "Two numbers are in the ratio 5 : 8. If 4 is added to each number, the ratio becomes 2 : 3. Find the difference between the two numbers.",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "13",
+        "D": "14",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Let the numbers be 5k and 8k. (5k + 4)/(8k + 4) = 2/3 gives 15k + 12 = 16k + 8, so k = 4. Numbers are 20 and 32; difference = 12.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F05-Q062",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Average",
+      "concept": "Corrected average",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q62",
+      "question": "The average wage of 500 workers was Rs. 200. Later it was found that the wages of two workers, Rs. 80 and Rs. 220, were wrongly read as Rs. 180 and Rs. 20. Find the correct average wage.",
+      "options": {
+        "A": "Rs. 200.10",
+        "B": "Rs. 199.80",
+        "C": "Rs. 200.20",
+        "D": "Rs. 200.50",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Correct total = 500 x 200 - (180 + 20) + (80 + 220) = 100000 - 200 + 300 = 100100. Correct average = 100100/500 = Rs. 200.20.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Conceptual",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F05-Q063",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Current Affairs",
+      "subtopic": "Defence",
+      "concept": "Khaan Quest 2025",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q63",
+      "question": "The Indian Army participated in 'Exercise Khaan Quest 2025' held in:",
+      "options": {
+        "A": "Russia",
+        "B": "Kazakhstan",
+        "C": "Japan",
+        "D": "Mongolia",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Khaan Quest is an annual multinational peacekeeping exercise hosted by Mongolia; its 2025 edition was held in Ulaanbaatar.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q064",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Appointments",
+      "concept": "First woman ADC to President",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q64",
+      "question": "Who became the first woman to be appointed as an Aide-de-Camp (ADC) to the President of India?",
+      "options": {
+        "A": "Yashasvi Solanki",
+        "B": "Vimla Phogat",
+        "C": "Meena Rajput",
+        "D": "Shivangi Singh",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Indian Navy officer Lt. Cdr. Yashasvi Solanki became the first woman ADC to the President of India in 2025.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q065",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Environment",
+      "concept": "Indian Conservation Conference 2025",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q65",
+      "question": "Where was the Indian Conservation Conference 2025 organised?",
+      "options": {
+        "A": "Shimla",
+        "B": "Guwahati",
+        "C": "Dehradun",
+        "D": "Bhopal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Indian Conservation Conference 2025 was held at the Wildlife Institute of India, Dehradun.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q066",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Current Affairs",
+      "subtopic": "Sports",
+      "concept": "Khelo India University Games 2025",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q66",
+      "question": "Where will the Khelo India University Games 2025 be held?",
+      "options": {
+        "A": "Lucknow",
+        "B": "Bhubaneswar",
+        "C": "Jaipur",
+        "D": "Bengaluru",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Khelo India University Games 2025 were hosted by Rajasthan with Jaipur as the main venue (as per the source key).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q067",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Current Affairs",
+      "subtopic": "Census",
+      "concept": "Census 2027 first phase",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q67",
+      "question": "As per the source, from when will the first phase of the 16th Census of India 2027 begin?",
+      "options": {
+        "A": "1 July 2026",
+        "B": "1 January 2026",
+        "C": "1 October 2026",
+        "D": "1 March 2026",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "As per the source key, the first phase begins with the reference date of 1 October 2026 for the snow-bound areas (Ladakh, J&K, Himachal Pradesh, Uttarakhand); the reference date for the rest of the country is 1 March 2027.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q068",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Environment",
+      "concept": "Gharial conservation programme",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q68",
+      "question": "In which state has Union Environment and Climate Change Minister Bhupender Yadav launched the 'Gharial Species Conservation Programme'?",
+      "options": {
+        "A": "Uttar Pradesh",
+        "B": "Odisha",
+        "C": "Sikkim",
+        "D": "Maharashtra",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "As per the source key, the Gharial Species Conservation Programme was launched in Uttar Pradesh.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q069",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Awards",
+      "concept": "Sahitya Akademi Yuva Puraskar 2025",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q69",
+      "question": "Who has been awarded the Sahitya Akademi Yuva Puraskar 2025 for Hindi?",
+      "options": {
+        "A": "Atul Kumar Rai",
+        "B": "Parvati Tirkey",
+        "C": "Anamika",
+        "D": "Gaurav Pandey",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Parvati Tirkey received the Sahitya Akademi Yuva Puraskar 2025 for Hindi for her poetry collection 'Phir Ugna'.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q070",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Current Affairs",
+      "subtopic": "Economy",
+      "concept": "New GDP base year",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q70",
+      "question": "What will be the new base year for calculating GDP in India?",
+      "options": {
+        "A": "2021-22",
+        "B": "2020-21",
+        "C": "2022-23",
+        "D": "2023-24",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MoSPI is revising the GDP base year from 2011-12 to 2022-23.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F05-Q071",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Threads",
+      "concept": "Lightweight process",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q71",
+      "question": "In operating systems, a \"Lightweight Process\" (LWP) is an intermediate data structure that maps:",
+      "options": {
+        "A": "A user-level thread to a kernel-level thread",
+        "B": "A process to memory",
+        "C": "A kernel thread to a CPU register set",
+        "D": "A process to another process",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An LWP sits between user threads and kernel threads; it appears to the user-thread library as a virtual processor on which user threads are scheduled, and each LWP is attached to a kernel thread.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q072",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlocks",
+      "concept": "Prevention vs avoidance",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q72",
+      "question": "Which of the following is/are correct regarding deadlock prevention and deadlock avoidance?",
+      "options": {
+        "A": "Deadlock prevention works by ensuring at least one of the necessary conditions for deadlock cannot hold",
+        "B": "Deadlock avoidance requires advance information about resource requests",
+        "C": "Deadlock prevention is more restrictive and can result in lower resource utilisation",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Prevention negates one of the four Coffman conditions (restrictive, lower utilisation); avoidance (e.g., Banker's algorithm) needs advance knowledge of maximum resource needs. All three statements are correct.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q073",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Concurrency Control",
+      "concept": "MVCC",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q73",
+      "question": "Multiversion Concurrency Control (MVCC) is a method that allows:",
+      "options": {
+        "A": "Readers to block writers until the read completes",
+        "B": "Only one transaction to access the database at a time",
+        "C": "Each writer to modify an object without blocking readers, by creating a new version of the object",
+        "D": "All transactions to acquire an exclusive lock on the database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "MVCC keeps multiple versions of data items so readers see a consistent snapshot while writers create new versions; readers and writers do not block each other.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q074",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Functional Dependencies",
+      "concept": "Armstrong's axioms",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q74",
+      "question": "Armstrong's axioms (reflexivity, augmentation, transitivity) are used in database theory to:",
+      "options": {
+        "A": "Normalise data",
+        "B": "Enforce referential integrity",
+        "C": "Infer all functional dependencies implied by a given set of functional dependencies",
+        "D": "Optimise queries",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Armstrong's axioms are sound and complete inference rules used to derive the closure (F+) of a set of functional dependencies.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q075",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "MAC Protocols",
+      "concept": "CSMA/CD",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q75",
+      "question": "The CSMA/CD protocol, used in early Ethernet, required that:",
+      "options": {
+        "A": "A station listens to the channel before transmitting",
+        "B": "A station listens for collisions during transmission",
+        "C": "A station stops transmitting on detecting a collision",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "CSMA/CD senses the carrier before sending, monitors for collisions while sending, aborts and sends a jam signal on collision, then uses binary exponential backoff.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q076",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Switching",
+      "concept": "Virtual circuit",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q76",
+      "question": "A \"virtual circuit\" network is a type of packet-switching network where:",
+      "options": {
+        "A": "A logical connection (path) is established before data transfer",
+        "B": "A dedicated physical circuit is reserved end to end",
+        "C": "Each packet is routed independently",
+        "D": "No connection is established",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In virtual-circuit switching a logical path is set up first and all packets follow it in order. Independent routing describes datagram networks; a dedicated physical path describes circuit switching.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q077",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Heaps",
+      "concept": "Fibonacci heap",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q77",
+      "question": "A Fibonacci heap offers a better amortised running time than a binary heap for which operation(s)?",
+      "options": {
+        "A": "Decrease-Key: O(1) vs O(log n)",
+        "B": "Merge (Union): O(1) vs O(n)",
+        "C": "Insert: O(1) vs O(log n)",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A Fibonacci heap supports Insert, Merge and Decrease-Key in O(1) amortised time, versus O(log n), O(n) and O(log n) for a binary heap. Extract-Min is O(log n) in both.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q078",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Optimization",
+      "concept": "Linear programming",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q78",
+      "question": "\"Linear Programming\" is a mathematical method for:",
+      "options": {
+        "A": "Writing programs in a linear sequence without loops",
+        "B": "Solving non-linear equations",
+        "C": "Maximising or minimising a linear objective function subject to linear equality and inequality constraints",
+        "D": "Sorting data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Linear programming optimises a linear objective function subject to linear constraints, e.g., using the Simplex method.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q079",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "concept": "Reduce-reduce conflict",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q79",
+      "question": "In parsing theory, a \"reduce-reduce\" conflict occurs when:",
+      "options": {
+        "A": "Both a shift and a reduce operation are possible",
+        "B": "No reduce operation is possible",
+        "C": "The parser reaches an accept state too early",
+        "D": "Two or more different reductions are possible for the same input symbol",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A reduce-reduce conflict arises when the parser can reduce by more than one production in the same state. Shift-reduce conflict is when both shift and reduce are possible.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q080",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Compiler Design",
+      "subtopic": "Code Optimization",
+      "concept": "Constant folding",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q80",
+      "question": "\"Constant folding\" is a compiler optimisation technique that involves:",
+      "options": {
+        "A": "Evaluating expressions with constant operands at compile time",
+        "B": "Removing unreachable parts of code",
+        "C": "Unrolling loops",
+        "D": "Replacing a variable with its known constant value throughout the code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Constant folding computes constant expressions (e.g., 2*3 -> 6) at compile time. Removing unreachable code is dead-code elimination; substituting known values is constant propagation.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q081",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Adders",
+      "concept": "Carry-lookahead adder",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q81",
+      "question": "A carry-lookahead adder improves speed over a ripple-carry adder by:",
+      "options": {
+        "A": "Computing the carries in parallel",
+        "B": "Using fewer gates",
+        "C": "Operating at a higher clock frequency",
+        "D": "Adding bits serially, one per clock",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A CLA computes carries directly from generate (G) and propagate (P) signals in parallel, avoiding the carry ripple delay. It actually uses more gates.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q082",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Parallelism",
+      "concept": "Instruction-level parallelism",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q82",
+      "question": "\"Instruction-Level Parallelism\" (ILP) is a measure of:",
+      "options": {
+        "A": "The number of processors in a system",
+        "B": "The clock speed of the CPU",
+        "C": "How many instructions in a program can be executed simultaneously",
+        "D": "The amount of memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "ILP measures how many instructions can be overlapped or executed in parallel, exploited via pipelining, superscalar and out-of-order execution.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q083",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Design Patterns",
+      "concept": "Adapter pattern",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q83",
+      "question": "The \"Adapter\" design pattern is a structural pattern used to:",
+      "options": {
+        "A": "Allow classes with incompatible interfaces to work together",
+        "B": "Notify dependent objects of state changes",
+        "C": "Ensure only one instance of a class exists",
+        "D": "Provide an interface for creating objects",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Adapter converts one interface into another that clients expect. Singleton ensures one instance, Factory creates objects and Observer notifies dependents.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q084",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Dynamic method dispatch",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q84",
+      "question": "\"Dynamic method dispatch\" is a mechanism by which:",
+      "options": {
+        "A": "Methods are overloaded with different parameters",
+        "B": "Methods are inlined",
+        "C": "The method implementation to be called is determined at runtime",
+        "D": "The method implementation to be called is determined at compile time",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Dynamic method dispatch resolves a call to an overridden method at runtime based on the actual object type; it is the basis of runtime polymorphism.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q085",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Metrics",
+      "concept": "Cyclomatic complexity",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q85",
+      "question": "McCabe's Cyclomatic Complexity is calculated from a program's control flow graph as V(G) = E - N + 2P, where E, N and P are:",
+      "options": {
+        "A": "Edges, Nodes, Connected components",
+        "B": "Errors, Notations, Programs",
+        "C": "Effort, Numbers, Parameters",
+        "D": "Entries, Nodes, Paths",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "In V(G) = E - N + 2P, E is the number of edges, N the number of nodes and P the number of connected components of the control flow graph.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q086",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Reviews",
+      "concept": "Walkthrough vs inspection",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q86",
+      "question": "A key difference between a software \"walkthrough\" and an \"inspection\" is that:",
+      "options": {
+        "A": "Inspections are performed by executing the code",
+        "B": "Inspections are more formal, with defined roles, preparation and metrics collection",
+        "C": "Only walkthroughs have the author present",
+        "D": "Walkthroughs are more formal",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Inspections (e.g., Fagan inspection) are formal with roles like moderator, reader and recorder plus metrics. Walkthroughs are informal and usually led by the author. Both are static techniques.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q087",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Kerberos",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q87",
+      "question": "The Kerberos protocol is a network authentication protocol that uses:",
+      "options": {
+        "A": "Symmetric-key cryptography and a trusted third party",
+        "B": "Public-key cryptography",
+        "C": "One-time passwords sent over SMS",
+        "D": "Biometric authentication",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Kerberos uses symmetric-key cryptography and a trusted third party, the Key Distribution Center (AS + TGS), which issues tickets.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q088",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "PGP",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q88",
+      "question": "Pretty Good Privacy (PGP) is a data encryption and decryption program that provides:",
+      "options": {
+        "A": "Cryptographic privacy and authentication",
+        "B": "Data compression",
+        "C": "Digital signatures for email",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "PGP provides confidentiality (encryption), authentication and integrity through digital signatures, and compresses messages (ZIP) before encryption.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q089",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Technologies",
+      "concept": "Progressive Web App",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q89",
+      "question": "A \"Progressive Web App\" (PWA) is application software delivered through the web that provides features like:",
+      "options": {
+        "A": "Working offline",
+        "B": "Being installed on the home screen",
+        "C": "Push notifications",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "PWAs use service workers and a web app manifest to support offline use, installation to the home screen and push notifications.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q090",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Cryptography",
+      "concept": "Zero-knowledge proof",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q90",
+      "question": "A \"Zero-Knowledge Proof\" is a cryptographic method where one party can prove to another that:",
+      "options": {
+        "A": "They hold the private key by sending it encrypted",
+        "B": "They are on a secure connection",
+        "C": "They know a certain piece of information, without revealing the information itself",
+        "D": "They are a trustworthy entity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In a zero-knowledge proof, the prover convinces the verifier that a statement is true without revealing anything beyond its truth.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q091",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "I/O Systems",
+      "concept": "Device driver",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q91",
+      "question": "A \"device driver\" in an operating system acts as a:",
+      "options": {
+        "A": "Translator between the kernel and a hardware device",
+        "B": "User-space application",
+        "C": "Bootloader",
+        "D": "File system",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A device driver provides a software interface that lets the OS kernel communicate with a specific hardware device.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q092",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "nice command",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q92",
+      "question": "The nice command in UNIX/Linux is used to influence:",
+      "options": {
+        "A": "The number of open files of a process",
+        "B": "The amount of memory used by a process",
+        "C": "File permissions",
+        "D": "The CPU scheduling priority of a process",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "nice starts a process with a modified niceness value (-20 to 19), changing its CPU scheduling priority. File permissions are changed with chmod.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q093",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Query Optimization",
+      "concept": "Cost-based optimiser",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q93",
+      "question": "In query optimisation, a \"cost-based\" optimiser estimates the cost of different query plans based on:",
+      "options": {
+        "A": "The alphabetical order of table names",
+        "B": "A fixed set of rules",
+        "C": "The experience of the user writing the query",
+        "D": "Statistical information about the database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A cost-based optimiser uses catalog statistics (table sizes, cardinality, histograms, indexes) to estimate I/O and CPU cost. A rule-based optimiser uses fixed rules.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q094",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Data Warehousing",
+      "concept": "Slice operation",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q94",
+      "question": "A data cube operation that reduces dimensionality by selecting a single value for one dimension is:",
+      "options": {
+        "A": "Slice",
+        "B": "Dice",
+        "C": "Drill-down",
+        "D": "Roll-up",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Slice fixes one dimension to a single value, producing a sub-cube with one less dimension. Dice selects ranges on two or more dimensions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q095",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Routing",
+      "concept": "Interior Gateway Protocol",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q95",
+      "question": "An \"Interior Gateway Protocol\" (IGP) such as OSPF or EIGRP is used for routing:",
+      "options": {
+        "A": "Across the global internet",
+        "B": "Within a single Autonomous System (AS)",
+        "C": "Between different Autonomous Systems",
+        "D": "Only between a host and its default gateway",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IGPs (RIP, OSPF, EIGRP, IS-IS) route within one autonomous system. Exterior Gateway Protocols such as BGP route between autonomous systems.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q096",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "XMPP",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q96",
+      "question": "XMPP (Extensible Messaging and Presence Protocol) is an open technology for:",
+      "options": {
+        "A": "Sending bulk email",
+        "B": "Web browsing",
+        "C": "File transfer",
+        "D": "Real-time communication such as instant messaging",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "XMPP is an XML-based open protocol for instant messaging, presence information and real-time communication.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q097",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Algorithm Design",
+      "concept": "Streaming algorithm",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q97",
+      "question": "A \"streaming algorithm\" processes its input in a single pass while using:",
+      "options": {
+        "A": "Exponential memory",
+        "B": "Very little memory compared to the size of the input",
+        "C": "Memory equal to the full input size",
+        "D": "No memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Streaming algorithms read data in one (or few) passes and use sublinear (often logarithmic) memory relative to input size.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q098",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Heaps",
+      "concept": "Binomial heap",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q98",
+      "question": "A \"binomial heap\" is a collection of:",
+      "options": {
+        "A": "Red-black trees",
+        "B": "Binary heaps",
+        "C": "AVL trees",
+        "D": "Binomial trees",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A binomial heap is a set of binomial trees, each obeying the heap property, with at most one tree of each order.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q099",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "concept": "Handle pruning",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q99",
+      "question": "\"Handle pruning\" is a step in which type of parsing?",
+      "options": {
+        "A": "Recursive descent parsing",
+        "B": "Predictive LL(1) parsing",
+        "C": "Bottom-up (shift-reduce) parsing",
+        "D": "Top-down parsing",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In bottom-up parsing the handle (right side of a production) is repeatedly reduced to its left side; this yields a rightmost derivation in reverse. Recursive descent and LL(1) are top-down.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q100",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code",
+      "concept": "DAG",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q100",
+      "question": "A directed acyclic graph (DAG) is an intermediate representation in compilers commonly used to:",
+      "options": {
+        "A": "Perform lexical analysis",
+        "B": "Perform type checking",
+        "C": "Store scope information",
+        "D": "Identify common subexpressions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A DAG of a basic block shares nodes for identical computations, making it easy to detect and eliminate common subexpressions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q101",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Organization",
+      "concept": "Memory interleaving",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q101",
+      "question": "\"Memory interleaving\" is a technique used to:",
+      "options": {
+        "A": "Improve performance by allowing the CPU to access multiple memory banks simultaneously",
+        "B": "Reduce the size of each memory word",
+        "C": "Encrypt data stored in memory",
+        "D": "Increase the capacity of memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Interleaving spreads consecutive addresses across several memory banks so accesses can overlap, increasing effective bandwidth.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q102",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Hazards",
+      "concept": "Hazards from unequal delays",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q102",
+      "question": "In digital circuits, which hazard(s) can be caused by unequal propagation delays of different signal paths?",
+      "options": {
+        "A": "Dynamic hazard",
+        "B": "Neither; such delays only reduce speed",
+        "C": "Static hazard",
+        "D": "Both static and dynamic hazards",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Unequal path delays can cause a momentary glitch when the output should stay constant (static hazard) or multiple transitions when it should change once (dynamic hazard).",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q103",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Generics",
+      "concept": "Type erasure",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q103",
+      "question": "In Java generics, \"type erasure\" is the process where:",
+      "options": {
+        "A": "All types are converted to a single type at runtime by the JVM",
+        "B": "Primitive types are boxed into wrapper classes",
+        "C": "Type information is added at runtime",
+        "D": "Generic type information is removed at compile time",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The Java compiler checks generic types and then erases them, replacing type parameters with their bounds or Object, so the bytecode carries no generic type information.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q104",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Software Engineering",
+      "subtopic": "Design Patterns",
+      "concept": "Thread-safe singleton",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q104",
+      "question": "A thread-safe implementation of the Singleton design pattern must handle:",
+      "options": {
+        "A": "Memory leaks",
+        "B": "Serialization of the instance to disk",
+        "C": "Slow performance",
+        "D": "Preventing instance creation by multiple threads at the same time",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Thread safety in Singleton means ensuring only one instance is created even if several threads call getInstance() concurrently, e.g., using synchronization or double-checked locking.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q105",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Software Engineering",
+      "subtopic": "Cost Estimation",
+      "concept": "Putnam model",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q105",
+      "question": "The Putnam model of software estimation is an empirical model that falls into which category?",
+      "options": {
+        "A": "Dynamic multivariate model",
+        "B": "Algorithmic model",
+        "C": "Analogy-based model",
+        "D": "Expert judgement model",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Putnam (SLIM) model, based on the Rayleigh-Norden curve, is classified as a dynamic multivariate model that relates effort to development time.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q106",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Stress testing",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q106",
+      "question": "\"Stress testing\" is a type of non-functional testing that evaluates a system's behaviour:",
+      "options": {
+        "A": "With no load",
+        "B": "Only for correctness of business logic",
+        "C": "Under normal load",
+        "D": "At or beyond the limits of its normal operational capacity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Stress testing pushes the system beyond normal capacity to observe failure and recovery. Behaviour under expected load is load testing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q107",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Man-in-the-browser",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q107",
+      "question": "A \"Man-in-the-Browser\" (MITB) attack is a type of attack where:",
+      "options": {
+        "A": "The network connection is intercepted",
+        "B": "A web browser is compromised by a Trojan that modifies web pages and transactions",
+        "C": "A DNS server returns forged addresses",
+        "D": "A proxy server is hacked",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In MITB, a Trojan in the victim's browser silently alters pages and transaction details. Intercepting the connection is man-in-the-middle; forged DNS is DNS spoofing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q108",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Bell-LaPadula model",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q108",
+      "question": "The Bell-LaPadula model is a security model designed to enforce:",
+      "options": {
+        "A": "Availability",
+        "B": "Access control and confidentiality",
+        "C": "Data integrity",
+        "D": "Non-repudiation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Bell-LaPadula enforces confidentiality via 'no read up, no write down'. The Biba model focuses on integrity.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q109",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud & Containers",
+      "concept": "Kubernetes pod",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q109",
+      "question": "In a Kubernetes cluster, the smallest deployable unit of computing is a:",
+      "options": {
+        "A": "Pod",
+        "B": "Container",
+        "C": "Deployment",
+        "D": "Node",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A Pod is the smallest deployable unit in Kubernetes; it wraps one or more containers that share storage and network.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q110",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Technologies",
+      "concept": "Server-Sent Events",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q110",
+      "question": "\"Server-Sent Events\" (SSE) is a technology where:",
+      "options": {
+        "A": "A server automatically pushes updates to a client over HTTP",
+        "B": "The client and server have full bidirectional communication",
+        "C": "The browser downloads files in parallel",
+        "D": "A client continuously polls the server for data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SSE keeps an HTTP connection open so the server can push events one-way to the client. Full bidirectional communication is provided by WebSockets.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q111",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Operating Systems",
+      "subtopic": "Process Synchronization",
+      "concept": "Spinlock",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q111",
+      "question": "A \"spinning\" or \"busy-wait\" semaphore is one where a process:",
+      "options": {
+        "A": "Sleeps for a random amount of time",
+        "B": "Blocks while waiting for a resource",
+        "C": "Continuously checks in a loop until the resource is available",
+        "D": "Is terminated if the resource is unavailable",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A spinlock busy-waits, repeatedly testing the condition in a loop and consuming CPU. Blocking semaphores put the process to sleep instead.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q112",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "File Systems",
+      "concept": "Inode",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q112",
+      "question": "In UNIX file systems, an \"inode\" stores what kind of information about a file?",
+      "options": {
+        "A": "The contents of the file",
+        "B": "The filename",
+        "C": "The path of the parent directory",
+        "D": "Metadata such as permissions, ownership and data block locations",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An inode stores file metadata (type, permissions, owner, size, timestamps, link count, block pointers). The filename is stored in the directory entry.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q113",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "Atomicity",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q113",
+      "question": "In database transactions, \"atomicity\" ensures that:",
+      "options": {
+        "A": "Committed changes survive system failures",
+        "B": "Concurrent transactions do not interfere with each other",
+        "C": "A transaction either completes in its entirety or not at all",
+        "D": "The database remains in a consistent state",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Atomicity is 'all or nothing'. Consistency, isolation and durability are the other ACID properties described by the remaining options.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q114",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL",
+      "concept": "ORDER BY",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q114",
+      "question": "Which SQL clause is used to sort the result set of a query?",
+      "options": {
+        "A": "SORT BY",
+        "B": "GROUP BY",
+        "C": "ARRANGE BY",
+        "D": "ORDER BY",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "ORDER BY sorts rows in ascending (ASC, default) or descending (DESC) order. GROUP BY groups rows for aggregation.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error"
+      }
+    },
+    {
+      "id": "F05-Q115",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Physical layer",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q115",
+      "question": "The \"Physical Layer\" of the OSI model is responsible for:",
+      "options": {
+        "A": "Framing",
+        "B": "Routing",
+        "C": "Session management",
+        "D": "The transmission of raw bits over a physical medium",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The physical layer transmits bits over the medium. Framing is done by the data link layer, routing by the network layer and session management by the session layer.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q116",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "DHCP",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q116",
+      "question": "DHCP (Dynamic Host Configuration Protocol) is used to:",
+      "options": {
+        "A": "Map IP addresses to MAC addresses",
+        "B": "Transfer files",
+        "C": "Automatically assign IP addresses to devices on a network",
+        "D": "Resolve domain names to IP addresses",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DHCP automatically assigns IP address, subnet mask, gateway and DNS. Name resolution is DNS and IP-to-MAC mapping is ARP.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q117",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Sorting",
+      "concept": "Bubble sort complexity",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q117",
+      "question": "What is the worst-case time complexity of the bubble sort algorithm?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n^2)",
+        "C": "O(n log n)",
+        "D": "O(log n)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In the worst case (reverse-sorted input) bubble sort makes n(n-1)/2 comparisons, i.e., O(n^2). O(n) is its best case with the swap-flag optimisation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q118",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Hashing",
+      "concept": "Hash collision",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q118",
+      "question": "A \"hash collision\" occurs when:",
+      "options": {
+        "A": "A hash function returns an error",
+        "B": "Two different inputs produce the same hash value",
+        "C": "A hash value is too long",
+        "D": "The hash table is completely empty",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A collision occurs when two distinct keys map to the same hash value; it is resolved by chaining or open addressing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q119",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Chomsky Hierarchy",
+      "concept": "Most powerful grammar",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q119",
+      "question": "Which of the following grammars is the most powerful in the Chomsky hierarchy?",
+      "options": {
+        "A": "Regular Grammar (Type-3)",
+        "B": "Context-Free Grammar (Type-2)",
+        "C": "Unrestricted Grammar (Type-0)",
+        "D": "Context-Sensitive Grammar (Type-1)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Type-0 (unrestricted) grammars generate recursively enumerable languages and are the most powerful. Power order: Type-0 > Type-1 > Type-2 > Type-3.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q120",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Compiler Design",
+      "subtopic": "Lexical Analysis",
+      "concept": "Tokens",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q120",
+      "question": "The output of the lexical analysis phase of a compiler is a stream of:",
+      "options": {
+        "A": "Tokens",
+        "B": "Parse trees",
+        "C": "Three-address code",
+        "D": "Machine code",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The lexical analyser groups characters into lexemes and outputs tokens to the parser. Parse trees come from syntax analysis.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q121",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "OR gate",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q121",
+      "question": "An OR gate will have a HIGH output if:",
+      "options": {
+        "A": "All inputs are LOW",
+        "B": "The number of inputs is even",
+        "C": "An odd number of inputs are HIGH only",
+        "D": "Any input is HIGH",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "An OR gate outputs 1 if at least one input is 1. Output HIGH only for an odd number of HIGH inputs describes XOR.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q122",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "Clock rate unit",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q122",
+      "question": "The \"clock rate\" of a CPU is typically measured in:",
+      "options": {
+        "A": "Dots per inch",
+        "B": "Gigahertz",
+        "C": "Bits per second",
+        "D": "Gigabytes",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Clock rate is the number of cycles per second, measured in hertz (modern CPUs in GHz).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q123",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "OOP Concepts",
+      "concept": "Encapsulation",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q123",
+      "question": "The concept of hiding the internal implementation details of an object and exposing only the necessary functionality is called:",
+      "options": {
+        "A": "Encapsulation / Data hiding",
+        "B": "Polymorphism",
+        "C": "Overloading",
+        "D": "Inheritance",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Encapsulation bundles data and methods and restricts direct access to internal state, exposing only a public interface.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q124",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Java Keywords",
+      "concept": "super keyword",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q124",
+      "question": "The super keyword in Java is used to:",
+      "options": {
+        "A": "Declare a constant",
+        "B": "Create an object",
+        "C": "Refer to the current class instance",
+        "D": "Refer to members of the immediate parent class",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "super accesses the immediate parent class's members and constructors. this refers to the current instance and new creates objects.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q125",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Waterfall model",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q125",
+      "question": "The Waterfall Model is a software development life cycle model that is:",
+      "options": {
+        "A": "Iterative and incremental",
+        "B": "Prototype-based",
+        "C": "Risk-driven",
+        "D": "Sequential and linear",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In the Waterfall model, phases proceed one after another in a linear sequence. Iterative is incremental/agile, risk-driven is the Spiral model.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q126",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "Software Testing",
+      "concept": "Usability testing",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q126",
+      "question": "\"Usability testing\" primarily focuses on:",
+      "options": {
+        "A": "The performance of the software",
+        "B": "The number of bugs in the software",
+        "C": "The security of the software",
+        "D": "How easy the software is to use",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Usability testing evaluates ease of use, learnability and user satisfaction by observing real users.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q127",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Cryptography",
+      "concept": "Digital certificate",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q127",
+      "question": "A \"Digital Certificate\" binds a public key to:",
+      "options": {
+        "A": "A private key",
+        "B": "An IP address only",
+        "C": "An identity (such as a person or an organisation)",
+        "D": "An algorithm",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A digital certificate (e.g., X.509), signed by a Certificate Authority, binds a public key to the identity of its owner.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q128",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Phishing",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q128",
+      "question": "\"Phishing\" is a type of social engineering attack where an attacker:",
+      "options": {
+        "A": "Exploits a vulnerability in software",
+        "B": "Attempts to obtain sensitive information by posing as a trustworthy entity",
+        "C": "Physically steals hardware",
+        "D": "Floods a system with traffic",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Phishing uses fraudulent emails or websites that impersonate trusted entities to steal credentials or financial data. Flooding is a DoS attack.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q129",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Machine Learning",
+      "concept": "Supervised learning",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q129",
+      "question": "In supervised machine learning, the training data consists of:",
+      "options": {
+        "A": "Only output data",
+        "B": "Rewards from an environment",
+        "C": "Input data with no labels",
+        "D": "Labelled input data",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Supervised learning trains on input-output (labelled) pairs. Unlabelled data is used in unsupervised learning and rewards in reinforcement learning.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q130",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "SaaS",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q130",
+      "question": "SaaS (Software as a Service) is a cloud computing model where:",
+      "options": {
+        "A": "Software applications are provided to customers on a subscription basis",
+        "B": "Raw computing infrastructure is provided to customers",
+        "C": "A platform is provided for customers to develop applications",
+        "D": "Customers buy perpetual licences and install software on-premises",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "SaaS delivers ready-to-use applications over the internet (e.g., Gmail). Raw infrastructure is IaaS and a development platform is PaaS.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q131",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlocks",
+      "concept": "Banker's algorithm",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q131",
+      "question": "The Banker's Algorithm is used for:",
+      "options": {
+        "A": "Deadlock avoidance",
+        "B": "Deadlock prevention",
+        "C": "Deadlock recovery",
+        "D": "Deadlock detection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Dijkstra's Banker's algorithm grants a request only if the system stays in a safe state, thereby avoiding deadlock.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q132",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL",
+      "concept": "JOIN",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q132",
+      "question": "The SQL JOIN clause is used to:",
+      "options": {
+        "A": "Group results",
+        "B": "Sort results",
+        "C": "Filter results",
+        "D": "Combine rows from two or more tables based on a related column",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "JOIN combines rows from tables using a related column. Filtering uses WHERE, grouping uses GROUP BY and sorting uses ORDER BY.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q133",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "HTTP",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q133",
+      "question": "The primary protocol used for browsing the World Wide Web is:",
+      "options": {
+        "A": "SNMP",
+        "B": "FTP",
+        "C": "SMTP",
+        "D": "HTTP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "HTTP (and HTTPS) transfers web pages between browsers and servers. FTP transfers files, SMTP sends email and SNMP manages networks.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q134",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Heaps",
+      "concept": "Heap for min/max",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q134",
+      "question": "Which data structure is most efficient for finding the minimum or maximum element?",
+      "options": {
+        "A": "Heap",
+        "B": "Queue",
+        "C": "Stack",
+        "D": "Linked list",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A min-heap or max-heap keeps the minimum or maximum at the root, giving O(1) lookup.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q135",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machines",
+      "concept": "Languages recognised by TM",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q135",
+      "question": "A Turing Machine can recognise which class of languages?",
+      "options": {
+        "A": "Only context-free languages",
+        "B": "Only regular languages",
+        "C": "Only finite languages",
+        "D": "Recursively enumerable languages",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Turing machines recognise recursively enumerable languages, which include all regular, context-free and context-sensitive languages.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q136",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Technologies",
+      "concept": "CSS full form",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q136",
+      "question": "CSS stands for:",
+      "options": {
+        "A": "Colourful Style Sheets",
+        "B": "Cascading Style Sheets",
+        "C": "Creative Style Sheets",
+        "D": "Computer Style Sheets",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "CSS stands for Cascading Style Sheets, used to style HTML documents.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F05-Q137",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv4 address size",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q137",
+      "question": "The number of bits in an IPv4 address is:",
+      "options": {
+        "A": "32",
+        "B": "16",
+        "C": "64",
+        "D": "128",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An IPv4 address is 32 bits long (four octets). IPv6 addresses are 128 bits.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q138",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "NAND universal gate",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q138",
+      "question": "\"A NAND gate is a universal gate because any Boolean function can be implemented using only NAND gates.\" This statement is:",
+      "options": {
+        "A": "True only for sequential circuits",
+        "B": "False",
+        "C": "Depends on context",
+        "D": "True",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "NAND (and NOR) are universal gates since NOT, AND and OR can all be built from them, so any Boolean function can be implemented.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q139",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graphs",
+      "concept": "DFS uses stack",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q139",
+      "question": "Depth-First Search (DFS) of a graph typically uses which data structure?",
+      "options": {
+        "A": "Heap",
+        "B": "Hash table",
+        "C": "Queue",
+        "D": "Stack",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "DFS uses a stack (explicitly or via recursion). BFS uses a queue.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q140",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Queues",
+      "concept": "FIFO",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q140",
+      "question": "A queue data structure follows which principle?",
+      "options": {
+        "A": "Priority-based removal",
+        "B": "Random access",
+        "C": "FIFO (First-In, First-Out)",
+        "D": "LIFO (Last-In, First-Out)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A queue inserts at the rear and removes from the front, following FIFO. A stack follows LIFO.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q141",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual Memory",
+      "concept": "Page fault",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q141",
+      "question": "A \"page fault\" occurs when:",
+      "options": {
+        "A": "Main memory becomes full",
+        "B": "A page contains an error",
+        "C": "The CPU cache misses",
+        "D": "A process tries to access a page that is not in main memory",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A page fault is raised when a referenced page is not present in physical memory, so the OS must load it from secondary storage.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q142",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Constraints",
+      "concept": "PRIMARY KEY constraint",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q142",
+      "question": "The PRIMARY KEY constraint on a column ensures:",
+      "options": {
+        "A": "Only that each value in the column is unique",
+        "B": "That the column refers to another table's key",
+        "C": "Only that the column cannot have NULL values",
+        "D": "That each value is unique and the column cannot have NULL values",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A primary key combines UNIQUE and NOT NULL, so every value must be unique and non-null. Referring to another table is a FOREIGN KEY.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q143",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "TCP services",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q143",
+      "question": "The TCP protocol provides which of the following services?",
+      "options": {
+        "A": "Connection-oriented service",
+        "B": "Reliable data transfer",
+        "C": "Flow control",
+        "D": "All of the above",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "TCP is connection-oriented (three-way handshake), reliable (acknowledgements, retransmission) and provides flow control (sliding window) as well as congestion control.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q144",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Agile",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q144",
+      "question": "Agile software development is a methodology that emphasises:",
+      "options": {
+        "A": "Rigid documentation",
+        "B": "Iterative development and customer feedback",
+        "C": "Extensive upfront planning",
+        "D": "A single final delivery at the end of the project",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Agile values working software, customer collaboration and responding to change, delivering in short iterations with frequent feedback.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q145",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Treating objects via superclass",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q145",
+      "question": "\"Polymorphism allows objects of different classes to be treated as objects of a common superclass.\" This statement is:",
+      "options": {
+        "A": "True only for abstract classes",
+        "B": "True",
+        "C": "True only in C++",
+        "D": "False",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Through polymorphism, a superclass reference can refer to objects of any subclass, and the overridden method of the actual object is called.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q146",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Deep Learning",
+      "concept": "Neural networks",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q146",
+      "question": "\"Deep learning\" is a subfield of machine learning that is based on:",
+      "options": {
+        "A": "Genetic algorithms",
+        "B": "Artificial neural networks",
+        "C": "Decision trees",
+        "D": "Rule-based expert systems",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Deep learning uses artificial neural networks with many hidden layers to learn hierarchical representations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q147",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Software",
+      "concept": "OS is system software",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q147",
+      "question": "An operating system is a type of:",
+      "options": {
+        "A": "Utility software",
+        "B": "Firmware only",
+        "C": "System software",
+        "D": "Application software",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The OS is system software that manages hardware and provides services to application programs.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q148",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "ALU functions",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q148",
+      "question": "The ALU (Arithmetic Logic Unit) in a CPU performs:",
+      "options": {
+        "A": "Both arithmetic and logical operations",
+        "B": "Decoding of instructions",
+        "C": "Only logical operations",
+        "D": "Only arithmetic operations",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The ALU performs arithmetic (add, subtract) and logical (AND, OR, NOT, compare) operations. Instruction decoding is done by the control unit.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F05-Q149",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "HTTP",
+      "concept": "GET method",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q149",
+      "question": "The GET request method in HTTP should ideally be used for:",
+      "options": {
+        "A": "Modifying data on the server",
+        "B": "Creating data on the server",
+        "C": "Deleting data from the server",
+        "D": "Retrieving data from the server",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "GET is a safe, idempotent method meant for retrieving resources. POST creates, PUT/PATCH modify and DELETE removes resources.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F05-Q150",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Blockchain",
+      "concept": "Blockchain definition",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_9.pdf, Q150",
+      "question": "A blockchain is essentially a:",
+      "options": {
+        "A": "Distributed, immutable ledger",
+        "B": "Encryption algorithm",
+        "C": "Programming language",
+        "D": "Centralised database",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A blockchain is a decentralised, distributed ledger where blocks are cryptographically linked, making recorded data tamper-resistant.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    }
+  ]
+}

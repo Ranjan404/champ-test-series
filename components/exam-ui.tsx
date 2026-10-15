@@ -15,7 +15,7 @@ import {
   AlertDialogTrigger,
 } from "./ui/alert-dialog";
 
-// Pieces shared by the timed tests (Daily Question and Practice Sets).
+// Pieces shared by the timed tests (Daily Question, Practice Sets, PYQs and Full Length Tests).
 
 export function SaveStatus({ state }: { state: "idle" | "saving" | "saved" | "error" }) {
   if (state === "idle") return null;
@@ -93,6 +93,7 @@ export function Palette({
   visited,
   current,
   onJump,
+  sections = [],
 }: {
   questions: { id: string }[];
   /** Any truthy value counts as answered. */
@@ -101,6 +102,8 @@ export function Palette({
   visited: Set<number>;
   current: number;
   onJump: (i: number) => void;
+  /** Groups the cells under section headings (Full Length Tests). */
+  sections?: { name: string; from: number; to: number }[];
 }) {
   const [open, setOpen] = useState(false);
   const paletteId = useId();
@@ -129,22 +132,36 @@ export function Palette({
         <span className="text-xs text-muted-foreground lg:hidden">{open ? "Hide" : "Show"}</span>
       </button>
       <div id={paletteId} className={cn("mt-3", !open && "hidden lg:block")}>
-        <div className="grid grid-cols-6 gap-2 sm:grid-cols-10 lg:grid-cols-5">
-          {cells.map((c, i) => (
-            <button
-              key={i}
-              type="button"
-              onClick={() => onJump(i)}
-              aria-label={`Question ${i + 1}: ${legend.find((l) => l.cell === c)!.label}`}
-              aria-current={i === current ? "step" : undefined}
-              className={cn(
-                "flex aspect-square items-center justify-center rounded-md border font-mono text-sm font-bold transition-transform hover:scale-105",
-                cellClass[c],
-                i === current && "outline-2 outline-offset-2 outline-primary",
+        <div className={cn(questions.length > 50 && "lg:max-h-[55vh] lg:overflow-y-auto lg:pr-1")}>
+          {(sections.length ? sections : [{ name: "", from: 1, to: questions.length }]).map((sec) => (
+            <div key={sec.name || "all"} className="mb-3 last:mb-0">
+              {sec.name && (
+                <p className="sticky top-0 z-10 mb-2 bg-card py-1 text-xs font-bold uppercase tracking-wider text-muted-foreground">
+                  {sec.name} <span className="font-mono font-medium">({sec.from}-{sec.to})</span>
+                </p>
               )}
-            >
-              {i + 1}
-            </button>
+              <div className="grid grid-cols-6 gap-2 sm:grid-cols-10 lg:grid-cols-5">
+                {cells.slice(sec.from - 1, sec.to).map((c, k) => {
+                  const i = sec.from - 1 + k;
+                  return (
+                    <button
+                      key={i}
+                      type="button"
+                      onClick={() => onJump(i)}
+                      aria-label={`Question ${i + 1}: ${legend.find((l) => l.cell === c)!.label}`}
+                      aria-current={i === current ? "step" : undefined}
+                      className={cn(
+                        "flex aspect-square items-center justify-center rounded-md border font-mono text-sm font-bold transition-transform hover:scale-105",
+                        cellClass[c],
+                        i === current && "outline-2 outline-offset-2 outline-primary",
+                      )}
+                    >
+                      {i + 1}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
           ))}
         </div>
         <ul className="mt-4 grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs">

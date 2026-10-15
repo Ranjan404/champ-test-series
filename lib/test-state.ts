@@ -1,6 +1,6 @@
 import type { OptionKey, PublicQuestion, QuestionSet, SetProgress } from "./types";
 import { PRACTICE_DURATION_SECONDS } from "./types";
-import { practiceDeadline } from "./progress";
+import { practiceDeadline, timeUsedMs } from "./progress";
 import { toPublic } from "./questions";
 
 /** What the practice test runner gets: no answers, topics or difficulty until the set is submitted. */
@@ -9,8 +9,13 @@ export interface PracticeAttemptState {
   title: string;
   attemptNo: number;
   startedAt: string;
+  /** Server time when the time runs out, counting from when this state was built. */
   deadline: number;
   durationSeconds: number;
+  /** The timer pauses when the test is closed (Full Length Tests). */
+  pausable: boolean;
+  /** Full Length Tests: the paper's parts, for the section tabs. */
+  sections: { name: string; from: number; to: number }[];
   answers: Record<string, OptionKey[]>;
   marked: string[];
   current: number;
@@ -36,8 +41,11 @@ export function buildPracticeStart(set: QuestionSet, sp: SetProgress, now = Date
       title: set.title,
       attemptNo: sp.attemptNo,
       startedAt: sp.startedAt,
-      deadline: practiceDeadline(sp),
-      durationSeconds: PRACTICE_DURATION_SECONDS,
+      // A paused timer has no deadline; the state is built right after resuming, so count from `now`.
+      deadline: sp.timer ? now + sp.timer.durationSeconds * 1000 - timeUsedMs(sp, now) : practiceDeadline(sp),
+      durationSeconds: sp.timer?.durationSeconds ?? PRACTICE_DURATION_SECONDS,
+      pausable: !!sp.timer,
+      sections: set.sections?.map(({ name, from, to }) => ({ name, from, to })) ?? [],
       answers: sp.answers,
       marked: sp.marked ?? [],
       current: sp.currentIndex,

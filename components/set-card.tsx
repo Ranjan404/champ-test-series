@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { ResetButton } from "@/components/reset-button";
+import { formatDuration } from "@/lib/bpsc";
 import { PRACTICE_DURATION_SECONDS } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -16,8 +17,21 @@ function StatusBadge({ s }: { s: SetSummary }) {
   return <Badge><PlayCircle className="size-3" /> Unlocked</Badge>;
 }
 
-/** One set's tile on a set list page. Shared by practice sets and PYQ sets; `pageBase`/`apiBase` pick the section. */
-export function SetCard({ s, pageBase = "/practice", apiBase = "/api/sets" }: { s: SetSummary; pageBase?: string; apiBase?: string }) {
+/** One set's tile on a set list page. Shared by practice, PYQ and Full Length sets; `pageBase`/`apiBase` pick the section. */
+export function SetCard({
+  s,
+  pageBase = "/practice",
+  apiBase = "/api/sets",
+  minutes = PRACTICE_DURATION_SECONDS / 60,
+  noun = "Set",
+}: {
+  s: SetSummary;
+  pageBase?: string;
+  apiBase?: string;
+  minutes?: number;
+  /** What the tile calls the set ("Set", "Test"). */
+  noun?: string;
+}) {
   const locked = !s.unlocked;
   return (
     <div
@@ -30,7 +44,7 @@ export function SetCard({ s, pageBase = "/practice", apiBase = "/api/sets" }: { 
     >
       <div className="flex items-start justify-between gap-2">
         <div>
-          <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Set</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">{noun}</p>
           <p className="font-mono text-3xl font-bold leading-none">{String(s.setId).padStart(2, "0")}</p>
         </div>
         <StatusBadge s={s} />
@@ -46,12 +60,19 @@ export function SetCard({ s, pageBase = "/practice", apiBase = "/api/sets" }: { 
         )}
         {s.status === "in_progress" && (
           <div className="grid gap-1.5">
-            <p className="text-muted-foreground">{s.answered} of {s.total} answered</p>
-            <Progress value={(s.answered / s.total) * 100} label={`Set ${s.setId} progress`} />
+            <p className="text-muted-foreground">
+              {s.answered} of {s.total} answered
+              {s.timeLeft !== null && <span className="block text-xs">{formatDuration(s.timeLeft)} left on the timer</span>}
+            </p>
+            <Progress value={(s.answered / s.total) * 100} label={`${noun} ${s.setId} progress`} />
           </div>
         )}
-        {s.status === "not_started" && !locked && <p className="text-muted-foreground">{s.total} questions · {PRACTICE_DURATION_SECONDS / 60} minutes</p>}
-        {locked && <p className="text-muted-foreground">Submit Set {s.setId - 1} to unlock.</p>}
+        {s.status === "not_started" && !locked && <p className="text-muted-foreground">{s.total} questions · {minutes} minutes</p>}
+        {locked && (
+          <p className="text-muted-foreground">
+            Submit {noun} {s.setId - 1} to unlock.
+          </p>
+        )}
       </div>
 
       <div className="mt-4 flex flex-wrap gap-2">
@@ -77,7 +98,7 @@ export function SetCard({ s, pageBase = "/practice", apiBase = "/api/sets" }: { 
           </>
         ) : (
           <Button asChild className="w-full">
-            <Link href={`${pageBase}/${s.setId}`}>Start set</Link>
+            <Link href={`${pageBase}/${s.setId}`}>Start {noun.toLowerCase()}</Link>
           </Button>
         )}
       </div>

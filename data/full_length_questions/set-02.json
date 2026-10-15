@@ -1,0 +1,4076 @@
+{
+  "setId": 2,
+  "title": "Full Length Test 2",
+  "sections": [
+    {
+      "name": "Language (English & Hindi)",
+      "from": 1,
+      "to": 30,
+      "count": 30
+    },
+    {
+      "name": "GK & GS",
+      "from": 31,
+      "to": 70,
+      "count": 40
+    },
+    {
+      "name": "Computer Science",
+      "from": 71,
+      "to": 150,
+      "count": 80
+    }
+  ],
+  "questions": [
+    {
+      "id": "F02-Q001",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "General Awareness",
+      "concept": "Contents of a cupboard",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q1",
+      "question": "A cupboard does not contain:",
+      "options": {
+        "A": "wood",
+        "B": "button",
+        "C": "clothes",
+        "D": "shelves",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A cupboard is made of wood and is used to store clothes; a button is a small fastener on a garment, not something a cupboard is made of or meant to hold.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F02-Q002",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Vocabulary",
+      "concept": "Relationship words",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q2",
+      "question": "My mother's brother is my ______.",
+      "options": {
+        "A": "Maternal Uncle",
+        "B": "Brother",
+        "C": "Maternal Aunt",
+        "D": "Paternal Uncle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A mother's brother is one's maternal uncle (mama).",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q003",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Idioms & Phrases",
+      "concept": "Meaning of 'through thick and thin'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q3",
+      "question": "Select the most appropriate meaning of the given idiom:\n\"Through thick and thin\"",
+      "options": {
+        "A": "put the bees in a line",
+        "B": "under all circumstances",
+        "C": "stand in a queue",
+        "D": "in a great hurry",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'Through thick and thin' means under all circumstances, in good times and bad.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q004",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Preposition 'behind'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q4",
+      "question": "Read the passage and answer the question.\nEffective communication is about more than just exchanging information. It's about understanding the emotion and intentions (1) ______ the information. As well as being able to clearly convey a message, you need to also (2) ______ in a way that gains the full meaning of what's being said and makes the other person feel heard and understood. For many of us, communicating more clearly and effectively requires learning some (3) ______ skills. Whether you're trying to improve communication with your spouse, kids, boss, or coworkers, learning these skills can (4) ______ your connections to others, build greater trust and respect, and (5) ______ teamwork, problem solving, and your overall social and emotional health.\n\nSelect the most appropriate option for blank no. (1).",
+      "options": {
+        "A": "in front of",
+        "B": "above",
+        "C": "behind",
+        "D": "beyond",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "We try to understand the emotion and intentions 'behind' the information, i.e. what lies underneath it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q005",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Context: listening",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q5",
+      "question": "Read the passage and answer the question.\nEffective communication is about more than just exchanging information. It's about understanding the emotion and intentions (1) ______ the information. As well as being able to clearly convey a message, you need to also (2) ______ in a way that gains the full meaning of what's being said and makes the other person feel heard and understood. For many of us, communicating more clearly and effectively requires learning some (3) ______ skills. Whether you're trying to improve communication with your spouse, kids, boss, or coworkers, learning these skills can (4) ______ your connections to others, build greater trust and respect, and (5) ______ teamwork, problem solving, and your overall social and emotional health.\n\nSelect the most appropriate option for blank no. (2).",
+      "options": {
+        "A": "listen",
+        "B": "think",
+        "C": "speak",
+        "D": "argue",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The sentence is about gaining the full meaning of what is said and making the other person feel heard, so 'listen' fits.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q006",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Context: important skills",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q6",
+      "question": "Read the passage and answer the question.\nEffective communication is about more than just exchanging information. It's about understanding the emotion and intentions (1) ______ the information. As well as being able to clearly convey a message, you need to also (2) ______ in a way that gains the full meaning of what's being said and makes the other person feel heard and understood. For many of us, communicating more clearly and effectively requires learning some (3) ______ skills. Whether you're trying to improve communication with your spouse, kids, boss, or coworkers, learning these skills can (4) ______ your connections to others, build greater trust and respect, and (5) ______ teamwork, problem solving, and your overall social and emotional health.\n\nSelect the most appropriate option for blank no. (3).",
+      "options": {
+        "A": "wasteful",
+        "B": "trivial",
+        "C": "useless",
+        "D": "important",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Learning skills that improve communication requires 'important' skills; 'wasteful' and 'trivial' contradict the positive tone.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q007",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Collocation: deepen connections",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q7",
+      "question": "Read the passage and answer the question.\nEffective communication is about more than just exchanging information. It's about understanding the emotion and intentions (1) ______ the information. As well as being able to clearly convey a message, you need to also (2) ______ in a way that gains the full meaning of what's being said and makes the other person feel heard and understood. For many of us, communicating more clearly and effectively requires learning some (3) ______ skills. Whether you're trying to improve communication with your spouse, kids, boss, or coworkers, learning these skills can (4) ______ your connections to others, build greater trust and respect, and (5) ______ teamwork, problem solving, and your overall social and emotional health.\n\nSelect the most appropriate option for blank no. (4).",
+      "options": {
+        "A": "hamper",
+        "B": "trivialise",
+        "C": "deepen",
+        "D": "weaken",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Good communication skills 'deepen' your connections to others; 'hamper' and 'trivialise' are negative.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q008",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "English Language",
+      "subtopic": "Cloze Test",
+      "concept": "Collocation: improve teamwork",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q8",
+      "question": "Read the passage and answer the question.\nEffective communication is about more than just exchanging information. It's about understanding the emotion and intentions (1) ______ the information. As well as being able to clearly convey a message, you need to also (2) ______ in a way that gains the full meaning of what's being said and makes the other person feel heard and understood. For many of us, communicating more clearly and effectively requires learning some (3) ______ skills. Whether you're trying to improve communication with your spouse, kids, boss, or coworkers, learning these skills can (4) ______ your connections to others, build greater trust and respect, and (5) ______ teamwork, problem solving, and your overall social and emotional health.\n\nSelect the most appropriate option for blank no. (5).",
+      "options": {
+        "A": "improve",
+        "B": "hasten",
+        "C": "hamper",
+        "D": "delay",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "These skills 'improve' teamwork, problem solving and overall social and emotional health.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q009",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Hindi Bhasha ka Itihas",
+      "concept": "Old Indo-Aryan language",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q9",
+      "question": "निम्नलिखित में से कौन-सी प्राचीन भारतीय आर्य भाषा है?",
+      "options": {
+        "A": "वैदिक संस्कृत",
+        "B": "प्राकृत",
+        "C": "अपभ्रंश",
+        "D": "पालि",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Old Indo-Aryan period (about 1500 BCE to 500 BCE) includes Vedic and Classical (Laukik) Sanskrit. Prakrit and Apabhramsha belong to the Middle Indo-Aryan period.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q010",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Hindi Bhasha ka Itihas",
+      "concept": "Languages from Magadhi Apabhramsha",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q10",
+      "question": "इनमें से किस भाषा का विकास मागधी अपभ्रंश से हुआ है?",
+      "options": {
+        "A": "बघेली",
+        "B": "गढ़वाली",
+        "C": "मगही",
+        "D": "अवधी",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Magahi, Maithili and Bhojpuri developed from Magadhi Apabhramsha. Bagheli belongs to Eastern Hindi (Ardhamagadhi) and Garhwali to the Pahari group.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q011",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Varna Vichar",
+      "concept": "Antahstha vyanjan",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q11",
+      "question": "निम्नलिखित में से कौन-सा अन्तःस्थ व्यंजन है?",
+      "options": {
+        "A": "ल",
+        "B": "च",
+        "C": "प",
+        "D": "क",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "There are four Antahstha vyanjan: य, र, ल, व. च is a sparsh (palatal) consonant and प is a sparsh (labial) consonant.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q012",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Varna Vichar",
+      "concept": "Place of articulation of 'प' varg",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q12",
+      "question": "'प वर्ग' (प, फ, ब, भ, म) का उच्चारण स्थान क्या है?",
+      "options": {
+        "A": "ओष्ठ",
+        "B": "दंत",
+        "C": "मूर्धा",
+        "D": "कंठ",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The प varg (प, फ, ब, भ, म) is pronounced with the lips, so its place of articulation is ओष्ठ (oshthya varna).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q013",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Upsarg (Prefix)",
+      "concept": "Upsarg in 'प्रातः काल'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q13",
+      "question": "'प्रातः काल' शब्द में कौन-सा उपसर्ग प्रयुक्त हुआ है?",
+      "options": {
+        "A": "अहकाल",
+        "B": "प्रात",
+        "C": "प्रातः",
+        "D": "काल",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In 'प्रातः काल', the avyaya 'प्रातः' is used before 'काल' in the role of a prefix; 'अहकाल' and 'प्रात' are not valid splits of the word.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Careless Error",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q014",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Sangya (Noun)",
+      "concept": "Samuhvachak sangya",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q14",
+      "question": "सेना, दल, सभा और कक्षा जैसे शब्द किस प्रकार की संज्ञा हैं?",
+      "options": {
+        "A": "भाववाचक संज्ञा",
+        "B": "समूहवाचक संज्ञा",
+        "C": "जातिवाचक संज्ञा",
+        "D": "व्यक्तिवाचक संज्ञा",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "सेना (army), दल (team), सभा (assembly) and कक्षा (class) each denote a group of persons or things, so they are samuhvachak sangya.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q015",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Vachan (Number)",
+      "concept": "Number of 'क्षण'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q15",
+      "question": "'आने वाला क्षण लाल नजर आता है।' वाक्य में रेखांकित शब्द 'क्षण' किस वचन में है?",
+      "options": {
+        "A": "बहुवचन",
+        "B": "एकवचन",
+        "C": "सदैव एकवचन",
+        "D": "सदैव बहुवचन",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Here 'क्षण' refers to a single coming moment (आने वाला ... आता है), so it is ekvachan. The word can also be used in the plural, so 'always singular' is wrong.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q016",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Sangya (Noun)",
+      "concept": "Jativachak sangya",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q16",
+      "question": "'घड़ी' किस प्रकार की संज्ञा है?",
+      "options": {
+        "A": "समूहवाचक संज्ञा",
+        "B": "व्यक्तिवाचक संज्ञा",
+        "C": "भाववाचक संज्ञा",
+        "D": "जातिवाचक संज्ञा",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'घड़ी' denotes a whole class of objects, not a particular one or a group, so it is a jativachak sangya.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q017",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Sarvanam (Pronoun)",
+      "concept": "Uttam purush sarvanam",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q17",
+      "question": "निम्नलिखित में से कौन-सा शब्द उत्तम पुरुषवाचक सर्वनाम नहीं है?",
+      "options": {
+        "A": "हमको",
+        "B": "मुझमें",
+        "C": "हमारा",
+        "D": "तुम",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "'तुम' is a madhyam purush (second person) pronoun. 'हमको' and 'मुझमें' are forms of the first person pronouns हम and मैं.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "F02-Q018",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Visheshan (Adjective)",
+      "concept": "Sentence without adjective",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q18",
+      "question": "किस वाक्य में विशेषण का प्रयोग नहीं हुआ है?",
+      "options": {
+        "A": "वह लड़का विद्यार्थी है",
+        "B": "वह प्रबुद्ध विद्यार्थी है",
+        "C": "वह विद्यार्थी है",
+        "D": "वह मेधावी विद्यार्थी है",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "In 'वह विद्यार्थी है', 'वह' is a pronoun and 'विद्यार्थी' is a noun complement, so there is no adjective. In 'वह लड़का', 'वह' is a pronominal adjective, and 'प्रबुद्ध' is a qualitative adjective.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q019",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Kriya (Verb)",
+      "concept": "Continuous aspect",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q19",
+      "question": "किस वाक्य में क्रिया के 'सातत्यबोधक पक्ष' का प्रयोग हुआ है?",
+      "options": {
+        "A": "वह स्नान करके मंदिर जाता है।",
+        "B": "विद्यार्थी पुस्तकालय में बैठकर समाचार पत्र पढ़ते हैं।",
+        "C": "मोहन अपनी कक्षा में पढ़ा रहा है।",
+        "D": "राम ने खाना खा लिया है।",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "'पढ़ा रहा है' shows an action that is continuing, which is the सातत्यबोधक (continuous) aspect. The other two show habitual actions.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q020",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Hindi Language",
+      "subtopic": "Shabd Yugm (Paronyms)",
+      "concept": "Meaning of आवलंब-अविलम्ब",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q20",
+      "question": "किस विकल्प में शब्द-युग्म का अर्थ-भेद सही नहीं है?",
+      "options": {
+        "A": "अनिल-अनल: हवा-आग",
+        "B": "आवलंब-अविलम्ब: अधर-विलोकित",
+        "C": "अंश-अंस: हिस्सा-कंधा",
+        "D": "कुल-कूल: वंश-किनारा",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "अनिल means air and अनल means fire; अंश means part and अंस means shoulder; कुल means lineage and कूल means bank. आवलंब/अवलंब means support and अविलंब means without delay, so 'अधर-विलोकित' is the wrong meaning.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q021",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Sandhi",
+      "concept": "Yan sandhi",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q21",
+      "question": "मधु + अरि की संधि कीजिए:",
+      "options": {
+        "A": "मध्वरि",
+        "B": "मद्वरि",
+        "C": "मध्वरी",
+        "D": "मधोरि",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "उ + अ = व (yan swar sandhi), so मधु + अरि = मध्वरि. 'मद्वरि' has the wrong consonant and 'मध्वरी' has a long ई.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F02-Q022",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Anekarthi Shabd",
+      "concept": "Meanings of 'अंक'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q22",
+      "question": "निम्नलिखित में से कौन-सा अनेकार्थी शब्द 'अंक' का अर्थ नहीं है?",
+      "options": {
+        "A": "पृथ्वी",
+        "B": "गोद",
+        "C": "नाटक का एक भाग",
+        "D": "संख्या",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The meanings of 'अंक' include lap, number, an act of a play and a mark; 'पृथ्वी' is not one of them.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q023",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Anekarthi Shabd",
+      "concept": "Meanings of 'घट'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q23",
+      "question": "इनमें से कौन-सा 'घट' शब्द का अर्थ नहीं है?",
+      "options": {
+        "A": "मन",
+        "B": "समूह",
+        "C": "शरीर",
+        "D": "घड़ा",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "'घट' means pitcher, body, heart/mind and also 'to decrease'; it does not mean group.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q024",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Alankar",
+      "concept": "Upma alankar",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q24",
+      "question": "\"हीरक-सी समीर माला जप\" पंक्ति में कौन-सा अलंकार है?",
+      "options": {
+        "A": "उपमा",
+        "B": "यमक",
+        "C": "अनुप्रास",
+        "D": "रूपक",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The comparative word 'सी' in 'हीरक-सी' compares one thing to another, which makes it Upma alankar.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q025",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Alankar",
+      "concept": "Chhekanupras",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q25",
+      "question": "जब एक या अनेक वर्णों की आवृत्ति एक ही क्रम में केवल एक बार हो, तब कौन-सा अलंकार होता है?",
+      "options": {
+        "A": "लाटानुप्रास",
+        "B": "वृत्यानुप्रास",
+        "C": "छेकानुप्रास",
+        "D": "श्रुत्यनुप्रास",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A single repetition of one or more letters in the same order is Chhekanupras. Repetition many times is Vrityanupras, and repetition of words with a change of meaning in context is Latanupras.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q026",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Apathit Gadyansh (Comprehension)",
+      "concept": "Author's supporting example",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q26",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nहम मनुष्य कुछ न कुछ बनने का सपना देखते हैं। अपने सपने को साकार करने के लिए हम उसे अपना आधार और अपना लक्ष्य बनाते हैं और उसी सपने के आधार पर अपने भविष्य की नींव रखने लगते हैं। हमारा लक्ष्य कुछ भी हो सकता है: हम डॉक्टर, इंजीनियर, राजनेता, अभिनेता, सरकारी कर्मचारी या शिक्षक बनने की सोच सकते हैं। हमारी शिक्षा का स्तर ही उस लक्ष्य तक पहुँचने का मार्ग है; शिक्षा ही हमें लक्ष्य तक ले जाती है और उसे साकार करती है। शिक्षा व्यक्ति के जीवन में एक अनमोल रत्न के समान है, जिसे न कोई चुरा सकता है और न मिटा सकता है। जब यक्ष ने पूछा, 'परदेश में मनुष्य का साथी कौन है?', तब युधिष्ठिर ने उत्तर दिया, 'विद्या'। महाभारत में युधिष्ठिर और यक्ष के इस संवाद से स्पष्ट है कि प्राचीन काल से ही मानव जीवन में शिक्षा का महत्त्व रहा है।\n\nलेखक ने अपनी बात की प्रामाणिकता सिद्ध करने के लिए कौन-सा उदाहरण प्रस्तुत किया है?",
+      "options": {
+        "A": "सपनों का",
+        "B": "शिक्षा के सबल पक्ष का",
+        "C": "डॉक्टर और इंजीनियर का",
+        "D": "युधिष्ठिर और यक्ष के संवाद का",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The author cites the Yaksha-Yudhishthira dialogue from the Mahabharata to prove that education has always been important.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "F02-Q027",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Apathit Gadyansh (Comprehension)",
+      "concept": "Companion in a foreign land",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q27",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nहम मनुष्य कुछ न कुछ बनने का सपना देखते हैं। अपने सपने को साकार करने के लिए हम उसे अपना आधार और अपना लक्ष्य बनाते हैं और उसी सपने के आधार पर अपने भविष्य की नींव रखने लगते हैं। हमारा लक्ष्य कुछ भी हो सकता है: हम डॉक्टर, इंजीनियर, राजनेता, अभिनेता, सरकारी कर्मचारी या शिक्षक बनने की सोच सकते हैं। हमारी शिक्षा का स्तर ही उस लक्ष्य तक पहुँचने का मार्ग है; शिक्षा ही हमें लक्ष्य तक ले जाती है और उसे साकार करती है। शिक्षा व्यक्ति के जीवन में एक अनमोल रत्न के समान है, जिसे न कोई चुरा सकता है और न मिटा सकता है। जब यक्ष ने पूछा, 'परदेश में मनुष्य का साथी कौन है?', तब युधिष्ठिर ने उत्तर दिया, 'विद्या'। महाभारत में युधिष्ठिर और यक्ष के इस संवाद से स्पष्ट है कि प्राचीन काल से ही मानव जीवन में शिक्षा का महत्त्व रहा है।\n\nगद्यांश के अनुसार परदेश में मनुष्य का साथी है:",
+      "options": {
+        "A": "संबंधी",
+        "B": "धन",
+        "C": "मित्र",
+        "D": "विद्या",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Yudhishthira answered that 'Vidya' (knowledge) is a person's companion in a foreign land.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "C": "Question Misread"
+      }
+    },
+    {
+      "id": "F02-Q028",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Apathit Gadyansh (Comprehension)",
+      "concept": "Title of the passage",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q28",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nहम मनुष्य कुछ न कुछ बनने का सपना देखते हैं। अपने सपने को साकार करने के लिए हम उसे अपना आधार और अपना लक्ष्य बनाते हैं और उसी सपने के आधार पर अपने भविष्य की नींव रखने लगते हैं। हमारा लक्ष्य कुछ भी हो सकता है: हम डॉक्टर, इंजीनियर, राजनेता, अभिनेता, सरकारी कर्मचारी या शिक्षक बनने की सोच सकते हैं। हमारी शिक्षा का स्तर ही उस लक्ष्य तक पहुँचने का मार्ग है; शिक्षा ही हमें लक्ष्य तक ले जाती है और उसे साकार करती है। शिक्षा व्यक्ति के जीवन में एक अनमोल रत्न के समान है, जिसे न कोई चुरा सकता है और न मिटा सकता है। जब यक्ष ने पूछा, 'परदेश में मनुष्य का साथी कौन है?', तब युधिष्ठिर ने उत्तर दिया, 'विद्या'। महाभारत में युधिष्ठिर और यक्ष के इस संवाद से स्पष्ट है कि प्राचीन काल से ही मानव जीवन में शिक्षा का महत्त्व रहा है।\n\nगद्यांश का सबसे उपयुक्त शीर्षक है:",
+      "options": {
+        "A": "लक्ष्य का महत्त्व",
+        "B": "शिक्षा का महत्त्व",
+        "C": "श्रम व शिक्षा का महत्त्व",
+        "D": "सपनों का महत्त्व",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The central idea of the passage is the importance of education in human life; labour is not discussed at all.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Question Misread",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q029",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Hindi Language",
+      "subtopic": "Apathit Gadyansh (Comprehension)",
+      "concept": "Precious gem",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q29",
+      "question": "गद्यांश को पढ़कर प्रश्न का उत्तर दीजिए।\nहम मनुष्य कुछ न कुछ बनने का सपना देखते हैं। अपने सपने को साकार करने के लिए हम उसे अपना आधार और अपना लक्ष्य बनाते हैं और उसी सपने के आधार पर अपने भविष्य की नींव रखने लगते हैं। हमारा लक्ष्य कुछ भी हो सकता है: हम डॉक्टर, इंजीनियर, राजनेता, अभिनेता, सरकारी कर्मचारी या शिक्षक बनने की सोच सकते हैं। हमारी शिक्षा का स्तर ही उस लक्ष्य तक पहुँचने का मार्ग है; शिक्षा ही हमें लक्ष्य तक ले जाती है और उसे साकार करती है। शिक्षा व्यक्ति के जीवन में एक अनमोल रत्न के समान है, जिसे न कोई चुरा सकता है और न मिटा सकता है। जब यक्ष ने पूछा, 'परदेश में मनुष्य का साथी कौन है?', तब युधिष्ठिर ने उत्तर दिया, 'विद्या'। महाभारत में युधिष्ठिर और यक्ष के इस संवाद से स्पष्ट है कि प्राचीन काल से ही मानव जीवन में शिक्षा का महत्त्व रहा है।\n\nगद्यांश के अनुसार कौन-सी वस्तु अनमोल रत्न के समान है, जिसे चुराया नहीं जा सकता?",
+      "options": {
+        "A": "धन",
+        "B": "भाषा",
+        "C": "शिक्षा",
+        "D": "सोना",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The passage says education is like a precious gem that no one can steal or erase.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F02-Q030",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Hindi Language",
+      "subtopic": "Vakyansh ke liye Ek Shabd",
+      "concept": "युधिष्ठिर",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q30",
+      "question": "'युद्ध में स्थिर रहने वाला' वाक्यांश के लिए एक शब्द चुनिए:",
+      "options": {
+        "A": "युद्ध कैदी",
+        "B": "युद्ध बंदी",
+        "C": "युद्धपोत",
+        "D": "युधिष्ठिर",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The one word for 'युद्ध में स्थिर रहने वाला' is 'युधिष्ठिर'. युद्ध बंदी/कैदी means prisoner of war and युद्धपोत means warship.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q031",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Indian History",
+      "subtopic": "Non-Cooperation Movement",
+      "concept": "Liquor boycott and revenue loss",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q31",
+      "question": "During Gandhiji's Non-Cooperation Movement, people were urged to give up liquor, which caused a heavy loss of government revenue. To encourage people to drink again, the government of one province circulated a list of prominent persons who drank. Name the province.",
+      "options": {
+        "A": "Andhra Pradesh",
+        "B": "Bihar",
+        "C": "Bombay",
+        "D": "Madras",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The fall in excise revenue due to the liquor boycott led the Bihar government to circulate a list of eminent persons who drank liquor.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q032",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Swaraj Party",
+      "concept": "Support in Central Legislative Assembly",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q32",
+      "question": "In pre-independence India, who among the following supported the Swaraj Party in the Central Legislative Assembly?",
+      "options": {
+        "A": "Maulana Abul Kalam Azad",
+        "B": "Dr. Rajendra Prasad",
+        "C": "M.A. Jinnah",
+        "D": "Sardar Vallabhbhai Patel",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "M.A. Jinnah, leader of the Independents in the Central Legislative Assembly, cooperated with the Swaraj Party there.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q033",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian History",
+      "subtopic": "Simon Commission",
+      "concept": "Reason for boycott",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q33",
+      "question": "Why was there a mass movement in India against the arrival of the Simon Commission?",
+      "options": {
+        "A": "Indians never wanted a review of the working of the Act of 1919",
+        "B": "The Simon Commission recommended the abolition of dyarchy in the provinces",
+        "C": "The Simon Commission proposed abolishing the provincial legislatures",
+        "D": "There was no Indian member in the Simon Commission",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "All seven members of the Simon Commission (1927) were British, so Indians boycotted it with the slogan 'Simon Go Back'.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q034",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian History",
+      "subtopic": "Indian National Congress Sessions",
+      "concept": "Lahore session 1929",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q34",
+      "question": "The 1929 session of the Indian National Congress is significant in the history of the freedom movement because in this session:",
+      "options": {
+        "A": "attainment of Poorna Swaraj was adopted as the goal of the Congress",
+        "B": "self-government was declared as the objective of the Congress",
+        "C": "the Non-Cooperation Movement was launched",
+        "D": "the Civil Disobedience Movement was withdrawn",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "At the Lahore session (1929), presided over by Jawaharlal Nehru, Poorna Swaraj (complete independence) was adopted as the goal.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q035",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Civil Disobedience Movement",
+      "concept": "Dandi March",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q35",
+      "question": "With reference to Gandhi's Dandi March, which of the following statements is NOT correct?",
+      "options": {
+        "A": "It was a march from Sabarmati Ashram to Dandi village.",
+        "B": "Its specific purpose was to protest against the salt tax.",
+        "C": "On reaching the seashore, Gandhi manufactured salt.",
+        "D": "The march began on 12 March 1930.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "On 6 April 1930, Gandhi broke the salt law symbolically by picking up a handful of natural salt from the shore; he did not manufacture salt.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F02-Q036",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Indian National Congress Sessions",
+      "concept": "Karachi session 1931",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q36",
+      "question": "For the Karachi session of the Indian National Congress in 1931, presided over by Sardar Patel, who drafted the resolution on Fundamental Rights and the Economic Programme?",
+      "options": {
+        "A": "Mahatma Gandhi",
+        "B": "Dr. Rajendra Prasad",
+        "C": "Subhas Chandra Bose",
+        "D": "Pandit Jawaharlal Nehru",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The resolution on Fundamental Rights and the National Economic Programme at Karachi (1931) was drafted by Jawaharlal Nehru.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q037",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Indian History",
+      "subtopic": "History of Bihar",
+      "concept": "Resignation of Shri Krishna Sinha ministry",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q37",
+      "question": "Why did the elected government of Bihar formed by Shri Krishna Singh resign in February 1938?",
+      "options": {
+        "A": "Due to Gandhiji's satyagraha movement against the British",
+        "B": "To take part in India's freedom movement",
+        "C": "Over the issue of releasing political prisoners",
+        "D": "Due to differences with the Muslim League",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Governor refused to allow the release of political prisoners, so Dr. Shri Krishna Sinha's ministry resigned in February 1938.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q038",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian History",
+      "subtopic": "Quit India Movement",
+      "concept": "Causes of Quit India",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q38",
+      "question": "The 'Quit India Movement' was the result of:\n1. the frustration of Indians with the Cripps proposals\n2. the threat of a Japanese invasion of India\n3. Gandhiji's writings inciting countrymen to adopt violent means\n4. a resolution passed by the A.I.C.C. in August 1942\nSelect the correct answer using the codes given below:",
+      "options": {
+        "A": "1, 2 and 4",
+        "B": "1 and 2",
+        "C": "2, 3 and 4",
+        "D": "1, 3 and 4",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The failure of the Cripps Mission, the fear of a Japanese invasion and the AICC's Quit India resolution of 8 August 1942 led to the movement. Gandhi never incited violence, so statement 3 is wrong.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q039",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "India and its Neighbours",
+      "concept": "States bordering Nepal",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q39",
+      "question": "Which of the following share a common border with Nepal?",
+      "options": {
+        "A": "Himachal Pradesh, Uttar Pradesh, Bhutan and Punjab",
+        "B": "Uttar Pradesh, Uttarakhand, Bihar, Sikkim and West Bengal",
+        "C": "Bihar, Jharkhand, Uttarakhand and Sikkim",
+        "D": "Uttarakhand, Himachal Pradesh, Bihar and Assam",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Five Indian states border Nepal: Uttarakhand, Uttar Pradesh, Bihar, West Bengal and Sikkim.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q040",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "Biodiversity",
+      "concept": "Hotspots in India",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q40",
+      "question": "Which of the following is one of the biodiversity hotspots found in India?",
+      "options": {
+        "A": "Indo-Burma",
+        "B": "Eastern Ghats",
+        "C": "Deccan Plateau",
+        "D": "Thar Desert",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The biodiversity hotspots in India are the Himalaya, Indo-Burma, the Western Ghats and Sri Lanka, and Sundaland (Nicobar Islands).",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q041",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "Physiography",
+      "concept": "Himalaya as fold mountains",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q41",
+      "question": "As we move from south to north, from the plains to the Himalaya, what do we find?",
+      "options": {
+        "A": "Fault mountain ranges",
+        "B": "Fold mountain ranges",
+        "C": "Block mountain ranges",
+        "D": "Residual mountain ranges",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Himalaya are young fold mountains formed by the collision of the Indian and Eurasian plates.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q042",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Indian Geography",
+      "subtopic": "Drainage System",
+      "concept": "Tungabhadra",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q42",
+      "question": "The Tungabhadra river is a tributary of which of the following rivers?",
+      "options": {
+        "A": "Mahanadi",
+        "B": "Krishna",
+        "C": "Godavari",
+        "D": "Kaveri",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The Tungabhadra is a major right-bank tributary of the Krishna river.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q043",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Geography of Bihar",
+      "concept": "Kanwar Lake",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q43",
+      "question": "In which district of Bihar is Kanwar (Kabar) Lake located?",
+      "options": {
+        "A": "Sheohar",
+        "B": "Nawada",
+        "C": "Gopalganj",
+        "D": "Begusarai",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Kanwar Lake, Asia's largest freshwater oxbow lake and a Ramsar site, is in Begusarai district of Bihar.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q044",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Climate",
+      "concept": "Winter rainfall",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q44",
+      "question": "Which place(s) in India receive the maximum rainfall during the winter season?",
+      "options": {
+        "A": "Kashmir Valley",
+        "B": "Coromandel Coast",
+        "C": "Punjab and Haryana",
+        "D": "Malabar Coast",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The retreating (north-east) monsoon gives the Coromandel coast of Tamil Nadu its heaviest rain in winter. Western disturbances give only light winter rain in the north-west.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q045",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Natural Vegetation",
+      "concept": "Tropical moist deciduous trees",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q45",
+      "question": "Which tree is the most dominant species of the tropical moist deciduous forests of India?",
+      "options": {
+        "A": "Deodar",
+        "B": "Chir Pine",
+        "C": "Teak (Sagwan)",
+        "D": "Sundari",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Teak is the dominant species of tropical moist deciduous forests (with sal, shisham, bamboo and arjun). Deodar and chir pine are Himalayan conifers, and sundari grows in mangrove forests.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q046",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Indian Geography",
+      "subtopic": "Mineral Resources",
+      "concept": "Mica, Gondwana and Dharwar",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q46",
+      "question": "Consider the following statements and state which is/are correct:\n1. Natural gas is found in the Gondwana layers.\n2. Mica is found in abundance in Koderma district.\n3. Dharwar is famous for petroleum.",
+      "options": {
+        "A": "Only 2",
+        "B": "1 and 2",
+        "C": "2 and 3",
+        "D": "1 and 3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Gondwana rocks are known for coal and Dharwar rocks for metallic minerals; petroleum and natural gas occur in tertiary sedimentary rocks. Koderma (Jharkhand) is the mica capital of India, so only statement 2 is correct.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q047",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Physics: Electricity",
+      "concept": "Electric motor",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q47",
+      "question": "Which of the following devices converts electrical energy into mechanical energy?",
+      "options": {
+        "A": "Dynamo",
+        "B": "Electric Motor",
+        "C": "Transformer",
+        "D": "Solar cell",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "An electric motor converts electrical energy into mechanical energy. A dynamo does the reverse, and a transformer changes AC voltage levels.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q048",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "General Science",
+      "subtopic": "Physics: Light",
+      "concept": "VIBGYOR order",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q48",
+      "question": "Which of the following gives three consecutive colours of the visible spectrum (VIBGYOR) in the correct order?",
+      "options": {
+        "A": "Violet, Blue, Red",
+        "B": "Red, Green, Purple",
+        "C": "Blue, Green, Yellow",
+        "D": "Orange, Yellow, Indigo",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The spectrum order is Violet, Indigo, Blue, Green, Yellow, Orange, Red, so Blue, Green, Yellow are consecutive. 'Violet, Blue, Red' skips colours and the other two are out of order.",
+      "distractorMistakeType": {
+        "A": "Question Misread",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q049",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Physics: Light",
+      "concept": "Convex mirror as rear-view mirror",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q49",
+      "question": "Why are convex mirrors used as rear-view mirrors in motorcycles?",
+      "options": {
+        "A": "It shows the actual shape",
+        "B": "It makes the image appear smaller than the actual object",
+        "C": "It forms an inverted, magnified image",
+        "D": "It forms an erect, diminished image with a wide field of view",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A convex mirror always forms an erect, virtual and diminished image, giving a much wider field of view of the traffic behind. Making the image small is only a side effect, not the reason.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q050",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Chemistry: States of Matter",
+      "concept": "Properties of solids",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q50",
+      "question": "Which of the following statements is wrong?",
+      "options": {
+        "A": "Solids have an indefinite shape.",
+        "B": "Solids have a definite volume.",
+        "C": "Solids are hard.",
+        "D": "The particles of solids are closely packed.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Solids have both a definite shape and a definite volume, so the statement that solids have an indefinite shape is wrong.",
+      "distractorMistakeType": {
+        "B": "Question Misread",
+        "C": "Question Misread",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F02-Q051",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Chemistry: Organic",
+      "concept": "Benzene structure",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q51",
+      "question": "A molecule of benzene has ______ double bonds.",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "6",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Benzene (C6H6) has a ring with 3 alternating double bonds and 3 single bonds between carbon atoms.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q052",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Biology: Branches of Science",
+      "concept": "Primatology",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q52",
+      "question": "______ is the study of the biology and behaviour of primates such as monkeys, apes and orangutans.",
+      "options": {
+        "A": "Anthropology",
+        "B": "Ethnobotany",
+        "C": "Primatology",
+        "D": "Ornithology",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Primatology is the study of primates. Anthropology studies humans and ethnobotany studies the relationship between people and plants.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q053",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "General Science",
+      "subtopic": "Biology: Human Body",
+      "concept": "Uterus",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q53",
+      "question": "What is the alternative term for the uterus?",
+      "options": {
+        "A": "Womb (Hystera)",
+        "B": "Ureter",
+        "C": "Vagina",
+        "D": "Urethra",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The uterus is also called the womb (Greek: hystera). The ureter carries urine from the kidney to the bladder.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q054",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "General Science",
+      "subtopic": "Inventions & Discoveries",
+      "concept": "Pacemaker",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q54",
+      "question": "Who invented the first pacemaker?",
+      "options": {
+        "A": "Virginia Apgar",
+        "B": "Christiaan Barnard",
+        "C": "John Hopps",
+        "D": "Alexander Fleming",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Canadian engineer John Hopps built the first external cardiac pacemaker in 1950. Virginia Apgar devised the Apgar score and Christiaan Barnard performed the first human heart transplant.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q055",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Mathematics",
+      "subtopic": "Pipes & Cisterns",
+      "concept": "Two inlets and one outlet",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q55",
+      "question": "Tap A can fill a tank in 10 hours and tap B in 5 hours. Tap C can empty the full tank in 20 hours. If all three taps are opened simultaneously, how much time will it take to fill the tank?",
+      "options": {
+        "A": "3⅓ hours",
+        "B": "4½ hours",
+        "C": "4 hours",
+        "D": "5 hours",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Net rate = 1/10 + 1/5 - 1/20 = (2 + 4 - 1)/20 = 5/20 = 1/4, so the tank fills in 4 hours.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q056",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Time, Speed & Distance",
+      "concept": "Early and late arrival",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q56",
+      "question": "Driving at 48 km/hr, Barun reached his destination 2 minutes early. If he drove at 42 km/hr, he would reach 1 minute late. What distance does Barun have to drive?",
+      "options": {
+        "A": "16.8 km",
+        "B": "17.2 km",
+        "C": "17.6 km",
+        "D": "18 km",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Time difference = 3 minutes = 1/20 hr. d/42 - d/48 = 6d/2016 = d/336 = 1/20, so d = 16.8 km.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q057",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Mathematics",
+      "subtopic": "Algebra",
+      "concept": "Identity (x + y)^2",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q57",
+      "question": "If x and y are two positive numbers such that x² + y² = 8 and xy = 4, find the value of (x + y).",
+      "options": {
+        "A": "16",
+        "B": "4",
+        "C": "6",
+        "D": "8",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "(x + y)² = x² + y² + 2xy = 8 + 8 = 16, so x + y = 4 (taking the positive root).",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q058",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Mathematics",
+      "subtopic": "LCM & HCF",
+      "concept": "Traffic lights",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q58",
+      "question": "The traffic lights at three consecutive intersections change every 35 seconds, 42 seconds and 90 seconds respectively. If they change together at 8:00:00, after how much time will they change together again?",
+      "options": {
+        "A": "9 minutes 10 seconds",
+        "B": "10 minutes 30 seconds",
+        "C": "7 minutes 20 seconds",
+        "D": "6 minutes 30 seconds",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "LCM(35, 42, 90) = 2 x 3² x 5 x 7 = 630 seconds = 10 minutes 30 seconds.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q059",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Mathematics",
+      "subtopic": "Ratio & Proportion",
+      "concept": "Adding to both terms",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q59",
+      "question": "The ratio between two numbers is 5 : 9. If 6 is added to both numbers, the ratio becomes 2 : 3. The original numbers are:",
+      "options": {
+        "A": "5, 9",
+        "B": "25, 45",
+        "C": "10, 18",
+        "D": "15, 27",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Let the numbers be 5x and 9x. (5x + 6)/(9x + 6) = 2/3 gives 15x + 18 = 18x + 12, so x = 2 and the numbers are 10 and 18.",
+      "distractorMistakeType": {
+        "A": "Careless Error",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q060",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Mathematics",
+      "subtopic": "Average",
+      "concept": "Corrected mean",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q60",
+      "question": "The mean of 36 numbers was found to be 42. Later it was discovered that a number 47 was mistakenly read as 41. Find the correct mean (rounded to two decimal places).",
+      "options": {
+        "A": "42.17",
+        "B": "42.83",
+        "C": "43.74",
+        "D": "42.50",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The total increases by 47 - 41 = 6, so the correct mean = 42 + 6/36 = 42.1666... ≈ 42.17.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q061",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Mathematics",
+      "subtopic": "Percentage",
+      "concept": "Scholarship percentage",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q61",
+      "question": "The ratio of boys to girls in a school is 3 : 2. If 20% of the boys and 25% of the girls get scholarships, what percentage of students do NOT get scholarships?",
+      "options": {
+        "A": "78%",
+        "B": "87%",
+        "C": "68%",
+        "D": "22%",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Take 300 boys and 200 girls. Without scholarship: 80% of 300 = 240 and 75% of 200 = 150, so 390/500 = 78%.",
+      "distractorMistakeType": {
+        "B": "Careless Error",
+        "C": "Calculation",
+        "D": "Question Misread"
+      }
+    },
+    {
+      "id": "F02-Q062",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Mathematics",
+      "subtopic": "Profit & Loss",
+      "concept": "Equal SP, equal gain and loss",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q62",
+      "question": "A person sold 2 items for ₹4000 each, making a profit of 15% on one and a loss of 15% on the other. Find his overall profit or loss (rounded to the nearest rupee).",
+      "options": {
+        "A": "₹200 profit",
+        "B": "₹184 loss",
+        "C": "₹175 profit",
+        "D": "No profit, no loss",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "CP1 = 4000/1.15 = 3478.26 and CP2 = 4000/0.85 = 4705.88, total CP = 8184.14 against SP 8000, so loss ≈ ₹184. (Equal SP with equal gain and loss % always gives a loss.)",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Calculation",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q063",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Current Affairs",
+      "subtopic": "Culture & Festivals",
+      "concept": "Hattee tribe festival",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q63",
+      "question": "Which is the biggest annual festival of the Hattee tribe of the Trans-Giri region of Himachal Pradesh?",
+      "options": {
+        "A": "Boda Festival",
+        "B": "Lohri",
+        "C": "Dussehra",
+        "D": "Holi",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Hattee community of the Trans-Giri area of Sirmaur district celebrates the Maghi festival as the 'Boda' festival, its biggest annual festival.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q064",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Banking & Economy",
+      "concept": "RBI Financial Literacy Week 2025",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q64",
+      "question": "When was RBI's Financial Literacy Week 2025, with the theme 'Financial Literacy - Women's Prosperity', observed?",
+      "options": {
+        "A": "10 to 14 January",
+        "B": "24 to 28 February",
+        "C": "24 to 28 January",
+        "D": "10 to 14 March",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "RBI observed Financial Literacy Week 2025 from 24 to 28 February 2025 on the theme 'Financial Literacy - Women's Prosperity'. (The source key marked 24 to 28 January, which does not match RBI's announcement.)",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q065",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Current Affairs",
+      "subtopic": "Science & Technology",
+      "concept": "IRIS space chip",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q65",
+      "question": "Which IIT has developed the indigenous space chip IRIS?",
+      "options": {
+        "A": "IIT Madras",
+        "B": "IIT Kanpur",
+        "C": "IIT Delhi",
+        "D": "IIT Bombay",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "IIT Madras developed IRIS, an indigenous SHAKTI-based microprocessor chip for space applications, together with ISRO.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q066",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Awards & Honours",
+      "concept": "Forbes India Leadership Awards",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q66",
+      "question": "Who has been honoured with the 'Forbes India Leadership Awards'?",
+      "options": {
+        "A": "Narendra Modi",
+        "B": "Jay Shah",
+        "C": "Rahul Gandhi",
+        "D": "Mukesh Ambani",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Jay Shah, former BCCI secretary and ICC chairman, was honoured for his contribution to sports administration.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q067",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Government Schemes",
+      "concept": "PM Surya Ghar top state",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q67",
+      "question": "Which state topped in installations under the 'PM Surya Ghar' scheme?",
+      "options": {
+        "A": "Kerala",
+        "B": "Uttar Pradesh",
+        "C": "Gujarat",
+        "D": "Maharashtra",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Gujarat ranked first in the country in rooftop solar installations under the PM Surya Ghar Muft Bijli Yojana.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q068",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Defence",
+      "concept": "INS Guldar underwater museum",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q68",
+      "question": "Which decommissioned ship of the Indian Navy is being converted into India's first underwater museum?",
+      "options": {
+        "A": "INS Guldar",
+        "B": "INS Jalashwa",
+        "C": "INS Vikrant",
+        "D": "INS Viraat",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The decommissioned landing ship INS Guldar is being turned into India's first underwater museum off Sindhudurg, Maharashtra.",
+      "distractorMistakeType": {
+        "B": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q069",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Current Affairs",
+      "subtopic": "Union Budget",
+      "concept": "Fiscal deficit target 2025-26",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q69",
+      "question": "In the Union Budget 2025-26, the fiscal deficit is estimated at what percentage of GDP?",
+      "options": {
+        "A": "4.0%",
+        "B": "4.8%",
+        "C": "4.4%",
+        "D": "5.1%",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Union Budget 2025-26 estimates the fiscal deficit for FY 2025-26 at 4.4% of GDP (4.8% was the revised estimate for 2024-25).",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Confusion Between Concepts",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q070",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Current Affairs",
+      "subtopic": "Sports",
+      "concept": "Khelo India Winter Games 2025",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q70",
+      "question": "Where was the first phase of the 'Khelo India Winter Games 2025' inaugurated?",
+      "options": {
+        "A": "Srinagar",
+        "B": "Shimla",
+        "C": "Gulmarg",
+        "D": "Ladakh",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The first phase of the Khelo India Winter Games 2025 (ice events) was inaugurated in Leh, Ladakh; the second phase (snow events) was held in Gulmarg.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "B": "Memory/Fact",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q071",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "CPU Scheduling",
+      "concept": "Convoy effect",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q71",
+      "question": "In CPU scheduling, which algorithm can suffer from the 'convoy effect', where a large process blocks smaller processes?",
+      "options": {
+        "A": "Shortest Job First (SJF)",
+        "B": "First-Come, First-Served (FCFS)",
+        "C": "Round Robin",
+        "D": "Priority Scheduling",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In non-preemptive FCFS, short processes queue behind a long CPU-bound process, which is the convoy effect.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q072",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual Memory",
+      "concept": "Thrashing",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q72",
+      "question": "In an operating system, when does 'thrashing' occur?",
+      "options": {
+        "A": "When no process is running in the system",
+        "B": "When a process goes into a deadlock",
+        "C": "When the system spends too much time in paging activity, reducing performance",
+        "D": "When the CPU is idle waiting for I/O",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Thrashing happens when the OS spends more time swapping pages in and out than executing processes.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q073",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Process Synchronization",
+      "concept": "Semaphore",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q73",
+      "question": "An integer variable used for process synchronization that is accessed only through two operations, wait() and signal(), is called a:",
+      "options": {
+        "A": "Mutex",
+        "B": "Monitor",
+        "C": "Semaphore",
+        "D": "Spinlock",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "A semaphore is an integer variable accessed only through the atomic operations wait() (P) and signal() (V).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q074",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Pipelining",
+      "concept": "Data hazard",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q74",
+      "question": "In computer architecture, when does a 'data hazard' occur in pipelining?",
+      "options": {
+        "A": "When two or more instructions try to use the same hardware resource",
+        "B": "When the pipeline is disrupted by a branch instruction",
+        "C": "When an interrupt is received",
+        "D": "When an instruction needs the result of a previous instruction that is not yet available",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A data hazard (RAW, WAR, WAW) occurs when an instruction depends on the result of an earlier instruction still in the pipeline. Competing for the same hardware is a structural hazard and a branch disruption is a control hazard.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q075",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "Memory Management",
+      "concept": "Paging",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q75",
+      "question": "The technique for implementing virtual memory in which physical memory is divided into fixed-size blocks is called:",
+      "options": {
+        "A": "Paging",
+        "B": "Segmentation",
+        "C": "Fragmentation",
+        "D": "Swapping",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Paging divides physical memory into fixed-size frames and logical memory into pages of the same size. Segmentation uses variable-sized segments.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q076",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Cache Memory",
+      "concept": "Direct mapping drawback",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q76",
+      "question": "In cache memory, what is the main disadvantage of the direct mapping technique?",
+      "options": {
+        "A": "It is very slow",
+        "B": "The circuitry is very complex",
+        "C": "It needs a complex replacement algorithm",
+        "D": "High probability of conflict between memory blocks that map to the same cache index",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In a direct-mapped cache each block maps to exactly one line, so blocks sharing an index keep evicting each other (conflict misses). Direct mapping is actually fast and simple.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q077",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "De Morgan's theorems",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q77",
+      "question": "Which of the following is one of De Morgan's theorems?",
+      "options": {
+        "A": "(A + B)′ = A′ + B′",
+        "B": "(A · B)′ = A′ + B′",
+        "C": "A + A′ = 1",
+        "D": "A · A′ = 1",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "De Morgan's laws are (A · B)′ = A′ + B′ and (A + B)′ = A′ · B′. A + A′ = 1 is the complement law, and A · A′ is 0, not 1.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "C": "Confusion Between Concepts",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F02-Q078",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Transactions",
+      "concept": "Atomicity",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q78",
+      "question": "In the ACID properties of a database transaction, what does 'Atomicity' mean?",
+      "options": {
+        "A": "The database always remains in a consistent state.",
+        "B": "Concurrent transactions remain isolated from each other.",
+        "C": "Committed changes survive system failures.",
+        "D": "A transaction is either executed completely or not at all.",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Atomicity means all-or-nothing execution. 'Always consistent' is Consistency, 'isolated' is Isolation and 'survive failures' is Durability.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q079",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "JOIN clause",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q79",
+      "question": "In SQL, which clause is used to combine data (columns) from two or more tables?",
+      "options": {
+        "A": "JOIN",
+        "B": "UNION",
+        "C": "MERGE",
+        "D": "GROUP BY",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "JOIN combines columns from two or more tables based on a related column. UNION stacks result rows of compatible queries.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q080",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Indexing",
+      "concept": "Purpose of an index",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q80",
+      "question": "What is the primary purpose of creating an index in a database?",
+      "options": {
+        "A": "To increase the speed of data retrieval",
+        "B": "To ensure data security",
+        "C": "To reduce data storage space",
+        "D": "To enforce referential integrity",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An index gives a fast lookup path (for example a B-tree) so rows can be found without scanning the whole table. It actually uses extra storage.",
+      "distractorMistakeType": {
+        "B": "Conceptual",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q081",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "TCP three-way handshake",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q81",
+      "question": "Which process does TCP (Transmission Control Protocol) use to establish a connection?",
+      "options": {
+        "A": "Two-way handshake",
+        "B": "Forward handshake",
+        "C": "Three-way handshake",
+        "D": "Four-way handshake",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "TCP establishes a connection with a three-way handshake: SYN, SYN-ACK, ACK.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Careless Error",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q082",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "DNS",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q82",
+      "question": "What is the main function of the Domain Name System (DNS)?",
+      "options": {
+        "A": "Sending e-mails",
+        "B": "Transferring files",
+        "C": "Translating domain names into IP addresses",
+        "D": "Assigning IP addresses dynamically",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "DNS resolves human-readable domain names into IP addresses. E-mail uses SMTP and file transfer uses FTP.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q083",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Addressing",
+      "concept": "MAC as physical address",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q83",
+      "question": "What is the MAC address of a Network Interface Card (NIC) called?",
+      "options": {
+        "A": "Logical address",
+        "B": "Network address",
+        "C": "Physical address",
+        "D": "Port address",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The MAC address is the hardware (physical) address burned into the NIC. The IP address is the logical address.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q084",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Repeater",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q84",
+      "question": "A network device that only regenerates and rebroadcasts signals but does not filter traffic is called a:",
+      "options": {
+        "A": "Router",
+        "B": "Repeater",
+        "C": "Bridge",
+        "D": "Switch",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A repeater works at the physical layer and only regenerates the signal; routers and bridges filter traffic using addresses.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q085",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Asymmetric cryptography keys",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q85",
+      "question": "In asymmetric cryptography, what type of keys are used?",
+      "options": {
+        "A": "Only a public key",
+        "B": "Only a private key",
+        "C": "A single shared secret key",
+        "D": "A pair of a public key and a private key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Asymmetric (public-key) cryptography uses a linked key pair: the public key to encrypt and the private key to decrypt.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q086",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Firewall function",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q86",
+      "question": "What is the primary function of a firewall?",
+      "options": {
+        "A": "To provide antivirus protection",
+        "B": "To back up data",
+        "C": "To speed up the internet connection",
+        "D": "To filter network traffic based on predefined security rules",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A firewall monitors and filters incoming and outgoing traffic according to configured security rules.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "C": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q087",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Traversal",
+      "concept": "BFS uses queue",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q87",
+      "question": "In a graph data structure, which traversal algorithm uses a queue?",
+      "options": {
+        "A": "Depth-First Search (DFS)",
+        "B": "In-order traversal",
+        "C": "Pre-order traversal",
+        "D": "Breadth-First Search (BFS)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "BFS visits vertices level by level using a FIFO queue; DFS uses a stack (or recursion).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q088",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Trees",
+      "concept": "AVL tree",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q88",
+      "question": "Which of the following is a self-balancing binary search tree?",
+      "options": {
+        "A": "B-Tree",
+        "B": "Binary Heap",
+        "C": "AVL Tree",
+        "D": "Trie",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An AVL tree keeps the heights of child subtrees within 1 of each other. A B-tree is a balanced multi-way (not binary) tree and a heap is not a search tree.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q089",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Graph Algorithms",
+      "concept": "Dijkstra's algorithm",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q89",
+      "question": "What problem does Dijkstra's algorithm solve?",
+      "options": {
+        "A": "Minimum Spanning Tree",
+        "B": "Traveling Salesman Problem",
+        "C": "Topological Sorting",
+        "D": "Single-Source Shortest Path",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Dijkstra's greedy algorithm finds the shortest paths from one source to all vertices in a graph with non-negative weights. MST is solved by Prim's or Kruskal's algorithm.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q090",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Data Structures & Algorithms",
+      "subtopic": "Asymptotic Analysis",
+      "concept": "Big O notation",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q90",
+      "question": "In the analysis of algorithms, which notation is used to represent the worst-case time complexity of an algorithm?",
+      "options": {
+        "A": "Big O (O) notation",
+        "B": "Omega (Ω) notation",
+        "C": "Theta (Θ) notation",
+        "D": "Little-o (o) notation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "Big O gives an asymptotic upper bound and is the standard way to express worst-case complexity. Omega is a lower bound and Theta a tight bound.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q091",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Polymorphism",
+      "concept": "Runtime polymorphism",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q91",
+      "question": "In OOP, how is runtime polymorphism achieved?",
+      "options": {
+        "A": "Function Overloading",
+        "B": "Templates",
+        "C": "Constructor Overloading",
+        "D": "Virtual Functions",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Runtime (dynamic) polymorphism in C++ uses virtual functions called through base-class pointers or references. Overloading and templates are compile-time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q092",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Classes",
+      "concept": "Abstract class",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q92",
+      "question": "In C++, a class that has at least one pure virtual function is called a:",
+      "options": {
+        "A": "Friend Class",
+        "B": "Nested Class",
+        "C": "Static Class",
+        "D": "Abstract Class",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A class with at least one pure virtual function (declared = 0) is an abstract class and cannot be instantiated.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q093",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Templates",
+      "concept": "Generic programming",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q93",
+      "question": "In C++, what is used to implement generic programming?",
+      "options": {
+        "A": "Inheritance",
+        "B": "Polymorphism",
+        "C": "Friend functions",
+        "D": "Templates",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Function and class templates parameterise code by type, which is generic programming in C++.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q094",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "C++, Java & OOP",
+      "subtopic": "Exception Handling",
+      "concept": "try, catch, throw",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q94",
+      "question": "The keywords used for exception handling in C++ are:",
+      "options": {
+        "A": "if, else, switch",
+        "B": "class, object, new",
+        "C": "begin, rescue, end",
+        "D": "try, catch, throw",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "C++ exception handling encloses code in 'try', signals errors with 'throw' and handles them in 'catch'.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q095",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Software Engineering",
+      "subtopic": "SDLC Models",
+      "concept": "Waterfall model",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q95",
+      "question": "The characteristic of the Waterfall Model of software development is:",
+      "options": {
+        "A": "It is a linear-sequential approach where each phase must be completed before the next",
+        "B": "It is iterative and incremental",
+        "C": "It focuses on rapid prototyping",
+        "D": "Customer feedback is taken after every short sprint",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The Waterfall model is linear and sequential: requirements, design, coding, testing and deployment, each finished before the next begins.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q096",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "CSS",
+      "concept": "Full form and use of CSS",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q96",
+      "question": "What is the full form of CSS and why is it used?",
+      "options": {
+        "A": "Computer Style Sheets; for styling computers",
+        "B": "Cascading Style Sheets; for the presentation and styling of web pages",
+        "C": "Creative Style Sheets; for designing graphics",
+        "D": "Colorful Style Sheets; for colouring text",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "CSS stands for Cascading Style Sheets and separates the presentation and styling of web pages from their HTML structure.",
+      "distractorMistakeType": {
+        "A": "Memory/Fact",
+        "C": "Memory/Fact",
+        "D": "Memory/Fact"
+      }
+    },
+    {
+      "id": "F02-Q097",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Websites",
+      "concept": "Static website",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q97",
+      "question": "A website whose content stays fixed for the user and does not use server-side scripting is called a:",
+      "options": {
+        "A": "Dynamic website",
+        "B": "Responsive website",
+        "C": "Interactive website",
+        "D": "Static website",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A static website serves fixed HTML/CSS/JS files without server-side processing. Responsive refers to layout adapting to screen size.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q098",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Image Formats",
+      "concept": "JPEG lossy compression",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q98",
+      "question": "Which image file format uses lossy compression, resulting in a slight loss of quality?",
+      "options": {
+        "A": "PNG",
+        "B": "JPEG",
+        "C": "GIF",
+        "D": "BMP",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "JPEG uses lossy (DCT-based) compression. PNG and GIF use lossless compression.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q099",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Base of hexadecimal",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q99",
+      "question": "What is the base of the hexadecimal number system?",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "10",
+        "D": "16",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Hexadecimal has base (radix) 16 and uses digits 0 to 9 and letters A to F.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q100",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Microprocessor",
+      "concept": "Address lines and memory",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q100",
+      "question": "In a microprocessor, what does the number of address lines determine?",
+      "options": {
+        "A": "The speed of the processor",
+        "B": "The width of the data bus",
+        "C": "The number of registers",
+        "D": "The maximum memory that can be addressed",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "With N address lines a processor can address 2^N memory locations.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q101",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Operating Systems",
+      "subtopic": "OS Structure",
+      "concept": "Kernel",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q101",
+      "question": "What is the core or central component of an operating system called?",
+      "options": {
+        "A": "Shell",
+        "B": "Device Driver",
+        "C": "Compiler",
+        "D": "Kernel",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The kernel is the core of the OS that manages the CPU, memory, interrupts and devices. The shell is the user interface to it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q102",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Processor",
+      "concept": "Clock speed unit",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q102",
+      "question": "In what is processor speed generally measured?",
+      "options": {
+        "A": "Megabytes (MB)",
+        "B": "Dots per inch (DPI)",
+        "C": "Bits per second (bps)",
+        "D": "Gigahertz (GHz)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Processor clock speed is measured in gigahertz (billions of cycles per second). MB measures storage and DPI measures print/display resolution.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q103",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Storage",
+      "concept": "RAID",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q103",
+      "question": "What is the main purpose of RAID storage technology?",
+      "options": {
+        "A": "To increase the system's processing speed",
+        "B": "To store the operating system",
+        "C": "To improve data redundancy and performance",
+        "D": "To compress files",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "RAID (Redundant Array of Independent Disks) combines several disks for fault tolerance (redundancy) and better I/O performance.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q104",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Utilities",
+      "concept": "Ping command",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q104",
+      "question": "The 'ping' command in a network is used to:",
+      "options": {
+        "A": "Download files",
+        "B": "Test connectivity and response time (latency) to a host",
+        "C": "Browse a website",
+        "D": "Send e-mails",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Ping sends ICMP Echo Request messages and waits for Echo Replies to check reachability and round-trip time.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q105",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Web, Multimedia & E-commerce",
+      "subtopic": "Web Browsing",
+      "concept": "Cookie",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q105",
+      "question": "In the context of web browsing, what is a 'cookie'?",
+      "options": {
+        "A": "A type of virus",
+        "B": "A small text file stored on the user's computer by a website",
+        "C": "Advertising software",
+        "D": "A browser plug-in",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A cookie is a small piece of data a website stores in the browser to remember sessions and preferences; it is not a virus.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q106",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XOR with equal inputs",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q106",
+      "question": "If both inputs of an XOR gate are the same (0 and 0, or 1 and 1), what will be the output?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "Depends on the input",
+        "D": "Undefined (high impedance)",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "XOR outputs 1 only when its inputs differ, so for identical inputs the output is 0.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q107",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Compiler Design",
+      "subtopic": "Language Processors",
+      "concept": "Compiling and linking",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q107",
+      "question": "The process of converting source code into an executable file involves:",
+      "options": {
+        "A": "Compiling and linking",
+        "B": "Only interpreting",
+        "C": "Only debugging",
+        "D": "Only linking",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The compiler translates source code into object files, and the linker combines them with libraries into an executable.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q108",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Instruction Cycle",
+      "concept": "Fetch-decode-execute",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q108",
+      "question": "What is the cycle of fetching, decoding and executing an instruction by a processor called?",
+      "options": {
+        "A": "Machine Cycle",
+        "B": "Instruction Cycle",
+        "C": "Clock Cycle",
+        "D": "Bus Cycle",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The fetch-decode-execute sequence for one instruction is the instruction cycle; it is made of one or more machine cycles, each of several clock cycles.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q109",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "AI, IoT & Emerging Tech",
+      "subtopic": "Cloud Computing",
+      "concept": "Advantage of cloud",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q109",
+      "question": "The main advantage of 'Cloud Computing' is:",
+      "options": {
+        "A": "Data is stored only locally",
+        "B": "It always works offline",
+        "C": "Access to on-demand computing resources via the internet",
+        "D": "It needs no internet connection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Cloud computing delivers servers, storage, databases and software on demand over the internet, usually pay-as-you-go.",
+      "distractorMistakeType": {
+        "A": "Conceptual",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q110",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Digital signature",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q110",
+      "question": "In cryptography, what does a 'Digital Signature' ensure?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Availability",
+        "C": "Data compression",
+        "D": "Authenticity, Integrity and Non-repudiation",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "A digital signature proves who sent the data (authenticity), that it was not altered (integrity), and that the sender cannot deny it (non-repudiation). Confidentiality comes from encryption.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q111",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "OSI Model",
+      "concept": "Network layer",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q111",
+      "question": "Which layer of the OSI model is responsible for routing and logical addressing?",
+      "options": {
+        "A": "Data Link Layer",
+        "B": "Transport Layer",
+        "C": "Network Layer",
+        "D": "Session Layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The Network layer (Layer 3) handles routing of packets and logical (IP) addressing.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q112",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Devices",
+      "concept": "Switch at Data Link layer",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q112",
+      "question": "Which network device operates at the Data Link Layer of the OSI model?",
+      "options": {
+        "A": "Switch",
+        "B": "Hub",
+        "C": "Router",
+        "D": "Repeater",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A switch forwards frames using MAC addresses at Layer 2. A hub works at Layer 1 and a router at Layer 3.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q113",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Topology",
+      "concept": "Star topology",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q113",
+      "question": "In which topology are all nodes connected to a central device?",
+      "options": {
+        "A": "Bus",
+        "B": "Star",
+        "C": "Ring",
+        "D": "Mesh",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "In a star topology every node connects to a central hub or switch.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q114",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer",
+      "concept": "SMTP",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q114",
+      "question": "Which of the following protocols is used for sending e-mail?",
+      "options": {
+        "A": "FTP",
+        "B": "SMTP",
+        "C": "HTTP",
+        "D": "POP3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) sends e-mail; POP3/IMAP retrieve it.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q115",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "IP Addressing",
+      "concept": "IPv6 address size",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q115",
+      "question": "What is the size of an IPv6 address?",
+      "options": {
+        "A": "128 bits",
+        "B": "32 bits",
+        "C": "64 bits",
+        "D": "48 bits",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "An IPv6 address is 128 bits long, compared with 32 bits for IPv4.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Memory/Fact",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q116",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer",
+      "concept": "Well-known ports",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q116",
+      "question": "What is the range of 'Well-Known Ports'?",
+      "options": {
+        "A": "1024 to 49151",
+        "B": "0 to 1023",
+        "C": "49152 to 65535",
+        "D": "0 to 255",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "IANA reserves ports 0 to 1023 as well-known ports (HTTP 80, HTTPS 443, SSH 22). 1024 to 49151 are registered and 49152 to 65535 dynamic/private ports.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q117",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Trojan horse",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q117",
+      "question": "A type of malware that disguises itself as legitimate software is called a:",
+      "options": {
+        "A": "Trojan Horse",
+        "B": "Worm",
+        "C": "Spyware",
+        "D": "Ransomware",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A Trojan horse pretends to be useful software to trick users into installing it. A worm self-replicates and spyware secretly collects data.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q118",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Encryption",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q118",
+      "question": "What is the process of converting plaintext into ciphertext called?",
+      "options": {
+        "A": "Decryption",
+        "B": "Hashing",
+        "C": "Encoding",
+        "D": "Encryption",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Encryption turns readable plaintext into ciphertext using a key; decryption reverses it. Hashing is one-way and not meant to be reversed.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q119",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Denial-of-Service",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q119",
+      "question": "A cyber attack in which a server is flooded with traffic to make it unavailable is called:",
+      "options": {
+        "A": "Phishing",
+        "B": "Denial-of-Service (DoS)",
+        "C": "Man-in-the-middle",
+        "D": "SQL Injection",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A DoS (or DDoS) attack overwhelms a server with traffic so legitimate users cannot be served.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q120",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "concept": "Firewall OSI layers",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q120",
+      "question": "At which layer of the OSI model does an application-level gateway (proxy) firewall operate?",
+      "options": {
+        "A": "Network Layer",
+        "B": "Transport Layer",
+        "C": "Application Layer",
+        "D": "Physical Layer",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "An application-level gateway (proxy firewall) inspects application data such as HTTP or FTP commands, so it works at the Application layer. Packet filters work at the Network/Transport layers.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q121",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Keys",
+      "concept": "Keys that identify a tuple",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q121",
+      "question": "Which of the following uniquely identifies a tuple in a relation but may contain extra (redundant) attributes?",
+      "options": {
+        "A": "Foreign Key",
+        "B": "Super Key",
+        "C": "Non-prime attribute",
+        "D": "Partial key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A super key is any set of attributes that uniquely identifies a tuple, even if it has extra attributes. A candidate key is a minimal super key.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Conceptual",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q122",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "Normalization",
+      "concept": "BCNF condition",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q122",
+      "question": "A relation is in BCNF if, for every non-trivial functional dependency X → Y, X is a ______.",
+      "options": {
+        "A": "Primary Key",
+        "B": "Foreign Key",
+        "C": "Non-prime attribute",
+        "D": "Super Key",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "BCNF requires the determinant X of every non-trivial FD X → Y to be a super key of the relation.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q123",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Row as tuple",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q123",
+      "question": "In a relational database, a row is also called a(n) ______.",
+      "options": {
+        "A": "Attribute",
+        "B": "Relation",
+        "C": "Domain",
+        "D": "Tuple",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "In relational terms a table is a relation, a column is an attribute and a row is a tuple.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q124",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Cardinality",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q124",
+      "question": "The number of tuples (rows) in a relation is called its ______.",
+      "options": {
+        "A": "Degree",
+        "B": "Domain",
+        "C": "Arity",
+        "D": "Cardinality",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "Cardinality is the number of rows; degree is the number of columns (attributes).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q125",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "DDL command",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q125",
+      "question": "Which of the following is a Data Definition Language (DDL) command?",
+      "options": {
+        "A": "SELECT",
+        "B": "INSERT",
+        "C": "UPDATE",
+        "D": "CREATE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "CREATE, ALTER, DROP and TRUNCATE are DDL. SELECT and INSERT are DML (data query/manipulation).",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q126",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "DML commands",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q126",
+      "question": "Which is a Data Manipulation Language (DML) command in SQL?",
+      "options": {
+        "A": "UPDATE",
+        "B": "GRANT",
+        "C": "CREATE",
+        "D": "REVOKE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "UPDATE is a DML command. GRANT and REVOKE are DCL commands and CREATE is a DDL command.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q127",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Functions",
+      "concept": "Aggregate functions",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q127",
+      "question": "Which of the following is an aggregate function in SQL?",
+      "options": {
+        "A": "AVG",
+        "B": "NOW",
+        "C": "UPPER",
+        "D": "ROUND",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "AVG (like COUNT, SUM, MIN and MAX) is an aggregate function that works on a set of rows. NOW, UPPER and ROUND are scalar functions.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q128",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Joins",
+      "concept": "LEFT JOIN",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q128",
+      "question": "Which type of join returns all rows from the left table and the matching rows from the right table?",
+      "options": {
+        "A": "INNER JOIN",
+        "B": "LEFT JOIN",
+        "C": "RIGHT JOIN",
+        "D": "FULL OUTER JOIN",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "A LEFT (OUTER) JOIN keeps every row of the left table and fills unmatched right-side columns with NULL.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q129",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "DBMS & SQL",
+      "subtopic": "Relational Model",
+      "concept": "Degree and cardinality change",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q129",
+      "question": "A relation has a degree of 5 and a cardinality of 10. If 2 attributes and 3 tuples are removed, what will be the new degree and cardinality?",
+      "options": {
+        "A": "7, 7",
+        "B": "3, 7",
+        "C": "3, 13",
+        "D": "5, 7",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Degree = 5 - 2 = 3 and cardinality = 10 - 3 = 7.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Calculation",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F02-Q130",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "DBMS & SQL",
+      "subtopic": "SQL Commands",
+      "concept": "DELETE vs TRUNCATE vs DROP",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q130",
+      "question": "Which DDL command removes all rows from a table at once, without a WHERE clause, while keeping the table structure?",
+      "options": {
+        "A": "DROP TABLE",
+        "B": "DELETE FROM table",
+        "C": "TRUNCATE TABLE",
+        "D": "ALTER TABLE",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "TRUNCATE TABLE is a DDL command that removes all rows and keeps the structure. DELETE is DML and works row by row, DROP TABLE removes the table itself, and ALTER changes its structure.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q131",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "CPU",
+      "concept": "ALU",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q131",
+      "question": "Which part of the CPU performs arithmetic and logical operations?",
+      "options": {
+        "A": "Control Unit (CU)",
+        "B": "Arithmetic Logic Unit (ALU)",
+        "C": "Registers",
+        "D": "Memory Unit",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "The ALU performs arithmetic and logical operations; the control unit directs operations and registers hold data temporarily.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q132",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "System Bus",
+      "concept": "Address bus",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q132",
+      "question": "Which bus carries memory addresses from the processor to other components?",
+      "options": {
+        "A": "Data Bus",
+        "B": "Control Bus",
+        "C": "I/O Bus",
+        "D": "Address Bus",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "The unidirectional address bus carries memory addresses from the CPU to memory and I/O.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q133",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory Hierarchy",
+      "concept": "Cache memory",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q133",
+      "question": "Where is frequently accessed data from main memory stored for faster access?",
+      "options": {
+        "A": "Registers",
+        "B": "Cache Memory",
+        "C": "Secondary Memory",
+        "D": "ROM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Fast SRAM cache sits between the CPU and main memory and holds frequently used data.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q134",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Instruction Cycle",
+      "concept": "Stages of instruction cycle",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q134",
+      "question": "What are the main stages of an instruction cycle?",
+      "options": {
+        "A": "Fetch, Decode, Execute",
+        "B": "Read, Write, Execute",
+        "C": "Input, Process, Output",
+        "D": "Compile, Link, Load",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "The instruction cycle consists of fetching the instruction, decoding it and executing it.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q135",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Computer Fundamentals & Architecture",
+      "subtopic": "Memory",
+      "concept": "ROM",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q135",
+      "question": "Which type of memory is non-volatile and typically contains the bootstrap loader?",
+      "options": {
+        "A": "ROM",
+        "B": "RAM",
+        "C": "Cache",
+        "D": "DRAM",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "ROM (or flash/EEPROM firmware) is non-volatile and holds the BIOS/UEFI bootstrap loader. RAM and cache are volatile.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q136",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Hexadecimal subtraction",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q136",
+      "question": "What is the result of the hexadecimal subtraction (ABC)₁₆ − (123)₁₆?",
+      "options": {
+        "A": "(899)₁₆",
+        "B": "(999)₁₆",
+        "C": "(989)₁₆",
+        "D": "(99A)₁₆",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "Digit by digit with no borrow: C(12) - 3 = 9, B(11) - 2 = 9, A(10) - 1 = 9, giving (999)₁₆.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q137",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "8-bit unsigned range",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q137",
+      "question": "What range of numbers can be represented using an 8-bit unsigned binary representation?",
+      "options": {
+        "A": "-128 to +127",
+        "B": "0 to 127",
+        "C": "1 to 256",
+        "D": "0 to 255",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "8 unsigned bits represent 0 to 2⁸ - 1 = 255. -128 to +127 is the 8-bit signed (2's complement) range.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q138",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Binary to octal",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q138",
+      "question": "What is the octal equivalent of the binary number 11011101?",
+      "options": {
+        "A": "(675)₈",
+        "B": "(355)₈",
+        "C": "(335)₈",
+        "D": "(533)₈",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "Group the bits in threes from the right: 011 011 101 = 3 3 5, so the answer is (335)₈.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F02-Q139",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Complements",
+      "concept": "1's complement",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q139",
+      "question": "What is the 1's complement of the binary number 10110010?",
+      "options": {
+        "A": "01001101",
+        "B": "01001110",
+        "C": "10110011",
+        "D": "10110001",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "1's complement inverts every bit: 10110010 becomes 01001101. 01001110 is the 2's complement.",
+      "distractorMistakeType": {
+        "B": "Confusion Between Concepts",
+        "C": "Careless Error",
+        "D": "Careless Error"
+      }
+    },
+    {
+      "id": "F02-Q140",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Number Systems",
+      "concept": "Counting 1s in binary",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q140",
+      "question": "How many 1s will be in the binary representation of the decimal expression 2¹⁰ + 2⁵ + 2¹ + 1?",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "4",
+        "D": "3",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "2¹⁰ + 2⁵ + 2¹ + 2⁰ = 1059 = 10000100011₂, with one 1 for each distinct power: exactly 4 ones.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q141",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Simplification A'B + A'B'",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q141",
+      "question": "The Boolean expression A′B + A′B′ is equivalent to ______.",
+      "options": {
+        "A": "A′",
+        "B": "B′",
+        "C": "A",
+        "D": "B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A′B + A′B′ = A′(B + B′) = A′ · 1 = A′.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Careless Error",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q142",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Consensus theorem",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q142",
+      "question": "The simplified form of the Boolean expression XY + X′Z + YZ is:",
+      "options": {
+        "A": "XZ + Y′Z",
+        "B": "XY + X′Z",
+        "C": "X′Y + YZ",
+        "D": "XY + YZ",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "By the consensus theorem, XY + X′Z + YZ = XY + X′Z; the term YZ is redundant.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q143",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "De Morgan's first law",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q143",
+      "question": "According to De Morgan's law, (A + B)′ is equivalent to:",
+      "options": {
+        "A": "A′ + B′",
+        "B": "A · B",
+        "C": "A′ · B′",
+        "D": "A + B",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "The complement of a sum equals the product of the complements: (A + B)′ = A′ · B′.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q144",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "Distributive law",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q144",
+      "question": "The Boolean expression (A + B)(A + B′) is equal to:",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "A + B",
+        "D": "B′",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "(A + B)(A + B′) = A + BB′ = A + 0 = A.",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q145",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "x XOR x",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q145",
+      "question": "If x is a Boolean variable, what is x ⊕ x (x XOR x) equal to?",
+      "options": {
+        "A": "1",
+        "B": "x",
+        "C": "0",
+        "D": "x′",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "XOR of any variable with itself is 0, since 0 ⊕ 0 = 0 and 1 ⊕ 1 = 0.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Conceptual",
+        "D": "Conceptual"
+      }
+    },
+    {
+      "id": "F02-Q146",
+      "type": "single",
+      "difficulty": "Medium",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Functions",
+      "concept": "Number of Boolean functions",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q146",
+      "question": "In a two-valued Boolean algebra, what is the maximum number of different Boolean functions of 3 variables?",
+      "options": {
+        "A": "16",
+        "B": "64",
+        "C": "8",
+        "D": "256",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "3 variables give 2³ = 8 truth-table rows, and each row can be 0 or 1, so there are 2⁸ = 256 functions.",
+      "distractorMistakeType": {
+        "A": "Calculation",
+        "B": "Calculation",
+        "C": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q147",
+      "type": "single",
+      "difficulty": "Hard",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Boolean Algebra",
+      "concept": "SOP simplification",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q147",
+      "question": "The simplified form of the Boolean function F = A′B′C′ + A′BC′ + AB′C′ is:",
+      "options": {
+        "A": "C′(A′ + B′)",
+        "B": "A′C",
+        "C": "B′C′",
+        "D": "A′ + B′",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "A"
+      ],
+      "explanation": "A′B′C′ + A′BC′ = A′C′, and A′C′ + AB′C′ = C′(A′ + AB′) = C′(A′ + B′).",
+      "distractorMistakeType": {
+        "B": "Calculation",
+        "C": "Calculation",
+        "D": "Calculation"
+      }
+    },
+    {
+      "id": "F02-Q148",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "Universal gate",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q148",
+      "question": "Which of the following logic gates is also called a universal gate?",
+      "options": {
+        "A": "XOR",
+        "B": "NOR",
+        "C": "XNOR",
+        "D": "AND",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "B"
+      ],
+      "explanation": "NAND and NOR are universal gates because any Boolean function can be built using only one of them.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts",
+        "D": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q149",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "NOR truth table",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q149",
+      "question": "The output of a 2-input NOR gate is 1 only when:",
+      "options": {
+        "A": "at least one input is 1",
+        "B": "both inputs are 1",
+        "C": "exactly one input is 1",
+        "D": "both inputs are 0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "D"
+      ],
+      "explanation": "NOR = (A + B)′, which is 1 only when A = 0 and B = 0.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Confusion Between Concepts",
+        "C": "Confusion Between Concepts"
+      }
+    },
+    {
+      "id": "F02-Q150",
+      "type": "single",
+      "difficulty": "Easy",
+      "topic": "Digital Logic & Number Systems",
+      "subtopic": "Logic Gates",
+      "concept": "XOR truth table",
+      "source": "Full Length Test",
+      "sourceRef": "Full_Length_Test_2.pdf, Q150",
+      "question": "The output of an Exclusive-OR (XOR) gate is 0 when the inputs are:",
+      "options": {
+        "A": "both different (0,1 or 1,0)",
+        "B": "both 1",
+        "C": "both the same (0,0 or 1,1)",
+        "D": "only when both are 0",
+        "E": "Not Attempted"
+      },
+      "correct": [
+        "C"
+      ],
+      "explanation": "XOR gives 0 when the inputs match (0 ⊕ 0 = 0, 1 ⊕ 1 = 0) and 1 when they differ. 'Both 1' and 'only when both are 0' are each only one half of the rule.",
+      "distractorMistakeType": {
+        "A": "Confusion Between Concepts",
+        "B": "Question Misread",
+        "D": "Question Misread"
+      }
+    }
+  ]
+}

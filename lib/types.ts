@@ -7,6 +7,8 @@ export const TOTAL_SETS = 50;
 export const QUESTIONS_PER_SET = 25;
 /** Practice sets are timed like the Daily Question: 25 minutes for 25 questions. */
 export const PRACTICE_DURATION_SECONDS = 25 * 60;
+/** Full Length Tests: 150 questions in 150 minutes. The timer pauses while the candidate is away from the test. */
+export const FULL_LENGTH_DURATION_SECONDS = 150 * 60;
 
 export type Difficulty = "Easy" | "Medium" | "Hard";
 export type QuestionType = "single" | "multiple";
@@ -26,7 +28,7 @@ export interface Question {
   topic: string;
   subtopic: string;
   concept: string;
-  source: "Generated" | "PYQ";
+  source: "Generated" | "PYQ" | "Full Length Test";
   sourceRef: string;
   question: string;
   options: Record<OptionKey, string>;
@@ -35,9 +37,18 @@ export interface Question {
   distractorMistakeType: Partial<Record<Letter, MistakeType>>;
 }
 
+export interface QuestionSection {
+  name: string;
+  /** 1-based question numbers, inclusive. */
+  from: number;
+  to: number;
+}
+
 export interface QuestionSet {
   setId: number;
   title: string;
+  /** Full Length Tests only: the paper's parts (Language, GK & GS, Computer Science). */
+  sections?: QuestionSection[];
   questions: Question[];
 }
 
@@ -78,6 +89,19 @@ export interface SetProgress {
   timedOut?: boolean;
   /** Score of the attempt this one replaced, if any. */
   previousScore?: number;
+  /** Full Length Tests only: a timer that pauses. Without it the attempt ends PRACTICE_DURATION_SECONDS after startedAt. */
+  timer?: PausableTimer;
+}
+
+/** A timer that only runs while the test is open on screen. */
+export interface PausableTimer {
+  durationSeconds: number;
+  /** Time used by the runs that have ended (each run is one stretch between resume and pause). */
+  usedMs: number;
+  /** Start of the current run, or null while paused. */
+  runningSince: string | null;
+  /** Last time the open test reported in. A run without news for a while is treated as paused from then on. */
+  lastSeenAt: string | null;
 }
 
 export interface HistoryEntry {
@@ -104,6 +128,8 @@ export interface Progress extends PracticeTrack {
   daily?: DailyProgress;
   /** PYQ sets (same rules as practice sets). Missing in progress saved before the feature existed. */
   pyq?: PracticeTrack;
+  /** Full Length Tests (practice-set rules, but 150 questions and a pausable 150-minute timer). */
+  fullLength?: PracticeTrack;
 }
 
 /** Daily Question: one set per day (IST), 25 questions, 25 minutes, unlimited attempts. */

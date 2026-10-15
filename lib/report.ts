@@ -1,7 +1,7 @@
 import type { Difficulty, Letter, OptionKey, PracticeTrack, Progress, Question, QuestionSet, SetStatus } from "./types";
 import { PRACTICE_DURATION_SECONDS, TOTAL_SETS } from "./types";
 import { evaluate, netScore, round2, wrongLetters } from "./scoring";
-import { isUnlocked, setStatus } from "./progress";
+import { isUnlocked, setStatus, timeUsedMs } from "./progress";
 
 const pct = (n: number, d: number) => (d === 0 ? null : Math.round((n / d) * 100));
 
@@ -193,8 +193,14 @@ export function buildSetReport(set: QuestionSet, progress: PracticeTrack, allSet
     explanation: r.q.explanation,
   }));
 
-  const timeTaken =
-    sp?.completedAt && sp.marked ? Math.min(PRACTICE_DURATION_SECONDS, Math.round((Date.parse(sp.completedAt) - Date.parse(sp.startedAt)) / 1000)) : null;
+  const durationSeconds = sp?.timer?.durationSeconds ?? PRACTICE_DURATION_SECONDS;
+  const timeTaken = !sp?.completedAt
+    ? null
+    : sp.timer
+      ? Math.round(sp.timer.usedMs / 1000)
+      : sp.marked
+        ? Math.min(PRACTICE_DURATION_SECONDS, Math.round((Date.parse(sp.completedAt) - Date.parse(sp.startedAt)) / 1000))
+        : null;
 
   return {
     setId: set.setId,
@@ -203,7 +209,7 @@ export function buildSetReport(set: QuestionSet, progress: PracticeTrack, allSet
     completedAt: sp?.completedAt ?? null,
     /** Seconds; null for attempts from before practice sets were timed. */
     timeTaken,
-    durationSeconds: PRACTICE_DURATION_SECONDS,
+    durationSeconds,
     timedOut: sp?.timedOut ?? false,
     summary: { score, total: rows.length, percentage: round2((score / rows.length) * 100), correct, incorrect, notAttempted },
     previousScore: sp?.previousScore ?? null,
@@ -256,9 +262,11 @@ export type SetSummary = {
   score: number | null;
   /** Number of the latest attempt (0 if never taken). A retake replaces the previous result. */
   attemptNo: number;
+  /** Seconds left on an in-progress attempt with a pausable timer (Full Length Tests); null otherwise. */
+  timeLeft: number | null;
 };
 
-export function buildSetList(progress: PracticeTrack, allSets: QuestionSet[], total = TOTAL_SETS): SetSummary[] {
+export function buildSetList(progress: PracticeTrack, allSets: QuestionSet[], total = TOTAL_SETS, now = Date.now()): SetSummary[] {
   return Array.from({ length: total }, (_, i) => {
     const setId = i + 1;
     const set = allSets.find((s) => s.setId === setId);
@@ -273,6 +281,7 @@ export function buildSetList(progress: PracticeTrack, allSets: QuestionSet[], to
       total: set?.questions.length ?? 25,
       score: sp?.status === "completed" ? netScore(sp.correct, sp.incorrect) : null,
       attemptNo: sp?.attemptNo ?? progress.history.findLast((h) => h.setId === setId)?.attemptNo ?? 0,
+      timeLeft: sp?.status === "in_progress" && sp.timer ? Math.max(0, Math.round((sp.timer.durationSeconds * 1000 - timeUsedMs(sp, now)) / 1000)) : null,
     };
   });
 }

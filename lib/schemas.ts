@@ -100,3 +100,29 @@ export const pyqSaveSchema = z.object({
 export const pyqSubmitSchema = z.object({
   answers: pyqAnswers,
 });
+
+/** Full Length Tests use F<set>-Q<nnn> ids (150 questions per set). */
+const fullLengthQuestionId = z.string().regex(/^F\d{2}-Q\d{3}$/);
+export const fullLengthQuestionSchema = baseQuestionSchema.extend({
+  id: fullLengthQuestionId,
+  source: z.enum(["Generated", "PYQ", "Full Length Test"]),
+});
+
+export const fullLengthSetSchema = z.object({
+  setId: z.number().int().min(1),
+  title: z.string(),
+  sections: z.array(z.object({ name: z.string().min(1), from: z.number().int().min(1), to: z.number().int().min(1) })).optional(),
+  questions: z.array(fullLengthQuestionSchema).length(150),
+});
+
+const fullLengthAnswers = z.record(fullLengthQuestionId, z.array(z.enum(["A", "B", "C", "D", "E"])).max(4));
+
+export const fullLengthSaveSchema = z.object({
+  answers: fullLengthAnswers,
+  marked: z.array(fullLengthQuestionId).max(150).default([]),
+  current: z.number().int().min(0).max(149).default(0),
+});
+
+export const fullLengthSubmitSchema = z.object({
+  answers: fullLengthAnswers,
+});

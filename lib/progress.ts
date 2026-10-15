@@ -1,4 +1,4 @@
-import type { OptionKey, PracticeTrack, QuestionSet, SetProgress, SetStatus } from "./types";
+import type { OptionKey, PausableTimer, PracticeTrack, QuestionSet, SetProgress, SetStatus } from "./types";
 import { PRACTICE_DURATION_SECONDS, TOTAL_SETS } from "./types";
 import { evaluate, netScore, normaliseAnswer } from "./scoring";
 
@@ -26,7 +26,48 @@ export function setStatus(p: PracticeTrack, setId: number): SetStatus {
   return p.sets[setId]?.status ?? "not_started";
 }
 
-export const practiceDeadline = (sp: Pick<SetProgress, "startedAt">) => Date.parse(sp.startedAt) + PRACTICE_DURATION_SECONDS * 1000;
+/** A pausable timer with no news from the open test for this long stops counting (tab crashed, phone died, network gone). */
+export const TIMER_STALE_MS = 60_000;
+
+type Timed = Pick<SetProgress, "startedAt" | "timer">;
+
+const durationMs = (sp: Timed) => (sp.timer?.durationSeconds ?? PRACTICE_DURATION_SECONDS) * 1000;
+
+/** Where the current run of a pausable timer ends: now, or a little after the last report if the test went quiet. */
+const runEnd = (t: PausableTimer, now: number) => Math.min(now, Date.parse(t.lastSeenAt ?? t.runningSince!) + TIMER_STALE_MS);
+
+/** Milliseconds of the attempt's time used by `now`. */
+export function timeUsedMs(sp: Timed, now = Date.now()) {
+  const t = sp.timer;
+  if (!t) return now - Date.parse(sp.startedAt);
+  if (!t.runningSince) return t.usedMs;
+  return t.usedMs + Math.max(0, runEnd(t, now) - Date.parse(t.runningSince));
+}
+
+/** When the time runs out if the attempt keeps running; Infinity while a pausable timer is paused. */
+export function practiceDeadline(sp: Timed) {
+  const t = sp.timer;
+  if (!t) return Date.parse(sp.startedAt) + PRACTICE_DURATION_SECONDS * 1000;
+  if (!t.runningSince) return Infinity;
+  return Date.parse(t.runningSince) + t.durationSeconds * 1000 - t.usedMs;
+}
+
+const isOver = (sp: Timed, now: number, graceMs: number) => timeUsedMs(sp, now) >= durationMs(sp) + graceMs;
+
+/** Ends the current run of a pausable timer, if any. */
+function stopTimer(t: PausableTimer, now: number) {
+  if (!t.runningSince) return;
+  t.usedMs = Math.min(t.durationSeconds * 1000, t.usedMs + Math.max(0, runEnd(t, now) - Date.parse(t.runningSince)));
+  t.runningSince = null;
+  t.lastSeenAt = null;
+}
+
+/** The test is open on screen: resume a paused timer (or one that went quiet) and note that it reported in. */
+function keepTimerRunning(t: PausableTimer, now: number) {
+  if (t.runningSince && runEnd(t, now) < now) stopTimer(t, now);
+  t.runningSince ??= new Date(now).toISOString();
+  t.lastSeenAt = new Date(now).toISOString();
+}
 
 /** Keeps only valid answers to questions in the set; "not answered" is simply absent. */
 function cleanAnswers(set: QuestionSet, raw: Record<string, OptionKey[]>) {
@@ -43,13 +84,15 @@ function cleanAnswers(set: QuestionSet, raw: Record<string, OptionKey[]>) {
 
 /**
  * Starts a new attempt at the set, or resumes the one in progress (call finalizeIfExpired first).
- * Returns the completed attempt untouched if the set is already done. Mutates `p`.
+ * With `pausableSeconds`, a new attempt gets a timer of that length that pauses while the test is closed,
+ * and resuming restarts it. Returns the completed attempt untouched if the set is already done. Mutates `p`.
  */
-export function startPractice(p: PracticeTrack, set: QuestionSet, now = Date.now(), total = TOTAL_SETS): SetProgress {
+export function startPractice(p: PracticeTrack, set: QuestionSet, now = Date.now(), total = TOTAL_SETS, pausableSeconds?: number): SetProgress {
   const setId = set.setId;
   if (!isUnlocked(p, setId, total)) throw new ProgressError("This set is locked.", 403);
   const sp = p.sets[setId];
   if (sp) {
+    if (sp.status === "in_progress" && sp.timer) keepTimerRunning(sp.timer, now);
     // Attempts from before practice sets were timed: keep their answers and start the clock now.
     if (sp.status === "in_progress" && !sp.marked) {
       sp.marked = [];
@@ -69,6 +112,9 @@ export function startPractice(p: PracticeTrack, set: QuestionSet, now = Date.now
     notAttempted: 0,
     startedAt: new Date(now).toISOString(),
     attemptNo: (last?.attemptNo ?? 0) + 1,
+    ...(pausableSeconds && {
+      timer: { durationSeconds: pausableSeconds, usedMs: 0, runningSince: new Date(now).toISOString(), lastSeenAt: new Date(now).toISOString() },
+    }),
   });
 }
 
@@ -101,6 +147,7 @@ function finish(p: PracticeTrack, set: QuestionSet, submittedAt: number, timedOu
   }
   const score = netScore(correct, incorrect);
   const completedAt = new Date(submittedAt).toISOString();
+  if (sp.timer) stopTimer(sp.timer, submittedAt);
 
   sp.status = "completed";
   sp.correct = correct;
@@ -129,11 +176,14 @@ function finish(p: PracticeTrack, set: QuestionSet, submittedAt: number, timedOu
  */
 export function finalizeIfExpired(p: PracticeTrack, set: QuestionSet, now = Date.now(), graceMs = PRACTICE_SUBMIT_GRACE_MS, total = TOTAL_SETS) {
   const sp = p.sets[set.setId];
-  if (sp?.status !== "in_progress" || !sp.marked || now < practiceDeadline(sp) + graceMs) return null;
-  return finish(p, set, practiceDeadline(sp), true, total);
+  if (sp?.status !== "in_progress" || !sp.marked || !isOver(sp, now, graceMs)) return null;
+  return finish(p, set, Math.min(now, practiceDeadline(sp)), true, total);
 }
 
-/** Save & Next / Previous / palette jump: stores the answers so far. Rejected once time is up. Mutates `p`. */
+/**
+ * Save & Next / Previous / palette jump: stores the answers so far. Rejected once time is up.
+ * A save comes from the open test, so it also keeps a pausable timer running. Mutates `p`.
+ */
 export function savePractice(
   p: PracticeTrack,
   set: QuestionSet,
@@ -141,7 +191,8 @@ export function savePractice(
   now = Date.now(),
 ) {
   const sp = runningAttempt(p, set);
-  if (now >= practiceDeadline(sp) + PRACTICE_SUBMIT_GRACE_MS) throw new ProgressError("Time is up. Your saved answers have been submitted.", 409);
+  if (isOver(sp, now, PRACTICE_SUBMIT_GRACE_MS)) throw new ProgressError("Time is up. Your saved answers have been submitted.", 409);
+  if (sp.timer) keepTimerRunning(sp.timer, now);
   sp.answers = cleanAnswers(set, body.answers);
   sp.marked = body.marked.filter((id) => set.questions.some((q) => q.id === id));
   sp.currentIndex = Math.min(Math.max(0, body.current), set.questions.length - 1);
@@ -151,9 +202,33 @@ export function savePractice(
 /** Submit: scores the attempt. Late submits (past the grace) keep only what was saved. Mutates `p`. */
 export function submitPractice(p: PracticeTrack, set: QuestionSet, answers: Record<string, OptionKey[]>, now = Date.now(), total = TOTAL_SETS) {
   const sp = runningAttempt(p, set);
-  const deadline = practiceDeadline(sp);
-  if (now < deadline + PRACTICE_SUBMIT_GRACE_MS) sp.answers = cleanAnswers(set, answers);
-  return finish(p, set, Math.min(now, deadline), now >= deadline, total);
+  if (!isOver(sp, now, PRACTICE_SUBMIT_GRACE_MS)) sp.answers = cleanAnswers(set, answers);
+  return finish(p, set, Math.min(now, practiceDeadline(sp)), isOver(sp, now, 0), total);
+}
+
+/**
+ * Pauses the set's timer (the candidate left the test, or pressed Pause). `body` carries the answers on screen,
+ * stored unless time is already up. No-op for attempts without a pausable timer. Mutates `p`.
+ */
+export function pausePractice(
+  p: PracticeTrack,
+  set: QuestionSet,
+  body: { answers: Record<string, OptionKey[]>; marked: string[]; current: number } | null,
+  now = Date.now(),
+) {
+  const sp = p.sets[set.setId];
+  if (sp?.status !== "in_progress" || !sp.timer) return;
+  if (body && !isOver(sp, now, PRACTICE_SUBMIT_GRACE_MS)) {
+    sp.answers = cleanAnswers(set, body.answers);
+    sp.marked = body.marked.filter((id) => set.questions.some((q) => q.id === id));
+    sp.currentIndex = Math.min(Math.max(0, body.current), set.questions.length - 1);
+  }
+  stopTimer(sp.timer, now);
+}
+
+/** Pauses every running pausable timer in the track (on logout). Mutates `p`. */
+export function pauseAllPractice(p: PracticeTrack, now = Date.now()) {
+  for (const sp of Object.values(p.sets)) if (sp.status === "in_progress" && sp.timer) stopTimer(sp.timer, now);
 }
 
 /** Clears a set's current attempt so it can be retaken. Its result is replaced when the retake is submitted; unlocks are untouched. */

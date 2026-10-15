@@ -55,6 +55,7 @@ data/
   questions/set-01..50.json
   dailyquestions/set-01..40.json  # Daily Question rotation (ids D01-Q01...)
   pyq_questions/set-01..31.json   # PYQ sets (ids P01-Q01...)
+  full_length_questions/set-01..05.json  # Full Length Tests, 150 questions each (ids F01-Q001...)
   progress/<userId>.json  # { unlockedUpTo, sets: { "<n>": current attempt }, history: [completed attempts] }
 ```
 
@@ -96,3 +97,16 @@ practice sets: same 25-minute timer, marking, sequential unlocking, retake and r
 separately in `progress.pyq`. Every question is tagged `PYQ`, and its `sourceRef` names the paper and question number.
 Adding `set-32.json` adds a set. The same question sometimes appears in more than one paper, and `npm run validate:pyq`
 lists those repeats.
+
+## Full Length Tests
+
+The Full Length Test page (`/full-length`) has complete papers of 150 questions in three sections (Language, GK & GS,
+Computer Science) with a 150-minute timer. They work like practice sets: marking, sequential unlocking, retake and result
+report, with section tabs and a grouped question palette. Progress is kept separately in `progress.fullLength`.
+
+Unlike the other tests, the timer pauses. It stops when the candidate presses Pause, leaves the test page, switches tab or
+app, closes the tab, or logs out, and continues from where it stopped on return. The open test reports to the server every
+20 seconds; if those reports stop (crash, lost network), the server stops counting 60 seconds after the last one. The
+server keeps the time used in `timer.usedMs` on the attempt. Adding `set-06.json` adds a test.
+
+All test pages are grouped under the **Test** menu in the navbar.
