@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { CheckCircle2, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { CONTACT_PHONE_DISPLAY, callHref, whatsappHref } from "@/lib/contact";
+import { LoginHype } from "@/components/login-hype";
 import { LoginForm } from "./login-form";
 
 export const metadata: Metadata = { title: "Log in" };
@@ -67,10 +68,10 @@ export default async function LoginPage({
             practising today and walk into your exam with confidence.
           </p>
           <ul className="mt-4 grid gap-2 text-sm">
-            {PERKS.map((p) => (
-              <li key={p} className="flex items-start gap-2">
-                <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-success" />
-                <span>{p}</span>
+            {PERKS.map(([emoji, text]) => (
+              <li key={text} className="flex items-start gap-2">
+                <span aria-hidden className="shrink-0">{emoji}</span>
+                <span>{text}</span>
               </li>
             ))}
           </ul>

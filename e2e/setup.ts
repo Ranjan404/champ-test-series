@@ -10,7 +10,7 @@ export default function setup() {
   fs.cpSync(path.join(__dirname, "..", "data", "dailyquestions"), path.join(dir, "dailyquestions"), { recursive: true });
   fs.cpSync(path.join(__dirname, "..", "data", "pyq_questions"), path.join(dir, "pyq_questions"), { recursive: true });
   fs.cpSync(path.join(__dirname, "..", "data", "full_length_questions"), path.join(dir, "full_length_questions"), { recursive: true });
-  const users = ["e2e-phone", "e2e-desktop"].map((u, i) => ({
+  const users = ["e2e-phone", "e2e-desktop", "e2e-cheer-phone", "e2e-cheer-desktop"].map((u, i) => ({
     id: `e2euser${i}`,
     username: u,
     passwordHash: bcrypt.hashSync("e2e-password", 4),

@@ -10,6 +10,7 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Progress } from "./ui/progress";
 import { MarkingBanner, Palette, SaveStatus, SubmitButton, TimerChip } from "./exam-ui";
+import { FocusToggle, useCheer } from "./cheer";
 
 interface Props {
   attempt: DailyAttemptState;
@@ -28,6 +29,7 @@ export function DailyTestRunner({ attempt, clockOffset }: Props) {
   const [answers, setAnswers] = useState<Answers>(attempt.answers);
   const [marked, setMarked] = useState<Set<string>>(() => new Set(attempt.marked));
   const [current, setCurrent] = useState(Math.min(attempt.current, total - 1));
+  const cheer = useCheer({ total, initialAnswered: qs.filter((x) => attempt.answers[x.id]).length });
   const [visited, setVisited] = useState<Set<number>>(() => new Set([...Array(attempt.current + 1).keys()]));
   const [now, setNow] = useState(() => Date.now() + clockOffset);
   const [saving, setSaving] = useState<"idle" | "saving" | "saved" | "error">("idle");
@@ -127,6 +129,7 @@ export function DailyTestRunner({ attempt, clockOffset }: Props) {
   };
   const choose = (opt: OptionKey) => {
     setAnswers((a) => ({ ...a, [q.id]: opt }));
+    cheer.pick(q.id, answered, selected === null ? answered + 1 : answered);
     setSaving("idle");
   };
   const clear = () => {
@@ -161,6 +164,7 @@ export function DailyTestRunner({ attempt, clockOffset }: Props) {
 
   return (
     <div className="pb-28 lg:pb-0">
+      {cheer.layer}
       <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
         <div className="min-w-0">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-primary">
@@ -170,7 +174,10 @@ export function DailyTestRunner({ attempt, clockOffset }: Props) {
             Question {current + 1} <span className="font-semibold text-muted-foreground">of {total}</span>
           </h1>
         </div>
-        <TimerChip remaining={remaining} />
+        <div className="flex items-center gap-2">
+          <FocusToggle focus={cheer.focus} onToggle={cheer.toggleFocus} />
+          <TimerChip remaining={remaining} />
+        </div>
       </div>
       <MarkingBanner className="mb-4" />
       <Progress value={(answered / total) * 100} label="Questions answered" className="mb-5" />
@@ -194,7 +201,7 @@ export function DailyTestRunner({ attempt, clockOffset }: Props) {
               <SaveStatus state={saving} />
             </div>
             <p className="q-text mb-5 text-base font-semibold leading-relaxed sm:text-lg">{q.question}</p>
-            <div role="radiogroup" aria-label="Answer options" className="grid gap-2.5">
+            <div role="radiogroup" aria-label="Answer options" className="grid gap-2.5" onPointerDown={cheer.trackPointer}>
               {ALL_OPTIONS.map((key) => {
                 const on = selected === key;
                 const optOut = key === "E";

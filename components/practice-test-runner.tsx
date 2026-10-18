@@ -10,6 +10,7 @@ import { Badge } from "./ui/badge";
 import { Progress } from "./ui/progress";
 import { OptionList } from "./option-list";
 import { MarkingBanner, Palette, SaveStatus, SubmitButton, TimerChip } from "./exam-ui";
+import { FocusToggle, useCheer } from "./cheer";
 import { formatDuration } from "@/lib/bpsc";
 import { cn } from "@/lib/utils";
 
@@ -94,6 +95,7 @@ function PracticeTestRunner({ attempt, clockOffset, routes }: { attempt: Practic
   const [answers, setAnswers] = useState<Answers>(attempt.answers);
   const [marked, setMarked] = useState<Set<string>>(() => new Set(attempt.marked));
   const [current, setCurrent] = useState(Math.min(attempt.current, total - 1));
+  const cheer = useCheer({ total, initialAnswered: qs.filter((x) => attempt.answers[x.id]?.length).length });
   const [visited, setVisited] = useState<Set<number>>(() => new Set([...Array(Math.min(attempt.current, total - 1) + 1).keys()]));
   const [now, setNow] = useState(() => Date.now() + clockOffset);
   const [deadline, setDeadline] = useState(attempt.deadline);
@@ -266,6 +268,7 @@ function PracticeTestRunner({ attempt, clockOffset, routes }: { attempt: Practic
   };
   const choose = (v: OptionKey[]) => {
     setAnswers((a) => ({ ...a, [q.id]: v }));
+    cheer.pick(q.id, answered, answered - (selected.length ? 1 : 0) + (v.length ? 1 : 0));
     setSaving("idle");
   };
   const clear = () => {
@@ -300,6 +303,7 @@ function PracticeTestRunner({ attempt, clockOffset, routes }: { attempt: Practic
 
   return (
     <div className="pb-28 lg:pb-0">
+      {cheer.layer}
       <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
         <div className="min-w-0">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-primary">
@@ -311,6 +315,7 @@ function PracticeTestRunner({ attempt, clockOffset, routes }: { attempt: Practic
           </h1>
         </div>
         <div className="flex items-center gap-2">
+          <FocusToggle focus={cheer.focus} onToggle={cheer.toggleFocus} />
           {attempt.pausable && (
             <Button variant="outline" onClick={() => pause("manual", false)} disabled={!!paused} aria-label="Pause test">
               <Pause /> <span className="hidden sm:inline">Pause</span>
@@ -403,7 +408,9 @@ function PracticeTestRunner({ attempt, clockOffset, routes }: { attempt: Practic
                   <SaveStatus state={saving} />
                 </div>
                 <p className="q-text mb-5 text-base font-semibold leading-relaxed sm:text-lg">{q.question}</p>
-                <OptionList key={q.id} question={q} value={selected} onChange={choose} />
+                <div onPointerDown={cheer.trackPointer}>
+                  <OptionList key={q.id} question={q} value={selected} onChange={choose} />
+                </div>
               </div>
 
               <div className="mt-4 flex flex-wrap gap-2">
