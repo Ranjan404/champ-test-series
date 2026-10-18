@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
-import { CheckCircle2, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { CONTACT_PHONE_DISPLAY, callHref, whatsappHref } from "@/lib/contact";
+import { LoginHype } from "@/components/login-hype";
 import { LoginForm } from "./login-form";
 
 export const metadata: Metadata = { title: "Log in" };
 
 const PERKS = [
-  "50 full practice sets, 1,250 exam-level questions",
-  "And more after the first 50: a fresh set every day for regular practice",
-  "Real exam marking: +1 for right, -1/3 for wrong",
-  "Instant answers with clear feedback after every question",
-  "Track your score and weak topics on your dashboard",
-];
+  ["📚", "50 full sets, 1,250 exam-level questions. Syllabus ka cheat code (legal wala)"],
+  ["📅", "After the first 50, a fresh set every day. Daily dose, no skip"],
+  ["🎯", "Real exam marking: +1 right, -1/3 wrong. Teer-tukka not allowed"],
+  ["⚡", "Instant answers with clear feedback. Zero result-wali anxiety"],
+  ["📈", "Score and weak topics on your dashboard. Your glow-up, in numbers"],
+] as const;
 
 function WhatsAppIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -28,29 +29,31 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
   return (
     <main className="relative flex min-h-dvh items-center justify-center overflow-hidden px-4 py-10">
       <div aria-hidden className="pointer-events-none absolute inset-0 [background:radial-gradient(60rem_30rem_at_50%_-10%,color-mix(in_oklch,var(--primary)_14%,transparent),transparent),radial-gradient(30rem_20rem_at_100%_100%,color-mix(in_oklch,var(--accent)_18%,transparent),transparent)]" />
+      <LoginHype />
       <div className="relative w-full max-w-sm">
         <div className="mb-8 flex flex-col items-center text-center">
           <Logo className="text-xl" />
-          <p className="mt-3 text-sm font-medium">Practice like it's exam day. Score higher when it counts.</p>
+          <p className="sr-only">Practice like it's exam day. Score higher when it counts.</p>
         </div>
         <div className="rounded-lg border bg-card p-5 shadow-lg shadow-black/5 sm:p-7">
-          <h1 className="text-xl font-bold">Welcome back, champ!</h1>
-          <p className="mb-6 mt-1 text-sm text-muted-foreground">Log in to continue your preparation.</p>
+          <h1 className="text-xl font-bold">Welcome back, champ! 🫡</h1>
+          <p className="mb-6 mt-1 text-sm text-muted-foreground">Streak mat todna. Log in karo, aaj ka set wait kar raha hai.</p>
           <LoginForm next={next} />
         </div>
 
         <section className="mt-5 rounded-lg border border-primary/30 bg-primary/5 p-5 sm:p-6" aria-labelledby="join-heading">
-          <h2 id="join-heading" className="text-base font-bold">New here? Join the Champ Test Series</h2>
-          <p className="mt-1 text-sm text-muted-foreground">Every set you solve is one step closer to your selection. Start practising today and walk into your exam with confidence.</p>
+          <p className="inline-block -rotate-2 rounded-md bg-accent px-2 py-0.5 text-xs font-bold text-accent-foreground">New here? 👀</p>
+          <h2 id="join-heading" className="mt-2 text-base font-bold">Exam mein aag lagani hai? 🔥 Join the Champ Test Series</h2>
+          <p className="mt-1 text-sm text-muted-foreground">Reels baad mein, rank pehle. Every set you solve is one step closer to your selection, so exam day feels like just another practice day.</p>
           <ul className="mt-4 grid gap-2 text-sm">
-            {PERKS.map((p) => (
-              <li key={p} className="flex items-start gap-2">
-                <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-success" />
-                <span>{p}</span>
+            {PERKS.map(([emoji, text]) => (
+              <li key={text} className="flex items-start gap-2">
+                <span aria-hidden className="shrink-0">{emoji}</span>
+                <span>{text}</span>
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm font-semibold">Call or WhatsApp us to get your login ID and password:</p>
+          <p className="mt-4 text-sm font-semibold">Slide into our DMs 😎 Call or WhatsApp for your login ID and password:</p>
           <p className="mt-1 font-mono text-lg font-bold tracking-wide">{CONTACT_PHONE_DISPLAY}</p>
           <div className="mt-4 grid grid-cols-2 gap-2.5">
             <Button asChild variant="outline">

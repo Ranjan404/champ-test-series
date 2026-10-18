@@ -98,3 +98,113 @@
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
+
+/* Floating cheers during a test (components/cheer.tsx): rise from the tapped option to the top of the screen,
+   with two small bubbles wobbling alongside. --cheer-rise is set per cheer to the distance to the top. */
+@keyframes cheer-float {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+  8% {
+    opacity: 1;
+    transform: translate(-50%, -80%) scale(1.08);
+  }
+  14% {
+    transform: translate(-50%, -100%) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, calc(-100% - var(--cheer-rise, 300px))) scale(0.95);
+  }
+}
+@keyframes cheer-fade {
+  0%,
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -100%);
+  }
+  15%,
+  75% {
+    opacity: 1;
+    transform: translate(-50%, -100%);
+  }
+}
+@keyframes cheer-wobble {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  25% {
+    translate: -4px -3px;
+  }
+  75% {
+    translate: 4px 2px;
+  }
+}
+.cheer-float {
+  animation: cheer-float 2.6s cubic-bezier(0.3, 0.6, 0.5, 1) forwards;
+}
+.cheer-bubble {
+  border-radius: 9999px;
+  border: 1.5px solid color-mix(in oklch, var(--primary) 55%, transparent);
+  background: radial-gradient(circle at 30% 30%, rgb(255 255 255 / 0.9) 0 18%, color-mix(in oklch, var(--primary) 18%, transparent) 45%);
+  animation: cheer-wobble 0.9s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cheer-float {
+    animation: cheer-fade 1.9s linear forwards;
+  }
+  .cheer-bubble {
+    animation: none;
+  }
+}
+
+/* Tagline bubbles on the login page (components/login-hype.tsx): rise from below the screen to above the top. */
+@keyframes hype-rise {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  8%,
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(calc(-100dvh - 4rem));
+  }
+}
+@keyframes hype-fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  20%,
+  80% {
+    opacity: 1;
+  }
+}
+.hype-bubble {
+  /* --hb-bg / --hb-fg are set per bubble. */
+  color: var(--hb-fg);
+  border: 1.5px solid color-mix(in oklch, var(--hb-fg) 30%, transparent);
+  background: radial-gradient(circle at 20% 25%, rgb(255 255 255 / 0.5) 0 12%, transparent 40%),
+    color-mix(in oklch, var(--hb-bg) 92%, transparent);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 14px color-mix(in oklch, var(--hb-fg) 20%, transparent);
+  /* Keep the duration in sync with RISE_MS in login-hype.tsx. */
+  animation:
+    hype-rise 16s linear forwards,
+    cheer-wobble 1.6s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hype-bubble {
+    top: auto;
+    bottom: 1.5rem;
+    animation: hype-fade 16s linear forwards;
+  }
+}
