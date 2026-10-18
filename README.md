@@ -79,7 +79,7 @@ are no PYQ questions.
 One daily set per day (Indian time), rotating through `data/dailyquestions/set-01..40.json`: set 1 on
 2026-10-13 (`DAILY_START_DATE` in `lib/daily.ts`), set 2 the next day, and back to set 1 after the last file. Adding
 `set-41.json` adds it to the rotation. Each set has 25 single-answer questions, a 25-minute timer and the same
-+1 / -1/3 / 0 marking, and can be attempted any number of times that day. The test works like the GK/GS one:
++1 / -1/3 / 0 marking, and can be attempted any number of times that day. The test works like the practice sets:
 question palette, mark for review, Previous, Save & Next, and Submit (automatic when time runs out).
 
 Attempts are kept on the server (`daily` in the progress file), so a reload or another device resumes the same
@@ -110,3 +110,51 @@ app, closes the tab, or logs out, and continues from where it stopped on return.
 server keeps the time used in `timer.usedMs` on the attempt. Adding `set-06.json` adds a test.
 
 All test pages are grouped under the **Test** menu in the navbar.
+
+## GK/GS & Current Affairs
+
+The **GK/GS** navbar link opens `/gk`, with three sections and a Hindi/English switch that carries across them
+(remembered in the browser's localStorage only). Content is fetched live from public sources by server-side route
+handlers and kept in a transient in-memory cache (lost on restart). **Nothing GK/GS-related is stored anywhere:**
+not in Supabase, not in `data/`, not in the progress file. Quiz answers and scores live in React state and are gone on
+reload.
+
+| Page | Content | Source (what it actually provides) |
+| --- | --- | --- |
+| `/gk/india` | Quiz | [Open Trivia Database](https://opentdb.com): MCQs with an answer key, English only, world/general trivia, **not** India-specific exam questions, no explanations. CC BY-SA 4.0. |
+| `/gk/india`, `/gk/bihar` | Study notes | Wikipedia (English and Hindi) via the MediaWiki API: the introduction of each article listed in `lib/gk/topics.ts`. CC BY-SA 4.0. Community-edited, not official. |
+| `/gk/current-affairs` | News to read (not quiz questions) | [PIB](https://www.pib.gov.in) press-release RSS: PIB Delhi for India, PIB Patna for Bihar, English and Hindi. Free reuse with acknowledgement ([policy](https://pib.gov.in/Content/102_2_Copyright-Policy.aspx)). |
+
+API routes (all require login, like the rest of the API):
+
+- `GET /api/gk/questions?category=general|history|geography|science|politics&amount=5|10|15`
+- `GET /api/gk/notes?section=india|bihar&lang=en|hi`
+- `GET /api/current-affairs?region=india|bihar&lang=en|hi`
+
+Limitations, by design rather than filled with made-up content:
+
+- **No Bihar quiz.** No public source publishes Bihar GK/GS MCQs with a verified answer key, and none are generated.
+  The Bihar page shows study notes and links to the official portal for schemes and budget figures.
+- **No Hindi quiz.** OpenTDB is English only; Hindi users are told so and can choose to see the English questions.
+- **PIB feeds carry only a headline and link.** The date, ministry and summary are read from each public release page
+  (the summary is PIB's own ~100-character preview, shown with an ellipsis). If a page can't be read in time, the item
+  is shown as "date not available" rather than given a guessed date. Items older than 3 days carry an age badge.
+- **PIB Patna's Hindi feed is usually empty;** the page says so and offers the English releases, labelled as English.
+- **Hindi Wikipedia articles were reviewed on 2026-10-18.** Hindi articles whose introduction was opinionated or
+  factually wrong are excluded (`hi: null` with a reason in `lib/gk/topics.ts`) and the page says no reviewed Hindi
+  article is available. Hindi and English articles are written independently and can differ.
+- **Bihar government portals** (state.bihar.gov.in) offer no RSS feed or API, so they are linked, not fetched.
+
+Rate limits and caching: OpenTDB allows one request per IP every 5 seconds, so the server fetches a 50-question pool
+per category, keeps it for 30 minutes and spaces its own calls 5.5 s apart (one automatic retry after a 429). PIB feeds
+are cached for 20 minutes and each release page's date for a day; Wikipedia notes for 12 hours. When a source fails
+and an earlier copy is still in memory, that copy is shown with a "source not responding, fetched on ..." notice;
+otherwise the page shows the error with a retry button. A failing source only affects its own section.
+
+No API keys or registration are needed for any of these sources. Optional: `SOURCE_USER_AGENT` overrides the
+User-Agent sent to the sources (Wikimedia asks for contact details in it, e.g.
+`Mozilla/5.0 (compatible; ChampTestSeries/1.0; +https://your-site.example; you@example.com)`).
+
+This replaced the earlier AI-generated "BPSC TRE 4.0" GK/GS page (`/dashboard/bpsc-tre4`, which now redirects to
+`/gk`). `GEMINI_API_KEY`, `GEMINI_MODEL` and `GEMINI_FALLBACK_MODEL` are no longer used and can be deleted from your
+environment.

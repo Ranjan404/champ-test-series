@@ -1,12 +1,11 @@
 import Link from "next/link";
 import { CheckCircle2, Lock, PlayCircle, Timer } from "lucide-react";
 import type { SetSummary } from "@/lib/report";
-import { formatScore } from "@/lib/scoring";
+import { formatDuration, formatScore } from "@/lib/scoring";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { ResetButton } from "@/components/reset-button";
-import { formatDuration } from "@/lib/bpsc";
 import { PRACTICE_DURATION_SECONDS } from "@/lib/types";
 import { cn } from "@/lib/utils";
 

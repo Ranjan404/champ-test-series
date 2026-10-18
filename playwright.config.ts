@@ -22,8 +22,6 @@ export default defineConfig({
     env: {
       DATA_DIR,
       INSECURE_COOKIES: "1",
-      // Keep e2e offline: Next does not override an env var that is already set, so .env.local's real key is ignored.
-      GEMINI_API_KEY: "",
       SESSION_SECRET: process.env.SESSION_SECRET ?? "e2e-only-secret-e2e-only-secret-e2e-only",
     },
   },

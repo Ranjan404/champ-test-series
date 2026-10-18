@@ -23,7 +23,7 @@ type NavLink = { href: string; label: string; icon: LucideIcon };
 type TestLink = NavLink & { description: string; tone: string };
 
 const dashboard: NavLink = { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard };
-const gkgs: NavLink = { href: "/dashboard/bpsc-tre4", label: "GK/GS", icon: GraduationCap };
+const gkgs: NavLink = { href: "/gk", label: "GK/GS", icon: GraduationCap };
 
 /** The "Test" menu. `tone` colours each item's icon tile. */
 const tests: TestLink[] = [
@@ -183,7 +183,7 @@ export function Navbar({ username }: { username: string }) {
   const [open, setOpen] = useState(false);
   const [testsOpen, setTestsOpen] = useState(true);
   useEffect(() => setOpen(false), [pathname]);
-  // Most specific link wins, so /dashboard/bpsc-tre4 doesn't also light up Dashboard.
+  // Most specific link wins, so a nested route never lights up two links.
   const active = (href: string) => matches(pathname, href) && !allLinks.some((l) => l.href.length > href.length && matches(pathname, l.href));
   const anyTestActive = tests.some((t) => active(t.href));
 

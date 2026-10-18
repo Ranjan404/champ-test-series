@@ -54,3 +54,10 @@ export function formatScore(n: number) {
 export function wrongLetters(q: Pick<Question, "correct">, answer: OptionKey[]): Letter[] {
   return answer.filter((a): a is Letter => (LETTERS as readonly string[]).includes(a) && !q.correct.includes(a as Letter));
 }
+
+/** Seconds as mm:ss (minutes keep counting past 59, e.g. 150:00). */
+export function formatDuration(totalSeconds: number) {
+  const s = Math.max(0, Math.round(totalSeconds));
+  const m = Math.floor(s / 60);
+  return `${String(m).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
+}

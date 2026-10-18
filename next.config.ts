@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
   turbopack: { root: path.join(__dirname) },
   // The JSON data folder is read at runtime with fs, never bundled.
   outputFileTracingExcludes: { "*": ["./data/progress/**"] },
+  // The old AI-generated GK/GS page moved to /gk; keep bookmarks working.
+  async redirects() {
+    return [{ source: "/dashboard/bpsc-tre4", destination: "/gk", permanent: false }];
+  },
 };
 
 export default nextConfig;

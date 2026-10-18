@@ -1,7 +1,7 @@
 "use client";
 import { useId, useState } from "react";
 import { CloudCheck, Grid3x3, Loader2, Send, Timer } from "lucide-react";
-import { formatDuration } from "@/lib/bpsc";
+import { formatDuration } from "@/lib/scoring";
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "./ui/button";
 import {

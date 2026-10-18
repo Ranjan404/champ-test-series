@@ -11,7 +11,7 @@ import { Progress } from "./ui/progress";
 import { OptionList } from "./option-list";
 import { MarkingBanner, Palette, SaveStatus, SubmitButton, TimerChip } from "./exam-ui";
 import { FocusToggle, useCheer } from "./cheer";
-import { formatDuration } from "@/lib/bpsc";
+import { formatDuration } from "@/lib/scoring";
 import { cn } from "@/lib/utils";
 
 type Answers = Record<string, OptionKey[]>;

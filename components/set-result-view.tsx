@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { AlertTriangle, ArrowRight, BookOpen, Repeat, Sparkles, TrendingDown, TrendingUp } from "lucide-react";
 import type { SetReport } from "@/lib/report";
-import { formatScore } from "@/lib/scoring";
-import { formatDuration } from "@/lib/bpsc";
+import { formatDuration, formatScore } from "@/lib/scoring";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";

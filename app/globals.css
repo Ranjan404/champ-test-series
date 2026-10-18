@@ -99,21 +99,24 @@
   overflow-wrap: anywhere;
 }
 
-/* Floating cheers during a test (components/cheer.tsx): rise from the tapped option to the top of the screen,
-   with two small bubbles wobbling alongside. --cheer-rise is set per cheer to the distance to the top. */
+/* Floating cheers during a test (components/cheer.tsx): pop up at the tapped option, hold still for about 3.5s so
+   the line can be read, then rise to the top of the screen and fade, with two small bubbles wobbling alongside.
+   --cheer-rise is set per cheer to the distance to the top. */
 @keyframes cheer-float {
   0% {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.7);
   }
-  8% {
+  4% {
     opacity: 1;
     transform: translate(-50%, -80%) scale(1.08);
   }
-  14% {
+  7%,
+  70% {
+    opacity: 1;
     transform: translate(-50%, -100%) scale(1);
   }
-  80% {
+  90% {
     opacity: 1;
   }
   100% {
@@ -127,8 +130,8 @@
     opacity: 0;
     transform: translate(-50%, -100%);
   }
-  15%,
-  75% {
+  8%,
+  88% {
     opacity: 1;
     transform: translate(-50%, -100%);
   }
@@ -146,7 +149,7 @@
   }
 }
 .cheer-float {
-  animation: cheer-float 2.6s cubic-bezier(0.3, 0.6, 0.5, 1) forwards;
+  animation: cheer-float 5.5s ease-in-out forwards;
 }
 .cheer-bubble {
   border-radius: 9999px;
@@ -156,7 +159,7 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .cheer-float {
-    animation: cheer-fade 1.9s linear forwards;
+    animation: cheer-fade 4.5s linear forwards;
   }
   .cheer-bubble {
     animation: none;
