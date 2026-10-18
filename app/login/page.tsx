@@ -9,12 +9,17 @@ import { LoginForm } from "./login-form";
 export const metadata: Metadata = { title: "Log in" };
 
 const PERKS = [
-  ["📚", "50 full sets, 1,250 exam-level questions. Syllabus ka cheat code (legal wala)"],
-  ["📅", "After the first 50, a fresh set every day. Daily dose, no skip"],
-  ["🎯", "Real exam marking: +1 right, -1/3 wrong. Teer-tukka not allowed"],
-  ["⚡", "Instant answers with clear feedback. Zero result-wali anxiety"],
-  ["📈", "Score and weak topics on your dashboard. Your glow-up, in numbers"],
-] as const;
+  "50 full practice sets, 1,250 exam-level questions",
+  "31+ PYQ sets: 775 questions from BPSC TRE 1.0, 2.0, 3.0 and Bihar STET papers",
+  "10+ full length tests: 150 questions in 150 minutes, just like the real exam",
+  "Full length sections: Language (English & Hindi), GK & GS and Computer Science",
+  "Daily set: a fresh 25-question set every day for regular practice",
+  "GK/GS mock tests on Bihar history, geography, economy and current affairs, in English or Hindi",
+  "Real exam marking: +1 for right, -1/3 for wrong",
+  "Pause a full length test anytime and continue right where you left off",
+  "Instant answers with clear feedback after every question",
+  "Track your score and weak topics on your dashboard",
+];
 
 function WhatsAppIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -24,27 +29,44 @@ function WhatsAppIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-export default async function LoginPage({ searchParams }: { searchParams: Promise<{ next?: string }> }) {
+export default async function LoginPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ next?: string }>;
+}) {
   const { next } = await searchParams;
   return (
     <main className="relative flex min-h-dvh items-center justify-center overflow-hidden px-4 py-10">
-      <div aria-hidden className="pointer-events-none absolute inset-0 [background:radial-gradient(60rem_30rem_at_50%_-10%,color-mix(in_oklch,var(--primary)_14%,transparent),transparent),radial-gradient(30rem_20rem_at_100%_100%,color-mix(in_oklch,var(--accent)_18%,transparent),transparent)]" />
-      <LoginHype />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 [background:radial-gradient(60rem_30rem_at_50%_-10%,color-mix(in_oklch,var(--primary)_14%,transparent),transparent),radial-gradient(30rem_20rem_at_100%_100%,color-mix(in_oklch,var(--accent)_18%,transparent),transparent)]"
+      />
       <div className="relative w-full max-w-sm">
         <div className="mb-8 flex flex-col items-center text-center">
           <Logo className="text-xl" />
-          <p className="sr-only">Practice like it's exam day. Score higher when it counts.</p>
+          <p className="mt-3 text-sm font-medium">
+            Practice like it's exam day. Score higher when it counts.
+          </p>
         </div>
         <div className="rounded-lg border bg-card p-5 shadow-lg shadow-black/5 sm:p-7">
-          <h1 className="text-xl font-bold">Welcome back, champ! 🫡</h1>
-          <p className="mb-6 mt-1 text-sm text-muted-foreground">Streak mat todna. Log in karo, aaj ka set wait kar raha hai.</p>
+          <h1 className="text-xl font-bold">Welcome back, champ!</h1>
+          <p className="mb-6 mt-1 text-sm text-muted-foreground">
+            Log in to continue your preparation.
+          </p>
           <LoginForm next={next} />
         </div>
 
-        <section className="mt-5 rounded-lg border border-primary/30 bg-primary/5 p-5 sm:p-6" aria-labelledby="join-heading">
-          <p className="inline-block -rotate-2 rounded-md bg-accent px-2 py-0.5 text-xs font-bold text-accent-foreground">New here? 👀</p>
-          <h2 id="join-heading" className="mt-2 text-base font-bold">Exam mein aag lagani hai? 🔥 Join the Champ Test Series</h2>
-          <p className="mt-1 text-sm text-muted-foreground">Reels baad mein, rank pehle. Every set you solve is one step closer to your selection, so exam day feels like just another practice day.</p>
+        <section
+          className="mt-5 rounded-lg border border-primary/30 bg-primary/5 p-5 sm:p-6"
+          aria-labelledby="join-heading"
+        >
+          <h2 id="join-heading" className="text-base font-bold">
+            New here? Join the Champ Test Series
+          </h2>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Every set you solve is one step closer to your selection. Start
+            practising today and walk into your exam with confidence.
+          </p>
           <ul className="mt-4 grid gap-2 text-sm">
             {PERKS.map(([emoji, text]) => (
               <li key={text} className="flex items-start gap-2">
@@ -53,15 +75,22 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm font-semibold">Slide into our DMs 😎 Call or WhatsApp for your login ID and password:</p>
-          <p className="mt-1 font-mono text-lg font-bold tracking-wide">{CONTACT_PHONE_DISPLAY}</p>
+          <p className="mt-4 text-sm font-semibold">
+            Call or WhatsApp us to get your login ID and password:
+          </p>
+          <p className="mt-1 font-mono text-lg font-bold tracking-wide">
+            {CONTACT_PHONE_DISPLAY}
+          </p>
           <div className="mt-4 grid grid-cols-2 gap-2.5">
             <Button asChild variant="outline">
               <a href={callHref}>
                 <Phone /> Call now
               </a>
             </Button>
-            <Button asChild className="bg-[#25D366] text-white hover:bg-[#1ebe5b]">
+            <Button
+              asChild
+              className="bg-[#25D366] text-white hover:bg-[#1ebe5b]"
+            >
               <a href={whatsappHref} target="_blank" rel="noopener noreferrer">
                 <WhatsAppIcon /> WhatsApp
               </a>
